@@ -42,3 +42,11 @@ $wgExtensionCredits['specialpage'][] = array(
 	),
 	'url' => 'https://mediawiki.org/wiki/Extension:BetaFeatures',
 );
+
+$wgResourceModules['ext.betaFeatures'] = array(
+	'styles' => array(
+		'css/betafeatures.css',
+	),
+	'localBasePath' => __DIR__,
+	'remoteExtPath' => 'BetaFeatures',
+);

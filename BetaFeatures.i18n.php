@@ -28,6 +28,7 @@ $messages['en'] = array(
 	'betafetaures-intro' => "On this page you can enable or disable features on this wiki that are still in beta. These features may not work as well as you're used to, so enable at your own risk!",
 	'betafeatures-enable-all' => 'Enable all beta features',
 	'betafeatures-extension-description' => 'This extension lets you enable or disable features on the wiki that are still not ready for prime-time. It adds a hook and a special page to accomplish this.',
+	'betafeatures-enable-all-desc' => 'If you enable this choice, all of the preferences on this page, regardless of their actual value, will be set to true in the database. Use with caution!',
 );
 
 /**
@@ -39,4 +40,5 @@ $messages['qqq'] = array(
 	'betafeatures-intro' => 'The text at the top of Special:BetaFeatures that explains the function of it.',
 	'betafeatures-enable-all' => 'Label for a checkbox that enables all beta features on the wiki',
 	'betafeatures-extension-description' => 'Description of the extension for Special:Version',
+	'betafeatures-enable-all-desc' => 'Description for the enable-all beta preference.',
 );

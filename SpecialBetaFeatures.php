@@ -28,7 +28,7 @@ class SpecialBetaFeatures extends SpecialPage {
 	}
 
 	static function getBetaOptions( $context ) {
-		global $wgUser;
+		global $wgUser, $wgExtensionAssetsPath;
 
 		$betaOpts = array();
 
@@ -40,6 +40,8 @@ class SpecialBetaFeatures extends SpecialPage {
 
 		$betaOpts['enable-all-beta'] = array(
 			'type' => 'checkbox',
+			'screenshot' => $wgExtensionAssetsPath . '/BetaFeatures/images/all-beta.png',
+			'description' => 'betafeatures-enable-all-desc',
 			'label-message' => 'betafeatures-enable-all',
 		);
 
@@ -49,6 +51,9 @@ class SpecialBetaFeatures extends SpecialPage {
 	function execute( $par ) {
 		$user = $this->getUser();
 		$out = $this->getOutput();
+
+		$out->addModuleStyles( 'ext.betaFeatures' );
+
 		$betaOpts = $this->getBetaOptions( $out );
 		$formFields = array();
 
@@ -59,6 +64,14 @@ class SpecialBetaFeatures extends SpecialPage {
 				'id' => 'checkbox-for-' . $label,
 				'default' => $user->getOption( 'beta-feature-' . $label ),
 			);
+
+			if ( array_key_exists( 'screenshot', $opt ) ) {
+				$formFields[$label]['screenshot'] = $opt['screenshot'];
+			}
+
+			if ( array_key_exists( 'description', $opt ) ) {
+				$formFields[$label]['description'] = $this->msg( $opt['description'] )->escaped();
+			}
 		}
 
 		$this->setHeaders();

@@ -21,15 +21,60 @@
 class HTMLBetaFeatureField extends HTMLCheckField {
 
 	function getInputHTML( $value ) {
+		global $wgExtensionAssetsPath;
+
 		$htmls = array();
 		$id = $this->mParams['id'];
+
+		// The first two characters are always "wp" which we don't need
+		$prefName = substr( $this->mName, 2 );
+		$hasImage = false;
 
 		$attrs = array(
 			'id' => $id,
 		);
 
+		$htmls[] = Html::openElement( 'div', array(
+			'class' => 'beta-feature-field',
+		) );
+
+		$hasImage = array_key_exists( 'screenshot', $this->mParams );
+		$hasDesc = array_key_exists( 'description', $this->mParams );
+
+		$htmls[] = Html::openElement( 'div', array(
+			'class' => 'beta-feature-screenshot',
+		) );
+
+		if ( $hasImage ) {
+			$src = $this->mParams['screenshot'];
+		} else {
+			$src = $wgExtensionAssetsPath . '/BetaFeatures/images/null-screenshot.png';
+		}
+
+		$htmls[] = Html::rawElement( 'img', array(
+			'src' => $src,
+		) );
+
+		$htmls[] = Html::closeElement( 'div' );
+
+		$htmls[] = Html::openElement( 'div', array(
+			'class' => 'beta-feature-main',
+		) );
+
+		if ( $hasDesc ) {
+			$htmls[] = Html::rawElement( 'p', array(
+				'class' => 'beta-feature-description',
+			), $this->mParams['description'] );
+		}
+
+		$htmls[] = Html::openElement( 'p' );
 		$htmls[] = Xml::check( $this->mName, $value, $attrs );
 		$htmls[] = Html::rawElement( 'label', array( 'for' => $id ), $this->mLabel );
+		$htmls[] = Html::closeElement( 'p' );
+
+		$htmls[] = Html::closeElement( 'div' );
+
+		$htmls[] = Html::closeElement( 'div' );
 
 		return implode( '', $htmls );
 	}

@@ -1,0 +1,27 @@
+#mw-content-text form table {
+	width: 100%;
+}
+
+.mw-htmlform-field-HTMLBetaFeatureField {
+	width: 100%;
+}
+
+.beta-feature-field {
+	width: 100%;
+}
+
+.beta-feature-screenshot {
+	width: 10%;
+	display: inline-block;
+	float: left;
+}
+
+.beta-feature-screenshot img {
+	width: 100%;
+}
+
+.beta-feature-main {
+	width: 89%;
+	display: inline-block;
+	float: right;
+}

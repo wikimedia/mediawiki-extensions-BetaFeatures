@@ -29,8 +29,15 @@ class BetaFeaturesHooks {
 		wfRunHooks( 'GetBetaFeaturePreferences', array( $user, &$betaPrefs ) );
 
 		foreach ( $betaPrefs as $key => $info ) {
-			$info['type'] = 'hidden';
-			$prefs['beta-feature-' . $key] = $info;
+			$opt = array(
+				'type' => 'hidden',
+			);
+
+			if ( array_key_exists( 'label-message', $info ) ) {
+				$opt['label-message'] = $info['label-message'];
+			}
+
+			$prefs['beta-feature-' . $key] = $opt;
 		}
 
 		return true;
