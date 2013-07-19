@@ -35,7 +35,7 @@ $wgHooks['GetPreferences'][] = 'BetaFeaturesHooks::getPreferences';
 $wgExtensionCredits['specialpage'][] = array(
 	'path' => __FILE__,
 	'name' => 'BetaFeatures',
-	'descriptionmsg' => 'betafeatures-extension-description',
+	'descriptionmsg' => 'betafeatures-desc',
 	'version' => '0.1',
 	'author' => array(
 		'MarkTraceur (Mark Holmquist)',
