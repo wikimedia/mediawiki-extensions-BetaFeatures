@@ -24,22 +24,27 @@
 class BetaFeaturesHooks {
 
 	static function getPreferences( $user, &$prefs ) {
+		global $wgExtensionAssetsPath;
+
 		$betaPrefs = array();
 
 		wfRunHooks( 'GetBetaFeaturePreferences', array( $user, &$betaPrefs ) );
 
 		foreach ( $betaPrefs as $key => $info ) {
 			$opt = array(
-				'type' => 'hidden',
+				'class' => 'HTMLFeatureField',
+				'section' => 'betafeatures',
 			);
 
-			if ( array_key_exists( 'label-message', $info ) ) {
-				$opt['label-message'] = $info['label-message'];
-			}
-
-			// We now have a concept of required fields, but we don't
-			// actually require any. (removed version)
 			$requiredFields = array(
+				'label-message' => true,
+				'desc-message' => true,
+				// The next two could probably not be required at a
+				// later date, but currently they're required for the
+				// design to work.
+				'info-link' => true,
+				'discussion-link' => true,
+				'screenshot' => false,
 			);
 
 			$complete = true;

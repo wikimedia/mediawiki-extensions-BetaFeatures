@@ -26,12 +26,16 @@ $messages = array();
  * @author Mark Holmquist <mtraceur@member.fsf.org>
  */
 $messages['en'] = array(
-	'betafeatures' => 'Beta Features',
-	'betafetaures-intro' => "On this page you can enable or disable features on this wiki that are still in beta. These features may not work as well as you're used to, so enable at your own risk!",
-	'betafeatures-enable-all' => 'Enable all beta features',
+	# Feature field messages
+	'mw-ui-feature-discuss'         => 'discussion',
+	'mw-ui-feature-user-count'      => '{{PLURAL:$1|One user has|$1 users have}} enabled this feature.',
+
+	'prefs-betafeatures' => 'Beta features',
 	'betafeatures-desc' => 'Lets user enable or disable features on the wiki that are still not ready for prime-time',
-	'betafeatures-enable-all-desc' => 'If you enable this choice, all of the preferences on this page, regardless of their actual value, will be set to true in the database. Use with caution!',
 	'betafeatures-toplink' => 'Beta features',
+
+	'betafeatures-auto-enroll' => 'Auto-enroll in all beta features',
+	'betafeatures-auto-enroll-desc' => 'This is for the daring, intrepid early adopters who want to see every single experimental feature as it rolls out. Your account will automatically get the latest features when they come out. You can always come back to this page to disable the ones you decide not to use, but this will give you the most bleeding-edge experience on the site.',
 );
 
 /** Message documentation (Message documentation)
@@ -40,8 +44,14 @@ $messages['en'] = array(
  * @author Shirayuki
  */
 $messages['qqq'] = array(
-	'betafeatures' => 'Label for the special page where beta features can be enabled.',
-	'betafetaures-intro' => 'The text at the top of Special:BetaFeatures that explains the function of it.',
+	'mw-ui-feature-discuss' => 'Link to discussion of a feature.',
+	'mw-ui-feature-user-count' => 'How many users have enabled a particular feature on the site.',
+
+	'prefs-betafeatures' => 'Title of the preference section for beta features.',
+
+	'betafeatures-auto-enroll' => 'Label for a checkbox that automatically enrolls the user in all the experiments happening on the wiki.',
+	'betafeatures-auto-enroll-desc' => 'Description for the auto-enroll beta preference, which enrolls the user in every new feature that gets released on the wiki.',
+
 	'betafeatures-enable-all' => 'Label for a checkbox that enables all beta features on the wiki
 
 See also:

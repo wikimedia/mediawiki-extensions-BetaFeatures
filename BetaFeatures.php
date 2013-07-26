@@ -21,20 +21,34 @@
  * @copyright Copyright © 2013, Mark Holmquist
  */
 
-$wgAutoloadClasses['HTMLFeatureField'] = __DIR__ . '/includes/HTMLBetaFeatureField.php';
 $wgAutoloadClasses['BetaFeaturesHooks'] = __DIR__ . '/BetaFeaturesHooks.php';
-$wgAutoloadClasses['SpecialBetaFeatures'] = __DIR__ . '/SpecialBetaFeatures.php';
+$wgAutoloadClasses['NewHTMLCheckField'] = __DIR__ . '/includes/NewHTMLCheckField.php';
+$wgAutoloadClasses['HTMLFeatureField'] = __DIR__ . '/includes/HTMLFeatureField.php';
 $wgAutoloadClasses['BetaFeatures'] = __DIR__ . '/includes/BetaFeaturesUtil.php';
 
 $wgExtensionMessagesFiles['BetaFeatures'] = __DIR__ . '/BetaFeatures.i18n.php';
-$wgExtensionMessagesFiles[ 'BetaFeaturesAlias' ] = __DIR__ . '/BetaFeatures.alias.php';
 
-$wgSpecialPages['BetaFeatures'] = 'SpecialBetaFeatures';
-
+$wgHooks['GetBetaFeaturePreferences'] = array();
 $wgHooks['GetPreferences'][] = 'BetaFeaturesHooks::getPreferences';
 $wgHooks['PersonalUrls'][] = 'BetaFeaturesHooks::getBetaFeaturesLink';
+$wgHooks['GetBetaFeaturePreferences'][] = 'BetaFeaturesHooks::getAutoEnrollPreference';
 
-$wgExtensionCredits['specialpage'][] = array(
+$moduleInfo = array(
+	'localBasePath' => __DIR__,
+	'remoteExtPath' => 'BetaFeatures',
+);
+
+$wgResourceModules['ext.betaFeatures'] = array(
+	'scripts' => array(
+		'js/mediawiki.ui.checkbox.js',
+	),
+
+	'styles' => array(
+		'css/betafeatures.css',
+	),
+) + $moduleInfo;
+
+$wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'BetaFeatures',
 	'descriptionmsg' => 'betafeatures-desc',
@@ -43,12 +57,4 @@ $wgExtensionCredits['specialpage'][] = array(
 		'MarkTraceur (Mark Holmquist)',
 	),
 	'url' => 'https://mediawiki.org/wiki/Extension:BetaFeatures',
-);
-
-$wgResourceModules['ext.betaFeatures'] = array(
-	'styles' => array(
-		'css/betafeatures.css',
-	),
-	'localBasePath' => __DIR__,
-	'remoteExtPath' => 'BetaFeatures',
 );
