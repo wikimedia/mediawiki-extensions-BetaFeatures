@@ -60,7 +60,7 @@ class SpecialBetaFeatures extends SpecialPage {
 		foreach ( $betaOpts as $label => $opt ) {
 			$formFields[$label] = array(
 				'label' => $this->msg( $opt['label-message'] )->escaped(),
-				'class' => 'HTMLBetaFeatureField',
+				'class' => 'HTMLFeatureField',
 				'id' => 'checkbox-for-' . $label,
 				'default' => $user->getOption( 'beta-feature-' . $label ),
 			);

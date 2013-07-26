@@ -21,9 +21,10 @@
  * @copyright Copyright © 2013, Mark Holmquist
  */
 
-$wgAutoloadClasses['HTMLBetaFeatureField'] = __DIR__ . '/includes/HTMLBetaFeatureField.php';
+$wgAutoloadClasses['HTMLFeatureField'] = __DIR__ . '/includes/HTMLBetaFeatureField.php';
 $wgAutoloadClasses['BetaFeaturesHooks'] = __DIR__ . '/BetaFeaturesHooks.php';
 $wgAutoloadClasses['SpecialBetaFeatures'] = __DIR__ . '/SpecialBetaFeatures.php';
+$wgAutoloadClasses['BetaFeatures'] = __DIR__ . '/includes/BetaFeaturesUtil.php';
 
 $wgExtensionMessagesFiles['BetaFeatures'] = __DIR__ . '/BetaFeatures.i18n.php';
 $wgExtensionMessagesFiles[ 'BetaFeaturesAlias' ] = __DIR__ . '/BetaFeatures.alias.php';
