@@ -31,6 +31,7 @@ $messages['en'] = array(
 	'betafeatures-enable-all' => 'Enable all beta features',
 	'betafeatures-desc' => 'Lets user enable or disable features on the wiki that are still not ready for prime-time',
 	'betafeatures-enable-all-desc' => 'If you enable this choice, all of the preferences on this page, regardless of their actual value, will be set to true in the database. Use with caution!',
+	'betafeatures-toplink' => 'Beta features',
 );
 
 /** Message documentation (Message documentation)
@@ -50,6 +51,7 @@ See also:
 
 See also:
 * {{msg-mw|Betafeatures-enable-all}}',
+	'betafeatures-toplink' => 'Link that goes next to the link to Special:Preferences but takes the user directly to the BetaFeatures section.',
 );
 
 /** Asturian (asturianu)

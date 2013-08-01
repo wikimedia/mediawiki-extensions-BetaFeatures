@@ -32,6 +32,7 @@ $wgExtensionMessagesFiles[ 'BetaFeaturesAlias' ] = __DIR__ . '/BetaFeatures.alia
 $wgSpecialPages['BetaFeatures'] = 'SpecialBetaFeatures';
 
 $wgHooks['GetPreferences'][] = 'BetaFeaturesHooks::getPreferences';
+$wgHooks['PersonalUrls'][] = 'BetaFeaturesHooks::getBetaFeaturesLink';
 
 $wgExtensionCredits['specialpage'][] = array(
 	'path' => __FILE__,

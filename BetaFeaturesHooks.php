@@ -86,4 +86,21 @@ class BetaFeaturesHooks {
 			'screenshot' => $wgExtensionAssetsPath . '/BetaFeatures/images/all-beta.png',
 		);
 	}
+
+	static function getBetaFeaturesLink( &$personal_urls, $title ) {
+		global $wgUser;
+
+		if ( $wgUser->isLoggedIn() ) {
+			$skin = $wgUser->getSkin();
+			$bfurl = array(
+				'text' => wfMessage( 'betafeatures-toplink' )->text(),
+				'href' => $skin->makeSpecialUrl( 'Preferences' ) . '#mw-prefsection-betafeatures',
+				'active' => $title->isSpecial( 'Preferences' ),
+			);
+
+			$personal_urls['betafeatures'] = $bfurl;
+		}
+
+		return true;
+	}
 }
