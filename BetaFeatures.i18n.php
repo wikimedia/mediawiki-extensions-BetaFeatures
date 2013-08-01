@@ -33,14 +33,30 @@ $messages['en'] = array(
 	'betafeatures-enable-all-desc' => 'If you enable this choice, all of the preferences on this page, regardless of their actual value, will be set to true in the database. Use with caution!',
 );
 
-/**
- * Message documentation
+/** Message documentation (Message documentation)
  * @author Mark Holmquist <mtraceur@member.fsf.org>
  */
 $messages['qqq'] = array(
 	'betafeatures' => 'Label for the special page where beta features can be enabled.',
-	'betafeatures-intro' => 'The text at the top of Special:BetaFeatures that explains the function of it.',
 	'betafeatures-enable-all' => 'Label for a checkbox that enables all beta features on the wiki',
 	'betafeatures-desc' => '{{desc}}',
 	'betafeatures-enable-all-desc' => 'Description for the enable-all beta preference.',
+);
+
+/** German (Deutsch)
+ * @author Metalhead64
+ */
+$messages['de'] = array(
+	'betafeatures' => 'Beta-Funktionen',
+	'betafetaures-intro' => 'Auf dieser Seite kannst du Funktionen in diesem Wiki aktivieren oder deaktivieren, die sich in der Beta-Phase befinden. Diese Funktionen funktionieren nicht so, wie du es gewohnt bist. Aktiviere sie auf dein eigenes Risiko!',
+	'betafeatures-enable-all' => 'Alle Beta-Funktionen aktivieren',
+	'betafeatures-desc' => 'Ermöglicht Benutzern das Aktivieren oder Deaktivieren von Funktionen in diesem Wiki, die sich noch in der Entwicklung befinden',
+	'betafeatures-enable-all-desc' => 'Falls du diese Option aktivierst, werden alle Einstellungen auf dieser Seite, unabhängig von ihrem tatsächlichen Wert, in der Datenbank auf „wahr“ gesetzt. Mit Vorsicht verwenden!',
+);
+
+/** Ukrainian (українська)
+ * @author Ата
+ */
+$messages['uk'] = array(
+	'betafeatures' => 'Бета-функції',
 );
