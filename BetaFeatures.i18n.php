@@ -63,6 +63,17 @@ $messages['ast'] = array(
 	'betafeatures-enable-all-desc' => 'Si activa esto, toles preferencies d\'esta páxina, independientemente del so valor auténticu, pondránse como "true" na base de datos. ¡Úselo con cuidáu!',
 );
 
+/** Bengali (বাংলা)
+ * @author Bellayet
+ */
+$messages['bn'] = array(
+	'betafeatures' => 'বেটা বৈশিষ্ট্যসমূহ',
+	'betafetaures-intro' => 'এই পাতায় আপনি এই বৈশিষ্ট্যগুলো সক্রিয় বা নিস্ক্রিয় করতে পারবেন যা এই উইকিতে এখনও বেটা অবস্থায় রয়েছে। এই বৈশিষ্ট্যগুলো হয়তো ঠিকমতন কাজ নাও করতে পারে, তাই নিজে ঝুঁকি নিয়ে তা সক্রিয় করুন!',
+	'betafeatures-enable-all' => 'সকল বেটা বৈশিষ্ট্য সক্রিয় করো',
+	'betafeatures-desc' => 'ব্যবহারকারীদের এই উইকিতে বৈশিষ্ট্য সক্রিয় বা নিস্ক্রিয় করার ব্যবস্থা করো যা এখনও প্রধান-সময়ের জন্য তৈরি নয়',
+	'betafeatures-enable-all-desc' => 'আপনি যদি এটি সক্রিয় করেন, এই পাতার সকল পছন্দসমূহ ডাটাবেজে সক্রিয় হবে। সতর্কতা অবলম্বন করুন!',
+);
+
 /** German (Deutsch)
  * @author Metalhead64
  */
@@ -135,6 +146,14 @@ $messages['ko'] = array(
 	'betafeatures-enable-all' => '모든 베타 기능 활성화',
 );
 
+/** Luxembourgish (Lëtzebuergesch)
+ * @author Robby
+ */
+$messages['lb'] = array(
+	'betafeatures' => 'Beta-Fonctiounen',
+	'betafeatures-enable-all' => 'All Beta-Fonctiounen aktivéieren',
+);
+
 /** Macedonian (македонски)
  * @author Bjankuloski06
  */
@@ -147,6 +166,7 @@ $messages['mk'] = array(
 );
 
 /** Swedish (svenska)
+ * @author Skalman
  * @author WikiPhoenix
  */
 $messages['sv'] = array(
@@ -154,7 +174,7 @@ $messages['sv'] = array(
 	'betafetaures-intro' => 'På denna sida kan du aktivera eller inaktivera funktioner på denna wiki som fortfarande är i betastadiet. Dessa funktioner kanske inte fungerar lika bra som du är van vid, så aktivera dem på egen risk!',
 	'betafeatures-enable-all' => 'Aktivera alla betafunktioner',
 	'betafeatures-desc' => 'Låter användare aktivera eller inaktivera funktioner på wikin som fortfarande inte är helt färdiga',
-	'betafeatures-enable-all-desc' => 'Om du aktiverar detta val kommer alla inställningar på denna sida, oavsett av deras värden är, sättas till "sant" i databasen. Använd försiktigt!',
+	'betafeatures-enable-all-desc' => 'Om du aktiverar detta val kommer alla inställningar på denna sida, oavsett deras faktiska värde, sättas till "sant" i databasen. Använd försiktigt!',
 );
 
 /** Ukrainian (українська)
