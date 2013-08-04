@@ -74,6 +74,14 @@ $messages['bn'] = array(
 	'betafeatures-enable-all-desc' => 'আপনি যদি এটি সক্রিয় করেন, এই পাতার সকল পছন্দসমূহ ডাটাবেজে সক্রিয় হবে। সতর্কতা অবলম্বন করুন!',
 );
 
+/** Breton (brezhoneg)
+ * @author Y-M D
+ */
+$messages['br'] = array(
+	'betafeatures' => 'Perzhioù beta',
+	'betafeatures-enable-all' => 'Gweredekaat an holl berzhioù beta',
+);
+
 /** German (Deutsch)
  * @author Metalhead64
  */
@@ -115,6 +123,18 @@ $messages['gl'] = array(
 	'betafeatures-enable-all' => 'Activar todas as características en probas',
 	'betafeatures-desc' => 'Permite que o usuario active ou desactive as características do wiki que aínda non están listas para o seu uso xeneralizado',
 	'betafeatures-enable-all-desc' => 'Se activa isto, todas as preferencias desta páxina, independentemente do seu valor real, quedarán definidas como "true" na base de datos. Vaia con tino!',
+);
+
+/** Interlingua (interlingua)
+ * @author McDutchie
+ */
+$messages['ia'] = array(
+	'betafeatures' => 'Functionalitate beta',
+	'betafetaures-intro' => 'Iste pagina permitte activar o disactivar le functionalitate in iste wiki que es ancora in stadio beta.
+Iste functionalitate pote non functionar tanto ben como tu lo expectarea, dunque, activa lo a tu proprie disco!',
+	'betafeatures-enable-all' => 'Activar tote le functionalitate beta',
+	'betafeatures-desc' => 'Permitte que le usator activa o disactiva functionalitate in le wiki que non ha ancora essite perfectionate',
+	'betafeatures-enable-all-desc' => 'Si tu activa iste option, tote le preferentias in iste pagina, independentemente de lor valor real, essera mittite a ver in le base de datos. Usar con prudentia!',
 );
 
 /** Italian (italiano)
