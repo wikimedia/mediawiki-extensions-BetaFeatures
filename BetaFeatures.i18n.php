@@ -158,6 +158,14 @@ $messages['ja'] = array(
 	'betafeatures-enable-all-desc' => 'これを有効にすると、このページのすべての設定項目について、実際の値にかかわらず、データベース内で true に設定されます。自己責任で使用してください!',
 );
 
+/** Kazakh (Cyrillic script) (қазақша (кирил)‎)
+ * @author Arystanbek
+ */
+$messages['kk-cyrl'] = array(
+	'betafeatures' => 'Beta мүмкіндік',
+	'betafeatures-enable-all' => 'Барлық beta мүмкіндіктерді қосу',
+);
+
 /** Korean (한국어)
  * @author 아라
  */
@@ -202,4 +210,16 @@ $messages['sv'] = array(
  */
 $messages['uk'] = array(
 	'betafeatures' => 'Бета-функції',
+	'betafetaures-intro' => 'На цій сторінці ви можете увімкнути чи вимкнути функції цієї вікі, що все ще у стадії бета. Ці функції можуть не працювати так, як ви звикли, тому вмикайте їх на власний ризик!',
+	'betafeatures-enable-all' => 'Увімкнути усі бета-функції',
+	'betafeatures-desc' => 'Дозволяє користувачу вмикати чи вимикати функції вікі, все ще не готові до прайм-тайму',
+	'betafeatures-enable-all-desc' => 'Якщо ви обираєте цей варіант, усі налаштування цієї сторінки, не залежно від їхнього значення на даний момент, будуть встановлені як true у базі даних. Використовуйте обережно!',
+);
+
+/** Simplified Chinese (中文（简体）‎)
+ * @author Qiyue2001
+ */
+$messages['zh-hans'] = array(
+	'betafeatures' => '测试特性',
+	'betafeatures-enable-all' => '启用测试版的所有功能',
 );
