@@ -180,6 +180,7 @@ $messages['ko'] = array(
 $messages['lb'] = array(
 	'betafeatures' => 'Beta-Fonctiounen',
 	'betafeatures-enable-all' => 'All Beta-Fonctiounen aktivéieren',
+	'betafeatures-desc' => 'Léisst Benotzer Fonctiounen op der Wiki aktivéieren oder desaktivéieren déi nach net fäerdeg entwéckelt sinn',
 );
 
 /** Macedonian (македонски)
@@ -191,6 +192,13 @@ $messages['mk'] = array(
 	'betafeatures-enable-all' => 'Вклучи ги сите бета-можности',
 	'betafeatures-desc' => 'Овозможува корисникот да вклучува и исклучува можности што сè уште не се воведени како стандардни',
 	'betafeatures-enable-all-desc' => 'Доколку ја изберете оваа можност, сите поставки на страницава, без оглед на нивната фактичка вредност, ќе бидат ставени на „точно“ во базата. Користете ги претпазливо!',
+);
+
+/** Marathi (मराठी)
+ * @author V.narsikar
+ */
+$messages['mr'] = array(
+	'betafeatures' => 'बीटा तोंडवळा',
 );
 
 /** Swedish (svenska)
@@ -221,5 +229,6 @@ $messages['uk'] = array(
  */
 $messages['zh-hans'] = array(
 	'betafeatures' => '测试特性',
+	'betafetaures-intro' => '在该页面上，您可以启用或禁用此wiki上仍处于测试版的功能。这些功能可能无法使用或者使人不习惯，所以一切风险由用户自己承担。',
 	'betafeatures-enable-all' => '启用测试版的所有功能',
 );
