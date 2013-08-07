@@ -171,7 +171,10 @@ $messages['kk-cyrl'] = array(
  */
 $messages['ko'] = array(
 	'betafeatures' => '베타 기능',
+	'betafetaures-intro' => '이 문서에서 아직 베타인 이 위키의 기능을 활성화하거나 비활성화할 수 있습니다. 이러한 기능은 제대로 작동하지 않을 수 있기 때문에, 자기 책임으로 활성화하세요!',
 	'betafeatures-enable-all' => '모든 베타 기능 활성화',
+	'betafeatures-desc' => '사용자가 아직 준비가 되지 않은 위키에서 기능을 활성화하거나 비활성화할 수 있습니다',
+	'betafeatures-enable-all-desc' => '이 선텍을 활성화하면 이 문서의 모든 환경 설정은 실제 값에 상관 없이, 데이터베이스에서 참으로 설정됩니다. 주의해서 사용하세요!',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
@@ -199,6 +202,19 @@ $messages['mk'] = array(
  */
 $messages['mr'] = array(
 	'betafeatures' => 'बीटा तोंडवळा',
+	'betafeatures-enable-all' => 'बीटा फिचर्स सक्षम करा',
+	'betafeatures-enable-all-desc' => "जर आपण ही निवड शक्य केली तर,या पानातील सर्व पसंती,त्याच्या काहीही मुल्याव्यतिरिक्त, डाटाबेस मध्ये 'ट्रू' म्हणुन नोंदविल्या जातील.हे काळजीपूर्वक वापरा!",
+);
+
+/** tarandíne (tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'betafeatures' => 'Funziune de Beta',
+	'betafetaures-intro' => "Sus a sta pàgene puè abbilità o disabbilità le funziune sus a sta uicchi ca sò angore beta. Chiste funziune non ge ponne fatià cumme vue tu, ce l'abbilite jè a rischie tune!",
+	'betafeatures-enable-all' => 'Abbilite tutte le funziune beta',
+	'betafeatures-desc' => "Lasse l'utende a abbilità o disabbilità le funziune sus 'a ucchi ca non ge so angore pronde pa prima vote",
+	'betafeatures-enable-all-desc' => "Ce tu abbilite sta scelte, tutte le preferenze sus a sta pàgene, senze uardanne 'a fatìa toje, avènene mise a true sus a 'u database. Ause cu attenzione!",
 );
 
 /** Swedish (svenska)
