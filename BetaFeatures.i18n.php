@@ -182,8 +182,10 @@ $messages['ko'] = array(
  */
 $messages['lb'] = array(
 	'betafeatures' => 'Beta-Fonctiounen',
+	'betafetaures-intro' => 'Op dëser Säit kënnt Dir Fonctiounen aschalten oder ausschalten déi eréischt an der Beta-Phase sinn. Dës Fonctioune fonctionnéieren eventuell net esou wéi Dir et gewinnt sidd, dofir aktivéiert Dir se op Ären eegene Risiko!',
 	'betafeatures-enable-all' => 'All Beta-Fonctiounen aktivéieren',
 	'betafeatures-desc' => 'Léisst Benotzer Fonctiounen op der Wiki aktivéieren oder desaktivéieren déi nach net fäerdeg entwéckelt sinn',
+	'betafeatures-enable-all-desc' => 'Wann Dir dës Optioun aschalt da ginn all Astellungen op dëser Säit, onofhängeg vun hirem aktuelle Wäert, an der Datebank op "wouer" gesat. Virsiichteg benotzen!',
 );
 
 /** Macedonian (македонски)
@@ -197,12 +199,22 @@ $messages['mk'] = array(
 	'betafeatures-enable-all-desc' => 'Доколку ја изберете оваа можност, сите поставки на страницава, без оглед на нивната фактичка вредност, ќе бидат ставени на „точно“ во базата. Користете ги претпазливо!',
 );
 
+/** Malayalam (മലയാളം)
+ * @author Praveenp
+ */
+$messages['ml'] = array(
+	'betafeatures' => 'പരീക്ഷണാടിസ്ഥാനത്തിലുള്ള (ബീറ്റ) സൗകര്യങ്ങൾ',
+	'betafeatures-enable-all' => 'പരീക്ഷണാടിസ്ഥാനത്തിലുള്ള (ബീറ്റ) സൗകര്യങ്ങൾ സജ്ജമാക്കുക',
+);
+
 /** Marathi (मराठी)
  * @author V.narsikar
  */
 $messages['mr'] = array(
 	'betafeatures' => 'बीटा तोंडवळा',
+	'betafetaures-intro' => 'या विकिच्या पानावर,जे अद्याप चाचणी स्थितीत आहेत, ते फिचर्स आपण  सक्षम किंवा अक्षम करू शकता.हे फिचर्स, आपण त्यांचा जो पर्यंत सराव करत नाहीत तोवर ते बरोबर वाटणार नाहीत.म्हणुन आपल्या जबाबदारीवर सक्षम करा!',
 	'betafeatures-enable-all' => 'बीटा फिचर्स सक्षम करा',
+	'betafeatures-desc' => 'सदस्यास,या विकिवर कोणतेही फिचर्स जे अद्याप पूर्ण सुविधांसह परिपूर्ण नाहीत,सक्षम किंवा अक्षम करू देते',
 	'betafeatures-enable-all-desc' => "जर आपण ही निवड शक्य केली तर,या पानातील सर्व पसंती,त्याच्या काहीही मुल्याव्यतिरिक्त, डाटाबेस मध्ये 'ट्रू' म्हणुन नोंदविल्या जातील.हे काळजीपूर्वक वापरा!",
 );
 
