@@ -260,3 +260,13 @@ $messages['zh-hans'] = array(
 	'betafetaures-intro' => '在该页面上，您可以启用或禁用此wiki上仍处于测试版的功能。这些功能可能无法使用或者使人不习惯，所以一切风险由用户自己承担。',
 	'betafeatures-enable-all' => '启用测试版的所有功能',
 );
+
+/** Traditional Chinese (中文（繁體）‎)
+ * @author Openerror
+ */
+$messages['zh-hant'] = array(
+	'betafeatures' => '測試中的功能 (Beta)',
+	'betafetaures-intro' => '在此頁面上，您可以啟用或禁用此 wiki 上仍然處於測試中 (Beta) 的功能。這些功能的運作可能會強差人意，因此請三思而行！',
+	'betafeatures-enable-all' => '啟用所有測試中 (Beta) 的功能',
+	'betafeatures-desc' => '允許使用者啟用或禁用 wiki 上 仍需要完善、除錯的功能',
+);
