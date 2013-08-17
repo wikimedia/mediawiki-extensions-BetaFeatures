@@ -218,6 +218,17 @@ $messages['mr'] = array(
 	'betafeatures-enable-all-desc' => "जर आपण ही निवड शक्य केली तर,या पानातील सर्व पसंती,त्याच्या काहीही मुल्याव्यतिरिक्त, डाटाबेस मध्ये 'ट्रू' म्हणुन नोंदविल्या जातील.हे काळजीपूर्वक वापरा!",
 );
 
+/** Brazilian Portuguese (português do Brasil)
+ * @author Fúlvio
+ */
+$messages['pt-br'] = array(
+	'betafeatures' => 'Funções em Beta',
+	'betafetaures-intro' => 'Nesta página, você pode ativar ou desativar funções desta wiki que ainda estão em fase beta. Estas funções podem não funcionarem como o previsto, por isso use-as por sua própria conta e risco!',
+	'betafeatures-enable-all' => 'Ativar todas as funções em beta',
+	'betafeatures-desc' => 'Permite ao usuário ativar ou desativar funções da wiki que ainda não estão prontas para serem ativamente usadas',
+	'betafeatures-enable-all-desc' => 'Se você ativar esta opção, todas as preferências desta página, independentemente de seus valores atuais, será definido como "true" no banco de dados. Use com cuidado!',
+);
+
 /** tarandíne (tarandíne)
  * @author Joetaras
  */
