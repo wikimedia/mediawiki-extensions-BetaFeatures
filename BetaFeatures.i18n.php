@@ -82,6 +82,14 @@ $messages['br'] = array(
 	'betafeatures-enable-all' => 'Gweredekaat an holl berzhioù beta',
 );
 
+/** Czech (česky)
+ * @author Michaelbrabec
+ */
+$messages['cs'] = array(
+	'betafeatures' => 'Funkce Betaverze',
+	'betafeatures-enable-all' => 'Povolit všechny funkce beta verze',
+);
+
 /** German (Deutsch)
  * @author Metalhead64
  */
