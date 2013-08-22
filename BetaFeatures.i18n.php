@@ -84,10 +84,11 @@ $messages['br'] = array(
 
 /** Czech (česky)
  * @author Michaelbrabec
+ * @author Mormegil
  */
 $messages['cs'] = array(
-	'betafeatures' => 'Funkce Betaverze',
-	'betafeatures-enable-all' => 'Povolit všechny funkce beta verze',
+	'betafeatures' => 'Funkce z betaverze',
+	'betafeatures-enable-all' => 'Povolit všechny funkce betaverze',
 );
 
 /** German (Deutsch)
@@ -131,6 +132,13 @@ $messages['gl'] = array(
 	'betafeatures-enable-all' => 'Activar todas as características en probas',
 	'betafeatures-desc' => 'Permite que o usuario active ou desactive as características do wiki que aínda non están listas para o seu uso xeneralizado',
 	'betafeatures-enable-all-desc' => 'Se activa isto, todas as preferencias desta páxina, independentemente do seu valor real, quedarán definidas como "true" na base de datos. Vaia con tino!',
+);
+
+/** Hungarian (magyar)
+ * @author Misibacsi
+ */
+$messages['hu'] = array(
+	'betafeatures' => 'Béta funkciók',
 );
 
 /** Interlingua (interlingua)
