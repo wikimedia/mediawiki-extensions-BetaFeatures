@@ -160,6 +160,7 @@ $messages['it'] = array(
 	'betafeatures' => 'Funzionalità beta',
 	'betafetaures-intro' => 'Su questa pagina è possibile attivare o disattivare funzionalità su questo wiki che sono ancora in fase beta. Queste caratteristiche potrebbero non funzionare come dovrebbero, perciò abilitale a tuo rischio!',
 	'betafeatures-enable-all' => 'Abilita tutte le funzionalità beta',
+	'betafeatures-desc' => "Consente all'utente di attivare o disattivare sul wiki funzioni che non sono ancora pronte per il grande pubblico",
 	'betafeatures-enable-all-desc' => 'Se si attiva questa opzione, tutte le preferenze su questa pagina, indipendentemente dal loro effettivo valore, verranno impostate come abilitate nel database. Usa con cautela!',
 );
 
@@ -202,6 +203,14 @@ $messages['lb'] = array(
 	'betafeatures-enable-all' => 'All Beta-Fonctiounen aktivéieren',
 	'betafeatures-desc' => 'Léisst Benotzer Fonctiounen op der Wiki aktivéieren oder desaktivéieren déi nach net fäerdeg entwéckelt sinn',
 	'betafeatures-enable-all-desc' => 'Wann Dir dës Optioun aschalt da ginn all Astellungen op dëser Säit, onofhängeg vun hirem aktuelle Wäert, an der Datebank op "wouer" gesat. Virsiichteg benotzen!',
+);
+
+/** Lithuanian (lietuvių)
+ * @author Eitvys200
+ */
+$messages['lt'] = array(
+	'betafeatures' => 'Beta Funkcijos',
+	'betafeatures-enable-all' => 'Įgalinti visas beta funkcijas',
 );
 
 /** Macedonian (македонски)
