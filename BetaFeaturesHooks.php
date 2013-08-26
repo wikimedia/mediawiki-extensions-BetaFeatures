@@ -57,7 +57,7 @@ class BetaFeaturesHooks {
 					// we got from the GetBetaFeaturePreferences hook.
 					// Don't add this feature to the form.
 					$complete = false;
-					break;
+					throw new Exception( "The field {$field} was missing from the beta feature {$key}." );
 				}
 			}
 
