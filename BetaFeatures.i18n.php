@@ -112,6 +112,16 @@ $messages['es'] = array(
 	'betafeatures-desc' => 'Permite al usuario activar o desactivar funciones del wiki que todavía no están listas',
 );
 
+/** Faroese (føroyskt)
+ * @author EileenSanda
+ */
+$messages['fo'] = array(
+	'betafeatures' => 'Betafunktiónir',
+	'betafetaures-intro' => 'Á hesi síðu kanst tú gera funksjónir, sum enn eru í beta, virknar ella óvirknar á hesi wiki. Hesar funksjónir virka møguliga ikki eins væl og tú ert vanur/von við, so aktivering verður undir egnari ábyrgd!',
+	'betafeatures-enable-all' => 'Ger allar beta funksjónir virknar',
+	'betafeatures-desc' => 'Loyvir brúkara at gera funksjónir, sum enn ikki eru heilt klárar, virknar ella óvirknar á wikiini.',
+);
+
 /** French (français)
  * @author Gomoko
  */
@@ -241,6 +251,13 @@ $messages['mr'] = array(
 	'betafeatures-enable-all' => 'बीटा फिचर्स सक्षम करा',
 	'betafeatures-desc' => 'सदस्यास,या विकिवर कोणतेही फिचर्स जे अद्याप पूर्ण सुविधांसह परिपूर्ण नाहीत,सक्षम किंवा अक्षम करू देते',
 	'betafeatures-enable-all-desc' => "जर आपण ही निवड शक्य केली तर,या पानातील सर्व पसंती,त्याच्या काहीही मुल्याव्यतिरिक्त, डाटाबेस मध्ये 'ट्रू' म्हणुन नोंदविल्या जातील.हे काळजीपूर्वक वापरा!",
+);
+
+/** Occitan (occitan)
+ * @author Cedric31
+ */
+$messages['oc'] = array(
+	'betafeatures' => 'Foncionalitats en bèta',
 );
 
 /** Brazilian Portuguese (português do Brasil)
