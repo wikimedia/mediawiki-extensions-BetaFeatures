@@ -62,17 +62,15 @@ class BetaFeaturesHooks {
 			}
 
 			if ( $complete ) {
-				$prefname = 'beta-feature-' . $key;
+				$prefs[$key] = $opt;
 
-				$prefs[$prefname] = $opt;
-
-				$currentValue = $user->getOption( $prefname );
+				$currentValue = $user->getOption( $key );
 				if ( $currentValue !== HTMLFeatureField::OPTION_ENABLED &&
 						$currentValue !== HTMLFeatureField::OPTION_DISABLED &&
 						$user->getOption( 'beta-feature-auto-enroll' ) === HTMLFeatureField::OPTION_ENABLED ) {
 					// We haven't seen this before, and the user has auto-enroll enabled!
 					// Set the option to true.
-					$user->setOption( $prefname, HTMLFeatureField::OPTION_ENABLED );
+					$user->setOption( $key, HTMLFeatureField::OPTION_ENABLED );
 				}
 			}
 		}
@@ -83,7 +81,7 @@ class BetaFeaturesHooks {
 	static function getAutoEnrollPreference( $user, &$prefs ) {
 		global $wgExtensionAssetsPath;
 
-		$prefs['auto-enroll'] = array(
+		$prefs['beta-feature-auto-enroll'] = array(
 			'label-message' => 'betafeatures-auto-enroll',
 			'desc-message' => 'betafeatures-auto-enroll-desc',
 			'info-link' => 'https://mediawiki.org/wiki/Extension:BetaFeatures/Auto-enrollment',
