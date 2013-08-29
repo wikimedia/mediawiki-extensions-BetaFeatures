@@ -63,6 +63,18 @@ $messages['ast'] = array(
 	'betafeatures-enable-all-desc' => 'Si activa esto, toles preferencies d\'esta páxina, independientemente del so valor auténticu, pondránse como "true" na base de datos. ¡Úselo con cuidáu!',
 );
 
+/** Bikol Central (Bikol Central)
+ * @author Geopoet
+ */
+$messages['bcl'] = array(
+	'betafeatures' => 'Beta na mga Postura',
+	'betafetaures-intro' => 'Sa laog kaining pahina ika makakapagpagana or makakapagpauntok sa mga postura na yaon digde sa wiki na yaon pa giraray sa beta.
+Ining mga postura mapuwedeng dae matrabaho siring sa paggamit mo kaidto, kaya paganaha uyon sa saimong sadiring kaagyatan!',
+	'betafeatures-enable-all' => 'Paganaha an gabos na mga posturang beta',
+	'betafeatures-desc' => 'Minatugot sa paragamit na paganahon o pauntukon an mga postura kaining wiki na dae pa man handa para sa premyadong-panahon',
+	'betafeatures-enable-all-desc' => 'Kun paganahon ining pinili mo, gabos na mga kamuyahan mo sa pahinang ini, dawa ano pa man saindang aktuwal na kahalagahan, panunuytuyon na totoo sa laog nin datos-sarayan. Gamita na igwang pag-iingat!',
+);
+
 /** Bengali (বাংলা)
  * @author Bellayet
  */
@@ -258,6 +270,10 @@ $messages['mr'] = array(
  */
 $messages['oc'] = array(
 	'betafeatures' => 'Foncionalitats en bèta',
+	'betafetaures-intro' => "Sus aquesta pagina, podètz activar o desactivar las foncionalitats d'aqueste wiki que son encara en version bèta. Es possible qu'aquelas foncionalitats foncionen pas tant plan coma i sètz acostumat ; activatz-lo doncas a vòstres pròpris risques !",
+	'betafeatures-enable-all' => 'Activar totas las foncionalitats bèta',
+	'betafeatures-desc' => 'Daissa l’utilizaire activar o desactivar las foncionalitats sus aqueste wiki que son pas encara prèstas per èsser generalizadas',
+	'betafeatures-enable-all-desc' => "Se activatz aquesta causida, totas las preferéncias d'aquesta pagina, quina que siá lor valor actuala, seràn mesas a verai dins la banca de donadas. D'utilizar amb precaucion !",
 );
 
 /** Brazilian Portuguese (português do Brasil)
