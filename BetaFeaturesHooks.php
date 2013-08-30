@@ -37,9 +37,53 @@ class BetaFeaturesHooks {
 				$opt['label-message'] = $info['label-message'];
 			}
 
-			$prefs['beta-feature-' . $key] = $opt;
+			// We now have a concept of required fields, but we don't
+			// actually require any. (removed version)
+			$requiredFields = array(
+			);
+
+			$complete = true;
+
+			foreach ( $requiredFields as $field => $required ) {
+				if ( array_key_exists( $field, $info ) ) {
+					$opt[$field] = $info[$field];
+				} elseif ( $required ) {
+					// A required field isn't present in the info array
+					// we got from the GetBetaFeaturePreferences hook.
+					// Don't add this feature to the form.
+					$complete = false;
+					break;
+				}
+			}
+
+			if ( $complete ) {
+				$prefname = 'beta-feature-' . $key;
+
+				$prefs[$prefname] = $opt;
+
+				$currentValue = $user->getOption( $prefname );
+				if ( $currentValue !== HTMLFeatureField::OPTION_ENABLED &&
+						$currentValue !== HTMLFeatureField::OPTION_DISABLED &&
+						$user->getOption( 'beta-feature-auto-enroll' ) === HTMLFeatureField::OPTION_ENABLED ) {
+					// We haven't seen this before, and the user has auto-enroll enabled!
+					// Set the option to true.
+					$user->setOption( $prefname, HTMLFeatureField::OPTION_ENABLED );
+				}
+			}
 		}
 
 		return true;
+	}
+
+	static function getAutoEnrollPreference( $user, &$prefs ) {
+		global $wgExtensionAssetsPath;
+
+		$prefs['auto-enroll'] = array(
+			'label-message' => 'betafeatures-auto-enroll',
+			'desc-message' => 'betafeatures-auto-enroll-desc',
+			'info-link' => 'https://mediawiki.org/wiki/Extension:BetaFeatures/Auto-enrollment',
+			'discussion-link' => 'https://mediawiki.org/wiki/Extension_talk:BetaFeatures/Auto-enrollment',
+			'screenshot' => $wgExtensionAssetsPath . '/BetaFeatures/images/all-beta.png',
+		);
 	}
 }

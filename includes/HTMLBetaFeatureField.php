@@ -18,7 +18,10 @@
 
 // This is sort of a forward-looking class, it doesn't do much yet, but we
 // intend to have the label be more sexy in the future.
-class HTMLBetaFeatureField extends HTMLCheckField {
+class HTMLFeatureField extends HTMLCheckField {
+
+	const OPTION_DISABLED = '0';
+	const OPTION_ENABLED = '1';
 
 	function getInputHTML( $value ) {
 		global $wgExtensionAssetsPath;
@@ -77,5 +80,22 @@ class HTMLBetaFeatureField extends HTMLCheckField {
 		$htmls[] = Html::closeElement( 'div' );
 
 		return implode( '', $htmls );
+	}
+
+	/**
+	 * Override to use integers, so we don't lose the database rows on
+	 * unset...
+	 */
+	function loadDataFromRequest( $request ) {
+		$res = parent::loadDataFromRequest( $request );
+
+		if ( $res === true ) {
+			return HTMLFeatureField::OPTION_ENABLED;
+		} else if ( $res === false ) {
+			return HTMLFeatureField::OPTION_DISABLED;
+		} else {
+			// Dunno what happened, but I'm not gonna fight it.
+			return $res;
+		}
 	}
 }
