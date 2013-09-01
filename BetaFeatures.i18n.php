@@ -44,24 +44,24 @@ $messages['en'] = array(
  * @author Shirayuki
  */
 $messages['qqq'] = array(
-	'mw-ui-feature-discuss' => 'Link to discussion of a feature.',
-	'mw-ui-feature-user-count' => 'How many users have enabled a particular feature on the site.',
+	'mw-ui-feature-discuss' => 'Used as link text for the link which points to discussion of a feature.',
+	'mw-ui-feature-user-count' => 'Used to show how many users have enabled a particular feature on the site.
 
-	'prefs-betafeatures' => 'Title of the preference section for beta features.',
-
-	'betafeatures-auto-enroll' => 'Label for a checkbox that automatically enrolls the user in all the experiments happening on the wiki.',
-	'betafeatures-auto-enroll-desc' => 'Description for the auto-enroll beta preference, which enrolls the user in every new feature that gets released on the wiki.',
-
-	'betafeatures-enable-all' => 'Label for a checkbox that enables all beta features on the wiki
-
-See also:
-* {{msg-mw|Betafeatures-enable-all-desc}}',
+Parameters:
+* $1 - number of users',
+	'prefs-betafeatures' => 'Used as section title for beta features in [[Special:Preferences]].
+{{Identical|Beta feature}}',
 	'betafeatures-desc' => '{{desc|name=Beta Features|url=http://www.mediawiki.org/wiki/Extension:BetaFeatures}}',
-	'betafeatures-enable-all-desc' => 'Description for the enable-all beta preference.
+	'betafeatures-toplink' => 'Used as link text. The link points to [[Special:Preferences]] but takes the user directly to the "Beta features" section.
+{{Identical|Beta feature}}',
+	'betafeatures-auto-enroll' => 'Label for a checkbox that automatically enrolls the user in all the experiments happening on the wiki.
+
+Description for this checkbox is:
+* {{msg-mw|Betafeatures-auto-enroll-desc}}',
+	'betafeatures-auto-enroll-desc' => 'Description for the auto-enroll beta preference, which enrolls the user in every new feature that gets released on the wiki.
 
 See also:
-* {{msg-mw|Betafeatures-enable-all}}',
-	'betafeatures-toplink' => 'Link that goes next to the link to Special:Preferences but takes the user directly to the BetaFeatures section.',
+* {{msg-mw|Betafeatures-auto-enroll}} - label for the checkbox',
 );
 
 /** Asturian (asturianu)
@@ -79,12 +79,8 @@ $messages['ast'] = array(
  * @author Geopoet
  */
 $messages['bcl'] = array(
-	'betafeatures' => 'Beta na mga Postura',
-	'betafetaures-intro' => 'Sa laog kaining pahina ika makakapagpagana or makakapagpauntok sa mga postura na yaon digde sa wiki na yaon pa giraray sa beta.
-Ining mga postura mapuwedeng dae matrabaho siring sa paggamit mo kaidto, kaya paganaha uyon sa saimong sadiring kaagyatan!',
-	'betafeatures-enable-all' => 'Paganaha an gabos na mga posturang beta',
 	'betafeatures-desc' => 'Minatugot sa paragamit na paganahon o pauntukon an mga postura kaining wiki na dae pa man handa para sa premyadong-panahon',
-	'betafeatures-enable-all-desc' => 'Kun paganahon ining pinili mo, gabos na mga kamuyahan mo sa pahinang ini, dawa ano pa man saindang aktuwal na kahalagahan, panunuytuyon na totoo sa laog nin datos-sarayan. Gamita na igwang pag-iingat!',
+	'betafeatures-toplink' => 'Beta na mga Postura',
 );
 
 /** Bengali (বাংলা)
@@ -115,15 +111,29 @@ $messages['cs'] = array(
 	'betafeatures-enable-all' => 'Povolit všechny funkce betaverze',
 );
 
+/** Welsh (Cymraeg)
+ * @author Lloffiwr
+ */
+$messages['cy'] = array(
+	'mw-ui-feature-discuss' => 'sgwrs',
+	'mw-ui-feature-user-count' => "{{PLURAL:$1|Nid oes unrhyw ddefnyddiwr|Mae $1 defnyddiwr|Mae $1 ddefnyddiwr|Mae $1 defnyddiwr}} wedi galluogi'r nodwedd hon.",
+	'prefs-betafeatures' => 'Nodweddion beta',
+	'betafeatures-desc' => "Yn galluogi'r defnyddiwr i alluogi nodweddion ar y wici nad ydynt yn barod i'w llwyr fabwysiadu eto, neu i'w hanalluogi.",
+	'betafeatures-toplink' => 'Nodweddion Beta',
+	'betafeatures-auto-enroll' => "Ymuno'n awtomatig yn yr holl nodweddion beta",
+);
+
 /** German (Deutsch)
  * @author Metalhead64
  */
 $messages['de'] = array(
-	'betafeatures' => 'Beta-Funktionen',
-	'betafetaures-intro' => 'Auf dieser Seite kannst du Funktionen in diesem Wiki aktivieren oder deaktivieren, die sich in der Beta-Phase befinden. Diese Funktionen funktionieren nicht so, wie du es gewohnt bist. Aktiviere sie auf dein eigenes Risiko!',
-	'betafeatures-enable-all' => 'Alle Beta-Funktionen aktivieren',
+	'mw-ui-feature-discuss' => 'Diskussion',
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|Ein Benutzer hat|$1 Benutzer haben}} diese Funktion aktiviert.',
+	'prefs-betafeatures' => 'Beta-Funktionen',
 	'betafeatures-desc' => 'Ermöglicht Benutzern das Aktivieren oder Deaktivieren von Funktionen in diesem Wiki, die sich noch in der Entwicklung befinden',
-	'betafeatures-enable-all-desc' => 'Falls du diese Option aktivierst, werden alle Einstellungen auf dieser Seite, unabhängig von ihrem tatsächlichen Wert, in der Datenbank auf „wahr“ gesetzt. Mit Vorsicht verwenden!',
+	'betafeatures-toplink' => 'Beta-Funktionen',
+	'betafeatures-auto-enroll' => 'Automatisch bei allen Beta-Funktionen anmelden',
+	'betafeatures-auto-enroll-desc' => 'Das ist für wagemutige, unerschrockene „Early Adopters“, die jede einzelne experimentelle Funktion in Aktion sehen wollen. Dein Benutzerkonto erhält automatisch die aktuellsten Funktionen, wenn sie erscheinen. Du kannst jederzeit zu dieser Seite zurückkehren, um solche Funktionen zu deaktivieren, die du nicht benötigst, jedoch bekommst du dadurch die neueste Technik auf der Website.',
 );
 
 /** Spanish (español)
@@ -140,10 +150,8 @@ $messages['es'] = array(
  * @author EileenSanda
  */
 $messages['fo'] = array(
-	'betafeatures' => 'Betafunktiónir',
-	'betafetaures-intro' => 'Á hesi síðu kanst tú gera funksjónir, sum enn eru í beta, virknar ella óvirknar á hesi wiki. Hesar funksjónir virka møguliga ikki eins væl og tú ert vanur/von við, so aktivering verður undir egnari ábyrgd!',
-	'betafeatures-enable-all' => 'Ger allar beta funksjónir virknar',
 	'betafeatures-desc' => 'Loyvir brúkara at gera funksjónir, sum enn ikki eru heilt klárar, virknar ella óvirknar á wikiini.',
+	'betafeatures-toplink' => 'Betafunktiónir',
 );
 
 /** French (français)
@@ -161,11 +169,19 @@ $messages['fr'] = array(
  * @author Toliño
  */
 $messages['gl'] = array(
-	'betafeatures' => 'Características en probas',
-	'betafetaures-intro' => 'Nesta páxina pode activar ou desactivar as características deste wiki que aínda están en probas. Estas características poden non funcionar todo o ben que deberan. Úseas baixo a súa responsabilidade!',
-	'betafeatures-enable-all' => 'Activar todas as características en probas',
+	'mw-ui-feature-discuss' => 'conversa',
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|Un usuario ten|$1 usuarios teñen}} activada esta característica.',
+	'prefs-betafeatures' => 'Características en probas',
 	'betafeatures-desc' => 'Permite que o usuario active ou desactive as características do wiki que aínda non están listas para o seu uso xeneralizado',
-	'betafeatures-enable-all-desc' => 'Se activa isto, todas as preferencias desta páxina, independentemente do seu valor real, quedarán definidas como "true" na base de datos. Vaia con tino!',
+	'betafeatures-toplink' => 'Características en probas',
+	'betafeatures-auto-enroll' => 'Activar automaticamente todas as características en probas',
+);
+
+/** Hebrew (עברית)
+ * @author Ademo
+ */
+$messages['he'] = array(
+	'betafeatures-toplink' => 'מאפייני בטא',
 );
 
 /** Hungarian (magyar)
@@ -179,12 +195,13 @@ $messages['hu'] = array(
  * @author McDutchie
  */
 $messages['ia'] = array(
-	'betafeatures' => 'Functionalitate beta',
-	'betafetaures-intro' => 'Iste pagina permitte activar o disactivar le functionalitate in iste wiki que es ancora in stadio beta.
-Iste functionalitate pote non functionar tanto ben como tu lo expectarea, dunque, activa lo a tu proprie disco!',
-	'betafeatures-enable-all' => 'Activar tote le functionalitate beta',
+	'mw-ui-feature-discuss' => 'discussion',
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|Un usator|$1 usatores}} ha activate iste function.',
+	'prefs-betafeatures' => 'Functionalitate beta',
 	'betafeatures-desc' => 'Permitte que le usator activa o disactiva functionalitate in le wiki que non ha ancora essite perfectionate',
-	'betafeatures-enable-all-desc' => 'Si tu activa iste option, tote le preferentias in iste pagina, independentemente de lor valor real, essera mittite a ver in le base de datos. Usar con prudentia!',
+	'betafeatures-toplink' => 'Functionalitate beta',
+	'betafeatures-auto-enroll' => 'Activar automaticamente tote le functionalitate beta',
+	'betafeatures-auto-enroll-desc' => 'Isto es pro le pioneros audace e intrepide qui vole vider cata function preliminar e experimental in action. Tu conto recipera automaticamente le ultime functionalitate al momento de prime apparentia. Tu potera sempre retornar a iste pagina pro disactivar le functiones que tu non vole usar, ma intertanto tu habera le experientia le plus vanguardista possibile in iste sito.',
 );
 
 /** Italian (italiano)
@@ -202,11 +219,13 @@ $messages['it'] = array(
  * @author Shirayuki
  */
 $messages['ja'] = array(
-	'betafeatures' => 'ベータ版機能',
-	'betafetaures-intro' => 'このページでは、まだベータ版の機能をこのウィキで有効化/無効化できます。これらの機能は正常に動作しないおそれがあるため、自己責任で有効化してください。',
-	'betafeatures-enable-all' => 'ベータ版機能をすべて有効にする',
+	'mw-ui-feature-discuss' => '議論',
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|$1 人の利用者}}がこの機能を有効にしています。',
+	'prefs-betafeatures' => 'ベータ版機能',
 	'betafeatures-desc' => '本番環境のウィキで使用する準備がまだできていない機能について、利用者が有効化/無効化できるようにする',
-	'betafeatures-enable-all-desc' => 'これを有効にすると、このページのすべての設定項目について、実際の値にかかわらず、データベース内で true に設定されます。自己責任で使用してください!',
+	'betafeatures-toplink' => 'ベータ版機能',
+	'betafeatures-auto-enroll' => 'すべてのベータ版機能に自動的に参加',
+	'betafeatures-auto-enroll-desc' => 'この設定は、実験的な機能が公開されるたびにその機能を早期に試用したい勇敢な利用者のためのものです。最新の機能が公開されると、その機能が自動的にあなたのアカウントで有効になります。この設定は、ベータ版機能を使用したくなくなった場合にこのページでいつでも無効にできますが、有効にすると開発の最前線の機能をこのサイトで体験できます。',
 );
 
 /** Kazakh (Cyrillic script) (қазақша (кирил)‎)
@@ -218,25 +237,28 @@ $messages['kk-cyrl'] = array(
 );
 
 /** Korean (한국어)
+ * @author AlexPark
  * @author 아라
  */
 $messages['ko'] = array(
-	'betafeatures' => '베타 기능',
-	'betafetaures-intro' => '이 문서에서 아직 베타인 이 위키의 기능을 활성화하거나 비활성화할 수 있습니다. 이러한 기능은 제대로 작동하지 않을 수 있기 때문에, 자기 책임으로 활성화하세요!',
-	'betafeatures-enable-all' => '모든 베타 기능 활성화',
+	'mw-ui-feature-discuss' => '토론',
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|사용자 한 명|사용자 $1명}}이 이 기능을 활성화했습니다.',
+	'prefs-betafeatures' => '베타 기능',
 	'betafeatures-desc' => '사용자가 아직 준비가 되지 않은 위키에서 기능을 활성화하거나 비활성화할 수 있습니다',
-	'betafeatures-enable-all-desc' => '이 선텍을 활성화하면 이 문서의 모든 환경 설정은 실제 값에 상관 없이, 데이터베이스에서 참으로 설정됩니다. 주의해서 사용하세요!',
+	'betafeatures-toplink' => '베타 기능',
+	'betafeatures-auto-enroll' => '모든 베타 기능에 자동 등록',
+	'betafeatures-auto-enroll-desc' => '이것은 새로운 기능이 나오자마자 각각의 모든 실험적인 기능을 써보고 싶은 대담하고 용감한 얼리어답터를 위한 것입니다. 당신의 계정은 그것들이 출시되자마자 자동적으로 최신의 기능들을 받게될 것입니다. 당신은 언제라도 본 페이지로 돌아와 그 기능들을 사용하지 않도록 변경할 수 있지만,  이 기능들은 본 사이트에서 당신에게 가장 최신의 첨단 기능들을 경험하도록 해 줄 것입니다.',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
 $messages['lb'] = array(
-	'betafeatures' => 'Beta-Fonctiounen',
-	'betafetaures-intro' => 'Op dëser Säit kënnt Dir Fonctiounen aschalten oder ausschalten déi eréischt an der Beta-Phase sinn. Dës Fonctioune fonctionnéieren eventuell net esou wéi Dir et gewinnt sidd, dofir aktivéiert Dir se op Ären eegene Risiko!',
-	'betafeatures-enable-all' => 'All Beta-Fonctiounen aktivéieren',
+	'mw-ui-feature-discuss' => 'Diskussioun',
+	'prefs-betafeatures' => 'Beta-Fonctiounen',
 	'betafeatures-desc' => 'Léisst Benotzer Fonctiounen op der Wiki aktivéieren oder desaktivéieren déi nach net fäerdeg entwéckelt sinn',
-	'betafeatures-enable-all-desc' => 'Wann Dir dës Optioun aschalt da ginn all Astellungen op dëser Säit, onofhängeg vun hirem aktuelle Wäert, an der Datebank op "wouer" gesat. Virsiichteg benotzen!',
+	'betafeatures-toplink' => 'Beta-Fonctiounen',
+	'betafeatures-auto-enroll' => 'Automatesch bäi alle Beta-Fonctiounen umellen',
 );
 
 /** Lithuanian (lietuvių)
@@ -251,11 +273,13 @@ $messages['lt'] = array(
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
-	'betafeatures' => 'Бета-можности',
-	'betafetaures-intro' => 'На страницава можете да вклучувате и исклучувате можности на викито кои сè уште се во бета. Може да не работат сосема како што треба, па затоа користете ги на ваш ризик!',
-	'betafeatures-enable-all' => 'Вклучи ги сите бета-можности',
+	'mw-ui-feature-discuss' => 'разговор',
+	'mw-ui-feature-user-count' => 'Функцијата ја {{PLURAL:$1|има вклученоо еден корисник|имаат вклучено $1 корисници}}.',
+	'prefs-betafeatures' => 'Бета-можности',
 	'betafeatures-desc' => 'Овозможува корисникот да вклучува и исклучува можности што сè уште не се воведени како стандардни',
-	'betafeatures-enable-all-desc' => 'Доколку ја изберете оваа можност, сите поставки на страницава, без оглед на нивната фактичка вредност, ќе бидат ставени на „точно“ во базата. Користете ги претпазливо!',
+	'betafeatures-toplink' => 'Бета-можности',
+	'betafeatures-auto-enroll' => 'Автоматски вклучувај бета-можности',
+	'betafeatures-auto-enroll-desc' => 'Ова е за смелите и бестрашни корисници што сакаат да ја видат секоја можна експериментална функција веднаш штом ќе излезе. На вашата сметка автоматски ќе се појавуваат најновите експериментални можности во моментот кога ќе станат достпни. Секогаш можете да се навратите на страницава и да изберете кои од нив не сакате да ги користите, но со ова секогаш сте во тек со најновата техника на викито.',
 );
 
 /** Malayalam (മലയാളം)
@@ -281,11 +305,15 @@ $messages['mr'] = array(
  * @author Cedric31
  */
 $messages['oc'] = array(
-	'betafeatures' => 'Foncionalitats en bèta',
-	'betafetaures-intro' => "Sus aquesta pagina, podètz activar o desactivar las foncionalitats d'aqueste wiki que son encara en version bèta. Es possible qu'aquelas foncionalitats foncionen pas tant plan coma i sètz acostumat ; activatz-lo doncas a vòstres pròpris risques !",
-	'betafeatures-enable-all' => 'Activar totas las foncionalitats bèta',
 	'betafeatures-desc' => 'Daissa l’utilizaire activar o desactivar las foncionalitats sus aqueste wiki que son pas encara prèstas per èsser generalizadas',
-	'betafeatures-enable-all-desc' => "Se activatz aquesta causida, totas las preferéncias d'aquesta pagina, quina que siá lor valor actuala, seràn mesas a verai dins la banca de donadas. D'utilizar amb precaucion !",
+	'betafeatures-toplink' => 'Foncionalitats en bèta',
+);
+
+/** Polish (polski)
+ * @author Chrumps
+ */
+$messages['pl'] = array(
+	'mw-ui-feature-discuss' => 'dyskusja',
 );
 
 /** Brazilian Portuguese (português do Brasil)
@@ -303,11 +331,13 @@ $messages['pt-br'] = array(
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
-	'betafeatures' => 'Funziune de Beta',
-	'betafetaures-intro' => "Sus a sta pàgene puè abbilità o disabbilità le funziune sus a sta uicchi ca sò angore beta. Chiste funziune non ge ponne fatià cumme vue tu, ce l'abbilite jè a rischie tune!",
-	'betafeatures-enable-all' => 'Abbilite tutte le funziune beta',
+	'mw-ui-feature-discuss' => "'ngazzamende",
+	'mw-ui-feature-user-count' => "{{PLURAL:$1|'Nu utende ave|$1 utinde onne}} abbilitate sta funzione.",
+	'prefs-betafeatures' => 'Funziune de Beta',
 	'betafeatures-desc' => "Lasse l'utende a abbilità o disabbilità le funziune sus 'a ucchi ca non ge so angore pronde pa prima vote",
-	'betafeatures-enable-all-desc' => "Ce tu abbilite sta scelte, tutte le preferenze sus a sta pàgene, senze uardanne 'a fatìa toje, avènene mise a true sus a 'u database. Ause cu attenzione!",
+	'betafeatures-toplink' => 'Funziune de Beta',
+	'betafeatures-auto-enroll' => "Auto iscrizione jndr'à le funziune beta",
+	'betafeatures-auto-enroll-desc' => "Quiste jè pe le audace, indrepide ca volene cu vedene ogne funzione sperimendale cumme iesse. 'U cunde avène aggiornate automaticamende a l'urteme funziune quanne iessene. Puè sembre turnà rrete a sta pàgene pe disabbilità e non ausarle cchiù, ma quiste te dè l'esperienze cchiù estreme sus a 'u site.",
 );
 
 /** Swedish (svenska)
@@ -323,14 +353,17 @@ $messages['sv'] = array(
 );
 
 /** Ukrainian (українська)
+ * @author Andriykopanytsia
  * @author Ата
  */
 $messages['uk'] = array(
-	'betafeatures' => 'Бета-функції',
-	'betafetaures-intro' => 'На цій сторінці ви можете увімкнути чи вимкнути функції цієї вікі, що все ще у стадії бета. Ці функції можуть не працювати так, як ви звикли, тому вмикайте їх на власний ризик!',
-	'betafeatures-enable-all' => 'Увімкнути усі бета-функції',
+	'mw-ui-feature-discuss' => 'обговорення',
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|Один користувач вже увімкнув|$1 користувачі вже увімкнули|$1 користувачів вже увімкнули}} цю функцію.',
+	'prefs-betafeatures' => 'Бета-функції',
 	'betafeatures-desc' => 'Дозволяє користувачу вмикати чи вимикати функції вікі, все ще не готові до прайм-тайму',
-	'betafeatures-enable-all-desc' => 'Якщо ви обираєте цей варіант, усі налаштування цієї сторінки, не залежно від їхнього значення на даний момент, будуть встановлені як true у базі даних. Використовуйте обережно!',
+	'betafeatures-toplink' => 'Бета-функції',
+	'betafeatures-auto-enroll' => 'Автоматичний запис на всіх бета-функції',
+	'betafeatures-auto-enroll-desc' => 'Це для сміливих, безстрашних перших користувачів, які хочуть бачити кожну експериментальну функцію, як тільки-но вона появляється. Ваш обліковий запис буде автоматично отримувати новітні функції, коли вони виходять. Ви завжди можете повернутися до цієї сторінки, щоб відключити те, що ви вирішили не використовувати, але це даватиме вам найпередовіший досвід на сайті.',
 );
 
 /** Simplified Chinese (中文（简体）‎)
