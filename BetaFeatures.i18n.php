@@ -95,11 +95,13 @@ $messages['bn'] = array(
 );
 
 /** Breton (brezhoneg)
+ * @author Fohanno
  * @author Y-M D
  */
 $messages['br'] = array(
-	'betafeatures' => 'Perzhioù beta',
-	'betafeatures-enable-all' => 'Gweredekaat an holl berzhioù beta',
+	'mw-ui-feature-discuss' => 'kaozeadenn',
+	'prefs-betafeatures' => 'Perzhioù beta',
+	'betafeatures-toplink' => 'Perzhioù beta',
 );
 
 /** Czech (česky)
@@ -175,6 +177,7 @@ $messages['gl'] = array(
 	'betafeatures-desc' => 'Permite que o usuario active ou desactive as características do wiki que aínda non están listas para o seu uso xeneralizado',
 	'betafeatures-toplink' => 'Características en probas',
 	'betafeatures-auto-enroll' => 'Activar automaticamente todas as características en probas',
+	'betafeatures-auto-enroll-desc' => 'Isto é para os pioneiros audaces e intrépidos que queren botar un ollo ás características experimentais en canto saen á luz. A súa conta ha obter automaticamente as últimas características cando aparezan. Sempre pode volver a esta páxina para desactivar aquelas que non queira usar, pero isto dá a experiencia máis vangardista do sitio.',
 );
 
 /** Hebrew (עברית)
@@ -208,11 +211,11 @@ $messages['ia'] = array(
  * @author Beta16
  */
 $messages['it'] = array(
-	'betafeatures' => 'Funzionalità beta',
-	'betafetaures-intro' => 'Su questa pagina è possibile attivare o disattivare funzionalità su questo wiki che sono ancora in fase beta. Queste caratteristiche potrebbero non funzionare come dovrebbero, perciò abilitale a tuo rischio!',
-	'betafeatures-enable-all' => 'Abilita tutte le funzionalità beta',
+	'mw-ui-feature-discuss' => 'discussione',
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|Un utente ha|$1 utenti hanno}} abilitato questa funzione.',
+	'prefs-betafeatures' => 'Funzionalità beta',
 	'betafeatures-desc' => "Consente all'utente di attivare o disattivare sul wiki funzioni che non sono ancora pronte per il grande pubblico",
-	'betafeatures-enable-all-desc' => 'Se si attiva questa opzione, tutte le preferenze su questa pagina, indipendentemente dal loro effettivo valore, verranno impostate come abilitate nel database. Usa con cautela!',
+	'betafeatures-toplink' => 'Funzionalità beta',
 );
 
 /** Japanese (日本語)
