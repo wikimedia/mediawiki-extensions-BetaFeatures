@@ -31,6 +31,6 @@ class BetaFeatures {
 	 * @return bool
 	 */
 	static function isFeatureEnabled( $user, $feature ) {
-		return $user->getOption( 'beta-feature-' . $feature ) === 1;
+		return $user->getOption( $feature ) === HTMLFeatureField::OPTION_ENABLED;
 	}
 }
