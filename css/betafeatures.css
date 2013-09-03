@@ -144,6 +144,8 @@ table.mw-htmlform-container {
   border: 1px solid #e5e5e5;
   max-height: 150px;
   max-width: 100%;
+  background: #fff;
+  padding: 8px
 }
 
 /* line 225, sourcefiles/scss/components/default/_forms.scss */
