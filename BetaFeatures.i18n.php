@@ -68,11 +68,13 @@ See also:
  * @author Xuacu
  */
 $messages['ast'] = array(
-	'betafeatures' => 'Carauterístiques beta',
-	'betafetaures-intro' => "Nesta páxina pue activar o desactivar les funciones d'esta wiki qu'inda tan en fase beta. Estes carauterístiques seique nun funcionen tán bien como lo demás, ¡activeles baxo la so responsabilidá!",
-	'betafeatures-enable-all' => 'Activar toles funciones beta',
+	'mw-ui-feature-discuss' => 'alderique',
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|Un usuariu activó|$1 usuarios activaron}} esta carauterística.',
+	'prefs-betafeatures' => 'Carauterístiques beta',
 	'betafeatures-desc' => "Permite que l'usuariu active o desactive funciones de la wiki qu'inda nun tan pa un usu xeneralizáu",
-	'betafeatures-enable-all-desc' => 'Si activa esto, toles preferencies d\'esta páxina, independientemente del so valor auténticu, pondránse como "true" na base de datos. ¡Úselo con cuidáu!',
+	'betafeatures-toplink' => 'Carauterístiques beta',
+	'betafeatures-auto-enroll' => 'Apuntase automaticamente a toles carauterístiques beta',
+	'betafeatures-auto-enroll-desc' => "Esto ye pa los pioneros arrogantes y atrevíos que quieren ver caúna de les carauterístiques esperimentales de la que se desendolquen. La so cuenta recibirá automáticamente les últimes carauterístiques de la qu'apaecen. Siempre pue volver a esta páxina pa desactivar les que nun quiera usar, pero esto dará-y la esperiencia más avanzada del sitiu.",
 );
 
 /** Bikol Central (Bikol Central)
@@ -102,6 +104,18 @@ $messages['br'] = array(
 	'mw-ui-feature-discuss' => 'kaozeadenn',
 	'prefs-betafeatures' => 'Perzhioù beta',
 	'betafeatures-toplink' => 'Perzhioù beta',
+);
+
+/** Catalan (català)
+ * @author QuimGil
+ */
+$messages['ca'] = array(
+	'mw-ui-feature-discuss' => 'discussió',
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|Un usuari ha|$1 usuaris han}} activat aquesta functionalitat.',
+	'prefs-betafeatures' => 'Funcionalitats beta',
+	'betafeatures-desc' => "Permet a l'usuari activar o desactivar funcionalitats en el wiki que encara no són a punt per a una estrena oficial.",
+	'betafeatures-toplink' => 'Funcionalitats beta',
+	'betafeatures-auto-enroll' => 'Apunteu-vos automàticament a totes les funcionalitats beta.',
 );
 
 /** Czech (česky)
@@ -209,6 +223,7 @@ $messages['ia'] = array(
 
 /** Italian (italiano)
  * @author Beta16
+ * @author Gianfranco
  */
 $messages['it'] = array(
 	'mw-ui-feature-discuss' => 'discussione',
@@ -216,6 +231,8 @@ $messages['it'] = array(
 	'prefs-betafeatures' => 'Funzionalità beta',
 	'betafeatures-desc' => "Consente all'utente di attivare o disattivare sul wiki funzioni che non sono ancora pronte per il grande pubblico",
 	'betafeatures-toplink' => 'Funzionalità beta',
+	'betafeatures-auto-enroll' => 'Registrazione automatica per tutte le funzioni beta',
+	'betafeatures-auto-enroll-desc' => "Questo è per tutti gli audaci e intrepidi amanti del rischio che vogliono vedere ogni singola funzione in sperimentazione così come arriva. Il tuo account otterrà automaticamente tutte le ultime funzioni in sperimentazione non appena usciranno. Potrai sempre tornare a questa pagina per disabilitare quelle che non vuoi più usare, ma questa configurazione ti darà l'esperienza più emozionante di questo sito.",
 );
 
 /** Japanese (日本語)
