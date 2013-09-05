@@ -49,7 +49,7 @@ class HTMLFeatureField extends NewHTMLCheckField {
 			$divClasses[] = $this->mClass;
 		}
 
-		if ( array_key_exists( 'disabled', $this->mParams ) &&
+		if ( isset( $this->mParams['disabled'] ) &&
 				$this->mParams['disabled'] === true ) {
 			$attrs['disabled'] = true;
 		}
@@ -74,10 +74,10 @@ class HTMLFeatureField extends NewHTMLCheckField {
 			'class' => 'mw-ui-feature-title',
 		), $this->getPostCheckboxLabelHTML() );
 
-		if ( array_key_exists( 'user-count', $this->mParams ) ) {
+		if ( isset( $this->mParams['user-count'] ) ) {
 			$userCountMsg = 'mw-ui-feature-user-count';
 
-			if ( array_key_exists( 'user-count-msg', $this->mParams ) ) {
+			if ( isset( $this->mParams['user-count-msg'] ) ) {
 				$userCountMsg = $this->mParams['user-count-msg'];
 			}
 
@@ -90,7 +90,7 @@ class HTMLFeatureField extends NewHTMLCheckField {
 			$attrs['data-count'] = $this->mParams['user-count'];
 		}
 
-		if ( array_key_exists( 'desc-message', $this->mParams ) ) {
+		if ( isset( $this->mParams['desc-message'] ) ) {
 			$html .= Html::rawElement(
 				'p',
 				array(
@@ -106,8 +106,8 @@ class HTMLFeatureField extends NewHTMLCheckField {
 			'class' => 'mw-ui-feature-meta',
 		) );
 
-		$hasInfoLink = array_key_exists( 'info-link', $this->mParams );
-		$hasDiscussionLink = array_key_exists( 'discussion-link', $this->mParams );
+		$hasInfoLink = isset( $this->mParams['info-link'] );
+		$hasDiscussionLink = isset( $this->mParams['discussion-link'] );
 
 		$infoLinkClasses = array(
 			'mw-ui-feature-info-links',
@@ -157,7 +157,7 @@ class HTMLFeatureField extends NewHTMLCheckField {
 			'class' => 'mw-ui-feature-screenshot-contain',
 		) );
 
-		if ( array_key_exists( 'screenshot', $this->mParams ) ) {
+		if ( isset( $this->mParams['screenshot'] ) ) {
 			$html .= Html::rawElement( 'img', array(
 				'src' => $this->mParams['screenshot'],
 				'class' => 'mw-ui-feature-screenshot',

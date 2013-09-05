@@ -103,7 +103,7 @@ class BetaFeaturesHooks {
 			$complete = true;
 
 			foreach ( $requiredFields as $field => $required ) {
-				if ( array_key_exists( $field, $info ) ) {
+				if ( isset( $info[$field] ) ) {
 					$opt[$field] = $info[$field];
 				} elseif ( $required ) {
 					// A required field isn't present in the info array
@@ -115,7 +115,7 @@ class BetaFeaturesHooks {
 			}
 
 			if ( $complete ) {
-				if ( array_key_exists( $key, $counts ) ) {
+				if ( isset( $counts[$key] ) ) {
 					$opt['user-count'] = $counts[$key];
 				}
 

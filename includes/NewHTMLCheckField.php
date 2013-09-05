@@ -38,11 +38,11 @@ class NewHTMLCheckField extends HTMLFormField {
 
 		$classes = array();
 
-		if ( array_key_exists( 'class', $attr ) ) {
+		if ( isset( $attr['class'] ) ) {
 			$classes[] = $attr['class'];
 		}
 
-		if ( array_key_exists( 'disabled', $this->mParams ) && $this->mParams['disabled'] === true ) {
+		if ( isset( $this->mParams['disabled'] ) && $this->mParams['disabled'] === true ) {
 			$attr['disabled'] = 'disabled';
 		}
 
@@ -65,7 +65,7 @@ class NewHTMLCheckField extends HTMLFormField {
 		$labelClasses = array( 'mw-ui-styled-checkbox-label' );
 		$labelAttrs = array( 'for' => $this->mID );
 
-		if ( array_key_exists( 'disabled', $this->mParams ) && $this->mParams['disabled'] === true ) {
+		if ( isset( $this->mParams['disabled'] ) && $this->mParams['disabled'] === true ) {
 			$labelClasses[] = 'mw-ui-disabled';
 		}
 
