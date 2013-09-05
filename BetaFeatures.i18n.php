@@ -123,8 +123,11 @@ $messages['ca'] = array(
  * @author Mormegil
  */
 $messages['cs'] = array(
-	'betafeatures' => 'Funkce z betaverze',
-	'betafeatures-enable-all' => 'Povolit všechny funkce betaverze',
+	'mw-ui-feature-discuss' => 'diskuse',
+	'mw-ui-feature-user-count' => 'Tuto funkci si {{PLURAL:$1|zapnul jeden uživatel|zapnuli $1 uživatelé|zapnulo $1 uživatelů}}.',
+	'prefs-betafeatures' => 'Betaverze',
+	'betafeatures-desc' => 'Umožňuje uživatelům zapínat a vypínat nové funkce, které zatím nejsou zcela odladěné',
+	'betafeatures-toplink' => 'Funkce z betaverze',
 );
 
 /** Welsh (Cymraeg)
