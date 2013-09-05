@@ -26,12 +26,62 @@ class BetaFeaturesMissingFieldException extends Exception {
 
 class BetaFeaturesHooks {
 
+	// 30 minutes
+	const COUNT_CACHE_TTL = 1800;
+
+	static function getUserCounts( $prefs ) {
+		global $wgMemc;
+		$key = wfMemcKey( 'betafeatures', 'usercounts' );
+		$counts = $wgMemc->get( $key );
+
+		if ( $counts === false ) {
+			$jqg = JobQueueGroup::singleton();
+
+			// If we aren't waiting to update the counts, push a job to do it.
+			// Only one job in this queue at a time.
+			// Will only get added once every thirty minutes, when the
+			// cache is invalidated.
+			if ( $jqg->get( 'updateBetaFeaturesUserCounts' )->isEmpty() ) {
+				$updateJob = new UpdateBetaFeatureUserCountsJob(
+					Title::newMainPage(),
+					array(
+						'prefs' => $prefs,
+					)
+				);
+				$jqg->push( $updateJob );
+			}
+
+			$counts = array();
+			$dbr = wfGetDB( DB_SLAVE );
+			$res = $dbr->select(
+				'betafeatures_user_counts',
+				array(
+					'feature',
+					'number',
+				),
+				array(),
+				__METHOD__
+			);
+
+			foreach ( $res as $row ) {
+				$counts[$row->feature] = $row->number;
+			}
+
+			// Cache for 30 minutes
+			$wgMemc->set( $key, $counts, self::COUNT_CACHE_TTL );
+		}
+
+		return $counts;
+	}
+
 	static function getPreferences( $user, &$prefs ) {
 		global $wgExtensionAssetsPath;
 
 		$betaPrefs = array();
 
 		wfRunHooks( 'GetBetaFeaturePreferences', array( $user, &$betaPrefs ) );
+
+		$counts = self::getUserCounts( array_keys( $betaPrefs ) );
 
 		foreach ( $betaPrefs as $key => $info ) {
 			$opt = array(
@@ -65,6 +115,10 @@ class BetaFeaturesHooks {
 			}
 
 			if ( $complete ) {
+				if ( array_key_exists( $key, $counts ) ) {
+					$opt['user-count'] = $counts[$key];
+				}
+
 				$prefs[$key] = $opt;
 
 				$currentValue = $user->getOption( $key );
@@ -113,6 +167,12 @@ class BetaFeaturesHooks {
 	static function getUnitTestsList( &$files ) {
 		$testDir = __DIR__ . '/tests';
 		$files = array_merge( $files, glob( "$testDir/*Test.php" ) );
+		return true;
+	}
+
+	static function getSchemaUpdates( $updater ) {
+		$updater->addExtensionTable( 'betafeatures_user_counts',
+			__DIR__ . '/sql/create_counts.sql' );
 		return true;
 	}
 }

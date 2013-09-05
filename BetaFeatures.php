@@ -25,6 +25,7 @@ $wgAutoloadClasses['BetaFeaturesHooks'] = __DIR__ . '/BetaFeaturesHooks.php';
 $wgAutoloadClasses['NewHTMLCheckField'] = __DIR__ . '/includes/NewHTMLCheckField.php';
 $wgAutoloadClasses['HTMLFeatureField'] = __DIR__ . '/includes/HTMLFeatureField.php';
 $wgAutoloadClasses['BetaFeatures'] = __DIR__ . '/includes/BetaFeaturesUtil.php';
+$wgAutoloadClasses['UpdateBetaFeatureUserCountsJob'] = __DIR__ . '/includes/UpdateBetaFeatureUserCountsJob.php';
 
 $wgExtensionMessagesFiles['BetaFeatures'] = __DIR__ . '/BetaFeatures.i18n.php';
 
@@ -33,6 +34,9 @@ $wgHooks['GetPreferences'][] = 'BetaFeaturesHooks::getPreferences';
 $wgHooks['PersonalUrls'][] = 'BetaFeaturesHooks::getBetaFeaturesLink';
 $wgHooks['GetBetaFeaturePreferences'][] = 'BetaFeaturesHooks::getAutoEnrollPreference';
 $wgHooks['UnitTestsList'][] = 'BetaFeaturesHooks::getUnitTestsList';
+$wgHooks['LoadExtensionSchemaUpdates'][] = 'BetaFeaturesHooks::getSchemaUpdates';
+
+$wgJobClasses['updateBetaFeaturesUserCounts'] = 'UpdateBetaFeatureUserCountsJob';
 
 $moduleInfo = array(
 	'localBasePath' => __DIR__,
