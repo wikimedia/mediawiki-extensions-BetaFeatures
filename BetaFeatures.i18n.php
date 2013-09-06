@@ -328,6 +328,8 @@ $messages['mr'] = array(
  * @author Cedric31
  */
 $messages['oc'] = array(
+	'mw-ui-feature-discuss' => 'discussion',
+	'prefs-betafeatures' => 'Foncionalitats bèta',
 	'betafeatures-desc' => 'Daissa l’utilizaire activar o desactivar las foncionalitats sus aqueste wiki que son pas encara prèstas per èsser generalizadas',
 	'betafeatures-toplink' => 'Foncionalitats en bèta',
 );
@@ -340,14 +342,15 @@ $messages['pl'] = array(
 );
 
 /** Brazilian Portuguese (português do Brasil)
+ * @author Cainamarques
  * @author Fúlvio
  */
 $messages['pt-br'] = array(
-	'betafeatures' => 'Funções em Beta',
-	'betafetaures-intro' => 'Nesta página, você pode ativar ou desativar funções desta wiki que ainda estão em fase beta. Estas funções podem não funcionarem como o previsto, por isso use-as por sua própria conta e risco!',
-	'betafeatures-enable-all' => 'Ativar todas as funções em beta',
+	'mw-ui-feature-discuss' => 'discussão',
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|Um usuário ativou|$1 usuários ativaram}} este recurso.',
+	'prefs-betafeatures' => 'Recursos beta',
 	'betafeatures-desc' => 'Permite ao usuário ativar ou desativar funções da wiki que ainda não estão prontas para serem ativamente usadas',
-	'betafeatures-enable-all-desc' => 'Se você ativar esta opção, todas as preferências desta página, independentemente de seus valores atuais, será definido como "true" no banco de dados. Use com cuidado!',
+	'betafeatures-toplink' => 'Funções em Beta',
 );
 
 /** tarandíne (tarandíne)
