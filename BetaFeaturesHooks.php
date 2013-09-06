@@ -21,6 +21,9 @@
  * @copyright Copyright © 2013, Mark Holmquist
  */
 
+class BetaFeaturesMissingFieldException extends Exception {
+}
+
 class BetaFeaturesHooks {
 
 	static function getPreferences( $user, &$prefs ) {
@@ -57,7 +60,7 @@ class BetaFeaturesHooks {
 					// we got from the GetBetaFeaturePreferences hook.
 					// Don't add this feature to the form.
 					$complete = false;
-					throw new Exception( "The field {$field} was missing from the beta feature {$key}." );
+					throw new BetaFeaturesMissingFieldException( "The field {$field} was missing from the beta feature {$key}." );
 				}
 			}
 
@@ -104,6 +107,12 @@ class BetaFeaturesHooks {
 			$personal_urls['betafeatures'] = $bfurl;
 		}
 
+		return true;
+	}
+
+	static function getUnitTestsList( &$files ) {
+		$testDir = __DIR__ . '/tests';
+		$files = array_merge( $files, glob( "$testDir/*Test.php" ) );
 		return true;
 	}
 }

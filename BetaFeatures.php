@@ -32,6 +32,7 @@ $wgHooks['GetBetaFeaturePreferences'] = array();
 $wgHooks['GetPreferences'][] = 'BetaFeaturesHooks::getPreferences';
 $wgHooks['PersonalUrls'][] = 'BetaFeaturesHooks::getBetaFeaturesLink';
 $wgHooks['GetBetaFeaturePreferences'][] = 'BetaFeaturesHooks::getAutoEnrollPreference';
+$wgHooks['UnitTestsList'][] = 'BetaFeaturesHooks::getUnitTestsList';
 
 $moduleInfo = array(
 	'localBasePath' => __DIR__,
