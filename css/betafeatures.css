@@ -50,6 +50,7 @@ table.mw-htmlform-container {
 /* line 141, sourcefiles/scss/components/default/_forms.scss */
 .mw-ui-feature-title .mw-ui-text-check-label {
   font-size: 24px;
+  padding-bottom: 11px;
 }
 
 /* line 146, sourcefiles/scss/components/default/_forms.scss */
@@ -67,6 +68,10 @@ table.mw-htmlform-container {
 .mw-ui-feature-main,
 .mw-ui-feature-meta {
   display: inline-block;
+}
+
+.mw-ui-feature-field {
+	margin-bottom: 68px;
 }
 
 /* line 161, sourcefiles/scss/components/default/_forms.scss */
@@ -151,4 +156,10 @@ table.mw-htmlform-container {
 /* line 225, sourcefiles/scss/components/default/_forms.scss */
 .mw-ui-feature-user-count {
   color: #00b08a;
+  padding-top: 6px;
+  padding-bottom: 12px;
+}
+
+.mw-ui-feature-checkbox .mw-ui-styled-checkbox-label {
+	margin-right: 9px;
 }
