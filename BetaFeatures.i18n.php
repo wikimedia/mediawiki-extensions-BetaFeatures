@@ -74,7 +74,7 @@ $messages['ast'] = array(
 	'betafeatures-desc' => "Permite que l'usuariu active o desactive funciones de la wiki qu'inda nun tan pa un usu xeneralizáu",
 	'betafeatures-toplink' => 'Carauterístiques beta',
 	'betafeatures-auto-enroll' => 'Apuntase automaticamente a toles carauterístiques beta',
-	'betafeatures-auto-enroll-desc' => "Esto ye pa los pioneros arrogantes y atrevíos que quieren ver caúna de les carauterístiques esperimentales de la que se desendolquen. La so cuenta recibirá automáticamente les últimes carauterístiques de la qu'apaecen. Siempre pue volver a esta páxina pa desactivar les que nun quiera usar, pero esto dará-y la esperiencia más avanzada del sitiu.",
+	'betafeatures-auto-enroll-desc' => "Esto ye pa los pioneros arrogantes y atrevíos que quieren ver caúna de les carauterístiques esperimentales de la que se desendolquen. La so cuenta recibirá automáticamente les últimes carauterístiques de la qu'apaecen. Siempre pue volver a esta páxina pa desactivar les que nun quiera usar, pero esto dará-y la esperiencia más avanzada del sitiu.", # Fuzzy
 );
 
 /** Bikol Central (Bikol Central)
@@ -128,6 +128,8 @@ $messages['cs'] = array(
 	'prefs-betafeatures' => 'Betaverze',
 	'betafeatures-desc' => 'Umožňuje uživatelům zapínat a vypínat nové funkce, které zatím nejsou zcela odladěné',
 	'betafeatures-toplink' => 'Funkce z betaverze',
+	'betafeatures-auto-enroll' => 'Automaticky se přihlásit ke všem funkcím v betaverzi',
+	'betafeatures-auto-enroll-desc' => 'Toto je určeno pro odvážné, neohrožené experimentátory, kteří chtějí vidět úplně každou pokusnou funkci hned, jakmile vznikne. Váš účet automaticky získá nejnovější funkce v okamžiku jejich zveřejnění. Kdykoli se můžete na tuto stránku vrátit a vypnout ty, které se rozhodnete nepoužívat, ale získáte tu nejžhavější technologie.', # Fuzzy
 );
 
 /** Welsh (Cymraeg)
@@ -140,6 +142,7 @@ $messages['cy'] = array(
 	'betafeatures-desc' => "Yn galluogi'r defnyddiwr i alluogi nodweddion ar y wici nad ydynt yn barod i'w llwyr fabwysiadu eto, neu i'w hanalluogi.",
 	'betafeatures-toplink' => 'Nodweddion Beta',
 	'betafeatures-auto-enroll' => "Ymuno'n awtomatig yn yr holl nodweddion beta",
+	'betafeatures-auto-enroll-desc' => "Mae hwn ar gyfer pobl mentrus sydd am fod ar flaen y gad yn defnyddio nodweddion newydd arbrofol cyn gynted â bod modd. Bydd eich cyfrif yn derbyn yr holl nodweddion diweddaraf wrth iddynt ymddangos. Gallwch analluogi'r rhai nad ydych am eu defnyddio unrhywbryd, ar y dudalen hon. Dyma'r ffordd i sefyll ar flaen y gad ar y wefan hon.", # Fuzzy
 );
 
 /** German (Deutsch)
@@ -175,13 +178,15 @@ $messages['fo'] = array(
 
 /** French (français)
  * @author Gomoko
+ * @author Jean-Frédéric
  */
 $messages['fr'] = array(
-	'betafeatures' => 'Fonctionnalités en bêta',
-	'betafetaures-intro' => 'Sur cette page, vous pouvez activer ou désactiver les fonctionnalités de ce wiki qui sont encore en version bêta. Ces fonctionnalités peuvent ne pas marcher aussi bien que vous y êtes habitué ; activez-le donc à vos propres risques !',
-	'betafeatures-enable-all' => 'Activer toutes les fonctionnalités bêta',
+	'mw-ui-feature-discuss' => 'discussion',
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|Un utilisateur a|$1 utilisateurs ont}} activé cette fonctionnalité.',
+	'prefs-betafeatures' => 'Fonctionnalités bêta',
 	'betafeatures-desc' => 'Laisse l’utilisateur activer ou désactiver les fonctionnalités sur ce wiki qui ne sont pas encore prêtes pour être généralisées',
-	'betafeatures-enable-all-desc' => 'Si vous activez ce choix, toutes les préférences de cette page, quelle que soit leur valeur actuelle, seront mises à vrai dans la base de données. À utiliser avec précaution !',
+	'betafeatures-toplink' => 'Fonctionnalités en bêta',
+	'betafeatures-auto-enroll' => 'Souscrire automatiquement aux fonctionnalités en bêta',
 );
 
 /** Galician (galego)
@@ -194,7 +199,7 @@ $messages['gl'] = array(
 	'betafeatures-desc' => 'Permite que o usuario active ou desactive as características do wiki que aínda non están listas para o seu uso xeneralizado',
 	'betafeatures-toplink' => 'Características en probas',
 	'betafeatures-auto-enroll' => 'Activar automaticamente todas as características en probas',
-	'betafeatures-auto-enroll-desc' => 'Isto é para os pioneiros audaces e intrépidos que queren botar un ollo ás características experimentais en canto saen á luz. A súa conta ha obter automaticamente as últimas características cando aparezan. Sempre pode volver a esta páxina para desactivar aquelas que non queira usar, pero isto dá a experiencia máis vangardista do sitio.',
+	'betafeatures-auto-enroll-desc' => 'Isto é para os pioneiros audaces e intrépidos que queren botar un ollo ás características experimentais en canto saen á luz. A súa conta ha obter automaticamente as últimas características cando aparezan. Sempre pode volver a esta páxina para desactivar aquelas que non queira usar, pero isto dá a experiencia máis vangardista do sitio.', # Fuzzy
 );
 
 /** Hebrew (עברית)
@@ -235,7 +240,7 @@ $messages['it'] = array(
 	'betafeatures-desc' => "Consente all'utente di attivare o disattivare sul wiki funzioni che non sono ancora pronte per il grande pubblico",
 	'betafeatures-toplink' => 'Funzionalità beta',
 	'betafeatures-auto-enroll' => 'Registrazione automatica per tutte le funzioni beta',
-	'betafeatures-auto-enroll-desc' => "Questo è per tutti gli audaci e intrepidi amanti del rischio che vogliono vedere ogni singola funzione in sperimentazione così come arriva. Il tuo account otterrà automaticamente tutte le ultime funzioni in sperimentazione non appena usciranno. Potrai sempre tornare a questa pagina per disabilitare quelle che non vuoi più usare, ma questa configurazione ti darà l'esperienza più emozionante di questo sito.",
+	'betafeatures-auto-enroll-desc' => "Questo è per tutti gli audaci e intrepidi amanti del rischio che vogliono vedere ogni singola funzione in sperimentazione così come arriva. Il tuo account otterrà automaticamente tutte le ultime funzioni in sperimentazione non appena usciranno. Potrai sempre tornare a questa pagina per disabilitare quelle che non vuoi più usare, ma questa configurazione ti darà l'esperienza più emozionante di questo sito.", # Fuzzy
 );
 
 /** Japanese (日本語)
