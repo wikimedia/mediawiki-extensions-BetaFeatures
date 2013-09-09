@@ -35,7 +35,7 @@ $messages['en'] = array(
 	'betafeatures-toplink' => 'Beta features',
 
 	'betafeatures-auto-enroll' => 'Auto-enroll in all beta features',
-	'betafeatures-auto-enroll-desc' => 'This is for the daring, intrepid early adopters who want to see every single experimental feature as it rolls out. Your account will automatically get the latest features when they come out. You can always come back to this page to disable the ones you decide not to use, but this will give you the most bleeding-edge experience on the site.',
+	'betafeatures-auto-enroll-desc' => 'This is for early adopters who want to see all experimental features as they are released. Your account will automatically get the latest features when they come out. You may also opt-out of individual features later.',
 );
 
 /** Message documentation (Message documentation)
