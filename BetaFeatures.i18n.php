@@ -155,7 +155,7 @@ $messages['de'] = array(
 	'betafeatures-desc' => 'Ermöglicht Benutzern das Aktivieren oder Deaktivieren von Funktionen in diesem Wiki, die sich noch in der Entwicklung befinden',
 	'betafeatures-toplink' => 'Beta-Funktionen',
 	'betafeatures-auto-enroll' => 'Automatisch bei allen Beta-Funktionen anmelden',
-	'betafeatures-auto-enroll-desc' => 'Das ist für wagemutige, unerschrockene „Early Adopters“, die jede einzelne experimentelle Funktion in Aktion sehen wollen. Dein Benutzerkonto erhält automatisch die aktuellsten Funktionen, wenn sie erscheinen. Du kannst jederzeit zu dieser Seite zurückkehren, um solche Funktionen zu deaktivieren, die du nicht benötigst, jedoch bekommst du dadurch die neueste Technik auf der Website.',
+	'betafeatures-auto-enroll-desc' => 'Das ist für „Early Adopters“, die alle experimentellen Funktionen nach der Veröffentlichung sehen wollen. Dein Benutzerkonto erhält automatisch die aktuellsten Funktionen, wenn sie erscheinen. Du kannst dich auch später von einzelnen Funktionen abmelden.',
 );
 
 /** Spanish (español)
@@ -199,7 +199,7 @@ $messages['gl'] = array(
 	'betafeatures-desc' => 'Permite que o usuario active ou desactive as características do wiki que aínda non están listas para o seu uso xeneralizado',
 	'betafeatures-toplink' => 'Características en probas',
 	'betafeatures-auto-enroll' => 'Activar automaticamente todas as características en probas',
-	'betafeatures-auto-enroll-desc' => 'Isto é para os pioneiros audaces e intrépidos que queren botar un ollo ás características experimentais en canto saen á luz. A súa conta ha obter automaticamente as últimas características cando aparezan. Sempre pode volver a esta páxina para desactivar aquelas que non queira usar, pero isto dá a experiencia máis vangardista do sitio.', # Fuzzy
+	'betafeatures-auto-enroll-desc' => 'Isto é para os pioneiros que queren botar un ollo a todas as características experimentais en canto saen á luz. A súa conta ha obter automaticamente as últimas características cando aparezan. Despois, pode desactivar individualmente aquelas características que non queira usar.',
 );
 
 /** Hebrew (עברית)
@@ -226,7 +226,7 @@ $messages['ia'] = array(
 	'betafeatures-desc' => 'Permitte que le usator activa o disactiva functionalitate in le wiki que non ha ancora essite perfectionate',
 	'betafeatures-toplink' => 'Functionalitate beta',
 	'betafeatures-auto-enroll' => 'Activar automaticamente tote le functionalitate beta',
-	'betafeatures-auto-enroll-desc' => 'Isto es pro le pioneros audace e intrepide qui vole vider cata function preliminar e experimental in action. Tu conto recipera automaticamente le ultime functionalitate al momento de prime apparentia. Tu potera sempre retornar a iste pagina pro disactivar le functiones que tu non vole usar, ma intertanto tu habera le experientia le plus vanguardista possibile in iste sito.',
+	'betafeatures-auto-enroll-desc' => 'Isto es pro le pioneros audace e intrepide qui vole vider cata function preliminar e experimental in action. Tu conto recipera automaticamente le ultime functionalitate al momento de prime apparentia. Tu pote anque disactivar individual functiones plus tarde.',
 );
 
 /** Italian (italiano)
@@ -253,7 +253,7 @@ $messages['ja'] = array(
 	'betafeatures-desc' => '本番環境のウィキで使用する準備がまだできていない機能について、利用者が有効化/無効化できるようにする',
 	'betafeatures-toplink' => 'ベータ版機能',
 	'betafeatures-auto-enroll' => 'すべてのベータ版機能に自動的に参加',
-	'betafeatures-auto-enroll-desc' => 'この設定は、実験的な機能が公開されるたびにその機能を早期に試用したい勇敢な利用者のためのものです。最新の機能が公開されると、その機能が自動的にあなたのアカウントで有効になります。この設定は、ベータ版機能を使用したくなくなった場合にこのページでいつでも無効にできますが、有効にすると開発の最前線の機能をこのサイトで体験できます。',
+	'betafeatures-auto-enroll-desc' => 'この設定は、実験的な機能が公開されるたびにそのすべての機能を早期に試用したい勇敢な利用者のためのものです。最新の機能が公開されると、その機能が自動的にあなたのアカウントで有効になります。この設定はあとで個別に無効化できます。',
 );
 
 /** Kazakh (Cyrillic script) (қазақша (кирил)‎)
@@ -394,7 +394,7 @@ $messages['uk'] = array(
 	'betafeatures-desc' => 'Дозволяє користувачу вмикати чи вимикати функції вікі, все ще не готові до прайм-тайму',
 	'betafeatures-toplink' => 'Бета-функції',
 	'betafeatures-auto-enroll' => 'Автоматичний запис на всіх бета-функції',
-	'betafeatures-auto-enroll-desc' => 'Це для сміливих, безстрашних перших користувачів, які хочуть бачити кожну експериментальну функцію, як тільки-но вона появляється. Ваш обліковий запис буде автоматично отримувати новітні функції, коли вони виходять. Ви завжди можете повернутися до цієї сторінки, щоб відключити те, що ви вирішили не використовувати, але це даватиме вам найпередовіший досвід на сайті.',
+	'betafeatures-auto-enroll-desc' => 'Це для перших користувачів, які хочуть бачити усі експериментальні функції, як тільки-но вони появляються. Ваш обліковий запис буде автоматично отримувати новітні функції, коли вони виходять. Ви може також відмовитися від індивідуальних особливостей пізніше.',
 );
 
 /** Simplified Chinese (中文（简体）‎)
