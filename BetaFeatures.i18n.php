@@ -160,12 +160,16 @@ $messages['de'] = array(
 
 /** Spanish (español)
  * @author Fitoschido
+ * @author VegaDark
  */
 $messages['es'] = array(
-	'betafeatures' => 'Funciones en beta',
-	'betafetaures-intro' => 'En esta página puedes activar o desactivar funciones del wiki que todavía están en beta. Estas funciones pueden no funcionar del todo o como lo has previsto; actívalas bajo tu propio riesgo.',
-	'betafeatures-enable-all' => 'Activar todas las funciones en beta',
+	'mw-ui-feature-discuss' => 'discusión',
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|Un usuario ha|$1 usuarios han}} habilitado esta característica.',
+	'prefs-betafeatures' => 'Características de prueba',
 	'betafeatures-desc' => 'Permite al usuario activar o desactivar funciones del wiki que todavía no están listas',
+	'betafeatures-toplink' => 'Funciones en beta',
+	'betafeatures-auto-enroll' => 'Inscribirse automáticamente en todas las funciones de prueba',
+	'betafeatures-auto-enroll-desc' => 'Esto es para los primeros usuarios que quieren ver todas las características experimentales a medida que se publican. Tu cuenta recibirá automáticamente las características más recientes cuando salgan. También puedes elegir características individuales más adelante.',
 );
 
 /** Faroese (føroyskt)
@@ -179,6 +183,7 @@ $messages['fo'] = array(
 /** French (français)
  * @author Gomoko
  * @author Jean-Frédéric
+ * @author Sherbrooke
  */
 $messages['fr'] = array(
 	'mw-ui-feature-discuss' => 'discussion',
@@ -187,6 +192,7 @@ $messages['fr'] = array(
 	'betafeatures-desc' => 'Laisse l’utilisateur activer ou désactiver les fonctionnalités sur ce wiki qui ne sont pas encore prêtes pour être généralisées',
 	'betafeatures-toplink' => 'Fonctionnalités en bêta',
 	'betafeatures-auto-enroll' => 'Souscrire automatiquement aux fonctionnalités en bêta',
+	'betafeatures-auto-enroll-desc' => "Ce service s'adresse aux utilisateurs qui veulent profiter au plus tôt des fonctionnalités expérimentales. Pour votre compte, elles seront automatiquement activées au fur et à mesure qu'elles sont disponibles. Vous pourrez les désactiver par la suite.",
 );
 
 /** Galician (galego)
@@ -283,6 +289,7 @@ $messages['ko'] = array(
  */
 $messages['lb'] = array(
 	'mw-ui-feature-discuss' => 'Diskussioun',
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|Ee Benotzer huet|$1 Benotzer hunn}} dës Fonctioun aktivéiert.',
 	'prefs-betafeatures' => 'Beta-Fonctiounen',
 	'betafeatures-desc' => 'Léisst Benotzer Fonctiounen op der Wiki aktivéieren oder desaktivéieren déi nach net fäerdeg entwéckelt sinn',
 	'betafeatures-toplink' => 'Beta-Fonctiounen',
@@ -307,7 +314,7 @@ $messages['mk'] = array(
 	'betafeatures-desc' => 'Овозможува корисникот да вклучува и исклучува можности што сè уште не се воведени како стандардни',
 	'betafeatures-toplink' => 'Бета-можности',
 	'betafeatures-auto-enroll' => 'Автоматски вклучувај бета-можности',
-	'betafeatures-auto-enroll-desc' => 'Ова е за смелите и бестрашни корисници што сакаат да ја видат секоја можна експериментална функција веднаш штом ќе излезе. На вашата сметка автоматски ќе се појавуваат најновите експериментални можности во моментот кога ќе станат достпни. Секогаш можете да се навратите на страницава и да изберете кои од нив не сакате да ги користите, но со ова секогаш сте во тек со најновата техника на викито.',
+	'betafeatures-auto-enroll-desc' => 'Ова е за смелите и бестрашни корисници што сакаат да ја видат сите експериментални функции веднаш штом ќе излезе. На вашата сметка автоматски ќе се појавуваат најновите експериментални можности во моментот кога ќе станат достпни. Можете да се навратите на страницава и да изберете кои од нив не сакате да ги користите.',
 );
 
 /** Malayalam (മലയാളം)
