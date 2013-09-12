@@ -237,6 +237,7 @@ $messages['ia'] = array(
 
 /** Italian (italiano)
  * @author Beta16
+ * @author Davio
  * @author Gianfranco
  */
 $messages['it'] = array(
@@ -246,7 +247,7 @@ $messages['it'] = array(
 	'betafeatures-desc' => "Consente all'utente di attivare o disattivare sul wiki funzioni che non sono ancora pronte per il grande pubblico",
 	'betafeatures-toplink' => 'Funzionalità beta',
 	'betafeatures-auto-enroll' => 'Registrazione automatica per tutte le funzioni beta',
-	'betafeatures-auto-enroll-desc' => "Questo è per tutti gli audaci e intrepidi amanti del rischio che vogliono vedere ogni singola funzione in sperimentazione così come arriva. Il tuo account otterrà automaticamente tutte le ultime funzioni in sperimentazione non appena usciranno. Potrai sempre tornare a questa pagina per disabilitare quelle che non vuoi più usare, ma questa configurazione ti darà l'esperienza più emozionante di questo sito.", # Fuzzy
+	'betafeatures-auto-enroll-desc' => 'Questo è per i primi utilizzatori che vogliono vedere tutte le funzioni sperimentali che vengono rilasciate. Il tuo account automaticamente otterrà le funzionalità più recenti quando vengono rilasciate. Puoi anche scegliere di rinunciare alle funzionalità individuali successivamente.',
 );
 
 /** Japanese (日本語)
