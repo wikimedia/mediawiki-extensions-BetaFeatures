@@ -295,6 +295,7 @@ $messages['lb'] = array(
 	'betafeatures-desc' => 'Léisst Benotzer Fonctiounen op der Wiki aktivéieren oder desaktivéieren déi nach net fäerdeg entwéckelt sinn',
 	'betafeatures-toplink' => 'Beta-Fonctiounen',
 	'betafeatures-auto-enroll' => 'Automatesch bäi alle Beta-Fonctiounen umellen',
+	'betafeatures-auto-enroll-desc' => 'Dat ass fir "Early Adopters", déi all experimentell Funktiounen no der Verëffentlechung gesi wëllen. Äre Benotzerkont huet dann automatesch déi aktuellst Funktiounen, esou bal wéi se erauskommen. Dir kënnt Iech och méi spéit vun eenzelne Funktiounen afmellen.',
 );
 
 /** Lithuanian (lietuvių)
