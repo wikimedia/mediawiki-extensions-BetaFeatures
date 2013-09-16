@@ -285,6 +285,17 @@ $messages['ko'] = array(
 	'betafeatures-auto-enroll-desc' => '이것은 새로운 기능이 나오자마자 각각의 모든 실험적인 기능을 써보고 싶은 대담하고 용감한 얼리어답터를 위한 것입니다. 당신의 계정은 그것들이 출시되자마자 자동적으로 최신의 기능들을 받게될 것입니다. 당신은 언제라도 본 페이지로 돌아와 그 기능들을 사용하지 않도록 변경할 수 있지만,  이 기능들은 본 사이트에서 당신에게 가장 최신의 첨단 기능들을 경험하도록 해 줄 것입니다.',
 );
 
+/** Latin (Latina)
+ * @author Autokrator
+ */
+$messages['la'] = array(
+	'mw-ui-feature-discuss' => 'discussio',
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|Unus usor|$1 usores}} hac facultate utuntur.',
+	'prefs-betafeatures' => 'Facultates experimentales',
+	'betafeatures-toplink' => 'Facultates experimentales',
+	'betafeatures-auto-enroll' => 'Automatice omnibus facultatibus experimentalibus utere',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
@@ -378,6 +389,13 @@ $messages['roa-tara'] = array(
 	'betafeatures-toplink' => 'Funziune de Beta',
 	'betafeatures-auto-enroll' => "Auto iscrizione jndr'à le funziune beta",
 	'betafeatures-auto-enroll-desc' => "Quiste jè pe le audace, indrepide ca volene cu vedene ogne funzione sperimendale cumme iesse. 'U cunde avène aggiornate automaticamende a l'urteme funziune quanne iessene. Puè sembre turnà rrete a sta pàgene pe disabbilità e non ausarle cchiù, ma quiste te dè l'esperienze cchiù estreme sus a 'u site.",
+);
+
+/** Russian (русский)
+ * @author Okras
+ */
+$messages['ru'] = array(
+	'mw-ui-feature-discuss' => 'обсуждение',
 );
 
 /** Swedish (svenska)
