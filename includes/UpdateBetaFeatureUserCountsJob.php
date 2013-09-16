@@ -32,14 +32,13 @@ class UpdateBetaFeatureUserCountsJob extends Job {
 	 * @return bool
 	 */
 	public function run() {
-		$counts = array();
 		$dbw = wfGetDB( DB_MASTER );
 
 		$res = $dbw->select(
 			'user_properties',
 			array(
-				'count(up_property) as number',
-				'up_property as feature',
+				'number' => 'COUNT(up_property)',
+				'feature' => 'up_property',
 			),
 			array(
 				'up_value' => HTMLFeatureField::OPTION_ENABLED,
