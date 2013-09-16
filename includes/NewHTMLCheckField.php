@@ -25,6 +25,12 @@ class NewHTMLCheckField extends HTMLFormField {
 
 	// Protected internal methods for getting the bits of the field
 	// Override these in subclasses (see HTMLFeatureField, e.g.)
+
+	/**
+	 * @param $value
+	 * @param $attr
+	 * @return string
+	 */
 	protected function getCheckboxHTML( $value, $attr ) {
 		if ( !empty( $this->mParams['invert'] ) ) {
 			$value = !$value;
@@ -57,6 +63,10 @@ class NewHTMLCheckField extends HTMLFormField {
 		return Xml::check( $this->mName, $value, $attr ) . '&#160;';
 	}
 
+	/**
+	 * @param $value
+	 * @return string
+	 */
 	protected function getPreCheckboxLabelHTML( $value ) {
 		if ( !empty( $this->mParams['invert'] ) ) {
 			$value = !$value;
@@ -79,16 +89,22 @@ class NewHTMLCheckField extends HTMLFormField {
 		return Html::openElement( 'label', $labelAttrs );
 	}
 
+	/**
+	 * @return string
+	 */
 	protected function getPostCheckboxLabelHTML() {
-		$html = '';
-
-		$html .= Html::closeElement( 'label' );
+		$html = Html::closeElement( 'label' );
 
 		$html .= Html::rawElement( 'label', array( 'for' => $this->mID, 'class' => 'mw-ui-text-check-label' ), $this->mLabel );
 
 		return $html;
 	}
 
+	/**
+	 * @param string $value
+	 * @param null $attr
+	 * @return String
+	 */
 	function getInputHTML( $value, $attr = null ) {
 		return $this->getPreCheckboxLabelHTML( $value, $attr ) .
 			$this->getCheckboxHTML( $value, $attr ) .

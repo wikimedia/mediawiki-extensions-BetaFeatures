@@ -6,58 +6,58 @@
 @charset "UTF-8";
 /* line 102, sourcefiles/scss/components/default/_forms.scss */
 .client-js .mw-ui-styled-checkbox-label {
-  cursor: pointer;
-  display: inline-block;
-  float: left;
-  width: 24px;
-  height: 24px;
-  border: 1px solid grey;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  -ms-border-radius: 2px;
-  -o-border-radius: 2px;
-  border-radius: 2px;
-  margin-right: 3px;
+	cursor: pointer;
+	display: inline-block;
+	float: left;
+	width: 24px;
+	height: 24px;
+	border: 1px solid grey;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	-o-border-radius: 2px;
+	border-radius: 2px;
+	margin-right: 3px;
 }
 /* line 103, sourcefiles/scss/components/default/_forms.scss */
 .client-js .mw-ui-styled-checkbox-label input[type=checkbox] {
-  display: none;
+	display: none;
 }
 /* line 117, sourcefiles/scss/components/default/_forms.scss */
 .client-js .mw-ui-styled-checkbox-label.mw-ui-checked {
-  background: url("../img/form-icon/checked.png") no-repeat;
+	background: url("../img/form-icon/checked.png") no-repeat;
 }
 /* line 121, sourcefiles/scss/components/default/_forms.scss */
 .client-js .mw-ui-styled-checkbox-label.mw-ui-disabled {
-  background-color: lightgrey;
+	background-color: lightgrey;
 }
 /* line 126, sourcefiles/scss/components/default/_forms.scss */
 .client-js .mw-ui-checkbox-label {
-  padding-top: 5px;
+	padding-top: 5px;
 }
 
 /* line 132, sourcefiles/scss/components/default/_forms.scss */
 table.mw-htmlform-container {
-  border-collapse: separate;
-  border-spacing: 0px 4px;
+	border-collapse: separate;
+	border-spacing: 0px 4px;
 }
 
 /* line 137, sourcefiles/scss/components/default/_forms.scss */
 .mw-htmlform-field-HTMLFeatureField .mw-input {
-  padding-top: 10px;
+	padding-top: 10px;
 }
 
 /* line 141, sourcefiles/scss/components/default/_forms.scss */
 .mw-ui-feature-title .mw-ui-text-check-label {
-  font-size: 24px;
-  padding-bottom: 11px;
+	font-size: 24px;
+	padding-bottom: 11px;
 }
 
 /* line 146, sourcefiles/scss/components/default/_forms.scss */
 .mw-ui-feature-title,
 .mw-ui-feature-info-links.filled {
-  width: 100%;
-  border-bottom: 1px solid #e5e5e5;
+	width: 100%;
+	border-bottom: 1px solid #e5e5e5;
 }
 
 /* line 156, sourcefiles/scss/components/default/_forms.scss */
@@ -67,7 +67,7 @@ table.mw-htmlform-container {
 .mw-ui-feature-contain,
 .mw-ui-feature-main,
 .mw-ui-feature-meta {
-  display: inline-block;
+	display: inline-block;
 }
 
 .mw-ui-feature-field {
@@ -77,38 +77,38 @@ table.mw-htmlform-container {
 /* line 161, sourcefiles/scss/components/default/_forms.scss */
 .mw-ui-feature-field,
 .mw-ui-feature-meta {
-  position: relative;
+	position: relative;
 }
 
 /* line 165, sourcefiles/scss/components/default/_forms.scss */
 .mw-ui-feature-checkbox {
-  position: absolute;
-  top: 5px;
+	position: absolute;
+	top: 5px;
 }
 
 /* line 170, sourcefiles/scss/components/default/_forms.scss */
 .mw-ui-feature-contain {
-  margin-left: 42px;
-  width: 80%;
+	margin-left: 42px;
+	width: 80%;
 }
 
 /* line 175, sourcefiles/scss/components/default/_forms.scss */
 .mw-ui-feature-description {
-  padding-right: 10px;
+	padding-right: 10px;
 }
 
 /* line 180, sourcefiles/scss/components/default/_forms.scss */
 .mw-ui-feature-main,
 .mw-ui-feature-meta {
-  width: 50%;
-  vertical-align: top;
+	width: 50%;
+	vertical-align: top;
 }
 
 /* line 186, sourcefiles/scss/components/default/_forms.scss */
 .mw-ui-feature-info-link-contain,
 .mw-ui-feature-discussion-link-contain {
-  border-left: 1px solid #e5e5e5;
-  padding: 5px 18px 4px 18px;
+	border-left: 1px solid #e5e5e5;
+	padding: 5px 18px 4px 18px;
 }
 
 /* line 195, sourcefiles/scss/components/default/_forms.scss */
@@ -117,47 +117,47 @@ table.mw-htmlform-container {
 .mw-ui-feature-discussion-link:hover,
 .mw-ui-feature-discussion-link:active,
 .mw-ui-feature-discussion-link:focus {
-  color: #888888;
-  text-decoration: none;
+	color: #888888;
+	text-decoration: none;
 }
 
 /* line 200, sourcefiles/scss/components/default/_forms.scss */
 .mw-ui-feature-info-link {
-  padding: 2px 8px;
-  background: url("../img/form-icon/feature-information.png") no-repeat;
+	padding: 2px 8px;
+	background: url("../img/form-icon/feature-information.png") no-repeat;
 }
 
 /* line 205, sourcefiles/scss/components/default/_forms.scss */
 .mw-ui-feature-discussion-link-icon {
-  padding: 2px 12px 2px 13px;
-  background: url("../img/form-icon/feature-discussion.svg") no-repeat;
+	padding: 2px 12px 2px 13px;
+	background: url("../img/form-icon/feature-discussion.svg") no-repeat;
 }
 
 /* line 210, sourcefiles/scss/components/default/_forms.scss */
 .mw-ui-feature-discussion-link-text {
-  padding: 2px 8px;
+	padding: 2px 8px;
 }
 
 /* line 214, sourcefiles/scss/components/default/_forms.scss */
 .mw-ui-feature-screenshot-contain {
-  margin: 10px 0px 0px 0px;
-  width: 100%;
+	margin: 10px 0px 0px 0px;
+	width: 100%;
 }
 
 /* line 219, sourcefiles/scss/components/default/_forms.scss */
 .mw-ui-feature-screenshot {
-  border: 1px solid #e5e5e5;
-  max-height: 150px;
-  max-width: 100%;
-  background: #fff;
-  padding: 8px
+	border: 1px solid #e5e5e5;
+	max-height: 150px;
+	max-width: 100%;
+	background: #fff;
+	padding: 8px
 }
 
 /* line 225, sourcefiles/scss/components/default/_forms.scss */
 .mw-ui-feature-user-count {
-  color: #00b08a;
-  padding-top: 6px;
-  padding-bottom: 12px;
+	color: #00b08a;
+	padding-top: 6px;
+	padding-bottom: 12px;
 }
 
 .mw-ui-feature-checkbox .mw-ui-styled-checkbox-label {

@@ -26,8 +26,8 @@ class BetaFeatures {
 	/**
 	 * Check if a user has a beta feature enabled.
 	 *
-	 * @param $user User The user to check
-	 * @param $feature string The key passed back to BetaFeatures from the GetBetaFeaturePreferences hook
+	 * @param User $user The user to check
+	 * @param string $feature The key passed back to BetaFeatures from the GetBetaFeaturePreferences hook
 	 * @return bool
 	 */
 	static function isFeatureEnabled( $user, $feature ) {

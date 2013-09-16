@@ -29,6 +29,10 @@ class BetaFeaturesHooks {
 	// 30 minutes
 	const COUNT_CACHE_TTL = 1800;
 
+	/**
+	 * @param array $prefs
+	 * @return array|mixed
+	 */
 	static function getUserCounts( $prefs ) {
 		global $wgMemc;
 		$key = wfMemcKey( 'betafeatures', 'usercounts' );
@@ -74,9 +78,13 @@ class BetaFeaturesHooks {
 		return $counts;
 	}
 
+	/**
+	 * @param User $user
+	 * @param array $prefs
+	 * @return bool
+	 * @throws BetaFeaturesMissingFieldException
+	 */
 	static function getPreferences( $user, &$prefs ) {
-		global $wgExtensionAssetsPath;
-
 		$betaPrefs = array();
 
 		wfRunHooks( 'GetBetaFeaturePreferences', array( $user, &$betaPrefs ) );
@@ -135,6 +143,10 @@ class BetaFeaturesHooks {
 		return true;
 	}
 
+	/**
+	 * @param User $user
+	 * @param array $prefs
+	 */
 	static function getAutoEnrollPreference( $user, &$prefs ) {
 		global $wgExtensionAssetsPath;
 
@@ -147,6 +159,11 @@ class BetaFeaturesHooks {
 		);
 	}
 
+	/**
+	 * @param array $personal_urls
+	 * @param Title $title
+	 * @return bool
+	 */
 	static function getBetaFeaturesLink( &$personal_urls, $title ) {
 		global $wgUser;
 
@@ -164,12 +181,20 @@ class BetaFeaturesHooks {
 		return true;
 	}
 
+	/**
+	 * @param array $files
+	 * @return bool
+	 */
 	static function getUnitTestsList( &$files ) {
 		$testDir = __DIR__ . '/tests';
 		$files = array_merge( $files, glob( "$testDir/*Test.php" ) );
 		return true;
 	}
 
+	/**
+	 * @param DatabaseUpdater $updater
+	 * @return bool
+	 */
 	static function getSchemaUpdates( $updater ) {
 		$updater->addExtensionTable( 'betafeatures_user_counts',
 			__DIR__ . '/sql/create_counts.sql' );
