@@ -220,13 +220,37 @@ class BetaFeaturesHooks {
 		global $wgUser;
 
 		if ( $wgUser->isLoggedIn() ) {
+			// OK, this is nasty and a little complicated.
+			//
+			// In PHP, arrays are all positional. Even associative ones.
+			// But, with associative arrays, you can't splice a key and a
+			// value into a specific position at once - you're stuck with
+			// whatever order you set the keys in the first place.
+			//
+			// So, we get all the keys and values in separate arrays, we
+			// loop through them all, we put the "Beta" link immediately
+			// after the "Preferences" one, and replace everything else
+			// verbatim.
+			//
+			// TODO: Find a less painful way of doing this.
+
+			$arrayKeys = array_keys( $personal_urls );
+			$arrayVals = array_values( $personal_urls );
+			$personal_urls = array();
+
 			$bfurl = array(
 				'text' => wfMessage( 'betafeatures-toplink' )->text(),
 				'href' => Title::makeTitle( NS_SPECIAL, 'Preferences', 'mw-prefsection-betafeatures' )->getLinkURL(),
 				'active' => $title->isSpecial( 'Preferences' ),
 			);
 
-			$personal_urls['betafeatures'] = $bfurl;
+			foreach ( $arrayKeys as $i => $key ) {
+				$personal_urls[$key] = $arrayVals[$i];
+
+				if ( $key === 'preferences' ) {
+					$personal_urls['betafeatures'] = $bfurl;
+				}
+			}
 		}
 
 		return true;
