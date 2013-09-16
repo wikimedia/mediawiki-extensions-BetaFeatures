@@ -108,8 +108,6 @@ class BetaFeaturesHooks {
 				'screenshot' => false,
 			);
 
-			$complete = true;
-
 			foreach ( $requiredFields as $field => $required ) {
 				if ( isset( $info[$field] ) ) {
 					$opt[$field] = $info[$field];
@@ -117,26 +115,23 @@ class BetaFeaturesHooks {
 					// A required field isn't present in the info array
 					// we got from the GetBetaFeaturePreferences hook.
 					// Don't add this feature to the form.
-					$complete = false;
 					throw new BetaFeaturesMissingFieldException( "The field {$field} was missing from the beta feature {$key}." );
 				}
 			}
 
-			if ( $complete ) {
-				if ( isset( $counts[$key] ) ) {
-					$opt['user-count'] = $counts[$key];
-				}
+			if ( isset( $counts[$key] ) ) {
+				$opt['user-count'] = $counts[$key];
+			}
 
-				$prefs[$key] = $opt;
+			$prefs[$key] = $opt;
 
-				$currentValue = $user->getOption( $key );
-				if ( $currentValue !== HTMLFeatureField::OPTION_ENABLED &&
-						$currentValue !== HTMLFeatureField::OPTION_DISABLED &&
-						$user->getOption( 'beta-feature-auto-enroll' ) === HTMLFeatureField::OPTION_ENABLED ) {
-					// We haven't seen this before, and the user has auto-enroll enabled!
-					// Set the option to true.
-					$user->setOption( $key, HTMLFeatureField::OPTION_ENABLED );
-				}
+			$currentValue = $user->getOption( $key );
+			if ( $currentValue !== HTMLFeatureField::OPTION_ENABLED &&
+					$currentValue !== HTMLFeatureField::OPTION_DISABLED &&
+					$user->getOption( 'beta-feature-auto-enroll' ) === HTMLFeatureField::OPTION_ENABLED ) {
+				// We haven't seen this before, and the user has auto-enroll enabled!
+				// Set the option to true.
+				$user->setOption( $key, HTMLFeatureField::OPTION_ENABLED );
 			}
 		}
 
