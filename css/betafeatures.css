@@ -17,7 +17,7 @@
 	-ms-border-radius: 2px;
 	-o-border-radius: 2px;
 	border-radius: 2px;
-	margin-right: 3px;
+	margin-right: 18px;
 }
 /* line 103, sourcefiles/scss/components/default/_forms.scss */
 .client-js .mw-ui-styled-checkbox-label input[type=checkbox] {
@@ -25,7 +25,7 @@
 }
 /* line 117, sourcefiles/scss/components/default/_forms.scss */
 .client-js .mw-ui-styled-checkbox-label.mw-ui-checked {
-	background: url("../img/form-icon/checked.png") no-repeat;
+	background: url("../img/form-icon/checked.svg") no-repeat;
 }
 /* line 121, sourcefiles/scss/components/default/_forms.scss */
 .client-js .mw-ui-styled-checkbox-label.mw-ui-disabled {
@@ -45,6 +45,10 @@ table.mw-htmlform-container {
 /* line 137, sourcefiles/scss/components/default/_forms.scss */
 .mw-htmlform-field-HTMLFeatureField .mw-input {
 	padding-top: 10px;
+}
+
+.mw-ui-feature-title {
+	padding-bottom: 4px;
 }
 
 /* line 141, sourcefiles/scss/components/default/_forms.scss */
@@ -108,7 +112,7 @@ table.mw-htmlform-container {
 .mw-ui-feature-info-link-contain,
 .mw-ui-feature-discussion-link-contain {
 	border-left: 1px solid #e5e5e5;
-	padding: 5px 18px 4px 18px;
+	padding: 5px 18px 8px;
 }
 
 /* line 195, sourcefiles/scss/components/default/_forms.scss */
@@ -162,4 +166,12 @@ table.mw-htmlform-container {
 
 .mw-ui-feature-checkbox .mw-ui-styled-checkbox-label {
 	margin-right: 9px;
+}
+
+label.mw-ui-text-check-label[for="mw-input-wpbetafeatures-auto-enroll"] {
+	color: #a3a3a3;
+}
+
+.mw-htmlform-field-HTMLTextBlockField .mw-input {
+	padding-bottom: 15px;
 }
