@@ -33,49 +33,106 @@ class BetaFeaturesHooks {
 	 * @param array $prefs
 	 * @return array|mixed
 	 */
-	static function getUserCounts( $prefs ) {
+	private static function getUserCountsFromDb( $prefs ) {
 		global $wgMemc;
-		$key = wfMemcKey( 'betafeatures', 'usercounts' );
-		$counts = $wgMemc->get( $key );
 
-		if ( $counts === false ) {
-			$jqg = JobQueueGroup::singleton();
+		$jqg = JobQueueGroup::singleton();
 
-			// If we aren't waiting to update the counts, push a job to do it.
-			// Only one job in this queue at a time.
-			// Will only get added once every thirty minutes, when the
-			// cache is invalidated.
-			if ( $jqg->get( 'updateBetaFeaturesUserCounts' )->isEmpty() ) {
-				$updateJob = new UpdateBetaFeatureUserCountsJob(
-					Title::newMainPage(),
-					array(
-						'prefs' => $prefs,
-					)
-				);
-				$jqg->push( $updateJob );
-			}
-
-			$counts = array();
-			$dbr = wfGetDB( DB_SLAVE );
-			$res = $dbr->select(
-				'betafeatures_user_counts',
+		// If we aren't waiting to update the counts, push a job to do it.
+		// Only one job in this queue at a time.
+		// Will only get added once every thirty minutes, when the
+		// cache is invalidated.
+		if ( $jqg->get( 'updateBetaFeaturesUserCounts' )->isEmpty() ) {
+			$updateJob = new UpdateBetaFeatureUserCountsJob(
+				Title::newMainPage(),
 				array(
-					'feature',
-					'number',
-				),
-				array(),
-				__METHOD__
+					'prefs' => $prefs,
+				)
 			);
+			$jqg->push( $updateJob );
+		}
 
-			foreach ( $res as $row ) {
-				$counts[$row->feature] = $row->number;
-			}
+		$counts = array();
+		$dbr = wfGetDB( DB_SLAVE );
+		$res = $dbr->select(
+			'betafeatures_user_counts',
+			array(
+				'feature',
+				'number',
+			),
+			array(),
+			__METHOD__
+		);
+
+		foreach ( $res as $row ) {
+			$counts[$row->feature] = $row->number;
 
 			// Cache for 30 minutes
-			$wgMemc->set( $key, $counts, self::COUNT_CACHE_TTL );
+			$key = wfMemcKey( 'betafeatures', 'usercounts', $row->feature );
+			$wgMemc->set( $key, $row->number, self::COUNT_CACHE_TTL );
 		}
 
 		return $counts;
+	}
+
+	/**
+	 * @param array $prefs
+	 * @return array|mixed
+	 */
+	static function getUserCounts( $prefs ) {
+		global $wgMemc;
+
+		$counts = array();
+
+		foreach ( $prefs as $pref ) {
+			$key = wfMemcKey( 'betafeatures', 'usercounts', $pref );
+			$count = $wgMemc->get( $key );
+
+			if ( $count === false ) {
+				// Stop trying, go update the database
+				// TODO better heuristic?
+				return self::getUserCountsFromDb( $prefs );
+			}
+
+			$counts[$pref] = $count;
+		}
+
+		return $counts;
+	}
+
+	/**
+	 * @param User $user User who's just saved their preferences
+	 * @param array &$options List of options
+	 */
+	static function updateUserCounts( $user, &$options ) {
+		global $wgMemc;
+
+		// Let's find out what's changed
+		$oldUser = User::newFromName( $user->getName() );
+		$betaFeatures = array();
+		wfRunHooks( 'GetBetaFeaturePreferences', array( $user, &$betaFeatures ) );
+
+		foreach ( $betaFeatures as $name => $option ) {
+			$newVal = $user->getOption( $name );
+			$oldVal = $oldUser->getOption( $name );
+
+			if ( $oldVal === $newVal ||
+					( $oldVal === null &&
+						$newVal === HTMLFeatureField::OPTION_DISABLED ) ) {
+				// Nothing changed, carry on
+				continue;
+			}
+
+			$key = wfMemcKey( 'betafeatures', 'usercounts', $name );
+
+			if ( $newVal === HTMLFeatureField::OPTION_ENABLED ) {
+				$wgMemc->incr( $key );
+			} else {
+				$wgMemc->decr( $key );
+			}
+		}
+
+		return true;
 	}
 
 	/**

@@ -29,6 +29,7 @@ $wgAutoloadClasses['UpdateBetaFeatureUserCountsJob'] = __DIR__ . '/includes/Upda
 
 $wgExtensionMessagesFiles['BetaFeatures'] = __DIR__ . '/BetaFeatures.i18n.php';
 
+$wgHooks['UserSaveOptions'][] = 'BetaFeaturesHooks::updateUserCounts';
 $wgHooks['GetBetaFeaturePreferences'] = array();
 $wgHooks['GetPreferences'][] = 'BetaFeaturesHooks::getPreferences';
 $wgHooks['PersonalUrls'][] = 'BetaFeaturesHooks::getBetaFeaturesLink';
