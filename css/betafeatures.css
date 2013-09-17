@@ -17,7 +17,7 @@
 	-ms-border-radius: 2px;
 	-o-border-radius: 2px;
 	border-radius: 2px;
-	margin-right: 3px;
+	margin-right: 18px;
 }
 /* line 103, sourcefiles/scss/components/default/_forms.scss */
 .client-js .mw-ui-styled-checkbox-label input[type=checkbox] {
@@ -25,7 +25,7 @@
 }
 /* line 117, sourcefiles/scss/components/default/_forms.scss */
 .client-js .mw-ui-styled-checkbox-label.mw-ui-checked {
-	background: url("../img/form-icon/checked.png") no-repeat;
+	background: url("../img/form-icon/checked.svg") no-repeat;
 }
 /* line 121, sourcefiles/scss/components/default/_forms.scss */
 .client-js .mw-ui-styled-checkbox-label.mw-ui-disabled {
@@ -47,10 +47,13 @@ table.mw-htmlform-container {
 	padding-top: 10px;
 }
 
+.mw-ui-feature-title {
+	padding-bottom: 8px;
+}
+
 /* line 141, sourcefiles/scss/components/default/_forms.scss */
 .mw-ui-feature-title .mw-ui-text-check-label {
 	font-size: 24px;
-	padding-bottom: 11px;
 }
 
 /* line 146, sourcefiles/scss/components/default/_forms.scss */
@@ -72,11 +75,6 @@ table.mw-htmlform-container {
 
 .mw-ui-feature-field {
 	margin-bottom: 68px;
-}
-
-/* line 161, sourcefiles/scss/components/default/_forms.scss */
-.mw-ui-feature-field,
-.mw-ui-feature-meta {
 	position: relative;
 }
 
@@ -86,7 +84,15 @@ table.mw-htmlform-container {
 	top: 5px;
 }
 
-/* line 170, sourcefiles/scss/components/default/_forms.scss */
+.mw-htmlform-field-HTMLHorizontalRuleField .mw-input hr {
+	background-color: #e5e5e5;
+}
+
+.mw-htmlform-field-HTMLHorizontalRuleField .mw-input {
+	padding-top: 15px;
+}
+
+.mw-htmlform-field-HTMLHorizontalRuleField .mw-input hr,
 .mw-ui-feature-contain {
 	margin-left: 42px;
 	width: 80%;
@@ -108,7 +114,7 @@ table.mw-htmlform-container {
 .mw-ui-feature-info-link-contain,
 .mw-ui-feature-discussion-link-contain {
 	border-left: 1px solid #e5e5e5;
-	padding: 5px 18px 4px 18px;
+	padding: 3px 18px 14px;
 }
 
 /* line 195, sourcefiles/scss/components/default/_forms.scss */
@@ -140,7 +146,7 @@ table.mw-htmlform-container {
 
 /* line 214, sourcefiles/scss/components/default/_forms.scss */
 .mw-ui-feature-screenshot-contain {
-	margin: 10px 0px 0px 0px;
+	padding-top: 28px;
 	width: 100%;
 }
 
@@ -150,16 +156,24 @@ table.mw-htmlform-container {
 	max-height: 150px;
 	max-width: 100%;
 	background: #fff;
-	padding: 8px
+	padding: 8px;
 }
 
 /* line 225, sourcefiles/scss/components/default/_forms.scss */
 .mw-ui-feature-user-count {
 	color: #00b08a;
-	padding-top: 6px;
-	padding-bottom: 12px;
+	margin-top: 22px;
+	margin-bottom: 12px;
 }
 
 .mw-ui-feature-checkbox .mw-ui-styled-checkbox-label {
 	margin-right: 9px;
+}
+
+label.mw-ui-text-check-label[for="mw-input-wpbetafeatures-auto-enroll"] {
+	color: #a3a3a3;
+}
+
+.mw-htmlform-field-HTMLTextBlockField .mw-input {
+	padding-bottom: 15px;
 }

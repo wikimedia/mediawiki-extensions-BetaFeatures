@@ -34,8 +34,8 @@ $messages['en'] = array(
 	'betafeatures-desc' => 'Lets user enable or disable features on the wiki that are still not ready for prime-time',
 	'betafeatures-toplink' => 'Beta',
 
-	'betafeatures-auto-enroll' => 'Auto-enroll in all beta features',
-	'betafeatures-auto-enroll-desc' => 'This is for early adopters who want to see all experimental features as they are released. Your account will automatically get the latest features when they come out. You may also opt-out of individual features later.',
+	'betafeatures-auto-enroll' => 'Automatically enable all new beta features',
+	'betafeatures-section-desc' => 'Here {{PLURAL:$1|is a new feature|are some new features}} we\'re considering for $2. Please try them out and give us your thoughts, so we can improve them based on your feedback.',
 
 	// Test messages
 	'betafeatures-test-check-field' => 'blah blah blah', # do not translate or duplicate this message to other languages

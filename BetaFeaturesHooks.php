@@ -142,10 +142,30 @@ class BetaFeaturesHooks {
 	 * @throws BetaFeaturesMissingFieldException
 	 */
 	static function getPreferences( $user, &$prefs ) {
+		global $wgSitename;
+
 		$betaPrefs = array();
 		$depHooks = array();
 
 		wfRunHooks( 'GetBetaFeaturePreferences', array( $user, &$betaPrefs ) );
+
+		$prefs['betafeatures-section-desc'] = array(
+			'class' => 'HTMLTextBlockField',
+			'label' => wfMessage( 'betafeatures-section-desc', count( $betaPrefs ), $wgSitename )->text(),
+			'section' => 'betafeatures',
+		);
+
+		$prefs['betafeatures-auto-enroll'] = array(
+			'class' => 'NewHTMLCheckField',
+			'label-message' => 'betafeatures-auto-enroll',
+			'section' => 'betafeatures',
+		);
+
+		// Purely visual field.
+		$prefs['betafeatures-breaking-hr'] = array(
+			'class' => 'HTMLHorizontalRuleField',
+			'section' => 'betafeatures',
+		);
 
 		$counts = self::getUserCounts( array_keys( $betaPrefs ) );
 
@@ -232,22 +252,6 @@ class BetaFeaturesHooks {
 		$user->saveSettings();
 
 		return true;
-	}
-
-	/**
-	 * @param User $user
-	 * @param array $prefs
-	 */
-	static function getAutoEnrollPreference( $user, &$prefs ) {
-		global $wgExtensionAssetsPath;
-
-		$prefs['beta-feature-auto-enroll'] = array(
-			'label-message' => 'betafeatures-auto-enroll',
-			'desc-message' => 'betafeatures-auto-enroll-desc',
-			'info-link' => 'https://mediawiki.org/wiki/Extension:BetaFeatures/Auto-enrollment',
-			'discussion-link' => 'https://mediawiki.org/wiki/Extension_talk:BetaFeatures/Auto-enrollment',
-			'screenshot' => $wgExtensionAssetsPath . '/BetaFeatures/images/all-beta.png',
-		);
 	}
 
 	/**
