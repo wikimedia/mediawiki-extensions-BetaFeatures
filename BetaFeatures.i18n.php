@@ -287,10 +287,11 @@ $messages['ko'] = array(
 
 /** Latin (Latina)
  * @author Autokrator
+ * @author UV
  */
 $messages['la'] = array(
 	'mw-ui-feature-discuss' => 'discussio',
-	'mw-ui-feature-user-count' => '{{PLURAL:$1|Unus usor|$1 usores}} hac facultate utuntur.',
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|Unus usor hac facultate utitur.|$1 usores hac facultate utuntur.}}',
 	'prefs-betafeatures' => 'Facultates experimentales',
 	'betafeatures-toplink' => 'Facultates experimentales',
 	'betafeatures-auto-enroll' => 'Automatice omnibus facultatibus experimentalibus utere',
