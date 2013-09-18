@@ -143,12 +143,31 @@ class BetaFeaturesHooks {
 	 */
 	static function getPreferences( $user, &$prefs ) {
 		$betaPrefs = array();
+		$depHooks = array();
 
 		wfRunHooks( 'GetBetaFeaturePreferences', array( $user, &$betaPrefs ) );
 
 		$counts = self::getUserCounts( array_keys( $betaPrefs ) );
 
+		// Set up dependency hooks array
+		// This complex structure brought to you by Per-Wiki Configuration,
+		// coming soon to a wiki very near you.
+		wfRunHooks( 'GetBetaFeatureDependencyHooks', array( &$depHooks ) );
+
 		foreach ( $betaPrefs as $key => $info ) {
+			if ( isset( $info['dependent'] ) && $info['dependent'] === true ) {
+				$success = true;
+
+				if ( isset( $depHooks[$key] ) ) {
+					$success = wfRunHooks( $depHooks[$key] );
+				}
+
+				if ( $success !== true ) {
+					// Skip this preference!
+					continue;
+				}
+			}
+
 			$opt = array(
 				'class' => 'HTMLFeatureField',
 				'section' => 'betafeatures',

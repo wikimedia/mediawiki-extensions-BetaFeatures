@@ -31,6 +31,7 @@ $wgExtensionMessagesFiles['BetaFeatures'] = __DIR__ . '/BetaFeatures.i18n.php';
 
 $wgHooks['UserSaveOptions'][] = 'BetaFeaturesHooks::updateUserCounts';
 $wgHooks['GetBetaFeaturePreferences'] = array();
+$wgHooks['GetBetaFeatureDependencyHooks'] = array();
 $wgHooks['GetPreferences'][] = 'BetaFeaturesHooks::getPreferences';
 $wgHooks['PersonalUrls'][] = 'BetaFeaturesHooks::getBetaFeaturesLink';
 $wgHooks['GetBetaFeaturePreferences'][] = 'BetaFeaturesHooks::getAutoEnrollPreference';
