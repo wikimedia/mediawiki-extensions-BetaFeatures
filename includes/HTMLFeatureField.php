@@ -60,7 +60,7 @@ class HTMLFeatureField extends NewHTMLCheckField {
 
 		$html .= Html::rawElement( 'div', array(
 			'class' => 'mw-ui-feature-checkbox',
-		), $this->getPreCheckboxLabelHTML( $value ) . $this->getCheckboxHtml( $value, $attrs ) );
+		), $this->getCheckboxHtml( $value, $attrs ) );
 
 		$html .= Html::openElement( 'div', array(
 			'class' => 'mw-ui-feature-contain',

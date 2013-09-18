@@ -36,6 +36,10 @@ $messages['en'] = array(
 
 	'betafeatures-auto-enroll' => 'Auto-enroll in all beta features',
 	'betafeatures-auto-enroll-desc' => 'This is for early adopters who want to see all experimental features as they are released. Your account will automatically get the latest features when they come out. You may also opt-out of individual features later.',
+
+	// Test messages
+	'betafeatures-test-check-field' => 'blah blah blah', # do not translate or duplicate this message to other languages
+	'betafeatures-test-feature-field' => 'This is a test feature - it should not show up.', # do not translate or duplicate this message to other languages
 );
 
 /** Message documentation (Message documentation)

@@ -36,6 +36,23 @@ class NewHTMLCheckField extends HTMLFormField {
 			$value = !$value;
 		}
 
+		$labelClasses = array( 'mw-ui-styled-checkbox-label' );
+		$labelAttrs = array( 'for' => $this->mID );
+
+		if ( isset( $this->mParams['disabled'] ) && $this->mParams['disabled'] === true ) {
+			$labelClasses[] = 'mw-ui-disabled';
+		}
+
+		if ( $value ) {
+			$labelClasses[] = 'mw-ui-checked';
+		}
+
+		$labelAttrs['class'] = $labelClasses;
+
+		if ( !empty( $this->mParams['invert'] ) ) {
+			$value = !$value;
+		}
+
 		if ( $attr === null ) {
 			$attr = $this->getTooltipAndAccessKey();
 		}
@@ -60,44 +77,15 @@ class NewHTMLCheckField extends HTMLFormField {
 
 		$attr['class'] = implode( ' ', $classes );
 
-		return Xml::check( $this->mName, $value, $attr ) . '&#160;';
-	}
-
-	/**
-	 * @param $value
-	 * @return string
-	 */
-	protected function getPreCheckboxLabelHTML( $value ) {
-		if ( !empty( $this->mParams['invert'] ) ) {
-			$value = !$value;
-		}
-
-		$labelClasses = array( 'mw-ui-styled-checkbox-label' );
-		$labelAttrs = array( 'for' => $this->mID );
-
-		if ( isset( $this->mParams['disabled'] ) && $this->mParams['disabled'] === true ) {
-			$labelClasses[] = 'mw-ui-disabled';
-		}
-
-		if ( $value ) {
-			$labelClasses[] = 'mw-ui-checked';
-		}
-
-		$labelAttrs['class'] = $labelClasses;
-
 		$this->mParent->getOutput()->addModules( 'ext.betaFeatures' );
-		return Html::openElement( 'label', $labelAttrs );
+		return Html::rawElement( 'label', $labelAttrs, Xml::check( $this->mName, $value, $attr ) . '&#160;' );
 	}
 
 	/**
 	 * @return string
 	 */
 	protected function getPostCheckboxLabelHTML() {
-		$html = Html::closeElement( 'label' );
-
-		$html .= Html::rawElement( 'label', array( 'for' => $this->mID, 'class' => 'mw-ui-text-check-label' ), $this->mLabel );
-
-		return $html;
+		return Html::rawElement( 'label', array( 'for' => $this->mID, 'class' => 'mw-ui-text-check-label' ), $this->mLabel );
 	}
 
 	/**
@@ -106,9 +94,7 @@ class NewHTMLCheckField extends HTMLFormField {
 	 * @return String
 	 */
 	function getInputHTML( $value, $attr = null ) {
-		return $this->getPreCheckboxLabelHTML( $value, $attr ) .
-			$this->getCheckboxHTML( $value, $attr ) .
-			$this->getPostCheckboxLabelHTML();
+		return $this->getCheckboxHTML( $value, $attr ) . $this->getPostCheckboxLabelHTML();
 	}
 
 	/**
