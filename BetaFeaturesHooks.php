@@ -163,10 +163,9 @@ class BetaFeaturesHooks {
 		global $wgUser;
 
 		if ( $wgUser->isLoggedIn() ) {
-			$skin = $wgUser->getSkin();
 			$bfurl = array(
 				'text' => wfMessage( 'betafeatures-toplink' )->text(),
-				'href' => $skin->makeSpecialUrl( 'Preferences' ) . '#mw-prefsection-betafeatures',
+				'href' => Title::makeTitle( NS_SPECIAL, 'Preferences', 'mw-prefsection-betafeatures' )->getLinkURL(),
 				'active' => $title->isSpecial( 'Preferences' ),
 			);
 
