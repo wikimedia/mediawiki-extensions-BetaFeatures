@@ -32,7 +32,7 @@ $messages['en'] = array(
 
 	'prefs-betafeatures' => 'Beta features',
 	'betafeatures-desc' => 'Lets user enable or disable features on the wiki that are still not ready for prime-time',
-	'betafeatures-toplink' => 'Beta features',
+	'betafeatures-toplink' => 'Beta',
 
 	'betafeatures-auto-enroll' => 'Auto-enroll in all beta features',
 	'betafeatures-auto-enroll-desc' => 'This is for early adopters who want to see all experimental features as they are released. Your account will automatically get the latest features when they come out. You may also opt-out of individual features later.',
@@ -81,8 +81,13 @@ $messages['ast'] = array(
  * @author Geopoet
  */
 $messages['bcl'] = array(
+	'mw-ui-feature-discuss' => 'orolayan',
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|Sarong paragamit|$1 na mga paragamit}} pinagpagana an posturang ini.',
+	'prefs-betafeatures' => 'Mga posturang yaon sa beta',
 	'betafeatures-desc' => 'Minatugot sa paragamit na paganahon o pauntukon an mga postura kaining wiki na dae pa man handa para sa premyadong-panahon',
-	'betafeatures-toplink' => 'Beta na mga Postura',
+	'betafeatures-toplink' => 'Beta',
+	'betafeatures-auto-enroll' => 'Awtomatikong magpalista sa gabos na mga posturang yaon sa beta',
+	'betafeatures-auto-enroll-desc' => 'Ini para sa dating mga para-adaptar na boot mahiling an gabos na eksperimental na mga postura mantang sinda pinagbuhi. An saimong panindog awtomatikong makakapagkua nin pinakahuring mga postura kunsoarin na sinda minaluwas pa sana. Ika puwede man na makapagpili na maghali kan indibidwal na mga postura aro-atyan.',
 );
 
 /** Bengali (বাংলা)
@@ -153,7 +158,7 @@ $messages['de'] = array(
 	'mw-ui-feature-user-count' => '{{PLURAL:$1|Ein Benutzer hat|$1 Benutzer haben}} diese Funktion aktiviert.',
 	'prefs-betafeatures' => 'Beta-Funktionen',
 	'betafeatures-desc' => 'Ermöglicht Benutzern das Aktivieren oder Deaktivieren von Funktionen in diesem Wiki, die sich noch in der Entwicklung befinden',
-	'betafeatures-toplink' => 'Beta-Funktionen',
+	'betafeatures-toplink' => 'Beta',
 	'betafeatures-auto-enroll' => 'Automatisch bei allen Beta-Funktionen anmelden',
 	'betafeatures-auto-enroll-desc' => 'Das ist für „Early Adopters“, die alle experimentellen Funktionen nach der Veröffentlichung sehen wollen. Dein Benutzerkonto erhält automatisch die aktuellsten Funktionen, wenn sie erscheinen. Du kannst dich auch später von einzelnen Funktionen abmelden.',
 );
@@ -190,7 +195,7 @@ $messages['fr'] = array(
 	'mw-ui-feature-user-count' => '{{PLURAL:$1|Un utilisateur a|$1 utilisateurs ont}} activé cette fonctionnalité.',
 	'prefs-betafeatures' => 'Fonctionnalités bêta',
 	'betafeatures-desc' => 'Laisse l’utilisateur activer ou désactiver les fonctionnalités sur ce wiki qui ne sont pas encore prêtes pour être généralisées',
-	'betafeatures-toplink' => 'Fonctionnalités en bêta',
+	'betafeatures-toplink' => 'Bêta',
 	'betafeatures-auto-enroll' => 'Souscrire automatiquement aux fonctionnalités en bêta',
 	'betafeatures-auto-enroll-desc' => "Ce service s'adresse aux utilisateurs qui veulent profiter au plus tôt des fonctionnalités expérimentales. Pour votre compte, elles seront automatiquement activées au fur et à mesure qu'elles sont disponibles. Vous pourrez les désactiver par la suite.",
 );
@@ -245,7 +250,7 @@ $messages['it'] = array(
 	'mw-ui-feature-user-count' => '{{PLURAL:$1|Un utente ha|$1 utenti hanno}} abilitato questa funzione.',
 	'prefs-betafeatures' => 'Funzionalità beta',
 	'betafeatures-desc' => "Consente all'utente di attivare o disattivare sul wiki funzioni che non sono ancora pronte per il grande pubblico",
-	'betafeatures-toplink' => 'Funzionalità beta',
+	'betafeatures-toplink' => 'Funzionalità beta', # Fuzzy
 	'betafeatures-auto-enroll' => 'Registrazione automatica per tutte le funzioni beta',
 	'betafeatures-auto-enroll-desc' => 'Questo è per i primi utilizzatori che vogliono vedere tutte le funzioni sperimentali che vengono rilasciate. Il tuo account automaticamente otterrà le funzionalità più recenti quando vengono rilasciate. Puoi anche scegliere di rinunciare alle funzionalità individuali successivamente.',
 );
@@ -293,7 +298,7 @@ $messages['la'] = array(
 	'mw-ui-feature-discuss' => 'discussio',
 	'mw-ui-feature-user-count' => '{{PLURAL:$1|Unus usor hac facultate utitur.|$1 usores hac facultate utuntur.}}',
 	'prefs-betafeatures' => 'Facultates experimentales',
-	'betafeatures-toplink' => 'Facultates experimentales',
+	'betafeatures-toplink' => 'Facultates experimentales', # Fuzzy
 	'betafeatures-auto-enroll' => 'Automatice omnibus facultatibus experimentalibus utere',
 );
 
@@ -305,7 +310,7 @@ $messages['lb'] = array(
 	'mw-ui-feature-user-count' => '{{PLURAL:$1|Ee Benotzer huet|$1 Benotzer hunn}} dës Fonctioun aktivéiert.',
 	'prefs-betafeatures' => 'Beta-Fonctiounen',
 	'betafeatures-desc' => 'Léisst Benotzer Fonctiounen op der Wiki aktivéieren oder desaktivéieren déi nach net fäerdeg entwéckelt sinn',
-	'betafeatures-toplink' => 'Beta-Fonctiounen',
+	'betafeatures-toplink' => 'Beta',
 	'betafeatures-auto-enroll' => 'Automatesch bäi alle Beta-Fonctiounen umellen',
 	'betafeatures-auto-enroll-desc' => 'Dat ass fir "Early Adopters", déi all experimentell Funktiounen no der Verëffentlechung gesi wëllen. Äre Benotzerkont huet dann automatesch déi aktuellst Funktiounen, esou bal wéi se erauskommen. Dir kënnt Iech och méi spéit vun eenzelne Funktiounen afmellen.',
 );
@@ -326,7 +331,7 @@ $messages['mk'] = array(
 	'mw-ui-feature-user-count' => 'Функцијата ја {{PLURAL:$1|има вклученоо еден корисник|имаат вклучено $1 корисници}}.',
 	'prefs-betafeatures' => 'Бета-можности',
 	'betafeatures-desc' => 'Овозможува корисникот да вклучува и исклучува можности што сè уште не се воведени како стандардни',
-	'betafeatures-toplink' => 'Бета-можности',
+	'betafeatures-toplink' => 'Бета',
 	'betafeatures-auto-enroll' => 'Автоматски вклучувај бета-можности',
 	'betafeatures-auto-enroll-desc' => 'Ова е за смелите и бестрашни корисници што сакаат да ја видат сите експериментални функции веднаш штом ќе излезе. На вашата сметка автоматски ќе се појавуваат најновите експериментални можности во моментот кога ќе станат достпни. Можете да се навратите на страницава и да изберете кои од нив не сакате да ги користите.',
 );
@@ -404,11 +409,8 @@ $messages['ru'] = array(
  * @author WikiPhoenix
  */
 $messages['sv'] = array(
-	'betafeatures' => 'Betafunktioner',
-	'betafetaures-intro' => 'På denna sida kan du aktivera eller inaktivera funktioner på denna wiki som fortfarande är i betastadiet. Dessa funktioner kanske inte fungerar lika bra som du är van vid, så aktivera dem på egen risk!',
-	'betafeatures-enable-all' => 'Aktivera alla betafunktioner',
 	'betafeatures-desc' => 'Låter användare aktivera eller inaktivera funktioner på wikin som fortfarande inte är helt färdiga',
-	'betafeatures-enable-all-desc' => 'Om du aktiverar detta val kommer alla inställningar på denna sida, oavsett deras faktiska värde, sättas till "sant" i databasen. Använd försiktigt!',
+	'betafeatures-toplink' => 'Beta',
 );
 
 /** Ukrainian (українська)
@@ -420,7 +422,7 @@ $messages['uk'] = array(
 	'mw-ui-feature-user-count' => '{{PLURAL:$1|Один користувач вже увімкнув|$1 користувачі вже увімкнули|$1 користувачів вже увімкнули}} цю функцію.',
 	'prefs-betafeatures' => 'Бета-функції',
 	'betafeatures-desc' => 'Дозволяє користувачу вмикати чи вимикати функції вікі, все ще не готові до прайм-тайму',
-	'betafeatures-toplink' => 'Бета-функції',
+	'betafeatures-toplink' => 'Бета',
 	'betafeatures-auto-enroll' => 'Автоматичний запис на всіх бета-функції',
 	'betafeatures-auto-enroll-desc' => 'Це для перших користувачів, які хочуть бачити усі експериментальні функції, як тільки-но вони появляються. Ваш обліковий запис буде автоматично отримувати новітні функції, коли вони виходять. Ви може також відмовитися від індивідуальних особливостей пізніше.',
 );
