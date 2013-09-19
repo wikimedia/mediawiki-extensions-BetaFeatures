@@ -154,6 +154,15 @@ class BetaFeaturesHooks {
 		// coming soon to a wiki very near you.
 		wfRunHooks( 'GetBetaFeatureDependencyHooks', array( &$depHooks ) );
 
+		$autoEnrollAll = $user->getOption( 'beta-feature-auto-enroll' ) === HTMLFeatureField::OPTION_ENABLED;
+		$autoEnroll = array();
+
+		foreach ( $betaPrefs as $key => $info ) {
+			if ( isset( $info['auto-enrollment'] ) ) {
+				$autoEnroll[$info['auto-enrollment']] = $key;
+			}
+		}
+
 		foreach ( $betaPrefs as $key => $info ) {
 			if ( isset( $info['dependent'] ) && $info['dependent'] === true ) {
 				$success = true;
@@ -202,14 +211,25 @@ class BetaFeaturesHooks {
 			$prefs[$key] = $opt;
 
 			$currentValue = $user->getOption( $key );
+
+			$autoEnrollForThisPref = false;
+
+			if ( isset( $info['group'] ) && isset( $autoEnroll[$info['group']] ) ) {
+				$autoEnrollForThisPref = $user->getOption( $autoEnroll[$info['group']] ) === HTMLFeatureField::OPTION_ENABLED;
+			}
+
+			$autoEnrollHere = $autoEnrollAll === true || $autoEnrollForThisPref === true;
+
 			if ( $currentValue !== HTMLFeatureField::OPTION_ENABLED &&
 					$currentValue !== HTMLFeatureField::OPTION_DISABLED &&
-					$user->getOption( 'beta-feature-auto-enroll' ) === HTMLFeatureField::OPTION_ENABLED ) {
+					$autoEnrollHere === true ) {
 				// We haven't seen this before, and the user has auto-enroll enabled!
 				// Set the option to true.
 				$user->setOption( $key, HTMLFeatureField::OPTION_ENABLED );
 			}
 		}
+
+		$user->saveSettings();
 
 		return true;
 	}
