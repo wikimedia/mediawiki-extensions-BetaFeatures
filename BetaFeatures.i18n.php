@@ -156,9 +156,9 @@ $messages['cy'] = array(
 	'mw-ui-feature-user-count' => "{{PLURAL:$1|Nid oes unrhyw ddefnyddiwr|Mae $1 defnyddiwr|Mae $1 ddefnyddiwr|Mae $1 defnyddiwr}} wedi galluogi'r nodwedd hon.",
 	'prefs-betafeatures' => 'Nodweddion beta',
 	'betafeatures-desc' => "Yn galluogi'r defnyddiwr i alluogi nodweddion ar y wici nad ydynt yn barod i'w llwyr fabwysiadu eto, neu i'w hanalluogi.",
-	'betafeatures-toplink' => 'Nodweddion Beta',
+	'betafeatures-toplink' => 'Beta',
 	'betafeatures-auto-enroll' => "Ymuno'n awtomatig yn yr holl nodweddion beta",
-	'betafeatures-auto-enroll-desc' => "Mae hwn ar gyfer pobl mentrus sydd am fod ar flaen y gad yn defnyddio nodweddion newydd arbrofol cyn gynted â bod modd. Bydd eich cyfrif yn derbyn yr holl nodweddion diweddaraf wrth iddynt ymddangos. Gallwch analluogi'r rhai nad ydych am eu defnyddio unrhywbryd, ar y dudalen hon. Dyma'r ffordd i sefyll ar flaen y gad ar y wefan hon.", # Fuzzy
+	'betafeatures-auto-enroll-desc' => "Mae hwn ar gyfer pobl sydd am fod ar flaen y gad yn defnyddio nodweddion newydd arbrofol cyn gynted â bod modd. Bydd eich cyfrif yn derbyn yr holl nodweddion diweddaraf wrth iddynt ymddangos. Gallwch analluogi'r rhai nad ydych am eu defnyddio unrhywbryd.",
 );
 
 /** German (Deutsch)
@@ -289,6 +289,7 @@ $messages['kk-cyrl'] = array(
 
 /** Korean (한국어)
  * @author AlexPark
+ * @author Kwj2772
  * @author 아라
  */
 $messages['ko'] = array(
@@ -296,9 +297,9 @@ $messages['ko'] = array(
 	'mw-ui-feature-user-count' => '{{PLURAL:$1|사용자 한 명|사용자 $1명}}이 이 기능을 활성화했습니다.',
 	'prefs-betafeatures' => '베타 기능',
 	'betafeatures-desc' => '사용자가 아직 준비가 되지 않은 위키에서 기능을 활성화하거나 비활성화할 수 있습니다',
-	'betafeatures-toplink' => '베타 기능',
+	'betafeatures-toplink' => '베타',
 	'betafeatures-auto-enroll' => '모든 베타 기능에 자동 등록',
-	'betafeatures-auto-enroll-desc' => '이것은 새로운 기능이 나오자마자 각각의 모든 실험적인 기능을 써보고 싶은 대담하고 용감한 얼리어답터를 위한 것입니다. 당신의 계정은 그것들이 출시되자마자 자동적으로 최신의 기능들을 받게될 것입니다. 당신은 언제라도 본 페이지로 돌아와 그 기능들을 사용하지 않도록 변경할 수 있지만,  이 기능들은 본 사이트에서 당신에게 가장 최신의 첨단 기능들을 경험하도록 해 줄 것입니다.',
+	'betafeatures-auto-enroll-desc' => '이것은 새로운 기능이 나올 때마다 각각의 모든 실험적인 기능을 써보고 싶은 얼리어답터를 위한 것입니다. 당신의 계정은 그것들이 출시되자마자 자동적으로 최신의 기능들을 이용할 수 있게 될 것입니다. 당신은 추후에 각각의 기능들을 사용하지 않도록 변경할 수 있습니다',
 );
 
 /** Latin (Latina)
@@ -409,10 +410,12 @@ $messages['roa-tara'] = array(
 );
 
 /** Russian (русский)
+ * @author Lord Dimetr
  * @author Okras
  */
 $messages['ru'] = array(
 	'mw-ui-feature-discuss' => 'обсуждение',
+	'betafeatures-toplink' => 'Бета-версия',
 );
 
 /** Swedish (svenska)
