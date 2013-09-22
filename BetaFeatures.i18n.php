@@ -246,7 +246,7 @@ $messages['ia'] = array(
 	'mw-ui-feature-user-count' => '{{PLURAL:$1|Un usator|$1 usatores}} ha activate iste function.',
 	'prefs-betafeatures' => 'Functionalitate beta',
 	'betafeatures-desc' => 'Permitte que le usator activa o disactiva functionalitate in le wiki que non ha ancora essite perfectionate',
-	'betafeatures-toplink' => 'Functionalitate beta',
+	'betafeatures-toplink' => 'Beta',
 	'betafeatures-auto-enroll' => 'Activar automaticamente tote le functionalitate beta',
 	'betafeatures-auto-enroll-desc' => 'Isto es pro le pioneros audace e intrepide qui vole vider cata function preliminar e experimental in action. Tu conto recipera automaticamente le ultime functionalitate al momento de prime apparentia. Tu pote anque disactivar individual functiones plus tarde.',
 );
