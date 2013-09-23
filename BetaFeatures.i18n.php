@@ -193,7 +193,7 @@ $messages['es'] = array(
  */
 $messages['fo'] = array(
 	'betafeatures-desc' => 'Loyvir brúkara at gera funksjónir, sum enn ikki eru heilt klárar, virknar ella óvirknar á wikiini.',
-	'betafeatures-toplink' => 'Betafunktiónir',
+	'betafeatures-toplink' => 'Beta',
 );
 
 /** French (français)
@@ -404,9 +404,9 @@ $messages['roa-tara'] = array(
 	'mw-ui-feature-user-count' => "{{PLURAL:$1|'Nu utende ave|$1 utinde onne}} abbilitate sta funzione.",
 	'prefs-betafeatures' => 'Funziune de Beta',
 	'betafeatures-desc' => "Lasse l'utende a abbilità o disabbilità le funziune sus 'a ucchi ca non ge so angore pronde pa prima vote",
-	'betafeatures-toplink' => 'Funziune de Beta',
+	'betafeatures-toplink' => 'Beta',
 	'betafeatures-auto-enroll' => "Auto iscrizione jndr'à le funziune beta",
-	'betafeatures-auto-enroll-desc' => "Quiste jè pe le audace, indrepide ca volene cu vedene ogne funzione sperimendale cumme iesse. 'U cunde avène aggiornate automaticamende a l'urteme funziune quanne iessene. Puè sembre turnà rrete a sta pàgene pe disabbilità e non ausarle cchiù, ma quiste te dè l'esperienze cchiù estreme sus a 'u site.",
+	'betafeatures-auto-enroll-desc' => "Quiste jè pe le audace, indrepide ca volene cu vedene ogne funzione sperimendale cumme iesse. 'U cunde avène aggiornate automaticamende a l'urteme funziune quanne iessene. Puè sembre turnà rrete jndr'à scelta toje.",
 );
 
 /** Russian (русский)
@@ -415,6 +415,7 @@ $messages['roa-tara'] = array(
  */
 $messages['ru'] = array(
 	'mw-ui-feature-discuss' => 'обсуждение',
+	'prefs-betafeatures' => 'Бета-функции',
 	'betafeatures-toplink' => 'Бета-версия',
 );
 
@@ -449,12 +450,15 @@ $messages['wuu'] = array(
 );
 
 /** Simplified Chinese (中文（简体）‎)
+ * @author Fantasticfears
+ * @author Liuxinyu970226
  * @author Qiyue2001
  */
 $messages['zh-hans'] = array(
-	'betafeatures' => '测试特性',
-	'betafetaures-intro' => '在该页面上，您可以启用或禁用此wiki上仍处于测试版的功能。这些功能可能无法使用或者使人不习惯，所以一切风险由用户自己承担。',
-	'betafeatures-enable-all' => '启用测试版的所有功能',
+	'mw-ui-feature-discuss' => '讨论',
+	'prefs-betafeatures' => '测试特性',
+	'betafeatures-toplink' => '测试特性',
+	'betafeatures-auto-enroll' => '自动使用测试功能',
 );
 
 /** Traditional Chinese (中文（繁體）‎)
