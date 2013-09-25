@@ -60,7 +60,7 @@ class HTMLFeatureField extends NewHTMLCheckField {
 
 		$html .= Html::rawElement( 'div', array(
 			'class' => 'mw-ui-feature-checkbox',
-		), $this->getCheckboxHtml( $value, $attrs ) );
+		), $this->getCheckboxHTML( $value, $attrs ) );
 
 		$html .= Html::openElement( 'div', array(
 			'class' => 'mw-ui-feature-contain',
@@ -138,7 +138,7 @@ class HTMLFeatureField extends NewHTMLCheckField {
 			), '&#160;' );
 			$discussLinkContent .= Html::rawElement( 'span', array(
 				'class' => 'mw-ui-feature-discussion-link-text',
-			), $this->mParent->msg( 'mw-ui-feature-discuss' ) );
+			), $this->mParent->msg( 'mw-ui-feature-discuss' )->escaped() );
 
 			$discussLink = Html::rawElement( 'a', array(
 				'href' => $this->mParams['discussion-link'],
@@ -158,7 +158,7 @@ class HTMLFeatureField extends NewHTMLCheckField {
 		) );
 
 		if ( isset( $this->mParams['screenshot'] ) ) {
-			$html .= Html::rawElement( 'img', array(
+			$html .= Html::element( 'img', array(
 				'src' => $this->mParams['screenshot'],
 				'class' => 'mw-ui-feature-screenshot',
 			) );
