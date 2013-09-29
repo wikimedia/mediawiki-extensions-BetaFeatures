@@ -63,10 +63,13 @@ See example: [[mw:Special:Preferences#mw-prefsection-editing|mw:Special:Preferen
 
 Description for this checkbox is:
 * {{msg-mw|Betafeatures-auto-enroll-desc}}',
-	'betafeatures-auto-enroll-desc' => 'Description for the auto-enroll beta preference, which enrolls the user in every new feature that gets released on the wiki.
+	'betafeatures-section-desc' => 'Used as description for the checkbox in [[Special:Preferences]].
 
-See also:
-* {{msg-mw|Betafeatures-auto-enroll}} - label for the checkbox',
+Followed by the checkbox which has the label {{msg-mw|Betafeatures-auto-enroll}}.
+
+Parameters:
+* $1 - number of beta features
+* $2 - sitename',
 	'betafeatures-test-check-field' => 'Used as label for the checkbox, used to test the extension.
 
 The description for this checkbox is {{msg-mw|Betafeatures-test-feature-field}}.',
@@ -157,8 +160,7 @@ $messages['cy'] = array(
 	'prefs-betafeatures' => 'Nodweddion beta',
 	'betafeatures-desc' => "Yn galluogi'r defnyddiwr i alluogi nodweddion ar y wici nad ydynt yn barod i'w llwyr fabwysiadu eto, neu i'w hanalluogi.",
 	'betafeatures-toplink' => 'Beta',
-	'betafeatures-auto-enroll' => "Ymuno'n awtomatig yn yr holl nodweddion beta",
-	'betafeatures-auto-enroll-desc' => "Mae hwn ar gyfer pobl sydd am fod ar flaen y gad yn defnyddio nodweddion newydd arbrofol cyn gynted â bod modd. Bydd eich cyfrif yn derbyn yr holl nodweddion diweddaraf wrth iddynt ymddangos. Gallwch analluogi'r rhai nad ydych am eu defnyddio unrhywbryd.",
+	'betafeatures-auto-enroll' => 'Galluogi pob nodwedd beta yn awtomatig',
 );
 
 /** German (Deutsch)
@@ -170,12 +172,13 @@ $messages['de'] = array(
 	'prefs-betafeatures' => 'Beta-Funktionen',
 	'betafeatures-desc' => 'Ermöglicht Benutzern das Aktivieren oder Deaktivieren von Funktionen in diesem Wiki, die sich noch in der Entwicklung befinden',
 	'betafeatures-toplink' => 'Beta',
-	'betafeatures-auto-enroll' => 'Automatisch bei allen Beta-Funktionen anmelden',
-	'betafeatures-auto-enroll-desc' => 'Das ist für „Early Adopters“, die alle experimentellen Funktionen nach der Veröffentlichung sehen wollen. Dein Benutzerkonto erhält automatisch die aktuellsten Funktionen, wenn sie erscheinen. Du kannst dich auch später von einzelnen Funktionen abmelden.',
+	'betafeatures-auto-enroll' => 'Automatisch alle neuen Beta-Funktionen aktivieren',
+	'betafeatures-section-desc' => 'Hier {{PLURAL:$1|ist eine neue Funktion|sind einige neue Funktionen}}, die wir für $2 planen. Bitte probier sie aus und sag uns deine Meinung. So können wir sie, basierend auf deiner Rückmeldung, verbessern.',
 );
 
 /** Spanish (español)
  * @author Fitoschido
+ * @author Ovruni
  * @author VegaDark
  */
 $messages['es'] = array(
@@ -183,9 +186,8 @@ $messages['es'] = array(
 	'mw-ui-feature-user-count' => '{{PLURAL:$1|Un usuario ha|$1 usuarios han}} habilitado esta característica.',
 	'prefs-betafeatures' => 'Características de prueba',
 	'betafeatures-desc' => 'Permite al usuario activar o desactivar funciones del wiki que todavía no están listas',
-	'betafeatures-toplink' => 'Funciones en beta',
-	'betafeatures-auto-enroll' => 'Inscribirse automáticamente en todas las funciones de prueba',
-	'betafeatures-auto-enroll-desc' => 'Esto es para los primeros usuarios que quieren ver todas las características experimentales a medida que se publican. Tu cuenta recibirá automáticamente las características más recientes cuando salgan. También puedes elegir características individuales más adelante.',
+	'betafeatures-toplink' => 'Beta',
+	'betafeatures-auto-enroll' => 'Inscribirse automáticamente en todas las funciones de prueba', # Fuzzy
 );
 
 /** Faroese (føroyskt)
@@ -207,8 +209,8 @@ $messages['fr'] = array(
 	'prefs-betafeatures' => 'Fonctionnalités bêta',
 	'betafeatures-desc' => 'Laisse l’utilisateur activer ou désactiver les fonctionnalités sur ce wiki qui ne sont pas encore prêtes pour être généralisées',
 	'betafeatures-toplink' => 'Bêta',
-	'betafeatures-auto-enroll' => 'Souscrire automatiquement aux fonctionnalités en bêta',
-	'betafeatures-auto-enroll-desc' => "Ce service s'adresse aux utilisateurs qui veulent profiter au plus tôt des fonctionnalités expérimentales. Pour votre compte, elles seront automatiquement activées au fur et à mesure qu'elles sont disponibles. Vous pourrez les désactiver par la suite.",
+	'betafeatures-auto-enroll' => 'Activer automatiquement toutes les nouvelles fonctionnalités en bêta',
+	'betafeatures-section-desc' => 'Voici {{PLURAL:$1|une nouvelle fonctionnalité|de nouvelles fonctionnalités}} que nous envisageons pour $2. Veuillez les essayer et nous donner votre sentiment dessus, afin que nous puissions les améliorer d’après votre retour.',
 );
 
 /** Galician (galego)
@@ -220,8 +222,8 @@ $messages['gl'] = array(
 	'prefs-betafeatures' => 'Características en probas',
 	'betafeatures-desc' => 'Permite que o usuario active ou desactive as características do wiki que aínda non están listas para o seu uso xeneralizado',
 	'betafeatures-toplink' => 'Beta',
-	'betafeatures-auto-enroll' => 'Activar automaticamente todas as características en probas',
-	'betafeatures-auto-enroll-desc' => 'Isto é para os pioneiros que queren botar un ollo a todas as características experimentais en canto saen á luz. A súa conta ha obter automaticamente as últimas características cando aparezan. Despois, pode desactivar individualmente aquelas características que non queira usar.',
+	'betafeatures-auto-enroll' => 'Activar automaticamente todas as novas características en probas',
+	'betafeatures-section-desc' => 'Aquí hai {{PLURAL:$1|unha característica nova|algunhas características novas}} que estamos considerando para $2. {{PLURAL:$1|Próbea|Próbeas}} e achéguenos a súa opinión, para que poidamos {{PLURAL:$1|mellorala|melloralas}}.',
 );
 
 /** Hebrew (עברית)
@@ -247,8 +249,7 @@ $messages['ia'] = array(
 	'prefs-betafeatures' => 'Functionalitate beta',
 	'betafeatures-desc' => 'Permitte que le usator activa o disactiva functionalitate in le wiki que non ha ancora essite perfectionate',
 	'betafeatures-toplink' => 'Beta',
-	'betafeatures-auto-enroll' => 'Activar automaticamente tote le functionalitate beta',
-	'betafeatures-auto-enroll-desc' => 'Isto es pro le pioneros audace e intrepide qui vole vider cata function preliminar e experimental in action. Tu conto recipera automaticamente le ultime functionalitate al momento de prime apparentia. Tu pote anque disactivar individual functiones plus tarde.',
+	'betafeatures-auto-enroll' => 'Activar automaticamente tote le functionalitate beta', # Fuzzy
 );
 
 /** Italian (italiano)
@@ -262,8 +263,7 @@ $messages['it'] = array(
 	'prefs-betafeatures' => 'Funzionalità beta',
 	'betafeatures-desc' => "Consente all'utente di attivare o disattivare sul wiki funzioni che non sono ancora pronte per il grande pubblico",
 	'betafeatures-toplink' => 'Beta',
-	'betafeatures-auto-enroll' => 'Registrazione automatica per tutte le funzioni beta',
-	'betafeatures-auto-enroll-desc' => 'Questo è per i primi utilizzatori che vogliono vedere tutte le funzioni sperimentali che vengono rilasciate. Il tuo account automaticamente otterrà le funzionalità più recenti quando vengono rilasciate. Puoi anche scegliere di rinunciare alle funzionalità individuali successivamente.',
+	'betafeatures-auto-enroll' => 'Attiva automaticamente tutte le nuove funzioni beta',
 );
 
 /** Japanese (日本語)
@@ -275,8 +275,8 @@ $messages['ja'] = array(
 	'prefs-betafeatures' => 'ベータ版機能',
 	'betafeatures-desc' => '本番環境のウィキで使用する準備がまだできていない機能について、利用者が有効化/無効化できるようにする',
 	'betafeatures-toplink' => 'ベータ版',
-	'betafeatures-auto-enroll' => 'すべてのベータ版機能に自動的に参加',
-	'betafeatures-auto-enroll-desc' => 'この設定は、実験的な機能が公開されるたびにそのすべての機能を早期に試用したい勇敢な利用者のためのものです。最新の機能が公開されると、その機能が自動的にあなたのアカウントで有効になります。この設定はあとで個別に無効化できます。',
+	'betafeatures-auto-enroll' => 'すべてのベータ版機能を自動的に有効にする',
+	'betafeatures-section-desc' => '$2で検討している{{PLURAL:$1|新しい機能}}があります。試用していただいてご意見をお寄せください。そのフィードバックに基づいて機能を改善します。',
 );
 
 /** Kazakh (Cyrillic script) (қазақша (кирил)‎)
@@ -316,15 +316,15 @@ $messages['la'] = array(
 
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
+ * @author Soued031
  */
 $messages['lb'] = array(
 	'mw-ui-feature-discuss' => 'Diskussioun',
-	'mw-ui-feature-user-count' => '{{PLURAL:$1|Ee Benotzer huet|$1 Benotzer hunn}} dës Fonctioun aktivéiert.',
-	'prefs-betafeatures' => 'Beta-Fonctiounen',
-	'betafeatures-desc' => 'Léisst Benotzer Fonctiounen op der Wiki aktivéieren oder desaktivéieren déi nach net fäerdeg entwéckelt sinn',
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|Ee Benotzer huet|$1 Benotzer hunn}} dës Funktioun aktivéiert.',
+	'prefs-betafeatures' => 'Beta-Funktiounen',
+	'betafeatures-desc' => 'Léisst Benotzer Funktiounen op der Wiki aktivéieren oder desaktivéieren déi nach net fäerdeg entwéckelt sinn',
 	'betafeatures-toplink' => 'Beta',
-	'betafeatures-auto-enroll' => 'Automatesch bäi alle Beta-Fonctiounen umellen',
-	'betafeatures-auto-enroll-desc' => 'Dat ass fir "Early Adopters", déi all experimentell Funktiounen no der Verëffentlechung gesi wëllen. Äre Benotzerkont huet dann automatesch déi aktuellst Funktiounen, esou bal wéi se erauskommen. Dir kënnt Iech och méi spéit vun eenzelne Funktiounen afmellen.',
+	'betafeatures-auto-enroll' => 'Automatesch all Beta-Funktiounen aschalten',
 );
 
 /** Lithuanian (lietuvių)
@@ -344,8 +344,8 @@ $messages['mk'] = array(
 	'prefs-betafeatures' => 'Бета-можности',
 	'betafeatures-desc' => 'Овозможува корисникот да вклучува и исклучува можности што сè уште не се воведени како стандардни',
 	'betafeatures-toplink' => 'Бета',
-	'betafeatures-auto-enroll' => 'Автоматски вклучувај бета-можности',
-	'betafeatures-auto-enroll-desc' => 'Ова е за смелите и бестрашни корисници што сакаат да ја видат сите експериментални функции веднаш штом ќе излезе. На вашата сметка автоматски ќе се појавуваат најновите експериментални можности во моментот кога ќе станат достпни. Можете да се навратите на страницава и да изберете кои од нив не сакате да ги користите.',
+	'betafeatures-auto-enroll' => 'Автоматски вклучувај ги сите бета-можности',
+	'betafeatures-section-desc' => 'Еве {{PLURAL:$1|една нова функција што ја планираме|некои нови функции што ги планираме}} за $2. Испробајте ги и кажете ни што мислите, за да можеме да ги подобриме во склад со вашите наоѓања.',
 );
 
 /** Malayalam (മലയാളം)
@@ -405,8 +405,8 @@ $messages['roa-tara'] = array(
 	'prefs-betafeatures' => 'Funziune de Beta',
 	'betafeatures-desc' => "Lasse l'utende a abbilità o disabbilità le funziune sus 'a ucchi ca non ge so angore pronde pa prima vote",
 	'betafeatures-toplink' => 'Beta',
-	'betafeatures-auto-enroll' => "Auto iscrizione jndr'à le funziune beta",
-	'betafeatures-auto-enroll-desc' => "Quiste jè pe le audace, indrepide ca volene cu vedene ogne funzione sperimendale cumme iesse. 'U cunde avène aggiornate automaticamende a l'urteme funziune quanne iessene. Puè sembre turnà rrete jndr'à scelta toje.",
+	'betafeatures-auto-enroll' => 'Automaticamende abbilite tutte le funziune beta nove',
+	'betafeatures-section-desc' => "Aqquà {{PLURAL:$1|ste 'na funziona nove|stonne cchiù funziune nove}} ca ste considerame pe $2. Pe piacere pruèvale e danne 'na parere, accussì nuje putime migliorà basannene sus 'a segnalaziona toje.",
 );
 
 /** Russian (русский)
@@ -415,8 +415,10 @@ $messages['roa-tara'] = array(
  */
 $messages['ru'] = array(
 	'mw-ui-feature-discuss' => 'обсуждение',
+	'mw-ui-feature-user-count' => '$1 {{PLURAL:$1|пользователь включил|пользователя включили|пользователей включили}} эту функцию.',
 	'prefs-betafeatures' => 'Бета-функции',
 	'betafeatures-toplink' => 'Бета-версия',
+	'betafeatures-auto-enroll' => 'Автоматически включать все новые бета-функции',
 );
 
 /** Swedish (svenska)
@@ -438,8 +440,8 @@ $messages['uk'] = array(
 	'prefs-betafeatures' => 'Бета-функції',
 	'betafeatures-desc' => 'Дозволяє користувачу вмикати чи вимикати функції вікі, все ще не готові до прайм-тайму',
 	'betafeatures-toplink' => 'Бета',
-	'betafeatures-auto-enroll' => 'Автоматичний запис на всіх бета-функції',
-	'betafeatures-auto-enroll-desc' => 'Це для перших користувачів, які хочуть бачити усі експериментальні функції, як тільки-но вони появляються. Ваш обліковий запис буде автоматично отримувати новітні функції, коли вони виходять. Ви може також відмовитися від індивідуальних особливостей пізніше.',
+	'betafeatures-auto-enroll' => 'Автоматично увімкнути усі бета-функції',
+	'betafeatures-section-desc' => 'Тут  {{PLURAL:$1|є нова функція, яку|деякі нові функції, які}} ми розробляємо для  $2. Спробуйте їх і дайте нам свої думки, щоб ми могли покращити їх, виходячи з ваших відгуків.',
 );
 
 /** Wu (吴语)
@@ -456,17 +458,21 @@ $messages['wuu'] = array(
  */
 $messages['zh-hans'] = array(
 	'mw-ui-feature-discuss' => '讨论',
+	'mw-ui-feature-user-count' => '有$1个用户启用此功能。',
 	'prefs-betafeatures' => '测试特性',
+	'betafeatures-desc' => '允许用户启用或禁用wiki上仍在测试的功能',
 	'betafeatures-toplink' => '测试特性',
-	'betafeatures-auto-enroll' => '自动使用测试功能',
+	'betafeatures-auto-enroll' => '自动使用全部新近测试功能',
 );
 
 /** Traditional Chinese (中文（繁體）‎)
  * @author Openerror
+ * @author StephDC
  */
 $messages['zh-hant'] = array(
-	'betafeatures' => '測試中的功能 (Beta)',
-	'betafetaures-intro' => '在此頁面上，您可以啟用或禁用此 wiki 上仍然處於測試中 (Beta) 的功能。這些功能的運作可能會強差人意，因此請三思而行！',
-	'betafeatures-enable-all' => '啟用所有測試中 (Beta) 的功能',
+	'mw-ui-feature-discuss' => '討論',
+	'prefs-betafeatures' => '測試中的功能 (Beta)',
 	'betafeatures-desc' => '允許使用者啟用或禁用 wiki 上 仍需要完善、除錯的功能',
+	'betafeatures-toplink' => '測試版',
+	'betafeatures-auto-enroll' => '自動啟用所有新的測試版功能',
 );
