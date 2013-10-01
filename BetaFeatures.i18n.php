@@ -86,9 +86,9 @@ $messages['ast'] = array(
 	'mw-ui-feature-user-count' => '{{PLURAL:$1|Un usuariu activó|$1 usuarios activaron}} esta carauterística.',
 	'prefs-betafeatures' => 'Carauterístiques beta',
 	'betafeatures-desc' => "Permite que l'usuariu active o desactive funciones de la wiki qu'inda nun tan pa un usu xeneralizáu",
-	'betafeatures-toplink' => 'Carauterístiques beta',
-	'betafeatures-auto-enroll' => 'Apuntase automaticamente a toles carauterístiques beta',
-	'betafeatures-auto-enroll-desc' => "Esto ye pa los pioneros arrogantes y atrevíos que quieren ver caúna de les carauterístiques esperimentales de la que se desendolquen. La so cuenta recibirá automáticamente les últimes carauterístiques de la qu'apaecen. Siempre pue volver a esta páxina pa desactivar les que nun quiera usar, pero esto dará-y la esperiencia más avanzada del sitiu.", # Fuzzy
+	'betafeatures-toplink' => 'Beta',
+	'betafeatures-auto-enroll' => 'Activar automáticamente toles carauterístiques beta nueves',
+	'betafeatures-section-desc' => 'Est{{PLURAL:$1|a ye una carauterística nueva|es son dalgunes carauterístiques nueves}} que tamos considerando pa $2. Por favor. pruebeles y diganos lo que piensa pa que podamos ameyorales basandonos nes sos impresiones.',
 );
 
 /** Bikol Central (Bikol Central)
@@ -249,7 +249,8 @@ $messages['ia'] = array(
 	'prefs-betafeatures' => 'Functionalitate beta',
 	'betafeatures-desc' => 'Permitte que le usator activa o disactiva functionalitate in le wiki que non ha ancora essite perfectionate',
 	'betafeatures-toplink' => 'Beta',
-	'betafeatures-auto-enroll' => 'Activar automaticamente tote le functionalitate beta', # Fuzzy
+	'betafeatures-auto-enroll' => 'Activar automaticamente tote le nove functionalitate beta',
+	'betafeatures-section-desc' => 'Ecce {{PLURAL:$1|un function nove|alcun functionalitate nove}} que nos considera pro $2. Per favor essaya lo e dice nos tu opinion, de sorta que nos pote meliorar lo.',
 );
 
 /** Italian (italiano)
@@ -365,6 +366,19 @@ $messages['mr'] = array(
 	'betafeatures-enable-all' => 'बीटा फिचर्स सक्षम करा',
 	'betafeatures-desc' => 'सदस्यास,या विकिवर कोणतेही फिचर्स जे अद्याप पूर्ण सुविधांसह परिपूर्ण नाहीत,सक्षम किंवा अक्षम करू देते',
 	'betafeatures-enable-all-desc' => "जर आपण ही निवड शक्य केली तर,या पानातील सर्व पसंती,त्याच्या काहीही मुल्याव्यतिरिक्त, डाटाबेस मध्ये 'ट्रू' म्हणुन नोंदविल्या जातील.हे काळजीपूर्वक वापरा!",
+);
+
+/** Dutch (Nederlands)
+ * @author TBloemink
+ */
+$messages['nl'] = array(
+	'mw-ui-feature-discuss' => 'overleg',
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|Éen gebruiker heeft|$1 gebruikers hebben}} deze functie ingeschakeld.',
+	'prefs-betafeatures' => 'Betafunctionaliteit',
+	'betafeatures-desc' => 'Laat de gebruiker functies op de wiki die nog niet gelanceerd zijn in- of uitschakelen',
+	'betafeatures-toplink' => 'Beta',
+	'betafeatures-auto-enroll' => 'Schakel automatisch alle beta-functies in',
+	'betafeatures-section-desc' => 'Hier {{PLURAL:$1|is een nieuwe functie|zijn een paar functies}} waarvan we overwegen deze te gebruiken op $2. Probeert u deze alstublieft uit en laat ons weten wat u ervan vindt, zodat wij deze kunnen verbeteren.',
 );
 
 /** Occitan (occitan)
