@@ -48,7 +48,8 @@ $messages['en'] = array(
  * @author Shirayuki
  */
 $messages['qqq'] = array(
-	'mw-ui-feature-discuss' => 'Used as link text for the link which points to discussion of a feature.',
+	'mw-ui-feature-discuss' => 'Used as link text for the link which points to discussion of a feature.
+{{Identical|Discussion}}',
 	'mw-ui-feature-user-count' => 'Used to show how many users have enabled a particular feature on the site.
 
 Parameters:
@@ -121,6 +122,7 @@ $messages['bn'] = array(
  */
 $messages['br'] = array(
 	'mw-ui-feature-discuss' => 'kaozeadenn',
+	'mw-ui-feature-user-count' => "{{PLURAL:$1|Un implijer|$1 implijer}} o deus gweredekaet an arc'hwel-mañ.",
 	'prefs-betafeatures' => 'Perzhioù beta',
 	'betafeatures-toplink' => 'Beta',
 );
@@ -433,6 +435,15 @@ $messages['ru'] = array(
 	'prefs-betafeatures' => 'Бета-функции',
 	'betafeatures-toplink' => 'Бета-версия',
 	'betafeatures-auto-enroll' => 'Автоматически включать все новые бета-функции',
+);
+
+/** Slovenian (slovenščina)
+ * @author Eleassar
+ */
+$messages['sl'] = array(
+	'betafeatures-toplink' => 'Beta',
+	'betafeatures-auto-enroll' => 'Samodejno omogoči vse betamožnosti',
+	'betafeatures-section-desc' => 'Tu {{PLURAL:$1|je nova možnost|je nekaj novih možnosti}}, o katerih razmišljamo v zvezi z $2. Prosimo, preizkusite jih in nam sporočite svoje mnenje, tako da jih bomo lahko na podlagi vaših povratnih informacij izboljšali.',
 );
 
 /** Swedish (svenska)
