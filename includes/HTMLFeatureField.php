@@ -32,79 +32,21 @@ class HTMLFeatureField extends NewHTMLCheckField {
 		parent::__construct( $options );
 	}
 
-	function getInputHTML( $value ) {
-		$parent = $this->mParent;
-		$html = '';
-
-		$attrs = $this->getTooltipAndAccessKey();
-		$attrs['id'] = $this->mID;
-		$attrs['class'] = 'mw-ui-feature-toggle';
-
-		$divClasses = array(
-			'mw-ui-feature-field',
-		);
-
-		// Use 'cssclass' to populate this. Separate from 'class', of course.
-		if ( $this->mClass !== '' ) {
-			$divClasses[] = $this->mClass;
-		}
-
-		if ( isset( $this->mParams['disabled'] ) &&
-				$this->mParams['disabled'] === true ) {
-			$attrs['disabled'] = true;
-		}
-
-		$html .= Html::openElement( 'div', array(
-			'class' => implode( ' ', $divClasses ),
-		) );
-
-		$html .= Html::rawElement( 'div', array(
-			'class' => 'mw-ui-feature-checkbox',
-		), $this->getCheckboxHTML( $value, $attrs ) );
-
-		$html .= Html::openElement( 'div', array(
-			'class' => 'mw-ui-feature-contain',
+	function getHeaderHTML( $value ) {
+		$html = Html::openElement( 'div', array(
+			'class' => 'mw-ui-feature-header',
 		) );
 
 		$html .= Html::openElement( 'div', array(
-			'class' => 'mw-ui-feature-main',
+			'class' => 'mw-ui-feature-title-contain',
 		) );
 
 		$html .= Html::rawElement( 'p', array(
 			'class' => 'mw-ui-feature-title',
 		), $this->getPostCheckboxLabelHTML() );
 
-		if ( isset( $this->mParams['user-count'] ) ) {
-			$userCountMsg = 'mw-ui-feature-user-count';
-
-			if ( isset( $this->mParams['user-count-msg'] ) ) {
-				$userCountMsg = $this->mParams['user-count-msg'];
-			}
-
-			$html .= Html::rawElement(
-				'p',
-				array( 'class' => 'mw-ui-feature-user-count' ),
-				$parent->msg( $userCountMsg )->numParams( $this->mParams['user-count'] )->escaped()
-			);
-
-			$attrs['data-count'] = $this->mParams['user-count'];
-		}
-
-		if ( isset( $this->mParams['desc-message'] ) ) {
-			$html .= Html::rawElement(
-				'p',
-				array(
-					'class' => 'mw-ui-feature-description',
-				),
-				$parent->msg( $this->mParams['desc-message'] )->escaped() );
-		}
-
-		// mw-ui-feature-main
+		// Close -title-contain
 		$html .= Html::closeElement( 'div' );
-
-		$html .= Html::openElement( 'div', array(
-			'class' => 'mw-ui-feature-meta',
-		) );
 
 		$hasInfoLink = isset( $this->mParams['info-link'] );
 		$hasDiscussionLink = isset( $this->mParams['discussion-link'] );
@@ -153,6 +95,51 @@ class HTMLFeatureField extends NewHTMLCheckField {
 		// mw-ui-feature-info-links
 		$html .= Html::closeElement( 'div' );
 
+		// Close -header
+		$html .= Html::closeElement( 'div' );
+
+		return $html;
+	}
+
+	function getMainHTML( $value ) {
+		$parent = $this->mParent;
+
+		$html = Html::openElement( 'div', array(
+			'class' => 'mw-ui-feature-main',
+		) );
+
+		$html .= Html::openElement( 'div', array(
+			'class' => 'mw-ui-feature-meta',
+		) );
+
+		if ( isset( $this->mParams['user-count'] ) ) {
+			$userCountMsg = 'mw-ui-feature-user-count';
+
+			if ( isset( $this->mParams['user-count-msg'] ) ) {
+				$userCountMsg = $this->mParams['user-count-msg'];
+			}
+
+			$html .= Html::rawElement(
+				'p',
+				array( 'class' => 'mw-ui-feature-user-count' ),
+				$parent->msg( $userCountMsg )->numParams( $this->mParams['user-count'] )->escaped()
+			);
+
+			$attrs['data-count'] = $this->mParams['user-count'];
+		}
+
+		if ( isset( $this->mParams['desc-message'] ) ) {
+			$html .= Html::rawElement(
+				'p',
+				array(
+					'class' => 'mw-ui-feature-description',
+				),
+				$parent->msg( $this->mParams['desc-message'] )->escaped() );
+		}
+
+		// Close -meta
+		$html .= Html::closeElement( 'div' );
+
 		$html .= Html::openElement( 'div', array(
 			'class' => 'mw-ui-feature-screenshot-contain',
 		) );
@@ -164,11 +151,50 @@ class HTMLFeatureField extends NewHTMLCheckField {
 			) );
 		}
 
-		// mw-ui-feature-screenshot
+		// Close -screenshot-contain
 		$html .= Html::closeElement( 'div' );
 
-		// mw-ui-feature-meta
+		// Close -main
 		$html .= Html::closeElement( 'div' );
+
+		return $html;
+	}
+
+	function getInputHTML( $value ) {
+		$html = '';
+
+		$attrs = $this->getTooltipAndAccessKey();
+		$attrs['id'] = $this->mID;
+		$attrs['class'] = 'mw-ui-feature-toggle';
+
+		$divClasses = array(
+			'mw-ui-feature-field',
+		);
+
+		// Use 'cssclass' to populate this. Separate from 'class', of course.
+		if ( $this->mClass !== '' ) {
+			$divClasses[] = $this->mClass;
+		}
+
+		if ( isset( $this->mParams['disabled'] ) &&
+				$this->mParams['disabled'] === true ) {
+			$attrs['disabled'] = true;
+		}
+
+		$html .= Html::openElement( 'div', array(
+			'class' => implode( ' ', $divClasses ),
+		) );
+
+		$html .= Html::rawElement( 'div', array(
+			'class' => 'mw-ui-feature-checkbox',
+		), $this->getCheckboxHTML( $value, $attrs ) );
+
+		$html .= Html::openElement( 'div', array(
+			'class' => 'mw-ui-feature-contain',
+		) );
+
+		$html .= $this->getHeaderHTML( $value );
+		$html .= $this->getMainHTML( $value );
 
 		// mw-ui-feature-contain
 		$html .= Html::closeElement( 'div' );
