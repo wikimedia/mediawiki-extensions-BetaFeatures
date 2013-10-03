@@ -148,9 +148,8 @@ $messages['cs'] = array(
 	'mw-ui-feature-user-count' => 'Tuto funkci si {{PLURAL:$1|zapnul jeden uživatel|zapnuli $1 uživatelé|zapnulo $1 uživatelů}}.',
 	'prefs-betafeatures' => 'Betaverze',
 	'betafeatures-desc' => 'Umožňuje uživatelům zapínat a vypínat nové funkce, které zatím nejsou zcela odladěné',
-	'betafeatures-toplink' => 'Funkce z betaverze',
-	'betafeatures-auto-enroll' => 'Automaticky se přihlásit ke všem funkcím v betaverzi',
-	'betafeatures-auto-enroll-desc' => 'Toto je určeno pro odvážné, neohrožené experimentátory, kteří chtějí vidět úplně každou pokusnou funkci hned, jakmile vznikne. Váš účet automaticky získá nejnovější funkce v okamžiku jejich zveřejnění. Kdykoli se můžete na tuto stránku vrátit a vypnout ty, které se rozhodnete nepoužívat, ale získáte tu nejžhavější technologie.', # Fuzzy
+	'betafeatures-toplink' => 'Beta',
+	'betafeatures-auto-enroll' => 'Automaticky zapnout všechny nové funkce betaverze',
 );
 
 /** Welsh (Cymraeg)
