@@ -327,6 +327,7 @@ $messages['lb'] = array(
 	'betafeatures-desc' => 'Léisst Benotzer Funktiounen op der Wiki aktivéieren oder desaktivéieren déi nach net fäerdeg entwéckelt sinn',
 	'betafeatures-toplink' => 'Beta',
 	'betafeatures-auto-enroll' => 'Automatesch all Beta-Funktiounen aschalten',
+	'betafeatures-section-desc' => 'Hei {{PLURAL:$1|ass eng nei Funktioun|sinn e puer nei Funktiounen}} déi mir fir $2 proposéieren. Probéiert se w.e.g. aus an deelt eis Är Iwwerleeungen dozou mat, da kënne mir se op der Basis vun Ärem Feedback verbesseren.',
 );
 
 /** Lithuanian (lietuvių)
