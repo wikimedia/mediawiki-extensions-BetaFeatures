@@ -150,6 +150,7 @@ $messages['cs'] = array(
 	'betafeatures-desc' => 'Umožňuje uživatelům zapínat a vypínat nové funkce, které zatím nejsou zcela odladěné',
 	'betafeatures-toplink' => 'Beta',
 	'betafeatures-auto-enroll' => 'Automaticky zapnout všechny nové funkce betaverze',
+	'betafeatures-section-desc' => 'Zde {{PLURAL:$1|je nová funkce, kterou|jsou nové funkce, které}} zvažujeme pro použití na {{grammar:6sg|$2}}. Vyzkoušejte {{PLURAL:$1|ji|je}} a dejte nám vědět, ať {{PLURAL:$1|ji|je}} na základě vašich názorů můžeme vylepšovat.',
 );
 
 /** Welsh (Cymraeg)
@@ -300,8 +301,7 @@ $messages['ko'] = array(
 	'prefs-betafeatures' => '베타 기능',
 	'betafeatures-desc' => '사용자가 아직 준비가 되지 않은 위키에서 기능을 활성화하거나 비활성화할 수 있습니다',
 	'betafeatures-toplink' => '베타',
-	'betafeatures-auto-enroll' => '모든 베타 기능에 자동 등록',
-	'betafeatures-auto-enroll-desc' => '이것은 새로운 기능이 나올 때마다 각각의 모든 실험적인 기능을 써보고 싶은 얼리어답터를 위한 것입니다. 당신의 계정은 그것들이 출시되자마자 자동적으로 최신의 기능들을 이용할 수 있게 될 것입니다. 당신은 추후에 각각의 기능들을 사용하지 않도록 변경할 수 있습니다',
+	'betafeatures-auto-enroll' => '자동으로 새 베타 기능을 모두 활성화',
 );
 
 /** Latin (Latina)
@@ -432,8 +432,10 @@ $messages['ru'] = array(
 	'mw-ui-feature-discuss' => 'обсуждение',
 	'mw-ui-feature-user-count' => '$1 {{PLURAL:$1|пользователь включил|пользователя включили|пользователей включили}} эту функцию.',
 	'prefs-betafeatures' => 'Бета-функции',
+	'betafeatures-desc' => 'Позволяет пользователю включить или отключить функции, которые еще не готовы к прайм-тайм',
 	'betafeatures-toplink' => 'Бета-версия',
 	'betafeatures-auto-enroll' => 'Автоматически включать все новые бета-функции',
+	'betafeatures-section-desc' => '{{PLURAL:$1|Появилась новая функция, которую|Появилось несколько новых функций, которые}} мы продумываем для $2. Пожалуйста, попробуйте {{PLURAL:$1|её|их}} и выскажите нам свои мысли, чтобы мы могли улучшить эти нововведения, основываясь на ваших отзывах.',
 );
 
 /** Slovenian (slovenščina)
@@ -469,10 +471,11 @@ $messages['uk'] = array(
 );
 
 /** Wu (吴语)
+ * @author Benojan
  * @author 十弌
  */
 $messages['wuu'] = array(
-	'betafeatures-toplink' => '試驗版本',
+	'betafeatures-toplink' => '試驗版',
 );
 
 /** Simplified Chinese (中文（简体）‎)
