@@ -101,19 +101,15 @@ $messages['bcl'] = array(
 	'prefs-betafeatures' => 'Mga posturang yaon sa beta',
 	'betafeatures-desc' => 'Minatugot sa paragamit na paganahon o pauntukon an mga postura kaining wiki na dae pa man handa para sa premyadong-panahon',
 	'betafeatures-toplink' => 'Beta',
-	'betafeatures-auto-enroll' => 'Awtomatikong magpalista sa gabos na mga posturang yaon sa beta',
-	'betafeatures-auto-enroll-desc' => 'Ini para sa dating mga para-adaptar na boot mahiling an gabos na eksperimental na mga postura mantang sinda pinagbuhi. An saimong panindog awtomatikong makakapagkua nin pinakahuring mga postura kunsoarin na sinda minaluwas pa sana. Ika puwede man na makapagpili na maghali kan indibidwal na mga postura aro-atyan.',
+	'betafeatures-auto-enroll' => 'Awtomatikong magpalista sa gabos na mga posturang yaon sa beta', # Fuzzy
 );
 
 /** Bengali (বাংলা)
  * @author Bellayet
  */
 $messages['bn'] = array(
-	'betafeatures' => 'বেটা বৈশিষ্ট্যসমূহ',
-	'betafetaures-intro' => 'এই পাতায় আপনি এই বৈশিষ্ট্যগুলো সক্রিয় বা নিস্ক্রিয় করতে পারবেন যা এই উইকিতে এখনও বেটা অবস্থায় রয়েছে। এই বৈশিষ্ট্যগুলো হয়তো ঠিকমতন কাজ নাও করতে পারে, তাই নিজে ঝুঁকি নিয়ে তা সক্রিয় করুন!',
-	'betafeatures-enable-all' => 'সকল বেটা বৈশিষ্ট্য সক্রিয় করো',
 	'betafeatures-desc' => 'ব্যবহারকারীদের এই উইকিতে বৈশিষ্ট্য সক্রিয় বা নিস্ক্রিয় করার ব্যবস্থা করো যা এখনও প্রধান-সময়ের জন্য তৈরি নয়',
-	'betafeatures-enable-all-desc' => 'আপনি যদি এটি সক্রিয় করেন, এই পাতার সকল পছন্দসমূহ ডাটাবেজে সক্রিয় হবে। সতর্কতা অবলম্বন করুন!',
+	'betafeatures-toplink' => 'বেটা বৈশিষ্ট্যসমূহ', # Fuzzy
 );
 
 /** Breton (brezhoneg)
@@ -135,8 +131,8 @@ $messages['ca'] = array(
 	'mw-ui-feature-user-count' => '{{PLURAL:$1|Un usuari ha|$1 usuaris han}} activat aquesta functionalitat.',
 	'prefs-betafeatures' => 'Funcionalitats beta',
 	'betafeatures-desc' => "Permet a l'usuari activar o desactivar funcionalitats en el wiki que encara no són a punt per a una estrena oficial.",
-	'betafeatures-toplink' => 'Funcionalitats beta',
-	'betafeatures-auto-enroll' => 'Apunteu-vos automàticament a totes les funcionalitats beta.',
+	'betafeatures-toplink' => 'Funcionalitats beta', # Fuzzy
+	'betafeatures-auto-enroll' => 'Apunteu-vos automàticament a totes les funcionalitats beta.', # Fuzzy
 );
 
 /** Czech (česky)
@@ -232,14 +228,14 @@ $messages['gl'] = array(
  * @author Ademo
  */
 $messages['he'] = array(
-	'betafeatures-toplink' => 'מאפייני בטא',
+	'betafeatures-toplink' => 'מאפייני בטא', # Fuzzy
 );
 
 /** Hungarian (magyar)
  * @author Misibacsi
  */
 $messages['hu'] = array(
-	'betafeatures' => 'Béta funkciók',
+	'betafeatures-toplink' => 'Béta funkciók', # Fuzzy
 );
 
 /** Interlingua (interlingua)
@@ -286,8 +282,7 @@ $messages['ja'] = array(
  * @author Arystanbek
  */
 $messages['kk-cyrl'] = array(
-	'betafeatures' => 'Beta мүмкіндік',
-	'betafeatures-enable-all' => 'Барлық beta мүмкіндіктерді қосу',
+	'betafeatures-toplink' => 'Beta мүмкіндік', # Fuzzy
 );
 
 /** Korean (한국어)
@@ -313,7 +308,7 @@ $messages['la'] = array(
 	'mw-ui-feature-user-count' => '{{PLURAL:$1|Unus usor hac facultate utitur.|$1 usores hac facultate utuntur.}}',
 	'prefs-betafeatures' => 'Facultates experimentales',
 	'betafeatures-toplink' => 'Facultates experimentales', # Fuzzy
-	'betafeatures-auto-enroll' => 'Automatice omnibus facultatibus experimentalibus utere',
+	'betafeatures-auto-enroll' => 'Automatice omnibus facultatibus experimentalibus utere', # Fuzzy
 );
 
 /** Luxembourgish (Lëtzebuergesch)
@@ -334,8 +329,7 @@ $messages['lb'] = array(
  * @author Eitvys200
  */
 $messages['lt'] = array(
-	'betafeatures' => 'Beta Funkcijos',
-	'betafeatures-enable-all' => 'Įgalinti visas beta funkcijas',
+	'betafeatures-toplink' => 'Beta Funkcijos', # Fuzzy
 );
 
 /** Macedonian (македонски)
@@ -355,19 +349,15 @@ $messages['mk'] = array(
  * @author Praveenp
  */
 $messages['ml'] = array(
-	'betafeatures' => 'പരീക്ഷണാടിസ്ഥാനത്തിലുള്ള (ബീറ്റ) സൗകര്യങ്ങൾ',
-	'betafeatures-enable-all' => 'പരീക്ഷണാടിസ്ഥാനത്തിലുള്ള (ബീറ്റ) സൗകര്യങ്ങൾ സജ്ജമാക്കുക',
+	'betafeatures-toplink' => 'പരീക്ഷണാടിസ്ഥാനത്തിലുള്ള (ബീറ്റ) സൗകര്യങ്ങൾ', # Fuzzy
 );
 
 /** Marathi (मराठी)
  * @author V.narsikar
  */
 $messages['mr'] = array(
-	'betafeatures' => 'बीटा तोंडवळा',
-	'betafetaures-intro' => 'या विकिच्या पानावर,जे अद्याप चाचणी स्थितीत आहेत, ते फिचर्स आपण  सक्षम किंवा अक्षम करू शकता.हे फिचर्स, आपण त्यांचा जो पर्यंत सराव करत नाहीत तोवर ते बरोबर वाटणार नाहीत.म्हणुन आपल्या जबाबदारीवर सक्षम करा!',
-	'betafeatures-enable-all' => 'बीटा फिचर्स सक्षम करा',
 	'betafeatures-desc' => 'सदस्यास,या विकिवर कोणतेही फिचर्स जे अद्याप पूर्ण सुविधांसह परिपूर्ण नाहीत,सक्षम किंवा अक्षम करू देते',
-	'betafeatures-enable-all-desc' => "जर आपण ही निवड शक्य केली तर,या पानातील सर्व पसंती,त्याच्या काहीही मुल्याव्यतिरिक्त, डाटाबेस मध्ये 'ट्रू' म्हणुन नोंदविल्या जातील.हे काळजीपूर्वक वापरा!",
+	'betafeatures-toplink' => 'बीटा तोंडवळा', # Fuzzy
 );
 
 /** Dutch (Nederlands)
@@ -390,7 +380,7 @@ $messages['oc'] = array(
 	'mw-ui-feature-discuss' => 'discussion',
 	'prefs-betafeatures' => 'Foncionalitats bèta',
 	'betafeatures-desc' => 'Daissa l’utilizaire activar o desactivar las foncionalitats sus aqueste wiki que son pas encara prèstas per èsser generalizadas',
-	'betafeatures-toplink' => 'Foncionalitats en bèta',
+	'betafeatures-toplink' => 'Foncionalitats en bèta', # Fuzzy
 );
 
 /** Polish (polski)
@@ -409,7 +399,7 @@ $messages['pt-br'] = array(
 	'mw-ui-feature-user-count' => '{{PLURAL:$1|Um usuário ativou|$1 usuários ativaram}} este recurso.',
 	'prefs-betafeatures' => 'Recursos beta',
 	'betafeatures-desc' => 'Permite ao usuário ativar ou desativar funções da wiki que ainda não estão prontas para serem ativamente usadas',
-	'betafeatures-toplink' => 'Funções em Beta',
+	'betafeatures-toplink' => 'Funções em Beta', # Fuzzy
 );
 
 /** tarandíne (tarandíne)
