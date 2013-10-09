@@ -174,6 +174,15 @@ $messages['de'] = array(
 	'betafeatures-section-desc' => 'Hier {{PLURAL:$1|ist eine neue Funktion|sind einige neue Funktionen}}, die wir für $2 planen. Bitte probier sie aus und sag uns deine Meinung. So können wir sie, basierend auf deiner Rückmeldung, verbessern.',
 );
 
+/** Zazaki (Zazaki)
+ * @author Gorizon
+ */
+$messages['diq'] = array(
+	'mw-ui-feature-discuss' => 'vaten',
+	'prefs-betafeatures' => 'Xaceta beta',
+	'betafeatures-toplink' => 'Beta',
+);
+
 /** Spanish (español)
  * @author Fitoschido
  * @author Ovruni
@@ -263,6 +272,7 @@ $messages['it'] = array(
 	'betafeatures-desc' => "Consente all'utente di attivare o disattivare sul wiki funzioni che non sono ancora pronte per il grande pubblico",
 	'betafeatures-toplink' => 'Beta',
 	'betafeatures-auto-enroll' => 'Attiva automaticamente tutte le nuove funzioni beta',
+	'betafeatures-section-desc' => '{{PLURAL:$1|Questa è una nuova funzionalità|Queste sono nuove funzionalità}} che stiamo prendendo in considerazione per $2. Puoi provarle e dirci cosa ne pensi, così che possiamo migliorare in base alle vostre risposte.',
 );
 
 /** Japanese (日本語)
@@ -361,16 +371,17 @@ $messages['mr'] = array(
 );
 
 /** Dutch (Nederlands)
+ * @author Siebrand
  * @author TBloemink
  */
 $messages['nl'] = array(
 	'mw-ui-feature-discuss' => 'overleg',
-	'mw-ui-feature-user-count' => '{{PLURAL:$1|Éen gebruiker heeft|$1 gebruikers hebben}} deze functie ingeschakeld.',
-	'prefs-betafeatures' => 'Betafunctionaliteit',
-	'betafeatures-desc' => 'Laat de gebruiker functies op de wiki die nog niet gelanceerd zijn in- of uitschakelen',
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|Eén gebruiker heeft|$1 gebruikers hebben}} deze functie ingeschakeld.',
+	'prefs-betafeatures' => 'Betafuncties',
+	'betafeatures-desc' => 'Laat de gebruiker functies die in ontwikkeling zijn in- of uitschakelen',
 	'betafeatures-toplink' => 'Beta',
-	'betafeatures-auto-enroll' => 'Schakel automatisch alle beta-functies in',
-	'betafeatures-section-desc' => 'Hier {{PLURAL:$1|is een nieuwe functie|zijn een paar functies}} waarvan we overwegen deze te gebruiken op $2. Probeert u deze alstublieft uit en laat ons weten wat u ervan vindt, zodat wij deze kunnen verbeteren.',
+	'betafeatures-auto-enroll' => 'Automatisch alle betafuncties inschakelen',
+	'betafeatures-section-desc' => 'Hier {{PLURAL:$1|is een nieuwe functie|zijn een paar nieuwe functies}} die we overwegen voor $2. Probeert deze uit en laat ons weten wat u ervan vindt, zodat wij ze kunnen verbeteren.',
 );
 
 /** Occitan (occitan)
