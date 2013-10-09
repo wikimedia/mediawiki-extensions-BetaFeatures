@@ -31,6 +31,11 @@ $messages['en'] = array(
 	'mw-ui-feature-info'            => 'information',
 	'mw-ui-feature-user-count'      => '{{PLURAL:$1|One user has|$1 users have}} enabled this feature.',
 
+	'mw-ui-feature-requirements-betafeatures' => 'This feature requires the following {{PLURAL:$1|feature|features}} to be enabled:',
+	'mw-ui-feature-requirements-browser' => 'The following {{PLURAL:$1|browser|browsers}} are not supported:',
+	'mw-ui-feature-requirements-javascript' => 'This feature requires JavaScript.',
+	'mw-ui-feature-requirements-skins' => 'This feature requires you to be using {{PLURAL:$1|the following skin|one of the following skins}}:',
+
 	'prefs-betafeatures' => 'Beta features',
 	'betafeatures-desc' => 'Lets user enable or disable features on the wiki that are still not ready for prime-time',
 	'betafeatures-toplink' => 'Beta',
@@ -59,6 +64,21 @@ $messages['qqq'] = array(
 
 Parameters:
 * $1 - number of users',
+
+	'mw-ui-feature-requirements-betafeatures' => 'Error message shown when other features are required and not enabled.
+
+Parameters:
+* $1 - number of features in list',
+	'mw-ui-feature-requirements-browser' => 'Error message shown when the browser is not supported.
+
+Parameters:
+* $1 - number of browsers in list',
+	'mw-ui-feature-requirements-javascript' => 'Error message shown when the feature requires javascript.',
+	'mw-ui-feature-requirements-skins' => 'Error message shown when the skin is not supported.
+
+Parameters:
+* $1 - number of skins in list',
+
 	'prefs-betafeatures' => 'Used as section title for beta features in [[Special:Preferences]].
 {{Identical|Beta feature}}',
 	'betafeatures-desc' => '{{desc|name=Beta Features|url=http://www.mediawiki.org/wiki/Extension:BetaFeatures}}',

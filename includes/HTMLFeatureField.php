@@ -122,6 +122,89 @@ class HTMLFeatureField extends NewHTMLCheckField {
 				$parent->msg( $this->mParams['desc-message'] )->escaped() );
 		}
 
+		$html .= Html::openElement( 'ul', array(
+			'class' => 'mw-ui-feature-requirements-list',
+		) );
+
+		if ( isset( $this->mParams['requirements'] ) ) {
+			if (
+				isset( $this->mParams['requirements']['javascript'] ) &&
+				$this->mParams['requirements']['javascript']
+			) {
+				$html .= Html::rawElement(
+					'li',
+					array( 'class' => 'mw-ui-feature-requirements-javascript' ),
+					$parent->msg( 'mw-ui-feature-requirements-javascript' )->escaped()
+				);
+			}
+
+			if ( isset( $this->mParams['requirements']['blacklist'] ) ) {
+				$html .= Html::openElement(
+					'li',
+					array( 'class' => 'mw-ui-feature-requirements-browser' )
+				);
+				$browserCount = count( $this->mParams['requirements']['blacklist'] );
+				$html .= $parent->msg( 'mw-ui-feature-requirements-browser', $browserCount )->escaped();
+				$html .= Html::openElement( 'ul' );
+				foreach( $this->mParams['requirements']['blacklist'] as $browser => $versions ) {
+					$browserString = $browser;
+					if ( $versions ) {
+						foreach ( $versions as $version ) {
+							$browserString .= ' ' . implode( ' ', $version );
+						}
+					}
+					$html .= Html::element(
+						'li',
+						array(),
+						$browserString
+					);
+				}
+				$html .= Html::closeElement( 'ul' );
+				$html .= Html::closeElement( 'li' );
+			}
+
+			if ( isset( $this->mParams['requirements']['skin-not-supported'] ) ) {
+				$html .= Html::openElement(
+					'li',
+					array( 'class' => 'mw-ui-feature-requirements-skins' )
+				);
+				$skinCount = count( $this->mParams['requirements']['skins'] );
+				$html .= $parent->msg( 'mw-ui-feature-requirements-skins', $skinCount )->escaped();
+				$html .= Html::openElement( 'ul' );
+				foreach( $this->mParams['requirements']['skins'] as $skin ) {
+					$html .= Html::element(
+						'li',
+						array(),
+						$skin
+					);
+				}
+				$html .= Html::closeElement( 'ul' );
+				$html .= Html::closeElement( 'li' );
+			}
+
+			if ( isset( $this->mParams['requirements']['betafeatures-messages'] ) ) {
+				$html .= Html::openElement(
+					'li',
+					array( 'class' => 'mw-ui-feature-requirements-betafeatures' )
+				);
+				$featureCount = count( $this->mParams['requirements']['betafeatures-messages'] );
+				$html .= $parent->msg( 'mw-ui-feature-requirements-betafeatures', $featureCount )->escaped();
+				$html .= Html::openElement( 'ul' );
+				foreach( $this->mParams['requirements']['betafeatures-messages'] as $message ) {
+					$html .= Html::rawElement(
+						'li',
+						array(),
+						$parent->msg( $message )->escaped()
+					);
+				}
+				$html .= Html::closeElement( 'ul' );
+				$html .= Html::closeElement( 'li' );
+			}
+		}
+
+		// mw-ui-feature-requirements-list
+		$html .= Html::closeElement( 'ul' );
+
 		// Close -meta
 		$html .= Html::closeElement( 'div' );
 

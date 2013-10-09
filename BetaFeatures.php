@@ -39,6 +39,7 @@ $wgHooks['PersonalUrls'][] = 'BetaFeaturesHooks::getBetaFeaturesLink';
 $wgHooks['UnitTestsList'][] = 'BetaFeaturesHooks::getUnitTestsList';
 $wgHooks['LoadExtensionSchemaUpdates'][] = 'BetaFeaturesHooks::getSchemaUpdates';
 $wgHooks['BeforePageDisplay'][] = 'BetaFeaturesHooks::loadPopupScript';
+$wgHooks['MakeGlobalVariablesScript'][] = 'BetaFeaturesHooks::onMakeGlobalVariablesScript';
 
 $wgJobClasses['updateBetaFeaturesUserCounts'] = 'UpdateBetaFeatureUserCountsJob';
 
@@ -49,11 +50,14 @@ $moduleInfo = array(
 
 $wgResourceModules['ext.betaFeatures'] = array(
 	'scripts' => array(
+		'js/betafeatures.js',
 		'js/mediawiki.ui.checkbox.js',
 	),
-
 	'styles' => array(
 		'css/betafeatures.css',
+	),
+	'dependencies' => array(
+		'jquery.client',
 	),
 ) + $moduleInfo;
 

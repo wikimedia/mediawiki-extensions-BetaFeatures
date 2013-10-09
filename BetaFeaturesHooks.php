@@ -29,6 +29,8 @@ class BetaFeaturesHooks {
 	// 30 minutes
 	const COUNT_CACHE_TTL = 1800;
 
+	private static $features = array();
+
 	/**
 	 * @param array $prefs
 	 * @return array|mixed
@@ -141,7 +143,7 @@ class BetaFeaturesHooks {
 	 * @return bool
 	 * @throws BetaFeaturesMissingFieldException
 	 */
-	static function getPreferences( $user, &$prefs ) {
+	public static function getPreferences( User $user, array &$prefs ) {
 		global $wgSitename;
 
 		$betaPrefs = array();
@@ -216,6 +218,7 @@ class BetaFeaturesHooks {
 				'info-link' => true,
 				'discussion-link' => true,
 				'screenshot' => false,
+				'requirements' => false,
 			);
 
 			foreach ( $requiredFields as $field => $required ) {
@@ -254,7 +257,47 @@ class BetaFeaturesHooks {
 			}
 		}
 
+		foreach ( $betaPrefs as $key => $info ) {
+			$features = array();
+
+			if ( isset( $prefs[$key]['requirements'] ) ) {
+
+				// Check which other beta features are required, and fetch their labels
+				if ( isset( $prefs[$key]['requirements']['betafeatures'] ) ) {
+					$requiredPrefs = array();
+					foreach( $prefs[$key]['requirements']['betafeatures'] as $preference ) {
+						if ( !$user->getOption( $preference ) ) {
+							$requiredPrefs[] = $prefs[$preference]['label-message'];
+						}
+					}
+					if ( count( $requiredPrefs ) ) {
+						$prefs[$key]['requirements']['betafeatures-messages'] = $requiredPrefs;
+					}
+				}
+
+				// If a browser blacklist is supplied, store so it can be passed as JSON
+				if ( isset( $prefs[$key]['requirements']['blacklist'] ) ) {
+					$features['blacklist'] = $prefs[$key]['requirements']['blacklist'];
+				}
+
+				// Test skin support
+				if (
+					isset( $prefs[$key]['requirements']['skins'] ) &&
+					!in_array( $user->getSkin()->getSkinName(), $prefs[$key]['requirements']['skins'] )
+				) {
+					$prefs[$key]['requirements']['skin-not-supported'] = true;
+				}
+			}
+			self::$features[$key] = !empty( $features ) ? $features : null;
+		}
+
 		$user->saveSettings();
+
+		return true;
+	}
+
+	public static function onMakeGlobalVariablesScript( array &$vars ) {
+		$vars['wgBetaFeaturesFeatures'] = self::$features;
 
 		return true;
 	}

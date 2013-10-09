@@ -144,3 +144,20 @@ label.mw-ui-text-check-label[for="mw-input-wpbetafeatures-auto-enroll"] {
 .mw-htmlform-field-HTMLTextBlockField .mw-input {
 	padding-bottom: 15px;
 }
+
+.mw-ui-feature-requirements-list {
+	margin-left: 0;
+}
+
+.mw-ui-feature-requirements-list li {
+	color: #c00;
+}
+
+.mw-ui-feature-requirements-list > li {
+	list-style-type: none;
+	list-style-image: none;
+}
+
+.mw-ui-feature-requirements-list .mw-ui-feature-requirements-browser {
+	display: none;
+}
