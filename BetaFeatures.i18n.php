@@ -454,8 +454,13 @@ $messages['sl'] = array(
  * @author WikiPhoenix
  */
 $messages['sv'] = array(
+	'mw-ui-feature-discuss' => 'diskussion',
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|En|$1}} användare har aktiverat denna funktion.',
+	'prefs-betafeatures' => 'Betafunktioner',
 	'betafeatures-desc' => 'Låter användare aktivera eller inaktivera funktioner på wikin som fortfarande inte är helt färdiga',
 	'betafeatures-toplink' => 'Beta',
+	'betafeatures-auto-enroll' => 'Aktivera automatiskt alla nya betafunktioner',
+	'betafeatures-section-desc' => 'Här finns {{PLURAL:$1|en ny funktion|några nya funktioner}} som vi funderar på att inkludera i $2. Var god prova ut dem och ge oss dina åsikter så vi kan förbättra dem utifrån din feedback.',
 );
 
 /** Ukrainian (українська)
