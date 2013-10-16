@@ -441,9 +441,14 @@ $messages['ru'] = array(
 );
 
 /** Slovenian (slovenščina)
+ * @author Dbc334
  * @author Eleassar
  */
 $messages['sl'] = array(
+	'mw-ui-feature-discuss' => 'razprava',
+	'mw-ui-feature-user-count' => '$1 {{PLURAL:$1|uporabnik|uporabnika|uporabniki|uporabnikov}} je omogočilo to funkcijo.',
+	'prefs-betafeatures' => 'Preizkusne funkcije',
+	'betafeatures-desc' => 'Dovoljuje uporabniku omogočiti ali onemogočiti funkcije na wikiju, ki še niso pripravljene za redno uporabo',
 	'betafeatures-toplink' => 'Beta',
 	'betafeatures-auto-enroll' => 'Samodejno omogoči vse betamožnosti',
 	'betafeatures-section-desc' => 'Tu {{PLURAL:$1|je nova možnost|je nekaj novih možnosti}}, o katerih razmišljamo v zvezi z $2. Prosimo, preizkusite jih in nam sporočite svoje mnenje, tako da jih bomo lahko na podlagi vaših povratnih informacij izboljšali.',
