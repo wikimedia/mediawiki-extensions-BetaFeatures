@@ -56,19 +56,23 @@ table.mw-htmlform-container {
 	font-size: 24px;
 }
 
-/* line 146, sourcefiles/scss/components/default/_forms.scss */
-.mw-ui-feature-title,
-.mw-ui-feature-info-links.filled {
+.mw-ui-feature-header {
 	width: 100%;
 	border-bottom: 1px solid #e5e5e5;
 }
 
-/* line 156, sourcefiles/scss/components/default/_forms.scss */
+.mw-ui-feature-meta,
+.mw-ui-feature-screenshot-contain,
+.mw-ui-feature-title-contain,
+.mw-ui-feature-info-links {
+	width: 50%;
+}
+
+.mw-ui-feature-info-links,
 .mw-ui-feature-info-link-contain,
+.mw-ui-feature-title-contain,
 .mw-ui-feature-discussion-link-contain,
-.mw-ui-feature-checkbox,
-.mw-ui-feature-contain,
-.mw-ui-feature-main,
+.mw-ui-feature-screenshot-contain,
 .mw-ui-feature-meta {
 	display: inline-block;
 }
@@ -104,9 +108,8 @@ table.mw-htmlform-container {
 }
 
 /* line 180, sourcefiles/scss/components/default/_forms.scss */
-.mw-ui-feature-main,
-.mw-ui-feature-meta {
-	width: 50%;
+.mw-ui-feature-main {
+	width: 100%;
 	vertical-align: top;
 }
 
@@ -147,16 +150,12 @@ table.mw-htmlform-container {
 /* line 214, sourcefiles/scss/components/default/_forms.scss */
 .mw-ui-feature-screenshot-contain {
 	padding-top: 28px;
-	width: 100%;
 }
 
 /* line 219, sourcefiles/scss/components/default/_forms.scss */
 .mw-ui-feature-screenshot {
-	border: 1px solid #e5e5e5;
 	max-height: 150px;
 	max-width: 100%;
-	background: #fff;
-	padding: 8px;
 }
 
 /* line 225, sourcefiles/scss/components/default/_forms.scss */
