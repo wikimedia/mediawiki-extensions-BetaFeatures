@@ -28,6 +28,7 @@ $messages = array();
 $messages['en'] = array(
 	# Feature field messages
 	'mw-ui-feature-discuss'         => 'discussion',
+	'mw-ui-feature-info'            => 'information',
 	'mw-ui-feature-user-count'      => '{{PLURAL:$1|One user has|$1 users have}} enabled this feature.',
 
 	'prefs-betafeatures' => 'Beta features',
@@ -50,6 +51,7 @@ $messages['en'] = array(
 $messages['qqq'] = array(
 	'mw-ui-feature-discuss' => 'Used as link text for the link which points to discussion of a feature.
 {{Identical|Discussion}}',
+	'mw-ui-feature-info'    => 'Used as link text for the link which points to information about a feature.',
 	'mw-ui-feature-user-count' => 'Used to show how many users have enabled a particular feature on the site.
 
 Parameters:

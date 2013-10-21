@@ -48,17 +48,16 @@ table.mw-htmlform-container {
 }
 
 .mw-ui-feature-title {
-	padding-bottom: 8px;
-}
-
-/* line 141, sourcefiles/scss/components/default/_forms.scss */
-.mw-ui-feature-title .mw-ui-text-check-label {
+	margin: 0;
+	padding: 0;
 	font-size: 24px;
+	line-height: 36px;
 }
 
 .mw-ui-feature-header {
 	width: 100%;
 	border-bottom: 1px solid #e5e5e5;
+	margin-bottom: 0.5em;
 }
 
 .mw-ui-feature-meta,
@@ -69,23 +68,19 @@ table.mw-htmlform-container {
 }
 
 .mw-ui-feature-info-links,
-.mw-ui-feature-info-link-contain,
-.mw-ui-feature-title-contain,
-.mw-ui-feature-discussion-link-contain,
+.mw-ui-feature-title-contain {
+	display: inline-block;
+}
+
 .mw-ui-feature-screenshot-contain,
 .mw-ui-feature-meta {
 	display: inline-block;
+	vertical-align: top;
 }
 
 .mw-ui-feature-field {
 	margin-bottom: 68px;
 	position: relative;
-}
-
-/* line 165, sourcefiles/scss/components/default/_forms.scss */
-.mw-ui-feature-checkbox {
-	position: absolute;
-	top: 5px;
 }
 
 .mw-htmlform-field-HTMLHorizontalRuleField .mw-input hr {
@@ -102,70 +97,43 @@ table.mw-htmlform-container {
 	width: 80%;
 }
 
-/* line 175, sourcefiles/scss/components/default/_forms.scss */
 .mw-ui-feature-description {
-	padding-right: 10px;
+	margin: 1em 0 0 0;
+	padding-right: 1em;
 }
 
-/* line 180, sourcefiles/scss/components/default/_forms.scss */
-.mw-ui-feature-main {
-	width: 100%;
-	vertical-align: top;
-}
-
-/* line 186, sourcefiles/scss/components/default/_forms.scss */
-.mw-ui-feature-info-link-contain,
-.mw-ui-feature-discussion-link-contain {
-	border-left: 1px solid #e5e5e5;
-	padding: 3px 18px 14px;
-}
-
-/* line 195, sourcefiles/scss/components/default/_forms.scss */
 .mw-ui-feature-discussion-link,
-.mw-ui-feature-discussion-link:visited,
-.mw-ui-feature-discussion-link:hover,
-.mw-ui-feature-discussion-link:active,
-.mw-ui-feature-discussion-link:focus {
-	color: #888888;
-	text-decoration: none;
-}
-
-/* line 200, sourcefiles/scss/components/default/_forms.scss */
 .mw-ui-feature-info-link {
-	padding: 2px 8px;
-	background: url("../img/form-icon/feature-information.png") no-repeat;
+	height: 24px;
+	line-height: 24px;
+	padding: 6px 10px 6px 40px;
+	display: inline-block;
+	border-left: 1px solid #ccc;
 }
 
-/* line 205, sourcefiles/scss/components/default/_forms.scss */
-.mw-ui-feature-discussion-link-icon {
-	padding: 2px 12px 2px 13px;
-	background: url("../img/form-icon/feature-discussion.svg") no-repeat;
+.mw-ui-feature-discussion-link {
+	padding-left: 46px;
+	background: url('../img/form-icon/feature-discussion.svg') 10px 6px no-repeat;
 }
 
-/* line 210, sourcefiles/scss/components/default/_forms.scss */
-.mw-ui-feature-discussion-link-text {
-	padding: 2px 8px;
-}
-
-/* line 214, sourcefiles/scss/components/default/_forms.scss */
-.mw-ui-feature-screenshot-contain {
-	padding-top: 28px;
+.mw-ui-feature-info-link {
+	background: url('../img/form-icon/feature-information.png') 10px 6px no-repeat;
 }
 
 /* line 219, sourcefiles/scss/components/default/_forms.scss */
 .mw-ui-feature-screenshot {
+	margin: 1em 0 0 0;
 	max-height: 150px;
 	max-width: 100%;
 }
 
-/* line 225, sourcefiles/scss/components/default/_forms.scss */
 .mw-ui-feature-user-count {
 	color: #00b08a;
-	margin-top: 22px;
-	margin-bottom: 12px;
+	margin: 1em 0 0 0;
 }
 
 .mw-ui-feature-checkbox .mw-ui-styled-checkbox-label {
+	margin-top: 6px;
 	margin-right: 9px;
 }
 

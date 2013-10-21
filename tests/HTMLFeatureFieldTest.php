@@ -36,20 +36,48 @@ class HTMLFeatureFieldTest extends MediaWikiTestCase {
 		$form->setTitle( Title::newMainPage() );
 		$html = $form->getHTML( false );
 
-		$this->assertRegExp( '#<tr class="mw-htmlform-field-HTMLFeatureField">#', $html, 'Table row with class name not found.' );
+		$cases = array(
+			array(
+				'pattern' => '#<tr class="mw-htmlform-field-HTMLFeatureField">#',
+				'message' => 'Table row with class name not found.',
+			),
+			array(
+				'pattern' => '#<label for="mw-input-wpblahblahblah" class="mw-ui-styled-checkbox-label"><input name="wpblahblahblah" type="checkbox" value="1" id="mw-input-wpblahblahblah" class="mw-ui-feature-toggle mw-ui-checkbox" />&\\#160;</label>#',
+				'message' => 'Styled checkbox label and input not found.',
+			),
+			array(
+				'pattern' => '#<label for="mw-input-wpblahblahblah" class="mw-ui-text-check-label">blah blah blah</label>#',
+				'message' => 'Checkbox label not found.',
+			),
+			array(
+				'pattern' => '#<p class="mw-ui-feature-description">This is a test feature - it should not show up.</p>#',
+				'message' => 'Feature description not found',
+			),
+			array(
+				'pattern' => '#<div class="mw-ui-feature-meta">#',
+				'message' => 'Meta div not found.',
+			),
+			array(
+				'pattern' => '#<a href="http://example.org/feature" class="mw-ui-feature-info-link">information</a>#',
+				'message' => 'Feature information link not found',
+			),
+			array(
+				'pattern' => '#<a href="http://example.org/feature/discussion" class="mw-ui-feature-discussion-link">discussion</a>#',
+				'message' => 'Discussion link not found',
+			),
+			array(
+				'pattern' => '#<div class="mw-ui-feature-screenshot-contain"></div>#',
+				'message' => 'Screenshot div not empty or not found.',
+			),
+		);
 
-		$this->assertRegExp( '#<label for="mw-input-wpblahblahblah" class="mw-ui-styled-checkbox-label"><input name="wpblahblahblah" type="checkbox" value="1" id="mw-input-wpblahblahblah" class="mw-ui-feature-toggle mw-ui-checkbox" />&\\#160;</label>#', $html, 'Styled checkbox label and input not found.' );
+		foreach ( $cases as $case ) {
+			$this->assertRegExp(
+				$case['pattern'],
+				$html,
+				$case['message']
+			);
+		}
 
-		$this->assertRegExp( '#<label for="mw-input-wpblahblahblah" class="mw-ui-text-check-label">blah blah blah</label>#', $html, 'Checkbox label not found.' );
-
-		$this->assertRegExp( '#<p class="mw-ui-feature-description">This is a test feature - it should not show up.</p>#', $html, 'Feature description not found' );
-
-		$this->assertRegExp( '#<div class="mw-ui-feature-meta">#', $html, 'Meta div not found.' );
-
-		$this->assertRegExp( '#<div class="mw-ui-feature-info-link-contain"><a href="http://example.org/feature" class="mw-ui-feature-info-link">&\\#160;</a></div>#', $html, 'Feature information link not found' );
-
-		$this->assertRegExp( '#<div class="mw-ui-feature-discussion-link-contain"><a href="http://example.org/feature/discussion" class="mw-ui-feature-discussion-link"><span class="mw-ui-feature-discussion-link-icon">&\\#160;</span><span class="mw-ui-feature-discussion-link-text">discussion</span></a></div>#', $html, 'Discussion link not found' );
-
-		$this->assertRegExp( '#<div class="mw-ui-feature-screenshot-contain"></div>#', $html, 'Screenshot div not empty or not found.' );
 	}
 }
