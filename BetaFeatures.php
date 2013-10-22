@@ -38,6 +38,7 @@ $wgHooks['GetPreferences'][] = 'BetaFeaturesHooks::getPreferences';
 $wgHooks['PersonalUrls'][] = 'BetaFeaturesHooks::getBetaFeaturesLink';
 $wgHooks['UnitTestsList'][] = 'BetaFeaturesHooks::getUnitTestsList';
 $wgHooks['LoadExtensionSchemaUpdates'][] = 'BetaFeaturesHooks::getSchemaUpdates';
+$wgHooks['BeforePageDisplay'][] = 'BetaFeaturesHooks::loadPopupScript';
 
 $wgJobClasses['updateBetaFeaturesUserCounts'] = 'UpdateBetaFeatureUserCountsJob';
 
@@ -53,6 +54,20 @@ $wgResourceModules['ext.betaFeatures'] = array(
 
 	'styles' => array(
 		'css/betafeatures.css',
+	),
+) + $moduleInfo;
+
+$wgResourceModules['ext.betaFeatures.popup'] = array(
+	'scripts' => array(
+		'js/ext.betaFeatures.popup.js',
+	),
+
+	'dependencies' => array(
+		'jquery.tipsy',
+	),
+
+	'messages' => array(
+		'betafeatures-tooltip',
 	),
 ) + $moduleInfo;
 
