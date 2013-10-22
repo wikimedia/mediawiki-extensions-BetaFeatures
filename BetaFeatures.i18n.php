@@ -51,7 +51,8 @@ $messages['en'] = array(
 $messages['qqq'] = array(
 	'mw-ui-feature-discuss' => 'Used as link text for the link which points to discussion of a feature.
 {{Identical|Discussion}}',
-	'mw-ui-feature-info'    => 'Used as link text for the link which points to information about a feature.',
+	'mw-ui-feature-info' => 'Used as link text for the link which points to information about a feature.
+{{Identical|Information}}',
 	'mw-ui-feature-user-count' => 'Used to show how many users have enabled a particular feature on the site.
 
 Parameters:
@@ -79,6 +80,13 @@ The description for this checkbox is {{msg-mw|Betafeatures-test-feature-field}}.
 	'betafeatures-test-feature-field' => 'Used as description for the checkbox, used to test the extension.
 
 The label for the checkbox is {{msg-mw|Betafeatures-test-check-field}}.',
+);
+
+/** Arabic (العربية)
+ * @author مشعل الحربي
+ */
+$messages['ar'] = array(
+	'mw-ui-feature-info' => 'معلومات',
 );
 
 /** Asturian (asturianu)
@@ -168,6 +176,7 @@ $messages['cy'] = array(
  */
 $messages['de'] = array(
 	'mw-ui-feature-discuss' => 'Diskussion',
+	'mw-ui-feature-info' => 'Information',
 	'mw-ui-feature-user-count' => '{{PLURAL:$1|Ein Benutzer hat|$1 Benutzer haben}} diese Funktion aktiviert.',
 	'prefs-betafeatures' => 'Beta-Funktionen',
 	'betafeatures-desc' => 'Ermöglicht Benutzern das Aktivieren oder Deaktivieren von Funktionen in diesem Wiki, die sich noch in der Entwicklung befinden',
@@ -269,6 +278,7 @@ $messages['ia'] = array(
  */
 $messages['it'] = array(
 	'mw-ui-feature-discuss' => 'discussione',
+	'mw-ui-feature-info' => 'informazioni',
 	'mw-ui-feature-user-count' => '{{PLURAL:$1|Un utente ha|$1 utenti hanno}} abilitato questa funzione.',
 	'prefs-betafeatures' => 'Funzionalità beta',
 	'betafeatures-desc' => "Consente all'utente di attivare o disattivare sul wiki funzioni che non sono ancora pronte per il grande pubblico",
@@ -282,6 +292,7 @@ $messages['it'] = array(
  */
 $messages['ja'] = array(
 	'mw-ui-feature-discuss' => '議論',
+	'mw-ui-feature-info' => '情報',
 	'mw-ui-feature-user-count' => '{{PLURAL:$1|$1 人の利用者}}がこの機能を有効にしています。',
 	'prefs-betafeatures' => 'ベータ版機能',
 	'betafeatures-desc' => '本番環境のウィキで使用する準備がまだできていない機能について、利用者が有効化/無効化できるようにする',
@@ -349,6 +360,7 @@ $messages['lt'] = array(
  */
 $messages['mk'] = array(
 	'mw-ui-feature-discuss' => 'разговор',
+	'mw-ui-feature-info' => 'информации',
 	'mw-ui-feature-user-count' => 'Функцијата ја {{PLURAL:$1|има вклученоо еден корисник|имаат вклучено $1 корисници}}.',
 	'prefs-betafeatures' => 'Бета-можности',
 	'betafeatures-desc' => 'Овозможува корисникот да вклучува и исклучува можности што сè уште не се воведени како стандардни',
@@ -434,6 +446,7 @@ $messages['roa-tara'] = array(
  */
 $messages['ru'] = array(
 	'mw-ui-feature-discuss' => 'обсуждение',
+	'mw-ui-feature-info' => 'информация',
 	'mw-ui-feature-user-count' => '$1 {{PLURAL:$1|пользователь включил|пользователя включили|пользователей включили}} эту функцию.',
 	'prefs-betafeatures' => 'Бета-функции',
 	'betafeatures-desc' => 'Позволяет пользователю включить или отключить функции, которые еще не готовы к прайм-тайм',
@@ -476,6 +489,7 @@ $messages['sv'] = array(
  */
 $messages['uk'] = array(
 	'mw-ui-feature-discuss' => 'обговорення',
+	'mw-ui-feature-info' => 'інформація',
 	'mw-ui-feature-user-count' => '{{PLURAL:$1|Один користувач вже увімкнув|$1 користувачі вже увімкнули|$1 користувачів вже увімкнули}} цю функцію.',
 	'prefs-betafeatures' => 'Бета-функції',
 	'betafeatures-desc' => 'Дозволяє користувачу вмикати чи вимикати функції вікі, все ще не готові до прайм-тайму',
