@@ -115,11 +115,17 @@ $messages['bcl'] = array(
 );
 
 /** Bengali (বাংলা)
+ * @author Aftab1995
  * @author Bellayet
  */
 $messages['bn'] = array(
+	'mw-ui-feature-discuss' => 'আলোচনা',
+	'mw-ui-feature-info' => 'তথ্য',
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|একজন ব্যবহারকারী|$1জন ব্যবহারকারী}} এই বৈশিষ্ট্য সক্রিয় করেছেন।',
+	'prefs-betafeatures' => 'বেটা বৈশিষ্ট্যসমূহ',
 	'betafeatures-desc' => 'ব্যবহারকারীদের এই উইকিতে বৈশিষ্ট্য সক্রিয় বা নিস্ক্রিয় করার ব্যবস্থা করো যা এখনও প্রধান-সময়ের জন্য তৈরি নয়',
-	'betafeatures-toplink' => 'বেটা বৈশিষ্ট্যসমূহ', # Fuzzy
+	'betafeatures-toplink' => 'বেটা',
+	'betafeatures-auto-enroll' => 'স্বয়ংক্রিয়ভাবে সমস্ত নতুন বেটা বৈশিষ্ট্য সক্রিয় হবে',
 );
 
 /** Breton (brezhoneg)
@@ -263,6 +269,7 @@ $messages['hu'] = array(
  */
 $messages['ia'] = array(
 	'mw-ui-feature-discuss' => 'discussion',
+	'mw-ui-feature-info' => 'information',
 	'mw-ui-feature-user-count' => '{{PLURAL:$1|Un usator|$1 usatores}} ha activate iste function.',
 	'prefs-betafeatures' => 'Functionalitate beta',
 	'betafeatures-desc' => 'Permitte que le usator activa o disactiva functionalitate in le wiki que non ha ancora essite perfectionate',
@@ -310,11 +317,13 @@ $messages['kk-cyrl'] = array(
 
 /** Korean (한국어)
  * @author AlexPark
+ * @author Hym411
  * @author Kwj2772
  * @author 아라
  */
 $messages['ko'] = array(
 	'mw-ui-feature-discuss' => '토론',
+	'mw-ui-feature-info' => '정보',
 	'mw-ui-feature-user-count' => '{{PLURAL:$1|사용자 한 명|사용자 $1명}}이 이 기능을 활성화했습니다.',
 	'prefs-betafeatures' => '베타 기능',
 	'betafeatures-desc' => '사용자가 아직 준비가 되지 않은 위키에서 기능을 활성화하거나 비활성화할 수 있습니다',
@@ -340,6 +349,7 @@ $messages['la'] = array(
  */
 $messages['lb'] = array(
 	'mw-ui-feature-discuss' => 'Diskussioun',
+	'mw-ui-feature-info' => 'Informatioun',
 	'mw-ui-feature-user-count' => '{{PLURAL:$1|Ee Benotzer huet|$1 Benotzer hunn}} dës Funktioun aktivéiert.',
 	'prefs-betafeatures' => 'Beta-Funktiounen',
 	'betafeatures-desc' => 'Léisst Benotzer Funktiounen op der Wiki aktivéieren oder desaktivéieren déi nach net fäerdeg entwéckelt sinn',
