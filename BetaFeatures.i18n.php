@@ -82,7 +82,6 @@ The description for this checkbox is {{msg-mw|Betafeatures-test-feature-field}}.
 	'betafeatures-test-feature-field' => 'Used as description for the checkbox, used to test the extension.
 
 The label for the checkbox is {{msg-mw|Betafeatures-test-check-field}}.',
-
 	'betafeatures-tooltip' => 'A tooltip meant to advertise the existence of the BetaFeatures preferences page the first time a user sees it. Only shown once, meant to be a call to action.',
 );
 
@@ -138,6 +137,7 @@ $messages['bn'] = array(
  */
 $messages['br'] = array(
 	'mw-ui-feature-discuss' => 'kaozeadenn',
+	'mw-ui-feature-info' => 'titouroù',
 	'mw-ui-feature-user-count' => "{{PLURAL:$1|Un implijer|$1 implijer}} o deus gweredekaet an arc'hwel-mañ.",
 	'prefs-betafeatures' => 'Perzhioù beta',
 	'betafeatures-toplink' => 'Beta',
@@ -484,11 +484,13 @@ $messages['sl'] = array(
 );
 
 /** Swedish (svenska)
+ * @author Ainali
  * @author Skalman
  * @author WikiPhoenix
  */
 $messages['sv'] = array(
 	'mw-ui-feature-discuss' => 'diskussion',
+	'mw-ui-feature-info' => 'information',
 	'mw-ui-feature-user-count' => '{{PLURAL:$1|En|$1}} användare har aktiverat denna funktion.',
 	'prefs-betafeatures' => 'Betafunktioner',
 	'betafeatures-desc' => 'Låter användare aktivera eller inaktivera funktioner på wikin som fortfarande inte är helt färdiga',
