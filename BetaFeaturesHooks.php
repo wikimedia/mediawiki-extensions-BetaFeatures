@@ -149,6 +149,11 @@ class BetaFeaturesHooks {
 
 		wfRunHooks( 'GetBetaFeaturePreferences', array( $user, &$betaPrefs ) );
 
+		$prefs['betafeatures-popup-disable'] = array(
+			'type' => 'api',
+			'default' => 0,
+		);
+
 		$prefs['betafeatures-section-desc'] = array(
 			'class' => 'HTMLTextBlockField',
 			'label' => wfMessage( 'betafeatures-section-desc', count( $betaPrefs ), $wgSitename )->text(),
@@ -316,6 +321,19 @@ class BetaFeaturesHooks {
 	static function getSchemaUpdates( $updater ) {
 		$updater->addExtensionTable( 'betafeatures_user_counts',
 			__DIR__ . '/sql/create_counts.sql' );
+		return true;
+	}
+
+	/**
+	 * @param OutputPage &$out
+	 * @param Skin &$skin
+	 * @return bool
+	 */
+	static function loadPopupScript( OutputPage &$out, Skin &$skin ) {
+		if ( !$out->getUser()->getOption( 'betafeatures-popup-disable' ) ) {
+			$out->addModules( 'ext.betaFeatures.popup' );
+		}
+
 		return true;
 	}
 }
