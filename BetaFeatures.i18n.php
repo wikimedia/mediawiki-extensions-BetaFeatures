@@ -161,6 +161,7 @@ $messages['ca'] = array(
  */
 $messages['cs'] = array(
 	'mw-ui-feature-discuss' => 'diskuse',
+	'mw-ui-feature-info' => 'informace',
 	'mw-ui-feature-user-count' => 'Tuto funkci si {{PLURAL:$1|zapnul jeden uživatel|zapnuli $1 uživatelé|zapnulo $1 uživatelů}}.',
 	'prefs-betafeatures' => 'Betaverze',
 	'betafeatures-desc' => 'Umožňuje uživatelům zapínat a vypínat nové funkce, které zatím nejsou zcela odladěné',
@@ -193,6 +194,7 @@ $messages['de'] = array(
 	'betafeatures-toplink' => 'Beta',
 	'betafeatures-auto-enroll' => 'Automatisch alle neuen Beta-Funktionen aktivieren',
 	'betafeatures-section-desc' => 'Hier {{PLURAL:$1|ist eine neue Funktion|sind einige neue Funktionen}}, die wir für $2 planen. Bitte probier sie aus und sag uns deine Meinung. So können wir sie, basierend auf deiner Rückmeldung, verbessern.',
+	'betafeatures-tooltip' => 'Einführende Betafunktionen! Dieser neue Einstellungsabschnitt ermöglicht dir das Testen und Geben von Rückmeldungen über neue Funktionen, bevor wir sie standardmäßig aktivieren. Probier jetzt einige neue Funktionen aus!',
 );
 
 /** Zazaki (Zazaki)
@@ -333,6 +335,8 @@ $messages['ko'] = array(
 	'betafeatures-desc' => '사용자가 아직 준비가 되지 않은 위키에서 기능을 활성화하거나 비활성화할 수 있습니다',
 	'betafeatures-toplink' => '베타',
 	'betafeatures-auto-enroll' => '자동으로 새 베타 기능을 모두 활성화',
+	'betafeatures-section-desc' => '$2를 고려하고 있는 {{PLURAL:$1|새로운 기능|새로운 기능들}}이 있습니다. 사용해 보시고, 의견을 남겨 주시면, 의견을 바탕으로 발전시켜 나가겠습니다.',
+	'betafeatures-tooltip' => '베타 기능을 소개합니다! 이 새로운 환경 설정을 사용하여 저희가 기본 설정으로 설정하기 전에 새로운 기능에 대한 의견을 들을 수 있습니다! 새 기능을 시도해 보세요!',
 );
 
 /** Latin (Latina)
@@ -467,6 +471,7 @@ $messages['ru'] = array(
 	'betafeatures-toplink' => 'Бета-версия',
 	'betafeatures-auto-enroll' => 'Автоматически включать все новые бета-функции',
 	'betafeatures-section-desc' => '{{PLURAL:$1|Появилась новая функция, которую|Появилось несколько новых функций, которые}} мы продумываем для $2. Пожалуйста, попробуйте {{PLURAL:$1|её|их}} и выскажите нам свои мысли, чтобы мы могли улучшить эти нововведения, основываясь на ваших отзывах.',
+	'betafeatures-tooltip' => 'Представляем бета-функции! Этот новый раздел настроек позволит вам протестировать и оставить отзывы о новых возможностях до того, как мы их запустим для всех по умолчанию. Попробуйте что-то новое уже сейчас!',
 );
 
 /** Slovenian (slovenščina)
@@ -512,6 +517,7 @@ $messages['uk'] = array(
 	'betafeatures-toplink' => 'Бета',
 	'betafeatures-auto-enroll' => 'Автоматично увімкнути усі бета-функції',
 	'betafeatures-section-desc' => 'Тут  {{PLURAL:$1|є нова функція, яку|деякі нові функції, які}} ми розробляємо для  $2. Спробуйте їх і дайте нам свої думки, щоб ми могли покращити їх, виходячи з ваших відгуків.',
+	'betafeatures-tooltip' => 'Представляємо бета-функції! Цей новий розділ налаштувань дозволяє тестувати і надсилати відгуки про нові можливості, перш ніж ми запустимо їх як типову поведінку у основній Медіавікі. Спробувати щось нове зараз!',
 );
 
 /** Wu (吴语)
@@ -529,6 +535,7 @@ $messages['wuu'] = array(
  */
 $messages['zh-hans'] = array(
 	'mw-ui-feature-discuss' => '讨论',
+	'mw-ui-feature-info' => '信息',
 	'mw-ui-feature-user-count' => '有$1个用户启用此功能。',
 	'prefs-betafeatures' => '测试特性',
 	'betafeatures-desc' => '允许用户启用或禁用wiki上仍在测试的功能',
