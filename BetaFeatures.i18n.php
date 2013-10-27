@@ -424,7 +424,7 @@ $messages['oc'] = array(
 	'mw-ui-feature-discuss' => 'discussion',
 	'prefs-betafeatures' => 'Foncionalitats bèta',
 	'betafeatures-desc' => 'Daissa l’utilizaire activar o desactivar las foncionalitats sus aqueste wiki que son pas encara prèstas per èsser generalizadas',
-	'betafeatures-toplink' => 'Foncionalitats en bèta', # Fuzzy
+	'betafeatures-toplink' => 'Bèta',
 );
 
 /** Polish (polski)
