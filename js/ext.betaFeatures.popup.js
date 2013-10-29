@@ -13,6 +13,9 @@
  *
  * You should have received a copy of the GNU General Public License
  * along with BetaFeatures.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ * @copyright 2013 Mark Holmquist and others; see AUTHORS
+ * @license GNU General Public License version 2 or later
  */
 
 ( function ( mw, $ ) {

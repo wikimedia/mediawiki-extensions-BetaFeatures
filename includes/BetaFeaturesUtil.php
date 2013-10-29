@@ -15,10 +15,12 @@
  * You should have received a copy of the GNU General Public License
  * along with BetaFeatures.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * BetaFeatures utilities
+ *
  * @file
- * @ingroup extensions
- * @author Mark Holmquist <mtraceur@member.fsf.org>
- * @copyright Copyright © 2013, Mark Holmquist
+ * @ingroup Extensions
+ * @copyright 2013 Mark Holmquist and others; see AUTHORS
+ * @license GNU General Public License version 2 or later
  */
 
 class BetaFeatures {

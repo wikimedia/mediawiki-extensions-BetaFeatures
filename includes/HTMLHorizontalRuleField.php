@@ -8,17 +8,19 @@
  * (at your option) any later version.
  *
  * BetaFeatures is distributed in the hope that it will be useful,
-* but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
  * along with BetaFeatures.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * HTML horizontal rule field
+ *
  * @file
- * @ingroup extensions
- * @author Mark Holmquist <mtraceur@member.fsf.org>
- * @copyright Copyright © 2013, Mark Holmquist
+ * @ingroup Extensions
+ * @copyright 2013 Mark Holmquist and others; see AUTHORS
+ * @license GNU General Public License version 2 or later
  */
 
 class HTMLHorizontalRuleField extends HTMLFormField {
