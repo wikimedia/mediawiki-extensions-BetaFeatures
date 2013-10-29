@@ -24,6 +24,21 @@
 class HTMLTextBlockField extends HTMLFormField {
 
 	/**
+	 * Override __construct so we can allow HTML in labels
+	 */
+	function __construct( $params ) {
+		if ( isset( $params['label'] ) ) {
+			$label = $params['label'];
+		}
+
+		parent::__construct( $params );
+
+		if ( isset( $label ) ) {
+			$this->mLabel = $label;
+		}
+	}
+
+	/**
 	 * This field type is meant to be used for a block of text, so
 	 * the right-aligned label style doesn't really apply.
 	 * @return string

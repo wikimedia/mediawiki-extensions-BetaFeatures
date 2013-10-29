@@ -48,6 +48,9 @@ $messages['en'] = array(
 	'betafeatures-test-feature-field' => 'This is a test feature - it should not show up.', # do not translate or duplicate this message to other languages
 
 	'betafeatures-tooltip' => 'Introducing Beta Features! This new preferences section lets you test and give feedback about new features before we launch them as default behavior. Try out something new now!',
+
+	'betafeatures-about-betafeatures' => 'About Beta Features',
+	'betafeatures-discuss-betafeatures' => 'Leave feedback',
 );
 
 /** Message documentation (Message documentation)
@@ -103,6 +106,9 @@ The description for this checkbox is {{msg-mw|Betafeatures-test-feature-field}}.
 
 The label for the checkbox is {{msg-mw|Betafeatures-test-check-field}}.',
 	'betafeatures-tooltip' => 'A tooltip meant to advertise the existence of the BetaFeatures preferences page the first time a user sees it. Only shown once, meant to be a call to action.',
+
+	'betafeatures-about-betafeatures' => 'Text for a link to a page describing what Beta Features is, what the project is for, etc.',
+	'betafeatures-discuss-betafeatures' => 'Text for a link to a page where users can leave feedback about Beta Features.',
 );
 
 /** Arabic (العربية)
