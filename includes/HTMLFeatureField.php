@@ -48,14 +48,26 @@ class HTMLFeatureField extends NewHTMLCheckField {
 		// Close -title-contain
 		$html .= Html::closeElement( 'div' );
 
-		$hasInfoLink = !empty( $this->mParams['info-link'] );
-		$hasDiscussionLink = !empty( $this->mParams['discussion-link'] );
+
+		if ( isset( $this->mParams['info-message'] ) ) {
+			$infoLink = $this->mParent->msg( $this->mParams['info-message'] )->escaped();
+		}
+		else {
+			$infoLink = $this->mParams['info-link'];
+		}
+
+		if ( isset( $this->mParams['discussion-message'] ) ) {
+			$discussionLink = $this->mParent->msg( $this->mParams['discussion-message'] )->escaped();
+		}
+		else {
+			$discussionLink = $this->mParams['discussion-link'];
+		}
 
 		$infoLinkClasses = array(
 			'mw-ui-feature-info-links',
 		);
 
-		if ( $hasInfoLink || $hasDiscussionLink ) {
+		if ( isset( $infoLink ) || isset( $discussionLink ) ) {
 			$infoLinkClasses[] = 'filled';
 		}
 
@@ -63,16 +75,16 @@ class HTMLFeatureField extends NewHTMLCheckField {
 			'class' => $infoLinkClasses,
 		) );
 
-		if ( $hasInfoLink ) {
+		if ( isset( $infoLink ) ) {
 			$html .= Html::rawElement( 'a', array(
-				'href' => $this->mParams['info-link'],
+				'href' => $infoLink,
 				'class' => 'mw-ui-feature-info-link',
 			), $this->mParent->msg( 'mw-ui-feature-info' )->escaped() );
 		}
 
-		if ( $hasDiscussionLink ) {
+		if ( isset( $discussionLink ) ) {
 			$html .= Html::rawElement( 'a', array(
-				'href' => $this->mParams['discussion-link'],
+				'href' => $discussionLink,
 				'class' => 'mw-ui-feature-discussion-link',
 			), $this->mParent->msg( 'mw-ui-feature-discuss' )->escaped() );
 		}

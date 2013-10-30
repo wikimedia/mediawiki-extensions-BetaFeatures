@@ -236,13 +236,12 @@ class BetaFeaturesHooks {
 			$requiredFields = array(
 				'label-message' => true,
 				'desc-message' => true,
-				// The next two could probably not be required at a
-				// later date, but currently they're required for the
-				// design to work.
-				'info-link' => true,
-				'discussion-link' => true,
 				'screenshot' => false,
 				'requirements' => false,
+				'info-link' => false,
+				'info-message' => false,
+				'discussion-link' => false,
+				'discussion-message' => false,
 			);
 
 			foreach ( $requiredFields as $field => $required ) {
