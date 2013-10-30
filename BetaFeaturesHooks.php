@@ -397,7 +397,8 @@ class BetaFeaturesHooks {
 	 * @return bool
 	 */
 	static function loadPopupScript( OutputPage &$out, Skin &$skin ) {
-		if ( !$out->getUser()->getOption( 'betafeatures-popup-disable' ) ) {
+		$user = $out->getUser();
+		if ( $user->isLoggedIn() && $user->getOption( 'betafeatures-popup-disable' ) ) {
 			$out->addModules( 'ext.betaFeatures.popup' );
 		}
 
