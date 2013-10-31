@@ -69,14 +69,20 @@ Parameters:
 * $1 - number of users',
 	'mw-ui-feature-requirements-betafeatures' => 'Error message shown when other features are required and not enabled.
 
+Followed by list of features.
+
 Parameters:
 * $1 - number of features in list',
 	'mw-ui-feature-requirements-browser' => 'Error message shown when the browser is not supported.
+
+Followed by list of browsers.
 
 Parameters:
 * $1 - number of browsers in list',
 	'mw-ui-feature-requirements-javascript' => 'Error message shown when the feature requires javascript.',
 	'mw-ui-feature-requirements-skins' => 'Error message shown when the skin is not supported.
+
+Followed by list of skins.
 
 Parameters:
 * $1 - number of skins in list',
@@ -105,7 +111,8 @@ The description for this checkbox is {{msg-mw|Betafeatures-test-feature-field}}.
 The label for the checkbox is {{msg-mw|Betafeatures-test-check-field}}.',
 	'betafeatures-tooltip' => 'A tooltip meant to advertise the existence of the BetaFeatures preferences page the first time a user sees it. Only shown once, meant to be a call to action.',
 	'betafeatures-about-betafeatures' => 'Text for a link to a page describing what Beta Features is, what the project is for, etc.',
-	'betafeatures-discuss-betafeatures' => 'Text for a link to a page where users can leave feedback about Beta Features.',
+	'betafeatures-discuss-betafeatures' => 'Text for a link to a page where users can leave feedback about Beta Features.
+{{Identical|Leave feedback}}',
 );
 
 /** Arabic (العربية)
@@ -135,11 +142,20 @@ $messages['ast'] = array(
  */
 $messages['bcl'] = array(
 	'mw-ui-feature-discuss' => 'orolayan',
+	'mw-ui-feature-info' => 'impormasyon',
 	'mw-ui-feature-user-count' => '{{PLURAL:$1|Sarong paragamit|$1 na mga paragamit}} pinagpagana an posturang ini.',
+	'mw-ui-feature-requirements-betafeatures' => 'Ining estima minakaipo kan minasunod na {{PLURAL:$1|estima|mga estima}} tanganing pagpaganahon:',
+	'mw-ui-feature-requirements-browser' => 'An minasunod na {{PLURAL:$1|pangilyaw|mga pangilyaw}} bakong suportado:',
+	'mw-ui-feature-requirements-javascript' => 'Ining estima minakaipo nin JavaScript.',
+	'mw-ui-feature-requirements-skins' => 'Ining estima minakaipo saimo na gumamit nin  {{PLURAL:$1|minasunod na kublit|saro kan minasunod na mga kublit}}:',
 	'prefs-betafeatures' => 'Mga posturang yaon sa beta',
 	'betafeatures-desc' => 'Minatugot sa paragamit na paganahon o pauntukon an mga postura kaining wiki na dae pa man handa para sa premyadong-panahon',
 	'betafeatures-toplink' => 'Beta',
-	'betafeatures-auto-enroll' => 'Awtomatikong magpalista sa gabos na mga posturang yaon sa beta', # Fuzzy
+	'betafeatures-auto-enroll' => 'Awtomatikong pagpaganahon an gabos na baguhong mga estima nin beta',
+	'betafeatures-section-desc' => 'Uya {{PLURAL:$1|an sarong baguhong estima|an nagkapirang baguhon na mga estima}} na samuyang kinokonsidera para sa $2. Tabi man prubari sinda asin itao samuya an saimong mga kaisipan, na tangani baya samuya pang mapakarhay sinda na pinagbase sa saimong balik-simbag.',
+	'betafeatures-tooltip' => 'Ipinapabisto an Beta na mga Estima! Ining baguhon na seksyon nin mga kamuyahan minatugot saimo na prubaran asin magtao nin balik-simbag mapanungod sa baguhong mga estima bago mi ipaglansar sinda bilang panugmad na kagawian. Magprubar nin sarong baguhon ngunyan!',
+	'betafeatures-about-betafeatures' => 'Mapanungod sa Beta na mga Estima',
+	'betafeatures-discuss-betafeatures' => 'Magwalat nin balik-simbag',
 );
 
 /** Bengali (বাংলা)
@@ -235,6 +251,8 @@ $messages['de'] = array(
 	'betafeatures-auto-enroll' => 'Automatisch alle neuen Beta-Funktionen aktivieren',
 	'betafeatures-section-desc' => 'Hier {{PLURAL:$1|ist eine neue Funktion|sind einige neue Funktionen}}, die wir für $2 planen. Bitte probier sie aus und sag uns deine Meinung. So können wir sie, basierend auf deiner Rückmeldung, verbessern.',
 	'betafeatures-tooltip' => 'Einführende Betafunktionen! Dieser neue Einstellungsabschnitt ermöglicht dir das Testen und Geben von Rückmeldungen über neue Funktionen, bevor wir sie standardmäßig aktivieren. Probier jetzt einige neue Funktionen aus!',
+	'betafeatures-about-betafeatures' => 'Über Betafunktionen',
+	'betafeatures-discuss-betafeatures' => 'Eine Rückmeldung hinterlassen',
 );
 
 /** Zazaki (Zazaki)
@@ -262,17 +280,21 @@ $messages['es'] = array(
 
 /** Persian (فارسی)
  * @author Reza1615
+ * @author درفش کاویانی
  */
 $messages['fa'] = array(
 	'mw-ui-feature-discuss' => 'بحث',
 	'mw-ui-feature-info' => 'اطلاعات',
 	'mw-ui-feature-user-count' => '{{PLURAL:$1|یک کاربر| $1  کاربر}} این ویژگی را فعال کرد.',
+	'mw-ui-feature-requirements-javascript' => 'این ویژگی نیازمند جاوااسکریپ است.',
 	'prefs-betafeatures' => 'ویژگی‌های آزمایشی',
 	'betafeatures-desc' => 'به کاربر اجازه می‌دهد تا ویژگی‌های جدیدی که هنوز به صورت آزمایشی هستند را فعال یا غیرفعال کند.',
 	'betafeatures-toplink' => 'آزمایشی',
-	'betafeatures-auto-enroll' => 'فعال کردن خودکار کلیه ویژگی‌های جدید آزمایشی',
-	'betafeatures-section-desc' => 'اینجا  {{PLURAL:$1|ویژگی جدیدی موجود است |ویژگی‌های جدید موجودند}} که برای  $2  در نظرگرفته شده‌اند. لطفاً آنها را امتحان کنید و بازخوردتان را ارسال کنید تا ما بر اساس بازخوردهای شما آنها را بهبود دهیم.',
-	'betafeatures-tooltip' => 'معرفی ویژگی‌های آزمایشی! این بخش جدید تنظیمات به شما اجازه می دهد تا امتحان کنید و نظراتتان در مورد ویژگی‌های جدید قبل از اینکه ما آنها را به عنوان پیش‌فرض راه‌اندازی کنیم ارائه دهید. الان یک مورد جدید را امتحان کنید!',
+	'betafeatures-auto-enroll' => 'فعال‌کردن خودکار کلیهٔ ویژگی‌های جدید آزمایشی',
+	'betafeatures-section-desc' => 'اینجا  {{PLURAL:$1|ویژگی جدیدی موجود است |ویژگی‌های جدید موجودند}} که برای  $2  در نظر گرفته شده‌اند. لطفاً آنها را امتحان کنید و بازخوردتان را ارسال کنید تا ما بر اساس بازخوردهای شما آنها را بهبود دهیم.',
+	'betafeatures-tooltip' => 'معرفی ویژگی‌های آزمایشی! این بخش جدید تنظیمات به شما اجازه می دهد تا امتحان کنید و نظرات‌تان در مورد ویژگی‌های جدید را قبل از اینکه ما آن‌ها را به‌صورت پیش‌فرض راه‌اندازی کنیم ارائه دهید. الان یک مورد جدید را امتحان کنید!',
+	'betafeatures-about-betafeatures' => 'دربارهٔ ویژگی‌های آزمایشی',
+	'betafeatures-discuss-betafeatures' => 'افزودن بازخورد',
 );
 
 /** Faroese (føroyskt)
@@ -302,6 +324,8 @@ $messages['fr'] = array(
 	'betafeatures-auto-enroll' => 'Activer automatiquement toutes les nouvelles fonctionnalités en bêta',
 	'betafeatures-section-desc' => 'Voici {{PLURAL:$1|une nouvelle fonctionnalité|de nouvelles fonctionnalités}} que nous envisageons pour $2. Veuillez les essayer et nous donner votre sentiment dessus, afin que nous puissions les améliorer d’après votre retour.',
 	'betafeatures-tooltip' => 'Voici les fonctionnalités en beta ! Cette nouvelle section des préférences vous laisse tester et donner votre ressenti sur les nouvelles fonctionnalités avant que nous les lancions par défaut. Essayez dès à présent quelque chose de nouveau !',
+	'betafeatures-about-betafeatures' => 'À propos des fonctionnalités en bêta',
+	'betafeatures-discuss-betafeatures' => 'Laisser un avis',
 );
 
 /** Galician (galego)
@@ -309,12 +333,20 @@ $messages['fr'] = array(
  */
 $messages['gl'] = array(
 	'mw-ui-feature-discuss' => 'conversa',
+	'mw-ui-feature-info' => 'información',
 	'mw-ui-feature-user-count' => '{{PLURAL:$1|Un usuario ten|$1 usuarios teñen}} activada esta característica.',
+	'mw-ui-feature-requirements-betafeatures' => 'Esta característica necesita a activación {{PLURAL:$1|da seguinte característica|das seguintes características}}:',
+	'mw-ui-feature-requirements-browser' => '{{PLURAL:$1|O seguinte navegador non está soportado|Os seguintes navegadores non están soportados}}:',
+	'mw-ui-feature-requirements-javascript' => 'Esta característica necesita JavaScript.',
+	'mw-ui-feature-requirements-skins' => 'Esta característica necesita o uso {{PLURAL:$1|a seguinte aparencia|unha das seguintes aparencias}}:',
 	'prefs-betafeatures' => 'Características en probas',
 	'betafeatures-desc' => 'Permite que o usuario active ou desactive as características do wiki que aínda non están listas para o seu uso xeneralizado',
 	'betafeatures-toplink' => 'Beta',
 	'betafeatures-auto-enroll' => 'Activar automaticamente todas as novas características en probas',
 	'betafeatures-section-desc' => 'Aquí hai {{PLURAL:$1|unha característica nova|algunhas características novas}} que estamos considerando para $2. {{PLURAL:$1|Próbea|Próbeas}} e achéguenos a súa opinión, para que poidamos {{PLURAL:$1|mellorala|melloralas}}.',
+	'betafeatures-tooltip' => 'Velaquí están as características en probas! Esta nova sección das preferencias permítelle probar e achegar comentarios sobre as novas características antes de que as lancemos para todos. Probe algo novo agora!',
+	'betafeatures-about-betafeatures' => 'Acerca das características en probas',
+	'betafeatures-discuss-betafeatures' => 'Deixe un comentario',
 );
 
 /** Hebrew (עברית)
@@ -368,11 +400,17 @@ $messages['ja'] = array(
 	'mw-ui-feature-discuss' => '議論',
 	'mw-ui-feature-info' => '情報',
 	'mw-ui-feature-user-count' => '{{PLURAL:$1|$1 人の利用者}}がこの機能を有効にしています。',
+	'mw-ui-feature-requirements-betafeatures' => 'この機能を使用するには、以下の{{PLURAL:$1|機能}}を有効にする必要があります:',
+	'mw-ui-feature-requirements-browser' => '以下の{{PLURAL:$1|ブラウザー}}には対応していません:',
+	'mw-ui-feature-requirements-javascript' => 'この機能の使用には JavaScript が必要です。',
+	'mw-ui-feature-requirements-skins' => 'この機能には{{PLURAL:$1|以下の外装|以下の外装のいずれか}}の使用が必須です:',
 	'prefs-betafeatures' => 'ベータ版機能',
 	'betafeatures-desc' => '本番環境のウィキで使用する準備がまだできていない機能について、利用者が有効化/無効化できるようにする',
 	'betafeatures-toplink' => 'ベータ版',
 	'betafeatures-auto-enroll' => 'すべてのベータ版機能を自動的に有効にする',
 	'betafeatures-section-desc' => '$2で検討している{{PLURAL:$1|新しい機能}}があります。試用していただいてご意見をお寄せください。そのフィードバックに基づいて機能を改善します。',
+	'betafeatures-about-betafeatures' => 'ベータ版の機能について',
+	'betafeatures-discuss-betafeatures' => 'フィードバックを送信',
 );
 
 /** Kazakh (Cyrillic script) (қазақша (кирил)‎)
@@ -441,12 +479,18 @@ $messages['mk'] = array(
 	'mw-ui-feature-discuss' => 'разговор',
 	'mw-ui-feature-info' => 'информации',
 	'mw-ui-feature-user-count' => 'Функцијата ја {{PLURAL:$1|има вклученоо еден корисник|имаат вклучено $1 корисници}}.',
+	'mw-ui-feature-requirements-betafeatures' => 'Оваа функција бара да {{PLURAL:$1|е вклучена следнава функција|се вклучени следниве функции}}:',
+	'mw-ui-feature-requirements-browser' => '{{PLURAL:$1|Не е поддржан следниов прелистувач|Не се поддржани следниве прелистувачи}}:',
+	'mw-ui-feature-requirements-javascript' => 'Оваа функција бара JavaScript.',
+	'mw-ui-feature-requirements-skins' => 'Оваа функција бара да {{PLURAL:$1|го користите следново руво|користите едно од следниве рува}}:',
 	'prefs-betafeatures' => 'Бета-можности',
 	'betafeatures-desc' => 'Овозможува корисникот да вклучува и исклучува можности што сè уште не се воведени како стандардни',
 	'betafeatures-toplink' => 'Бета',
 	'betafeatures-auto-enroll' => 'Автоматски вклучувај ги сите бета-можности',
 	'betafeatures-section-desc' => 'Еве {{PLURAL:$1|една нова функција што ја планираме|некои нови функции што ги планираме}} за $2. Испробајте ги и кажете ни што мислите, за да можеме да ги подобриме во склад со вашите наоѓања.',
 	'betafeatures-tooltip' => 'Ви ги претставуваме новите Бета-функции! Овој нов дел со нагодувања ви овозможува да ги испробувате новите функции и да ни давате ваше мислење пред да ги пуштиме како стандардни. Пробајте некоја нова функција сега!',
+	'betafeatures-about-betafeatures' => 'За бета-функциите',
+	'betafeatures-discuss-betafeatures' => 'Дајте мислење',
 );
 
 /** Malayalam (മലയാളം)
@@ -465,17 +509,24 @@ $messages['mr'] = array(
 );
 
 /** Dutch (Nederlands)
+ * @author Flightmare
  * @author Siebrand
  * @author TBloemink
  */
 $messages['nl'] = array(
 	'mw-ui-feature-discuss' => 'overleg',
+	'mw-ui-feature-info' => 'informatie',
 	'mw-ui-feature-user-count' => '{{PLURAL:$1|Eén gebruiker heeft|$1 gebruikers hebben}} deze functie ingeschakeld.',
+	'mw-ui-feature-requirements-betafeatures' => 'Deze functie vereist dat de volgende {{PLURAL:$1|functie wordt|functies worden}} ingeschakeld:',
+	'mw-ui-feature-requirements-browser' => 'De volgende {{PLURAL:$1|browser wordt|browsers worden}} niet ondersteund:',
+	'mw-ui-feature-requirements-javascript' => 'Deze functie vereist JavaScript.',
+	'mw-ui-feature-requirements-skins' => 'Deze functie vereist {{PLURAL:$1|de volgende skin|een van de volgende skins}}:',
 	'prefs-betafeatures' => 'Betafuncties',
 	'betafeatures-desc' => 'Laat de gebruiker functies die in ontwikkeling zijn in- of uitschakelen',
 	'betafeatures-toplink' => 'Beta',
 	'betafeatures-auto-enroll' => 'Automatisch alle betafuncties inschakelen',
 	'betafeatures-section-desc' => 'Hier {{PLURAL:$1|is een nieuwe functie|zijn een paar nieuwe functies}} die we overwegen voor $2. Probeert deze uit en laat ons weten wat u ervan vindt, zodat wij ze kunnen verbeteren.',
+	'betafeatures-discuss-betafeatures' => 'Terugkoppeling achterlaten',
 );
 
 /** Occitan (occitan)
@@ -490,16 +541,25 @@ $messages['oc'] = array(
 
 /** Polish (polski)
  * @author Chrumps
+ * @author Matma Rex
  * @author Woytecr
  */
 $messages['pl'] = array(
 	'mw-ui-feature-discuss' => 'dyskusja',
-	'mw-ui-feature-info' => 'informacja',
-	'mw-ui-feature-user-count' => '{{PLURAL:$1|Jeden użytkownik|$1 użytkowników}} włączyło tę funkcję.',
-	'mw-ui-feature-requirements-betafeatures' => 'Ta funkcjonalność wymaga włączenia {{PLURAL:$1|poniższej funkcji|poniższych funkcji}}:',
-	'mw-ui-feature-requirements-browser' => '{{PLURAL:$1|Poniższa przeglądarka|Poniższe przeglądarki}} nie są obsługiwane:',
-	'mw-ui-feature-requirements-javascript' => 'Ta funkcja wymaga JavaScript.',
-	'mw-ui-feature-requirements-skins' => 'Ta funkcja wymaga od Ciebie użycia {{PLURAL:$1|poniższej skórki|jednej z poniższych skórek}}:',
+	'mw-ui-feature-info' => 'informacje',
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|Jeden użytkownik włączył|$1 użytkowników włączyło}} tę funkcję.',
+	'mw-ui-feature-requirements-betafeatures' => 'Ta funkcja wymaga włączenia najpierw {{PLURAL:$1|następującej|następujących}}:',
+	'mw-ui-feature-requirements-browser' => '{{PLURAL:$1|Nieobsługiwana przeglądarka|Nieobsługiwane przeglądarki}}:',
+	'mw-ui-feature-requirements-javascript' => 'Ta funkcja wymaga włączonej obsługi JavaScriptu.',
+	'mw-ui-feature-requirements-skins' => 'Ta funkcja działa tylko z {{PLURAL:$1|następującą skórką|następującymi skórkami}}:',
+	'prefs-betafeatures' => 'Funkcje eksperymentalne',
+	'betafeatures-desc' => 'Pozwala użytkownikom włączać lub wyłączać funkcje, które nie są jeszcze w pełni dopracowane',
+	'betafeatures-toplink' => 'Funkcje eksperymentalne',
+	'betafeatures-auto-enroll' => 'Automatycznie włączaj nowe funkcje eksperymentalne',
+	'betafeatures-section-desc' => 'Masz możliwość przetestowania {{PLURAL:$1|nowej, eksperymentalnych funkcji|nowych, eksperymentalnych funkcji}} przygotowanych dla {{GRAMMAR:D.lp|$2}}. Prosimy o ich wypróbowanie i przekazanie nam swoich refleksji, abyśmy mogli je ulepszyć bazując na Twoich komentarzach.',
+	'betafeatures-tooltip' => 'Sekcja funkcji eksperymentalnych umożliwia Ci testowanie i wyrażanie opinii na temat nowych funkcji, zanim uruchomimy je jako domyślne zachowanie. Wypróbuj coś nowego!',
+	'betafeatures-about-betafeatures' => 'O funkcjach eksperymentalnych',
+	'betafeatures-discuss-betafeatures' => 'Skomentuj',
 );
 
 /** Brazilian Portuguese (português do Brasil)
@@ -587,12 +647,18 @@ $messages['uk'] = array(
 	'mw-ui-feature-discuss' => 'обговорення',
 	'mw-ui-feature-info' => 'інформація',
 	'mw-ui-feature-user-count' => '{{PLURAL:$1|Один користувач вже увімкнув|$1 користувачі вже увімкнули|$1 користувачів вже увімкнули}} цю функцію.',
+	'mw-ui-feature-requirements-betafeatures' => 'Ця функція вимагає, щоб {{PLURAL:$1|була включена наступна функція|були включені наступні функції}}:',
+	'mw-ui-feature-requirements-browser' => '{{PLURAL:$1| Наступний веб-переглядач не підтримується|Наступні веб-переглядачі не підтримуються}}:',
+	'mw-ui-feature-requirements-javascript' => 'Ця функція вимагає JavaScript.',
+	'mw-ui-feature-requirements-skins' => 'Ця функція вимагає, щоб у вас {{PLURAL:$1|була включена наступна тема|були включені наступні теми}}:',
 	'prefs-betafeatures' => 'Бета-функції',
 	'betafeatures-desc' => 'Дозволяє користувачу вмикати чи вимикати функції вікі, все ще не готові до прайм-тайму',
 	'betafeatures-toplink' => 'Бета',
 	'betafeatures-auto-enroll' => 'Автоматично увімкнути усі бета-функції',
 	'betafeatures-section-desc' => 'Тут  {{PLURAL:$1|є нова функція, яку|деякі нові функції, які}} ми розробляємо для  $2. Спробуйте їх і дайте нам свої думки, щоб ми могли покращити їх, виходячи з ваших відгуків.',
 	'betafeatures-tooltip' => 'Представляємо бета-функції! Цей новий розділ налаштувань дозволяє тестувати і надсилати відгуки про нові можливості, перш ніж ми запустимо їх як типову поведінку у основній Медіавікі. Спробувати щось нове зараз!',
+	'betafeatures-about-betafeatures' => 'Про бета-функції',
+	'betafeatures-discuss-betafeatures' => 'Залишити відгук',
 );
 
 /** Wu (吴语)
