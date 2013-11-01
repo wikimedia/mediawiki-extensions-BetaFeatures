@@ -21,7 +21,10 @@
 }
 /* line 103, sourcefiles/scss/components/default/_forms.scss */
 .client-js .mw-ui-styled-checkbox-label input[type=checkbox] {
-	display: none;
+	/* Hide visually, keep accessible */
+	position: absolute;
+	clip: rect(1px 1px 1px 1px);
+	clip: rect(1px,1px,1px,1px);
 }
 /* line 117, sourcefiles/scss/components/default/_forms.scss */
 .client-js .mw-ui-styled-checkbox-label.mw-ui-checked {

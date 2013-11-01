@@ -23,7 +23,9 @@
 		 *     }
 		 *
 		 *     .pretty-checkbox input[type=checkbox] {
-		 *         display: none;
+		 *         position: absolute;
+		 *         clip: rect(1px 1px 1px 1px);
+		 *         clip: rect(1px,1px,1px,1px);
 		 *     }
 		 * JS:
 		 *     $( '.pretty-checkbox input[type=checkbox]' ).styledCheckbox( '.pretty-checkbox' );
