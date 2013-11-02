@@ -203,7 +203,7 @@ $messages['ca'] = array(
 	'betafeatures-tooltip' => "Us presentem Funcionalitats Beta! Aquesta nova secció a les vostres preferències us permet avaluar noves funcionalitats i compartir els vostres comentaris abans d'activar-les per a tothom.  This new preferences section lets you test and give feedback about new features before we launch them as default behavior. Prova alguna beta!",
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Michaelbrabec
  * @author Mormegil
  */
@@ -220,6 +220,8 @@ $messages['cs'] = array(
 	'betafeatures-toplink' => 'Beta',
 	'betafeatures-auto-enroll' => 'Automaticky zapnout všechny nové funkce betaverze',
 	'betafeatures-section-desc' => 'Zde {{PLURAL:$1|je nová funkce, kterou|jsou nové funkce, které}} zvažujeme pro použití na {{grammar:6sg|$2}}. Vyzkoušejte {{PLURAL:$1|ji|je}} a dejte nám vědět, ať {{PLURAL:$1|ji|je}} na základě vašich názorů můžeme vylepšovat.',
+	'betafeatures-tooltip' => 'Představujeme funkce z betaverze! Tato nová sekce nastavení vám umožňuje vyzkoušet a okomentovat nové funkce dříve, než je spustíme pro všechny. Vyzkoušejte něco nového!',
+	'betafeatures-about-betafeatures' => 'O betaverzi',
 );
 
 /** Welsh (Cymraeg)
@@ -265,20 +267,31 @@ $messages['diq'] = array(
 );
 
 /** Spanish (español)
+ * @author Benfutbol10
  * @author Fitoschido
  * @author Ovruni
  * @author VegaDark
  */
 $messages['es'] = array(
 	'mw-ui-feature-discuss' => 'discusión',
+	'mw-ui-feature-info' => 'información',
 	'mw-ui-feature-user-count' => '{{PLURAL:$1|Un usuario ha|$1 usuarios han}} habilitado esta característica.',
+	'mw-ui-feature-requirements-betafeatures' => 'Esta funcionalidad requiere {{PLURAL:$1|la siguiente funcionalidad|las siguientes funcionalidades}} para ser activada:',
+	'mw-ui-feature-requirements-browser' => '{{PLURAL:$1|El siguiente navegador|Los siguientes navegadores}} no son soportados:',
+	'mw-ui-feature-requirements-javascript' => 'Esta funcionalidad requiere JavaScript.',
+	'mw-ui-feature-requirements-skins' => 'Esta funcionalidad requiere que utilices {{PLURAL:$1|la siguiente piel|una de las siguientes pieles}}:',
 	'prefs-betafeatures' => 'Características de prueba',
 	'betafeatures-desc' => 'Permite al usuario activar o desactivar funciones del wiki que todavía no están listas',
 	'betafeatures-toplink' => 'Beta',
-	'betafeatures-auto-enroll' => 'Inscribirse automáticamente en todas las funciones de prueba', # Fuzzy
+	'betafeatures-auto-enroll' => 'Activar automáticamente todas las nuevas funcionalidades de prueba',
+	'betafeatures-section-desc' => 'Aquí se {{PLURAL:$1|encuentra una nueva funcionalidad|encuentran algunas nuevas funcionalidades}} que estamos considerando para $2. Por favor, {{PLURAL:$1|pruébala|pruébalas}} y dinos lo que piensas acerca de {{PLURAL:$1|ella|ellas}}, así podemos {{PLURAL:$1|mejorarla|mejorarlas}} de acuerdo a tus comentarios.',
+	'betafeatures-tooltip' => '¡Introduciendo las funcionalidades de prueba! Esta nueva sección de tus preferencias te permite probar y comentar acerca de las nuevas funcionalidades antes de que las implementemos por defecto.',
+	'betafeatures-about-betafeatures' => 'Acerca de las funcionalidades de prueba',
+	'betafeatures-discuss-betafeatures' => 'Dejar comentarios',
 );
 
 /** Persian (فارسی)
+ * @author Ebraminio
  * @author Reza1615
  * @author درفش کاویانی
  */
@@ -286,6 +299,8 @@ $messages['fa'] = array(
 	'mw-ui-feature-discuss' => 'بحث',
 	'mw-ui-feature-info' => 'اطلاعات',
 	'mw-ui-feature-user-count' => '{{PLURAL:$1|یک کاربر| $1  کاربر}} این ویژگی را فعال کرد.',
+	'mw-ui-feature-requirements-betafeatures' => 'این قابلیت نیازمند این {{PLURAL:$1|قابلیت|قابلیت‌ها}} است که باید فعال شوند:',
+	'mw-ui-feature-requirements-browser' => 'این {{PLURAL:$1|مرورگر|مرورگرها}} حمایت نشده‌است:',
 	'mw-ui-feature-requirements-javascript' => 'این ویژگی نیازمند جاوااسکریپ است.',
 	'prefs-betafeatures' => 'ویژگی‌های آزمایشی',
 	'betafeatures-desc' => 'به کاربر اجازه می‌دهد تا ویژگی‌های جدیدی که هنوز به صورت آزمایشی هستند را فعال یا غیرفعال کند.',
@@ -295,6 +310,27 @@ $messages['fa'] = array(
 	'betafeatures-tooltip' => 'معرفی ویژگی‌های آزمایشی! این بخش جدید تنظیمات به شما اجازه می دهد تا امتحان کنید و نظرات‌تان در مورد ویژگی‌های جدید را قبل از اینکه ما آن‌ها را به‌صورت پیش‌فرض راه‌اندازی کنیم ارائه دهید. الان یک مورد جدید را امتحان کنید!',
 	'betafeatures-about-betafeatures' => 'دربارهٔ ویژگی‌های آزمایشی',
 	'betafeatures-discuss-betafeatures' => 'افزودن بازخورد',
+);
+
+/** Finnish (suomi)
+ * @author Stryn
+ */
+$messages['fi'] = array(
+	'mw-ui-feature-discuss' => 'keskustelu',
+	'mw-ui-feature-info' => 'tietoa',
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|Yksi käyttäjä on|$1 käyttäjää ovat}} ottaneet tämän ominaisuuden käyttöön.',
+	'mw-ui-feature-requirements-betafeatures' => 'Tämä ominaisuus vaatii {{PLURAL:$1|seuraavaa ominaisuutta|seuraavia ominaisuuksia}} käyttöönotettavaksi:',
+	'mw-ui-feature-requirements-browser' => '{{PLURAL:$1|Seuraava selain ei ole tuettu|Seuraavat selaimet eivät ole tuettuja}}:',
+	'mw-ui-feature-requirements-javascript' => 'Tämä ominaisuus vaatii JavaScriptin olevan käytössä.',
+	'mw-ui-feature-requirements-skins' => 'Tämä ominaisuus vaatii sinua käyttämään {{PLURAL:$1|seuraavaa ulkoasua|yhtä seuraavista ulkoasuista}}:',
+	'prefs-betafeatures' => 'Beeta-ominaisuudet',
+	'betafeatures-desc' => 'Antaa käyttäjän ottaa käyttöön tai poistaa käytöstä ominaisuuksia wikissä, jotka ovat eivät ole vielä valmiita kaikkien käytettäväksi',
+	'betafeatures-toplink' => 'Beeta',
+	'betafeatures-auto-enroll' => 'Ota automaattisesti käyttöön kaikki uudet beeta-ominaisuudet',
+	'betafeatures-section-desc' => 'Tässä {{PLURAL:$1|on uusi ominaisuus, jota|on joitakin uusia ominaisuuksia, joita}} harkitsemme sivustolle $2. Kokeile niitä ja kerro meille mielipiteesi, jotta voimme parantaa niitä palautteesi perusteella.',
+	'betafeatures-tooltip' => 'Esittelyssä Beeta-ominaisuudet! Tämä uusi asetukset-osio antaa sinun kokeilla ja antaa palautetta uusista ominaisuuksista, ennen kuin julkaisemme ne oletuksena. Kokeile jotain uutta nyt!',
+	'betafeatures-about-betafeatures' => 'Tietoa Beeta-ominaisuuksista',
+	'betafeatures-discuss-betafeatures' => 'Jätä palautetta',
 );
 
 /** Faroese (føroyskt)
@@ -458,11 +494,14 @@ $messages['lb'] = array(
 	'mw-ui-feature-discuss' => 'Diskussioun',
 	'mw-ui-feature-info' => 'Informatioun',
 	'mw-ui-feature-user-count' => '{{PLURAL:$1|Ee Benotzer huet|$1 Benotzer hunn}} dës Funktioun aktivéiert.',
+	'mw-ui-feature-requirements-javascript' => 'Dës Funktioun brauch JavaScript',
 	'prefs-betafeatures' => 'Beta-Funktiounen',
 	'betafeatures-desc' => 'Léisst Benotzer Funktiounen op der Wiki aktivéieren oder desaktivéieren déi nach net fäerdeg entwéckelt sinn',
 	'betafeatures-toplink' => 'Beta',
 	'betafeatures-auto-enroll' => 'Automatesch all Beta-Funktiounen aschalten',
 	'betafeatures-section-desc' => 'Hei {{PLURAL:$1|ass eng nei Funktioun|sinn e puer nei Funktiounen}} déi mir fir $2 proposéieren. Probéiert se w.e.g. aus an deelt eis Är Iwwerleeungen dozou mat, da kënne mir se op der Basis vun Ärem Feedback verbesseren.',
+	'betafeatures-about-betafeatures' => 'Iwwer Betafunktiounen',
+	'betafeatures-discuss-betafeatures' => 'Feedback ginn',
 );
 
 /** Lithuanian (lietuvių)
