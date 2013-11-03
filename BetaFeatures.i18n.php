@@ -203,6 +203,13 @@ $messages['ca'] = array(
 	'betafeatures-tooltip' => "Us presentem Funcionalitats Beta! Aquesta nova secció a les vostres preferències us permet avaluar noves funcionalitats i compartir els vostres comentaris abans d'activar-les per a tothom.  This new preferences section lets you test and give feedback about new features before we launch them as default behavior. Prova alguna beta!",
 );
 
+/** Chechen (нохчийн)
+ * @author Умар
+ */
+$messages['ce'] = array(
+	'betafeatures-discuss-betafeatures' => 'Язде хьайна хетарг',
+);
+
 /** Czech (čeština)
  * @author Michaelbrabec
  * @author Mormegil
@@ -406,11 +413,18 @@ $messages['ia'] = array(
 	'mw-ui-feature-discuss' => 'discussion',
 	'mw-ui-feature-info' => 'information',
 	'mw-ui-feature-user-count' => '{{PLURAL:$1|Un usator|$1 usatores}} ha activate iste function.',
+	'mw-ui-feature-requirements-betafeatures' => 'Iste function necessita activar le sequente {{PLURAL:$1|function|functiones}}:',
+	'mw-ui-feature-requirements-browser' => 'Le sequente {{PLURAL:$1|navigator|navigatores}} non es supportate:',
+	'mw-ui-feature-requirements-javascript' => 'Iste function require JavaScript.',
+	'mw-ui-feature-requirements-skins' => 'Iste function necessita usar {{PLURAL:$1|le sequente apparentia|un del sequente apparentias}}:',
 	'prefs-betafeatures' => 'Functionalitate beta',
 	'betafeatures-desc' => 'Permitte que le usator activa o disactiva functionalitate in le wiki que non ha ancora essite perfectionate',
 	'betafeatures-toplink' => 'Beta',
 	'betafeatures-auto-enroll' => 'Activar automaticamente tote le nove functionalitate beta',
 	'betafeatures-section-desc' => 'Ecce {{PLURAL:$1|un function nove|alcun functionalitate nove}} que nos considera pro $2. Per favor essaya lo e dice nos tu opinion, de sorta que nos pote meliorar lo.',
+	'betafeatures-tooltip' => 'Nos presenta le functionalitate beta! Iste nove section de preferentias permitte testar e evalutar nove functiones ante lor activation pro omnes. Essaya ora qualcosa nove!',
+	'betafeatures-about-betafeatures' => 'A proposito del functionalitate beta',
+	'betafeatures-discuss-betafeatures' => 'Lassar evalutation',
 );
 
 /** Italian (italiano)
@@ -422,11 +436,17 @@ $messages['it'] = array(
 	'mw-ui-feature-discuss' => 'discussione',
 	'mw-ui-feature-info' => 'informazioni',
 	'mw-ui-feature-user-count' => '{{PLURAL:$1|Un utente ha|$1 utenti hanno}} abilitato questa funzione.',
+	'mw-ui-feature-requirements-betafeatures' => 'Questa funzionalità richiede che {{PLURAL:$1|sia abilitata la seguente|siano abilitate le seguenti}} funzionalità:',
+	'mw-ui-feature-requirements-browser' => '{{PLURAL:$1|Il seguente browser non è supportato|I seguenti browser non sono supportati}}:',
+	'mw-ui-feature-requirements-javascript' => 'Questa funzionalità richiede JavaScript.',
+	'mw-ui-feature-requirements-skins' => 'Questa funzionalità richiede {{PLURAL:$1|la seguente skin|una delle seguenti skin}}:',
 	'prefs-betafeatures' => 'Funzionalità beta',
 	'betafeatures-desc' => "Consente all'utente di attivare o disattivare sul wiki funzioni che non sono ancora pronte per il grande pubblico",
 	'betafeatures-toplink' => 'Beta',
 	'betafeatures-auto-enroll' => 'Attiva automaticamente tutte le nuove funzioni beta',
 	'betafeatures-section-desc' => '{{PLURAL:$1|Questa è una nuova funzionalità|Queste sono nuove funzionalità}} che stiamo prendendo in considerazione per $2. Puoi provarle e dirci cosa ne pensi, così che possiamo migliorare in base alle vostre risposte.',
+	'betafeatures-about-betafeatures' => 'Sulle funzionalità Beta',
+	'betafeatures-discuss-betafeatures' => 'Lascia un commento',
 );
 
 /** Japanese (日本語)
@@ -671,11 +691,14 @@ $messages['sv'] = array(
 	'mw-ui-feature-discuss' => 'diskussion',
 	'mw-ui-feature-info' => 'information',
 	'mw-ui-feature-user-count' => '{{PLURAL:$1|En|$1}} användare har aktiverat denna funktion.',
+	'mw-ui-feature-requirements-javascript' => 'Denna funktion kräver JavaScript.',
 	'prefs-betafeatures' => 'Betafunktioner',
 	'betafeatures-desc' => 'Låter användare aktivera eller inaktivera funktioner på wikin som fortfarande inte är helt färdiga',
 	'betafeatures-toplink' => 'Beta',
 	'betafeatures-auto-enroll' => 'Aktivera automatiskt alla nya betafunktioner',
 	'betafeatures-section-desc' => 'Här finns {{PLURAL:$1|en ny funktion|några nya funktioner}} som vi funderar på att inkludera i $2. Var god prova ut dem och ge oss dina åsikter så vi kan förbättra dem utifrån din feedback.',
+	'betafeatures-about-betafeatures' => 'Om betafunktioner',
+	'betafeatures-discuss-betafeatures' => 'Lämna feedback',
 );
 
 /** Ukrainian (українська)
