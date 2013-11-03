@@ -32,7 +32,7 @@ $messages['en'] = array(
 	'mw-ui-feature-user-count'      => '{{PLURAL:$1|One user has|$1 users have}} enabled this feature.',
 
 	'mw-ui-feature-requirements-betafeatures' => 'This feature requires the following {{PLURAL:$1|feature|features}} to be enabled:',
-	'mw-ui-feature-requirements-browser' => 'The following {{PLURAL:$1|browser|browsers}} are not supported:',
+	'mw-ui-feature-requirements-browser' => 'The following {{PLURAL:$1|browser is|browsers are}} not supported:',
 	'mw-ui-feature-requirements-javascript' => 'This feature requires JavaScript.',
 	'mw-ui-feature-requirements-skins' => 'This feature requires you to be using {{PLURAL:$1|the following skin|one of the following skins}}:',
 
