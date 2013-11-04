@@ -229,6 +229,7 @@ $messages['cs'] = array(
 	'betafeatures-section-desc' => 'Zde {{PLURAL:$1|je nová funkce, kterou|jsou nové funkce, které}} zvažujeme pro použití na {{grammar:6sg|$2}}. Vyzkoušejte {{PLURAL:$1|ji|je}} a dejte nám vědět, ať {{PLURAL:$1|ji|je}} na základě vašich názorů můžeme vylepšovat.',
 	'betafeatures-tooltip' => 'Představujeme funkce z betaverze! Tato nová sekce nastavení vám umožňuje vyzkoušet a okomentovat nové funkce dříve, než je spustíme pro všechny. Vyzkoušejte něco nového!',
 	'betafeatures-about-betafeatures' => 'O betaverzi',
+	'betafeatures-discuss-betafeatures' => 'Sdělte svůj názor',
 );
 
 /** Welsh (Cymraeg)
