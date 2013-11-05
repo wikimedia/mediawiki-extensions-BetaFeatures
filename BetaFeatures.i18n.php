@@ -128,7 +128,7 @@ $messages['ar'] = array(
 $messages['ast'] = array(
 	'mw-ui-feature-discuss' => 'alderique',
 	'mw-ui-feature-info' => 'Información',
-	'mw-ui-feature-user-count' => '{{PLURAL:$1|Un usuariu activó|$1 usuarios activaron}} esta carauterística.',
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|Un usuariu activó|$1 usuarios activaron}} esta carauterística.', # Fuzzy
 	'prefs-betafeatures' => 'Carauterístiques beta',
 	'betafeatures-desc' => "Permite que l'usuariu active o desactive funciones de la wiki qu'inda nun tan pa un usu xeneralizáu",
 	'betafeatures-toplink' => 'Beta',
@@ -143,7 +143,7 @@ $messages['ast'] = array(
 $messages['bcl'] = array(
 	'mw-ui-feature-discuss' => 'orolayan',
 	'mw-ui-feature-info' => 'impormasyon',
-	'mw-ui-feature-user-count' => '{{PLURAL:$1|Sarong paragamit|$1 na mga paragamit}} pinagpagana an posturang ini.',
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|Sarong paragamit|$1 na mga paragamit}} pinagpagana an posturang ini.', # Fuzzy
 	'mw-ui-feature-requirements-betafeatures' => 'Ining estima minakaipo kan minasunod na {{PLURAL:$1|estima|mga estima}} tanganing pagpaganahon:',
 	'mw-ui-feature-requirements-browser' => 'An minasunod na {{PLURAL:$1|pangilyaw|mga pangilyaw}} bakong suportado:',
 	'mw-ui-feature-requirements-javascript' => 'Ining estima minakaipo nin JavaScript.',
@@ -190,7 +190,7 @@ $messages['br'] = array(
 $messages['ca'] = array(
 	'mw-ui-feature-discuss' => 'discussió',
 	'mw-ui-feature-info' => 'informació',
-	'mw-ui-feature-user-count' => '{{PLURAL:$1|Un usuari ha|$1 usuaris han}} activat aquesta functionalitat.',
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|Un usuari ha|$1 usuaris han}} activat aquesta functionalitat.', # Fuzzy
 	'mw-ui-feature-requirements-betafeatures' => 'Aquesta funcionalitat requereix {{PLURAL:$1|aquesta altra funcionalitat|aquestes altres funcionalitats}} per a ser activada:',
 	'mw-ui-feature-requirements-browser' => '{{PLURAL:$1|Aquest navegador|Aquests navegadors}} no estan suportats:',
 	'mw-ui-feature-requirements-javascript' => 'Aquesta funcionalitat requereix JavaScript.',
@@ -207,6 +207,7 @@ $messages['ca'] = array(
  * @author Умар
  */
 $messages['ce'] = array(
+	'mw-ui-feature-requirements-browser' => '{{PLURAL:$1|ХӀара браузер ловш яц|ХӀара браузераш ловш яц}}:',
 	'betafeatures-discuss-betafeatures' => 'Язде хьайна хетарг',
 );
 
@@ -217,7 +218,7 @@ $messages['ce'] = array(
 $messages['cs'] = array(
 	'mw-ui-feature-discuss' => 'diskuse',
 	'mw-ui-feature-info' => 'informace',
-	'mw-ui-feature-user-count' => 'Tuto funkci si {{PLURAL:$1|zapnul jeden uživatel|zapnuli $1 uživatelé|zapnulo $1 uživatelů}}.',
+	'mw-ui-feature-user-count' => 'Tuto funkci si {{PLURAL:$1|zapnul jeden uživatel|zapnuli $1 uživatelé|zapnulo $1 uživatelů}}.', # Fuzzy
 	'mw-ui-feature-requirements-betafeatures' => 'Tato funkce vyžaduje k zapnutí následující {{PLURAL:$1|funkci|funkce}}:',
 	'mw-ui-feature-requirements-browser' => 'Následující {{PLURAL:$1|prohlížeč|prohlížeče}} nejsou podporovány:',
 	'mw-ui-feature-requirements-javascript' => 'Tato funkce vyžaduje JavaScript.',
@@ -250,7 +251,7 @@ $messages['cy'] = array(
 $messages['de'] = array(
 	'mw-ui-feature-discuss' => 'Diskussion',
 	'mw-ui-feature-info' => 'Information',
-	'mw-ui-feature-user-count' => '{{PLURAL:$1|Ein Benutzer hat|$1 Benutzer haben}} diese Funktion aktiviert.',
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|Ein Benutzer hat|$1 Benutzer haben|0=Kein Benutzer hat}} diese Funktion aktiviert.',
 	'mw-ui-feature-requirements-betafeatures' => 'Diese Funktion erfordert die Aktivierung folgender {{PLURAL:$1|Funktion|Funktionen}}:',
 	'mw-ui-feature-requirements-browser' => '{{PLURAL:$1|Der folgende Browser wird|Die folgenden Browser werden}} nicht unterstützt:',
 	'mw-ui-feature-requirements-javascript' => 'Diese Funktion benötigt JavaScript.',
@@ -283,7 +284,7 @@ $messages['diq'] = array(
 $messages['es'] = array(
 	'mw-ui-feature-discuss' => 'discusión',
 	'mw-ui-feature-info' => 'información',
-	'mw-ui-feature-user-count' => '{{PLURAL:$1|Un usuario ha|$1 usuarios han}} habilitado esta característica.',
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|Un usuario ha|$1 usuarios han}} habilitado esta característica.', # Fuzzy
 	'mw-ui-feature-requirements-betafeatures' => 'Esta funcionalidad requiere {{PLURAL:$1|la siguiente funcionalidad|las siguientes funcionalidades}} para ser activada:',
 	'mw-ui-feature-requirements-browser' => '{{PLURAL:$1|El siguiente navegador|Los siguientes navegadores}} no son soportados:',
 	'mw-ui-feature-requirements-javascript' => 'Esta funcionalidad requiere JavaScript.',
@@ -306,7 +307,7 @@ $messages['es'] = array(
 $messages['fa'] = array(
 	'mw-ui-feature-discuss' => 'بحث',
 	'mw-ui-feature-info' => 'اطلاعات',
-	'mw-ui-feature-user-count' => '{{PLURAL:$1|یک کاربر| $1  کاربر}} این ویژگی را فعال کرد.',
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|یک کاربر| $1  کاربر}} این ویژگی را فعال کرد.', # Fuzzy
 	'mw-ui-feature-requirements-betafeatures' => 'این قابلیت نیازمند این {{PLURAL:$1|قابلیت|قابلیت‌ها}} است که باید فعال شوند:',
 	'mw-ui-feature-requirements-browser' => 'این {{PLURAL:$1|مرورگر|مرورگرها}} حمایت نشده‌است:',
 	'mw-ui-feature-requirements-javascript' => 'این ویژگی نیازمند جاوااسکریپ است.',
@@ -326,7 +327,7 @@ $messages['fa'] = array(
 $messages['fi'] = array(
 	'mw-ui-feature-discuss' => 'keskustelu',
 	'mw-ui-feature-info' => 'tietoa',
-	'mw-ui-feature-user-count' => '{{PLURAL:$1|Yksi käyttäjä on|$1 käyttäjää ovat}} ottaneet tämän ominaisuuden käyttöön.',
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|Yksi käyttäjä on|$1 käyttäjää ovat}} ottaneet tämän ominaisuuden käyttöön.', # Fuzzy
 	'mw-ui-feature-requirements-betafeatures' => 'Tämä ominaisuus vaatii {{PLURAL:$1|seuraavaa ominaisuutta|seuraavia ominaisuuksia}} käyttöönotettavaksi:',
 	'mw-ui-feature-requirements-browser' => '{{PLURAL:$1|Seuraava selain ei ole tuettu|Seuraavat selaimet eivät ole tuettuja}}:',
 	'mw-ui-feature-requirements-javascript' => 'Tämä ominaisuus vaatii JavaScriptin olevan käytössä.',
@@ -357,7 +358,7 @@ $messages['fo'] = array(
 $messages['fr'] = array(
 	'mw-ui-feature-discuss' => 'discussion',
 	'mw-ui-feature-info' => 'information',
-	'mw-ui-feature-user-count' => '{{PLURAL:$1|Un utilisateur a|$1 utilisateurs ont}} activé cette fonctionnalité.',
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|Un utilisateur a|$1 utilisateurs ont}} activé cette fonctionnalité.', # Fuzzy
 	'mw-ui-feature-requirements-betafeatures' => 'Cette fonctionnalité nécessite que {{PLURAL:$1|la fonctionnalité suivante soit activée|les fonctionnalités suivantes soient activées}} :',
 	'mw-ui-feature-requirements-browser' => '{{PLURAL:$1|Le navigateur suivant n’est pas supporté|Les navigateurs suivants ne sont pas supportés}} :',
 	'mw-ui-feature-requirements-javascript' => 'Cette fonctionnalité nécessite JavaScript.',
@@ -378,7 +379,7 @@ $messages['fr'] = array(
 $messages['gl'] = array(
 	'mw-ui-feature-discuss' => 'conversa',
 	'mw-ui-feature-info' => 'información',
-	'mw-ui-feature-user-count' => '{{PLURAL:$1|Un usuario ten|$1 usuarios teñen}} activada esta característica.',
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|Un usuario ten|$1 usuarios teñen}} activada esta característica.', # Fuzzy
 	'mw-ui-feature-requirements-betafeatures' => 'Esta característica necesita a activación {{PLURAL:$1|da seguinte característica|das seguintes características}}:',
 	'mw-ui-feature-requirements-browser' => '{{PLURAL:$1|O seguinte navegador non está soportado|Os seguintes navegadores non están soportados}}:',
 	'mw-ui-feature-requirements-javascript' => 'Esta característica necesita JavaScript.',
@@ -395,9 +396,24 @@ $messages['gl'] = array(
 
 /** Hebrew (עברית)
  * @author Ademo
+ * @author Amire80
  */
 $messages['he'] = array(
-	'betafeatures-toplink' => 'מאפייני בטא', # Fuzzy
+	'mw-ui-feature-discuss' => 'דיון',
+	'mw-ui-feature-info' => 'מידע',
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|משתמש אחד הפעיל|$1 משתמשים הפעילו|0=שום משתמש לא הפעיל}} את האפשרות הזאת.', # Fuzzy
+	'mw-ui-feature-requirements-betafeatures' => 'האפשרות הזאת דורשת {{PLURAL:$1|שהאפשרות הבאה תהיה מופעלת|שהאפשרויות הבאות יהיו מופעלות}}:',
+	'mw-ui-feature-requirements-browser' => '{{PLURAL:$1|הדפדפן הבא אינו נתמך|הדפדפנים הבאים אינם נתמכים}}:',
+	'mw-ui-feature-requirements-javascript' => "האפשרות הזאת דורשת הפעלה של ג'אווה סקריפט.",
+	'mw-ui-feature-requirements-skins' => 'האפשרות הזאת דורשת שימוש {{PLURAL:$1|העיצוב הבא|באחד מהעיצובים הבאים}}:',
+	'prefs-betafeatures' => 'אפשרויות בטא',
+	'betafeatures-desc' => 'מתן אפשרות למשתמש להפעיל או לכבות בוויקי אפשרויות שעדיין אינן מוכנות להוצאה כללית',
+	'betafeatures-toplink' => 'בטא',
+	'betafeatures-auto-enroll' => 'להפעיל אוטומטית את כל אפשרויות הבטא',
+	'betafeatures-section-desc' => 'הנה {{PLURAL:$1|אפשרות חדשה|אפשרויות חדשות}} שאנחנו שוקלים להוסיף ל{{GRAMMAR:תחילית|{{$2}}}}. אנו מבקשים ממך לנסות {{PLURAL:$1|אותה|אותן}}, כדי שנוכל לשפר {{PLURAL:$1|אותה|אותן}} לפי המשוב שלך.',
+	'betafeatures-tooltip' => 'אנו גאים להציג את "אפשרויות בטא"! החל החדש הזה בהעדפות מאפשר לך לבדוק אפשרויות חדשות ולתת עליהן משוב לפני שנפעיל אותן בתור ההתנהגות הרגילה. נסו משהו חדש!',
+	'betafeatures-about-betafeatures' => 'אודות אפשרויות בטא',
+	'betafeatures-discuss-betafeatures' => 'שליחת משוב',
 );
 
 /** Hungarian (magyar)
@@ -413,7 +429,7 @@ $messages['hu'] = array(
 $messages['ia'] = array(
 	'mw-ui-feature-discuss' => 'discussion',
 	'mw-ui-feature-info' => 'information',
-	'mw-ui-feature-user-count' => '{{PLURAL:$1|Un usator|$1 usatores}} ha activate iste function.',
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|Un usator|$1 usatores}} ha activate iste function.', # Fuzzy
 	'mw-ui-feature-requirements-betafeatures' => 'Iste function necessita activar le sequente {{PLURAL:$1|function|functiones}}:',
 	'mw-ui-feature-requirements-browser' => 'Le sequente {{PLURAL:$1|navigator|navigatores}} non es supportate:',
 	'mw-ui-feature-requirements-javascript' => 'Iste function require JavaScript.',
@@ -436,7 +452,7 @@ $messages['ia'] = array(
 $messages['it'] = array(
 	'mw-ui-feature-discuss' => 'discussione',
 	'mw-ui-feature-info' => 'informazioni',
-	'mw-ui-feature-user-count' => '{{PLURAL:$1|Un utente ha|$1 utenti hanno}} abilitato questa funzione.',
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|Un utente ha|$1 utenti hanno}} abilitato questa funzione.', # Fuzzy
 	'mw-ui-feature-requirements-betafeatures' => 'Questa funzionalità richiede che {{PLURAL:$1|sia abilitata la seguente|siano abilitate le seguenti}} funzionalità:',
 	'mw-ui-feature-requirements-browser' => '{{PLURAL:$1|Il seguente browser non è supportato|I seguenti browser non sono supportati}}:',
 	'mw-ui-feature-requirements-javascript' => 'Questa funzionalità richiede JavaScript.',
@@ -446,17 +462,19 @@ $messages['it'] = array(
 	'betafeatures-toplink' => 'Beta',
 	'betafeatures-auto-enroll' => 'Attiva automaticamente tutte le nuove funzioni beta',
 	'betafeatures-section-desc' => '{{PLURAL:$1|Questa è una nuova funzionalità|Queste sono nuove funzionalità}} che stiamo prendendo in considerazione per $2. Puoi provarle e dirci cosa ne pensi, così che possiamo migliorare in base alle vostre risposte.',
+	'betafeatures-tooltip' => 'Introduzione alle funzionalità Beta! Questa nuova sezione delle preferenze consente di provare e lasciare un commento sulle nuove funzionalità prima di rilasciarle come definitive. Prova qualcosa di nuovo!',
 	'betafeatures-about-betafeatures' => 'Sulle funzionalità Beta',
 	'betafeatures-discuss-betafeatures' => 'Lascia un commento',
 );
 
 /** Japanese (日本語)
  * @author Shirayuki
+ * @author Whym
  */
 $messages['ja'] = array(
 	'mw-ui-feature-discuss' => '議論',
 	'mw-ui-feature-info' => '情報',
-	'mw-ui-feature-user-count' => '{{PLURAL:$1|$1 人の利用者}}がこの機能を有効にしています。',
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|$1 人の利用者}}がこの機能を有効にしています。', # Fuzzy
 	'mw-ui-feature-requirements-betafeatures' => 'この機能を使用するには、以下の{{PLURAL:$1|機能}}を有効にする必要があります:',
 	'mw-ui-feature-requirements-browser' => '以下の{{PLURAL:$1|ブラウザー}}には対応していません:',
 	'mw-ui-feature-requirements-javascript' => 'この機能の使用には JavaScript が必要です。',
@@ -465,7 +483,7 @@ $messages['ja'] = array(
 	'betafeatures-desc' => '本番環境のウィキで使用する準備がまだできていない機能について、利用者が有効化/無効化できるようにする',
 	'betafeatures-toplink' => 'ベータ版',
 	'betafeatures-auto-enroll' => 'すべてのベータ版機能を自動的に有効にする',
-	'betafeatures-section-desc' => '$2で検討している{{PLURAL:$1|新しい機能}}があります。試用していただいてご意見をお寄せください。そのフィードバックに基づいて機能を改善します。',
+	'betafeatures-section-desc' => '$2のために検討している{{PLURAL:$1|新しい機能}}があります。お試しの上ご意見をお寄せください。そのフィードバックに基づいて機能を改善します。',
 	'betafeatures-about-betafeatures' => 'ベータ版の機能について',
 	'betafeatures-discuss-betafeatures' => 'フィードバックを送信',
 );
@@ -514,7 +532,7 @@ $messages['la'] = array(
 $messages['lb'] = array(
 	'mw-ui-feature-discuss' => 'Diskussioun',
 	'mw-ui-feature-info' => 'Informatioun',
-	'mw-ui-feature-user-count' => '{{PLURAL:$1|Ee Benotzer huet|$1 Benotzer hunn}} dës Funktioun aktivéiert.',
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|Ee Benotzer huet|$1 Benotzer hunn}} dës Funktioun aktivéiert.', # Fuzzy
 	'mw-ui-feature-requirements-javascript' => 'Dës Funktioun brauch JavaScript',
 	'prefs-betafeatures' => 'Beta-Funktiounen',
 	'betafeatures-desc' => 'Léisst Benotzer Funktiounen op der Wiki aktivéieren oder desaktivéieren déi nach net fäerdeg entwéckelt sinn',
@@ -538,7 +556,7 @@ $messages['lt'] = array(
 $messages['mk'] = array(
 	'mw-ui-feature-discuss' => 'разговор',
 	'mw-ui-feature-info' => 'информации',
-	'mw-ui-feature-user-count' => 'Функцијата ја {{PLURAL:$1|има вклученоо еден корисник|имаат вклучено $1 корисници}}.',
+	'mw-ui-feature-user-count' => 'Функцијата ја {{PLURAL:$1|има вклучено еден корисник|имаат вклучено $1 корисници|0=нема вклучено никој}}.',
 	'mw-ui-feature-requirements-betafeatures' => 'Оваа функција бара да {{PLURAL:$1|е вклучена следнава функција|се вклучени следниве функции}}:',
 	'mw-ui-feature-requirements-browser' => '{{PLURAL:$1|Не е поддржан следниов прелистувач|Не се поддржани следниве прелистувачи}}:',
 	'mw-ui-feature-requirements-javascript' => 'Оваа функција бара JavaScript.',
@@ -576,7 +594,7 @@ $messages['mr'] = array(
 $messages['nl'] = array(
 	'mw-ui-feature-discuss' => 'overleg',
 	'mw-ui-feature-info' => 'informatie',
-	'mw-ui-feature-user-count' => '{{PLURAL:$1|Eén gebruiker heeft|$1 gebruikers hebben}} deze functie ingeschakeld.',
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|Eén gebruiker heeft|$1 gebruikers hebben}} deze functie ingeschakeld.', # Fuzzy
 	'mw-ui-feature-requirements-betafeatures' => 'Deze functie vereist dat de volgende {{PLURAL:$1|functie wordt|functies worden}} ingeschakeld:',
 	'mw-ui-feature-requirements-browser' => 'De volgende {{PLURAL:$1|browser wordt|browsers worden}} niet ondersteund:',
 	'mw-ui-feature-requirements-javascript' => 'Deze functie vereist JavaScript.',
@@ -607,7 +625,7 @@ $messages['oc'] = array(
 $messages['pl'] = array(
 	'mw-ui-feature-discuss' => 'dyskusja',
 	'mw-ui-feature-info' => 'informacje',
-	'mw-ui-feature-user-count' => '{{PLURAL:$1|Jeden użytkownik włączył|$1 użytkowników włączyło}} tę funkcję.',
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|Jeden użytkownik włączył|$1 użytkowników włączyło}} tę funkcję.', # Fuzzy
 	'mw-ui-feature-requirements-betafeatures' => 'Ta funkcja wymaga włączenia najpierw {{PLURAL:$1|następującej|następujących}}:',
 	'mw-ui-feature-requirements-browser' => '{{PLURAL:$1|Nieobsługiwana przeglądarka|Nieobsługiwane przeglądarki}}:',
 	'mw-ui-feature-requirements-javascript' => 'Ta funkcja wymaga włączonej obsługi JavaScriptu.',
@@ -620,6 +638,27 @@ $messages['pl'] = array(
 	'betafeatures-tooltip' => 'Sekcja funkcji eksperymentalnych umożliwia Ci testowanie i wyrażanie opinii na temat nowych funkcji, zanim uruchomimy je jako domyślne zachowanie. Wypróbuj coś nowego!',
 	'betafeatures-about-betafeatures' => 'O funkcjach eksperymentalnych',
 	'betafeatures-discuss-betafeatures' => 'Skomentuj',
+);
+
+/** Portuguese (português)
+ * @author Fúlvio
+ */
+$messages['pt'] = array(
+	'mw-ui-feature-discuss' => 'discussão',
+	'mw-ui-feature-info' => 'informação',
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|Um utilizador|$1 utilizadores}} ativaram este recurso.', # Fuzzy
+	'mw-ui-feature-requirements-betafeatures' => 'Este recurso necessita {{PLURAL:$1|do seguinte recurso|dos seguintes recursos}} para ser ativado:',
+	'mw-ui-feature-requirements-browser' => '{{PLURAL:$1|O seguinte navegador não é suportado|Os seguintes navegadores não são suportados}}:',
+	'mw-ui-feature-requirements-javascript' => 'Este recurso requer JavaScript.',
+	'mw-ui-feature-requirements-skins' => 'Este recurso requer o uso {{PLURAL:$1|do seguinte tema|de um dos seguintes temas}}:',
+	'prefs-betafeatures' => 'Recursos Beta',
+	'betafeatures-desc' => 'Permite que o usuário ative ou desative recursos da wiki que ainda não estão prontos',
+	'betafeatures-toplink' => 'Beta',
+	'betafeatures-auto-enroll' => 'Ativar automaticamente todos os novos recursos beta',
+	'betafeatures-section-desc' => 'Aqui {{PLURAL:$1|encontra-se um novo recurso|encontra-se novos recursos}} que estamos considerando para $2. Por favor, {{PLURAL:$1|teste-o|teste-os}} e diga o que pensa {{PLURAL:$1|dele|deles}}, para que possamos {{PLURAL:$1|melhorá-lo|melhorá-los}} com base em seu comentário.',
+	'betafeatures-tooltip' => 'Apresentando os Recursos Beta! Esta nova seção das suas preferências permite que você teste e comente sobre os novos recursos antes de implementá-los como padrão. Experimente algo novo agora!',
+	'betafeatures-about-betafeatures' => 'Sobre os Recursos Beta',
+	'betafeatures-discuss-betafeatures' => 'Deixe um comentário',
 );
 
 /** Brazilian Portuguese (português do Brasil)
@@ -654,7 +693,7 @@ $messages['roa-tara'] = array(
 $messages['ru'] = array(
 	'mw-ui-feature-discuss' => 'обсуждение',
 	'mw-ui-feature-info' => 'информация',
-	'mw-ui-feature-user-count' => '$1 {{PLURAL:$1|пользователь включил|пользователя включили|пользователей включили}} эту функцию.',
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|Один пользователь включил|$1 пользователя включили|$1 пользователей включили|0=Никто не включил}} эту функцию.',
 	'mw-ui-feature-requirements-betafeatures' => 'Эта функция требует, чтоб {{PLURAL:$1|была включена следующая функция|были включены следующие функции}}:',
 	'mw-ui-feature-requirements-browser' => '{{PLURAL:$1|Следующий браузер не поддерживается|Следующие браузеры не поддерживаются}}:',
 	'mw-ui-feature-requirements-javascript' => 'Эта функция требует JavaScript.',
@@ -691,7 +730,9 @@ $messages['sl'] = array(
 $messages['sv'] = array(
 	'mw-ui-feature-discuss' => 'diskussion',
 	'mw-ui-feature-info' => 'information',
-	'mw-ui-feature-user-count' => '{{PLURAL:$1|En|$1}} användare har aktiverat denna funktion.',
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|En|$1}} användare har aktiverat denna funktion.', # Fuzzy
+	'mw-ui-feature-requirements-betafeatures' => 'Den här funktionen kräver att följande {{PLURAL:$1|funktion är aktiverad|funktioner är aktiverade}}:',
+	'mw-ui-feature-requirements-browser' => 'Följande {{PLURAL:$1|webbläsare}}stöds inte:',
 	'mw-ui-feature-requirements-javascript' => 'Denna funktion kräver JavaScript.',
 	'prefs-betafeatures' => 'Betafunktioner',
 	'betafeatures-desc' => 'Låter användare aktivera eller inaktivera funktioner på wikin som fortfarande inte är helt färdiga',
@@ -709,7 +750,7 @@ $messages['sv'] = array(
 $messages['uk'] = array(
 	'mw-ui-feature-discuss' => 'обговорення',
 	'mw-ui-feature-info' => 'інформація',
-	'mw-ui-feature-user-count' => '{{PLURAL:$1|Один користувач вже увімкнув|$1 користувачі вже увімкнули|$1 користувачів вже увімкнули}} цю функцію.',
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|Один користувач вже увімкнув|$1 користувачі вже увімкнули|$1 користувачів вже увімкнули|0=Жодний користувач ще не увімкнув}} цю функцію.',
 	'mw-ui-feature-requirements-betafeatures' => 'Ця функція вимагає, щоб {{PLURAL:$1|була включена наступна функція|були включені наступні функції}}:',
 	'mw-ui-feature-requirements-browser' => '{{PLURAL:$1| Наступний веб-переглядач не підтримується|Наступні веб-переглядачі не підтримуються}}:',
 	'mw-ui-feature-requirements-javascript' => 'Ця функція вимагає JavaScript.',
