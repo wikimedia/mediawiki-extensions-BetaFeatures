@@ -29,7 +29,7 @@ $messages['en'] = array(
 	# Feature field messages
 	'mw-ui-feature-discuss'         => 'discussion',
 	'mw-ui-feature-info'            => 'information',
-	'mw-ui-feature-user-count'      => '{{PLURAL:$1|One user has|$1 users have}} enabled this feature.',
+	'mw-ui-feature-user-count'      => '{{PLURAL:$1|One user has|$1 users have|0=No users have}} enabled this feature.',
 
 	'mw-ui-feature-requirements-betafeatures' => 'This feature requires the following {{PLURAL:$1|feature|features}} to be enabled:',
 	'mw-ui-feature-requirements-browser' => 'The following {{PLURAL:$1|browser is|browsers are}} not supported:',
