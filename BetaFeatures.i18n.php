@@ -165,11 +165,14 @@ $messages['bcl'] = array(
 $messages['bn'] = array(
 	'mw-ui-feature-discuss' => 'আলোচনা',
 	'mw-ui-feature-info' => 'তথ্য',
-	'mw-ui-feature-user-count' => '{{PLURAL:$1|একজন ব্যবহারকারী|$1জন ব্যবহারকারী}} এই বৈশিষ্ট্য সক্রিয় করেছেন।',
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|একজন ব্যবহারকারী|$1জন ব্যবহারকারী|0=কোন ব্যবহারকারী}} এই বৈশিষ্ট্য সক্রিয় {{PLURAL:$1|করেছেন|0=করেন নি}}।',
+	'mw-ui-feature-requirements-javascript' => 'এই বৈশিষ্ট্যের জন্য জাভাস্ক্রিপ্ট প্রয়োজন।',
 	'prefs-betafeatures' => 'বেটা বৈশিষ্ট্যসমূহ',
 	'betafeatures-desc' => 'ব্যবহারকারীদের এই উইকিতে বৈশিষ্ট্য সক্রিয় বা নিস্ক্রিয় করার ব্যবস্থা করো যা এখনও প্রধান-সময়ের জন্য তৈরি নয়',
 	'betafeatures-toplink' => 'বেটা',
-	'betafeatures-auto-enroll' => 'স্বয়ংক্রিয়ভাবে সমস্ত নতুন বেটা বৈশিষ্ট্য সক্রিয় হবে',
+	'betafeatures-auto-enroll' => 'স্বয়ংক্রিয়ভাবে সমস্ত নতুন বেটা বৈশিষ্ট্য সক্রিয় করো',
+	'betafeatures-about-betafeatures' => 'বেটা বৈশিষ্ট্যসমূহ সম্পর্কে',
+	'betafeatures-discuss-betafeatures' => 'প্রতিক্রিয়া জানান',
 );
 
 /** Breton (brezhoneg)
@@ -358,7 +361,7 @@ $messages['fo'] = array(
 $messages['fr'] = array(
 	'mw-ui-feature-discuss' => 'discussion',
 	'mw-ui-feature-info' => 'information',
-	'mw-ui-feature-user-count' => '{{PLURAL:$1|Un utilisateur a|$1 utilisateurs ont}} activé cette fonctionnalité.', # Fuzzy
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|Un utilisateur a|$1 utilisateurs ont|0=Aucun utilisateur n’a}} activé cette fonctionnalité.',
 	'mw-ui-feature-requirements-betafeatures' => 'Cette fonctionnalité nécessite que {{PLURAL:$1|la fonctionnalité suivante soit activée|les fonctionnalités suivantes soient activées}} :',
 	'mw-ui-feature-requirements-browser' => '{{PLURAL:$1|Le navigateur suivant n’est pas supporté|Les navigateurs suivants ne sont pas supportés}} :',
 	'mw-ui-feature-requirements-javascript' => 'Cette fonctionnalité nécessite JavaScript.',
@@ -474,7 +477,7 @@ $messages['it'] = array(
 $messages['ja'] = array(
 	'mw-ui-feature-discuss' => '議論',
 	'mw-ui-feature-info' => '情報',
-	'mw-ui-feature-user-count' => '{{PLURAL:$1|$1 人の利用者}}がこの機能を有効にしています。', # Fuzzy
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|$1 人の利用者がこの機能を有効にしています|この機能を有効にしている利用者はいません}}。',
 	'mw-ui-feature-requirements-betafeatures' => 'この機能を使用するには、以下の{{PLURAL:$1|機能}}を有効にする必要があります:',
 	'mw-ui-feature-requirements-browser' => '以下の{{PLURAL:$1|ブラウザー}}には対応していません:',
 	'mw-ui-feature-requirements-javascript' => 'この機能の使用には JavaScript が必要です。',
@@ -671,6 +674,25 @@ $messages['pt-br'] = array(
 	'prefs-betafeatures' => 'Recursos beta',
 	'betafeatures-desc' => 'Permite ao usuário ativar ou desativar funções da wiki que ainda não estão prontas para serem ativamente usadas',
 	'betafeatures-toplink' => 'Funções em Beta', # Fuzzy
+);
+
+/** Romanian (română)
+ * @author Minisarm
+ */
+$messages['ro'] = array(
+	'mw-ui-feature-discuss' => 'discuție',
+	'mw-ui-feature-info' => 'informații',
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|Un utilizator a|$1 utilizatori au|$1 de utilizatori au|0=Niciun utilizator nu a}} activat această caracteristică.',
+	'mw-ui-feature-requirements-betafeatures' => 'Această caracteristică are nevoie ca {{PLURAL:$1|următoarea caracteristică|următoarele caracteristici}} să fie {{PLURAL:$1|activată|activate}}:',
+	'mw-ui-feature-requirements-browser' => '{{PLURAL:$1|Următorul navigator nu este suportat|Următoarele navigatoare nu sunt suportate}}:',
+	'mw-ui-feature-requirements-javascript' => 'Această caracteristică necesită JavaScript.',
+	'mw-ui-feature-requirements-skins' => 'Această caracteristică necesită ca dumneavoastră să utilizați {{PLURAL:$1|următoarea interfață|una din următoarele interfețe}}:',
+	'prefs-betafeatures' => 'Opțiuni beta',
+	'betafeatures-desc' => 'Permite utilizatorilor să activeze sau să dezactiveze în cadrul wikiului caracteristici care nu sunt pregătire pentru lansarea generală',
+	'betafeatures-toplink' => 'Beta',
+	'betafeatures-auto-enroll' => 'Activează automat toate noile caracteristici beta',
+	'betafeatures-about-betafeatures' => 'Despre opțiunile beta',
+	'betafeatures-discuss-betafeatures' => 'Lăsați o părere',
 );
 
 /** tarandíne (tarandíne)
