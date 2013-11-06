@@ -17,10 +17,13 @@
 
 ( function ( mw, $ ) {
 	if ( !mw.user.options.get( 'betafeatures-popup-disable' ) ) {
-		$( '#pt-betafeatures a' )
-			.tipsy()
-			.prop( 'title', mw.message( 'betafeatures-tooltip' ).text() )
-			.tipsy( 'show' );
+		var $link = $( '#pt-betafeatures a' );
+
+		if ( $link.length > 0 ) {
+			$link.tipsy()
+				.prop( 'title', mw.message( 'betafeatures-tooltip' ).text() )
+				.tipsy( 'show' );
+		}
 
 		new mw.Api().post( {
 			action: 'tokens',
