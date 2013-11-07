@@ -143,7 +143,7 @@ $messages['ast'] = array(
 $messages['bcl'] = array(
 	'mw-ui-feature-discuss' => 'orolayan',
 	'mw-ui-feature-info' => 'impormasyon',
-	'mw-ui-feature-user-count' => '{{PLURAL:$1|Sarong paragamit|$1 na mga paragamit}} pinagpagana an posturang ini.', # Fuzzy
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|Sarong paragamit igwa nin|$1 mga paragamit igwa nin|0=Mayong paragamit na igwa nin}} pinagpagana ining estima.',
 	'mw-ui-feature-requirements-betafeatures' => 'Ining estima minakaipo kan minasunod na {{PLURAL:$1|estima|mga estima}} tanganing pagpaganahon:',
 	'mw-ui-feature-requirements-browser' => 'An minasunod na {{PLURAL:$1|pangilyaw|mga pangilyaw}} bakong suportado:',
 	'mw-ui-feature-requirements-javascript' => 'Ining estima minakaipo nin JavaScript.',
@@ -156,6 +156,16 @@ $messages['bcl'] = array(
 	'betafeatures-tooltip' => 'Ipinapabisto an Beta na mga Estima! Ining baguhon na seksyon nin mga kamuyahan minatugot saimo na prubaran asin magtao nin balik-simbag mapanungod sa baguhong mga estima bago mi ipaglansar sinda bilang panugmad na kagawian. Magprubar nin sarong baguhon ngunyan!',
 	'betafeatures-about-betafeatures' => 'Mapanungod sa Beta na mga Estima',
 	'betafeatures-discuss-betafeatures' => 'Magwalat nin balik-simbag',
+);
+
+/** Bulgarian (български)
+ * @author DCLXVI
+ */
+$messages['bg'] = array(
+	'mw-ui-feature-info' => 'информация',
+	'mw-ui-feature-requirements-javascript' => 'Тази функционалност изисква JavaScript.',
+	'betafeatures-toplink' => 'Бета',
+	'betafeatures-discuss-betafeatures' => 'Обратна връзка',
 );
 
 /** Bengali (বাংলা)
@@ -404,7 +414,7 @@ $messages['gl'] = array(
 $messages['he'] = array(
 	'mw-ui-feature-discuss' => 'דיון',
 	'mw-ui-feature-info' => 'מידע',
-	'mw-ui-feature-user-count' => '{{PLURAL:$1|משתמש אחד הפעיל|$1 משתמשים הפעילו|0=שום משתמש לא הפעיל}} את האפשרות הזאת.', # Fuzzy
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|משתמש אחד הפעיל|$1 משתמשים הפעילו|0=שום משתמש לא הפעיל}} את האפשרות הזאת.',
 	'mw-ui-feature-requirements-betafeatures' => 'האפשרות הזאת דורשת {{PLURAL:$1|שהאפשרות הבאה תהיה מופעלת|שהאפשרויות הבאות יהיו מופעלות}}:',
 	'mw-ui-feature-requirements-browser' => '{{PLURAL:$1|הדפדפן הבא אינו נתמך|הדפדפנים הבאים אינם נתמכים}}:',
 	'mw-ui-feature-requirements-javascript' => "האפשרות הזאת דורשת הפעלה של ג'אווה סקריפט.",
@@ -413,7 +423,7 @@ $messages['he'] = array(
 	'betafeatures-desc' => 'מתן אפשרות למשתמש להפעיל או לכבות בוויקי אפשרויות שעדיין אינן מוכנות להוצאה כללית',
 	'betafeatures-toplink' => 'בטא',
 	'betafeatures-auto-enroll' => 'להפעיל אוטומטית את כל אפשרויות הבטא',
-	'betafeatures-section-desc' => 'הנה {{PLURAL:$1|אפשרות חדשה|אפשרויות חדשות}} שאנחנו שוקלים להוסיף ל{{GRAMMAR:תחילית|{{$2}}}}. אנו מבקשים ממך לנסות {{PLURAL:$1|אותה|אותן}}, כדי שנוכל לשפר {{PLURAL:$1|אותה|אותן}} לפי המשוב שלך.',
+	'betafeatures-section-desc' => 'הנה {{PLURAL:$1|אפשרות חדשה|אפשרויות חדשות}} שאנחנו שוקלים להוסיף ל{{GRAMMAR:תחילית|$2}}. אנו מבקשים ממך לנסות {{PLURAL:$1|אותה|אותן}}, כדי שנוכל לשפר {{PLURAL:$1|אותה|אותן}} לפי המשוב שלך.',
 	'betafeatures-tooltip' => 'אנו גאים להציג את "אפשרויות בטא"! החל החדש הזה בהעדפות מאפשר לך לבדוק אפשרויות חדשות ולתת עליהן משוב לפני שנפעיל אותן בתור ההתנהגות הרגילה. נסו משהו חדש!',
 	'betafeatures-about-betafeatures' => 'אודות אפשרויות בטא',
 	'betafeatures-discuss-betafeatures' => 'שליחת משוב',
@@ -623,12 +633,13 @@ $messages['oc'] = array(
 /** Polish (polski)
  * @author Chrumps
  * @author Matma Rex
+ * @author WTM
  * @author Woytecr
  */
 $messages['pl'] = array(
 	'mw-ui-feature-discuss' => 'dyskusja',
 	'mw-ui-feature-info' => 'informacje',
-	'mw-ui-feature-user-count' => '{{PLURAL:$1|Jeden użytkownik włączył|$1 użytkowników włączyło}} tę funkcję.', # Fuzzy
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|Jeden użytkownik włączył tę funkcję.|$1 użytkowników włączyło tę funkcję.|0=Żaden użytkownik nie włączył tej funkcji.}}',
 	'mw-ui-feature-requirements-betafeatures' => 'Ta funkcja wymaga włączenia najpierw {{PLURAL:$1|następującej|następujących}}:',
 	'mw-ui-feature-requirements-browser' => '{{PLURAL:$1|Nieobsługiwana przeglądarka|Nieobsługiwane przeglądarki}}:',
 	'mw-ui-feature-requirements-javascript' => 'Ta funkcja wymaga włączonej obsługi JavaScriptu.',
@@ -752,17 +763,19 @@ $messages['sl'] = array(
 $messages['sv'] = array(
 	'mw-ui-feature-discuss' => 'diskussion',
 	'mw-ui-feature-info' => 'information',
-	'mw-ui-feature-user-count' => '{{PLURAL:$1|En|$1}} användare har aktiverat denna funktion.', # Fuzzy
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|En|$1}} användare har aktiverat denna funktion.',
 	'mw-ui-feature-requirements-betafeatures' => 'Den här funktionen kräver att följande {{PLURAL:$1|funktion är aktiverad|funktioner är aktiverade}}:',
 	'mw-ui-feature-requirements-browser' => 'Följande {{PLURAL:$1|webbläsare}}stöds inte:',
 	'mw-ui-feature-requirements-javascript' => 'Denna funktion kräver JavaScript.',
+	'mw-ui-feature-requirements-skins' => 'Den här funktionen kräver att du använder {{PLURAL:$1|följande utseende|en av de följande utseenden}}:',
 	'prefs-betafeatures' => 'Betafunktioner',
 	'betafeatures-desc' => 'Låter användare aktivera eller inaktivera funktioner på wikin som fortfarande inte är helt färdiga',
 	'betafeatures-toplink' => 'Beta',
 	'betafeatures-auto-enroll' => 'Aktivera automatiskt alla nya betafunktioner',
-	'betafeatures-section-desc' => 'Här finns {{PLURAL:$1|en ny funktion|några nya funktioner}} som vi funderar på att inkludera i $2. Var god prova ut dem och ge oss dina åsikter så vi kan förbättra dem utifrån din feedback.',
+	'betafeatures-section-desc' => 'Här finns {{PLURAL:$1|en ny funktion|några nya funktioner}} som vi funderar på att inkludera i $2. Var god prova ut {{PLURAL:$1|den|dem}} och ge oss dina åsikter så vi kan förbättra dem utifrån din feedback.',
+	'betafeatures-tooltip' => 'Vi intoruducerar betafunktioner! Denna nya inställningsavsnitt låter dig testa och ge återkoppling på nya funktioner innan vi lanserar dem som standardfunktionerna. Testa något nytt nu!',
 	'betafeatures-about-betafeatures' => 'Om betafunktioner',
-	'betafeatures-discuss-betafeatures' => 'Lämna feedback',
+	'betafeatures-discuss-betafeatures' => 'Ge återkoppling',
 );
 
 /** Ukrainian (українська)
