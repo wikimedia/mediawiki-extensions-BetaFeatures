@@ -112,15 +112,17 @@ table.mw-htmlform-container {
 	padding: 6px 10px 6px 40px;
 	display: inline-block;
 	border-left: 1px solid #e5e5e5;
+	background-position: left 10px top 6px;
+	background-repeat: no-repeat;
 }
 
 .mw-ui-feature-discussion-link {
 	padding-left: 46px;
-	background: url('../img/form-icon/feature-discussion.svg') 10px 6px no-repeat;
+	background-image: url('../img/form-icon/feature-discussion.svg');
 }
 
 .mw-ui-feature-info-link {
-	background: url('../img/form-icon/feature-information.png') 10px 6px no-repeat;
+	background-image: url('../img/form-icon/feature-information.png');
 }
 
 /* line 219, sourcefiles/scss/components/default/_forms.scss */
