@@ -34,7 +34,7 @@ $messages['en'] = array(
 	'mw-ui-feature-requirements-betafeatures' => 'This feature requires the following {{PLURAL:$1|feature|features}} to be enabled:',
 	'mw-ui-feature-requirements-browser' => 'The following {{PLURAL:$1|browser is|browsers are}} not supported:',
 	'mw-ui-feature-requirements-javascript' => 'This feature requires JavaScript.',
-	'mw-ui-feature-requirements-skins' => 'This feature requires you to be using {{PLURAL:$1|the following skin|one of the following skins}}:',
+	'mw-ui-feature-requirements-skins' => 'This feature only works with {{PLURAL:$1|the following skin|the following skins}}:',
 
 	'prefs-betafeatures' => 'Beta features',
 	'betafeatures-desc' => 'Lets user enable or disable features on the wiki that are still not ready for prime-time',
