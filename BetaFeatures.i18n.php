@@ -147,7 +147,7 @@ $messages['bcl'] = array(
 	'mw-ui-feature-requirements-betafeatures' => 'Ining estima minakaipo kan minasunod na {{PLURAL:$1|estima|mga estima}} tanganing pagpaganahon:',
 	'mw-ui-feature-requirements-browser' => 'An minasunod na {{PLURAL:$1|pangilyaw|mga pangilyaw}} bakong suportado:',
 	'mw-ui-feature-requirements-javascript' => 'Ining estima minakaipo nin JavaScript.',
-	'mw-ui-feature-requirements-skins' => 'Ining estima minakaipo saimo na gumamit nin  {{PLURAL:$1|minasunod na kublit|saro kan minasunod na mga kublit}}:', # Fuzzy
+	'mw-ui-feature-requirements-skins' => 'Ining estima minagana sana sa{{PLURAL:$1|minasunod na kublit|minasunod na mga kublit}}:',
 	'prefs-betafeatures' => 'Mga posturang yaon sa beta',
 	'betafeatures-desc' => 'Minatugot sa paragamit na paganahon o pauntukon an mga postura kaining wiki na dae pa man handa para sa premyadong-panahon',
 	'betafeatures-toplink' => 'Beta',
@@ -790,7 +790,7 @@ $messages['ru'] = array(
 	'mw-ui-feature-requirements-betafeatures' => 'Эта функция требует, чтоб {{PLURAL:$1|была включена следующая функция|были включены следующие функции}}:',
 	'mw-ui-feature-requirements-browser' => '{{PLURAL:$1|Следующий браузер не поддерживается|Следующие браузеры не поддерживаются}}:',
 	'mw-ui-feature-requirements-javascript' => 'Эта функция требует JavaScript.',
-	'mw-ui-feature-requirements-skins' => 'Эта функция требует, чтоб у вас {{PLURAL:$1|была включена следующая тема|были включены следующие темы}}:', # Fuzzy
+	'mw-ui-feature-requirements-skins' => 'Эта функция работает только со {{PLURAL:$1|следующей темой|следующими темами}}:',
 	'prefs-betafeatures' => 'Бета-функции',
 	'betafeatures-desc' => 'Позволяет пользователю включить или отключить функции, которые еще не готовы к прайм-тайм',
 	'betafeatures-toplink' => 'Бета-версия',
@@ -866,6 +866,27 @@ $messages['uk'] = array(
 	'betafeatures-tooltip' => 'Представляємо бета-функції! Цей новий розділ налаштувань дозволяє тестувати і надсилати відгуки про нові можливості, перш ніж ми запустимо їх як типову поведінку у основній Медіавікі. Спробувати щось нове зараз!',
 	'betafeatures-about-betafeatures' => 'Про бета-функції',
 	'betafeatures-discuss-betafeatures' => 'Залишити відгук',
+);
+
+/** Vietnamese (Tiếng Việt)
+ * @author Minh Nguyen
+ */
+$messages['vi'] = array(
+	'mw-ui-feature-discuss' => 'thảo luận',
+	'mw-ui-feature-info' => 'thông tin',
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|Một người dùng đã|$1 người dùng đã|0=Chưa có ai}} bật lên tính năng này.',
+	'mw-ui-feature-requirements-betafeatures' => 'Tính năng này cần {{PLURAL:$1|tính năng|các tính năng}} sau được kích hoạt:',
+	'mw-ui-feature-requirements-browser' => '{{PLURAL:$1|Trình duyệt|Các trình duyệt}} sau không được hỗ trợ:',
+	'mw-ui-feature-requirements-javascript' => 'Tính năng này cần JavaScript.',
+	'mw-ui-feature-requirements-skins' => 'Tính năng này chỉ tương thích với {{PLURAL:$1|hình dạng|các hình dạng}} sau:',
+	'prefs-betafeatures' => 'Tính năng beta',
+	'betafeatures-desc' => 'Cho phép người dùng bật hay tắt các tính năng wiki chưa ổn định',
+	'betafeatures-toplink' => 'Beta',
+	'betafeatures-auto-enroll' => 'Tự động bật lên các tính năng beta mới',
+	'betafeatures-section-desc' => 'Đây có {{PLURAL:$1|một tính năng|những tính năng}} mới mà chúng tôi đang phát triển cho $2. Xin vui lòng thử {{PLURAL:$1|nó|chúng}} và gửi cho chúng tôi những ý kiến của bạn để giúp chúng tôi cải thiện {{PLURAL:$1|nó|chúng}}.',
+	'betafeatures-tooltip' => 'Giới thiệu các tính năng beta! Phần tùy chọn mới này cho phép bạn thử các tính năng mới và gửi phản hồi trước khi chúng trở thành mặc định. Hãy thử những gì mới ngay bây giờ!',
+	'betafeatures-about-betafeatures' => 'Giới thiệu tính năng beta',
+	'betafeatures-discuss-betafeatures' => 'Gửi phản hồi',
 );
 
 /** Wu (吴语)
