@@ -55,6 +55,7 @@ $messages['en'] = array(
 
 /** Message documentation (Message documentation)
  * @author Mark Holmquist <mtraceur@member.fsf.org>
+ * @author Nemo bis
  * @author Raymond
  * @author Shirayuki
  */
@@ -109,7 +110,7 @@ The description for this checkbox is {{msg-mw|Betafeatures-test-feature-field}}.
 	'betafeatures-test-feature-field' => 'Used as description for the checkbox, used to test the extension.
 
 The label for the checkbox is {{msg-mw|Betafeatures-test-check-field}}.',
-	'betafeatures-tooltip' => 'A tooltip meant to advertise the existence of the BetaFeatures preferences page the first time a user sees it. Only shown once, meant to be a call to action.',
+	'betafeatures-tooltip' => 'A tooltip meant to advertise the existence of the BetaFeatures preferences page the first time a user sees it. Only shown once, meant to be a call to action. "Introducing" is jargon meaning "we are explaining you", you can avoid translating it in your language if it doesn\'t fit.',
 	'betafeatures-about-betafeatures' => 'Text for a link to a page describing what Beta Features is, what the project is for, etc.',
 	'betafeatures-discuss-betafeatures' => 'Text for a link to a page where users can leave feedback about Beta Features.
 {{Identical|Leave feedback}}',
@@ -425,7 +426,7 @@ $messages['he'] = array(
 	'mw-ui-feature-requirements-betafeatures' => 'האפשרות הזאת דורשת {{PLURAL:$1|שהאפשרות הבאה תהיה מופעלת|שהאפשרויות הבאות יהיו מופעלות}}:',
 	'mw-ui-feature-requirements-browser' => '{{PLURAL:$1|הדפדפן הבא אינו נתמך|הדפדפנים הבאים אינם נתמכים}}:',
 	'mw-ui-feature-requirements-javascript' => "האפשרות הזאת דורשת הפעלה של ג'אווה סקריפט.",
-	'mw-ui-feature-requirements-skins' => 'האפשרות הזאת דורשת שימוש {{PLURAL:$1|העיצוב הבא|באחד מהעיצובים הבאים}}:', # Fuzzy
+	'mw-ui-feature-requirements-skins' => 'האפשרות הזאת עובדת רק עם {{PLURAL:$1|העיצוב הבא|העיצובים הבאים}}:',
 	'prefs-betafeatures' => 'אפשרויות בטא',
 	'betafeatures-desc' => 'מתן אפשרות למשתמש להפעיל או לכבות בוויקי אפשרויות שעדיין אינן מוכנות להוצאה כללית',
 	'betafeatures-toplink' => 'בטא',
@@ -489,22 +490,23 @@ $messages['ilo'] = array(
  * @author Beta16
  * @author Davio
  * @author Gianfranco
+ * @author Nemo bis
  */
 $messages['it'] = array(
 	'mw-ui-feature-discuss' => 'discussione',
 	'mw-ui-feature-info' => 'informazioni',
-	'mw-ui-feature-user-count' => '{{PLURAL:$1|Un utente ha|$1 utenti hanno}} abilitato questa funzione.', # Fuzzy
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|Un utente ha|$1 utenti hanno|0=Nessun utente ha}} abilitato questa funzione.',
 	'mw-ui-feature-requirements-betafeatures' => 'Questa funzionalità richiede che {{PLURAL:$1|sia abilitata la seguente|siano abilitate le seguenti}} funzionalità:',
-	'mw-ui-feature-requirements-browser' => '{{PLURAL:$1|Il seguente browser non è supportato|I seguenti browser non sono supportati}}:',
+	'mw-ui-feature-requirements-browser' => '{{PLURAL:$1|Il seguente browser non è abilitato|I seguenti browser non sono abilitati}}:',
 	'mw-ui-feature-requirements-javascript' => 'Questa funzionalità richiede JavaScript.',
-	'mw-ui-feature-requirements-skins' => 'Questa funzionalità richiede {{PLURAL:$1|la seguente skin|una delle seguenti skin}}:', # Fuzzy
-	'prefs-betafeatures' => 'Funzionalità beta',
-	'betafeatures-desc' => "Consente all'utente di attivare o disattivare sul wiki funzioni che non sono ancora pronte per il grande pubblico",
-	'betafeatures-toplink' => 'Beta',
-	'betafeatures-auto-enroll' => 'Attiva automaticamente tutte le nuove funzioni beta',
+	'mw-ui-feature-requirements-skins' => 'Questa funzionalità funziona solo con {{PLURAL:$1|la seguente skin|le seguenti skin}}:',
+	'prefs-betafeatures' => 'Funzionalità in preparazione',
+	'betafeatures-desc' => "Consente all'utente di attivare o disattivare sul wiki funzionalità che non sono ancora pronte per il grande pubblico",
+	'betafeatures-toplink' => '(in preparazione)',
+	'betafeatures-auto-enroll' => 'Attiva automaticamente tutte le nuove funzionalità in preparazione',
 	'betafeatures-section-desc' => '{{PLURAL:$1|Questa è una nuova funzionalità|Queste sono nuove funzionalità}} che stiamo prendendo in considerazione per $2. Puoi provarle e dirci cosa ne pensi, così che possiamo migliorare in base alle vostre risposte.',
-	'betafeatures-tooltip' => 'Introduzione alle funzionalità Beta! Questa nuova sezione delle preferenze consente di provare e lasciare un commento sulle nuove funzionalità prima di rilasciarle come definitive. Prova qualcosa di nuovo!',
-	'betafeatures-about-betafeatures' => 'Sulle funzionalità Beta',
+	'betafeatures-tooltip' => 'Benvenuto nelle funzionalità in preparazione! Questa nuova sezione delle preferenze consente di provare e lasciare un commento sulle funzionalità in preparazione prima che siano estese a tutti. Prova qualcosa di nuovo!',
+	'betafeatures-about-betafeatures' => 'Informazioni su Funzionalità in preparazione',
 	'betafeatures-discuss-betafeatures' => 'Lascia un commento',
 );
 
@@ -661,6 +663,7 @@ $messages['mr'] = array(
 
 /** Dutch (Nederlands)
  * @author Flightmare
+ * @author Romaine
  * @author Siebrand
  * @author TBloemink
  */
@@ -677,6 +680,7 @@ $messages['nl'] = array(
 	'betafeatures-toplink' => 'Beta',
 	'betafeatures-auto-enroll' => 'Automatisch alle betafuncties inschakelen',
 	'betafeatures-section-desc' => 'Hier {{PLURAL:$1|is een nieuwe functie|zijn een paar nieuwe functies}} die we overwegen voor $2. Probeert deze uit en laat ons weten wat u ervan vindt, zodat wij ze kunnen verbeteren.',
+	'betafeatures-about-betafeatures' => 'Over de Betafuncties',
 	'betafeatures-discuss-betafeatures' => 'Terugkoppeling achterlaten',
 );
 
@@ -757,7 +761,7 @@ $messages['ro'] = array(
 	'mw-ui-feature-requirements-betafeatures' => 'Această caracteristică are nevoie ca {{PLURAL:$1|următoarea caracteristică|următoarele caracteristici}} să fie {{PLURAL:$1|activată|activate}}:',
 	'mw-ui-feature-requirements-browser' => '{{PLURAL:$1|Următorul navigator nu este suportat|Următoarele navigatoare nu sunt suportate}}:',
 	'mw-ui-feature-requirements-javascript' => 'Această caracteristică necesită JavaScript.',
-	'mw-ui-feature-requirements-skins' => 'Această caracteristică necesită ca dumneavoastră să utilizați {{PLURAL:$1|următoarea interfață|una din următoarele interfețe}}:', # Fuzzy
+	'mw-ui-feature-requirements-skins' => 'Această caracteristică funcționează doar împreună cu {{PLURAL:$1|următoarea interfață|următoarele interfețe}}:',
 	'prefs-betafeatures' => 'Opțiuni beta',
 	'betafeatures-desc' => 'Permite utilizatorilor să activeze sau să dezactiveze în cadrul wikiului caracteristici care nu sunt pregătire pentru lansarea generală',
 	'betafeatures-toplink' => 'Beta',
