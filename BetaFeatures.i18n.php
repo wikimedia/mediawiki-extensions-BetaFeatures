@@ -555,10 +555,10 @@ $messages['ko'] = array(
 	'mw-ui-feature-discuss' => '토론',
 	'mw-ui-feature-info' => '정보',
 	'mw-ui-feature-user-count' => '{{PLURAL:$1|사용자 한 명이|사용자 $1명이|0=아무도}} 이 기능을 활성화{{PLURAL:$1|시켰습니다|0=시키지 않았습니다}}.',
-	'mw-ui-feature-requirements-betafeatures' => '이 기능을 사용하기 위해서는 다음 기능을 활성화해야 합니다:', # Fuzzy
+	'mw-ui-feature-requirements-betafeatures' => '이 기능을 사용하기 위해서는 다음 {{PLURAL:$1|기능}}을 활성화해야 합니다:',
 	'mw-ui-feature-requirements-browser' => '다음 {{PLURAL:$1|브라우저}}는 지원하지 않습니다:',
 	'mw-ui-feature-requirements-javascript' => '이 기능은 자바스크립트가 필요합니다.',
-	'mw-ui-feature-requirements-skins' => '이 기능은 {{PLURAL:$1|다음 스킨|다음 스킨 중 하나}}를 사용해야만 쓸 수 있습니다:', # Fuzzy
+	'mw-ui-feature-requirements-skins' => '이 기능은 {{PLURAL:$1|다음 스킨|다음 스킨 중 하나}}에서만 작동합니다:',
 	'prefs-betafeatures' => '베타 기능',
 	'betafeatures-desc' => '사용자가 아직 준비가 되지 않은 위키에서 기능을 활성화하거나 비활성화할 수 있습니다',
 	'betafeatures-toplink' => '베타',
@@ -905,20 +905,23 @@ $messages['wuu'] = array(
  * @author Fantasticfears
  * @author Liuxinyu970226
  * @author Qiyue2001
+ * @author Shizhao
  * @author 乌拉跨氪
  */
 $messages['zh-hans'] = array(
 	'mw-ui-feature-discuss' => '讨论',
 	'mw-ui-feature-info' => '信息',
-	'mw-ui-feature-user-count' => '$1个用户启用了此功能。',
-	'mw-ui-feature-requirements-betafeatures' => '此功能需要启用以下$1个功能：',
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|有一个用户|有$1个用户|0=没有用户}} 启用该功能。',
+	'mw-ui-feature-requirements-betafeatures' => '此功能需要启用以下功能：', # Fuzzy
 	'mw-ui-feature-requirements-browser' => '尚不支持以下{{PLURAL:$1|浏览器}}：',
 	'mw-ui-feature-requirements-javascript' => '此功能依赖JavaScript。',
-	'mw-ui-feature-requirements-skins' => '此功能需要使用以下$1个皮肤之一：', # Fuzzy
+	'mw-ui-feature-requirements-skins' => '此功能只能在以下皮肤中工作：', # Fuzzy
 	'prefs-betafeatures' => '测试功能',
 	'betafeatures-desc' => '允许用户启用或禁用wiki上仍在测试的功能',
 	'betafeatures-toplink' => '测试功能',
-	'betafeatures-auto-enroll' => '自动使用全部新近测试功能',
+	'betafeatures-auto-enroll' => '自动启用所有新的测试功能',
+	'betafeatures-section-desc' => '这里{{PLURAL:$1|有一个新功能|有一些新功能}}，我们正在考虑将其部署到$2。请试用{{PLURAL:$1|这个|这些}}功能，并把你的想法告诉我们。这样我们可以基于您的想法对其进行改善。',
+	'betafeatures-tooltip' => '引入测试功能！这个新的参数设置章节允许您在我们将之作为默认功能之前进行测试和反馈。现在就来尝试新东西吧！',
 	'betafeatures-about-betafeatures' => '关于测试功能',
 	'betafeatures-discuss-betafeatures' => '留下反馈意见',
 );
