@@ -144,8 +144,6 @@ class BetaFeaturesHooks {
 	 * @throws BetaFeaturesMissingFieldException
 	 */
 	public static function getPreferences( User $user, array &$prefs ) {
-		global $wgSitename;
-
 		$betaPrefs = array();
 		$depHooks = array();
 
@@ -162,7 +160,7 @@ class BetaFeaturesHooks {
 				Html::rawElement(
 					'p',
 					array(),
-					wfMessage( 'betafeatures-section-desc', count( $betaPrefs ), $wgSitename )->text()
+					wfMessage( 'betafeatures-section-desc', count( $betaPrefs ) )->text()
 				),
 
 				Html::rawElement( 'p', array(), implode( ' | ', array(

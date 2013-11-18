@@ -41,7 +41,7 @@ $messages['en'] = array(
 	'betafeatures-toplink' => 'Beta',
 
 	'betafeatures-auto-enroll' => 'Automatically enable all new beta features',
-	'betafeatures-section-desc' => 'Here {{PLURAL:$1|is a new feature|are some new features}} we\'re considering for $2. Please try {{PLURAL:$1|it|them}} out and give us your thoughts, so we can improve {{PLURAL:$1|it|them}} based on your feedback.',
+	'betafeatures-section-desc' => 'Here {{PLURAL:$1|is a new feature|are some new features}} we\'re considering for {{SITENAME}}. Please try {{PLURAL:$1|it|them}} out and give us your thoughts, so we can improve {{PLURAL:$1|it|them}} based on your feedback.',
 
 	// Test messages
 	'betafeatures-test-check-field' => 'blah blah blah', # do not translate or duplicate this message to other languages
