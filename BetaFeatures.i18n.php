@@ -80,7 +80,7 @@ Followed by list of browsers.
 
 Parameters:
 * $1 - number of browsers in list',
-	'mw-ui-feature-requirements-javascript' => 'Error message shown when the feature requires javascript.',
+	'mw-ui-feature-requirements-javascript' => 'Error message shown when the feature requires JavaScript.',
 	'mw-ui-feature-requirements-skins' => 'Error message shown when the skin is not supported.
 
 Followed by list of skins.
@@ -181,6 +181,8 @@ $messages['bn'] = array(
 	'mw-ui-feature-discuss' => 'আলোচনা',
 	'mw-ui-feature-info' => 'তথ্য',
 	'mw-ui-feature-user-count' => '{{PLURAL:$1|একজন ব্যবহারকারী|$1জন ব্যবহারকারী|0=কোন ব্যবহারকারী}} এই বৈশিষ্ট্য সক্রিয় {{PLURAL:$1|করেছেন|0=করেন নি}}।',
+	'mw-ui-feature-requirements-betafeatures' => 'এই বৈশিষ্ট্য সক্রিয় করতে নিম্নলিখিত {{PLURAL:$1|বৈশিষ্ট্য|বৈশিষ্ট্যগুলি}} সক্রিয় করতে হবে:',
+	'mw-ui-feature-requirements-browser' => 'নিম্নলিখিত {{PLURAL:$1|ব্রাউজার|ব্রাউজারগুলি}} সমর্থিত নয়:',
 	'mw-ui-feature-requirements-javascript' => 'এই বৈশিষ্ট্যের জন্য জাভাস্ক্রিপ্ট প্রয়োজন।',
 	'prefs-betafeatures' => 'বেটা বৈশিষ্ট্যসমূহ',
 	'betafeatures-desc' => 'ব্যবহারকারীদের এই উইকিতে বৈশিষ্ট্য সক্রিয় বা নিস্ক্রিয় করার ব্যবস্থা করো যা এখনও প্রধান-সময়ের জন্য তৈরি নয়',
