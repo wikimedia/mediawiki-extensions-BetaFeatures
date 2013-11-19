@@ -129,13 +129,19 @@ $messages['ar'] = array(
 $messages['ast'] = array(
 	'mw-ui-feature-discuss' => 'alderique',
 	'mw-ui-feature-info' => 'Información',
-	'mw-ui-feature-user-count' => '{{PLURAL:$1|Un usuariu activó|$1 usuarios activaron}} esta carauterística.', # Fuzzy
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|Un usuariu activó|$1 usuarios activaron|0=Dengún usuariu activó}} esta carauterística.',
+	'mw-ui-feature-requirements-betafeatures' => 'Esta carauterística necesita activar {{PLURAL:$1|la siguiente carauterística|les siguientes carauterístiques}}:',
+	'mw-ui-feature-requirements-browser' => '{{PLURAL:$1|El siguiente navegador nun tien|Los siguientes navegadores nun tienen}} encontu:',
+	'mw-ui-feature-requirements-javascript' => 'Esta carauterística necesita JavaScript.',
+	'mw-ui-feature-requirements-skins' => 'Esta carauterística sólo funciona con {{PLURAL:$1|la piel siguiente|les pieles siguientes}}:',
 	'prefs-betafeatures' => 'Carauterístiques beta',
 	'betafeatures-desc' => "Permite que l'usuariu active o desactive funciones de la wiki qu'inda nun tan pa un usu xeneralizáu",
 	'betafeatures-toplink' => 'Beta',
 	'betafeatures-auto-enroll' => 'Activar automáticamente toles carauterístiques beta nueves',
 	'betafeatures-section-desc' => 'Est{{PLURAL:$1|a ye una carauterística nueva|es son dalgunes carauterístiques nueves}} que tamos considerando pa $2. Por favor. pruebeles y diganos lo que piensa pa que podamos ameyorales basandonos nes sos impresiones.',
 	'betafeatures-tooltip' => '¡Presentamos les carauterístiques Beta! Esta nueva seición de les preferencies permite-y probar y comentar les carauterístiques nueves enantes de que les llancemos de mou predetermináu. ¡Pruebe agora daqué nuevo!',
+	'betafeatures-about-betafeatures' => 'Tocante a les carauterístiques Beta',
+	'betafeatures-discuss-betafeatures' => 'Dexar un comentariu',
 );
 
 /** Bikol Central (Bikol Central)
