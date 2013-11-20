@@ -678,16 +678,17 @@ $messages['mr'] = array(
 $messages['nl'] = array(
 	'mw-ui-feature-discuss' => 'overleg',
 	'mw-ui-feature-info' => 'informatie',
-	'mw-ui-feature-user-count' => '{{PLURAL:$1|Eén gebruiker heeft|$1 gebruikers hebben}} deze functie ingeschakeld.', # Fuzzy
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|Eén gebruiker heeft|$1 gebruikers hebben|0=Geen enkele gebruiker heeft}} deze functie ingeschakeld.',
 	'mw-ui-feature-requirements-betafeatures' => 'Deze functie vereist dat de volgende {{PLURAL:$1|functie wordt|functies worden}} ingeschakeld:',
 	'mw-ui-feature-requirements-browser' => 'De volgende {{PLURAL:$1|browser wordt|browsers worden}} niet ondersteund:',
 	'mw-ui-feature-requirements-javascript' => 'Deze functie vereist JavaScript.',
-	'mw-ui-feature-requirements-skins' => 'Deze functie vereist {{PLURAL:$1|de volgende skin|een van de volgende skins}}:', # Fuzzy
+	'mw-ui-feature-requirements-skins' => 'Deze functie werkt alleen met {{PLURAL:$1|de volgende skin|een van de volgende skins}}:',
 	'prefs-betafeatures' => 'Betafuncties',
 	'betafeatures-desc' => 'Laat de gebruiker functies die in ontwikkeling zijn in- of uitschakelen',
 	'betafeatures-toplink' => 'Beta',
 	'betafeatures-auto-enroll' => 'Automatisch alle betafuncties inschakelen',
-	'betafeatures-section-desc' => 'Hier {{PLURAL:$1|is een nieuwe functie|zijn een paar nieuwe functies}} die we overwegen voor $2. Probeert deze uit en laat ons weten wat u ervan vindt, zodat wij ze kunnen verbeteren.',
+	'betafeatures-section-desc' => 'Hier {{PLURAL:$1|is een nieuwe functie|zijn enkele nieuwe functies}} die we overwegen voor $2. Probeert deze uit en laat ons weten wat u ervan vindt, zodat wij ze kunnen verbeteren.',
+	'betafeatures-tooltip' => 'Introductie van Beta Features! Deze nieuwe sectie in je voorkeuren stelt je in staat om te testen en feedback te geven over nieuwe functies voordat we ze invoeren als standaard. Probeer nu iets nieuws uit!',
 	'betafeatures-about-betafeatures' => 'Over de Betafuncties',
 	'betafeatures-discuss-betafeatures' => 'Terugkoppeling achterlaten',
 );
