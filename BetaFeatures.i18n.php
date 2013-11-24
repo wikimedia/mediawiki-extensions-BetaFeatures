@@ -264,7 +264,7 @@ $messages['cs'] = array(
 	'mw-ui-feature-requirements-betafeatures' => 'Tato funkce vyžaduje k zapnutí následující {{PLURAL:$1|funkci|funkce}}:',
 	'mw-ui-feature-requirements-browser' => 'Následující {{PLURAL:$1|prohlížeč|prohlížeče}} nejsou podporovány:',
 	'mw-ui-feature-requirements-javascript' => 'Tato funkce vyžaduje JavaScript.',
-	'mw-ui-feature-requirements-skins' => 'Tato funkce vyžaduje použití {{PLURAL:$1|následujícího vzhledu|jednoho z následujících vzhledů}}:', # Fuzzy
+	'mw-ui-feature-requirements-skins' => 'Tato funkce je k dispozici jen v {{PLURAL:$1|následujícím vzhledu|následujících vzhledech}}:',
 	'prefs-betafeatures' => 'Betaverze',
 	'betafeatures-desc' => 'Umožňuje uživatelům zapínat a vypínat nové funkce, které zatím nejsou zcela odladěné',
 	'betafeatures-toplink' => 'Beta',
@@ -506,10 +506,14 @@ $messages['he'] = array(
  * @author MaGa
  */
 $messages['hr'] = array(
+	'mw-ui-feature-discuss' => 'rasprava',
+	'mw-ui-feature-info' => 'informacije',
 	'mw-ui-feature-user-count' => '{{PLURAL:$1|Ovu mogućnost omogućio je jedan suradnik.|Ovu mogućnost omogućilo je $1 suradnika.|0=Ovu mogućnost nije omogućio niti jedan suradnik.}}',
 	'mw-ui-feature-requirements-skins' => 'Moguće jedino sa sljedećim {{PLURAL:$1|izgledom|izgledima}}:',
+	'prefs-betafeatures' => 'Beta mogućnosti',
 	'betafeatures-auto-enroll' => 'Automatski omogući beta mogućnosti.',
-	'betafeatures-section-desc' => 'Ovo {{PLURAL:$1|je nova mogućnost|su nove mogućnosti}} na projektu $2. Molimo {{PLURAL:$1|iskušajte ju|iskušajte ih}} i napišite nam svoje mišljenje kako bismo {{PLURAL:$1|je|ih}} poboljšali na osnovu Vaših povratnih informacija.',
+	'betafeatures-section-desc' => 'Ovo {{PLURAL:$1|je nova mogućnost|su nove mogućnosti}} na projektu $2. Molimo {{PLURAL:$1|iskušajte ju|iskušajte ih}} i napišite nam svoje mišljenje kako bismo {{PLURAL:$1|je|ih}} poboljšali na osnovi Vaših povratnih informacija.',
+	'betafeatures-tooltip' => 'Predstavljamo beta mogućnosti! Novo poglavlje u postavkama Vam omogućava testiranje i mogućnost povratne informacije o novim značajkama prije nego ih postavimo kao osnovne. Isprobajte nešto novo!',
 	'betafeatures-about-betafeatures' => 'O beta mogućnostima',
 	'betafeatures-discuss-betafeatures' => 'Napišite povratnu informaciju',
 );
@@ -588,6 +592,7 @@ $messages['ilo'] = array(
  * @author Beta16
  * @author Davio
  * @author Elitre
+ * @author FRacco
  * @author Gianfranco
  * @author Nemo bis
  */
@@ -603,7 +608,7 @@ $messages['it'] = array(
 	'betafeatures-desc' => "Consente all'utente di attivare o disattivare sul wiki funzionalità che non sono ancora pronte per il grande pubblico",
 	'betafeatures-toplink' => 'Beta',
 	'betafeatures-auto-enroll' => 'Attiva automaticamente tutte le nuove funzionalità sperimentali',
-	'betafeatures-section-desc' => '{{PLURAL:$1|Questa è una nuova funzionalità|Queste sono nuove funzionalità}} che stiamo prendendo in considerazione per $2. Puoi provarle e dirci cosa ne pensi, così potremo migliorarle in base alle vostre risposte.',
+	'betafeatures-section-desc' => '{{PLURAL:$1|Questa è una nuova funzionalità|Queste sono nuove funzionalità}} che stiamo prendendo in considerazione per $2. Puoi {{PLURAL:$1|provarla|provarle}} e dirci cosa ne pensi, così potremo {{PLURAL:$1|migliorarla|migliorarle}} in base alle vostre risposte.',
 	'betafeatures-tooltip' => 'Benvenuti nelle funzionalità sperimentali! Questa nuova sezione delle preferenze consente di provare e lasciare un commento sulle funzionalità sperimentali prima che siano estese a tutti. Prova subito qualcosa di nuovo!',
 	'betafeatures-about-betafeatures' => 'Informazioni su Funzionalità sperimentali',
 	'betafeatures-discuss-betafeatures' => 'Lascia un commento',
@@ -634,7 +639,13 @@ $messages['ja'] = array(
  * @author David1010
  */
 $messages['ka'] = array(
+	'mw-ui-feature-user-count' => 'ამ შესაძლებლობას {{PLURAL:$1|ერთი მომხმარებელი|$1 მომხმარებელი|0=არავინ არ}} იყენებს.',
+	'prefs-betafeatures' => 'ბეტა შესაძლებლობები',
 	'betafeatures-toplink' => 'ბეტა',
+	'betafeatures-auto-enroll' => 'ავტომატურად ჩაირთოს ყველა ახალი ბეტა შესაძლებლობა',
+	'betafeatures-section-desc' => '{{PLURAL:$1|გამოჩნდა ახალი ფუნქცია, რომელსაც|გამოჩნდა რამდენიმე ახალი ფუნქცია, რომელთაც}} ჩვენ განვიხილავთ პროექტისათვის $2. გთხოვთ, მოსინჯოთ {{PLURAL:$1|ის|ისინი}} და გამოთქვათ თქვენი მოსაზრება, რათა თქვენ გამოხმაურებებზე დაყრდნობით ჩვენ შევძლოთ ამ სიახლის გაუმჯობესება.',
+	'betafeatures-about-betafeatures' => 'ბეტა შესაძლებლობების შესახებ',
+	'betafeatures-discuss-betafeatures' => 'გამოხმაურების დატოვება',
 );
 
 /** Kazakh (Cyrillic script) (қазақша (кирил)‎)
@@ -771,6 +782,35 @@ $messages['mr'] = array(
 	'betafeatures-tooltip' => 'बीटा फिचर्सची ओळख करून देत आहो!त्यांना डिफॉल्ट वर्तन म्हणून विमोचन करण्यापूर्वी, पसंतीक्रमाचा हा नविन विभाग आपणास त्याची चाचणी करू देईल व त्याबद्दलची प्रतिक्रिया देणे शक्य करेल.आता काहीतरी नविन वापरून बघा!',
 	'betafeatures-about-betafeatures' => 'बीटा फिचर्स बद्दल',
 	'betafeatures-discuss-betafeatures' => 'प्रतिसाद द्या',
+);
+
+/** Maltese (Malti)
+ * @author Chrisportelli
+ */
+$messages['mt'] = array(
+	'betafeatures-section-desc' => "{{PLURAL:$1|Din hija funzjonalità ġdida|Dawn huma funzjonijiet ġodda}} li qegħdin nikkunsidraw għal $2. Tista' tipprova{{PLURAL:$1|ha|hom}} u tgħildna x'taħseb, sabiex inkunu nistgħu ntejjbu{{PLURAL:$1|ha|hom}} skont dak li tkun għidtilna.",
+	'betafeatures-about-betafeatures' => 'Dwar il-funzjonijiet Beta',
+);
+
+/** Norwegian Bokmål (norsk bokmål)
+ * @author Danmichaelo
+ */
+$messages['nb'] = array(
+	'mw-ui-feature-discuss' => 'diskusjon',
+	'mw-ui-feature-info' => 'informasjon',
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|En bruker|$1 brukere|0=Ingen brukere}} har skrudd på denne funksjonen.',
+	'mw-ui-feature-requirements-betafeatures' => 'Denne funksjonen krever at følgende {{PLURAL:$1|funksjon|funksjoner}} er påskrudd:',
+	'mw-ui-feature-requirements-browser' => 'Følgende {{PLURAL:$1|nettleser|nettlesere}} er ikke støttet:',
+	'mw-ui-feature-requirements-javascript' => 'Denne funksjonen krever JavaScript.',
+	'mw-ui-feature-requirements-skins' => 'Denne funksjonen virker kun med {{PLURAL:$1|den følgende drakten|de følgende draktene}}:',
+	'prefs-betafeatures' => 'Betafunksjoner',
+	'betafeatures-desc' => 'La brukere aktivere eller deaktivere funksjoner på wikien som ikke enda er helt ferdige.',
+	'betafeatures-toplink' => 'Beta',
+	'betafeatures-auto-enroll' => 'Automatisk aktiver alle nye betafunksjoner',
+	'betafeatures-section-desc' => 'Her {{PLURAL:$1|er en ny funksjon|er noen nye funksjoner}} vi vurderer å innføre på $2. Prøv {{PLURAL:$1|den|dem}} gjerne og gi oss din tilbakemelding, så vi kan forbedre {{PLURAL:$1|den|dem}}.',
+	'betafeatures-tooltip' => 'Vi introduserer betafunksjoner! Denne nye innstillingsseksjonen lar deg teste og gi tilbakemelding på nye funksjoner før vi lanserer dem som standardfunksjoner. Prøv noe nytt nå!',
+	'betafeatures-about-betafeatures' => 'Om betafunksjoner',
+	'betafeatures-discuss-betafeatures' => 'Gi tilbakemelding',
 );
 
 /** Dutch (Nederlands)
@@ -952,6 +992,14 @@ $messages['sl'] = array(
 	'betafeatures-tooltip' => 'Predstavljamo Betamožnosti! Novi razdelek v nastavitvah vam omogoča preizkušanje in posredovanje povratnih informacij o novih možnostih, preden jih uveljavimo kot privzeto vedenje. Poskusite nekaj novega!',
 	'betafeatures-about-betafeatures' => 'O Betamožnostih',
 	'betafeatures-discuss-betafeatures' => 'Pustite povratne informacije',
+);
+
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
+ * @author Milicevic01
+ */
+$messages['sr-ec'] = array(
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|Један корисник је укључио ову могућност|Ову могућност је укључило $1 корисника|0=Ниједан корисник није укључио ову могућност.}}',
+	'betafeatures-auto-enroll' => 'Аутоматски укључи бета могућности.',
 );
 
 /** Swedish (svenska)
