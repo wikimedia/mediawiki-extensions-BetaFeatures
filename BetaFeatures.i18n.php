@@ -122,11 +122,11 @@ The label for the checkbox is {{msg-mw|Betafeatures-test-check-field}}.',
 $messages['ar'] = array(
 	'mw-ui-feature-discuss' => 'نقاش',
 	'mw-ui-feature-info' => 'معلومات',
-	'mw-ui-feature-user-count' => '{{PLURAL:$1|مستخدم واحد فعل|مستخدمان فعلا|$1 مستخدمين فعلوا|$1 مستخدما فعلوا|$1 مستخدم فعلوا|0=لم يفعل أي مستخدم}} هذه الميزة.',
-	'mw-ui-feature-requirements-betafeatures' => 'تتطلب هذه الميزة تفعيل {{PLURAL:$1|الميزة التالية|الميزتين التاليتن|المزايا التالية}}:',
-	'mw-ui-feature-requirements-browser' => '{{PLURAL:$1|المتصفح التالي غير مدعوم|المتصفحان التاليان غير مدعومين|المتصفحات التالية غير مدعومة}}:',
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|لم يفعل أي مستخدم|مستخدم واحد فعل|مستخدمان فعلا|$1 مستخدمين فعلوا|$1 مستخدما فعلوا|$1 مستخدم فعلوا}} هذه الميزة.',
+	'mw-ui-feature-requirements-betafeatures' => 'تتطلب هذه الميزة تفعيل {{PLURAL:$1||الميزة التالية|الميزتين التاليتن|المزايا التالية}}:',
+	'mw-ui-feature-requirements-browser' => '{{PLURAL:$1||المتصفح التالي غير مدعوم|المتصفحان التاليان غير مدعومين|المتصفحات التالية غير مدعومة}}:',
 	'mw-ui-feature-requirements-javascript' => 'هذه الميزة تتطلب جافاسكريبت.',
-	'mw-ui-feature-requirements-skins' => 'هذه الميزة تعمل فقط مع {{PLURAL:$1|المظهر التالي|المظهرين التاليين|المظاهر التالية}}:',
+	'mw-ui-feature-requirements-skins' => 'هذه الميزة تعمل فقط مع {{PLURAL:$1||المظهر التالي|المظهرين التاليين|المظاهر التالية}}:',
 	'prefs-betafeatures' => 'مزايا بيتا',
 	'betafeatures-desc' => 'تسمح للمستخدم بتمكين أو تعطيل المزايا غير الجاهزة تمامًا لتشغيلها على الويكي',
 	'betafeatures-toplink' => 'بيتا',
@@ -138,6 +138,7 @@ $messages['ar'] = array(
 );
 
 /** Asturian (asturianu)
+ * @author Fitoschido
  * @author Xuacu
  */
 $messages['ast'] = array(
@@ -152,7 +153,7 @@ $messages['ast'] = array(
 	'betafeatures-desc' => "Permite que l'usuariu active o desactive funciones de la wiki qu'inda nun tan pa un usu xeneralizáu",
 	'betafeatures-toplink' => 'Beta',
 	'betafeatures-auto-enroll' => 'Activar automáticamente toles carauterístiques beta nueves',
-	'betafeatures-section-desc' => 'Est{{PLURAL:$1|a ye una carauterística nueva|es son dalgunes carauterístiques nueves}} que tamos considerando pa $2. Por favor. pruebeles y diganos lo que piensa pa que podamos ameyorales basandonos nes sos impresiones.',
+	'betafeatures-section-desc' => 'Est{{PLURAL:$1|a ye una carauterística nueva|es son dalgunes carauterístiques nueves}} que tamos considerando pa $2. {{PLURAL:$1|Pruébala|Pruébales}} y dinos lo que pienses pa que podamos {{PLURAL:$1|ameyorarla|ameyorarles}} basandonos nes tos impresiones.',
 	'betafeatures-tooltip' => '¡Presentamos les carauterístiques Beta! Esta nueva seición de les preferencies permite-y probar y comentar les carauterístiques nueves enantes de que les llancemos de mou predetermináu. ¡Pruebe agora daqué nuevo!',
 	'betafeatures-about-betafeatures' => 'Tocante a les carauterístiques Beta',
 	'betafeatures-discuss-betafeatures' => 'Dexar un comentariu',
@@ -253,6 +254,13 @@ $messages['ce'] = array(
 	'betafeatures-discuss-betafeatures' => 'Язде хьайна хетарг',
 );
 
+/** Sorani Kurdish (کوردی)
+ * @author Calak
+ */
+$messages['ckb'] = array(
+	'betafeatures-toplink' => 'بیتا',
+);
+
 /** Czech (čeština)
  * @author Michaelbrabec
  * @author Mormegil
@@ -341,10 +349,10 @@ $messages['es'] = array(
 	'prefs-betafeatures' => 'Características de prueba',
 	'betafeatures-desc' => 'Permite al usuario activar o desactivar funciones del wiki que todavía no están listas',
 	'betafeatures-toplink' => 'Beta',
-	'betafeatures-auto-enroll' => 'Activar automáticamente todas las nuevas funcionalidades de prueba',
+	'betafeatures-auto-enroll' => 'Activar automáticamente las funciones en pruebas nuevas',
 	'betafeatures-section-desc' => 'Aquí te presentamos {{PLURAL:$1|una función nueva|algunas funciones nuevas}} que estamos considerando para $2. {{PLURAL:$1|Pruébala|Pruébalas}} y danos tus comentarios, así podremos {{PLURAL:$1|mejorarla|mejorarlas}} con base a tus necesidades.',
-	'betafeatures-tooltip' => '¡Introduciendo las funcionalidades de prueba! Esta nueva sección de tus preferencias te permite probar y comentar acerca de las nuevas funcionalidades antes de que las implementemos por defecto.',
-	'betafeatures-about-betafeatures' => 'Acerca de las funcionalidades de prueba',
+	'betafeatures-tooltip' => 'Te presentamos las funciones en pruebas. Esta sección permite probar y evaluar funcionalidades nuevas antes de que las activemos para todos.',
+	'betafeatures-about-betafeatures' => 'Acerca de las funciones en pruebas',
 	'betafeatures-discuss-betafeatures' => 'Dejar comentarios',
 );
 
@@ -516,6 +524,24 @@ $messages['hr'] = array(
 	'betafeatures-tooltip' => 'Predstavljamo beta mogućnosti! Novo poglavlje u postavkama Vam omogućava testiranje i mogućnost povratne informacije o novim značajkama prije nego ih postavimo kao osnovne. Isprobajte nešto novo!',
 	'betafeatures-about-betafeatures' => 'O beta mogućnostima',
 	'betafeatures-discuss-betafeatures' => 'Napišite povratnu informaciju',
+);
+
+/** Upper Sorbian (hornjoserbsce)
+ * @author Michawiki
+ */
+$messages['hsb'] = array(
+	'mw-ui-feature-discuss' => 'diskusija',
+	'mw-ui-feature-info' => 'Informacije',
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|Jedyn wužiwar je|$1 wužiwarjej staj|$1 wužiwarjo su|$1 wužiwarjow je|0=Žani wužiwarjo su}} tutu funkciju {{PLURAL:$1|zmóžnił|zmóžniłoj|zmóžnili|zmóžniło|zmóžnili}}', # Fuzzy
+	'mw-ui-feature-requirements-betafeatures' => 'Tuta funkcija wužaduje sej zmóžnjenje {{PLURAL:$1|slědowaceje funkcije|slědowaceju funkcijow|slědowacych funkcijow}}',
+	'mw-ui-feature-requirements-browser' => '{{PLURAL:$1|Slědowacy wobhladowak so njepodpěruje|Slědowacej wobhladowakaj so njepodpěrujetej|Slědowace wobhladowaki so njepodpěruja}}',
+	'mw-ui-feature-requirements-javascript' => 'Tuta funkcija sej JavaScript wužaduje.',
+	'mw-ui-feature-requirements-skins' => 'Tuta funkcija jenož ze {{PLURAL:$1|slědowacej drastu|slědowacymaj drastomaj|slědowacymi drastami}} funguje:',
+	'prefs-betafeatures' => 'Betafunkcije',
+	'betafeatures-toplink' => 'Beta',
+	'betafeatures-auto-enroll' => 'Wšě nowe betafunkcije awtomatisce zmóžnić',
+	'betafeatures-about-betafeatures' => 'Wo betafunkcijach',
+	'betafeatures-discuss-betafeatures' => 'Komentar zawostajić',
 );
 
 /** Hungarian (magyar)
@@ -1035,11 +1061,12 @@ $messages['szl'] = array(
 
 /** Turkish (Türkçe)
  * @author Incelemeelemani
+ * @author Meelo
  * @author Rapsar
  */
 $messages['tr'] = array(
 	'mw-ui-feature-discuss' => 'tartışma',
-	'mw-ui-feature-info' => 'danışma',
+	'mw-ui-feature-info' => 'bilgi',
 	'mw-ui-feature-user-count' => '{{PLURAL:$1|Bir kullanıcı|$1 kullanıcı}} bu özelliği etkinleştirdi.',
 	'mw-ui-feature-requirements-betafeatures' => 'Bu özelliğin etkin olabilmesi için şu {{PLURAL:$1|özelliğe|özelliklere}} gereksinim duymaktadır:',
 	'mw-ui-feature-requirements-browser' => 'Aşağıdaki {{PLURAL:$1|tarayıcı|tarayıcılar}} desteklenmemektedir:',
@@ -1049,6 +1076,7 @@ $messages['tr'] = array(
 	'betafeatures-desc' => "Wiki'de hala tam zamanlı kullanım için hazır olmayan özellikleri etkinleştirmenize veya devre dışı bırakmanıza olanak sağlar",
 	'betafeatures-toplink' => 'Beta',
 	'betafeatures-auto-enroll' => 'Tüm yeni beta özellikleri otomatik olarak etkinleştirin',
+	'betafeatures-section-desc' => 'Burada $2 için düşündüğümüz {{PLURAL:$1|yeni özellik|bazı yeni özellikler}} var. {{PLURAL:$1|Özelliği|Özellikleri}}  lütfen deneyin ve düşüncelerinizi bizimle paylaşın. Biz geri bildirimlerinize dayanarak {{PLURAL:$1|özelliği|özellikleri}} geliştiriyoruz.',
 	'betafeatures-tooltip' => 'Beta Özellikleri Tanıtımı! Tercihlerinize eklenen bu yeni bölüm ile beta aşamasındaki özelliklerin varsayılan olarak başlatılması sağlanabilir ve bu özellikler hakkında geri bildirimde bulunulabilir. Şimdi yeni bir şeyler deneyin!',
 	'betafeatures-about-betafeatures' => 'Beta Özellikler Hakkında',
 	'betafeatures-discuss-betafeatures' => 'Geri bildirim bırak',
