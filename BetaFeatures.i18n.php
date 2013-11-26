@@ -332,6 +332,27 @@ $messages['diq'] = array(
 	'betafeatures-toplink' => 'Beta',
 );
 
+/** Lower Sorbian (dolnoserbski)
+ * @author Michawiki
+ */
+$messages['dsb'] = array(
+	'mw-ui-feature-discuss' => 'diskusija',
+	'mw-ui-feature-info' => 'Informacije',
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|Jaden wužywaŕ jo|$1 wužywarje su||0=Žeden wužywar njejo}} toś tu funkciju {{PLURAL:$1|zmóžnił|zmóžnili|zmóžnił}}',
+	'mw-ui-feature-requirements-betafeatures' => 'Toś ta funkcija pomina se zmóžnjenje {{PLURAL:$1|slědujuceje funkcije|slědujuceju funkcijowu|slědujucych funkcijow}}',
+	'mw-ui-feature-requirements-browser' => '{{PLURAL:$1|Slědujucy wobglědowak se njepódpěra|Slědujucej wobglědowaka se njepódpěratej|Slědujuce wobglědowaki se njepódpěraju}}',
+	'mw-ui-feature-requirements-javascript' => 'Toś ta funkcija pomina se JavaScript.',
+	'mw-ui-feature-requirements-skins' => 'Toś ta funkcija funkcioněrujo jano ze {{PLURAL:$1|slědujuceju drastwu|slědujucyma drastwoma|slědujucymi drastwami}}:',
+	'prefs-betafeatures' => 'Betafunkcije',
+	'betafeatures-desc' => 'Dowólujo wužywarjeju, funkcije na wikiju zmóžniś abo znjemóžniś, kótarež su hyšći we wuwiśu.',
+	'betafeatures-toplink' => 'Beta',
+	'betafeatures-auto-enroll' => 'Wšykne nowe betafunkcije awtomatiski zmóžniś',
+	'betafeatures-section-desc' => 'How {{PLURAL:$1|jo nowa funkcija, kótaruž|někotare funkcije, kótarež}} za $2 planujomy. Pšosym wuproběruj {{PLURAL:$1|ju|je}} a pósćel nam swóje měnjenje, až my by mógli {{PLURAL:$1|ju|je}} na zakłaźe twójich komentarow pólěpšyś.',
+	'betafeatures-tooltip' => 'Pśedstajenje betafunkcijow! Toś te nowe nastajenja daju tebi móžnosć, nowe funkcije testowaś a wó nich twóje měnjenje pósrědniś, nježli až zmóžnijomy je ako standard. Wuproběruj něnto nowe funkcije!',
+	'betafeatures-about-betafeatures' => 'Wó betafunkcijach',
+	'betafeatures-discuss-betafeatures' => 'Komentar zawóstajiś',
+);
+
 /** Spanish (español)
  * @author Benfutbol10
  * @author Fitoschido
@@ -532,14 +553,17 @@ $messages['hr'] = array(
 $messages['hsb'] = array(
 	'mw-ui-feature-discuss' => 'diskusija',
 	'mw-ui-feature-info' => 'Informacije',
-	'mw-ui-feature-user-count' => '{{PLURAL:$1|Jedyn wužiwar je|$1 wužiwarjej staj|$1 wužiwarjo su|$1 wužiwarjow je|0=Žani wužiwarjo su}} tutu funkciju {{PLURAL:$1|zmóžnił|zmóžniłoj|zmóžnili|zmóžniło|zmóžnili}}', # Fuzzy
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|Jedyn wužiwar je|$1 wužiwarjo su||0=Žadyn wužiwar je}} tutu funkciju {{PLURAL:$1|zmóžnił|zmóžniłoj|zmóžnili|zmóžnił}}',
 	'mw-ui-feature-requirements-betafeatures' => 'Tuta funkcija wužaduje sej zmóžnjenje {{PLURAL:$1|slědowaceje funkcije|slědowaceju funkcijow|slědowacych funkcijow}}',
 	'mw-ui-feature-requirements-browser' => '{{PLURAL:$1|Slědowacy wobhladowak so njepodpěruje|Slědowacej wobhladowakaj so njepodpěrujetej|Slědowace wobhladowaki so njepodpěruja}}',
 	'mw-ui-feature-requirements-javascript' => 'Tuta funkcija sej JavaScript wužaduje.',
 	'mw-ui-feature-requirements-skins' => 'Tuta funkcija jenož ze {{PLURAL:$1|slědowacej drastu|slědowacymaj drastomaj|slědowacymi drastami}} funguje:',
 	'prefs-betafeatures' => 'Betafunkcije',
+	'betafeatures-desc' => 'Dowola wužiwarjej, funkcije na wikiju zmóžnić abo znjemóžnić, kotrež su hišće we wuwiću.',
 	'betafeatures-toplink' => 'Beta',
 	'betafeatures-auto-enroll' => 'Wšě nowe betafunkcije awtomatisce zmóžnić',
+	'betafeatures-section-desc' => 'Tu {{PLURAL:$1|je nowa funkcija, kotruž|někotre funkcije, kotrež}} za $2 planujemy. Prošu wuprobuj {{PLURAL:$1|ju|je}} a pósćel nam swoje měnjenje, zo my móhli {{PLURAL:$1|ju|je}} na zakładźe twojich komentarow polěpšić.',
+	'betafeatures-tooltip' => 'Předstajenje betafunkcijow! Tute nowe nastajenja dadźa tebi móžnosć, nowe funkcije testować a wo nich twoje měnjenje sposrědkować, prjedy hač je jako standard zmóžnimy. Wuprobuj nětko nowe funkcije!',
 	'betafeatures-about-betafeatures' => 'Wo betafunkcijach',
 	'betafeatures-discuss-betafeatures' => 'Komentar zawostajić',
 );
@@ -678,7 +702,17 @@ $messages['ka'] = array(
  * @author Arystanbek
  */
 $messages['kk-cyrl'] = array(
-	'betafeatures-toplink' => 'Beta мүмкіндік', # Fuzzy
+	'mw-ui-feature-discuss' => 'Талқылауы',
+	'mw-ui-feature-info' => 'Мәлімет',
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|Бір қатысушы|$1 қатысушы|0=ешбір қатысушы}} бұл мүмкіндікті {{PLURAL:$1|қосқан|қоспаған}}.',
+	'mw-ui-feature-requirements-betafeatures' => 'Бұл мүмкіндікті қосу үшін төмендегі {{PLURAL:$1|мүмкіндікті|мүмкіндіктерді}} қосуы керек:',
+	'mw-ui-feature-requirements-browser' => 'Төмендегі {{PLURAL:$1|шолғыш|шолғыштарe}} қолдамайды:',
+	'mw-ui-feature-requirements-javascript' => 'Бұл мүмкіндік JavaScript керек етеді',
+	'prefs-betafeatures' => 'Beta мүмкіндіктер',
+	'betafeatures-toplink' => 'Beta',
+	'betafeatures-auto-enroll' => 'Барлық жаңа beta мүмкіндіктерді өздікті қосу',
+	'betafeatures-about-betafeatures' => 'Beta мүмкіндіктер туралы',
+	'betafeatures-discuss-betafeatures' => 'Пікір қалдыру',
 );
 
 /** Korean (한국어)
@@ -774,7 +808,7 @@ $messages['mk'] = array(
 $messages['ml'] = array(
 	'mw-ui-feature-discuss' => 'സം‌വാദം',
 	'mw-ui-feature-info' => 'വിവരം',
-	'mw-ui-feature-user-count' => '{{PLURAL:$1|ഒരു ഉപയോക്താവ്|$1 ഉപയോക്താക്കൾ|0=ഇതുവരെ ആരും }} ഈ സൗകര്യം {{PLURAL:$1|സജ്ജമാക്കി.|സജ്ജമാക്കി.|0=സജ്ജമാക്കിയില്ല.}}', # Fuzzy
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|ഒരു ഉപയോക്താവ്|$1 ഉപയോക്താക്കൾ|0=ഇതുവരെ ആരും }} ഈ സൗകര്യം {{PLURAL:$1|സജ്ജമാക്കി.|0=സജ്ജമാക്കിയില്ല.}}',
 	'mw-ui-feature-requirements-betafeatures' => 'ഈ സൗകര്യം സജ്ജമാക്കാൻ താഴെക്കൊടുക്കുന്ന {{PLURAL:$1|സവിശേഷത|സവിശേഷതകൾ}} സജ്ജമാക്കേണ്ടതുണ്ട്:',
 	'mw-ui-feature-requirements-browser' => 'താഴെപ്പറയുന്ന {{PLURAL:$1|ബ്രൗസർ|ബ്രൗസറുകൾ}}പിന്തുണയ്ക്കുന്നില്ല:',
 	'mw-ui-feature-requirements-javascript' => 'ഈ സൗകര്യം പ്രവർത്തിക്കാൻ ജാവാസ്ക്രിപ്റ്റ് ആവശ്യമാണ്.',
@@ -1024,8 +1058,26 @@ $messages['sl'] = array(
  * @author Milicevic01
  */
 $messages['sr-ec'] = array(
+	'mw-ui-feature-discuss' => 'расправа',
+	'mw-ui-feature-info' => 'информације',
 	'mw-ui-feature-user-count' => '{{PLURAL:$1|Један корисник је укључио ову могућност|Ову могућност је укључило $1 корисника|0=Ниједан корисник није укључио ову могућност.}}',
+	'prefs-betafeatures' => 'Бета могућности',
+	'betafeatures-toplink' => 'Бета могућности',
 	'betafeatures-auto-enroll' => 'Аутоматски укључи бета могућности.',
+	'betafeatures-about-betafeatures' => 'О бета могућностима',
+	'betafeatures-discuss-betafeatures' => 'Повратне информације',
+);
+
+/** Serbian (Latin script) (srpski (latinica)‎)
+ * @author Milicevic01
+ */
+$messages['sr-el'] = array(
+	'mw-ui-feature-discuss' => 'rasprava',
+	'mw-ui-feature-info' => 'informacije',
+	'prefs-betafeatures' => 'Beta mogućnosti',
+	'betafeatures-toplink' => 'Beta mogućnosti',
+	'betafeatures-about-betafeatures' => 'O beta mogućnostima',
+	'betafeatures-discuss-betafeatures' => 'Povratne informacije',
 );
 
 /** Swedish (svenska)
