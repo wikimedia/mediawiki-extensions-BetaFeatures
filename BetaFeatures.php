@@ -28,6 +28,9 @@ $wgAutoloadClasses['HTMLTextBlockField'] = __DIR__ . '/includes/HTMLTextBlockFie
 $wgAutoloadClasses['HTMLHorizontalRuleField'] = __DIR__ . '/includes/HTMLHorizontalRuleField.php';
 $wgAutoloadClasses['BetaFeatures'] = __DIR__ . '/includes/BetaFeaturesUtil.php';
 $wgAutoloadClasses['UpdateBetaFeatureUserCountsJob'] = __DIR__ . '/includes/UpdateBetaFeatureUserCountsJob.php';
+$wgAutoloadClasses['ApiQueryBetaFeatures'] = __DIR__ . '/includes/ApiListBetaFeatures.php';
+
+$wgAPIListModules['betafeatures'] = 'ApiQueryBetaFeatures';
 
 $wgExtensionMessagesFiles['BetaFeatures'] = __DIR__ . '/BetaFeatures.i18n.php';
 
