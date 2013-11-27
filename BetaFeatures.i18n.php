@@ -250,7 +250,15 @@ $messages['ca'] = array(
  * @author Умар
  */
 $messages['ce'] = array(
+	'mw-ui-feature-discuss' => 'дийцаре',
+	'mw-ui-feature-info' => 'хаам',
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|Цхьам декъашхочо латина|$1 декъашхоша латина|$1 декъашхоша латина|0=Цхьамо латина яц}} хӀара функци.', # Fuzzy
 	'mw-ui-feature-requirements-browser' => '{{PLURAL:$1|ХӀара браузер ловш яц|ХӀара браузераш ловш яц}}:',
+	'prefs-betafeatures' => 'Бета-функцеш',
+	'betafeatures-toplink' => 'Бета-верси',
+	'betafeatures-auto-enroll' => 'Ша лата йо керла бета-функцеш',
+	'betafeatures-section-desc' => '{{PLURAL:$1|Йина керла фунуцеш}} оха уьш йина $2н. Дехар до, {{PLURAL:$1|уьш}} лела яй а хьайна хетарг ала,тӀакха тхуна уьш дика ян аьтту хира бу.',
+	'betafeatures-about-betafeatures' => 'Бета-функцешах лаьцна',
 	'betafeatures-discuss-betafeatures' => 'Язде хьайна хетарг',
 );
 
@@ -446,8 +454,16 @@ $messages['fi'] = array(
  * @author EileenSanda
  */
 $messages['fo'] = array(
+	'mw-ui-feature-discuss' => 'kjak',
+	'mw-ui-feature-info' => 'kunning',
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|Ein brúkari hevur|$1 brúkarar hava|0=Ongir brúkarar hava}} tikið hesa funksjónina í nýtslu.',
+	'mw-ui-feature-requirements-javascript' => 'Henda funksjónin krevur JavaScript.',
+	'prefs-betafeatures' => 'Betafunktiónir',
 	'betafeatures-desc' => 'Loyvir brúkara at gera funksjónir, sum enn ikki eru heilt klárar, virknar ella óvirknar á wikiini.',
 	'betafeatures-toplink' => 'Beta',
+	'betafeatures-auto-enroll' => 'Aktivera sjálvvirkandi allar nýggjar betafunksjónir',
+	'betafeatures-about-betafeatures' => 'Um betafunksjónir',
+	'betafeatures-discuss-betafeatures' => 'Gev afturmelding',
 );
 
 /** French (français)
@@ -702,9 +718,9 @@ $messages['ka'] = array(
  * @author Arystanbek
  */
 $messages['kk-cyrl'] = array(
-	'mw-ui-feature-discuss' => 'Талқылауы',
-	'mw-ui-feature-info' => 'Мәлімет',
-	'mw-ui-feature-user-count' => '{{PLURAL:$1|Бір қатысушы|$1 қатысушы|0=ешбір қатысушы}} бұл мүмкіндікті {{PLURAL:$1|қосқан|қоспаған}}.',
+	'mw-ui-feature-discuss' => 'талқылауы',
+	'mw-ui-feature-info' => 'мәлімет',
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|Бір қатысушы|$1 қатысушы|0=ешбір қатысушы}} бұл мүмкіндікті қосқан.',
 	'mw-ui-feature-requirements-betafeatures' => 'Бұл мүмкіндікті қосу үшін төмендегі {{PLURAL:$1|мүмкіндікті|мүмкіндіктерді}} қосуы керек:',
 	'mw-ui-feature-requirements-browser' => 'Төмендегі {{PLURAL:$1|шолғыш|шолғыштарe}} қолдамайды:',
 	'mw-ui-feature-requirements-javascript' => 'Бұл мүмкіндік JavaScript керек етеді',
