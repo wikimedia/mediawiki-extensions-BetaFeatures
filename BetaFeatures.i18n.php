@@ -361,6 +361,13 @@ $messages['dsb'] = array(
 	'betafeatures-discuss-betafeatures' => 'Komentar zawóstajiś',
 );
 
+/** British English (British English)
+ * @author Shirayuki
+ */
+$messages['en-gb'] = array(
+	'betafeatures-tooltip' => 'Introducing Beta Features! This new preferences section lets you test and give feedback about new features before we launch them as default behaviour. Try out something new now!',
+);
+
 /** Spanish (español)
  * @author Benfutbol10
  * @author Fitoschido
@@ -375,7 +382,7 @@ $messages['es'] = array(
 	'mw-ui-feature-requirements-browser' => '{{PLURAL:$1|El siguiente navegador|Los siguientes navegadores}} no son soportados:',
 	'mw-ui-feature-requirements-javascript' => 'Esta funcionalidad requiere JavaScript.',
 	'mw-ui-feature-requirements-skins' => 'Esta funcionalidad requiere que utilices {{PLURAL:$1|la siguiente piel|una de las siguientes pieles}}:',
-	'prefs-betafeatures' => 'Características de prueba',
+	'prefs-betafeatures' => 'Funciones en pruebas',
 	'betafeatures-desc' => 'Permite al usuario activar o desactivar funciones del wiki que todavía no están listas',
 	'betafeatures-toplink' => 'Beta',
 	'betafeatures-auto-enroll' => 'Activar automáticamente las funciones en pruebas nuevas',
@@ -414,7 +421,7 @@ $messages['fa'] = array(
 	'mw-ui-feature-discuss' => 'بحث',
 	'mw-ui-feature-info' => 'اطلاعات',
 	'mw-ui-feature-user-count' => '{{PLURAL:$1|$1 کاربر این ویژگی را فعال کرده‌است|0=هیچ کاربری این ویژگی را فعال نکرده‌است}}.',
-	'mw-ui-feature-requirements-betafeatures' => 'این قابلیت نیازمند این {{PLURAL:$1|قابلیت|قابلیت‌ها}} است که باید فعال شوند:',
+	'mw-ui-feature-requirements-betafeatures' => 'برای فعال‌شدن، این ویژگی نیازمند این {{PLURAL:$1|قابلیت|قابلیت‌ها}} است:',
 	'mw-ui-feature-requirements-browser' => 'این {{PLURAL:$1|مرورگر|مرورگرها}} حمایت نشده‌است:',
 	'mw-ui-feature-requirements-javascript' => 'این ویژگی نیازمند جاوااسکریپ است.',
 	'mw-ui-feature-requirements-skins' => 'این ویژگی نیازمند است که شما از {{PLURAL:$1|این پوسته|یکی از این پوسته‌های}} استفاده کنید:', # Fuzzy
@@ -674,9 +681,9 @@ $messages['it'] = array(
 	'betafeatures-desc' => "Consente all'utente di attivare o disattivare sul wiki funzionalità che non sono ancora pronte per il grande pubblico",
 	'betafeatures-toplink' => 'Beta',
 	'betafeatures-auto-enroll' => 'Attiva automaticamente tutte le nuove funzionalità sperimentali',
-	'betafeatures-section-desc' => '{{PLURAL:$1|Questa è una nuova funzionalità|Queste sono nuove funzionalità}} che stiamo prendendo in considerazione per $2. Puoi {{PLURAL:$1|provarla|provarle}} e dirci cosa ne pensi, così potremo {{PLURAL:$1|migliorarla|migliorarle}} in base alle vostre risposte.',
-	'betafeatures-tooltip' => 'Benvenuti nelle funzionalità sperimentali! Questa nuova sezione delle preferenze consente di provare e lasciare un commento sulle funzionalità sperimentali prima che siano estese a tutti. Prova subito qualcosa di nuovo!',
-	'betafeatures-about-betafeatures' => 'Informazioni su Funzionalità sperimentali',
+	'betafeatures-section-desc' => '{{PLURAL:$1|Questa è una nuova funzionalità|Queste sono nuove funzionalità}} che stiamo prendendo in considerazione per $2. Puoi {{PLURAL:$1|provarla|provarle}} e dirci cosa ne pensi, così potremo {{PLURAL:$1|migliorarla|migliorarle}} in base alle tue risposte.',
+	'betafeatures-tooltip' => 'Benvenuto nelle funzionalità sperimentali! Questa nuova sezione delle preferenze consente di provare e lasciare un commento sulle funzionalità sperimentali prima che siano estese a tutti. Prova subito qualcosa di nuovo!',
+	'betafeatures-about-betafeatures' => 'Informazioni su Beta Features',
 	'betafeatures-discuss-betafeatures' => 'Lascia un commento',
 );
 
@@ -1048,6 +1055,14 @@ $messages['ru'] = array(
 	'betafeatures-discuss-betafeatures' => 'Оставить отзыв',
 );
 
+/** Sanskrit (संस्कृतम्)
+ * @author Visdaviva
+ */
+$messages['sa'] = array(
+	'mw-ui-feature-discuss' => 'सम्भाषणम्',
+	'mw-ui-feature-info' => 'सूचना',
+);
+
 /** Slovenian (slovenščina)
  * @author Dbc334
  * @author Eleassar
@@ -1125,6 +1140,18 @@ $messages['sv'] = array(
  */
 $messages['szl'] = array(
 	'betafeatures-toplink' => 'Ekszperymentalne funkcyje',
+);
+
+/** Telugu (తెలుగు)
+ * @author Visdaviva
+ */
+$messages['te'] = array(
+	'mw-ui-feature-discuss' => 'చర్చ',
+	'mw-ui-feature-info' => 'సమాచారం',
+	'prefs-betafeatures' => 'బీటా సౌలభ్యాలు',
+	'betafeatures-toplink' => 'బీటా',
+	'betafeatures-about-betafeatures' => 'బీటా సౌలభ్యాల గురించి',
+	'betafeatures-discuss-betafeatures' => 'సూచనలివ్వండి',
 );
 
 /** Turkish (Türkçe)
