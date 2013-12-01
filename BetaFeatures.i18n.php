@@ -227,17 +227,18 @@ $messages['br'] = array(
 );
 
 /** Catalan (català)
+ * @author Alvaro Vidal-Abarca
  * @author QuimGil
  * @author Vriullop
  */
 $messages['ca'] = array(
 	'mw-ui-feature-discuss' => 'discussió',
 	'mw-ui-feature-info' => 'informació',
-	'mw-ui-feature-user-count' => '{{PLURAL:$1|Un usuari ha|$1 usuaris han}} activat aquesta functionalitat.', # Fuzzy
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|Un usuari ha|$1 usuaris han|0=Cap usuari ha}} activat aquesta functionalitat.',
 	'mw-ui-feature-requirements-betafeatures' => 'Aquesta funcionalitat requereix {{PLURAL:$1|aquesta altra funcionalitat|aquestes altres funcionalitats}} per a ser activada:',
 	'mw-ui-feature-requirements-browser' => '{{PLURAL:$1|Aquest navegador|Aquests navegadors}} no estan suportats:',
 	'mw-ui-feature-requirements-javascript' => 'Aquesta funcionalitat requereix JavaScript.',
-	'mw-ui-feature-requirements-skins' => "Aquesta funcionalitat requereix la utilitzacio d'{{PLURAL:$1|aquesta plantilla|una d'aquestes plantilles}}:", # Fuzzy
+	'mw-ui-feature-requirements-skins' => 'Aquesta funcionalitat només funciona amb {{PLURAL:$1|aquesta plantilla|aquestes plantilles}}:',
 	'prefs-betafeatures' => 'Funcionalitats beta',
 	'betafeatures-desc' => "Permet a l'usuari activar o desactivar funcionalitats en el wiki que encara no són a punt per a una estrena oficial.",
 	'betafeatures-toplink' => 'Beta',
@@ -266,7 +267,9 @@ $messages['ce'] = array(
  * @author Calak
  */
 $messages['ckb'] = array(
+	'prefs-betafeatures' => 'تایبەتمەندییەکانی بیتا',
 	'betafeatures-toplink' => 'بیتا',
+	'betafeatures-auto-enroll' => 'بە شێوەی خۆگەڕ ھەموو تایبەتمەندییە نوێکانی بیتا چالاک بکە',
 );
 
 /** Czech (čeština)
@@ -413,6 +416,7 @@ $messages['et'] = array(
 );
 
 /** Persian (فارسی)
+ * @author Dalba
  * @author Ebraminio
  * @author Reza1615
  * @author درفش کاویانی
@@ -420,7 +424,7 @@ $messages['et'] = array(
 $messages['fa'] = array(
 	'mw-ui-feature-discuss' => 'بحث',
 	'mw-ui-feature-info' => 'اطلاعات',
-	'mw-ui-feature-user-count' => '{{PLURAL:$1|$1 کاربر این ویژگی را فعال کرده‌است|0=هیچ کاربری این ویژگی را فعال نکرده‌است}}.',
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|$1 کاربر این ویژگی را فعال کرده‌اند|0=هیچ کاربری این ویژگی را فعال نکرده‌است}}.',
 	'mw-ui-feature-requirements-betafeatures' => 'برای فعال‌شدن، این ویژگی نیازمند این {{PLURAL:$1|قابلیت|قابلیت‌ها}} است:',
 	'mw-ui-feature-requirements-browser' => 'این {{PLURAL:$1|مرورگر|مرورگرها}} حمایت نشده‌است:',
 	'mw-ui-feature-requirements-javascript' => 'این ویژگی نیازمند جاوااسکریپ است.',
@@ -535,6 +539,7 @@ $messages['gom-latn'] = array(
 /** Hebrew (עברית)
  * @author Ademo
  * @author Amire80
+ * @author Guycn2
  */
 $messages['he'] = array(
 	'mw-ui-feature-discuss' => 'דיון',
@@ -1105,14 +1110,17 @@ $messages['sr-ec'] = array(
 $messages['sr-el'] = array(
 	'mw-ui-feature-discuss' => 'rasprava',
 	'mw-ui-feature-info' => 'informacije',
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|Jedan korisnik je uključio ovu mogućnost|Ovu mogućnost je uključilo $1 korisnika|0=Nijedan korisnik nije uključio ovu mogućnost.}}',
 	'prefs-betafeatures' => 'Beta mogućnosti',
 	'betafeatures-toplink' => 'Beta mogućnosti',
+	'betafeatures-auto-enroll' => 'Automatski uključi beta mogućnosti.',
 	'betafeatures-about-betafeatures' => 'O beta mogućnostima',
 	'betafeatures-discuss-betafeatures' => 'Povratne informacije',
 );
 
 /** Swedish (svenska)
  * @author Ainali
+ * @author Jopparn
  * @author NH
  * @author Skalman
  * @author WikiPhoenix
@@ -1129,7 +1137,7 @@ $messages['sv'] = array(
 	'betafeatures-desc' => 'Låter användare aktivera eller inaktivera funktioner på wikin som fortfarande inte är helt färdiga',
 	'betafeatures-toplink' => 'Beta',
 	'betafeatures-auto-enroll' => 'Aktivera automatiskt alla nya betafunktioner',
-	'betafeatures-section-desc' => 'Följande {{PLURAL:$1|funktion|funktioner}} är under utveckling och kan komma att införas på $2. Prova dem gärna, och lämna gärna förslag på förbättringar.',
+	'betafeatures-section-desc' => 'Följande {{PLURAL:$1|funktion|funktioner}} är under utveckling och kan komma att införas på $2. Prova {{PLURAL:$1|den|dem}} gärna, och lämna gärna förslag på förbättringar.',
 	'betafeatures-tooltip' => 'Vi intoruducerar betafunktioner! Denna nya inställningsavsnitt låter dig testa och ge återkoppling på nya funktioner innan vi lanserar dem som standardfunktionerna. Testa något nytt nu!',
 	'betafeatures-about-betafeatures' => 'Om betafunktioner',
 	'betafeatures-discuss-betafeatures' => 'Ge återkoppling',
@@ -1227,6 +1235,13 @@ $messages['vi'] = array(
  */
 $messages['wuu'] = array(
 	'betafeatures-toplink' => '試驗版',
+);
+
+/** Yiddish (ייִדיש)
+ * @author פוילישער
+ */
+$messages['yi'] = array(
+	'betafeatures-toplink' => 'בעטא',
 );
 
 /** Simplified Chinese (中文（简体）‎)
