@@ -914,13 +914,13 @@ $messages['nl'] = array(
 	'mw-ui-feature-requirements-betafeatures' => 'Deze functie vereist dat de volgende {{PLURAL:$1|functie wordt|functies worden}} ingeschakeld:',
 	'mw-ui-feature-requirements-browser' => 'De volgende {{PLURAL:$1|browser wordt|browsers worden}} niet ondersteund:',
 	'mw-ui-feature-requirements-javascript' => 'Deze functie vereist JavaScript.',
-	'mw-ui-feature-requirements-skins' => 'Deze functie werkt alleen met {{PLURAL:$1|de volgende skin|een van de volgende skins}}:',
+	'mw-ui-feature-requirements-skins' => 'Deze functie werkt alleen met {{PLURAL:$1|het volgende uiterlijk|een van de volgende uiterlijken}}:',
 	'prefs-betafeatures' => 'Betafuncties',
 	'betafeatures-desc' => 'Laat de gebruiker functies die in ontwikkeling zijn in- of uitschakelen',
 	'betafeatures-toplink' => 'Beta',
 	'betafeatures-auto-enroll' => 'Automatisch alle betafuncties inschakelen',
-	'betafeatures-section-desc' => 'Hier {{PLURAL:$1|is een nieuwe functie|zijn enkele nieuwe functies}} die we overwegen voor $2. Probeert deze uit en laat ons weten wat u ervan vindt, zodat wij ze kunnen verbeteren.',
-	'betafeatures-tooltip' => 'Introductie van Beta Features! Deze nieuwe sectie in je voorkeuren stelt je in staat om te testen en feedback te geven over nieuwe functies voordat we ze invoeren als standaard. Probeer nu iets nieuws uit!',
+	'betafeatures-section-desc' => 'Hier {{PLURAL:$1|is een nieuwe functie|zijn enkele nieuwe functies}} die we overwegen voor $2. Probeer {{PLURAL:$1|deze|ze}} uit en laat ons weten wat u ervan vindt, zodat wij {{PLURAL:$1|de functie|ze}} kunnen verbeteren.',
+	'betafeatures-tooltip' => 'Introductie van Beta Features! Via dit nieuwe onderdeel kunt u nieuwe functies testen en er terugkoppeling over geven voordat we ze invoeren als standaard. Probeer nu iets nieuws uit!',
 	'betafeatures-about-betafeatures' => 'Over de Betafuncties',
 	'betafeatures-discuss-betafeatures' => 'Terugkoppeling achterlaten',
 );
@@ -1039,6 +1039,7 @@ $messages['roa-tara'] = array(
 );
 
 /** Russian (русский)
+ * @author Kaganer
  * @author Lord Dimetr
  * @author Okras
  */
@@ -1054,7 +1055,7 @@ $messages['ru'] = array(
 	'betafeatures-desc' => 'Позволяет пользователю включить или отключить функции, которые еще не готовы к прайм-тайм',
 	'betafeatures-toplink' => 'Бета-версия',
 	'betafeatures-auto-enroll' => 'Автоматически включать все новые бета-функции',
-	'betafeatures-section-desc' => '{{PLURAL:$1|Появилась новая функция, которую|Появилось несколько новых функций, которые}} мы продумываем для $2. Пожалуйста, попробуйте {{PLURAL:$1|её|их}} и выскажите нам свои мысли, чтобы мы могли улучшить эти нововведения, основываясь на ваших отзывах.',
+	'betafeatures-section-desc' => '{{PLURAL:$1|Появилась новая функция, которую|Появилось несколько новых функций, которые}} мы продумываем для {{grammar:genitive|$2}}. Пожалуйста, попробуйте {{PLURAL:$1|её|их}} и выскажите нам свои соображения, чтобы мы могли улучшить {{PLURAL:$1|это нововведения|эти нововведения}}, основываясь на ваших отзывах.',
 	'betafeatures-tooltip' => 'Представляем бета-функции! Этот новый раздел настроек позволит вам протестировать и оставить отзывы о новых возможностях до того, как мы их запустим для всех по умолчанию. Попробуйте что-то новое уже сейчас!',
 	'betafeatures-about-betafeatures' => 'О бета-функциях',
 	'betafeatures-discuss-betafeatures' => 'Оставить отзыв',
