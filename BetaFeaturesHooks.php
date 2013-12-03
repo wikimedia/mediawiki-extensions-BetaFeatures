@@ -160,7 +160,7 @@ class BetaFeaturesHooks {
 				Html::rawElement(
 					'p',
 					array(),
-					wfMessage( 'betafeatures-section-desc', count( $betaPrefs ) )->text()
+					wfMessage( 'betafeatures-section-desc' )->numParams( count( $betaPrefs ) )->text()
 				),
 
 				Html::rawElement( 'p', array(), implode( ' | ', array(
