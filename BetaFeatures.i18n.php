@@ -102,8 +102,7 @@ Description for this checkbox is:
 Followed by the checkbox which has the label {{msg-mw|Betafeatures-auto-enroll}}.
 
 Parameters:
-* $1 - number of beta features
-* $2 - sitename',
+* $1 - number of beta features',
 	'betafeatures-test-check-field' => 'Used as label for the checkbox, used to test the extension.
 
 The description for this checkbox is {{msg-mw|Betafeatures-test-feature-field}}.',
@@ -336,11 +335,13 @@ $messages['de'] = array(
 
 /** Zazaki (Zazaki)
  * @author Gorizon
+ * @author Marmase
  */
 $messages['diq'] = array(
 	'mw-ui-feature-discuss' => 'vaten',
 	'prefs-betafeatures' => 'Xaceta beta',
 	'betafeatures-toplink' => 'Beta',
+	'betafeatures-section-desc' => 'Qandé {{SITENAME}} {{PLURAL:$1|Ğısusiyeta newi|tay ğısusiyete newey}} este. Na dezger bıcerbné u maya ena {{PLURAL:$1|ğısusiyet|ğısusiyetan}} peyd bırşeé maré. Mayv peyd rıştan de şmaya  na {{PLURAL:$1|ğısusiyet|ğısusiyetan}} vırazem.',
 );
 
 /** Lower Sorbian (dolnoserbski)
@@ -478,6 +479,7 @@ $messages['fo'] = array(
 );
 
 /** French (français)
+ * @author Boniface
  * @author Gomoko
  * @author Jean-Frédéric
  * @author Ltrlg
@@ -495,7 +497,7 @@ $messages['fr'] = array(
 	'betafeatures-desc' => 'Laisse l’utilisateur activer ou désactiver les fonctionnalités sur ce wiki qui ne sont pas encore prêtes pour être généralisées',
 	'betafeatures-toplink' => 'Bêta',
 	'betafeatures-auto-enroll' => 'Activer automatiquement toutes les nouvelles fonctionnalités en bêta',
-	'betafeatures-section-desc' => 'Voici {{PLURAL:$1|une nouvelle fonctionnalité|de nouvelles fonctionnalités}} que nous envisageons pour {{SITENAME}}. Veuillez les essayer et nous donner votre sentiment dessus, afin que nous puissions les améliorer d’après votre retour.',
+	'betafeatures-section-desc' => 'Voici {{PLURAL:$1|une nouvelle fonctionnalité|de nouvelles fonctionnalités}} que nous envisageons pour {{SITENAME}}. Veuillez les essayer et nous donner votre sentiment à leur sujet, afin que nous puissions les améliorer d’après votre retour.',
 	'betafeatures-tooltip' => 'Voici les fonctionnalités en beta ! Cette nouvelle section des préférences vous laisse tester et donner votre ressenti sur les nouvelles fonctionnalités avant que nous les lancions par défaut. Essayez dès à présent quelque chose de nouveau !',
 	'betafeatures-about-betafeatures' => 'À propos des fonctionnalités en bêta',
 	'betafeatures-discuss-betafeatures' => 'Laisser un avis',
@@ -699,7 +701,7 @@ $messages['it'] = array(
 $messages['ja'] = array(
 	'mw-ui-feature-discuss' => '議論',
 	'mw-ui-feature-info' => '情報',
-	'mw-ui-feature-user-count' => '{{PLURAL:$1|$1 人の利用者がこの機能を有効にしています|この機能を有効にしている利用者はいません}}。',
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|$1 人の利用者がこの機能を有効にしています|0=この機能を有効にしている利用者はいません}}。',
 	'mw-ui-feature-requirements-betafeatures' => 'この機能を使用するには、以下の{{PLURAL:$1|機能}}を有効にする必要があります:',
 	'mw-ui-feature-requirements-browser' => '以下の{{PLURAL:$1|ブラウザー}}には対応していません:',
 	'mw-ui-feature-requirements-javascript' => 'この機能の使用には JavaScript が必要です。',
