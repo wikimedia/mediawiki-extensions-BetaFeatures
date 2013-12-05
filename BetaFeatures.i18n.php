@@ -605,6 +605,13 @@ $messages['hu'] = array(
 	'betafeatures-toplink' => 'Béta funkciók', # Fuzzy
 );
 
+/** Armenian (Հայերեն)
+ * @author Vadgt
+ */
+$messages['hy'] = array(
+	'prefs-betafeatures' => 'Փորձնական հնարավորություններ',
+);
+
 /** Interlingua (interlingua)
  * @author McDutchie
  */
@@ -695,6 +702,7 @@ $messages['it'] = array(
 );
 
 /** Japanese (日本語)
+ * @author Fryed-peach
  * @author Shirayuki
  * @author Whym
  */
@@ -711,6 +719,7 @@ $messages['ja'] = array(
 	'betafeatures-toplink' => 'ベータ版',
 	'betafeatures-auto-enroll' => 'すべてのベータ版機能を自動的に有効にする',
 	'betafeatures-section-desc' => '{{SITENAME}}のために検討している{{PLURAL:$1|新しい機能}}があります。お試しの上ご意見をお寄せください。そのフィードバックに基づいて機能を改善します。',
+	'betafeatures-tooltip' => 'ベータ版機能を紹介します！この個人設定に新しく設けられたセクションでは、新しい機能を既定の動作として採用する前に試験したりフィードバックを送ったりできます。なにか新しいものを試してみましょう！',
 	'betafeatures-about-betafeatures' => 'ベータ版の機能について',
 	'betafeatures-discuss-betafeatures' => 'フィードバックを送信',
 );
