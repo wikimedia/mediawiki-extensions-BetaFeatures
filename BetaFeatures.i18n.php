@@ -231,6 +231,7 @@ $messages['br'] = array(
 
 /** Catalan (català)
  * @author Alvaro Vidal-Abarca
+ * @author Fitoschido
  * @author QuimGil
  * @author Vriullop
  */
@@ -245,7 +246,7 @@ $messages['ca'] = array(
 	'prefs-betafeatures' => 'Funcionalitats beta',
 	'betafeatures-desc' => "Permet a l'usuari activar o desactivar funcionalitats en el wiki que encara no són a punt per a una estrena oficial.",
 	'betafeatures-toplink' => 'Beta',
-	'betafeatures-auto-enroll' => 'Activa automàticament totes les funcionalitats beta.',
+	'betafeatures-auto-enroll' => "Activa automàticament totes les funcionalitats ''beta'' noves",
 	'betafeatures-section-desc' => 'Aquí teniu {{PLURAL:$1|una nova funcionalitat|noves funcionalitats}} que estem considerant per a {{SITENAME}}. Si us plau, proveu-les i compartiu les vostres opinions. Així podrem millorar-les en base als vostres comentaris.',
 	'betafeatures-tooltip' => "Us presentem Funcionalitats Beta! Aquesta nova secció a les vostres preferències us permet avaluar noves funcionalitats i compartir els vostres comentaris abans d'activar-les per a tothom.  This new preferences section lets you test and give feedback about new features before we launch them as default behavior. Prova alguna beta!",
 );
@@ -433,7 +434,7 @@ $messages['fa'] = array(
 	'mw-ui-feature-requirements-betafeatures' => 'برای فعال‌شدن، این ویژگی نیازمند این {{PLURAL:$1|قابلیت|قابلیت‌ها}} است:',
 	'mw-ui-feature-requirements-browser' => 'این {{PLURAL:$1|مرورگر|مرورگرها}} حمایت نشده‌است:',
 	'mw-ui-feature-requirements-javascript' => 'این ویژگی نیازمند جاوااسکریپ است.',
-	'mw-ui-feature-requirements-skins' => 'این ویژگی نیازمند است که شما از {{PLURAL:$1|این پوسته|یکی از این پوسته‌های}} استفاده کنید:', # Fuzzy
+	'mw-ui-feature-requirements-skins' => 'این ویژگی فقط با {{PLURAL:$1|این پوسته|یکی از این پوسته‌ها}} کار می‌کند:',
 	'prefs-betafeatures' => 'ویژگی‌های آزمایشی',
 	'betafeatures-desc' => 'به کاربر اجازه می‌دهد تا ویژگی‌های جدیدی که هنوز به صورت آزمایشی هستند را فعال یا غیرفعال کند.',
 	'betafeatures-toplink' => 'آزمایشی',
