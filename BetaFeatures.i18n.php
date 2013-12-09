@@ -554,7 +554,7 @@ $messages['he'] = array(
 	'mw-ui-feature-user-count' => '{{PLURAL:$1|משתמש אחד הפעיל|$1 משתמשים הפעילו|0=שום משתמש לא הפעיל}} את האפשרות הזאת.',
 	'mw-ui-feature-requirements-betafeatures' => 'האפשרות הזאת דורשת {{PLURAL:$1|שהאפשרות הבאה תהיה מופעלת|שהאפשרויות הבאות יהיו מופעלות}}:',
 	'mw-ui-feature-requirements-browser' => '{{PLURAL:$1|הדפדפן הבא אינו נתמך|הדפדפנים הבאים אינם נתמכים}}:',
-	'mw-ui-feature-requirements-javascript' => "האפשרות הזאת דורשת הפעלה של ג'אווה סקריפט.",
+	'mw-ui-feature-requirements-javascript' => 'האפשרות הזאת דורשת הפעלה של JavaScript.',
 	'mw-ui-feature-requirements-skins' => 'האפשרות הזאת עובדת רק עם {{PLURAL:$1|העיצוב הבא|העיצובים הבאים}}:',
 	'prefs-betafeatures' => 'אפשרויות בטא',
 	'betafeatures-desc' => 'מתן אפשרות למשתמש להפעיל או לכבות בוויקי אפשרויות שעדיין אינן מוכנות להוצאה כללית',
@@ -1267,24 +1267,25 @@ $messages['yi'] = array(
  * @author Liuxinyu970226
  * @author Qiyue2001
  * @author Shizhao
+ * @author Xiaomingyan
  * @author 乌拉跨氪
  */
 $messages['zh-hans'] = array(
 	'mw-ui-feature-discuss' => '讨论',
 	'mw-ui-feature-info' => '信息',
-	'mw-ui-feature-user-count' => '{{PLURAL:$1|有一个用户|有$1个用户|0=没有用户}}启用该功能。',
-	'mw-ui-feature-requirements-betafeatures' => '此功能需要{{PLURAL:$1|以下|以下这些}}功能启用才可使用：',
-	'mw-ui-feature-requirements-browser' => '尚不支持以下{{PLURAL:$1|浏览器}}：',
-	'mw-ui-feature-requirements-javascript' => '此功能依赖JavaScript。',
-	'mw-ui-feature-requirements-skins' => '此功能只能在{{PLURAL:$1|以下|以下这些}}皮肤中工作：',
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|已经有1个用户|已经有$1个用户|0=没有用户}}启用该功能。',
+	'mw-ui-feature-requirements-betafeatures' => '启用该功能需要先启用以下{{PLURAL:$1|功能}}：',
+	'mw-ui-feature-requirements-browser' => '不支持以下{{PLURAL:$1|浏览器}}：',
+	'mw-ui-feature-requirements-javascript' => '该功能需要JavaScript。',
+	'mw-ui-feature-requirements-skins' => '该功能只适用于以下{{PLURAL:$1|皮肤}}：',
 	'prefs-betafeatures' => '测试功能',
-	'betafeatures-desc' => '允许用户启用或禁用wiki上仍在测试的功能',
-	'betafeatures-toplink' => '测试功能',
-	'betafeatures-auto-enroll' => '自动启用所有新的测试功能',
-	'betafeatures-section-desc' => '这里{{PLURAL:$1|有一个新功能|有一些新功能}}，我们正在考虑将其部署到{{SITENAME}}。请试用{{PLURAL:$1|这个|这些}}功能，并把你的想法告诉我们。这样我们可以基于您的想法对其进行改善。',
-	'betafeatures-tooltip' => '引入测试功能！这个新的参数设置章节允许您在我们将之作为默认功能之前进行测试和反馈。现在就来尝试新东西吧！',
-	'betafeatures-about-betafeatures' => '关于测试功能',
-	'betafeatures-discuss-betafeatures' => '留下反馈意见',
+	'betafeatures-desc' => '让用户能够启用或停用仍在本wiki测试的功能',
+	'betafeatures-toplink' => '测试',
+	'betafeatures-auto-enroll' => '自动启用所有新测试功能',
+	'betafeatures-section-desc' => '我们{{PLURAL:$1|有一个|有一些}}计划用于{{SITENAME}}的新功能。请试用{{PLURAL:$1|该|这些}}功能，并把你的想法告诉我们，以便我们依据你的反馈改进{{PLURAL:$1|它|它们}}。',
+	'betafeatures-tooltip' => '欢迎使用功能测试！这个新的设置分项可以让你在我们默认启用新功能前测试它们并提供反馈。现在就来试试这些新功能吧！',
+	'betafeatures-about-betafeatures' => '关于功能测试',
+	'betafeatures-discuss-betafeatures' => '留下反馈',
 );
 
 /** Traditional Chinese (中文（繁體）‎)
