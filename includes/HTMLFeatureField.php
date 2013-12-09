@@ -189,7 +189,7 @@ class HTMLFeatureField extends NewHTMLCheckField {
 					$html .= Html::element(
 						'li',
 						array(),
-						$skin
+						$parent->msg( "skinname-$skin" )->text()
 					);
 				}
 				$html .= Html::closeElement( 'ul' );
