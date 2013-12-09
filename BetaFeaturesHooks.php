@@ -328,16 +328,15 @@ class BetaFeaturesHooks {
 	/**
 	 * @param array $personal_urls
 	 * @param Title $title
+	 * @param SkinTemplate $skintemplate
 	 * @return bool
 	 */
-	static function getBetaFeaturesLink( &$personal_urls, $title ) {
-		global $wgUser;
-
-		if ( $wgUser->isLoggedIn() ) {
+	static function getBetaFeaturesLink( &$personal_urls, Title $title, SkinTemplate $skintemplate ) {
+		if ( $skintemplate->getUser()->isLoggedIn() ) {
 			$personal_urls = wfArrayInsertAfter( $personal_urls, array(
 				'betafeatures' => array(
 					'text' => wfMessage( 'betafeatures-toplink' )->text(),
-					'href' => Title::makeTitle( NS_SPECIAL, 'Preferences', 'mw-prefsection-betafeatures' )->getLinkURL(),
+					'href' => SpecialPage::getTitleFor( 'Preferences', false, 'mw-prefsection-betafeatures' )->getLinkURL(),
 					'active' => $title->isSpecial( 'Preferences' ),
 				),
 			), 'preferences' );
