@@ -306,7 +306,7 @@ class BetaFeaturesHooks {
 				// Test skin support
 				if (
 					isset( $prefs[$key]['requirements']['skins'] ) &&
-					!in_array( $user->getSkin()->getSkinName(), $prefs[$key]['requirements']['skins'] )
+					!in_array( RequestContext::getMain()->getSkin()->getSkinName(), $prefs[$key]['requirements']['skins'] )
 				) {
 					$prefs[$key]['requirements']['skin-not-supported'] = true;
 				}
