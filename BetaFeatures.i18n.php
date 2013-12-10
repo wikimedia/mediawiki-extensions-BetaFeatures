@@ -355,7 +355,7 @@ $messages['diq'] = array(
 $messages['dsb'] = array(
 	'mw-ui-feature-discuss' => 'diskusija',
 	'mw-ui-feature-info' => 'Informacije',
-	'mw-ui-feature-user-count' => '{{PLURAL:$1|Jaden wužywaŕ jo|$1 wužywarje su||0=Žeden wužywar njejo}} toś tu funkciju {{PLURAL:$1|zmóžnił|zmóžnili|zmóžnił}}',
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|Jaden wužywaŕ jo|$1 wužywarja stej|$1 wužywarje su||0=Žeden wužywar njejo}} toś tu funkciju {{PLURAL:$1|zmóžnił|zmóžniłej|zmóžnili|zmóžnił}}',
 	'mw-ui-feature-requirements-betafeatures' => 'Toś ta funkcija pomina se zmóžnjenje {{PLURAL:$1|slědujuceje funkcije|slědujuceju funkcijowu|slědujucych funkcijow}}',
 	'mw-ui-feature-requirements-browser' => '{{PLURAL:$1|Slědujucy wobglědowak se njepódpěra|Slědujucej wobglědowaka se njepódpěratej|Slědujuce wobglědowaki se njepódpěraju}}',
 	'mw-ui-feature-requirements-javascript' => 'Toś ta funkcija pomina se JavaScript.',
@@ -588,7 +588,7 @@ $messages['hr'] = array(
 $messages['hsb'] = array(
 	'mw-ui-feature-discuss' => 'diskusija',
 	'mw-ui-feature-info' => 'Informacije',
-	'mw-ui-feature-user-count' => '{{PLURAL:$1|Jedyn wužiwar je|$1 wužiwarjo su||0=Žadyn wužiwar je}} tutu funkciju {{PLURAL:$1|zmóžnił|zmóžniłoj|zmóžnili|zmóžnił}}',
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|Jedyn wužiwar je|$1 wužiwarjej staj|$1 wužiwarjo su||0=Žadyn wužiwar je}} tutu funkciju {{PLURAL:$1|zmóžnił|zmóžniłoj|zmóžnili|zmóžnił}}',
 	'mw-ui-feature-requirements-betafeatures' => 'Tuta funkcija wužaduje sej zmóžnjenje {{PLURAL:$1|slědowaceje funkcije|slědowaceju funkcijow|slědowacych funkcijow}}',
 	'mw-ui-feature-requirements-browser' => '{{PLURAL:$1|Slědowacy wobhladowak so njepodpěruje|Slědowacej wobhladowakaj so njepodpěrujetej|Slědowace wobhladowaki so njepodpěruja}}',
 	'mw-ui-feature-requirements-javascript' => 'Tuta funkcija sej JavaScript wužaduje.',
@@ -1149,7 +1149,7 @@ $messages['sv'] = array(
 	'mw-ui-feature-requirements-betafeatures' => 'Den här funktionen kräver att följande {{PLURAL:$1|funktion är aktiverad|funktioner är aktiverade}}:',
 	'mw-ui-feature-requirements-browser' => 'Följande {{PLURAL:$1|webbläsare}} stöds inte:',
 	'mw-ui-feature-requirements-javascript' => 'Denna funktion kräver JavaScript.',
-	'mw-ui-feature-requirements-skins' => 'Den här funktionen kräver att du använder {{PLURAL:$1|följande utseende|en av de följande utseenden}}:', # Fuzzy
+	'mw-ui-feature-requirements-skins' => 'Den här funktionen kräver att du använder {{PLURAL:$1|följande utseende|en av de följande utseenden}}:',
 	'prefs-betafeatures' => 'Betafunktioner',
 	'betafeatures-desc' => 'Låter användare aktivera eller inaktivera funktioner på wikin som fortfarande inte är helt färdiga',
 	'betafeatures-toplink' => 'Beta',
