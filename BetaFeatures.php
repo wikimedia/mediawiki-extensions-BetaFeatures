@@ -41,7 +41,6 @@ $wgHooks['GetPreferences'][] = 'BetaFeaturesHooks::getPreferences';
 $wgHooks['PersonalUrls'][] = 'BetaFeaturesHooks::getBetaFeaturesLink';
 $wgHooks['UnitTestsList'][] = 'BetaFeaturesHooks::getUnitTestsList';
 $wgHooks['LoadExtensionSchemaUpdates'][] = 'BetaFeaturesHooks::getSchemaUpdates';
-$wgHooks['BeforePageDisplay'][] = 'BetaFeaturesHooks::loadPopupScript';
 $wgHooks['MakeGlobalVariablesScript'][] = 'BetaFeaturesHooks::onMakeGlobalVariablesScript';
 
 $wgJobClasses['updateBetaFeaturesUserCounts'] = 'UpdateBetaFeatureUserCountsJob';

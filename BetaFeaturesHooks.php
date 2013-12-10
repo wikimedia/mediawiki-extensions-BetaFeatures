@@ -332,7 +332,8 @@ class BetaFeaturesHooks {
 	 * @return bool
 	 */
 	static function getBetaFeaturesLink( &$personal_urls, Title $title, SkinTemplate $skintemplate ) {
-		if ( $skintemplate->getUser()->isLoggedIn() ) {
+		$user = $skintemplate->getUser();
+		if ( $user->isLoggedIn() ) {
 			$personal_urls = wfArrayInsertAfter( $personal_urls, array(
 				'betafeatures' => array(
 					'text' => wfMessage( 'betafeatures-toplink' )->text(),
@@ -340,6 +341,10 @@ class BetaFeaturesHooks {
 					'active' => $title->isSpecial( 'Preferences' ),
 				),
 			), 'preferences' );
+
+			if ( !$user->getOption( 'betafeatures-popup-disable' ) ) {
+				$skintemplate->getOutput()->addModules( 'ext.betaFeatures.popup' );
+			}
 		}
 
 		return true;
@@ -365,17 +370,4 @@ class BetaFeaturesHooks {
 		return true;
 	}
 
-	/**
-	 * @param OutputPage &$out
-	 * @param Skin &$skin
-	 * @return bool
-	 */
-	static function loadPopupScript( OutputPage &$out, Skin &$skin ) {
-		$user = $out->getUser();
-		if ( $user->isLoggedIn() && $user->getOption( 'betafeatures-popup-disable' ) ) {
-			$out->addModules( 'ext.betaFeatures.popup' );
-		}
-
-		return true;
-	}
 }
