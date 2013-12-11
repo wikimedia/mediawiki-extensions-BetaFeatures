@@ -615,6 +615,8 @@ $messages['hu'] = array(
  */
 $messages['hy'] = array(
 	'prefs-betafeatures' => 'Փորձնական հնարավորություններ',
+	'betafeatures-toplink' => 'Փորձնական',
+	'betafeatures-about-betafeatures' => 'Փորձնական Հնարվորությունների մասին',
 );
 
 /** Interlingua (interlingua)
