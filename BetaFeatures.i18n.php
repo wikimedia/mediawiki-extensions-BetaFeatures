@@ -832,6 +832,7 @@ $messages['lb'] = array(
 	'mw-ui-feature-user-count' => '{{PLURAL:$1|Ee Benotzer huet|$1 Benotzer hunn|0=Kee Benotzer huet}} dës Funktioun aktivéiert.',
 	'mw-ui-feature-requirements-browser' => '{{PLURAL:$1|Dëse Browser gëtt|Dës Browsere ginn}} net ënnerstëtzt:',
 	'mw-ui-feature-requirements-javascript' => 'Dës Funktioun brauch JavaScript',
+	'mw-ui-feature-requirements-skins' => 'Dës Funktioun funktionéiert nëmme mat {{PLURAL:$1|dësem Benotzerinterfacen|dëse Benotzerinterfacen}}:',
 	'prefs-betafeatures' => 'Beta-Funktiounen',
 	'betafeatures-desc' => 'Léisst Benotzer Funktiounen op der Wiki aktivéieren oder desaktivéieren déi nach net fäerdeg entwéckelt sinn',
 	'betafeatures-toplink' => 'Beta',
