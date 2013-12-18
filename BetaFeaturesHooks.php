@@ -282,11 +282,23 @@ class BetaFeaturesHooks {
 				}
 
 				// Test skin support
-				if (
-					isset( $prefs[$key]['requirements']['skins'] ) &&
-					!in_array( RequestContext::getMain()->getSkin()->getSkinName(), $prefs[$key]['requirements']['skins'] )
-				) {
-					$prefs[$key]['requirements']['skin-not-supported'] = true;
+				if ( isset( $prefs[$key]['requirements']['skins'] ) ) {
+					// Remove any skins that aren't installed or users can't choose
+					$prefs[$key]['requirements']['skins'] = array_intersect(
+						$prefs[$key]['requirements']['skins'],
+						Skin::getUsableSkins()
+					);
+
+					if ( empty( $prefs[$key]['requirements']['skins'] ) ) {
+						// If there are no valid skins, don't show the preference
+						wfDebugLog( 'BetaFeatures', "The $key BetaFeature has no valid skins installed." );
+						continue;
+					}
+					// Also check if the user's current skin is supported
+					$prefs[$key]['requirements']['skin-not-supported'] = !in_array(
+						RequestContext::getMain()->getSkin()->getSkinName(),
+						$prefs[$key]['requirements']['skins']
+					);
 				}
 			}
 			self::$features[$key] = !empty( $features ) ? $features : null;
