@@ -535,11 +535,11 @@ $messages['fr'] = array(
 $messages['gl'] = array(
 	'mw-ui-feature-discuss' => 'conversa',
 	'mw-ui-feature-info' => 'información',
-	'mw-ui-feature-user-count' => '{{PLURAL:$1|Un usuario ten|$1 usuarios teñen}} activada esta característica.', # Fuzzy
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|Un usuario ten|$1 usuarios teñen|0=Ningún usuario ten}} activada esta característica.',
 	'mw-ui-feature-requirements-betafeatures' => 'Esta característica necesita a activación {{PLURAL:$1|da seguinte característica|das seguintes características}}:',
 	'mw-ui-feature-requirements-browser' => '{{PLURAL:$1|O seguinte navegador non está soportado|Os seguintes navegadores non están soportados}}:',
 	'mw-ui-feature-requirements-javascript' => 'Esta característica necesita JavaScript.',
-	'mw-ui-feature-requirements-skins' => 'Esta característica necesita o uso {{PLURAL:$1|a seguinte aparencia|unha das seguintes aparencias}}:', # Fuzzy
+	'mw-ui-feature-requirements-skins' => 'Esta característica funciona unicamente {{PLURAL:$1|coa seguinte aparencia|coas seguintes aparencias}}:',
 	'prefs-betafeatures' => 'Características en probas',
 	'betafeatures-desc' => 'Permite que o usuario active ou desactive as características do wiki que aínda non están listas para o seu uso xeneralizado',
 	'betafeatures-toplink' => 'Beta',
