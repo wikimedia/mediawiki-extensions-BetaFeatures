@@ -999,6 +999,16 @@ $messages['pl'] = array(
 	'betafeatures-discuss-betafeatures' => 'Skomentuj',
 );
 
+/** Pashto (پښتو)
+ * @author Ahmed-Najib-Biabani-Ibrahimkhel
+ */
+$messages['ps'] = array(
+	'mw-ui-feature-info' => 'مالومات',
+	'prefs-betafeatures' => 'د آزمېښتي بڼې ځانگړنې',
+	'betafeatures-toplink' => 'بيټا',
+	'betafeatures-auto-enroll' => 'په اتوماتيک ډول ټولې نوې بيټا ځانتياوې چارنول',
+);
+
 /** Portuguese (português)
  * @author Fúlvio
  * @author Vitorvicentevalente
