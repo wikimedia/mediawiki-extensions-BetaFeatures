@@ -120,6 +120,7 @@ The label for the checkbox is {{msg-mw|Betafeatures-test-check-field}}.',
 );
 
 /** Arabic (العربية)
+ * @author زكريا
  * @author مشعل الحربي
  */
 $messages['ar'] = array(
@@ -130,10 +131,10 @@ $messages['ar'] = array(
 	'mw-ui-feature-requirements-browser' => '{{PLURAL:$1||المتصفح التالي غير مدعوم|المتصفحان التاليان غير مدعومين|المتصفحات التالية غير مدعومة}}:',
 	'mw-ui-feature-requirements-javascript' => 'هذه الميزة تتطلب جافاسكريبت.',
 	'mw-ui-feature-requirements-skins' => 'هذه الميزة تعمل فقط مع {{PLURAL:$1||المظهر التالي|المظهرين التاليين|المظاهر التالية}}:',
-	'prefs-betafeatures' => 'مزايا بيتا',
+	'prefs-betafeatures' => 'مزايا تجريبية',
 	'betafeatures-desc' => 'تسمح للمستخدم بتمكين أو تعطيل المزايا غير الجاهزة تمامًا لتشغيلها على الويكي',
-	'betafeatures-toplink' => 'بيتا',
-	'betafeatures-auto-enroll' => 'تمكين كافة مزايا بيتا الجديدة تلقائيًا',
+	'betafeatures-toplink' => 'تجريبي',
+	'betafeatures-auto-enroll' => 'تمكين كافة المزايا التجريبية الجديدة تلقائيا',
 	'betafeatures-section-desc' => 'هنا {{PLURAL:$1|ميزة جديدة|مزايا جديدة}} نخطط لإضافتها إلى {{SITENAME}}. نرجوا تجربتها وتزويدنا برأيك حولها، لكي نتمكن من تحسينها حسبما تحبون.',
 	'betafeatures-tooltip' => 'نقدم لكم مزايا البيتا! يسمح لك قسم التفضيلات الجديد هذا باختبار وإعطاء رأيك حول المزايا الجديدة قبل أن نطلقها بشكل افتراضي. جربوا شيئًا جديدًا الآن!',
 	'betafeatures-about-betafeatures' => 'حول مزايا البيتا',
