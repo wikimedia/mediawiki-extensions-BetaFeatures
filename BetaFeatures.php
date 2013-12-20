@@ -62,6 +62,7 @@ $wgResourceModules['ext.betaFeatures'] = array(
 	'dependencies' => array(
 		'jquery.client',
 	),
+	'targets' => array( 'mobile', 'desktop' ),
 ) + $moduleInfo;
 
 $wgResourceModules['ext.betaFeatures.popup'] = array(
