@@ -404,6 +404,7 @@ $messages['en-gb'] = array(
  * @author Fitoschido
  * @author Ovruni
  * @author VegaDark
+ * @author Vivaelcelta
  */
 $messages['es'] = array(
 	'mw-ui-feature-discuss' => 'discusión',
@@ -412,7 +413,7 @@ $messages['es'] = array(
 	'mw-ui-feature-requirements-betafeatures' => 'Esta funcionalidad requiere {{PLURAL:$1|la siguiente funcionalidad|las siguientes funcionalidades}} para ser activada:',
 	'mw-ui-feature-requirements-browser' => '{{PLURAL:$1|El siguiente navegador|Los siguientes navegadores}} no son soportados:',
 	'mw-ui-feature-requirements-javascript' => 'Esta funcionalidad requiere JavaScript.',
-	'mw-ui-feature-requirements-skins' => 'Esta funcionalidad requiere que utilices {{PLURAL:$1|la siguiente piel|una de las siguientes pieles}}:',
+	'mw-ui-feature-requirements-skins' => 'Esta funcionalidad requiere que utilices {{PLURAL:$1|la siguiente apariencia|una de las siguientes apariencias}}:',
 	'prefs-betafeatures' => 'Funciones en pruebas',
 	'betafeatures-desc' => 'Permite al usuario activar o desactivar funciones del wiki que todavía no están listas',
 	'betafeatures-toplink' => 'Beta',
