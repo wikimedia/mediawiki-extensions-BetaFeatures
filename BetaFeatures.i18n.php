@@ -363,9 +363,10 @@ $messages['de'] = array(
 /** Zazaki (Zazaki)
  * @author Gorizon
  * @author Marmase
+ * @author Mirzali
  */
 $messages['diq'] = array(
-	'mw-ui-feature-discuss' => 'vaten',
+	'mw-ui-feature-discuss' => 'werênayış',
 	'prefs-betafeatures' => 'Xaceta beta',
 	'betafeatures-toplink' => 'Beta',
 	'betafeatures-section-desc' => 'Qandé {{SITENAME}} {{PLURAL:$1|Ğısusiyeta newi|tay ğısusiyete newey}} este. Na dezger bıcerbné u maya ena {{PLURAL:$1|ğısusiyet|ğısusiyetan}} peyd bırşeé maré. Mayv peyd rıştan de şmaya  na {{PLURAL:$1|ğısusiyet|ğısusiyetan}} vırazem.',
@@ -1295,6 +1296,13 @@ $messages['wuu'] = array(
  */
 $messages['yi'] = array(
 	'betafeatures-toplink' => 'בעטא',
+);
+
+/** Yoruba (Yorùbá)
+ * @author Demmy
+ */
+$messages['yo'] = array(
+	'betafeatures-toplink' => 'Bẹ́tà',
 );
 
 /** Simplified Chinese (中文（简体）‎)
