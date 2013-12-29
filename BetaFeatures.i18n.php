@@ -188,7 +188,9 @@ $messages['bcl'] = array(
  * @author DCLXVI
  */
 $messages['bg'] = array(
+	'mw-ui-feature-discuss' => 'обсъждане',
 	'mw-ui-feature-info' => 'информация',
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|Един потребител е активирал|$1 потребители са активирали|0=Нито един потребител не е активирал}} тази функционалност.',
 	'mw-ui-feature-requirements-javascript' => 'Тази функционалност изисква JavaScript.',
 	'mw-ui-feature-requirements-skins' => 'Тази функционалност изисква да използвате {{PLURAL:$1|следния облик|един от следните облици}}:', # Fuzzy
 	'prefs-betafeatures' => 'Тестови функционалности',
@@ -471,12 +473,13 @@ $messages['fa'] = array(
 
 /** Finnish (suomi)
  * @author Pxos
+ * @author Silvonen
  * @author Stryn
  */
 $messages['fi'] = array(
 	'mw-ui-feature-discuss' => 'keskustelu',
 	'mw-ui-feature-info' => 'tietoa',
-	'mw-ui-feature-user-count' => '{{PLURAL:$1|Yksi käyttäjä on ottanut tämän ominaisuuden|$1 käyttäjää ovat ottaneet tämän ominaisuuden|0=Kukaan ei ole ottanut tätä ominaisuutta}} käyttöön.',
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|Yksi käyttäjä on ottanut tämän ominaisuuden|$1 käyttäjää on ottanut tämän ominaisuuden|0=Kukaan ei ole ottanut tätä ominaisuutta}} käyttöön.',
 	'mw-ui-feature-requirements-betafeatures' => 'Tämä ominaisuus vaatii {{PLURAL:$1|seuraavaa ominaisuutta|seuraavia ominaisuuksia}} käyttöönotettavaksi:',
 	'mw-ui-feature-requirements-browser' => '{{PLURAL:$1|Seuraava selain ei ole tuettu|Seuraavat selaimet eivät ole tuettuja}}:',
 	'mw-ui-feature-requirements-javascript' => 'Tämä ominaisuus vaatii JavaScriptin olevan käytössä.',
