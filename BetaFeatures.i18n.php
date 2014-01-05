@@ -836,6 +836,7 @@ $messages['lb'] = array(
 	'mw-ui-feature-discuss' => 'Diskussioun',
 	'mw-ui-feature-info' => 'Informatioun',
 	'mw-ui-feature-user-count' => '{{PLURAL:$1|Ee Benotzer huet|$1 Benotzer hunn|0=Kee Benotzer huet}} dës Funktioun aktivéiert.',
+	'mw-ui-feature-requirements-betafeatures' => "Dës Funktioun erfuerdert d'Aktivéiere vun {{PLURAL:$1|dëser Funktioun|dëse Funktiounen}}:",
 	'mw-ui-feature-requirements-browser' => '{{PLURAL:$1|Dëse Browser gëtt|Dës Browsere ginn}} net ënnerstëtzt:',
 	'mw-ui-feature-requirements-javascript' => 'Dës Funktioun brauch JavaScript',
 	'mw-ui-feature-requirements-skins' => 'Dës Funktioun funktionéiert nëmme mat {{PLURAL:$1|dësem Benotzerinterfacen|dëse Benotzerinterfacen}}:',
@@ -844,6 +845,7 @@ $messages['lb'] = array(
 	'betafeatures-toplink' => 'Beta',
 	'betafeatures-auto-enroll' => 'Automatesch all Beta-Funktiounen aschalten',
 	'betafeatures-section-desc' => 'Hei {{PLURAL:$1|ass eng nei Funktioun|sinn e puer nei Funktiounen}} déi mir fir {{SITENAME}} proposéieren. Probéiert se w.e.g. aus an deelt eis Är Iwwerleeungen dozou mat, da kënne mir se op der Basis vun Ärem Feedback verbesseren.',
+	'betafeatures-tooltip' => "Aféierung an d'Beta Funktiounen! Dësen neien Abschnitt vun den Astellungen erméiglecht et Iech fir nei Funktiounen ze testen an äre Feedback ze ginn ier si als Standard-Funktioun aktivéieren. Probéiert elo eppes Neies aus!",
 	'betafeatures-about-betafeatures' => 'Iwwer Betafunktiounen',
 	'betafeatures-discuss-betafeatures' => 'Feedback ginn',
 );
