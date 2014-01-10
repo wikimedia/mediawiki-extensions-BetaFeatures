@@ -141,6 +141,13 @@ $messages['ar'] = array(
 	'betafeatures-discuss-betafeatures' => 'إعطاء رأيك',
 );
 
+/** Assamese (অসমীয়া)
+ * @author Gitartha.bordoloi
+ */
+$messages['as'] = array(
+	'betafeatures-toplink' => 'বিটা',
+);
+
 /** Asturian (asturianu)
  * @author Fitoschido
  * @author Xuacu
