@@ -38,8 +38,6 @@ class BetaFeaturesHooks {
 	 * @return array|mixed
 	 */
 	private static function getUserCountsFromDb( $prefs ) {
-		global $wgMemc;
-
 		$jqg = JobQueueGroup::singleton();
 
 		// If we aren't waiting to update the counts, push a job to do it.
@@ -73,7 +71,7 @@ class BetaFeaturesHooks {
 
 			// Cache for 30 minutes
 			$key = wfMemcKey( 'betafeatures', 'usercounts', $row->feature );
-			$wgMemc->set( $key, $row->number, self::COUNT_CACHE_TTL );
+			wfGetCache( CACHE_ANYTHING )->set( $key, $row->number, self::COUNT_CACHE_TTL );
 		}
 
 		return $counts;
@@ -84,13 +82,11 @@ class BetaFeaturesHooks {
 	 * @return array|mixed
 	 */
 	static function getUserCounts( $prefs ) {
-		global $wgMemc;
-
 		$counts = array();
 
 		foreach ( $prefs as $pref ) {
 			$key = wfMemcKey( 'betafeatures', 'usercounts', $pref );
-			$count = $wgMemc->get( $key );
+			$count = wfGetCache( CACHE_ANYTHING )->get( $key );
 
 			if ( $count === false ) {
 				// Stop trying, go update the database
@@ -109,8 +105,6 @@ class BetaFeaturesHooks {
 	 * @param array &$options List of options
 	 */
 	static function updateUserCounts( $user, &$options ) {
-		global $wgMemc;
-
 		// Let's find out what's changed
 		$oldUser = User::newFromName( $user->getName() );
 		$betaFeatures = array();
@@ -128,11 +122,12 @@ class BetaFeaturesHooks {
 			}
 
 			$key = wfMemcKey( 'betafeatures', 'usercounts', $name );
+			$cache = wfGetCache( CACHE_ANYTHING );
 
 			if ( $newVal === HTMLFeatureField::OPTION_ENABLED ) {
-				$wgMemc->incr( $key );
+				$cache->incr( $key );
 			} else {
-				$wgMemc->decr( $key );
+				$cache->decr( $key );
 			}
 		}
 
