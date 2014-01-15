@@ -235,8 +235,11 @@ $messages['br'] = array(
 	'mw-ui-feature-discuss' => 'kaozeadenn',
 	'mw-ui-feature-info' => 'titouroù',
 	'mw-ui-feature-user-count' => "{{PLURAL:$1|Un implijer|$1 implijer}} o deus gweredekaet an arc'hwel-mañ.", # Fuzzy
+	'mw-ui-feature-requirements-browser' => "Ar {{PLURAL:$1|merder-mañ ne c'haller ket ober gantañ|merdeerien-mañ ne c'haller ket ober ganto}} :",
+	'mw-ui-feature-requirements-javascript' => "Ezhomm zo eus JavaScript evit an arc'heladur-mañ.",
 	'prefs-betafeatures' => 'Perzhioù beta',
 	'betafeatures-toplink' => 'Beta',
+	'betafeatures-discuss-betafeatures' => 'Ober un evezhiadenn',
 );
 
 /** Catalan (català)
