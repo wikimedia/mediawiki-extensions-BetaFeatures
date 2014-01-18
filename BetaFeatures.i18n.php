@@ -650,11 +650,12 @@ $messages['hu'] = array(
 );
 
 /** Armenian (Հայերեն)
+ * @author Vacio
  * @author Vadgt
  */
 $messages['hy'] = array(
 	'prefs-betafeatures' => 'Փորձնական հնարավորություններ',
-	'betafeatures-toplink' => 'Փորձնական',
+	'betafeatures-toplink' => 'Բետա',
 	'betafeatures-about-betafeatures' => 'Փորձնական Հնարվորությունների մասին',
 );
 
@@ -791,11 +792,13 @@ $messages['kk-cyrl'] = array(
 	'mw-ui-feature-info' => 'мәлімет',
 	'mw-ui-feature-user-count' => '{{PLURAL:$1|Бір қатысушы|$1 қатысушы|0=ешбір қатысушы}} бұл мүмкіндікті қосқан.',
 	'mw-ui-feature-requirements-betafeatures' => 'Бұл мүмкіндікті қосу үшін төмендегі {{PLURAL:$1|мүмкіндікті|мүмкіндіктерді}} қосуы керек:',
-	'mw-ui-feature-requirements-browser' => 'Төмендегі {{PLURAL:$1|шолғыш|шолғыштарe}} қолдамайды:',
+	'mw-ui-feature-requirements-browser' => 'Төмендегі {{PLURAL:$1|шолғыш|шолғыштар}} қолдамайды:',
 	'mw-ui-feature-requirements-javascript' => 'Бұл мүмкіндік JavaScript керек етеді',
+	'mw-ui-feature-requirements-skins' => 'Бұл мүмкіндік теу  {{PLURAL:$1|келесі күйде|келесі күйлерде}} жұмыс істейді:',
 	'prefs-betafeatures' => 'Beta мүмкіндіктер',
 	'betafeatures-toplink' => 'Beta',
 	'betafeatures-auto-enroll' => 'Барлық жаңа beta мүмкіндіктерді өздікті қосу',
+	'betafeatures-section-desc' => 'Сізге {{SITENAME}} сайтына арналған {{PLURAL:$1|жаңа мүмкіндікті|жаңа мүмкіндіктерді}} ұсынамыз. {{PLURAL:$1|Оны|Оларды}} сынап көріп, өз ойларыңызбен бөлісуіңізді сұраймыз. Сіз берген сын-бағалардың негізінде {{PLURAL:$1|оны|оларды}} жетілдіруге мүмкіндігіміз бар.',
 	'betafeatures-about-betafeatures' => 'Beta мүмкіндіктер туралы',
 	'betafeatures-discuss-betafeatures' => 'Пікір қалдыру',
 );
