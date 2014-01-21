@@ -191,6 +191,28 @@ $messages['bcl'] = array(
 	'betafeatures-discuss-betafeatures' => 'Magwalat nin balik-simbag',
 );
 
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
+ * @author Red Winged Duck
+ * @author Renessaince
+ */
+$messages['be-tarask'] = array(
+	'mw-ui-feature-discuss' => 'абмеркаваньне',
+	'mw-ui-feature-info' => 'інфармацыя',
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|Адзін удзельнік уключыў|$1 удзельнікі ўключылі|$1 удзельнікаў уключылі|0=Ніхто з удзельнікаў не ўключыў}} гэтую магчымасьць.',
+	'mw-ui-feature-requirements-betafeatures' => 'Для гэтай магчымасьці неабходна ўключыць {{PLURAL:$1|наступную магчымасьць|наступныя магчымасьці}}:',
+	'mw-ui-feature-requirements-browser' => '{{PLURAL:$1|Гэты браўзэр|Гэтыя браўзэры}} не падтрымліваюцца:',
+	'mw-ui-feature-requirements-javascript' => 'Гэтая магчымасьць патрабуе JavaScript.',
+	'mw-ui-feature-requirements-skins' => 'Гэтая магчымасьць працуе толькі пад {{PLURAL:$1|наступнай тэмай|наступнымі тэмамі}}:',
+	'prefs-betafeatures' => 'Тэставыя магчымасьці',
+	'betafeatures-desc' => 'Дазваляе карыстальніку ўключаць ці адключаць магчымасьці, якія яшчэ цалкам не дапрацаваныя',
+	'betafeatures-toplink' => 'Бэта',
+	'betafeatures-auto-enroll' => 'Аўтаматычна ўключаць усе новыя тэставыя магчымасьці',
+	'betafeatures-section-desc' => '{{PLURAL:$1|Зьявілася новая магчымасьць|Зьявіліся новыя магчымасьці}}, якія мы плянуем для {{SITENAME}}. Калі ласка, паспрабуйце {{PLURAL:$1|яе|іх}} і выкажыце нам сваё меркаваньне, каб мы палепшылі {{PLURAL:$1|яе|іх}} паводле Вашых заўвагаў.',
+	'betafeatures-tooltip' => 'Прадстаўляем тэставыя магчымасьці! Новая закладка ў наладах дазваляе Вам паспрабаваць і ацаніць новыя функцыі перш, чым мы запусьцім ім для ўсіх дапомна. Паспрабуйце ўжо цяпер!',
+	'betafeatures-about-betafeatures' => 'Пра тэставыя магчымасьці',
+	'betafeatures-discuss-betafeatures' => 'Пакінуць водгук',
+);
+
 /** Bulgarian (български)
  * @author DCLXVI
  */
