@@ -297,6 +297,7 @@ $messages['ce'] = array(
 	'mw-ui-feature-user-count' => '{{PLURAL:$1|Цхьам декъашхочо латина|$1 декъашхоша латина|0=Цхьамо латина яц}} хӀара функци.', # Fuzzy
 	'mw-ui-feature-requirements-browser' => '{{PLURAL:$1|1=ХӀара браузер ловш яц|ХӀара браузераш ловш яц}}:', # Fuzzy
 	'prefs-betafeatures' => 'Бета-функцеш',
+	'betafeatures-desc' => 'Декъашхошна прайм-тайман кийча йоцу функцеш лато я дӀаяйа таро хуьлуьйту',
 	'betafeatures-toplink' => 'Бета-верси',
 	'betafeatures-auto-enroll' => 'Ша лата йо керла бета-функцеш',
 	'betafeatures-section-desc' => '{{PLURAL:$1|Йина керла фунуцеш}} оха уьш йина {{SITENAME}}н. Дехар до, {{PLURAL:$1|уьш}} лела яй а хьайна хетарг ала,тӀакха тхуна уьш дика ян аьтту хира бу.', # Fuzzy
@@ -677,7 +678,7 @@ $messages['hu'] = array(
  */
 $messages['hy'] = array(
 	'prefs-betafeatures' => 'Փորձնական հնարավորություններ',
-	'betafeatures-toplink' => 'Բետա',
+	'betafeatures-toplink' => 'Փորձնական',
 	'betafeatures-about-betafeatures' => 'Փորձնական Հնարվորությունների մասին',
 );
 
@@ -1125,12 +1126,14 @@ $messages['ro'] = array(
  */
 $messages['roa-tara'] = array(
 	'mw-ui-feature-discuss' => "'ngazzamende",
-	'mw-ui-feature-user-count' => "{{PLURAL:$1|'Nu utende ave|$1 utinde onne}} abbilitate sta funzione.", # Fuzzy
+	'mw-ui-feature-info' => "'mbormaziune",
+	'mw-ui-feature-user-count' => "{{PLURAL:$1|'Nu utende ave|$1 utinde onne|0=nisciune utende ave}} abbilitate sta funzione.",
 	'prefs-betafeatures' => 'Funziune de Beta',
 	'betafeatures-desc' => "Lasse l'utende a abbilità o disabbilità le funziune sus 'a ucchi ca non ge so angore pronde pa prima vote",
 	'betafeatures-toplink' => 'Beta',
 	'betafeatures-auto-enroll' => 'Automaticamende abbilite tutte le funziune beta nove',
 	'betafeatures-section-desc' => "Aqquà {{PLURAL:$1|ste 'na funziona nove|stonne cchiù funziune nove}} ca ste considerame pe {{SITENAME}}. Pe piacere pruèvale e danne 'na parere, accussì nuje putime migliorà basannene sus 'a segnalaziona toje.",
+	'betafeatures-discuss-betafeatures' => "Lasse 'na segnalazione",
 );
 
 /** Russian (русский)
@@ -1248,11 +1251,13 @@ $messages['szl'] = array(
 );
 
 /** Telugu (తెలుగు)
+ * @author Veeven
  * @author Visdaviva
  */
 $messages['te'] = array(
 	'mw-ui-feature-discuss' => 'చర్చ',
 	'mw-ui-feature-info' => 'సమాచారం',
+	'mw-ui-feature-requirements-javascript' => 'ఈ సౌలభ్యానికి జావాస్క్రిప్టు కావాలి.',
 	'prefs-betafeatures' => 'బీటా సౌలభ్యాలు',
 	'betafeatures-toplink' => 'బీటా',
 	'betafeatures-about-betafeatures' => 'బీటా సౌలభ్యాల గురించి',
