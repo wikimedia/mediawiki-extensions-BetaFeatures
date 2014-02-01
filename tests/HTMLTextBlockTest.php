@@ -37,6 +37,6 @@ class HTMLTextBlockFieldTest extends MediaWikiTestCase {
 
 		$this->assertRegExp( '#<tr class="mw-htmlform-field-HTMLTextBlockField">#', $html, 'Table row with class name not found.' );
 
-		$this->assertRegExp( '#<td class="mw-input"><p>This is a label.</p>\n</td>#', $html, 'Actual text block element not found.' );
+		$this->assertRegExp( '#<td class="mw-input"><div>This is a label.</div>\n</td>#', $html, 'Actual text block element not found.' );
 	}
 }
