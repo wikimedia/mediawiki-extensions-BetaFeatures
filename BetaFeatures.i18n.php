@@ -120,6 +120,7 @@ The label for the checkbox is {{msg-mw|Betafeatures-test-check-field}}.',
 );
 
 /** Arabic (العربية)
+ * @author Kuwaity26
  * @author زكريا
  * @author مشعل الحربي
  */
@@ -135,7 +136,7 @@ $messages['ar'] = array(
 	'betafeatures-desc' => 'تسمح للمستخدم بتمكين أو تعطيل المزايا غير الجاهزة تمامًا لتشغيلها على الويكي',
 	'betafeatures-toplink' => 'تجريبي',
 	'betafeatures-auto-enroll' => 'تمكين كافة المزايا التجريبية الجديدة تلقائيا',
-	'betafeatures-section-desc' => 'هنا {{PLURAL:$1|ميزة جديدة|مزايا جديدة}} نخطط لإضافتها إلى {{SITENAME}}. نرجوا تجربتها وتزويدنا برأيك حولها، لكي نتمكن من تحسينها حسبما تحبون.',
+	'betafeatures-section-desc' => 'هنا {{PLURAL:$1|ميزة جديدة|مزايا جديدة}} نخطط لإضافتها إلى {{SITENAME}}. نرجو تجربتها وتزويدنا بآرائك حولها، لنتمكن من تحسينها حسب تعليقاتكم.',
 	'betafeatures-tooltip' => 'نقدم لكم المزايا التجريبية! يسمح لك قسم التفضيلات الجديد هذا باختبار وإعطاء رأيك في المزايا الجديدة قبل أن نطلقها بشكل افتراضي. جربوا شيئا جديدا الآن!',
 	'betafeatures-about-betafeatures' => 'عن المزايا التجريبية',
 	'betafeatures-discuss-betafeatures' => 'إعطاء رأيك',
