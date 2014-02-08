@@ -55,6 +55,7 @@ $messages['en'] = array(
 
 	'betafeatures-about-betafeatures' => 'About Beta Features',
 	'betafeatures-discuss-betafeatures' => 'Leave feedback',
+	'betafeatures-extension-type' => 'Beta features',
 );
 
 /** Message documentation (Message documentation)
@@ -117,6 +118,7 @@ The label for the checkbox is {{msg-mw|Betafeatures-test-check-field}}.',
 	'betafeatures-about-betafeatures' => 'Text for a link to a page describing what Beta Features is, what the project is for, etc.',
 	'betafeatures-discuss-betafeatures' => 'Text for a link to a page where users can leave feedback about Beta Features.
 {{Identical|Leave feedback}}',
+	'betafeatures-extension-type' => 'Section header on [[Special:Version]]',
 );
 
 /** Arabic (العربية)

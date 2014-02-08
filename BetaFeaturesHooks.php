@@ -370,4 +370,9 @@ class BetaFeaturesHooks {
 		return true;
 	}
 
+	public static function onExtensionTypes( array &$extTypes ) {
+		$extTypes['betafeatures'] = wfMessage( 'betafeatures-extension-type' )->escaped();
+		return true;
+	}
+
 }
