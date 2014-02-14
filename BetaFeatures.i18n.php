@@ -398,6 +398,7 @@ $messages['de'] = array(
 	'betafeatures-tooltip' => 'Einführende Betafunktionen! Dieser neue Einstellungsabschnitt ermöglicht dir das Testen und Geben von Rückmeldungen über neue Funktionen, bevor wir sie standardmäßig aktivieren. Probier jetzt einige neue Funktionen aus!',
 	'betafeatures-about-betafeatures' => 'Über Betafunktionen',
 	'betafeatures-discuss-betafeatures' => 'Eine Rückmeldung hinterlassen',
+	'betafeatures-extension-type' => 'Beta-Funktionen',
 );
 
 /** Zazaki (Zazaki)
@@ -452,7 +453,7 @@ $messages['es'] = array(
 	'mw-ui-feature-info' => 'información',
 	'mw-ui-feature-user-count' => '{{PLURAL:$1|Un usuario ha|$1 usuarios han}} activado esta función.',
 	'mw-ui-feature-requirements-betafeatures' => 'Esta funcionalidad requiere {{PLURAL:$1|la siguiente funcionalidad|las siguientes funcionalidades}} para ser activada:',
-	'mw-ui-feature-requirements-browser' => '{{PLURAL:$1|El siguiente navegador|Los siguientes navegadores}} no son soportados:',
+	'mw-ui-feature-requirements-browser' => '{{PLURAL:$1|El siguiente navegador no es compatible|Los siguientes navegadores no son compatibles}}:',
 	'mw-ui-feature-requirements-javascript' => 'Esta funcionalidad requiere JavaScript.',
 	'mw-ui-feature-requirements-skins' => 'Esta funcionalidad requiere que utilices {{PLURAL:$1|la siguiente apariencia|una de las siguientes apariencias}}:',
 	'prefs-betafeatures' => 'Funciones en pruebas',
@@ -571,6 +572,7 @@ $messages['fr'] = array(
 	'betafeatures-tooltip' => 'Voici les fonctionnalités en beta ! Cette nouvelle section des préférences vous laisse tester et donner votre ressenti sur les nouvelles fonctionnalités avant que nous les lancions par défaut. Essayez dès à présent quelque chose de nouveau !',
 	'betafeatures-about-betafeatures' => 'À propos des fonctionnalités en bêta',
 	'betafeatures-discuss-betafeatures' => 'Laisser un avis',
+	'betafeatures-extension-type' => 'Fonctionnalités bêta',
 );
 
 /** Galician (galego)
@@ -746,6 +748,7 @@ $messages['ilo'] = array(
 	'betafeatures-tooltip' => 'Ipayam-ammo dagiti Beta a Langa! Daytoy a baro a paset dagit ikakaykayatan ket mangpalubos kenka a mangsubok ken mangited ti feedback a maipanggep kadagiti baro a langa sakbay nga iparuarmi a kas kasisigud a panagkukua. Agpadas tattan ti kabarbaro!',
 	'betafeatures-about-betafeatures' => 'Maipanggep kadagiti Beta a Langa',
 	'betafeatures-discuss-betafeatures' => 'Mangibati ti feedback',
+	'betafeatures-extension-type' => 'Dagiti beta a langa',
 );
 
 /** Italian (italiano)
@@ -772,6 +775,7 @@ $messages['it'] = array(
 	'betafeatures-tooltip' => 'Benvenuto nelle funzionalità sperimentali! Questa nuova sezione delle preferenze consente di provare e lasciare un commento sulle funzionalità sperimentali prima che siano estese a tutti. Prova subito qualcosa di nuovo!',
 	'betafeatures-about-betafeatures' => 'Informazioni su Beta Features',
 	'betafeatures-discuss-betafeatures' => 'Lascia un commento',
+	'betafeatures-extension-type' => 'Funzionalità sperimentali',
 );
 
 /** Japanese (日本語)
@@ -833,6 +837,7 @@ $messages['kk-cyrl'] = array(
  * @author AlexPark
  * @author Hym411
  * @author Kwj2772
+ * @author Priviet
  * @author 아라
  */
 $messages['ko'] = array(
@@ -851,6 +856,7 @@ $messages['ko'] = array(
 	'betafeatures-tooltip' => '베타 기능을 소개합니다! 이 새로운 환경 설정을 사용하여 저희가 기본 설정으로 설정하기 전에 새로운 기능에 대한 의견을 들을 수 있습니다! 새 기능을 시도해 보세요!',
 	'betafeatures-about-betafeatures' => '베타 기능에 대해서',
 	'betafeatures-discuss-betafeatures' => '피드백 남기기',
+	'betafeatures-extension-type' => '베타 기능',
 );
 
 /** Latin (Latina)
@@ -917,6 +923,7 @@ $messages['mk'] = array(
 	'betafeatures-tooltip' => 'Ви ги претставуваме новите Бета-функции! Овој нов дел со нагодувања ви овозможува да ги испробувате новите функции и да ни давате ваше мислење пред да ги пуштиме како стандардни. Пробајте некоја нова функција сега!',
 	'betafeatures-about-betafeatures' => 'За бета-функциите',
 	'betafeatures-discuss-betafeatures' => 'Дајте мислење',
+	'betafeatures-extension-type' => 'Бета-можности',
 );
 
 /** Malayalam (മലയാളം)
@@ -1161,6 +1168,7 @@ $messages['ru'] = array(
 	'betafeatures-tooltip' => 'Представляем бета-функции! Этот новый раздел настроек позволит вам протестировать и оставить отзывы о новых возможностях до того, как мы их запустим для всех по умолчанию. Попробуйте что-то новое уже сейчас!',
 	'betafeatures-about-betafeatures' => 'О бета-функциях',
 	'betafeatures-discuss-betafeatures' => 'Оставить отзыв',
+	'betafeatures-extension-type' => 'Бета-функции',
 );
 
 /** Sanskrit (संस्कृतम्)
@@ -1311,6 +1319,7 @@ $messages['uk'] = array(
 	'betafeatures-tooltip' => 'Представляємо бета-функції! Цей новий розділ налаштувань дозволяє тестувати і надсилати відгуки про нові можливості, перш ніж ми запустимо їх як типову поведінку у основній Медіавікі. Спробувати щось нове зараз!',
 	'betafeatures-about-betafeatures' => 'Про бета-функції',
 	'betafeatures-discuss-betafeatures' => 'Залишити відгук',
+	'betafeatures-extension-type' => 'Бета-функції',
 );
 
 /** Vietnamese (Tiếng Việt)
