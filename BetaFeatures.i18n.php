@@ -118,7 +118,8 @@ The label for the checkbox is {{msg-mw|Betafeatures-test-check-field}}.',
 	'betafeatures-about-betafeatures' => 'Text for a link to a page describing what Beta Features is, what the project is for, etc.',
 	'betafeatures-discuss-betafeatures' => 'Text for a link to a page where users can leave feedback about Beta Features.
 {{Identical|Leave feedback}}',
-	'betafeatures-extension-type' => 'Section header on [[Special:Version]]',
+	'betafeatures-extension-type' => 'Section header on [[Special:Version]].
+{{Identical|Beta feature}}',
 );
 
 /** Arabic (العربية)
@@ -614,6 +615,7 @@ $messages['gom-latn'] = array(
  * @author Ademo
  * @author Amire80
  * @author Guycn2
+ * @author ערן
  */
 $messages['he'] = array(
 	'mw-ui-feature-discuss' => 'דיון',
@@ -631,6 +633,7 @@ $messages['he'] = array(
 	'betafeatures-tooltip' => 'אנו גאים להציג את "אפשרויות בטא"! החל החדש הזה בהעדפות מאפשר לך לבדוק אפשרויות חדשות ולתת עליהן משוב לפני שנפעיל אותן בתור ההתנהגות הרגילה. נסו משהו חדש!',
 	'betafeatures-about-betafeatures' => 'אודות אפשרויות בטא',
 	'betafeatures-discuss-betafeatures' => 'שליחת משוב',
+	'betafeatures-extension-type' => 'אפשרויות בטא',
 );
 
 /** Croatian (hrvatski)
@@ -668,6 +671,7 @@ $messages['hsb'] = array(
 	'betafeatures-tooltip' => 'Předstajenje betafunkcijow! Tute nowe nastajenja dadźa tebi móžnosć, nowe funkcije testować a wo nich twoje měnjenje sposrědkować, prjedy hač je jako standard zmóžnimy. Wuprobuj nětko nowe funkcije!',
 	'betafeatures-about-betafeatures' => 'Wo betafunkcijach',
 	'betafeatures-discuss-betafeatures' => 'Komentar zawostajić',
+	'betafeatures-extension-type' => 'Betafunkcije',
 );
 
 /** Hungarian (magyar)
@@ -799,6 +803,7 @@ $messages['ja'] = array(
 	'betafeatures-tooltip' => 'ベータ版機能を紹介します！この個人設定に新しく設けられたセクションでは、新しい機能を既定の動作として採用する前に試験したりフィードバックを送ったりできます。なにか新しいものを試してみましょう！',
 	'betafeatures-about-betafeatures' => 'ベータ版の機能について',
 	'betafeatures-discuss-betafeatures' => 'フィードバックを送信',
+	'betafeatures-extension-type' => 'ベータ版機能',
 );
 
 /** Georgian (ქართული)
@@ -895,6 +900,7 @@ $messages['lb'] = array(
 	'betafeatures-tooltip' => "Aféierung an d'Beta Funktiounen! Dësen neien Abschnitt vun den Astellungen erméiglecht et Iech fir nei Funktiounen ze testen an äre Feedback ze ginn ier si als Standard-Funktioun aktivéieren. Probéiert elo eppes Neies aus!",
 	'betafeatures-about-betafeatures' => 'Iwwer Betafunktiounen',
 	'betafeatures-discuss-betafeatures' => 'Feedback ginn',
+	'betafeatures-extension-type' => 'Beta-Funktiounen',
 );
 
 /** Lithuanian (lietuvių)
@@ -1001,6 +1007,7 @@ $messages['nb'] = array(
  * @author Flightmare
  * @author Romaine
  * @author Siebrand
+ * @author Sjoerddebruin
  * @author TBloemink
  */
 $messages['nl'] = array(
@@ -1019,6 +1026,7 @@ $messages['nl'] = array(
 	'betafeatures-tooltip' => 'Introductie van Beta Features! Via dit nieuwe onderdeel kunt u nieuwe functies testen en er terugkoppeling over geven voordat we ze invoeren als standaard. Probeer nu iets nieuws uit!',
 	'betafeatures-about-betafeatures' => 'Over de Betafuncties',
 	'betafeatures-discuss-betafeatures' => 'Terugkoppeling achterlaten',
+	'betafeatures-extension-type' => 'Betafuncties',
 );
 
 /** Occitan (occitan)
@@ -1044,7 +1052,7 @@ $messages['pl'] = array(
 	'mw-ui-feature-requirements-betafeatures' => 'Ta funkcja wymaga włączenia najpierw {{PLURAL:$1|następującej|następujących}}:',
 	'mw-ui-feature-requirements-browser' => '{{PLURAL:$1|Nieobsługiwana przeglądarka|Nieobsługiwane przeglądarki}}:',
 	'mw-ui-feature-requirements-javascript' => 'Ta funkcja wymaga włączonej obsługi JavaScriptu.',
-	'mw-ui-feature-requirements-skins' => 'Ta funkcja działa tylko z {{PLURAL:$1|następującą skórką|następującymi skórkami}}:', # Fuzzy
+	'mw-ui-feature-requirements-skins' => 'Ta funkcja działa tylko z {{PLURAL:$1|następującą skórką|następującymi skórkami}}:',
 	'prefs-betafeatures' => 'Funkcje eksperymentalne',
 	'betafeatures-desc' => 'Pozwala użytkownikom włączać lub wyłączać funkcje, które nie są jeszcze w pełni dopracowane',
 	'betafeatures-toplink' => 'Funkcje eksperymentalne',
@@ -1053,6 +1061,7 @@ $messages['pl'] = array(
 	'betafeatures-tooltip' => 'Sekcja funkcji eksperymentalnych umożliwia Ci testowanie i wyrażanie opinii na temat nowych funkcji, zanim uruchomimy je jako domyślne zachowanie. Wypróbuj coś nowego!',
 	'betafeatures-about-betafeatures' => 'O funkcjach eksperymentalnych',
 	'betafeatures-discuss-betafeatures' => 'Skomentuj',
+	'betafeatures-extension-type' => 'Funkcje eksperymentalne',
 );
 
 /** Pashto (پښتو)
@@ -1085,6 +1094,7 @@ $messages['pt'] = array(
 	'betafeatures-tooltip' => 'Apresentamos os Recursos Beta! Esta nova secção das suas preferências permite que teste e comente sobre os novos recursos antes de implementá-los como padrão. Experimente algo novo agora!',
 	'betafeatures-about-betafeatures' => 'Sobre os Recursos Beta',
 	'betafeatures-discuss-betafeatures' => 'Deixe um comentário',
+	'betafeatures-extension-type' => 'Recursos Beta',
 );
 
 /** Brazilian Portuguese (português do Brasil)
@@ -1252,6 +1262,7 @@ $messages['sv'] = array(
 	'betafeatures-tooltip' => 'Vi intoruducerar betafunktioner! Denna nya inställningsavsnitt låter dig testa och ge återkoppling på nya funktioner innan vi lanserar dem som standardfunktionerna. Testa något nytt nu!',
 	'betafeatures-about-betafeatures' => 'Om betafunktioner',
 	'betafeatures-discuss-betafeatures' => 'Ge återkoppling',
+	'betafeatures-extension-type' => 'Betafunktioner',
 );
 
 /** Silesian (ślůnski)
@@ -1377,7 +1388,7 @@ $messages['yo'] = array(
 $messages['zh-hans'] = array(
 	'mw-ui-feature-discuss' => '讨论',
 	'mw-ui-feature-info' => '信息',
-	'mw-ui-feature-user-count' => '{{PLURAL:$1|已经有1个用户|已经有$1个用户|0=没有用户}}启用该功能。',
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|$1个用户已|0=没有用户}}启用该功能。',
 	'mw-ui-feature-requirements-betafeatures' => '启用该功能需要先启用以下{{PLURAL:$1|功能}}：',
 	'mw-ui-feature-requirements-browser' => '不支持以下{{PLURAL:$1|浏览器}}：',
 	'mw-ui-feature-requirements-javascript' => '该功能需要JavaScript。',
@@ -1387,9 +1398,10 @@ $messages['zh-hans'] = array(
 	'betafeatures-toplink' => '测试',
 	'betafeatures-auto-enroll' => '自动启用所有新测试功能',
 	'betafeatures-section-desc' => '我们{{PLURAL:$1|有一个|有一些}}计划用于{{SITENAME}}的新功能。请试用{{PLURAL:$1|该|这些}}功能，并把你的想法告诉我们，以便我们依据你的反馈改进{{PLURAL:$1|它|它们}}。',
-	'betafeatures-tooltip' => '欢迎使用功能测试！这个新的设置分项可以让你在我们默认启用新功能前测试它们并提供反馈。现在就来试试这些新功能吧！',
+	'betafeatures-tooltip' => '欢迎使用测试功能！这个新的设置分项可以让你在我们默认启用新功能前测试它们并提供反馈。现在就来试试这些新功能吧！',
 	'betafeatures-about-betafeatures' => '关于功能测试',
 	'betafeatures-discuss-betafeatures' => '留下反馈',
+	'betafeatures-extension-type' => '测试功能',
 );
 
 /** Traditional Chinese (中文（繁體）‎)
