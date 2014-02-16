@@ -172,6 +172,7 @@ $messages['ast'] = array(
 	'betafeatures-tooltip' => '¡Presentamos les carauterístiques Beta! Esta nueva seición de les preferencies permite-y probar y comentar les carauterístiques nueves enantes de que les llancemos de mou predetermináu. ¡Pruebe agora daqué nuevo!',
 	'betafeatures-about-betafeatures' => 'Tocante a les carauterístiques Beta',
 	'betafeatures-discuss-betafeatures' => 'Dexar un comentariu',
+	'betafeatures-extension-type' => 'Carauterístiques beta',
 );
 
 /** Bikol Central (Bikol Central)
@@ -307,6 +308,7 @@ $messages['ce'] = array(
 	'betafeatures-section-desc' => '{{PLURAL:$1|Йина керла фунуцеш}} оха уьш йина {{SITENAME}}н. Дехар до, {{PLURAL:$1|уьш}} лела яй а хьайна хетарг ала,тӀакха тхуна уьш дика ян аьтту хира бу.', # Fuzzy
 	'betafeatures-about-betafeatures' => 'Бета-функцешах лаьцна',
 	'betafeatures-discuss-betafeatures' => 'Язде хьайна хетарг',
+	'betafeatures-extension-type' => 'Бета-функцеш',
 );
 
 /** Sorani Kurdish (کوردی)
@@ -488,6 +490,7 @@ $messages['et'] = array(
 );
 
 /** Persian (فارسی)
+ * @author Armin1392
  * @author Dalba
  * @author Ebraminio
  * @author Reza1615
@@ -509,6 +512,7 @@ $messages['fa'] = array(
 	'betafeatures-tooltip' => 'معرفی ویژگی‌های آزمایشی! این بخش جدید تنظیمات به شما اجازه می دهد تا امتحان کنید و نظرات‌تان در مورد ویژگی‌های جدید را قبل از اینکه ما آن‌ها را به‌صورت پیش‌فرض راه‌اندازی کنیم ارائه دهید. الان یک مورد جدید را امتحان کنید!',
 	'betafeatures-about-betafeatures' => 'دربارهٔ ویژگی‌های آزمایشی',
 	'betafeatures-discuss-betafeatures' => 'افزودن بازخورد',
+	'betafeatures-extension-type' => 'ویژگی‌های بتا',
 );
 
 /** Finnish (suomi)
@@ -532,6 +536,7 @@ $messages['fi'] = array(
 	'betafeatures-tooltip' => 'Esittelyssä Beeta-ominaisuudet! Tämä uusi asetukset-osio antaa sinun kokeilla ja antaa palautetta uusista ominaisuuksista, ennen kuin julkaisemme ne oletuksena. Kokeile jotain uutta nyt!',
 	'betafeatures-about-betafeatures' => 'Tietoa Beeta-ominaisuuksista',
 	'betafeatures-discuss-betafeatures' => 'Jätä palautetta',
+	'betafeatures-extension-type' => 'Beeta-ominaisuudet',
 );
 
 /** Faroese (føroyskt)
