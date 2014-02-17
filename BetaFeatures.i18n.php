@@ -359,6 +359,7 @@ $messages['cy'] = array(
 	'betafeatures-desc' => "Yn galluogi'r defnyddiwr i alluogi nodweddion ar y wici nad ydynt yn barod i'w llwyr fabwysiadu eto, neu i'w hanalluogi.",
 	'betafeatures-toplink' => 'Beta',
 	'betafeatures-auto-enroll' => 'Galluogi pob nodwedd beta yn awtomatig',
+	'betafeatures-extension-type' => 'Nodweddion beta',
 );
 
 /** Danish (dansk)
@@ -442,6 +443,13 @@ $messages['dsb'] = array(
  */
 $messages['en-gb'] = array(
 	'betafeatures-tooltip' => 'Introducing Beta Features! This new preferences section lets you test and give feedback about new features before we launch them as default behaviour. Try out something new now!',
+);
+
+/** Esperanto (Esperanto)
+ * @author KuboF
+ */
+$messages['eo'] = array(
+	'betafeatures-extension-type' => 'Betaj funkcioj',
 );
 
 /** Spanish (español)
@@ -1081,6 +1089,7 @@ $messages['ps'] = array(
 
 /** Portuguese (português)
  * @author Fúlvio
+ * @author Imperadeiro98
  * @author Vitorvicentevalente
  */
 $messages['pt'] = array(
@@ -1099,7 +1108,7 @@ $messages['pt'] = array(
 	'betafeatures-tooltip' => 'Apresentamos os Recursos Beta! Esta nova secção das suas preferências permite que teste e comente sobre os novos recursos antes de implementá-los como padrão. Experimente algo novo agora!',
 	'betafeatures-about-betafeatures' => 'Sobre os Recursos Beta',
 	'betafeatures-discuss-betafeatures' => 'Deixe um comentário',
-	'betafeatures-extension-type' => 'Recursos Beta',
+	'betafeatures-extension-type' => 'Funcionalidades beta',
 );
 
 /** Brazilian Portuguese (português do Brasil)
@@ -1400,7 +1409,7 @@ $messages['zh-hans'] = array(
 	'mw-ui-feature-requirements-skins' => '该功能只适用于以下{{PLURAL:$1|皮肤}}：',
 	'prefs-betafeatures' => '测试功能',
 	'betafeatures-desc' => '让用户能够启用或停用仍在本wiki测试的功能',
-	'betafeatures-toplink' => '测试',
+	'betafeatures-toplink' => '测试版',
 	'betafeatures-auto-enroll' => '自动启用所有新测试功能',
 	'betafeatures-section-desc' => '我们{{PLURAL:$1|有一个|有一些}}计划用于{{SITENAME}}的新功能。请试用{{PLURAL:$1|该|这些}}功能，并把你的想法告诉我们，以便我们依据你的反馈改进{{PLURAL:$1|它|它们}}。',
 	'betafeatures-tooltip' => '欢迎使用测试功能！这个新的设置分项可以让你在我们默认启用新功能前测试它们并提供反馈。现在就来试试这些新功能吧！',
@@ -1410,13 +1419,25 @@ $messages['zh-hans'] = array(
 );
 
 /** Traditional Chinese (中文（繁體）‎)
+ * @author Liuxinyu970226
  * @author Openerror
  * @author StephDC
  */
 $messages['zh-hant'] = array(
 	'mw-ui-feature-discuss' => '討論',
-	'prefs-betafeatures' => '測試中的功能 (Beta)',
-	'betafeatures-desc' => '允許使用者啟用或禁用 wiki 上 仍需要完善、除錯的功能',
+	'mw-ui-feature-info' => '資訊',
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|$1位用戶已|0=尚無用戶}}啟用此功能。',
+	'mw-ui-feature-requirements-betafeatures' => '此功能需要啟用以下$1個功能：',
+	'mw-ui-feature-requirements-browser' => '不支援以下$1個瀏覽器：',
+	'mw-ui-feature-requirements-javascript' => '此功能需要JavaScript。',
+	'mw-ui-feature-requirements-skins' => '此功能進於以下$1個皮膚中工作之：',
+	'prefs-betafeatures' => '測試功能',
+	'betafeatures-desc' => '允許用戶啟用或禁用wiki上仍於測試之功能',
 	'betafeatures-toplink' => '測試版',
 	'betafeatures-auto-enroll' => '自動啟用所有新的測試版功能',
+	'betafeatures-section-desc' => '目前我們考慮將下述之$1個測試功能部署於{{SITENAME}}。請測試之，並遞交反饋。',
+	'betafeatures-tooltip' => '介紹測試功能！此設置選項允許您於正式部署前對新功能測試與遞交反饋。歡迎測試！',
+	'betafeatures-about-betafeatures' => '關於測試功能',
+	'betafeatures-discuss-betafeatures' => '遞交反饋',
+	'betafeatures-extension-type' => '測試功能',
 );
