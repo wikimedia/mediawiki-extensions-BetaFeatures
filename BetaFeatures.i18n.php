@@ -340,6 +340,7 @@ $messages['cs'] = array(
 	'betafeatures-tooltip' => 'Představujeme funkce z betaverze! Tato nová sekce nastavení vám umožňuje vyzkoušet a okomentovat nové funkce dříve, než je spustíme pro všechny. Vyzkoušejte něco nového!',
 	'betafeatures-about-betafeatures' => 'O betaverzi',
 	'betafeatures-discuss-betafeatures' => 'Sdělte svůj názor',
+	'betafeatures-extension-type' => 'Betaverze',
 );
 
 /** Church Slavic (словѣньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
@@ -689,9 +690,25 @@ $messages['hsb'] = array(
 
 /** Hungarian (magyar)
  * @author Misibacsi
+ * @author Tgr
  */
 $messages['hu'] = array(
-	'betafeatures-toplink' => 'Béta funkciók', # Fuzzy
+	'mw-ui-feature-discuss' => 'megbeszélés',
+	'mw-ui-feature-info' => 'információ',
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|Egy felhasználó|$1 felhasználó|0=Még senki sem}} használja ezt a funkciót.',
+	'mw-ui-feature-requirements-betafeatures' => 'A használatához be kell kapcsolni {{PLURAL:$1|ezt a funkciót|ezeket a funkciókat}} is:',
+	'mw-ui-feature-requirements-browser' => 'Nem működik {{PLURAL:$1|ezzel a böngészővel|ezekkel a böngészőkkel}}:',
+	'mw-ui-feature-requirements-javascript' => 'JavaScript szükséges hozzá.',
+	'mw-ui-feature-requirements-skins' => 'Csak {{PLURAL:$1|ezzel a felülettel|ezekkel a felületekkel}} működik:',
+	'prefs-betafeatures' => 'Béta funkciók',
+	'betafeatures-desc' => 'Lehetővé teszi az egyes felhasználóknak az olyan funkciók be- és kikapcsolását, amik még nem készültek el teljesen.',
+	'betafeatures-toplink' => 'Béta',
+	'betafeatures-auto-enroll' => 'Automatikusan kapcsoljon be minden új béta funkciót',
+	'betafeatures-section-desc' => 'Itt {{PLURAL:$1|egy|néhány}} olyan új funkciót látsz, amit idővel be szeretnénk vezetni a {{SITENAME}} wikin. Próbáld {{PLURAL:$1|ki|ki őket}}, és mondd el a véleményed, hogy javítani tudjunk {{PLURAL:$1|rajta|rajtuk}} a visszajelzésed alapján.',
+	'betafeatures-tooltip' => 'Ismerkedj meg a béta funkciókkal! Ez az új fül a beállításaidnál olyan funkciókat tartalmaz, amiket a közeljövőben mindenkinek alapértelmezetté szeretnénk tenni; ha még előtte kipróbálod őket és megírod a véleményed, azzal segítesz tökéletesebbé tenni őket. Próbálj ki valami újat még ma!',
+	'betafeatures-about-betafeatures' => 'A béta funkciókról',
+	'betafeatures-discuss-betafeatures' => 'Üzenj a fejlesztőknek',
+	'betafeatures-extension-type' => 'Béta funkciók',
 );
 
 /** Armenian (Հայերեն)
@@ -985,6 +1002,7 @@ $messages['mr'] = array(
 	'betafeatures-tooltip' => 'बीटा फिचर्सची ओळख करून देत आहो!त्यांना डिफॉल्ट वर्तन म्हणून विमोचन करण्यापूर्वी, पसंतीक्रमाचा हा नविन विभाग आपणास त्याची चाचणी करू देईल व त्याबद्दलची प्रतिक्रिया देणे शक्य करेल.आता काहीतरी नविन वापरून बघा!',
 	'betafeatures-about-betafeatures' => 'बीटा फिचर्स बद्दल',
 	'betafeatures-discuss-betafeatures' => 'प्रतिसाद द्या',
+	'betafeatures-extension-type' => 'बीटा तोंडवळा',
 );
 
 /** Maltese (Malti)
@@ -1108,7 +1126,7 @@ $messages['pt'] = array(
 	'betafeatures-tooltip' => 'Apresentamos os Recursos Beta! Esta nova secção das suas preferências permite que teste e comente sobre os novos recursos antes de implementá-los como padrão. Experimente algo novo agora!',
 	'betafeatures-about-betafeatures' => 'Sobre os Recursos Beta',
 	'betafeatures-discuss-betafeatures' => 'Deixe um comentário',
-	'betafeatures-extension-type' => 'Funcionalidades beta',
+	'betafeatures-extension-type' => 'Recursos Beta',
 );
 
 /** Brazilian Portuguese (português do Brasil)
@@ -1287,6 +1305,7 @@ $messages['szl'] = array(
 );
 
 /** Telugu (తెలుగు)
+ * @author Ravichandra
  * @author Veeven
  * @author Visdaviva
  */
@@ -1298,6 +1317,7 @@ $messages['te'] = array(
 	'betafeatures-toplink' => 'బీటా',
 	'betafeatures-about-betafeatures' => 'బీటా సౌలభ్యాల గురించి',
 	'betafeatures-discuss-betafeatures' => 'సూచనలివ్వండి',
+	'betafeatures-extension-type' => 'బీటా స్వరూపములు',
 );
 
 /** Turkish (Türkçe)
