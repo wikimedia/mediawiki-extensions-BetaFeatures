@@ -23,7 +23,7 @@
  * @license GNU General Public License version 2 or later
  */
 
-class NewHTMLCheckField extends HTMLFormField {
+class NewHTMLCheckField extends HTMLCheckField {
 
 	// Protected internal methods for getting the bits of the field
 	// Override these in subclasses (see HTMLFeatureField, e.g.)
@@ -97,41 +97,5 @@ class NewHTMLCheckField extends HTMLFormField {
 	 */
 	function getInputHTML( $value, $attr = null ) {
 		return $this->getCheckboxHTML( $value, $attr ) . $this->getPostCheckboxLabelHTML();
-	}
-
-	/**
-	 * For a checkbox, the label goes on the right hand side, and is
-	 * added in getInputHTML(), rather than HTMLFormField::getRow()
-	 * @return String
-	 */
-	function getLabel() {
-		return '&#160;';
-	}
-
-	/**
-	 * @param  $request WebRequest
-	 * @return String
-	 */
-	function loadDataFromRequest( $request ) {
-		$invert = false;
-		if ( isset( $this->mParams['invert'] ) && $this->mParams['invert'] ) {
-			$invert = true;
-		}
-
-		// GetCheck won't work like we want for checks.
-		// Fetch the value in either one of the two following case:
-		// - we have a valid token (form got posted or GET forged by the user)
-		// - checkbox name has a value (false or true), ie is not null
-		if ( $request->getCheck( 'wpEditToken' ) || $request->getVal( $this->mName ) !== null ) {
-			// XOR has the following truth table, which is what we want
-			// INVERT VALUE | OUTPUT
-			// true   true  | false
-			// false  true  | true
-			// false  false | false
-			// true   false | true
-			return $request->getBool( $this->mName ) xor $invert;
-		} else {
-			return $this->getDefault();
-		}
 	}
 }
