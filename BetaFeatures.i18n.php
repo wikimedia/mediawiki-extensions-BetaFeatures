@@ -252,6 +252,7 @@ $messages['bn'] = array(
 	'betafeatures-section-desc' => 'এখানে {{PLURAL:$1|একটি|কিছু}} নতুন বৈশিষ্ট্য রয়েছে যা আমরা {{SITENAME}}-এর জন্য বিবেচনা করছি। দয়া করে {{PLURAL:$1|এটি|এগুলি}} একবার ব্যবহার করুন এবং আপনার চিন্তাভাবনা আমাদের জানান, তাহলে আমরা আপনার মতামতের উপর ভিত্তি করে {{PLURAL:$1|এটি|তাদের}} উন্নত করতে পারব।',
 	'betafeatures-about-betafeatures' => 'বেটা বৈশিষ্ট্যসমূহ সম্পর্কে',
 	'betafeatures-discuss-betafeatures' => 'প্রতিক্রিয়া জানান',
+	'betafeatures-extension-type' => 'বেটা বৈশিষ্ট্যসমূহ',
 );
 
 /** Breton (brezhoneg)
