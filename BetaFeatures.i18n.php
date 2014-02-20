@@ -1222,6 +1222,13 @@ $messages['sa'] = array(
 	'mw-ui-feature-info' => 'सूचना',
 );
 
+/** Scots (Scots)
+ * @author John Reid
+ */
+$messages['sco'] = array(
+	'betafeatures-extension-type' => 'Beta features',
+);
+
 /** Slovenian (slovenščina)
  * @author Dbc334
  * @author Eleassar
