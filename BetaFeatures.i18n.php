@@ -895,6 +895,26 @@ $messages['ko'] = array(
 	'betafeatures-extension-type' => '베타 기능',
 );
 
+/** Colognian (Ripoarisch)
+ * @author Purodha
+ */
+$messages['ksh'] = array(
+	'mw-ui-feature-discuss' => 'Klaaf',
+	'mw-ui-feature-info' => 'Enfomazjuhne',
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|Eine metmaacher hät|$1 Metmaacher han|Keine Metmaacher hät}} dat enjeschalld.',
+	'mw-ui-feature-requirements-betafeatures' => 'Dat heh bruch de volljende {{PLURAL:$1|Saach|Saache|Saach}} och noch:',
+	'mw-ui-feature-requirements-browser' => '{{PLURAL:$1|Heh dä|Heh di|Keine}} weed nit öngerschtöz:',
+	'mw-ui-feature-requirements-javascript' => 'Dat heh bruch JavaSkrep.',
+	'mw-ui-feature-requirements-skins' => 'Jat jeiht {{PLURAL:$1|bloß med dä Bedeebovverfläsch|bloß med dä volljende Bedeebovverfläsche:|met keine Bedeebovverfläsch.}}',
+	'prefs-betafeatures' => 'Eijeschaffte zom Ußprobeere',
+	'betafeatures-desc' => 'Löht der Metmaacher Saache un Eijeschaffte em Wiki bruche udder ußschallde, di noch nit rääsch fäädesch för er alljemeine Jebruch sin künnte.',
+	'betafeatures-toplink' => 'Zom ußprobeere',
+	'betafeatures-auto-enroll' => 'Donn den neue Denge zum Ußprobeere Automattesch enschallde.',
+	'betafeatures-about-betafeatures' => 'Övver des Saache zom Ußprobeere',
+	'betafeatures-discuss-betafeatures' => 'Jivv_en Enschäzong af',
+	'betafeatures-extension-type' => 'Zom Ußprobeere',
+);
+
 /** Latin (Latina)
  * @author Autokrator
  * @author UV
