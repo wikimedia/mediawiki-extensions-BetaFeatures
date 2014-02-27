@@ -82,6 +82,7 @@ class HTMLFeatureField extends NewHTMLCheckField {
 				'href' => $infoLink,
 				'class' => 'mw-ui-feature-info-link',
 			), $this->mParent->msg( 'mw-ui-feature-info' )->escaped() );
+			$html .= ' ';
 		}
 
 		if ( isset( $discussionLink ) ) {
