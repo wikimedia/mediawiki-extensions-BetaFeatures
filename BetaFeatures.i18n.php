@@ -593,6 +593,7 @@ $messages['fr'] = array(
 
 /** Galician (galego)
  * @author Toliño
+ * @author Vivaelcelta
  */
 $messages['gl'] = array(
 	'mw-ui-feature-discuss' => 'conversa',
@@ -610,6 +611,7 @@ $messages['gl'] = array(
 	'betafeatures-tooltip' => 'Velaquí están as características en probas! Esta nova sección das preferencias permítelle probar e achegar comentarios sobre as novas características antes de que as lancemos para todos. Probe algo novo agora!',
 	'betafeatures-about-betafeatures' => 'Acerca das características en probas',
 	'betafeatures-discuss-betafeatures' => 'Deixe un comentario',
+	'betafeatures-extension-type' => 'Características en probas',
 );
 
 /** Goan Konkani (कोंकणी/Konknni )
@@ -891,6 +893,25 @@ $messages['kk-cyrl'] = array(
 	'betafeatures-discuss-betafeatures' => 'Пікір қалдыру',
 );
 
+/** Khmer (ភាសាខ្មែរ)
+ * @author គីមស៊្រុន
+ */
+$messages['km'] = array(
+	'mw-ui-feature-discuss' => 'ការពិភាក្សា',
+	'mw-ui-feature-info' => 'ព័ត៌មាន',
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|អ្នកប្រើប្រាស់ម្នាក់|អ្នកប្រើប្រាស់ចំនួន $1 នាក់|0=គ្មានអ្នកប្រើប្រាស់ណាម្នាក់}} បានបើកប្រើមុខងារនេះទេ។',
+	'mw-ui-feature-requirements-betafeatures' => 'មុខងារនេះត្រូវការអោយបើកប្រើ {{PLURAL:$1|មុខងារ|មុខងារ}} ដូចខាងក្រោម៖',
+	'mw-ui-feature-requirements-browser' => '{{PLURAL:$1|ឧបការណ៍រាវរកអ៊ីនធើណិត|ឧបការណ៍រាវរកអ៊ីនធើណិត}} ខាងក្រោមមិនអាចប្រើបានទេ៖',
+	'mw-ui-feature-requirements-javascript' => 'មុខងារនេះត្រូវការ JavaScript ។',
+	'mw-ui-feature-requirements-skins' => 'មុខងារនេះដំណើរការតែជាមួយ {{PLURAL:$1|សំបកខាងក្រោម|សំបកខាងក្រោម}}ប៉ុណ្ណោះ៖',
+	'prefs-betafeatures' => 'មុខងារពិសេសបេតា',
+	'betafeatures-toplink' => 'បេតា',
+	'betafeatures-auto-enroll' => 'បើកប្រើមុខងារបេតាថ្មីៗទាំងអស់ដោយស្វ័យប្រវត្តិ',
+	'betafeatures-about-betafeatures' => 'អំពីមុខងារពិសេសបេតា',
+	'betafeatures-discuss-betafeatures' => 'ផ្ដល់​មតិ​កែ​លម្អ',
+	'betafeatures-extension-type' => 'មុខងារពិសេសបេតា',
+);
+
 /** Korean (한국어)
  * @author AlexPark
  * @author Hym411
@@ -981,6 +1002,13 @@ $messages['lb'] = array(
  */
 $messages['lt'] = array(
 	'betafeatures-toplink' => 'Beta Funkcijos', # Fuzzy
+);
+
+/** Malagasy (Malagasy)
+ * @author Jagwar
+ */
+$messages['mg'] = array(
+	'betafeatures-extension-type' => 'Fitaovana beta',
 );
 
 /** Macedonian (македонски)
@@ -1356,6 +1384,7 @@ $messages['szl'] = array(
 );
 
 /** Telugu (తెలుగు)
+ * @author Chaduvari
  * @author Ravichandra
  * @author Veeven
  * @author Visdaviva
@@ -1366,9 +1395,10 @@ $messages['te'] = array(
 	'mw-ui-feature-requirements-javascript' => 'ఈ సౌలభ్యానికి జావాస్క్రిప్టు కావాలి.',
 	'prefs-betafeatures' => 'బీటా సౌలభ్యాలు',
 	'betafeatures-toplink' => 'బీటా',
+	'betafeatures-auto-enroll' => 'అన్నీ బీటా సౌలభ్యాలు వాటంతట అవే చేతనం కావాలి',
 	'betafeatures-about-betafeatures' => 'బీటా సౌలభ్యాల గురించి',
 	'betafeatures-discuss-betafeatures' => 'సూచనలివ్వండి',
-	'betafeatures-extension-type' => 'బీటా స్వరూపములు',
+	'betafeatures-extension-type' => 'బీటా విశేషాలు',
 );
 
 /** Turkish (Türkçe)
