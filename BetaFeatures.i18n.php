@@ -1320,6 +1320,7 @@ $messages['sl'] = array(
 	'betafeatures-tooltip' => 'Predstavljamo Betamožnosti! Novi razdelek v nastavitvah vam omogoča preizkušanje in posredovanje povratnih informacij o novih možnostih, preden jih uveljavimo kot privzeto vedenje. Poskusite nekaj novega!',
 	'betafeatures-about-betafeatures' => 'O Betamožnostih',
 	'betafeatures-discuss-betafeatures' => 'Pustite povratne informacije',
+	'betafeatures-extension-type' => 'Preizkusne funkcije',
 );
 
 /** Serbian (Cyrillic script) (српски (ћирилица)‎)
@@ -1334,6 +1335,7 @@ $messages['sr-ec'] = array(
 	'betafeatures-auto-enroll' => 'Аутоматски укључи бета могућности.',
 	'betafeatures-about-betafeatures' => 'О бета могућностима',
 	'betafeatures-discuss-betafeatures' => 'Повратне информације',
+	'betafeatures-extension-type' => 'Бета могућности',
 );
 
 /** Serbian (Latin script) (srpski (latinica)‎)
