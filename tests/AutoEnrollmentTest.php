@@ -72,7 +72,7 @@ class AutoEnrollmentTest extends MediaWikiTestCase {
 			),
 
 			array(
-				'beta-feature-auto-enroll',
+				'betafeatures-auto-enroll',
 				HTMLFeatureField::OPTION_ENABLED,
 				'unittest-ft1',
 				HTMLFeatureField::OPTION_ENABLED,
@@ -112,7 +112,7 @@ class AutoEnrollmentTest extends MediaWikiTestCase {
 			),
 
 			array(
-				'beta-feature-auto-enroll',
+				'betafeatures-auto-enroll',
 				HTMLFeatureField::OPTION_ENABLED,
 				'unittest-ft2',
 				HTMLFeatureField::OPTION_ENABLED,
