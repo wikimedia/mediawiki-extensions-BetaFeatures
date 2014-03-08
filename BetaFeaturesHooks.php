@@ -146,6 +146,8 @@ class BetaFeaturesHooks {
 	 * @throws BetaFeaturesMissingFieldException
 	 */
 	public static function getPreferences( User $user, array &$prefs ) {
+		global $wgBetaFeaturesWhitelist;
+
 		$betaPrefs = array();
 		$depHooks = array();
 
@@ -218,7 +220,12 @@ class BetaFeaturesHooks {
 			if ( isset( $info['dependent'] ) && $info['dependent'] === true ) {
 				$success = true;
 
-				if ( isset( $depHooks[$key] ) ) {
+				if (
+						is_array( $wgBetaFeaturesWhitelist ) &&
+						!in_array( $key, $wgBetaFeaturesWhitelist )
+					) {
+					$success = false;
+				} elseif ( isset( $depHooks[$key] ) ) {
 					$success = wfRunHooks( $depHooks[$key] );
 				}
 

@@ -89,3 +89,13 @@ $wgExtensionCredits['other'][] = array(
 	),
 	'url' => 'https://mediawiki.org/wiki/Extension:BetaFeatures',
 );
+
+/**
+ * If set, a flat array of named registrant Beta Feature hooks which will be
+ * loaded, with all others ignored for display of preferences purposes. Keys
+ * are the relevant preferences' names.
+ *
+ * @var array|null Whitelist of hooks to allow
+ * @example [ 'visualeditor-enable', 'betafeatures-vector-typography-update' ]
+ */
+$wgBetaFeaturesWhitelist = null;
