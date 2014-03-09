@@ -458,6 +458,7 @@ $messages['eo'] = array(
  * @author Benfutbol10
  * @author Fitoschido
  * @author Ovruni
+ * @author Sporeunai
  * @author VegaDark
  * @author Vivaelcelta
  */
@@ -477,6 +478,7 @@ $messages['es'] = array(
 	'betafeatures-tooltip' => 'Te presentamos las funciones en pruebas. Esta sección permite probar y evaluar funcionalidades nuevas antes de que las activemos para todos.',
 	'betafeatures-about-betafeatures' => 'Acerca de las funciones en pruebas',
 	'betafeatures-discuss-betafeatures' => 'Dejar comentarios',
+	'betafeatures-extension-type' => 'Funciones Beta',
 );
 
 /** Estonian (eesti)
@@ -1104,6 +1106,7 @@ $messages['nb'] = array(
 	'betafeatures-tooltip' => 'Vi introduserer betafunksjoner! Denne nye innstillingsseksjonen lar deg teste og gi tilbakemelding på nye funksjoner før vi lanserer dem som standardfunksjoner. Prøv noe nytt nå!',
 	'betafeatures-about-betafeatures' => 'Om betafunksjoner',
 	'betafeatures-discuss-betafeatures' => 'Gi tilbakemelding',
+	'betafeatures-extension-type' => 'Betafunksjoner',
 );
 
 /** Dutch (Nederlands)
@@ -1333,6 +1336,7 @@ $messages['sr-ec'] = array(
 	'prefs-betafeatures' => 'Бета могућности',
 	'betafeatures-toplink' => 'Бета могућности',
 	'betafeatures-auto-enroll' => 'Аутоматски укључи бета могућности.',
+	'betafeatures-section-desc' => 'Ово {{PLURAL:$1|је нова могућност|су нове могућности}} на пројекту {{SITENAME}}. Молимо {{PLURAL:$1|испробајте је|испробајте их}} и дајте нам ваше мишљење како да {{PLURAL:$1|је|их}} побољшамо.',
 	'betafeatures-about-betafeatures' => 'О бета могућностима',
 	'betafeatures-discuss-betafeatures' => 'Повратне информације',
 	'betafeatures-extension-type' => 'Бета могућности',
@@ -1348,6 +1352,7 @@ $messages['sr-el'] = array(
 	'prefs-betafeatures' => 'Beta mogućnosti',
 	'betafeatures-toplink' => 'Beta mogućnosti',
 	'betafeatures-auto-enroll' => 'Automatski uključi beta mogućnosti.',
+	'betafeatures-section-desc' => 'Ovo {{PLURAL:$1|je nova mogućnost|su nove mogućnosti}} na projektu {{SITENAME}}. Molimo {{PLURAL:$1|isprobajte je|isprobajte ih}} i dajte nam vaše mišljenje kako da {{PLURAL:$1|je|ih}} poboljšamo.',
 	'betafeatures-about-betafeatures' => 'O beta mogućnostima',
 	'betafeatures-discuss-betafeatures' => 'Povratne informacije',
 );
