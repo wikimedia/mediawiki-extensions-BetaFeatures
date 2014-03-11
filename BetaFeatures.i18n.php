@@ -478,7 +478,7 @@ $messages['es'] = array(
 	'betafeatures-tooltip' => 'Te presentamos las funciones en pruebas. Esta sección permite probar y evaluar funcionalidades nuevas antes de que las activemos para todos.',
 	'betafeatures-about-betafeatures' => 'Acerca de las funciones en pruebas',
 	'betafeatures-discuss-betafeatures' => 'Dejar comentarios',
-	'betafeatures-extension-type' => 'Funciones Beta',
+	'betafeatures-extension-type' => 'Funciones en pruebas',
 );
 
 /** Estonian (eesti)
@@ -865,8 +865,11 @@ $messages['ja'] = array(
 
 /** Georgian (ქართული)
  * @author David1010
+ * @author Otogi
  */
 $messages['ka'] = array(
+	'mw-ui-feature-discuss' => 'განხილვა',
+	'mw-ui-feature-info' => 'ინფორმაცია',
 	'mw-ui-feature-user-count' => 'ამ შესაძლებლობას {{PLURAL:$1|ერთი მომხმარებელი|$1 მომხმარებელი|0=არავინ არ}} იყენებს.',
 	'prefs-betafeatures' => 'ბეტა შესაძლებლობები',
 	'betafeatures-toplink' => 'ბეტა',
