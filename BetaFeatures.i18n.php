@@ -1144,6 +1144,7 @@ $messages['nl'] = array(
 $messages['oc'] = array(
 	'mw-ui-feature-discuss' => 'discussion',
 	'mw-ui-feature-info' => 'informacion',
+	'mw-ui-feature-user-count' => "{{PLURAL:$1|Un utilizaire a|$1 utilizaires an|0=Cap d'utilizaire a pas}} activat aquesta foncionalitat.",
 	'prefs-betafeatures' => 'Foncionalitats bèta',
 	'betafeatures-desc' => 'Daissa l’utilizaire activar o desactivar las foncionalitats sus aqueste wiki que son pas encara prèstas per èsser generalizadas',
 	'betafeatures-toplink' => 'Bèta',
@@ -1308,6 +1309,25 @@ $messages['sa'] = array(
  */
 $messages['sco'] = array(
 	'betafeatures-extension-type' => 'Beta features',
+);
+
+/** Slovak (slovenčina)
+ * @author Sudo77(new)
+ */
+$messages['sk'] = array(
+	'mw-ui-feature-discuss' => 'diskusia',
+	'mw-ui-feature-info' => 'informácie',
+	'mw-ui-feature-user-count' => 'Túto funkciu si {{PLURAL:$1|zapol jeden redaktor|zapli $1 redaktori|zaplo $1 redaktorov|0=nikto nezapol}}.',
+	'mw-ui-feature-requirements-betafeatures' => 'Táto funkcia vyžaduje zapnutie {{PLURAL:$1|funkcie|funkcií}}:',
+	'mw-ui-feature-requirements-browser' => 'Tieto {{PLURAL:$1|prehliadač|prehliadače}} nie sú podporované:',
+	'mw-ui-feature-requirements-javascript' => 'Táto funkcia vyžaduje JavaScript.',
+	'prefs-betafeatures' => 'Beta funkcie',
+	'betafeatures-desc' => 'Dovoľuje redaktorovi povoliť alebo zakázať funkcie, ktoré ešte nie sú úplne vyladené.',
+	'betafeatures-toplink' => 'Beta',
+	'betafeatures-auto-enroll' => 'Automaticky zapnúť všetky nové beta funkcie',
+	'betafeatures-about-betafeatures' => 'O beta funkciách',
+	'betafeatures-discuss-betafeatures' => 'Zanechať spätnú väzbu',
+	'betafeatures-extension-type' => 'Beta funkcie',
 );
 
 /** Slovenian (slovenščina)
