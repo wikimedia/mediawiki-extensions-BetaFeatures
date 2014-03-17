@@ -26,6 +26,7 @@
 @charset "UTF-8";
 /* line 102, sourcefiles/scss/components/default/_forms.scss */
 .client-js .mw-ui-styled-checkbox-label {
+	background-color: #fff;
 	cursor: pointer;
 	display: inline-block;
 	float: left;
