@@ -52,11 +52,11 @@
 	/* SVG support using a transparent gradient to guarantee cross-browser
 	 * compatibility (browsers able to understand gradient syntax support also SVG).
 	 * http://pauginer.tumblr.com/post/36614680636/invisible-gradient-technique */
-	background-image: url(../img/form-icon/checked.png);
+	background-image: url(images/checked.png);
 	/* @embed */
-	background-image: -webkit-linear-gradient(transparent, transparent), url(../img/form-icon/checked.svg);
+	background-image: -webkit-linear-gradient(transparent, transparent), url(images/checked.svg);
 	/* @embed */
-	background-image: linear-gradient(transparent, transparent), url(../img/form-icon/checked.svg);
+	background-image: linear-gradient(transparent, transparent), url(images/checked.svg);
 	background-repeat: no-repeat;
 }
 
@@ -147,22 +147,22 @@ table.mw-htmlform-container {
 	/* SVG support using a transparent gradient to guarantee cross-browser
 	 * compatibility (browsers able to understand gradient syntax support also SVG).
 	 * http://pauginer.tumblr.com/post/36614680636/invisible-gradient-technique */
-	background-image: url(../img/form-icon/feature-discussion.png);
+	background-image: url(images/feature-discussion.png);
 	/* @embed */
-	background-image: -webkit-linear-gradient(transparent, transparent), url(../img/form-icon/feature-discussion.svg);
+	background-image: -webkit-linear-gradient(transparent, transparent), url(images/feature-discussion.svg);
 	/* @embed */
-	background-image: linear-gradient(transparent, transparent), url(../img/form-icon/feature-discussion.svg);
+	background-image: linear-gradient(transparent, transparent), url(images/feature-discussion.svg);
 }
 
 .mw-ui-feature-info-link {
 	/* SVG support using a transparent gradient to guarantee cross-browser
 	 * compatibility (browsers able to understand gradient syntax support also SVG).
 	 * http://pauginer.tumblr.com/post/36614680636/invisible-gradient-technique */
-	background-image: url(../img/form-icon/feature-information.png);
+	background-image: url(images/feature-information.png);
 	/* @embed */
-	background-image: -webkit-linear-gradient(transparent, transparent), url(../img/form-icon/feature-information.svg);
+	background-image: -webkit-linear-gradient(transparent, transparent), url(images/feature-information.svg);
 	/* @embed */
-	background-image: linear-gradient(transparent, transparent), url(../img/form-icon/feature-information.svg);
+	background-image: linear-gradient(transparent, transparent), url(images/feature-information.svg);
 	padding-left: 46px;
 }
 

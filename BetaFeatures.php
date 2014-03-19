@@ -47,17 +47,17 @@ $wgHooks['ExtensionTypes'][] = 'BetaFeaturesHooks::onExtensionTypes';
 $wgJobClasses['updateBetaFeaturesUserCounts'] = 'UpdateBetaFeatureUserCountsJob';
 
 $moduleInfo = array(
-	'localBasePath' => __DIR__,
-	'remoteExtPath' => 'BetaFeatures',
+	'localBasePath' => __DIR__ . '/resources',
+	'remoteExtPath' => 'BetaFeatures/resources',
 );
 
 $wgResourceModules['ext.betaFeatures'] = array(
 	'scripts' => array(
-		'js/betafeatures.js',
-		'js/mediawiki.ui.checkbox.js',
+		'betafeatures.js',
+		'mediawiki.ui.checkbox.js',
 	),
 	'styles' => array(
-		'css/betafeatures.css',
+		'betafeatures.css',
 	),
 	'dependencies' => array(
 		'jquery.client',
@@ -67,7 +67,7 @@ $wgResourceModules['ext.betaFeatures'] = array(
 
 $wgResourceModules['ext.betaFeatures.popup'] = array(
 	'scripts' => array(
-		'js/ext.betaFeatures.popup.js',
+		'ext.betaFeatures.popup.js',
 	),
 
 	'dependencies' => array(
