@@ -48,7 +48,15 @@
 }
 /* line 117, sourcefiles/scss/components/default/_forms.scss */
 .client-js .mw-ui-styled-checkbox-label.mw-ui-checked {
-	background: url("../img/form-icon/checked.svg") no-repeat;
+	/* SVG support using a transparent gradient to guarantee cross-browser
+	 * compatibility (browsers able to understand gradient syntax support also SVG).
+	 * http://pauginer.tumblr.com/post/36614680636/invisible-gradient-technique */
+	background-image: url(../img/form-icon/checked.png);
+	/* @embed */
+	background-image: -webkit-linear-gradient(transparent, transparent), url(../img/form-icon/checked.svg);
+	/* @embed */
+	background-image: linear-gradient(transparent, transparent), url(../img/form-icon/checked.svg);
+	background-repeat: no-repeat;
 }
 /* line 121, sourcefiles/scss/components/default/_forms.scss */
 .client-js .mw-ui-styled-checkbox-label.mw-ui-disabled {
@@ -62,7 +70,7 @@
 /* line 132, sourcefiles/scss/components/default/_forms.scss */
 table.mw-htmlform-container {
 	border-collapse: separate;
-	border-spacing: 0px 4px;
+	border-spacing: 0 4px;
 }
 
 /* line 137, sourcefiles/scss/components/default/_forms.scss */
@@ -137,12 +145,19 @@ table.mw-htmlform-container {
 }
 
 .mw-ui-feature-discussion-link {
+	/* SVG support using a transparent gradient to guarantee cross-browser
+	 * compatibility (browsers able to understand gradient syntax support also SVG).
+	 * http://pauginer.tumblr.com/post/36614680636/invisible-gradient-technique */
+	background-image: url(../img/form-icon/feature-discussion.png);
+	/* @embed */
+	background-image: -webkit-linear-gradient(transparent, transparent), url(../img/form-icon/feature-discussion.svg);
+	/* @embed */
+	background-image: linear-gradient(transparent, transparent), url(../img/form-icon/feature-discussion.svg);
 	padding-left: 46px;
-	background-image: url('../img/form-icon/feature-discussion.svg');
 }
 
 .mw-ui-feature-info-link {
-	background-image: url('../img/form-icon/feature-information.png');
+	background-image: url(../img/form-icon/feature-information.png);
 }
 
 /* line 219, sourcefiles/scss/components/default/_forms.scss */
