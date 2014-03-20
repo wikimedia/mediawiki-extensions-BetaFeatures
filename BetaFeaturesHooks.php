@@ -205,7 +205,7 @@ class BetaFeaturesHooks {
 		// coming soon to a wiki very near you.
 		wfRunHooks( 'GetBetaFeatureDependencyHooks', array( &$depHooks ) );
 
-		$autoEnrollAll = $user->getOption( 'beta-feature-auto-enroll' ) === HTMLFeatureField::OPTION_ENABLED;
+		$autoEnrollAll = $user->getOption( 'betafeatures-auto-enroll' ) === HTMLFeatureField::OPTION_ENABLED;
 		$autoEnroll = array();
 
 		foreach ( $betaPrefs as $key => $info ) {
