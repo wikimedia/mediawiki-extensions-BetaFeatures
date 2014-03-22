@@ -414,6 +414,7 @@ $messages['de'] = array(
  */
 $messages['diq'] = array(
 	'mw-ui-feature-discuss' => 'werênayış',
+	'mw-ui-feature-info' => 'melumat',
 	'prefs-betafeatures' => 'Xaceta beta',
 	'betafeatures-toplink' => 'Beta',
 	'betafeatures-section-desc' => 'Qandé {{SITENAME}} {{PLURAL:$1|Ğısusiyeta newi|tay ğısusiyete newey}} este. Na dezger bıcerbné u maya ena {{PLURAL:$1|ğısusiyet|ğısusiyetan}} peyd bırşeé maré. Mayv peyd rıştan de şmaya  na {{PLURAL:$1|ğısusiyet|ğısusiyetan}} vırazem.',
@@ -628,6 +629,20 @@ $messages['gom'] = array(
  */
 $messages['gom-latn'] = array(
 	'betafeatures-toplink' => 'Beta',
+);
+
+/** Gujarati (ગુજરાતી)
+ * @author KartikMistry
+ */
+$messages['gu'] = array(
+	'mw-ui-feature-discuss' => 'ચર્ચા',
+	'mw-ui-feature-info' => 'માહિતી',
+	'prefs-betafeatures' => 'બીટા લક્ષણો',
+	'betafeatures-toplink' => 'બીટા',
+	'betafeatures-auto-enroll' => 'બધાં નવાં બીટા લક્ષણો આપમેળે સક્રિય કરો',
+	'betafeatures-about-betafeatures' => 'બીટા લક્ષણો વિશે',
+	'betafeatures-discuss-betafeatures' => 'પ્રતિભાવ આપો',
+	'betafeatures-extension-type' => 'બીટા લક્ષણો',
 );
 
 /** Hebrew (עברית)
