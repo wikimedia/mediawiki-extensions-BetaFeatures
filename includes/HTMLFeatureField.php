@@ -228,12 +228,13 @@ class HTMLFeatureField extends NewHTMLCheckField {
 		) );
 
 		if ( isset( $this->mParams['screenshot'] ) ) {
-            if ( is_array( $this->mParams['screenshot'] ) ) {
-                // Array will have 'ltr' and 'rtl' keys
-                $screenshot = $this->mParams['screenshot'][$this->mParent->getLanguage()->getDir()];
-            } else {
-                $screenshot = $this->mParams['screenshot'];
-            }
+			if ( is_array( $this->mParams['screenshot'] ) ) {
+				// Array will have 'ltr' and 'rtl' keys
+				$screenshot = $this->mParams['screenshot'][$this->mParent->getLanguage()->getDir()];
+			} else {
+				$screenshot = $this->mParams['screenshot'];
+			}
+
 			$html .= Html::element( 'img', array(
 				'src' => $screenshot,
 				'class' => 'mw-ui-feature-screenshot',
