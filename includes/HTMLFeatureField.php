@@ -228,11 +228,20 @@ class HTMLFeatureField extends NewHTMLCheckField {
 		) );
 
 		if ( isset( $this->mParams['screenshot'] ) ) {
-			if ( is_array( $this->mParams['screenshot'] ) ) {
-				// Array will have 'ltr' and 'rtl' keys
-				$screenshot = $this->mParams['screenshot'][$this->mParent->getLanguage()->getDir()];
-			} else {
-				$screenshot = $this->mParams['screenshot'];
+			$screenshot = $this->mParams['screenshot'];
+
+			// The screenshot parameter is either a string with a filename
+			// or an array that specifies a screenshot for each language,
+			// and default screenshots for rtl and ltr languages
+			if ( is_array( $screenshot ) ) {
+				$language = $this->mParent->getLanguage();
+				$langCode = $language->getCode();
+
+				if ( array_key_exists( $langCode, $screenshot ) ) {
+					$screenshot = $screenshot[$langCode];
+				} else {
+					$screenshot = $screenshot[$language->getDir()];
+				}
 			}
 
 			$html .= Html::element( 'img', array(
