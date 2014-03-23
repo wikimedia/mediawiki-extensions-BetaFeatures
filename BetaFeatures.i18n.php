@@ -1160,9 +1160,11 @@ $messages['oc'] = array(
 	'mw-ui-feature-discuss' => 'discussion',
 	'mw-ui-feature-info' => 'informacion',
 	'mw-ui-feature-user-count' => "{{PLURAL:$1|Un utilizaire a|$1 utilizaires an|0=Cap d'utilizaire a pas}} activat aquesta foncionalitat.",
+	'mw-ui-feature-requirements-javascript' => 'Aquesta foncionalitat necessita JavaScript.',
 	'prefs-betafeatures' => 'Foncionalitats bèta',
 	'betafeatures-desc' => 'Daissa l’utilizaire activar o desactivar las foncionalitats sus aqueste wiki que son pas encara prèstas per èsser generalizadas',
 	'betafeatures-toplink' => 'Bèta',
+	'betafeatures-auto-enroll' => 'Activar automaticament totas las novèlas foncionalitats en bèta',
 	'betafeatures-about-betafeatures' => 'A prepaus de las foncionalitats en bèta',
 	'betafeatures-discuss-betafeatures' => 'Daissar un comentari',
 	'betafeatures-extension-type' => 'Foncionalitats bèta',
@@ -1470,6 +1472,27 @@ $messages['te'] = array(
 	'betafeatures-about-betafeatures' => 'బీటా సౌలభ్యాల గురించి',
 	'betafeatures-discuss-betafeatures' => 'సూచనలివ్వండి',
 	'betafeatures-extension-type' => 'బీటా విశేషాలు',
+);
+
+/** Thai (ไทย)
+ * @author Horus
+ */
+$messages['th'] = array(
+	'mw-ui-feature-discuss' => 'อภิปราย',
+	'mw-ui-feature-info' => 'สารสนเทศ',
+	'mw-ui-feature-user-count' => '{{PLURAL:$1|ผู้ใช้ $1 คน|ผู้ใช้ $1 คน|0=ไม่มีผู้ใช้}}เปิดใช้งานคุณลักษณะนี้',
+	'mw-ui-feature-requirements-betafeatures' => 'คุณลักษณะนี้ต้องการ{{PLURAL:$1|คุณลักษณะ| $1 คุณลักษณะ}}ต่อไปนี้จึงจะเปิดใช้งานได้:',
+	'mw-ui-feature-requirements-browser' => '{{PLURAL:$1|เบราเซอร์}}ต่อไปนี้ไม่รองรับ:',
+	'mw-ui-feature-requirements-javascript' => 'คุณลักษณะนี้ต้องการจาวาสคริปต์',
+	'mw-ui-feature-requirements-skins' => 'คุณลักษณะนี้ทำงานได้เฉพาะกับ{{PLURAL:$1|สกินต่อไปนี้| $1 สกินต่อไปนี้}}:',
+	'prefs-betafeatures' => 'คุณลักษณะระยะทดสอบ',
+	'betafeatures-desc' => 'ให้ผู้ใช้เปิดใช้งานหรือปิดใช้งานคุณลักษณะบนวิกินี้ที่ยังไม่พร้อมให้มีผู้ใช้งานจำนวนมาก',
+	'betafeatures-toplink' => 'ระยะทดสอบ',
+	'betafeatures-auto-enroll' => 'เปิดใช้งานคุณลักษณะระยะทดสอบใหม่ทั้งหมดอัตโนมัติ',
+	'betafeatures-section-desc' => 'นี่คือ{{PLURAL:$1|คุณลักษณะ}}ใหม่ที่เรากำลังพิจารณาแก่ {{SITENAME}} โปรดลองใช้คุณลักษณะนี้และออกความเห็นเพื่อที่เราจะได้ปรับปรุงตามผลป้อนกลับของคุณ',
+	'betafeatures-about-betafeatures' => 'เกี่ยวกับคุณลักษณะระยะทดสอบ',
+	'betafeatures-discuss-betafeatures' => 'ส่งผลป้อนกลับ',
+	'betafeatures-extension-type' => 'คุณลักษณะรุ่นทดสอบ',
 );
 
 /** Turkish (Türkçe)
