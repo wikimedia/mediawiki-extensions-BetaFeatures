@@ -34,7 +34,7 @@ $wgAutoloadClasses['ApiQueryBetaFeatures'] = __DIR__ . '/includes/ApiListBetaFea
 
 $wgAPIListModules['betafeatures'] = 'ApiQueryBetaFeatures';
 
-$wgExtensionMessagesFiles['BetaFeatures'] = __DIR__ . '/BetaFeatures.i18n.php';
+$wgMessagesDirs['BetaFeatures'] = __DIR__ . '/i18n';
 
 $wgHooks['UserSaveOptions'][] = 'BetaFeaturesHooks::updateUserCounts';
 $wgHooks['GetPreferences'][] = 'BetaFeaturesHooks::getPreferences';

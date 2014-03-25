@@ -1,0 +1,23 @@
+{
+    "@metadata": {
+        "authors": [
+            "Michawiki"
+        ]
+    },
+    "mw-ui-feature-discuss": "diskusija",
+    "mw-ui-feature-info": "Informacije",
+    "mw-ui-feature-user-count": "{{PLURAL:$1|Jedyn wužiwar je|$1 wužiwarjej staj|$1 wužiwarjo su||0=Žadyn wužiwar je}} tutu funkciju {{PLURAL:$1|zmóžnił|zmóžniłoj|zmóžnili|zmóžnił}}",
+    "mw-ui-feature-requirements-betafeatures": "Tuta funkcija wužaduje sej zmóžnjenje {{PLURAL:$1|slědowaceje funkcije|slědowaceju funkcijow|slědowacych funkcijow}}",
+    "mw-ui-feature-requirements-browser": "{{PLURAL:$1|Slědowacy wobhladowak so njepodpěruje|Slědowacej wobhladowakaj so njepodpěrujetej|Slědowace wobhladowaki so njepodpěruja}}",
+    "mw-ui-feature-requirements-javascript": "Tuta funkcija sej JavaScript wužaduje.",
+    "mw-ui-feature-requirements-skins": "Tuta funkcija jenož ze {{PLURAL:$1|slědowacej drastu|slědowacymaj drastomaj|slědowacymi drastami}} funguje:",
+    "prefs-betafeatures": "Betafunkcije",
+    "betafeatures-desc": "Dowola wužiwarjej, funkcije na wikiju zmóžnić abo znjemóžnić, kotrež su hišće we wuwiću.",
+    "betafeatures-toplink": "Beta",
+    "betafeatures-auto-enroll": "Wšě nowe betafunkcije awtomatisce zmóžnić",
+    "betafeatures-section-desc": "Tu {{PLURAL:$1|je nowa funkcija, kotruž|někotre funkcije, kotrež}} za {{SITENAME}} planujemy. Prošu wuprobuj {{PLURAL:$1|ju|je}} a pósćel nam swoje měnjenje, zo my móhli {{PLURAL:$1|ju|je}} na zakładźe twojich komentarow polěpšić.",
+    "betafeatures-tooltip": "Předstajenje betafunkcijow! Tute nowe nastajenja dadźa tebi móžnosć, nowe funkcije testować a wo nich twoje měnjenje sposrědkować, prjedy hač je jako standard zmóžnimy. Wuprobuj nětko nowe funkcije!",
+    "betafeatures-about-betafeatures": "Wo betafunkcijach",
+    "betafeatures-discuss-betafeatures": "Komentar zawostajić",
+    "betafeatures-extension-type": "Betafunkcije"
+}

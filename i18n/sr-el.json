@@ -1,0 +1,16 @@
+{
+    "@metadata": {
+        "authors": [
+            "Milicevic01"
+        ]
+    },
+    "mw-ui-feature-discuss": "rasprava",
+    "mw-ui-feature-info": "informacije",
+    "mw-ui-feature-user-count": "{{PLURAL:$1|Jedan korisnik je uključio ovu mogućnost|Ovu mogućnost je uključilo $1 korisnika|0=Nijedan korisnik nije uključio ovu mogućnost.}}",
+    "prefs-betafeatures": "Beta mogućnosti",
+    "betafeatures-toplink": "Beta mogućnosti",
+    "betafeatures-auto-enroll": "Automatski uključi beta mogućnosti.",
+    "betafeatures-section-desc": "Ovo {{PLURAL:$1|je nova mogućnost|su nove mogućnosti}} na projektu {{SITENAME}}. Molimo {{PLURAL:$1|isprobajte je|isprobajte ih}} i dajte nam vaše mišljenje kako da {{PLURAL:$1|je|ih}} poboljšamo.",
+    "betafeatures-about-betafeatures": "O beta mogućnostima",
+    "betafeatures-discuss-betafeatures": "Povratne informacije"
+}

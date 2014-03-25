@@ -1,0 +1,28 @@
+{
+    "@metadata": {
+        "authors": [
+            "Benfutbol10",
+            "Fitoschido",
+            "Ovruni",
+            "Sporeunai",
+            "VegaDark",
+            "Vivaelcelta"
+        ]
+    },
+    "mw-ui-feature-discuss": "discusión",
+    "mw-ui-feature-info": "información",
+    "mw-ui-feature-user-count": "{{PLURAL:$1|Un usuario ha|$1 usuarios han}} activado esta función.",
+    "mw-ui-feature-requirements-betafeatures": "Esta funcionalidad requiere {{PLURAL:$1|la siguiente funcionalidad|las siguientes funcionalidades}} para ser activada:",
+    "mw-ui-feature-requirements-browser": "{{PLURAL:$1|El siguiente navegador no es compatible|Los siguientes navegadores no son compatibles}}:",
+    "mw-ui-feature-requirements-javascript": "Esta funcionalidad requiere JavaScript.",
+    "mw-ui-feature-requirements-skins": "Esta funcionalidad requiere que utilices {{PLURAL:$1|la siguiente apariencia|una de las siguientes apariencias}}:",
+    "prefs-betafeatures": "Funciones en pruebas",
+    "betafeatures-desc": "Permite al usuario activar o desactivar funciones del wiki que todavía no están listas",
+    "betafeatures-toplink": "Beta",
+    "betafeatures-auto-enroll": "Activar automáticamente las funciones en pruebas nuevas",
+    "betafeatures-section-desc": "Aquí te presentamos {{PLURAL:$1|una función nueva|algunas funciones nuevas}} que estamos considerando para {{SITENAME}}. {{PLURAL:$1|Pruébala|Pruébalas}} y danos tus comentarios, así podremos {{PLURAL:$1|mejorarla|mejorarlas}} con base a tus necesidades.",
+    "betafeatures-tooltip": "Te presentamos las funciones en pruebas. Esta sección permite probar y evaluar funcionalidades nuevas antes de que las activemos para todos.",
+    "betafeatures-about-betafeatures": "Acerca de las funciones en pruebas",
+    "betafeatures-discuss-betafeatures": "Dejar comentarios",
+    "betafeatures-extension-type": "Funciones en pruebas"
+}

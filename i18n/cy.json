@@ -1,0 +1,14 @@
+{
+    "@metadata": {
+        "authors": [
+            "Lloffiwr"
+        ]
+    },
+    "mw-ui-feature-discuss": "sgwrs",
+    "mw-ui-feature-user-count": "{{PLURAL:$1|Nid oes unrhyw ddefnyddiwr|Mae $1 defnyddiwr|Mae $1 ddefnyddiwr|Mae $1 defnyddiwr}} wedi galluogi'r nodwedd hon.",
+    "prefs-betafeatures": "Nodweddion beta",
+    "betafeatures-desc": "Yn galluogi'r defnyddiwr i alluogi nodweddion ar y wici nad ydynt yn barod i'w llwyr fabwysiadu eto, neu i'w hanalluogi.",
+    "betafeatures-toplink": "Beta",
+    "betafeatures-auto-enroll": "Galluogi pob nodwedd beta yn awtomatig",
+    "betafeatures-extension-type": "Nodweddion beta"
+}

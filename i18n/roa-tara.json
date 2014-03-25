@@ -1,0 +1,16 @@
+{
+    "@metadata": {
+        "authors": [
+            "Joetaras"
+        ]
+    },
+    "mw-ui-feature-discuss": "'ngazzamende",
+    "mw-ui-feature-info": "'mbormaziune",
+    "mw-ui-feature-user-count": "{{PLURAL:$1|'Nu utende ave|$1 utinde onne|0=nisciune utende ave}} abbilitate sta funzione.",
+    "prefs-betafeatures": "Funziune de Beta",
+    "betafeatures-desc": "Lasse l'utende a abbilità o disabbilità le funziune sus 'a ucchi ca non ge so angore pronde pa prima vote",
+    "betafeatures-toplink": "Beta",
+    "betafeatures-auto-enroll": "Automaticamende abbilite tutte le funziune beta nove",
+    "betafeatures-section-desc": "Aqquà {{PLURAL:$1|ste 'na funziona nove|stonne cchiù funziune nove}} ca ste considerame pe {{SITENAME}}. Pe piacere pruèvale e danne 'na parere, accussì nuje putime migliorà basannene sus 'a segnalaziona toje.",
+    "betafeatures-discuss-betafeatures": "Lasse 'na segnalazione"
+}

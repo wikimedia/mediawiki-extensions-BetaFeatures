@@ -1,0 +1,20 @@
+{
+    "@metadata": {
+        "authors": [
+            "គីមស៊្រុន"
+        ]
+    },
+    "mw-ui-feature-discuss": "ការពិភាក្សា",
+    "mw-ui-feature-info": "ព័ត៌មាន",
+    "mw-ui-feature-user-count": "{{PLURAL:$1|អ្នកប្រើប្រាស់ម្នាក់|អ្នកប្រើប្រាស់ចំនួន $1 នាក់|0=គ្មានអ្នកប្រើប្រាស់ណាម្នាក់}} បានបើកប្រើមុខងារនេះទេ។",
+    "mw-ui-feature-requirements-betafeatures": "មុខងារនេះត្រូវការអោយបើកប្រើ {{PLURAL:$1|មុខងារ|មុខងារ}} ដូចខាងក្រោម៖",
+    "mw-ui-feature-requirements-browser": "{{PLURAL:$1|ឧបការណ៍រាវរកអ៊ីនធើណិត|ឧបការណ៍រាវរកអ៊ីនធើណិត}} ខាងក្រោមមិនអាចប្រើបានទេ៖",
+    "mw-ui-feature-requirements-javascript": "មុខងារនេះត្រូវការ JavaScript ។",
+    "mw-ui-feature-requirements-skins": "មុខងារនេះដំណើរការតែជាមួយ {{PLURAL:$1|សំបកខាងក្រោម|សំបកខាងក្រោម}}ប៉ុណ្ណោះ៖",
+    "prefs-betafeatures": "មុខងារពិសេសបេតា",
+    "betafeatures-toplink": "បេតា",
+    "betafeatures-auto-enroll": "បើកប្រើមុខងារបេតាថ្មីៗទាំងអស់ដោយស្វ័យប្រវត្តិ",
+    "betafeatures-about-betafeatures": "អំពីមុខងារពិសេសបេតា",
+    "betafeatures-discuss-betafeatures": "ផ្ដល់​មតិ​កែ​លម្អ",
+    "betafeatures-extension-type": "មុខងារពិសេសបេតា"
+}

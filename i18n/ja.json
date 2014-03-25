@@ -1,0 +1,25 @@
+{
+    "@metadata": {
+        "authors": [
+            "Fryed-peach",
+            "Shirayuki",
+            "Whym"
+        ]
+    },
+    "mw-ui-feature-discuss": "議論",
+    "mw-ui-feature-info": "情報",
+    "mw-ui-feature-user-count": "{{PLURAL:$1|$1 人の利用者がこの機能を有効にしています|0=この機能を有効にしている利用者はいません}}。",
+    "mw-ui-feature-requirements-betafeatures": "この機能を使用するには、以下の{{PLURAL:$1|機能}}を有効にする必要があります:",
+    "mw-ui-feature-requirements-browser": "以下の{{PLURAL:$1|ブラウザー}}には対応していません:",
+    "mw-ui-feature-requirements-javascript": "この機能の使用には JavaScript が必要です。",
+    "mw-ui-feature-requirements-skins": "この機能には{{PLURAL:$1|以下の外装|以下の外装のいずれか}}でのみ動作します:",
+    "prefs-betafeatures": "ベータ版機能",
+    "betafeatures-desc": "本番環境のウィキで使用する準備がまだできていない機能について、利用者が有効化/無効化できるようにする",
+    "betafeatures-toplink": "ベータ版",
+    "betafeatures-auto-enroll": "すべてのベータ版機能を自動的に有効にする",
+    "betafeatures-section-desc": "{{SITENAME}}のために検討している{{PLURAL:$1|新しい機能}}があります。お試しの上ご意見をお寄せください。そのフィードバックに基づいて機能を改善します。",
+    "betafeatures-tooltip": "ベータ版機能を紹介します！この個人設定に新しく設けられたセクションでは、新しい機能を既定の動作として採用する前に試験したりフィードバックを送ったりできます。なにか新しいものを試してみましょう！",
+    "betafeatures-about-betafeatures": "ベータ版の機能について",
+    "betafeatures-discuss-betafeatures": "フィードバックを送信",
+    "betafeatures-extension-type": "ベータ版機能"
+}

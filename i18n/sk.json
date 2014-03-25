@@ -1,0 +1,20 @@
+{
+    "@metadata": {
+        "authors": [
+            "Sudo77(new)"
+        ]
+    },
+    "mw-ui-feature-discuss": "diskusia",
+    "mw-ui-feature-info": "informácie",
+    "mw-ui-feature-user-count": "Túto funkciu si {{PLURAL:$1|zapol jeden redaktor|zapli $1 redaktori|zaplo $1 redaktorov|0=nikto nezapol}}.",
+    "mw-ui-feature-requirements-betafeatures": "Táto funkcia vyžaduje zapnutie {{PLURAL:$1|funkcie|funkcií}}:",
+    "mw-ui-feature-requirements-browser": "Tieto {{PLURAL:$1|prehliadač|prehliadače}} nie sú podporované:",
+    "mw-ui-feature-requirements-javascript": "Táto funkcia vyžaduje JavaScript.",
+    "prefs-betafeatures": "Beta funkcie",
+    "betafeatures-desc": "Dovoľuje redaktorovi povoliť alebo zakázať funkcie, ktoré ešte nie sú úplne vyladené.",
+    "betafeatures-toplink": "Beta",
+    "betafeatures-auto-enroll": "Automaticky zapnúť všetky nové beta funkcie",
+    "betafeatures-about-betafeatures": "O beta funkciách",
+    "betafeatures-discuss-betafeatures": "Zanechať spätnú väzbu",
+    "betafeatures-extension-type": "Beta funkcie"
+}

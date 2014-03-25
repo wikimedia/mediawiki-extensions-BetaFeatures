@@ -1,0 +1,23 @@
+{
+    "@metadata": {
+        "authors": [
+            "Metalhead64"
+        ]
+    },
+    "mw-ui-feature-discuss": "Diskussion",
+    "mw-ui-feature-info": "Information",
+    "mw-ui-feature-user-count": "{{PLURAL:$1|Ein Benutzer hat|$1 Benutzer haben|0=Kein Benutzer hat}} diese Funktion aktiviert.",
+    "mw-ui-feature-requirements-betafeatures": "Diese Funktion erfordert die Aktivierung folgender {{PLURAL:$1|Funktion|Funktionen}}:",
+    "mw-ui-feature-requirements-browser": "{{PLURAL:$1|Der folgende Browser wird|Die folgenden Browser werden}} nicht unterstützt:",
+    "mw-ui-feature-requirements-javascript": "Diese Funktion benötigt JavaScript.",
+    "mw-ui-feature-requirements-skins": "Diese Funktion funktioniert nur mit {{PLURAL:$1|der folgenden Benutzeroberfläche|den folgenden Benutzeroberflächen}}:",
+    "prefs-betafeatures": "Beta-Funktionen",
+    "betafeatures-desc": "Ermöglicht Benutzern das Aktivieren oder Deaktivieren von Funktionen in diesem Wiki, die sich noch in der Entwicklung befinden",
+    "betafeatures-toplink": "Beta",
+    "betafeatures-auto-enroll": "Automatisch alle neuen Beta-Funktionen aktivieren",
+    "betafeatures-section-desc": "Hier {{PLURAL:$1|ist eine neue Funktion|sind einige neue Funktionen}}, die wir für {{SITENAME}} planen. Bitte probier sie aus und sag uns deine Meinung. So können wir sie, basierend auf deiner Rückmeldung, verbessern.",
+    "betafeatures-tooltip": "Einführende Betafunktionen! Dieser neue Einstellungsabschnitt ermöglicht dir das Testen und Geben von Rückmeldungen über neue Funktionen, bevor wir sie standardmäßig aktivieren. Probier jetzt einige neue Funktionen aus!",
+    "betafeatures-about-betafeatures": "Über Betafunktionen",
+    "betafeatures-discuss-betafeatures": "Eine Rückmeldung hinterlassen",
+    "betafeatures-extension-type": "Beta-Funktionen"
+}

@@ -1,0 +1,24 @@
+{
+    "@metadata": {
+        "authors": [
+            "Michaelbrabec",
+            "Mormegil"
+        ]
+    },
+    "mw-ui-feature-discuss": "diskuse",
+    "mw-ui-feature-info": "informace",
+    "mw-ui-feature-user-count": "Tuto funkci si {{PLURAL:$1|zapnul jeden uživatel|zapnuli $1 uživatelé|zapnulo $1 uživatelů|0=nikdo nezapnul}}.",
+    "mw-ui-feature-requirements-betafeatures": "Tato funkce vyžaduje k zapnutí následující {{PLURAL:$1|funkci|funkce}}:",
+    "mw-ui-feature-requirements-browser": "Následující {{PLURAL:$1|prohlížeč|prohlížeče}} nejsou podporovány:",
+    "mw-ui-feature-requirements-javascript": "Tato funkce vyžaduje JavaScript.",
+    "mw-ui-feature-requirements-skins": "Tato funkce je k dispozici jen v {{PLURAL:$1|následujícím vzhledu|následujících vzhledech}}:",
+    "prefs-betafeatures": "Betaverze",
+    "betafeatures-desc": "Umožňuje uživatelům zapínat a vypínat nové funkce, které zatím nejsou zcela odladěné",
+    "betafeatures-toplink": "Beta",
+    "betafeatures-auto-enroll": "Automaticky zapnout všechny nové funkce betaverze",
+    "betafeatures-section-desc": "Zde {{PLURAL:$1|je nová funkce, kterou|jsou nové funkce, které}} zvažujeme pro použití na {{grammar:6sg|{{SITENAME}}}}. Vyzkoušejte {{PLURAL:$1|ji|je}} a dejte nám vědět, ať {{PLURAL:$1|ji|je}} na základě vašich názorů můžeme vylepšovat.",
+    "betafeatures-tooltip": "Představujeme funkce z betaverze! Tato nová sekce nastavení vám umožňuje vyzkoušet a okomentovat nové funkce dříve, než je spustíme pro všechny. Vyzkoušejte něco nového!",
+    "betafeatures-about-betafeatures": "O betaverzi",
+    "betafeatures-discuss-betafeatures": "Sdělte svůj názor",
+    "betafeatures-extension-type": "Betaverze"
+}

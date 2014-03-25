@@ -1,0 +1,23 @@
+{
+    "@metadata": {
+        "authors": [
+            "Minh Nguyen"
+        ]
+    },
+    "mw-ui-feature-discuss": "thảo luận",
+    "mw-ui-feature-info": "thông tin",
+    "mw-ui-feature-user-count": "{{PLURAL:$1|Một người dùng đã|$1 người dùng đã|0=Chưa có ai}} bật lên tính năng này.",
+    "mw-ui-feature-requirements-betafeatures": "Tính năng này cần {{PLURAL:$1|tính năng|các tính năng}} sau được kích hoạt:",
+    "mw-ui-feature-requirements-browser": "{{PLURAL:$1|Trình duyệt|Các trình duyệt}} sau không được hỗ trợ:",
+    "mw-ui-feature-requirements-javascript": "Tính năng này cần JavaScript.",
+    "mw-ui-feature-requirements-skins": "Tính năng này chỉ tương thích với {{PLURAL:$1|hình dạng|các hình dạng}} sau:",
+    "prefs-betafeatures": "Tính năng beta",
+    "betafeatures-desc": "Cho phép người dùng bật hay tắt các tính năng wiki chưa ổn định",
+    "betafeatures-toplink": "Beta",
+    "betafeatures-auto-enroll": "Tự động bật lên các tính năng beta mới",
+    "betafeatures-section-desc": "Đây có {{PLURAL:$1|một tính năng|những tính năng}} mới mà chúng tôi đang phát triển cho {{SITENAME}}. Xin vui lòng thử {{PLURAL:$1|nó|chúng}} và gửi cho chúng tôi những ý kiến của bạn để giúp chúng tôi cải thiện {{PLURAL:$1|nó|chúng}}.",
+    "betafeatures-tooltip": "Giới thiệu các tính năng beta! Phần tùy chọn mới này cho phép bạn thử các tính năng mới và gửi phản hồi trước khi chúng trở thành mặc định. Hãy thử những gì mới ngay bây giờ!",
+    "betafeatures-about-betafeatures": "Giới thiệu tính năng beta",
+    "betafeatures-discuss-betafeatures": "Gửi phản hồi",
+    "betafeatures-extension-type": "Tính năng beta"
+}
