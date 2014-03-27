@@ -8,7 +8,7 @@
     },
     "mw-ui-feature-discuss": "discussão",
     "mw-ui-feature-info": "informação",
-    "mw-ui-feature-user-count": "{{PLURAL:$1|Um utilizador|$1 utilizadores}} activaram este recurso.",
+    "mw-ui-feature-user-count": "{{PLURAL:$1|Um utilizador activou|$1 utilizadores activaram}} este recurso.",
     "mw-ui-feature-requirements-betafeatures": "Este recurso necessita {{PLURAL:$1|do seguinte recurso|dos seguintes recursos}} para ser ativado:",
     "mw-ui-feature-requirements-browser": "{{PLURAL:$1|O seguinte navegador não é suportado|Os seguintes navegadores não são suportados}}:",
     "mw-ui-feature-requirements-javascript": "Este recurso requer JavaScript.",

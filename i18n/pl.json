@@ -4,7 +4,8 @@
             "Chrumps",
             "Matma Rex",
             "WTM",
-            "Woytecr"
+            "Woytecr",
+            "Peter Bowman"
         ]
     },
     "mw-ui-feature-discuss": "dyskusja",
@@ -18,7 +19,7 @@
     "betafeatures-desc": "Pozwala użytkownikom włączać lub wyłączać funkcje, które nie są jeszcze w pełni dopracowane",
     "betafeatures-toplink": "Funkcje eksperymentalne",
     "betafeatures-auto-enroll": "Automatycznie włączaj nowe funkcje eksperymentalne",
-    "betafeatures-section-desc": "Masz możliwość przetestowania {{PLURAL:$1|nowej, eksperymentalnych funkcji|nowych, eksperymentalnych funkcji}} przygotowanych dla {{GRAMMAR:D.lp|{{SITENAME}}}}. Prosimy o ich wypróbowanie i przekazanie nam swoich refleksji, abyśmy mogli je ulepszyć bazując na Twoich komentarzach.",
+    "betafeatures-section-desc": "Masz możliwość przetestowania {{PLURAL:$1|nowej, eksperymentalnych funkcji|nowych, eksperymentalnych funkcji}} przygotowanych dla {{GRAMMAR:D.lp|{{SITENAME}}}}. Prosimy o ich wypróbowanie i przekazanie nam swoich refleksji, abyśmy mogli je ulepszyć, bazując na Twoich komentarzach.",
     "betafeatures-tooltip": "Sekcja funkcji eksperymentalnych umożliwia Ci testowanie i wyrażanie opinii na temat nowych funkcji, zanim uruchomimy je jako domyślne zachowanie. Wypróbuj coś nowego!",
     "betafeatures-about-betafeatures": "O funkcjach eksperymentalnych",
     "betafeatures-discuss-betafeatures": "Skomentuj",
