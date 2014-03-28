@@ -3,7 +3,8 @@
         "authors": [
             "Fúlvio",
             "Imperadeiro98",
-            "Vitorvicentevalente"
+            "Vitorvicentevalente",
+            "Cainamarques"
         ]
     },
     "mw-ui-feature-discuss": "discussão",
@@ -21,5 +22,5 @@
     "betafeatures-tooltip": "Apresentamos os Recursos Beta! Esta nova secção das suas preferências permite que teste e comente sobre os novos recursos antes de implementá-los como padrão. Experimente algo novo agora!",
     "betafeatures-about-betafeatures": "Sobre os Recursos Beta",
     "betafeatures-discuss-betafeatures": "Deixe um comentário",
-    "betafeatures-extension-type": "Recursos Beta"
+    "betafeatures-extension-type": "Recursos beta"
 }
