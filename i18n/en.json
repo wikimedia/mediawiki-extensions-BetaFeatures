@@ -19,7 +19,5 @@
     "betafeatures-test-check-field": "blah blah blah",
     "betafeatures-test-feature-field": "This is a test feature - it should not show up.",
     "betafeatures-tooltip": "Introducing Beta Features! This new preferences section lets you test and give feedback about new features before we launch them as default behavior. Try out something new now!",
-    "betafeatures-about-betafeatures": "About Beta Features",
-    "betafeatures-discuss-betafeatures": "Leave feedback",
     "betafeatures-extension-type": "Beta features"
 }

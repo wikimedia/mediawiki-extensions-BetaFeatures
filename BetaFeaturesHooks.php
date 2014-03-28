@@ -160,31 +160,7 @@ class BetaFeaturesHooks {
 
 		$prefs['betafeatures-section-desc'] = array(
 			'class' => 'HTMLTextBlockField',
-			'label' => implode( '', array(
-				Html::element(
-					'p',
-					array(),
-					wfMessage( 'betafeatures-section-desc' )->numParams( count( $betaPrefs ) )->text()
-				),
-
-				Html::rawElement( 'p', array(), implode( ' | ', array(
-					Html::element(
-						'a',
-						array(
-							'href' => '//www.mediawiki.org/wiki/Special:MyLanguage/About_Beta_Features'
-						),
-						wfMessage( 'betafeatures-about-betafeatures' )->text()
-					),
-
-					Html::element(
-						'a',
-						array(
-							'href' => '//www.mediawiki.org/wiki/Talk:About_Beta_Features'
-						),
-						wfMessage( 'betafeatures-discuss-betafeatures' )->text()
-					),
-				) ) ),
-			) ),
+			'label' => wfMessage( 'betafeatures-section-desc' )->numParams( count( $betaPrefs ) )->escaped(),
 			'section' => 'betafeatures',
 		);
 
