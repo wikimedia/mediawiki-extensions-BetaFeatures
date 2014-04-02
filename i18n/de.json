@@ -1,7 +1,8 @@
 {
     "@metadata": {
         "authors": [
-            "Metalhead64"
+            "Metalhead64",
+            "Kghbln"
         ]
     },
     "mw-ui-feature-discuss": "Diskussion",
@@ -15,7 +16,7 @@
     "betafeatures-desc": "Ermöglicht Benutzern das Aktivieren oder Deaktivieren von Funktionen in diesem Wiki, die sich noch in der Entwicklung befinden",
     "betafeatures-toplink": "Beta",
     "betafeatures-auto-enroll": "Automatisch alle neuen Beta-Funktionen aktivieren",
-    "betafeatures-section-desc": "Hier {{PLURAL:$1|ist eine neue Funktion|sind einige neue Funktionen}}, die wir für {{SITENAME}} planen. Bitte probier sie aus und sag uns deine Meinung. So können wir sie, basierend auf deiner Rückmeldung, verbessern.",
+    "betafeatures-section-desc": "Hier {{PLURAL:$1|wird eine neue Funktion|werden einige neue Funktionen}} angezeigt, die wir für {{SITENAME}} planen. Bitte probier sie aus und teile uns deine Meinung mit. So können wir sie, aufgrund deiner Rückmeldung, verbessern.",
     "betafeatures-tooltip": "Einführende Betafunktionen! Dieser neue Einstellungsabschnitt ermöglicht dir das Testen und Geben von Rückmeldungen über neue Funktionen, bevor wir sie standardmäßig aktivieren. Probier jetzt einige neue Funktionen aus!",
     "betafeatures-about-betafeatures": "Über Betafunktionen",
     "betafeatures-discuss-betafeatures": "Eine Rückmeldung hinterlassen",
