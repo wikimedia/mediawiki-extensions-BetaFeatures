@@ -61,7 +61,7 @@ $wgResourceModules['ext.betaFeatures'] = array(
 		'mediawiki.ui.checkbox.js',
 	),
 	'styles' => array(
-		'betafeatures.css',
+		'betafeatures.less',
 	),
 	'dependencies' => array(
 		'jquery.client',
