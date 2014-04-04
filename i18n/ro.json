@@ -18,5 +18,6 @@
     "betafeatures-section-desc": "Mai jos {{PLURAL:$1|se află o caracterisitică nouă|sunt câteva caracteristici noi}} pe care {{PLURAL:$1|o|le}} luăm în calcul la {{SITENAME}}. Încercați-{{PLURAL:$1|o|le}} și spuneți-ne ce credeți, astfel încât să {{PLURAL:$1|o|le}} îmbunătățim pe baza părerilor dumneavoastră.",
     "betafeatures-tooltip": "Vă prezentăm funcțiile beta! Această nouă secțiune a preferințelor vă permite să testați și să comentați noile caracteristici înainte de lansarea lor generală. Încercați chiar acum ceva nou!",
     "betafeatures-about-betafeatures": "Despre opțiunile beta",
-    "betafeatures-discuss-betafeatures": "Lăsați o părere"
+    "betafeatures-discuss-betafeatures": "Lăsați o părere",
+    "betafeatures-extension-type": "Opțiuni beta"
 }
