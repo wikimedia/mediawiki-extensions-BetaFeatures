@@ -7,7 +7,7 @@
     },
     "mw-ui-feature-discuss": "diskuse",
     "mw-ui-feature-info": "informace",
-    "mw-ui-feature-user-count": "Tuto funkci si {{PLURAL:$1|zapnul jeden uživatel|zapnuli $1 uživatelé|zapnulo $1 uživatelů|0=nikdo nezapnul}}.",
+    "mw-ui-feature-user-count": "Tuto funkci {{PLURAL:$1|zkouší jeden uživatel|zkouší $1 uživatelé|zkouší $1 uživatelů|0=nikdo nezkouší}}.",
     "mw-ui-feature-requirements-betafeatures": "Tato funkce vyžaduje k zapnutí následující {{PLURAL:$1|funkci|funkce}}:",
     "mw-ui-feature-requirements-browser": "Následující {{PLURAL:$1|prohlížeč|prohlížeče}} nejsou podporovány:",
     "mw-ui-feature-requirements-javascript": "Tato funkce vyžaduje JavaScript.",

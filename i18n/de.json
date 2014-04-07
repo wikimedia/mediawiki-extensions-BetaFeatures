@@ -7,7 +7,7 @@
     },
     "mw-ui-feature-discuss": "Diskussion",
     "mw-ui-feature-info": "Information",
-    "mw-ui-feature-user-count": "{{PLURAL:$1|Ein Benutzer hat|$1 Benutzer haben|0=Kein Benutzer hat}} diese Funktion aktiviert.",
+    "mw-ui-feature-user-count": "{{PLURAL:$1|Ein Benutzer testet|$1 Benutzer testen|0=Kein Benutzer testet}} diese Funktion.",
     "mw-ui-feature-requirements-betafeatures": "Diese Funktion erfordert die Aktivierung folgender {{PLURAL:$1|Funktion|Funktionen}}:",
     "mw-ui-feature-requirements-browser": "{{PLURAL:$1|Der folgende Browser wird|Die folgenden Browser werden}} nicht unterstützt:",
     "mw-ui-feature-requirements-javascript": "Diese Funktion benötigt JavaScript.",
