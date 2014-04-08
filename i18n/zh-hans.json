@@ -12,7 +12,7 @@
     },
     "mw-ui-feature-discuss": "讨论",
     "mw-ui-feature-info": "信息",
-    "mw-ui-feature-user-count": "{{PLURAL:$1|$1位用户已|0=没有用户}}启用该功能。",
+    "mw-ui-feature-user-count": "{{PLURAL:$1|已有$1位用户|0=尚未有用户}}启用该功能。",
     "mw-ui-feature-requirements-betafeatures": "启用该功能需要先启用以下$1种功能：",
     "mw-ui-feature-requirements-browser": "不支持以下$1种浏览器：",
     "mw-ui-feature-requirements-javascript": "该功能需要JavaScript。",

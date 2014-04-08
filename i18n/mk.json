@@ -6,7 +6,7 @@
     },
     "mw-ui-feature-discuss": "разговор",
     "mw-ui-feature-info": "информации",
-    "mw-ui-feature-user-count": "Функцијата ја {{PLURAL:$1|има вклучено еден корисник|имаат вклучено $1 корисници|0=нема вклучено никој}}.",
+    "mw-ui-feature-user-count": "Функцијата {{PLURAL:$1|ја пробува еден корисник|ја пробуваат $1 корисници|0=не ја пробува никој}}.",
     "mw-ui-feature-requirements-betafeatures": "Оваа функција бара да {{PLURAL:$1|е вклучена следнава функција|се вклучени следниве функции}}:",
     "mw-ui-feature-requirements-browser": "{{PLURAL:$1|Не е поддржан следниов прелистувач|Не се поддржани следниве прелистувачи}}:",
     "mw-ui-feature-requirements-javascript": "Оваа функција бара JavaScript.",

@@ -10,7 +10,7 @@
     },
     "mw-ui-feature-discuss": "diskussion",
     "mw-ui-feature-info": "information",
-    "mw-ui-feature-user-count": "{{PLURAL:$1|En|$1}} användare har aktiverat denna funktion.",
+    "mw-ui-feature-user-count": "{{PLURAL:$1|En|$1|0=Ingen}} användare har aktiverat denna funktion.",
     "mw-ui-feature-requirements-betafeatures": "Den här funktionen kräver att följande {{PLURAL:$1|funktion är aktiverad|funktioner är aktiverade}}:",
     "mw-ui-feature-requirements-browser": "Följande {{PLURAL:$1|webbläsare}} stöds inte:",
     "mw-ui-feature-requirements-javascript": "Denna funktion kräver JavaScript.",

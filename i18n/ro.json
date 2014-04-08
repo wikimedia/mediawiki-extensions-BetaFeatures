@@ -6,7 +6,7 @@
     },
     "mw-ui-feature-discuss": "discuție",
     "mw-ui-feature-info": "informații",
-    "mw-ui-feature-user-count": "{{PLURAL:$1|Un utilizator a|$1 utilizatori au|$1 de utilizatori au|0=Niciun utilizator nu a}} activat această caracteristică.",
+    "mw-ui-feature-user-count": "{{PLURAL:$1|Un utilizator|$1 utilizatori|$1 de utilizatori|0=Niciun utilizator nu}} testează această caracteristică.",
     "mw-ui-feature-requirements-betafeatures": "Această caracteristică are nevoie ca {{PLURAL:$1|următoarea caracteristică|următoarele caracteristici}} să fie {{PLURAL:$1|activată|activate}}:",
     "mw-ui-feature-requirements-browser": "{{PLURAL:$1|Următorul navigator nu este suportat|Următoarele navigatoare nu sunt suportate}}:",
     "mw-ui-feature-requirements-javascript": "Această caracteristică necesită JavaScript.",
