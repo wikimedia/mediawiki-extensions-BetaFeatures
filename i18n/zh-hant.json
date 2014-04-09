@@ -3,7 +3,8 @@
         "authors": [
             "Liuxinyu970226",
             "Openerror",
-            "StephDC"
+            "StephDC",
+            "Liangent"
         ]
     },
     "mw-ui-feature-discuss": "討論",
@@ -17,9 +18,9 @@
     "betafeatures-desc": "允許用戶啟用或禁用wiki上仍於測試之功能",
     "betafeatures-toplink": "測試",
     "betafeatures-auto-enroll": "自動啟用所有新的測試版功能",
-    "betafeatures-section-desc": "目前我們考慮將下述之$1個測試功能部署於{{SITENAME}}。請測試之，並遞交反饋，因而我們根據反饋改進之。",
+    "betafeatures-section-desc": "目前我們考慮在{{SITENAME}}啟用下列的新功能。請測試它們並提供您的意見，以利我們改進這些功能。",
     "betafeatures-tooltip": "介紹測試功能！此設置選項允許您於正式部署前對新功能測試與遞交反饋。歡迎測試！",
     "betafeatures-about-betafeatures": "關於測試功能",
-    "betafeatures-discuss-betafeatures": "遞交反饋",
+    "betafeatures-discuss-betafeatures": "提供意見",
     "betafeatures-extension-type": "測試功能"
 }
