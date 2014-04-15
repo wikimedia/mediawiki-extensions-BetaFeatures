@@ -33,6 +33,12 @@ class BetaFeatures {
 	 * @return bool
 	 */
 	static function isFeatureEnabled( $user, $feature ) {
+		global $wgBetaFeaturesWhitelist;
+		if ( is_array( $wgBetaFeaturesWhitelist ) && !in_array( $feature, $wgBetaFeaturesWhitelist ) ) {
+			// If there is a whitelist, and the feature is not whitelisted,
+			// it can't be enabled.
+			return false;
+		}
 		return $user->getOption( $feature ) === HTMLFeatureField::OPTION_ENABLED;
 	}
 }
