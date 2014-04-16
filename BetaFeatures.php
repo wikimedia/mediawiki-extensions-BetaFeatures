@@ -87,7 +87,7 @@ $wgExtensionCredits['other'][] = array(
 	'author' => array(
 		'MarkTraceur (Mark Holmquist)',
 	),
-	'url' => 'https://mediawiki.org/wiki/Extension:BetaFeatures',
+	'url' => 'https://www.mediawiki.org/wiki/Extension:BetaFeatures',
 );
 
 /**

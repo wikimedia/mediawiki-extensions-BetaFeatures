@@ -171,7 +171,7 @@ class BetaFeaturesHooks {
 					Html::element(
 						'a',
 						array(
-							'href' => '//mediawiki.org/wiki/Special:MyLanguage/About_Beta_Features'
+							'href' => '//www.mediawiki.org/wiki/Special:MyLanguage/About_Beta_Features'
 						),
 						wfMessage( 'betafeatures-about-betafeatures' )->text()
 					),
@@ -179,7 +179,7 @@ class BetaFeaturesHooks {
 					Html::element(
 						'a',
 						array(
-							'href' => '//mediawiki.org/wiki/Talk:About_Beta_Features'
+							'href' => '//www.mediawiki.org/wiki/Talk:About_Beta_Features'
 						),
 						wfMessage( 'betafeatures-discuss-betafeatures' )->text()
 					),
