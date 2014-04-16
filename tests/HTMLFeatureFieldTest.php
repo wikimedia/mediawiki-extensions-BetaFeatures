@@ -31,8 +31,8 @@ class HTMLFeatureFieldTest extends MediaWikiTestCase {
 				'class' => 'HTMLFeatureField',
 				'label-message' => 'betafeatures-test-check-field',
 				'desc-message' => 'betafeatures-test-feature-field',
-				'discussion-link' => 'http://example.org/feature/discussion',
-				'info-link' => 'http://example.org/feature',
+				'info-link' => 'http://example.org/features',
+				'discussion-link' => 'http://example.org/feedback',
 			),
 		) );
 		$form->setTitle( Title::newMainPage() );
@@ -60,11 +60,11 @@ class HTMLFeatureFieldTest extends MediaWikiTestCase {
 				'message' => 'Meta div not found.',
 			),
 			array(
-				'pattern' => '#<a href="http://example.org/feature" class="mw-ui-feature-info-link">information</a>#',
+				'pattern' => '#<a href="http://example.org/features" class="mw-ui-feature-info-link">information</a>#',
 				'message' => 'Feature information link not found',
 			),
 			array(
-				'pattern' => '#<a href="http://example.org/feature/discussion" class="mw-ui-feature-discussion-link">discussion</a>#',
+				'pattern' => '#<a href="http://example.org/feedback" class="mw-ui-feature-discussion-link">discussion</a>#',
 				'message' => 'Discussion link not found',
 			),
 			array(
