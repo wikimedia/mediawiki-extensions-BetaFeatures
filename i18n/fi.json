@@ -1,25 +1,25 @@
 {
-    "@metadata": {
-        "authors": [
-            "Pxos",
-            "Silvonen",
-            "Stryn"
-        ]
-    },
-    "mw-ui-feature-discuss": "keskustelu",
-    "mw-ui-feature-info": "tietoa",
-    "mw-ui-feature-user-count": "{{PLURAL:$1|Yksi käyttäjä on ottanut tämän ominaisuuden|$1 käyttäjää on ottanut tämän ominaisuuden|0=Kukaan ei ole ottanut tätä ominaisuutta}} käyttöön.",
-    "mw-ui-feature-requirements-betafeatures": "Tämä ominaisuus vaatii {{PLURAL:$1|seuraavaa ominaisuutta|seuraavia ominaisuuksia}} käyttöönotettavaksi:",
-    "mw-ui-feature-requirements-browser": "{{PLURAL:$1|Seuraava selain ei ole tuettu|Seuraavat selaimet eivät ole tuettuja}}:",
-    "mw-ui-feature-requirements-javascript": "Tämä ominaisuus vaatii JavaScriptin olevan käytössä.",
-    "mw-ui-feature-requirements-skins": "Tämä ominaisuus toimii ainoastaan {{PLURAL:$1|seuraavan ulkoasun|seuraavien ulkoasujen}} kanssa:",
-    "prefs-betafeatures": "Beeta-ominaisuudet",
-    "betafeatures-desc": "Antaa käyttäjän ottaa käyttöön tai poistaa käytöstä ominaisuuksia wikissä, jotka ovat eivät ole vielä valmiita kaikkien käytettäväksi",
-    "betafeatures-toplink": "Beeta",
-    "betafeatures-auto-enroll": "Ota automaattisesti käyttöön kaikki uudet beeta-ominaisuudet",
-    "betafeatures-section-desc": "Tässä {{PLURAL:$1|on uusi ominaisuus, jota|on muutamia uusia ominaisuuksia, joita}} harkitsemme sivustolle {{SITENAME}}. Kokeile {{PLURAL:$1|sitä|niitä}} ja kerro meille mielipiteesi, jotta voimme parantaa {{PLURAL:$1|sitä|niitä}} palautteesi perusteella.",
-    "betafeatures-tooltip": "Esittelyssä Beeta-ominaisuudet! Tämä uusi asetukset-osio antaa sinun kokeilla ja antaa palautetta uusista ominaisuuksista, ennen kuin julkaisemme ne oletuksena. Kokeile jotain uutta nyt!",
-    "betafeatures-about-betafeatures": "Tietoa Beeta-ominaisuuksista",
-    "betafeatures-discuss-betafeatures": "Jätä palautetta",
-    "betafeatures-extension-type": "Beeta-ominaisuudet"
+	"@metadata": {
+		"authors": [
+			"Pxos",
+			"Silvonen",
+			"Stryn"
+		]
+	},
+	"mw-ui-feature-discuss": "keskustelu",
+	"mw-ui-feature-info": "tietoa",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|Yksi käyttäjä on ottanut tämän ominaisuuden|$1 käyttäjää on ottanut tämän ominaisuuden|0=Kukaan ei ole ottanut tätä ominaisuutta}} käyttöön.",
+	"mw-ui-feature-requirements-betafeatures": "Tämä ominaisuus vaatii {{PLURAL:$1|seuraavaa ominaisuutta|seuraavia ominaisuuksia}} käyttöönotettavaksi:",
+	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|Seuraava selain ei ole tuettu|Seuraavat selaimet eivät ole tuettuja}}:",
+	"mw-ui-feature-requirements-javascript": "Tämä ominaisuus vaatii JavaScriptin olevan käytössä.",
+	"mw-ui-feature-requirements-skins": "Tämä ominaisuus toimii ainoastaan {{PLURAL:$1|seuraavan ulkoasun|seuraavien ulkoasujen}} kanssa:",
+	"prefs-betafeatures": "Beeta-ominaisuudet",
+	"betafeatures-desc": "Antaa käyttäjän ottaa käyttöön tai poistaa käytöstä ominaisuuksia wikissä, jotka ovat eivät ole vielä valmiita kaikkien käytettäväksi",
+	"betafeatures-toplink": "Beeta",
+	"betafeatures-auto-enroll": "Ota automaattisesti käyttöön kaikki uudet beeta-ominaisuudet",
+	"betafeatures-section-desc": "Tässä {{PLURAL:$1|on uusi ominaisuus, jota|on muutamia uusia ominaisuuksia, joita}} harkitsemme sivustolle {{SITENAME}}. Kokeile {{PLURAL:$1|sitä|niitä}} ja kerro meille mielipiteesi, jotta voimme parantaa {{PLURAL:$1|sitä|niitä}} palautteesi perusteella.",
+	"betafeatures-tooltip": "Esittelyssä Beeta-ominaisuudet! Tämä uusi asetukset-osio antaa sinun kokeilla ja antaa palautetta uusista ominaisuuksista, ennen kuin julkaisemme ne oletuksena. Kokeile jotain uutta nyt!",
+	"betafeatures-about-betafeatures": "Tietoa Beeta-ominaisuuksista",
+	"betafeatures-discuss-betafeatures": "Jätä palautetta",
+	"betafeatures-extension-type": "Beeta-ominaisuudet"
 }

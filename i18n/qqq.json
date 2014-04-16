@@ -1,28 +1,28 @@
 {
-    "@metadata": {
-        "authors": [
-            "Mark Holmquist \u003Cmtraceur@member.fsf.org\u003E",
-            "Nemo bis",
-            "Raymond",
-            "Shirayuki"
-        ]
-    },
-    "mw-ui-feature-discuss": "Used as link text for the link which points to discussion of a feature.\n{{Identical|Discussion}}",
-    "mw-ui-feature-info": "Used as link text for the link which points to information about a feature.\n{{Identical|Information}}",
-    "mw-ui-feature-user-count": "Used to show how many users have enabled a particular feature on the site.\n\nParameters:\n* $1 - number of users",
-    "mw-ui-feature-requirements-betafeatures": "Error message shown when other features are required and not enabled.\n\nFollowed by list of features.\n\nParameters:\n* $1 - number of features in list",
-    "mw-ui-feature-requirements-browser": "Error message shown when the browser is not supported.\n\nFollowed by list of browsers.\n\nParameters:\n* $1 - number of browsers in list",
-    "mw-ui-feature-requirements-javascript": "Error message shown when the feature requires JavaScript.",
-    "mw-ui-feature-requirements-skins": "Error message shown when the skin is not supported.\n\nFollowed by list of skins.\n\nParameters:\n* $1 - number of skins in list",
-    "prefs-betafeatures": "Used as section title for beta features in [[Special:Preferences]].\n{{Identical|Beta feature}}",
-    "betafeatures-desc": "{{desc|name=Beta Features|url=http://www.mediawiki.org/wiki/Extension:BetaFeatures}}",
-    "betafeatures-toplink": "Used as link text. The link points to [[Special:Preferences]] but takes the user directly to the \"Beta\" section.\n\nSee example: [[mw:Special:Preferences#mw-prefsection-editing|mw:Special:Preferences]]",
-    "betafeatures-auto-enroll": "Label for a checkbox that automatically enrolls the user in all the experiments happening on the wiki.\n\nDescription for this checkbox is:\n* {{msg-mw|Betafeatures-auto-enroll-desc}}",
-    "betafeatures-section-desc": "Used as description for the checkbox in [[Special:Preferences]].\n\nFollowed by the checkbox which has the label {{msg-mw|Betafeatures-auto-enroll}}.\n\nParameters:\n* $1 - number of beta features",
-    "betafeatures-test-check-field": "Used as label for the checkbox, used to test the extension.\n\nThe description for this checkbox is {{msg-mw|Betafeatures-test-feature-field}}.",
-    "betafeatures-test-feature-field": "Used as description for the checkbox, used to test the extension.\n\nThe label for the checkbox is {{msg-mw|Betafeatures-test-check-field}}.",
-    "betafeatures-tooltip": "A tooltip meant to advertise the existence of the BetaFeatures preferences page the first time a user sees it. Only shown once, meant to be a call to action. \"Introducing\" is jargon meaning \"we are explaining you\", you can avoid translating it in your language if it doesn't fit.",
-    "betafeatures-about-betafeatures": "Text for a link to a page describing what Beta Features is, what the project is for, etc.",
-    "betafeatures-discuss-betafeatures": "Text for a link to a page where users can leave feedback about Beta Features.\n{{Identical|Leave feedback}}",
-    "betafeatures-extension-type": "Section header on [[Special:Version]].\n{{Identical|Beta feature}}"
+	"@metadata": {
+		"authors": [
+			"Mark Holmquist <mtraceur@member.fsf.org>",
+			"Nemo bis",
+			"Raymond",
+			"Shirayuki"
+		]
+	},
+	"mw-ui-feature-discuss": "Used as link text for the link which points to discussion of a feature.\n{{Identical|Discussion}}",
+	"mw-ui-feature-info": "Used as link text for the link which points to information about a feature.\n{{Identical|Information}}",
+	"mw-ui-feature-user-count": "Used to show how many users have enabled a particular feature on the site.\n\nParameters:\n* $1 - number of users",
+	"mw-ui-feature-requirements-betafeatures": "Error message shown when other features are required and not enabled.\n\nFollowed by list of features.\n\nParameters:\n* $1 - number of features in list",
+	"mw-ui-feature-requirements-browser": "Error message shown when the browser is not supported.\n\nFollowed by list of browsers.\n\nParameters:\n* $1 - number of browsers in list",
+	"mw-ui-feature-requirements-javascript": "Error message shown when the feature requires JavaScript.",
+	"mw-ui-feature-requirements-skins": "Error message shown when the skin is not supported.\n\nFollowed by list of skins.\n\nParameters:\n* $1 - number of skins in list",
+	"prefs-betafeatures": "Used as section title for beta features in [[Special:Preferences]].\n{{Identical|Beta feature}}",
+	"betafeatures-desc": "{{desc|name=Beta Features|url=http://www.mediawiki.org/wiki/Extension:BetaFeatures}}",
+	"betafeatures-toplink": "Used as link text. The link points to [[Special:Preferences]] but takes the user directly to the \"Beta\" section.\n\nSee example: [[mw:Special:Preferences#mw-prefsection-editing|mw:Special:Preferences]]",
+	"betafeatures-auto-enroll": "Label for a checkbox that automatically enrolls the user in all the experiments happening on the wiki.\n\nDescription for this checkbox is:\n* {{msg-mw|Betafeatures-auto-enroll-desc}}",
+	"betafeatures-section-desc": "Used as description for the checkbox in [[Special:Preferences]].\n\nFollowed by the checkbox which has the label {{msg-mw|Betafeatures-auto-enroll}}.\n\nParameters:\n* $1 - number of beta features",
+	"betafeatures-test-check-field": "Used as label for the checkbox, used to test the extension.\n\nThe description for this checkbox is {{msg-mw|Betafeatures-test-feature-field}}.",
+	"betafeatures-test-feature-field": "Used as description for the checkbox, used to test the extension.\n\nThe label for the checkbox is {{msg-mw|Betafeatures-test-check-field}}.",
+	"betafeatures-tooltip": "A tooltip meant to advertise the existence of the BetaFeatures preferences page the first time a user sees it. Only shown once, meant to be a call to action. \"Introducing\" is jargon meaning \"we are explaining you\", you can avoid translating it in your language if it doesn't fit.",
+	"betafeatures-about-betafeatures": "Text for a link to a page describing what Beta Features is, what the project is for, etc.",
+	"betafeatures-discuss-betafeatures": "Text for a link to a page where users can leave feedback about Beta Features.\n{{Identical|Leave feedback}}",
+	"betafeatures-extension-type": "Section header on [[Special:Version]].\n{{Identical|Beta feature}}"
 }

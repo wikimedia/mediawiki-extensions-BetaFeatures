@@ -1,27 +1,27 @@
 {
-    "@metadata": {
-        "authors": [
-            "Armin1392",
-            "Dalba",
-            "Ebraminio",
-            "Reza1615",
-            "درفش کاویانی"
-        ]
-    },
-    "mw-ui-feature-discuss": "بحث",
-    "mw-ui-feature-info": "اطلاعات",
-    "mw-ui-feature-user-count": "{{PLURAL:$1|$1 کاربر این ویژگی را فعال کرده‌اند|0=هیچ کاربری این ویژگی را فعال نکرده‌است}}.",
-    "mw-ui-feature-requirements-betafeatures": "برای فعال‌شدن، این ویژگی نیازمند این {{PLURAL:$1|قابلیت|قابلیت‌ها}} است:",
-    "mw-ui-feature-requirements-browser": "این {{PLURAL:$1|مرورگر|مرورگرها}} حمایت نشده‌است:",
-    "mw-ui-feature-requirements-javascript": "این ویژگی نیازمند جاوااسکریپ است.",
-    "mw-ui-feature-requirements-skins": "این ویژگی فقط با {{PLURAL:$1|این پوسته|یکی از این پوسته‌ها}} کار می‌کند:",
-    "prefs-betafeatures": "ویژگی‌های آزمایشی",
-    "betafeatures-desc": "به کاربر اجازه می‌دهد تا ویژگی‌های جدیدی که هنوز به صورت آزمایشی هستند را فعال یا غیرفعال کند.",
-    "betafeatures-toplink": "آزمایشی",
-    "betafeatures-auto-enroll": "فعال‌کردن خودکار کلیهٔ ویژگی‌های جدید آزمایشی",
-    "betafeatures-section-desc": "اینجا  {{PLURAL:$1|ویژگی جدیدی موجود است |ویژگی‌های جدید موجودند}} که برای  {{SITENAME}}  در نظر گرفته شده‌اند. لطفاً آنها را امتحان کنید و بازخوردتان را ارسال کنید تا ما بر اساس بازخوردهای شما آنها را بهبود دهیم.",
-    "betafeatures-tooltip": "معرفی ویژگی‌های آزمایشی! این بخش جدید تنظیمات به شما اجازه می دهد تا امتحان کنید و نظرات‌تان در مورد ویژگی‌های جدید را قبل از اینکه ما آن‌ها را به‌صورت پیش‌فرض راه‌اندازی کنیم ارائه دهید. الان یک مورد جدید را امتحان کنید!",
-    "betafeatures-about-betafeatures": "دربارهٔ ویژگی‌های آزمایشی",
-    "betafeatures-discuss-betafeatures": "افزودن بازخورد",
-    "betafeatures-extension-type": "ویژگی‌های بتا"
+	"@metadata": {
+		"authors": [
+			"Armin1392",
+			"Dalba",
+			"Ebraminio",
+			"Reza1615",
+			"درفش کاویانی"
+		]
+	},
+	"mw-ui-feature-discuss": "بحث",
+	"mw-ui-feature-info": "اطلاعات",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|$1 کاربر این ویژگی را فعال کرده‌اند|0=هیچ کاربری این ویژگی را فعال نکرده‌است}}.",
+	"mw-ui-feature-requirements-betafeatures": "برای فعال‌شدن، این ویژگی نیازمند این {{PLURAL:$1|قابلیت|قابلیت‌ها}} است:",
+	"mw-ui-feature-requirements-browser": "این {{PLURAL:$1|مرورگر|مرورگرها}} حمایت نشده‌است:",
+	"mw-ui-feature-requirements-javascript": "این ویژگی نیازمند جاوااسکریپ است.",
+	"mw-ui-feature-requirements-skins": "این ویژگی فقط با {{PLURAL:$1|این پوسته|یکی از این پوسته‌ها}} کار می‌کند:",
+	"prefs-betafeatures": "ویژگی‌های آزمایشی",
+	"betafeatures-desc": "به کاربر اجازه می‌دهد تا ویژگی‌های جدیدی که هنوز به صورت آزمایشی هستند را فعال یا غیرفعال کند.",
+	"betafeatures-toplink": "آزمایشی",
+	"betafeatures-auto-enroll": "فعال‌کردن خودکار کلیهٔ ویژگی‌های جدید آزمایشی",
+	"betafeatures-section-desc": "اینجا  {{PLURAL:$1|ویژگی جدیدی موجود است |ویژگی‌های جدید موجودند}} که برای  {{SITENAME}}  در نظر گرفته شده‌اند. لطفاً آنها را امتحان کنید و بازخوردتان را ارسال کنید تا ما بر اساس بازخوردهای شما آنها را بهبود دهیم.",
+	"betafeatures-tooltip": "معرفی ویژگی‌های آزمایشی! این بخش جدید تنظیمات به شما اجازه می دهد تا امتحان کنید و نظرات‌تان در مورد ویژگی‌های جدید را قبل از اینکه ما آن‌ها را به‌صورت پیش‌فرض راه‌اندازی کنیم ارائه دهید. الان یک مورد جدید را امتحان کنید!",
+	"betafeatures-about-betafeatures": "دربارهٔ ویژگی‌های آزمایشی",
+	"betafeatures-discuss-betafeatures": "افزودن بازخورد",
+	"betafeatures-extension-type": "ویژگی‌های بتا"
 }

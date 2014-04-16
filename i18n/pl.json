@@ -1,27 +1,27 @@
 {
-    "@metadata": {
-        "authors": [
-            "Chrumps",
-            "Matma Rex",
-            "WTM",
-            "Woytecr",
-            "Peter Bowman"
-        ]
-    },
-    "mw-ui-feature-discuss": "dyskusja",
-    "mw-ui-feature-info": "informacje",
-    "mw-ui-feature-user-count": "{{PLURAL:$1|Jeden użytkownik włączył tę funkcję.|$1 użytkowników włączyło tę funkcję.|0=Żaden użytkownik nie włączył tej funkcji.}}",
-    "mw-ui-feature-requirements-betafeatures": "Ta funkcja wymaga włączenia najpierw {{PLURAL:$1|następującej|następujących}}:",
-    "mw-ui-feature-requirements-browser": "{{PLURAL:$1|Nieobsługiwana przeglądarka|Nieobsługiwane przeglądarki}}:",
-    "mw-ui-feature-requirements-javascript": "Ta funkcja wymaga włączonej obsługi JavaScriptu.",
-    "mw-ui-feature-requirements-skins": "Ta funkcja działa tylko z {{PLURAL:$1|następującą skórką|następującymi skórkami}}:",
-    "prefs-betafeatures": "Funkcje eksperymentalne",
-    "betafeatures-desc": "Pozwala użytkownikom włączać lub wyłączać funkcje, które nie są jeszcze w pełni dopracowane",
-    "betafeatures-toplink": "Funkcje eksperymentalne",
-    "betafeatures-auto-enroll": "Automatycznie włączaj nowe funkcje eksperymentalne",
-    "betafeatures-section-desc": "Masz możliwość przetestowania {{PLURAL:$1|nowej, eksperymentalnych funkcji|nowych, eksperymentalnych funkcji}} przygotowanych dla {{GRAMMAR:D.lp|{{SITENAME}}}}. Prosimy o ich wypróbowanie i przekazanie nam swoich refleksji, abyśmy mogli je ulepszyć, bazując na Twoich komentarzach.",
-    "betafeatures-tooltip": "Sekcja funkcji eksperymentalnych umożliwia Ci testowanie i wyrażanie opinii na temat nowych funkcji, zanim uruchomimy je jako domyślne zachowanie. Wypróbuj coś nowego!",
-    "betafeatures-about-betafeatures": "O funkcjach eksperymentalnych",
-    "betafeatures-discuss-betafeatures": "Skomentuj",
-    "betafeatures-extension-type": "Funkcje eksperymentalne"
+	"@metadata": {
+		"authors": [
+			"Chrumps",
+			"Matma Rex",
+			"WTM",
+			"Woytecr",
+			"Peter Bowman"
+		]
+	},
+	"mw-ui-feature-discuss": "dyskusja",
+	"mw-ui-feature-info": "informacje",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|Jeden użytkownik testuje tę funkcję.|$1 użytkowników testuje tę funkcję.|0=Żaden użytkownik nie testuje tej funkcji.}}",
+	"mw-ui-feature-requirements-betafeatures": "Ta funkcja wymaga włączenia najpierw {{PLURAL:$1|następującej|następujących}}:",
+	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|Nieobsługiwana przeglądarka|Nieobsługiwane przeglądarki}}:",
+	"mw-ui-feature-requirements-javascript": "Ta funkcja wymaga włączonej obsługi JavaScriptu.",
+	"mw-ui-feature-requirements-skins": "Ta funkcja działa tylko z {{PLURAL:$1|następującą skórką|następującymi skórkami}}:",
+	"prefs-betafeatures": "Funkcje eksperymentalne",
+	"betafeatures-desc": "Pozwala użytkownikom włączać lub wyłączać funkcje, które nie są jeszcze w pełni dopracowane",
+	"betafeatures-toplink": "Funkcje eksperymentalne",
+	"betafeatures-auto-enroll": "Automatycznie włączaj nowe funkcje eksperymentalne",
+	"betafeatures-section-desc": "Masz możliwość przetestowania {{PLURAL:$1|nowej, eksperymentalnych funkcji|nowych, eksperymentalnych funkcji}} przygotowanych dla {{GRAMMAR:D.lp|{{SITENAME}}}}. Prosimy o ich wypróbowanie i przekazanie nam swoich refleksji, abyśmy mogli je ulepszyć, bazując na Twoich komentarzach.",
+	"betafeatures-tooltip": "Sekcja funkcji eksperymentalnych umożliwia Ci testowanie i wyrażanie opinii na temat nowych funkcji, zanim uruchomimy je jako domyślne zachowanie. Wypróbuj coś nowego!",
+	"betafeatures-about-betafeatures": "O funkcjach eksperymentalnych",
+	"betafeatures-discuss-betafeatures": "Skomentuj",
+	"betafeatures-extension-type": "Funkcje eksperymentalne"
 }

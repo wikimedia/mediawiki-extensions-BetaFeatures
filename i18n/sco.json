@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "John Reid"
-        ]
-    },
-    "betafeatures-extension-type": "Beta features"
+	"@metadata": {
+		"authors": [
+			"John Reid"
+		]
+	},
+	"betafeatures-extension-type": "Beta features"
 }

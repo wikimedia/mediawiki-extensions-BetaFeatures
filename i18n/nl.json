@@ -1,27 +1,27 @@
 {
-    "@metadata": {
-        "authors": [
-            "Flightmare",
-            "Romaine",
-            "Siebrand",
-            "Sjoerddebruin",
-            "TBloemink"
-        ]
-    },
-    "mw-ui-feature-discuss": "overleg",
-    "mw-ui-feature-info": "informatie",
-    "mw-ui-feature-user-count": "{{PLURAL:$1|Eén gebruiker heeft|$1 gebruikers hebben|0=Geen enkele gebruiker heeft}} deze functie ingeschakeld.",
-    "mw-ui-feature-requirements-betafeatures": "Deze functie vereist dat de volgende {{PLURAL:$1|functie wordt|functies worden}} ingeschakeld:",
-    "mw-ui-feature-requirements-browser": "De volgende {{PLURAL:$1|browser wordt|browsers worden}} niet ondersteund:",
-    "mw-ui-feature-requirements-javascript": "Deze functie vereist JavaScript.",
-    "mw-ui-feature-requirements-skins": "Deze functie werkt alleen met {{PLURAL:$1|het volgende uiterlijk|een van de volgende uiterlijken}}:",
-    "prefs-betafeatures": "Betafuncties",
-    "betafeatures-desc": "Laat de gebruiker functies die in ontwikkeling zijn in- of uitschakelen",
-    "betafeatures-toplink": "Beta",
-    "betafeatures-auto-enroll": "Automatisch alle betafuncties inschakelen",
-    "betafeatures-section-desc": "Hier {{PLURAL:$1|is een nieuwe functie|zijn enkele nieuwe functies}} die we overwegen voor {{SITENAME}}. Probeer {{PLURAL:$1|deze|ze}} uit en laat ons weten wat u ervan vindt, zodat wij {{PLURAL:$1|de functie|ze}} kunnen verbeteren.",
-    "betafeatures-tooltip": "Introductie van Beta Features! Via dit nieuwe onderdeel kunt u nieuwe functies testen en er terugkoppeling over geven voordat we ze invoeren als standaard. Probeer nu iets nieuws uit!",
-    "betafeatures-about-betafeatures": "Over de Betafuncties",
-    "betafeatures-discuss-betafeatures": "Terugkoppeling achterlaten",
-    "betafeatures-extension-type": "Betafuncties"
+	"@metadata": {
+		"authors": [
+			"Flightmare",
+			"Romaine",
+			"Siebrand",
+			"Sjoerddebruin",
+			"TBloemink"
+		]
+	},
+	"mw-ui-feature-discuss": "overleg",
+	"mw-ui-feature-info": "informatie",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|Eén persoon gebruikt|$1 mensen gebruiken|0=Niemand gebruikt}} deze functie.",
+	"mw-ui-feature-requirements-betafeatures": "Deze functie vereist dat de volgende {{PLURAL:$1|functie wordt|functies worden}} ingeschakeld:",
+	"mw-ui-feature-requirements-browser": "De volgende {{PLURAL:$1|browser wordt|browsers worden}} niet ondersteund:",
+	"mw-ui-feature-requirements-javascript": "Deze functie vereist JavaScript.",
+	"mw-ui-feature-requirements-skins": "Deze functie werkt alleen met {{PLURAL:$1|het volgende uiterlijk|een van de volgende uiterlijken}}:",
+	"prefs-betafeatures": "Betafuncties",
+	"betafeatures-desc": "Laat de gebruiker functies die in ontwikkeling zijn in- of uitschakelen",
+	"betafeatures-toplink": "Beta",
+	"betafeatures-auto-enroll": "Automatisch alle betafuncties inschakelen",
+	"betafeatures-section-desc": "Hier {{PLURAL:$1|is een nieuwe functie|zijn enkele nieuwe functies}} die we overwegen voor {{SITENAME}}. Probeer {{PLURAL:$1|deze|ze}} uit en laat ons weten wat u ervan vindt, zodat wij {{PLURAL:$1|de functie|ze}} kunnen verbeteren.",
+	"betafeatures-tooltip": "Introductie van Beta Features! Via dit nieuwe onderdeel kunt u nieuwe functies testen en er terugkoppeling over geven voordat we ze invoeren als standaard. Probeer nu iets nieuws uit!",
+	"betafeatures-about-betafeatures": "Over de Betafuncties",
+	"betafeatures-discuss-betafeatures": "Terugkoppeling achterlaten",
+	"betafeatures-extension-type": "Betafuncties"
 }

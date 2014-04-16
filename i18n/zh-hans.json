@@ -1,29 +1,30 @@
 {
-    "@metadata": {
-        "authors": [
-            "Fantasticfears",
-            "Liangent",
-            "Liuxinyu970226",
-            "Qiyue2001",
-            "Shizhao",
-            "Xiaomingyan",
-            "乌拉跨氪"
-        ]
-    },
-    "mw-ui-feature-discuss": "讨论",
-    "mw-ui-feature-info": "信息",
-    "mw-ui-feature-user-count": "{{PLURAL:$1|已有$1位用户|0=尚未有用户}}启用该功能。",
-    "mw-ui-feature-requirements-betafeatures": "启用该功能需要先启用以下$1种功能：",
-    "mw-ui-feature-requirements-browser": "不支持以下$1种浏览器：",
-    "mw-ui-feature-requirements-javascript": "该功能需要JavaScript。",
-    "mw-ui-feature-requirements-skins": "该功能只适用于以下$1种皮肤：",
-    "prefs-betafeatures": "测试功能",
-    "betafeatures-desc": "让用户能够启用或停用仍在本wiki测试的功能",
-    "betafeatures-toplink": "测试",
-    "betafeatures-auto-enroll": "自动启用所有新测试功能",
-    "betafeatures-section-desc": "我们{{PLURAL:$1|有一个|有一些}}用于{{SITENAME}}新功能的计划。请试用{{PLURAL:$1|该|这些}}功能，并把您的想法告诉我们，以便我们依据您的反馈改进{{PLURAL:$1|它|它们}}。",
-    "betafeatures-tooltip": "欢迎使用测试功能！这个新的设置分项可以让您在我们默认启用新功能前测试并提供反馈。现在就来试试这些新功能吧！",
-    "betafeatures-about-betafeatures": "关于测试功能",
-    "betafeatures-discuss-betafeatures": "留下反馈",
-    "betafeatures-extension-type": "测试功能"
+	"@metadata": {
+		"authors": [
+			"Fantasticfears",
+			"Liangent",
+			"Liuxinyu970226",
+			"Qiyue2001",
+			"Shizhao",
+			"Xiaomingyan",
+			"乌拉跨氪",
+			"Hudafu"
+		]
+	},
+	"mw-ui-feature-discuss": "讨论",
+	"mw-ui-feature-info": "信息",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|$1位用户正在|0=没有用户}}试用该功能。",
+	"mw-ui-feature-requirements-betafeatures": "启用该功能需要先启用以下{{PLURAL:$1|功能}}：",
+	"mw-ui-feature-requirements-browser": "不支持以下{{PLURAL:$1|浏览器}}：",
+	"mw-ui-feature-requirements-javascript": "该功能需要JavaScript。",
+	"mw-ui-feature-requirements-skins": "该功能仅适用于{{PLURAL:$1|以下皮肤}}：",
+	"prefs-betafeatures": "测试功能",
+	"betafeatures-desc": "让用户能够启用或停用仍在本wiki测试的功能",
+	"betafeatures-toplink": "测试",
+	"betafeatures-auto-enroll": "自动启用所有新测试功能",
+	"betafeatures-section-desc": "我们{{PLURAL:$1|有一个|有一些}}计划用于{{SITENAME}}的新功能。请试用{{PLURAL:$1|该|这些}}功能，并把你的想法告诉我们，以便我们依据你的反馈改进{{PLURAL:$1|它|它们}}。",
+	"betafeatures-tooltip": "欢迎使用测试功能！这个新的设置分项可以让您在我们默认启用新功能前测试并提供反馈。现在就来试试这些新功能吧！",
+	"betafeatures-about-betafeatures": "关于测试功能",
+	"betafeatures-discuss-betafeatures": "留下反馈",
+	"betafeatures-extension-type": "测试功能"
 }

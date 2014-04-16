@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Benojan",
-            "十弌"
-        ]
-    },
-    "betafeatures-toplink": "試驗版"
+	"@metadata": {
+		"authors": [
+			"Benojan",
+			"十弌"
+		]
+	},
+	"betafeatures-toplink": "試驗版"
 }

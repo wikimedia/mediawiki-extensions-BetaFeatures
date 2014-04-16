@@ -1,22 +1,22 @@
 {
-    "@metadata": {
-        "authors": [
-            "William Surya Permana"
-        ]
-    },
-    "mw-ui-feature-discuss": "pembicaraan",
-    "mw-ui-feature-info": "informasi",
-    "mw-ui-feature-user-count": "{{PLURAL:$1|Seorang pengguna telah|$1 pengguna telah|0=Tidak ada pengguna yang telah}} mengaktifkan fitur ini.",
-    "mw-ui-feature-requirements-betafeatures": "Fitur ini memerlukan {{PLURAL:$1|fitur|fitur-fitur berikut}} ini untuk diaktifkan:",
-    "mw-ui-feature-requirements-browser": "{{PLURAL:$1|Peramban|Peramban berikut}} ini tidak didukung:",
-    "mw-ui-feature-requirements-javascript": "Fitur ini memerlukan JavaScript.",
-    "mw-ui-feature-requirements-skins": "Fitur ini hanya berfungsi dengan {{PLURAL:$1|kulit|kulit-kulit berikut}} ini:",
-    "prefs-betafeatures": "Fitur beta",
-    "betafeatures-desc": "Memungkinkan pengguna mengaktifkan atau menonaktifkan fitur di wiki yang masih belum siap untuk tayang",
-    "betafeatures-toplink": "Beta",
-    "betafeatures-auto-enroll": "Secara otomatis aktifkan semua fitur beta baru",
-    "betafeatures-section-desc": "{{PLURAL:$1|Ini adalah|Berikut ini adalah beberapa}} fitur baru yang sedang kami pertimbangkan untuk {{SITENAME}}. Silakan coba  {{PLURAL:$1|fitur|fitur-fitur}} tersebut dan beritahu kami apa yang Anda pikirkan, sehingga kami dapat menyempurnakan{{PLURAL:$1|nya}} berdasarkan umpan balik Anda.",
-    "betafeatures-tooltip": "Memperkenalkan Fitur Beta! Bagian preferensi baru ini memungkinkan Anda untuk menguji dan memberikan umpan balik mengenai fitur baru sebelum kami meluncurkannya secara baku. Cobalah sesuatu yang baru sekarang!",
-    "betafeatures-about-betafeatures": "Tentang Fitur Beta",
-    "betafeatures-discuss-betafeatures": "Tinggalkan umpan balik"
+	"@metadata": {
+		"authors": [
+			"William Surya Permana"
+		]
+	},
+	"mw-ui-feature-discuss": "pembicaraan",
+	"mw-ui-feature-info": "informasi",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|Seorang pengguna telah|$1 pengguna telah|0=Tidak ada pengguna yang telah}} mengaktifkan fitur ini.",
+	"mw-ui-feature-requirements-betafeatures": "Fitur ini memerlukan {{PLURAL:$1|fitur|fitur-fitur berikut}} ini untuk diaktifkan:",
+	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|Peramban|Peramban berikut}} ini tidak didukung:",
+	"mw-ui-feature-requirements-javascript": "Fitur ini memerlukan JavaScript.",
+	"mw-ui-feature-requirements-skins": "Fitur ini hanya berfungsi dengan {{PLURAL:$1|kulit|kulit-kulit berikut}} ini:",
+	"prefs-betafeatures": "Fitur beta",
+	"betafeatures-desc": "Memungkinkan pengguna mengaktifkan atau menonaktifkan fitur di wiki yang masih belum siap untuk tayang",
+	"betafeatures-toplink": "Beta",
+	"betafeatures-auto-enroll": "Secara otomatis aktifkan semua fitur beta baru",
+	"betafeatures-section-desc": "{{PLURAL:$1|Ini adalah|Berikut ini adalah beberapa}} fitur baru yang sedang kami pertimbangkan untuk {{SITENAME}}. Silakan coba  {{PLURAL:$1|fitur|fitur-fitur}} tersebut dan beritahu kami apa yang Anda pikirkan, sehingga kami dapat menyempurnakan{{PLURAL:$1|nya}} berdasarkan umpan balik Anda.",
+	"betafeatures-tooltip": "Memperkenalkan Fitur Beta! Bagian preferensi baru ini memungkinkan Anda untuk menguji dan memberikan umpan balik mengenai fitur baru sebelum kami meluncurkannya secara baku. Cobalah sesuatu yang baru sekarang!",
+	"betafeatures-about-betafeatures": "Tentang Fitur Beta",
+	"betafeatures-discuss-betafeatures": "Tinggalkan umpan balik"
 }

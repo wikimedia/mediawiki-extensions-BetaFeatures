@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "The Discoverer"
-        ]
-    },
-    "betafeatures-toplink": "Beta"
+	"@metadata": {
+		"authors": [
+			"The Discoverer"
+		]
+	},
+	"betafeatures-toplink": "Beta"
 }

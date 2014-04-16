@@ -1,23 +1,23 @@
 {
-    "@metadata": {
-        "authors": [
-            "Bjankuloski06"
-        ]
-    },
-    "mw-ui-feature-discuss": "разговор",
-    "mw-ui-feature-info": "информации",
-    "mw-ui-feature-user-count": "Функцијата {{PLURAL:$1|ја пробува еден корисник|ја пробуваат $1 корисници|0=не ја пробува никој}}.",
-    "mw-ui-feature-requirements-betafeatures": "Оваа функција бара да {{PLURAL:$1|е вклучена следнава функција|се вклучени следниве функции}}:",
-    "mw-ui-feature-requirements-browser": "{{PLURAL:$1|Не е поддржан следниов прелистувач|Не се поддржани следниве прелистувачи}}:",
-    "mw-ui-feature-requirements-javascript": "Оваа функција бара JavaScript.",
-    "mw-ui-feature-requirements-skins": "Оваа функција работи само со {{PLURAL:$1|следново руво|следниве рува}}:",
-    "prefs-betafeatures": "Бета-можности",
-    "betafeatures-desc": "Овозможува корисникот да вклучува и исклучува можности што сè уште не се воведени како стандардни",
-    "betafeatures-toplink": "Бета",
-    "betafeatures-auto-enroll": "Автоматски вклучувај ги сите бета-можности",
-    "betafeatures-section-desc": "Еве {{PLURAL:$1|една нова функција што ја планираме|некои нови функции што ги планираме}} за {{SITENAME}}. Испробајте ги и кажете ни што мислите, за да можеме да ги подобриме во склад со вашите наоѓања.",
-    "betafeatures-tooltip": "Ви ги претставуваме новите Бета-функции! Овој нов дел со нагодувања ви овозможува да ги испробувате новите функции и да ни давате ваше мислење пред да ги пуштиме како стандардни. Пробајте некоја нова функција сега!",
-    "betafeatures-about-betafeatures": "За бета-функциите",
-    "betafeatures-discuss-betafeatures": "Дајте мислење",
-    "betafeatures-extension-type": "Бета-можности"
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"mw-ui-feature-discuss": "разговор",
+	"mw-ui-feature-info": "информации",
+	"mw-ui-feature-user-count": "Функцијата {{PLURAL:$1|ја пробува еден корисник|ја пробуваат $1 корисници|0=не ја пробува никој}}.",
+	"mw-ui-feature-requirements-betafeatures": "Оваа функција бара да {{PLURAL:$1|е вклучена следнава функција|се вклучени следниве функции}}:",
+	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|Не е поддржан следниов прелистувач|Не се поддржани следниве прелистувачи}}:",
+	"mw-ui-feature-requirements-javascript": "Оваа функција бара JavaScript.",
+	"mw-ui-feature-requirements-skins": "Оваа функција работи само со {{PLURAL:$1|следново руво|следниве рува}}:",
+	"prefs-betafeatures": "Бета-можности",
+	"betafeatures-desc": "Овозможува корисникот да вклучува и исклучува можности што сè уште не се воведени како стандардни",
+	"betafeatures-toplink": "Бета",
+	"betafeatures-auto-enroll": "Автоматски вклучувај ги сите бета-можности",
+	"betafeatures-section-desc": "Еве {{PLURAL:$1|една нова функција што ја планираме|некои нови функции што ги планираме}} за {{SITENAME}}. Испробајте ги и кажете ни што мислите, за да можеме да ги подобриме во склад со вашите наоѓања.",
+	"betafeatures-tooltip": "Ви ги претставуваме новите Бета-функции! Овој нов дел со нагодувања ви овозможува да ги испробувате новите функции и да ни давате ваше мислење пред да ги пуштиме како стандардни. Пробајте некоја нова функција сега!",
+	"betafeatures-about-betafeatures": "За бета-функциите",
+	"betafeatures-discuss-betafeatures": "Дајте мислење",
+	"betafeatures-extension-type": "Бета-можности"
 }

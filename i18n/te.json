@@ -1,19 +1,19 @@
 {
-    "@metadata": {
-        "authors": [
-            "Chaduvari",
-            "Ravichandra",
-            "Veeven",
-            "Visdaviva"
-        ]
-    },
-    "mw-ui-feature-discuss": "చర్చ",
-    "mw-ui-feature-info": "సమాచారం",
-    "mw-ui-feature-requirements-javascript": "ఈ సౌలభ్యానికి జావాస్క్రిప్టు కావాలి.",
-    "prefs-betafeatures": "బీటా సౌలభ్యాలు",
-    "betafeatures-toplink": "బీటా",
-    "betafeatures-auto-enroll": "అన్నీ బీటా సౌలభ్యాలు వాటంతట అవే చేతనం కావాలి",
-    "betafeatures-about-betafeatures": "బీటా సౌలభ్యాల గురించి",
-    "betafeatures-discuss-betafeatures": "సూచనలివ్వండి",
-    "betafeatures-extension-type": "బీటా విశేషాలు"
+	"@metadata": {
+		"authors": [
+			"Chaduvari",
+			"Ravichandra",
+			"Veeven",
+			"Visdaviva"
+		]
+	},
+	"mw-ui-feature-discuss": "చర్చ",
+	"mw-ui-feature-info": "సమాచారం",
+	"mw-ui-feature-requirements-javascript": "ఈ సౌలభ్యానికి జావాస్క్రిప్టు కావాలి.",
+	"prefs-betafeatures": "బీటా సౌలభ్యాలు",
+	"betafeatures-toplink": "బీటా",
+	"betafeatures-auto-enroll": "అన్నీ బీటా సౌలభ్యాలు వాటంతట అవే చేతనం కావాలి",
+	"betafeatures-about-betafeatures": "బీటా సౌలభ్యాల గురించి",
+	"betafeatures-discuss-betafeatures": "సూచనలివ్వండి",
+	"betafeatures-extension-type": "బీటా విశేషాలు"
 }

@@ -1,26 +1,26 @@
 {
-    "@metadata": {
-        "authors": [
-            "Ademo",
-            "Amire80",
-            "Guycn2",
-            "ערן"
-        ]
-    },
-    "mw-ui-feature-discuss": "דיון",
-    "mw-ui-feature-info": "מידע",
-    "mw-ui-feature-user-count": "{{PLURAL:$1|משתמש אחד מנסה|$1 משתמשים מנסים|0=שום משתמש לא מנסה}} את האפשרות הזאת.",
-    "mw-ui-feature-requirements-betafeatures": "האפשרות הזאת דורשת {{PLURAL:$1|שהאפשרות הבאה תהיה מופעלת|שהאפשרויות הבאות יהיו מופעלות}}:",
-    "mw-ui-feature-requirements-browser": "{{PLURAL:$1|הדפדפן הבא אינו נתמך|הדפדפנים הבאים אינם נתמכים}}:",
-    "mw-ui-feature-requirements-javascript": "האפשרות הזאת דורשת הפעלה של JavaScript.",
-    "mw-ui-feature-requirements-skins": "האפשרות הזאת עובדת רק עם {{PLURAL:$1|העיצוב הבא|העיצובים הבאים}}:",
-    "prefs-betafeatures": "אפשרויות בטא",
-    "betafeatures-desc": "מתן אפשרות למשתמש להפעיל או לכבות בוויקי אפשרויות שעדיין אינן מוכנות להוצאה כללית",
-    "betafeatures-toplink": "בטא",
-    "betafeatures-auto-enroll": "להפעיל אוטומטית את כל אפשרויות הבטא",
-    "betafeatures-section-desc": "הנה {{PLURAL:$1|אפשרות חדשה|אפשרויות חדשות}} שאנחנו שוקלים להוסיף ל{{GRAMMAR:תחילית|{{SITENAME}}}}. אנו מבקשים ממך לנסות {{PLURAL:$1|אותה|אותן}}, כדי שנוכל לשפר {{PLURAL:$1|אותה|אותן}} לפי המשוב שלך.",
-    "betafeatures-tooltip": "אנו גאים להציג את \"אפשרויות בטא\"! החל החדש הזה בהעדפות מאפשר לך לבדוק אפשרויות חדשות ולתת עליהן משוב לפני שנפעיל אותן בתור ההתנהגות הרגילה. נסו משהו חדש!",
-    "betafeatures-about-betafeatures": "אודות אפשרויות בטא",
-    "betafeatures-discuss-betafeatures": "שליחת משוב",
-    "betafeatures-extension-type": "אפשרויות בטא"
+	"@metadata": {
+		"authors": [
+			"Ademo",
+			"Amire80",
+			"Guycn2",
+			"ערן"
+		]
+	},
+	"mw-ui-feature-discuss": "דיון",
+	"mw-ui-feature-info": "מידע",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|משתמש אחד מנסה|$1 משתמשים מנסים|0=שום משתמש לא מנסה}} את האפשרות הזאת.",
+	"mw-ui-feature-requirements-betafeatures": "האפשרות הזאת דורשת {{PLURAL:$1|שהאפשרות הבאה תהיה מופעלת|שהאפשרויות הבאות יהיו מופעלות}}:",
+	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|הדפדפן הבא אינו נתמך|הדפדפנים הבאים אינם נתמכים}}:",
+	"mw-ui-feature-requirements-javascript": "האפשרות הזאת דורשת הפעלה של JavaScript.",
+	"mw-ui-feature-requirements-skins": "האפשרות הזאת עובדת רק עם {{PLURAL:$1|העיצוב הבא|העיצובים הבאים}}:",
+	"prefs-betafeatures": "אפשרויות בטא",
+	"betafeatures-desc": "מתן אפשרות למשתמש להפעיל או לכבות בוויקי אפשרויות שעדיין אינן מוכנות להוצאה כללית",
+	"betafeatures-toplink": "בטא",
+	"betafeatures-auto-enroll": "להפעיל אוטומטית את כל אפשרויות הבטא",
+	"betafeatures-section-desc": "הנה {{PLURAL:$1|אפשרות חדשה|אפשרויות חדשות}} שאנחנו שוקלים להוסיף ל{{GRAMMAR:תחילית|{{SITENAME}}}}. אנו מבקשים ממך לנסות {{PLURAL:$1|אותה|אותן}}, כדי שנוכל לשפר {{PLURAL:$1|אותה|אותן}} לפי המשוב שלך.",
+	"betafeatures-tooltip": "אנו גאים להציג את \"אפשרויות בטא\"! החל החדש הזה בהעדפות מאפשר לך לבדוק אפשרויות חדשות ולתת עליהן משוב לפני שנפעיל אותן בתור ההתנהגות הרגילה. נסו משהו חדש!",
+	"betafeatures-about-betafeatures": "אודות אפשרויות בטא",
+	"betafeatures-discuss-betafeatures": "שליחת משוב",
+	"betafeatures-extension-type": "אפשרויות בטא"
 }

@@ -1,23 +1,23 @@
 {
-    "@metadata": {
-        "authors": [
-            "Abshirdheere"
-        ]
-    },
-    "mw-ui-feature-discuss": "Wadahadal",
-    "mw-ui-feature-info": "Macluumaad",
-    "mw-ui-feature-user-count": "{{PLURAL:$1|Hal isticmaale ayaa|$1 isticmaale yaal ayaa|0=malahan isticmaale}} sameeyay hab shaqayntaan.",
-    "mw-ui-feature-requirements-betafeatures": "Hab shaqayntaan {{PLURAL:$1|hab shaqayn|hab shaqayno}} waxay u baahantahay in laga shaqaysiiyo:",
-    "mw-ui-feature-requirements-browser": "{{PLURAL:$1|Browserkaan ma|Browseradaan ma}} lagu taageerin:",
-    "mw-ui-feature-requirements-javascript": "Hab shaqayntaan waxay u baahantahay JavaScript.",
-    "mw-ui-feature-requirements-skins": "Hab shaqayntaan waxa ay ku shaqaysaa oo kaliya {{PLURAL:$1|qaabkaan|qaababkaan}} soo socda:",
-    "prefs-betafeatures": "Hab shaqayn tijaabo",
-    "betafeatures-desc": "Waxaa isticmaalaha loo ogolyahay in uu ka shaqaysiiyo ama uu hawlgab ka dhigo hab shaqaynta aan diyaarka ahayn ee shaqaysiisa wikiga",
-    "betafeatures-toplink": "Beta",
-    "betafeatures-auto-enroll": "Hawlgalinta dhammaan hab shaqaynada tijaabada cusub si iskeed ah",
-    "betafeatures-section-desc": "Halkani {{PLURAL:$1|waa naqan-gelinta cusub|waa dhaqan-gelinada cusub}} waxaa lagu qorsheeyaa ku darista {{SITENAME}}. Fadlan {{PLURAL:$1|tijaabi|tijaabi}} kadib nagu soo kordhi aaraadaada, si ay noogu suurto gasho {{PLURAL:$1|hagaajinta|hagaajinteeda}} hadba heerka faallooyinkiina.",
-    "betafeatures-tooltip": "Waxaan kuu soo bandhigaynaa hab shaqayntii tijaabada! Waxaa laguu ogolyahay qaybta dooqyada cusub inaad ku tijaabiso kan aadna ra'yigaada ka dhiibato hab shaqaynta cusub ka hor inada aadan ka dhiginqaab joogta ah. Hadda tijaabiya wax cusub!",
-    "betafeatures-about-betafeatures": "Wax ku saabsan hab shaqaynta tijaabada",
-    "betafeatures-discuss-betafeatures": "Ra'yigaada halkaan ku reeb",
-    "betafeatures-extension-type": "Hab shaqayn tijaabo"
+	"@metadata": {
+		"authors": [
+			"Abshirdheere"
+		]
+	},
+	"mw-ui-feature-discuss": "Wadahadal",
+	"mw-ui-feature-info": "Macluumaad",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|Hal isticmaale ayaa|$1 isticmaale yaal ayaa|0=malahan isticmaale}} sameeyay hab shaqayntaan.",
+	"mw-ui-feature-requirements-betafeatures": "Hab shaqayntaan {{PLURAL:$1|hab shaqayn|hab shaqayno}} waxay u baahantahay in laga shaqaysiiyo:",
+	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|Browserkaan ma|Browseradaan ma}} lagu taageerin:",
+	"mw-ui-feature-requirements-javascript": "Hab shaqayntaan waxay u baahantahay JavaScript.",
+	"mw-ui-feature-requirements-skins": "Hab shaqayntaan waxa ay ku shaqaysaa oo kaliya {{PLURAL:$1|qaabkaan|qaababkaan}} soo socda:",
+	"prefs-betafeatures": "Hab shaqayn tijaabo",
+	"betafeatures-desc": "Waxaa isticmaalaha loo ogolyahay in uu ka shaqaysiiyo ama uu hawlgab ka dhigo hab shaqaynta aan diyaarka ahayn ee shaqaysiisa wikiga",
+	"betafeatures-toplink": "Beta",
+	"betafeatures-auto-enroll": "Hawlgalinta dhammaan hab shaqaynada tijaabada cusub si iskeed ah",
+	"betafeatures-section-desc": "Halkani {{PLURAL:$1|waa naqan-gelinta cusub|waa dhaqan-gelinada cusub}} waxaa lagu qorsheeyaa ku darista {{SITENAME}}. Fadlan {{PLURAL:$1|tijaabi|tijaabi}} kadib nagu soo kordhi aaraadaada, si ay noogu suurto gasho {{PLURAL:$1|hagaajinta|hagaajinteeda}} hadba heerka faallooyinkiina.",
+	"betafeatures-tooltip": "Waxaan kuu soo bandhigaynaa hab shaqayntii tijaabada! Waxaa laguu ogolyahay qaybta dooqyada cusub inaad ku tijaabiso kan aadna ra'yigaada ka dhiibato hab shaqaynta cusub ka hor inada aadan ka dhiginqaab joogta ah. Hadda tijaabiya wax cusub!",
+	"betafeatures-about-betafeatures": "Wax ku saabsan hab shaqaynta tijaabada",
+	"betafeatures-discuss-betafeatures": "Ra'yigaada halkaan ku reeb",
+	"betafeatures-extension-type": "Hab shaqayn tijaabo"
 }

@@ -1,11 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "Vacio",
-            "Vadgt"
-        ]
-    },
-    "prefs-betafeatures": "Փորձնական հնարավորություններ",
-    "betafeatures-toplink": "Փորձնական",
-    "betafeatures-about-betafeatures": "Փորձնական Հնարվորությունների մասին"
+	"@metadata": {
+		"authors": [
+			"Vacio",
+			"Vadgt"
+		]
+	},
+	"prefs-betafeatures": "Փորձնական հնարավորություններ",
+	"betafeatures-toplink": "Փորձնական",
+	"betafeatures-about-betafeatures": "Փորձնական Հնարվորությունների մասին"
 }

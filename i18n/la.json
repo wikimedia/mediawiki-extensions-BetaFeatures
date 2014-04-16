@@ -1,17 +1,17 @@
 {
-    "@metadata": {
-        "authors": [
-            "Autokrator",
-            "UV"
-        ]
-    },
-    "mw-ui-feature-discuss": "discussio",
-    "mw-ui-feature-user-count": "{{PLURAL:$1|Unus usor hac facultate utitur.|$1 usores hac facultate utuntur.}}",
-    "mw-ui-feature-requirements-browser": "{{PLURAL:$1|Istud navigatrum|Ista navigatra}} adhiberi non licent:",
-    "mw-ui-feature-requirements-javascript": "Haec facultas necessitat JavaScript.",
-    "prefs-betafeatures": "Facultates experimentales",
-    "betafeatures-toplink": "Facultates experimentales",
-    "betafeatures-auto-enroll": "Automatice omnibus facultatibus experimentalibus utere",
-    "betafeatures-about-betafeatures": "De facultatibus modi experimentalis",
-    "betafeatures-discuss-betafeatures": "Commentationem scribere"
+	"@metadata": {
+		"authors": [
+			"Autokrator",
+			"UV"
+		]
+	},
+	"mw-ui-feature-discuss": "discussio",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|Unus usor hac facultate utitur.|$1 usores hac facultate utuntur.}}",
+	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|Istud navigatrum|Ista navigatra}} adhiberi non licent:",
+	"mw-ui-feature-requirements-javascript": "Haec facultas necessitat JavaScript.",
+	"prefs-betafeatures": "Facultates experimentales",
+	"betafeatures-toplink": "Facultates experimentales",
+	"betafeatures-auto-enroll": "Automatice omnibus facultatibus experimentalibus utere",
+	"betafeatures-about-betafeatures": "De facultatibus modi experimentalis",
+	"betafeatures-discuss-betafeatures": "Commentationem scribere"
 }

@@ -1,25 +1,25 @@
 {
-    "@metadata": {
-        "authors": [
-            "Andriykopanytsia",
-            "Lystopad",
-            "Ата"
-        ]
-    },
-    "mw-ui-feature-discuss": "обговорення",
-    "mw-ui-feature-info": "інформація",
-    "mw-ui-feature-user-count": "{{PLURAL:$1|Один користувач вже увімкнув|$1 користувачі вже увімкнули|$1 користувачів вже увімкнули|0=Жодний користувач ще не увімкнув}} цю функцію.",
-    "mw-ui-feature-requirements-betafeatures": "Ця функція вимагає, щоб {{PLURAL:$1|1=була включена наступна функція|були включені наступні функції}}:",
-    "mw-ui-feature-requirements-browser": "{{PLURAL:$1|1= Наступний веб-переглядач не підтримується|Наступні веб-переглядачі не підтримуються}}:",
-    "mw-ui-feature-requirements-javascript": "Ця функція вимагає JavaScript.",
-    "mw-ui-feature-requirements-skins": "Ця функція працює лише з {{PLURAL:$1|1=наступною темою|однією з наступних тем}}:",
-    "prefs-betafeatures": "Бета-функції",
-    "betafeatures-desc": "Дозволяє користувачу вмикати чи вимикати функції вікі, все ще не готові до прайм-тайму",
-    "betafeatures-toplink": "Бета",
-    "betafeatures-auto-enroll": "Автоматично увімкнути усі бета-функції",
-    "betafeatures-section-desc": "Тут  {{PLURAL:$1|1=є нова функція, яку|деякі нові функції, які}} ми розробляємо для  {{SITENAME}}. Спробуйте їх та висловіть ваші думки, щоб ми могли покращити їх, виходячи з ваших відгуків.",
-    "betafeatures-tooltip": "Представляємо бета-функції! Цей новий розділ налаштувань дозволяє тестувати і надсилати відгуки про нові можливості, перш ніж ми запустимо їх як типову поведінку у основній Медіавікі. Спробувати щось нове зараз!",
-    "betafeatures-about-betafeatures": "Про бета-функції",
-    "betafeatures-discuss-betafeatures": "Залишити відгук",
-    "betafeatures-extension-type": "Бета-функції"
+	"@metadata": {
+		"authors": [
+			"Andriykopanytsia",
+			"Lystopad",
+			"Ата"
+		]
+	},
+	"mw-ui-feature-discuss": "обговорення",
+	"mw-ui-feature-info": "інформація",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|Один користувач пробує|$1 користувачі пробують|$1 користувачів пробують|0=Жодний користувач  не пробує}} цю функцію.",
+	"mw-ui-feature-requirements-betafeatures": "Ця функція вимагає, щоб {{PLURAL:$1|1=була включена наступна функція|були включені наступні функції}}:",
+	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|1= Наступний веб-переглядач не підтримується|Наступні веб-переглядачі не підтримуються}}:",
+	"mw-ui-feature-requirements-javascript": "Ця функція вимагає JavaScript.",
+	"mw-ui-feature-requirements-skins": "Ця функція працює лише з {{PLURAL:$1|1=наступною темою|однією з наступних тем}}:",
+	"prefs-betafeatures": "Бета-функції",
+	"betafeatures-desc": "Дозволяє користувачу вмикати чи вимикати функції вікі, все ще не готові до прайм-тайму",
+	"betafeatures-toplink": "Бета",
+	"betafeatures-auto-enroll": "Автоматично увімкнути усі бета-функції",
+	"betafeatures-section-desc": "Тут  {{PLURAL:$1|1=є нова функція, яку|деякі нові функції, які}} ми розробляємо для  {{SITENAME}}. Спробуйте їх та висловіть ваші думки, щоб ми могли покращити їх, виходячи з ваших відгуків.",
+	"betafeatures-tooltip": "Представляємо бета-функції! Цей новий розділ налаштувань дозволяє тестувати і надсилати відгуки про нові можливості, перш ніж ми запустимо їх як типову поведінку у основній Медіавікі. Спробувати щось нове зараз!",
+	"betafeatures-about-betafeatures": "Про бета-функції",
+	"betafeatures-discuss-betafeatures": "Залишити відгук",
+	"betafeatures-extension-type": "Бета-функції"
 }

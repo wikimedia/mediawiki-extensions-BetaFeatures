@@ -1,18 +1,18 @@
 {
-    "@metadata": {
-        "authors": [
-            "Cedric31"
-        ]
-    },
-    "mw-ui-feature-discuss": "discussion",
-    "mw-ui-feature-info": "informacion",
-    "mw-ui-feature-user-count": "{{PLURAL:$1|Un utilizaire a|$1 utilizaires an}} activat aquesta foncionalitat.",
-    "mw-ui-feature-requirements-javascript": "Aquesta foncionalitat necessita JavaScript.",
-    "prefs-betafeatures": "Foncionalitats bèta",
-    "betafeatures-desc": "Daissa l’utilizaire activar o desactivar las foncionalitats sus aqueste wiki que son pas encara prèstas per èsser generalizadas",
-    "betafeatures-toplink": "Bèta",
-    "betafeatures-auto-enroll": "Activar automaticament totas las novèlas foncionalitats en bèta",
-    "betafeatures-about-betafeatures": "A prepaus de las foncionalitats en bèta",
-    "betafeatures-discuss-betafeatures": "Daissar un comentari",
-    "betafeatures-extension-type": "Foncionalitats bèta"
+	"@metadata": {
+		"authors": [
+			"Cedric31"
+		]
+	},
+	"mw-ui-feature-discuss": "discussion",
+	"mw-ui-feature-info": "informacion",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|Un utilizaire a|$1 utilizaires an}} activat aquesta foncionalitat.",
+	"mw-ui-feature-requirements-javascript": "Aquesta foncionalitat necessita JavaScript.",
+	"prefs-betafeatures": "Foncionalitats bèta",
+	"betafeatures-desc": "Daissa l’utilizaire activar o desactivar las foncionalitats sus aqueste wiki que son pas encara prèstas per èsser generalizadas",
+	"betafeatures-toplink": "Bèta",
+	"betafeatures-auto-enroll": "Activar automaticament totas las novèlas foncionalitats en bèta",
+	"betafeatures-about-betafeatures": "A prepaus de las foncionalitats en bèta",
+	"betafeatures-discuss-betafeatures": "Daissar un comentari",
+	"betafeatures-extension-type": "Foncionalitats bèta"
 }
