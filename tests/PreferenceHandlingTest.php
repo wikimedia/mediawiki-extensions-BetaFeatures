@@ -35,8 +35,8 @@ class PreferenceHandlingTest extends MediaWikiTestCase {
 		$validPref = array(
 			'label-message' => 'soup-label',
 			'desc-message' => 'something-something-desc-side',
-			'info-link' => 'https://mediawiki.org/wiki/Extension:BetaFeatures/Testing',
-			'discussion-link' => 'https://mediawiki.org/wiki/Extension_talk:BetaFeatures/Testing',
+			'info-link' => 'http://example.org/features',
+			'discussion-link' => 'http://example.org/feedback',
 		);
 
 		$validPrefPostHook = $validPref;

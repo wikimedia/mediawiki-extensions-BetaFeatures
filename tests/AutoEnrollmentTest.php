@@ -30,16 +30,16 @@ class AutoEnrollmentTest extends MediaWikiTestCase {
 		'unittest-all' => array(
 			'label-message' => 'nullish',
 			'desc-message' => 'nullish',
-			'info-link' => 'https://mediawiki.org/wiki/Extension:BetaFeatures',
-			'discussion-link' => 'https://mediawiki.org/wiki/Extension_talk:BetaFeatures',
+			'info-link' => 'http://example.org/features',
+			'discussion-link' => 'http://example.org/feedback',
 			'auto-enrollment' => 'unittest',
 		),
 
 		'unittest-ft1' => array(
 			'label-message' => 'something else',
 			'desc-message' => 'something even differenter',
-			'info-link' => 'https://mediawiki.org/wiki/Extension:BetaFeatures/Auto-enrollment',
-			'discussion-link' => 'https://mediawiki.org/wiki/Extension_talk:BetaFeatures/Auto-enrollment',
+			'info-link' => 'http://example.org/feature/one',
+			'discussion-link' => 'http://example.org/feedback/one',
 			'group' => 'unittest',
 			'auto-enrollment' => 'unittest2',
 		),
@@ -47,8 +47,8 @@ class AutoEnrollmentTest extends MediaWikiTestCase {
 		'unittest-ft2' => array(
 			'label-message' => 'something even more else',
 			'desc-message' => 'something even more differenter',
-			'info-link' => 'https://mediawiki.org/wiki/Extension:BetaFeatures/Auto-enrollment2',
-			'discussion-link' => 'https://mediawiki.org/wiki/Extension_talk:BetaFeatures/Auto-enrollment2',
+			'info-link' => 'http://example.org/feature/two',
+			'discussion-link' => 'http://example.org/feedback/two',
 			'group' => 'unittest2',
 		),
 	);

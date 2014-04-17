@@ -35,8 +35,8 @@ class DependentFeatureTest extends MediaWikiTestCase {
 	static $testPref = array(
 		'label-message' => 'nullish',
 		'desc-message' => 'nullish',
-		'info-link' => 'https://mediawiki.org/wiki/Extension:BetaFeatures',
-		'discussion-link' => 'https://mediawiki.org/wiki/Extension_talk:BetaFeatures',
+		'info-link' => 'http://example.org/features',
+		'discussion-link' => 'http://example.org/feedback',
 		'dependent' => true,
 	);
 
