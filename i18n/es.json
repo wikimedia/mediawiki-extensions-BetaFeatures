@@ -12,7 +12,7 @@
 	"mw-ui-feature-discuss": "discusión",
 	"mw-ui-feature-info": "información",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|Un usuario ha|$1 varios usuarios han|0=Nadie ha}} activado esta característica.",
-	"mw-ui-feature-requirements-betafeatures": "Esta funcionalidad requiere {{PLURAL:$1|la siguiente funcionalidad|las siguientes funcionalidades}} para ser activada:",
+	"mw-ui-feature-requirements-betafeatures": "Esta funcionalidad depende de {{PLURAL:$1|la siguiente|las siguientes}}:",
 	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|El siguiente navegador no es compatible|Los siguientes navegadores no son compatibles}}:",
 	"mw-ui-feature-requirements-javascript": "Esta funcionalidad requiere JavaScript.",
 	"mw-ui-feature-requirements-skins": "Esta funcionalidad requiere que utilices {{PLURAL:$1|la siguiente apariencia|una de las siguientes apariencias}}:",
