@@ -11,7 +11,5 @@
 	"prefs-betafeatures": "Beta mogućnosti",
 	"betafeatures-toplink": "Beta mogućnosti",
 	"betafeatures-auto-enroll": "Automatski uključi beta mogućnosti.",
-	"betafeatures-section-desc": "Ovo {{PLURAL:$1|je nova mogućnost|su nove mogućnosti}} na projektu {{SITENAME}}. Molimo {{PLURAL:$1|isprobajte je|isprobajte ih}} i dajte nam vaše mišljenje kako da {{PLURAL:$1|je|ih}} poboljšamo.",
-	"betafeatures-about-betafeatures": "O beta mogućnostima",
-	"betafeatures-discuss-betafeatures": "Povratne informacije"
+	"betafeatures-section-desc": "Ovo {{PLURAL:$1|je nova mogućnost|su nove mogućnosti}} na projektu {{SITENAME}}. Molimo {{PLURAL:$1|isprobajte je|isprobajte ih}} i dajte nam vaše mišljenje kako da {{PLURAL:$1|je|ih}} poboljšamo."
 }

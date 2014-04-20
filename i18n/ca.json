@@ -20,7 +20,5 @@
 	"betafeatures-auto-enroll": "Activa automàticament totes les funcionalitats ''beta'' noves",
 	"betafeatures-section-desc": "Aquí teniu {{PLURAL:$1|una nova funcionalitat|noves funcionalitats}} que estem considerant per a {{SITENAME}}. Si us plau, proveu-les i compartiu les vostres opinions. Així podrem millorar-les en base als vostres comentaris.",
 	"betafeatures-tooltip": "Us presentem Funcionalitats Beta! Aquesta nova secció a les vostres preferències us permet avaluar noves funcionalitats i compartir els vostres comentaris abans d'activar-les per a tothom.  This new preferences section lets you test and give feedback about new features before we launch them as default behavior. Prova alguna beta!",
-	"betafeatures-about-betafeatures": "Sobre les funcionalitats beta",
-	"betafeatures-discuss-betafeatures": "Comentaris",
 	"betafeatures-extension-type": "Funcionalitats beta"
 }
