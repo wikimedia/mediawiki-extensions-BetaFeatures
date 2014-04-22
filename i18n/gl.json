@@ -7,7 +7,7 @@
 	},
 	"mw-ui-feature-discuss": "conversa",
 	"mw-ui-feature-info": "información",
-	"mw-ui-feature-user-count": "{{PLURAL:$1|Un usuario ten|$1 usuarios teñen|0=Ningún usuario ten}} activada esta característica.",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|Un usuario está|$1 usuarios están|0=Ningún usuario está}} probando esta característica.",
 	"mw-ui-feature-requirements-betafeatures": "Esta característica necesita a activación {{PLURAL:$1|da seguinte característica|das seguintes características}}:",
 	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|O seguinte navegador non está soportado|Os seguintes navegadores non están soportados}}:",
 	"mw-ui-feature-requirements-javascript": "Esta característica necesita JavaScript.",
@@ -18,7 +18,5 @@
 	"betafeatures-auto-enroll": "Activar automaticamente todas as novas características en probas",
 	"betafeatures-section-desc": "Aquí hai {{PLURAL:$1|unha característica nova|algunhas características novas}} que estamos considerando para {{SITENAME}}. {{PLURAL:$1|Próbea|Próbeas}} e achéguenos a súa opinión, para que poidamos {{PLURAL:$1|mellorala|melloralas}}.",
 	"betafeatures-tooltip": "Velaquí están as características en probas! Esta nova sección das preferencias permítelle probar e achegar comentarios sobre as novas características antes de que as lancemos para todos. Probe algo novo agora!",
-	"betafeatures-about-betafeatures": "Acerca das características en probas",
-	"betafeatures-discuss-betafeatures": "Deixe un comentario",
 	"betafeatures-extension-type": "Características en probas"
 }
