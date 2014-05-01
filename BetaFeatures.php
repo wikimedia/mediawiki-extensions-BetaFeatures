@@ -31,10 +31,14 @@ $wgAutoloadClasses['HTMLHorizontalRuleField'] = __DIR__ . '/includes/HTMLHorizon
 $wgAutoloadClasses['BetaFeatures'] = __DIR__ . '/includes/BetaFeaturesUtil.php';
 $wgAutoloadClasses['UpdateBetaFeatureUserCountsJob'] = __DIR__ . '/includes/UpdateBetaFeatureUserCountsJob.php';
 $wgAutoloadClasses['ApiQueryBetaFeatures'] = __DIR__ . '/includes/ApiListBetaFeatures.php';
+$wgAutoloadClasses['SpecialBetaFeatures'] = __DIR__ . '/includes/SpecialBetaFeatures.php';
 
 $wgAPIListModules['betafeatures'] = 'ApiQueryBetaFeatures';
 
 $wgMessagesDirs['BetaFeatures'] = __DIR__ . '/i18n';
+$wgExtensionMessagesFiles['BetaFeaturesAlias'] = __DIR__ . '/BetaFeatures.alias.php';
+
+$wgSpecialPages['BetaFeatures'] = 'SpecialBetaFeatures';
 
 $wgHooks['UserSaveOptions'][] = 'BetaFeaturesHooks::updateUserCounts';
 $wgHooks['GetPreferences'][] = 'BetaFeaturesHooks::getPreferences';
