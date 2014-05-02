@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Умар"
+			"Умар",
+			"Amire80"
 		]
 	},
 	"mw-ui-feature-discuss": "дийцаре",
@@ -10,10 +11,8 @@
 	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|1=ХӀара браузер ловш яц|ХӀара браузераш ловш яц}}:",
 	"prefs-betafeatures": "Бета-функцеш",
 	"betafeatures-desc": "Декъашхошна прайм-тайман кийча йоцу функцеш лато я дӀаяйа таро хуьлуьйту",
-	"betafeatures-toplink": "Бета-верси",
+	"betafeatures-toplink": "Бета",
 	"betafeatures-auto-enroll": "Ша лата йо керла бета-функцеш",
 	"betafeatures-section-desc": "{{PLURAL:$1|Йина керла фунуцеш}} оха уьш йина {{SITENAME}}н. Дехар до, {{PLURAL:$1|уьш}} лела яй а хьайна хетарг ала,тӀакха тхуна уьш дика ян аьтту хира бу.",
-	"betafeatures-about-betafeatures": "Бета-функцешах лаьцна",
-	"betafeatures-discuss-betafeatures": "Язде хьайна хетарг",
 	"betafeatures-extension-type": "Бета-функцеш"
 }
