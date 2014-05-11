@@ -16,6 +16,16 @@ $specialPageAliases['de'] = array(
 	'BetaFeatures' => array( 'Beta-Funktionen' ),
 );
 
+/** British English (British English) */
+$specialPageAliases['en-gb'] = array(
+	'BetaFeatures' => array( 'BetaFeatures' ),
+);
+
+/** Min Nan Chinese (Bân-lâm-gú) */
+$specialPageAliases['nan'] = array(
+	'BetaFeatures' => array( 'Chhì-iōng_kong-lêng' ),
+);
+
 /** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = array(
 	'BetaFeatures' => array( '测试功能' ),
