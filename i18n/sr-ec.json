@@ -9,7 +9,7 @@
 	"mw-ui-feature-user-count": "{{PLURAL:$1|Један корисник је укључио ову могућност|Ову могућност је укључило $1 корисника|0=Ниједан корисник није укључио ову могућност.}}",
 	"mw-ui-feature-requirements-betafeatures": "За ову могућност потребно је омогућити {{PLURAL:$1|следећу могућност|следеће могућности}}:",
 	"prefs-betafeatures": "Бета могућности",
-	"betafeatures-toplink": "Бета могућности",
+	"betafeatures-toplink": "Бета",
 	"betafeatures-auto-enroll": "Аутоматски укључи бета могућности.",
 	"betafeatures-section-desc": "Ово {{PLURAL:$1|је нова могућност|су нове могућности}} на пројекту {{SITENAME}}. Молимо {{PLURAL:$1|испробајте је|испробајте их}} и дајте нам ваше мишљење како да {{PLURAL:$1|је|их}} побољшамо.",
 	"betafeatures-extension-type": "Бета могућности"
