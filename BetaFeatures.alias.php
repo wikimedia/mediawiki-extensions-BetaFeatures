@@ -16,6 +16,11 @@ $specialPageAliases['de'] = array(
 	'BetaFeatures' => array( 'Beta-Funktionen' ),
 );
 
+/** Zazaki (Zazaki) */
+$specialPageAliases['diq'] = array(
+	'BetaFeatures' => array( 'BetaArdoği' ),
+);
+
 /** British English (British English) */
 $specialPageAliases['en-gb'] = array(
 	'BetaFeatures' => array( 'BetaFeatures' ),
