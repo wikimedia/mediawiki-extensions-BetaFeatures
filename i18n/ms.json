@@ -1,9 +1,18 @@
 {
 	"@metadata": {
 		"authors": [
-			"Aurora"
+			"Aurora",
+			"Pizza1016"
 		]
 	},
+	"mw-ui-feature-discuss": "perbincangan",
+	"mw-ui-feature-info": "maklumat",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|Seorang|$1|0=Tiada}} pengguna sedang mencubai ciri ini.",
+	"mw-ui-feature-requirements-betafeatures": "Ciri ini memerlukan {{PLURAL:$1|ciri|ciri-ciri}} di bawah untuk dibukakan:",
+	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|Pelayar|Pelayar-pelayar}} di bawah tidak disokong:",
+	"mw-ui-feature-requirements-javascript": "Ciri ini memerlukan JavaScript.",
+	"mw-ui-feature-requirements-skins": "Ciri ini berfungsi dengan {{PLURAL:$1|rupa|rupa-rupa}} berikut sahaja:",
 	"prefs-betafeatures": "Ciri beta",
+	"betafeatures-auto-enroll": "Bukakan semua ciri beta yang baru secara automatik",
 	"betafeatures-extension-type": "Ciri beta"
 }
