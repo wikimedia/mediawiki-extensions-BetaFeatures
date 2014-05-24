@@ -8,7 +8,8 @@
 			"Shizhao",
 			"Xiaomingyan",
 			"乌拉跨氪",
-			"Hudafu"
+			"Hudafu",
+			"Mywood"
 		]
 	},
 	"mw-ui-feature-discuss": "讨论",
@@ -20,7 +21,7 @@
 	"mw-ui-feature-requirements-skins": "该功能仅适用于{{PLURAL:$1|以下皮肤}}：",
 	"prefs-betafeatures": "测试功能",
 	"betafeatures-desc": "让用户能够启用或停用仍在本wiki测试的功能",
-	"betafeatures-toplink": "测试",
+	"betafeatures-toplink": "实验室",
 	"betafeatures-auto-enroll": "自动启用所有新测试功能",
 	"betafeatures-section-desc": "我们{{PLURAL:$1|有一个|有一些}}计划用于{{SITENAME}}的新功能。请试用{{PLURAL:$1|该|这些}}功能，并把你的想法告诉我们，以便我们依据你的反馈改进{{PLURAL:$1|它|它们}}。",
 	"betafeatures-tooltip": "欢迎使用测试功能！这个新的设置分项可以让您在我们默认启用新功能前测试并提供反馈。现在就来试试这些新功能吧！",
