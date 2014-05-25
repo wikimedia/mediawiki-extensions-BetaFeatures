@@ -26,6 +26,11 @@ $specialPageAliases['en-gb'] = array(
 	'BetaFeatures' => array( 'BetaFeatures' ),
 );
 
+/** Malayalam (മലയാളം) */
+$specialPageAliases['ml'] = array(
+	'BetaFeatures' => array( 'പരീക്ഷണസൗകര്യങ്ങൾ' ),
+);
+
 /** Min Nan Chinese (Bân-lâm-gú) */
 $specialPageAliases['nan'] = array(
 	'BetaFeatures' => array( 'Chhì-iōng_kong-lêng' ),
