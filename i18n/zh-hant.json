@@ -4,12 +4,13 @@
 			"Liuxinyu970226",
 			"Openerror",
 			"StephDC",
-			"Liangent"
+			"Liangent",
+			"Cwlin0416"
 		]
 	},
 	"mw-ui-feature-discuss": "討論",
 	"mw-ui-feature-info": "資訊",
-	"mw-ui-feature-user-count": "{{PLURAL:$1|$1位用戶已|0=尚無用戶}}啟用此功能。",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|$1 位使用者已|0=尚無使用者}}開啟此功能。",
 	"mw-ui-feature-requirements-betafeatures": "此功能需要啟用以下$1個功能：",
 	"mw-ui-feature-requirements-browser": "不支援以下$1個瀏覽器：",
 	"mw-ui-feature-requirements-javascript": "此功能需要JavaScript。",
@@ -17,7 +18,7 @@
 	"prefs-betafeatures": "測試功能",
 	"betafeatures-desc": "允許用戶啟用或禁用wiki上仍於測試之功能",
 	"betafeatures-toplink": "測試",
-	"betafeatures-auto-enroll": "自動啟用所有新的測試版功能",
+	"betafeatures-auto-enroll": "自動啟用所有測試版的新功能",
 	"betafeatures-section-desc": "目前我們考慮在{{SITENAME}}啟用下列的新功能。請測試它們並提供您的意見，以利我們改進這些功能。",
 	"betafeatures-tooltip": "介紹測試功能！此設置選項允許您於正式部署前對新功能測試與遞交反饋。歡迎測試！",
 	"betafeatures-extension-type": "測試功能"
