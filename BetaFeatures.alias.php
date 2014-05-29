@@ -26,6 +26,11 @@ $specialPageAliases['en-gb'] = array(
 	'BetaFeatures' => array( 'BetaFeatures' ),
 );
 
+/** Persian (فارسی) */
+$specialPageAliases['fa'] = array(
+	'BetaFeatures' => array( 'قابلیت‌های_آزمایشی' ),
+);
+
 /** Malayalam (മലയാളം) */
 $specialPageAliases['ml'] = array(
 	'BetaFeatures' => array( 'പരീക്ഷണസൗകര്യങ്ങൾ' ),
