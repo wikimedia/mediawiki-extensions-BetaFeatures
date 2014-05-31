@@ -10,6 +10,6 @@
 	"mw-ui-feature-requirements-betafeatures": "Za ovu mogućnost potrebno je omogućiti {{PLURAL:$1|sledeću mogućnost|sledeće mogućnosti}}:",
 	"prefs-betafeatures": "Beta mogućnosti",
 	"betafeatures-toplink": "Beta",
-	"betafeatures-auto-enroll": "Automatski uključi beta mogućnosti.",
+	"betafeatures-auto-enroll": "Automatski uključi beta mogućnosti",
 	"betafeatures-section-desc": "Ovo {{PLURAL:$1|je nova mogućnost|su nove mogućnosti}} na projektu {{SITENAME}}. Molimo {{PLURAL:$1|isprobajte je|isprobajte ih}} i dajte nam vaše mišljenje kako da {{PLURAL:$1|je|ih}} poboljšamo."
 }

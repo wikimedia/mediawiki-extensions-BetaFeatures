@@ -41,6 +41,11 @@ $specialPageAliases['nan'] = array(
 	'BetaFeatures' => array( 'Chhì-iōng_kong-lêng' ),
 );
 
+/** Ukrainian (українська) */
+$specialPageAliases['uk'] = array(
+	'BetaFeatures' => array( 'Бета-функції' ),
+);
+
 /** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = array(
 	'BetaFeatures' => array( '测试功能' ),
