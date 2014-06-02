@@ -5,7 +5,8 @@
 			"Jopparn",
 			"NH",
 			"Skalman",
-			"WikiPhoenix"
+			"WikiPhoenix",
+			"Lokal Profil"
 		]
 	},
 	"mw-ui-feature-discuss": "diskussion",
@@ -14,12 +15,12 @@
 	"mw-ui-feature-requirements-betafeatures": "Den här funktionen kräver att följande {{PLURAL:$1|funktion är aktiverad|funktioner är aktiverade}}:",
 	"mw-ui-feature-requirements-browser": "Följande {{PLURAL:$1|webbläsare}} stöds inte:",
 	"mw-ui-feature-requirements-javascript": "Denna funktion kräver JavaScript.",
-	"mw-ui-feature-requirements-skins": "Den här funktionen kräver att du använder {{PLURAL:$1|följande utseende|en av de följande utseenden}}:",
+	"mw-ui-feature-requirements-skins": "Den här funktionen kräver att du använder {{PLURAL:$1|följande utseende|ett av följande utseenden}}:",
 	"prefs-betafeatures": "Betafunktioner",
 	"betafeatures-desc": "Låter användare aktivera eller inaktivera funktioner på wikin som fortfarande inte är helt färdiga",
 	"betafeatures-toplink": "Beta",
 	"betafeatures-auto-enroll": "Aktivera automatiskt alla nya betafunktioner",
-	"betafeatures-section-desc": "Följande {{PLURAL:$1|funktion|funktioner}} är under utveckling och kan komma att införas på {{SITENAME}}. Prova {{PLURAL:$1|den|dem}} gärna, och lämna gärna förslag på förbättringar.",
-	"betafeatures-tooltip": "Vi intoruducerar betafunktioner! Denna nya inställningsavsnitt låter dig testa och ge återkoppling på nya funktioner innan vi lanserar dem som standardfunktionerna. Testa något nytt nu!",
+	"betafeatures-section-desc": "Följande är {{PLURAL:$1|en ny funktion|några nya funktioner}} vi överväger på {{SITENAME}}. Prova {{PLURAL:$1|den|dem}} gärna, och låt oss veta vad du tycker, så att vi kan förbättra {{PLURAL:$1|den|dem}} baserat på din återkoppling.",
+	"betafeatures-tooltip": "Vi introducerar betafunktioner! Detta nya inställningsavsnitt låter dig testa och ge återkoppling på nya funktioner innan vi lanserar dem som standard. Testa något nytt nu!",
 	"betafeatures-extension-type": "Betafunktioner"
 }
