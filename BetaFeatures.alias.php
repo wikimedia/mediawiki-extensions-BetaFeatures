@@ -31,6 +31,11 @@ $specialPageAliases['fa'] = array(
 	'BetaFeatures' => array( 'قابلیت‌های_آزمایشی' ),
 );
 
+/** Korean (한국어) */
+$specialPageAliases['ko'] = array(
+	'BetaFeatures' => array( '베타기능' ),
+);
+
 /** Malayalam (മലയാളം) */
 $specialPageAliases['ml'] = array(
 	'BetaFeatures' => array( 'പരീക്ഷണസൗകര്യങ്ങൾ' ),
