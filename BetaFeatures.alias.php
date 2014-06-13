@@ -46,6 +46,11 @@ $specialPageAliases['nan'] = array(
 	'BetaFeatures' => array( 'Chhì-iōng_kong-lêng' ),
 );
 
+/** Dutch (Nederlands) */
+$specialPageAliases['nl'] = array(
+	'BetaFeatures' => array( 'BetaMogelijkheden' ),
+);
+
 /** Ukrainian (українська) */
 $specialPageAliases['uk'] = array(
 	'BetaFeatures' => array( 'Бета-функції' ),
