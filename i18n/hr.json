@@ -7,6 +7,7 @@
 	"mw-ui-feature-discuss": "rasprava",
 	"mw-ui-feature-info": "informacije",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|Ovu mogućnost omogućio je jedan suradnik.|Ovu mogućnost omogućilo je $1 suradnika.|0=Ovu mogućnost nije omogućio niti jedan suradnik.}}",
+	"mw-ui-feature-requirements-betafeatures": "Zahtijeva uključivanje {{PLURAL:$1|sljedeće mogućnosti|sljedećih mogućnosti}}:",
 	"mw-ui-feature-requirements-skins": "Moguće jedino sa sljedećim {{PLURAL:$1|izgledom|izgledima}}:",
 	"prefs-betafeatures": "Beta mogućnosti",
 	"betafeatures-auto-enroll": "Automatski omogući beta mogućnosti",
