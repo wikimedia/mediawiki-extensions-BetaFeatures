@@ -31,6 +31,11 @@ $specialPageAliases['fa'] = array(
 	'BetaFeatures' => array( 'قابلیت‌های_آزمایشی' ),
 );
 
+/** Upper Sorbian (hornjoserbsce) */
+$specialPageAliases['hsb'] = array(
+	'BetaFeatures' => array( 'Beta-funkcije' ),
+);
+
 /** Korean (한국어) */
 $specialPageAliases['ko'] = array(
 	'BetaFeatures' => array( '베타기능' ),
@@ -54,6 +59,11 @@ $specialPageAliases['nl'] = array(
 /** Ukrainian (українська) */
 $specialPageAliases['uk'] = array(
 	'BetaFeatures' => array( 'Бета-функції' ),
+);
+
+/** Vietnamese (Tiếng Việt) */
+$specialPageAliases['vi'] = array(
+	'BetaFeatures' => array( 'Tính_năng_beta' ),
 );
 
 /** Simplified Chinese (中文（简体）‎) */
