@@ -56,6 +56,11 @@ $specialPageAliases['nl'] = array(
 	'BetaFeatures' => array( 'BetaMogelijkheden' ),
 );
 
+/** Polish (polski) */
+$specialPageAliases['pl'] = array(
+	'BetaFeatures' => array( 'Funkcje_eksperymentalne' ),
+);
+
 /** Ukrainian (українська) */
 $specialPageAliases['uk'] = array(
 	'BetaFeatures' => array( 'Бета-функції' ),

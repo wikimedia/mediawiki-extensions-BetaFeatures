@@ -10,7 +10,7 @@
 	"mw-ui-feature-requirements-betafeatures": "Tính năng này cần {{PLURAL:$1|tính năng|các tính năng}} sau được kích hoạt:",
 	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|Trình duyệt|Các trình duyệt}} sau không được hỗ trợ:",
 	"mw-ui-feature-requirements-javascript": "Tính năng này cần JavaScript.",
-	"mw-ui-feature-requirements-skins": "Tính năng này chỉ tương thích với {{PLURAL:$1|hình dạng|các hình dạng}} sau:",
+	"mw-ui-feature-requirements-skins": "Tính năng này chỉ tương thích với {{PLURAL:$1|giao diện|các giao diện}} sau:",
 	"prefs-betafeatures": "Tính năng beta",
 	"betafeatures-desc": "Cho phép người dùng bật hay tắt các tính năng wiki chưa ổn định",
 	"betafeatures-toplink": "Beta",
