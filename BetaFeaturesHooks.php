@@ -71,7 +71,7 @@ class BetaFeaturesHooks {
 
 			// Cache for 30 minutes
 			$key = wfMemcKey( 'betafeatures', 'usercounts', $row->feature );
-			wfGetCache( CACHE_ANYTHING )->set( $key, $row->number, self::COUNT_CACHE_TTL );
+			wfGetCache( CACHE_ANYTHING )->set( $key, (int)$row->number, self::COUNT_CACHE_TTL );
 		}
 
 		return $counts;
