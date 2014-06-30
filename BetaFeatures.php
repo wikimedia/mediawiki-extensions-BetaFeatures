@@ -33,6 +33,9 @@ $wgAutoloadClasses['UpdateBetaFeatureUserCountsJob'] = __DIR__ . '/includes/Upda
 $wgAutoloadClasses['ApiQueryBetaFeatures'] = __DIR__ . '/includes/ApiListBetaFeatures.php';
 $wgAutoloadClasses['SpecialBetaFeatures'] = __DIR__ . '/includes/SpecialBetaFeatures.php';
 
+// For tests
+$wgAutoloadClasses['BetaFeaturesTestCase'] = __DIR__ . '/tests/BetaFeaturesTestCase.php';
+
 $wgAPIListModules['betafeatures'] = 'ApiQueryBetaFeatures';
 
 $wgMessagesDirs['BetaFeatures'] = __DIR__ . '/i18n';

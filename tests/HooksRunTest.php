@@ -52,14 +52,6 @@ class HooksRunTest extends MediaWikiTestCase {
 		$this->user->addGroup( 'unittesters' );
 	}
 
-	public function testCanRegisterHooks() {
-		global $wgHooks;
-		$this->assertArrayHasKey( 'GetBetaFeaturePreferences', $wgHooks, 'Hook array does not exist...' );
-		$wgHooks['GetBetaFeaturePreferences'] = array( 'HooksRunTest::nullHook' );
-		// There's no reason for this to not work
-		$this->assertGreaterThan( 0, count( $wgHooks['GetBetaFeaturePreferences'] ), 'Hook did not get registered.' );
-	}
-
 	public function testHooksRun() {
 		global $wgHooks;
 
