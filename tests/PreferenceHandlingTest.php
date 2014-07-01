@@ -23,7 +23,7 @@
  * @license GNU General Public License version 2 or later
  */
 
-class PreferenceHandlingTest extends MediaWikiTestCase {
+class PreferenceHandlingTest extends BetaFeaturesTestCase {
 
 	const testPrefKey = 'unittest';
 
@@ -47,13 +47,6 @@ class PreferenceHandlingTest extends MediaWikiTestCase {
 			array( 'Invalid preference should cause an error', $invalidPref, null ),
 			array( 'Totally valid preference should get set accurately', $validPref, $validPrefPostHook ),
 		);
-	}
-
-	protected function setUp() {
-		parent::setUp();
-
-		$this->user = new User;
-		$this->user->addGroup( 'unittesters' );
 	}
 
 	/**

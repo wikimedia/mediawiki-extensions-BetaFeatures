@@ -23,7 +23,7 @@
  * @license GNU General Public License version 2 or later
  */
 
-class DependentFeatureTest extends MediaWikiTestCase {
+class DependentFeatureTest extends BetaFeaturesTestCase {
 
 	// Key for testing preference
 	const testPrefKey = 'unittest';
@@ -67,8 +67,6 @@ class DependentFeatureTest extends MediaWikiTestCase {
 		$wgHooks['GetBetaFeaturePreferences'][] = 'DependentFeatureTest::hookThatRegistersPreference';
 		$wgHooks['GetBetaFeatureDependencyHooks'][] = 'DependentFeatureTest::hookThatRegistersDependency';
 
-		$this->user = new User;
-		$this->user->addGroup( 'unittesters' );
 	}
 
 	public function testPassingDependency() {

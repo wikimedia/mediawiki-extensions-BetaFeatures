@@ -23,7 +23,7 @@
  * @license GNU General Public License version 2 or later
  */
 
-class AutoEnrollmentTest extends MediaWikiTestCase {
+class AutoEnrollmentTest extends BetaFeaturesTestCase {
 
 	// Structure of testing preference
 	static $testPrefs = array(
@@ -128,8 +128,6 @@ class AutoEnrollmentTest extends MediaWikiTestCase {
 
 		$wgHooks['GetBetaFeaturePreferences'] = array( 'AutoEnrollmentTest::hookThatRegistersPreference' );
 
-		$this->user = new User;
-		$this->user->addGroup( 'unittesters' );
 	}
 
 	/**
