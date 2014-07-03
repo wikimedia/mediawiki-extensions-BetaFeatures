@@ -41,6 +41,11 @@ $specialPageAliases['ko'] = array(
 	'BetaFeatures' => array( '베타기능' ),
 );
 
+/** Macedonian (македонски) */
+$specialPageAliases['mk'] = array(
+	'BetaFeatures' => array( 'БетаФункции' ),
+);
+
 /** Malayalam (മലയാളം) */
 $specialPageAliases['ml'] = array(
 	'BetaFeatures' => array( 'പരീക്ഷണസൗകര്യങ്ങൾ' ),
