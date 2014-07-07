@@ -6,7 +6,7 @@
 	},
 	"mw-ui-feature-discuss": "discussion",
 	"mw-ui-feature-info": "information",
-	"mw-ui-feature-user-count": "{{PLURAL:$1|Un usator|$1 usatores|0=Nulle usator}} ha activate iste function.",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|Un usator|$1 usatores|0=Nemo}} proba iste function.",
 	"mw-ui-feature-requirements-betafeatures": "Iste function necessita activar le sequente {{PLURAL:$1|function|functiones}}:",
 	"mw-ui-feature-requirements-browser": "Le sequente {{PLURAL:$1|navigator|navigatores}} non es supportate:",
 	"mw-ui-feature-requirements-javascript": "Iste function require JavaScript.",
@@ -17,6 +17,5 @@
 	"betafeatures-auto-enroll": "Activar automaticamente tote le nove functionalitate beta",
 	"betafeatures-section-desc": "Ecce {{PLURAL:$1|un function nove|alcun functionalitate nove}} que nos considera pro {{SITENAME}}. Per favor essaya lo e dice nos tu opinion, de sorta que nos pote meliorar lo.",
 	"betafeatures-tooltip": "Nos presenta le functionalitate beta! Iste nove section de preferentias permitte testar e evalutar nove functiones ante lor activation pro omnes. Essaya ora qualcosa nove!",
-	"betafeatures-about-betafeatures": "A proposito del functionalitate beta",
-	"betafeatures-discuss-betafeatures": "Lassar evalutation"
+	"betafeatures-extension-type": "Functionalitate beta"
 }
