@@ -31,6 +31,11 @@ $specialPageAliases['fa'] = array(
 	'BetaFeatures' => array( 'قابلیت‌های_آزمایشی' ),
 );
 
+/** Hebrew (עברית) */
+$specialPageAliases['he'] = array(
+	'BetaFeatures' => array( 'אפשרויות_בטא' ),
+);
+
 /** Upper Sorbian (hornjoserbsce) */
 $specialPageAliases['hsb'] = array(
 	'BetaFeatures' => array( 'Beta-funkcije' ),
