@@ -26,6 +26,11 @@ $specialPageAliases['en-gb'] = array(
 	'BetaFeatures' => array( 'BetaFeatures' ),
 );
 
+/** Estonian (eesti) */
+$specialPageAliases['et'] = array(
+	'BetaFeatures' => array( 'Beeta' ),
+);
+
 /** Persian (فارسی) */
 $specialPageAliases['fa'] = array(
 	'BetaFeatures' => array( 'قابلیت‌های_آزمایشی' ),
