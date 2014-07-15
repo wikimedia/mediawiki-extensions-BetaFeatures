@@ -286,7 +286,7 @@ class BetaFeaturesHooks {
 					// Remove any skins that aren't installed or users can't choose
 					$prefs[$key]['requirements']['skins'] = array_intersect(
 						$prefs[$key]['requirements']['skins'],
-						Skin::getUsableSkins()
+						Skin::getAllowedSkins()
 					);
 
 					if ( empty( $prefs[$key]['requirements']['skins'] ) ) {
