@@ -11,6 +11,16 @@ $specialPageAliases['en'] = array(
 	'BetaFeatures' => array( 'BetaFeatures' ),
 );
 
+/** Arabic (العربية) */
+$specialPageAliases['ar'] = array(
+	'BetaFeatures' => array( 'خصائص_البيتا' ),
+);
+
+/** Egyptian Spoken Arabic (مصرى) */
+$specialPageAliases['arz'] = array(
+	'BetaFeatures' => array( 'خصايص_البيتا' ),
+);
+
 /** German (Deutsch) */
 $specialPageAliases['de'] = array(
 	'BetaFeatures' => array( 'Beta-Funktionen' ),
