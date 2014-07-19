@@ -4,7 +4,8 @@
 			"Mark Holmquist <mtraceur@member.fsf.org>",
 			"Nemo bis",
 			"Raymond",
-			"Shirayuki"
+			"Shirayuki",
+			"Liuxinyu970226"
 		]
 	},
 	"mw-ui-feature-discuss": "Used as link text for the link which points to discussion of a feature.\n{{Identical|Discussion}}",
@@ -16,7 +17,7 @@
 	"mw-ui-feature-requirements-skins": "Error message shown when the skin is not supported.\n\nFollowed by list of skins.\n\nParameters:\n* $1 - number of skins in list",
 	"prefs-betafeatures": "Used as section title for beta features in [[Special:Preferences]].\n{{Identical|Beta feature}}",
 	"betafeatures-desc": "{{desc|name=Beta Features|url=http://www.mediawiki.org/wiki/Extension:BetaFeatures}}",
-	"betafeatures-toplink": "Used as link text. The link points to [[Special:Preferences]] but takes the user directly to the \"Beta\" section.\n\nSee example: [[mw:Special:Preferences#mw-prefsection-editing|mw:Special:Preferences]]",
+	"betafeatures-toplink": "Used as link text. The link points to [[Special:Preferences]] but takes the user directly to the \"Beta\" section.\n\nSee example: [[mw:Special:Preferences#mw-prefsection-editing|mw:Special:Preferences]]\n\n{{Identical|Beta}}",
 	"betafeatures-auto-enroll": "Label for a checkbox that automatically enrolls the user in all the experiments happening on the wiki.\n\nDescription for this checkbox is:\n* {{msg-mw|Betafeatures-auto-enroll-desc}}",
 	"betafeatures-section-desc": "Used as description for the checkbox in [[Special:Preferences]].\n\nFollowed by the checkbox which has the label {{msg-mw|Betafeatures-auto-enroll}}.\n\nParameters:\n* $1 - number of beta features",
 	"betafeatures-test-check-field": "Used as label for the checkbox, used to test the extension.\n\nThe description for this checkbox is {{msg-mw|Betafeatures-test-feature-field}}.",
