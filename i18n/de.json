@@ -18,5 +18,6 @@
 	"betafeatures-auto-enroll": "Automatisch alle neuen Beta-Funktionen aktivieren",
 	"betafeatures-section-desc": "Hier {{PLURAL:$1|wird eine neue Funktion|werden einige neue Funktionen}} angezeigt, die wir für {{SITENAME}} planen. Bitte probier sie aus und teile uns deine Meinung mit. So können wir sie, aufgrund deiner Rückmeldung, verbessern.",
 	"betafeatures-tooltip": "Einführende Betafunktionen! Dieser neue Einstellungsabschnitt ermöglicht dir das Testen und Geben von Rückmeldungen über neue Funktionen, bevor wir sie standardmäßig aktivieren. Probier jetzt einige neue Funktionen aus!",
-	"betafeatures-extension-type": "Erweiterungen zu Beta-Funktionen"
+	"betafeatures-extension-type": "Erweiterungen zu Beta-Funktionen",
+	"tooltip-pt-betafeatures": "Beta-Funktionen"
 }

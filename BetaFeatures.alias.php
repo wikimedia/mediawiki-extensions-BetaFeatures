@@ -61,6 +61,11 @@ $specialPageAliases['ko'] = array(
 	'BetaFeatures' => array( '베타기능' ),
 );
 
+/** Luxembourgish (Lëtzebuergesch) */
+$specialPageAliases['lb'] = array(
+	'BetaFeatures' => array( 'Beta-Fumktiounen' ),
+);
+
 /** Macedonian (македонски) */
 $specialPageAliases['mk'] = array(
 	'BetaFeatures' => array( 'БетаФункции' ),

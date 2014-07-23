@@ -5,7 +5,8 @@
 			"Openerror",
 			"StephDC",
 			"Liangent",
-			"Cwlin0416"
+			"Cwlin0416",
+			"S8321414"
 		]
 	},
 	"mw-ui-feature-discuss": "討論",
@@ -21,5 +22,6 @@
 	"betafeatures-auto-enroll": "自動啟用所有測試階段的新功能",
 	"betafeatures-section-desc": "目前我們正在考慮於 {{SITENAME}} 提供下列{{PLURAL:$1|新功能}}。 需要麻煩您試用這些功能並提供您的意見，讓我們能夠根據您的回饋意見做改進。",
 	"betafeatures-tooltip": "歡迎使用測試版功能！此個人偏好設定區塊可以讓您在我們開始將這些新功能做為預設功能之前，測試並且回饋有關新功能的使用意見。 我們現在來試試新的功能吧！",
-	"betafeatures-extension-type": "測試功能"
+	"betafeatures-extension-type": "測試功能",
+	"tooltip-pt-betafeatures": "測試功能"
 }
