@@ -22,7 +22,6 @@
 	"betafeatures-auto-enroll": "Attiva automaticamente tutte le nuove funzionalità sperimentali",
 	"betafeatures-section-desc": "{{PLURAL:$1|Questa è una nuova funzionalità|Queste sono nuove funzionalità}} che stiamo prendendo in considerazione per {{SITENAME}}. Puoi {{PLURAL:$1|provarla|provarle}} e dirci cosa ne pensi, così potremo {{PLURAL:$1|migliorarla|migliorarle}} in base alle tue risposte.",
 	"betafeatures-tooltip": "Benvenuto nelle funzionalità sperimentali! Questa nuova sezione delle preferenze consente di provare e lasciare un commento sulle funzionalità sperimentali prima che siano estese a tutti. Prova subito qualcosa di nuovo!",
-	"betafeatures-about-betafeatures": "Informazioni su Beta Features",
-	"betafeatures-discuss-betafeatures": "Lascia un commento",
-	"betafeatures-extension-type": "Funzionalità sperimentali"
+	"betafeatures-extension-type": "Funzionalità sperimentali",
+	"tooltip-pt-betafeatures": "Funzionalità sperimentali"
 }

@@ -6,7 +6,8 @@
 			"Ovruni",
 			"Sporeunai",
 			"VegaDark",
-			"Vivaelcelta"
+			"Vivaelcelta",
+			"AVIADOR"
 		]
 	},
 	"mw-ui-feature-discuss": "discusión",
@@ -22,5 +23,6 @@
 	"betafeatures-auto-enroll": "Activar automáticamente las funciones en pruebas nuevas",
 	"betafeatures-section-desc": "Aquí te presentamos {{PLURAL:$1|una función nueva|algunas funciones nuevas}} que estamos considerando para {{SITENAME}}. {{PLURAL:$1|Pruébala|Pruébalas}} y danos tus comentarios, así podremos {{PLURAL:$1|mejorarla|mejorarlas}} con base a tus necesidades.",
 	"betafeatures-tooltip": "Te presentamos las funciones en pruebas. Esta sección permite probar y evaluar funcionalidades nuevas antes de que las activemos para todos.",
-	"betafeatures-extension-type": "Funciones en pruebas"
+	"betafeatures-extension-type": "Funciones en pruebas",
+	"tooltip-pt-betafeatures": "Funciones en pruebas"
 }

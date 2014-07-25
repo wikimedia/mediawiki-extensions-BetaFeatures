@@ -18,5 +18,6 @@
 	"betafeatures-auto-enroll": "Activar automaticamente todas as novas características en probas",
 	"betafeatures-section-desc": "Aquí hai {{PLURAL:$1|unha característica nova|algunhas características novas}} que estamos considerando para {{SITENAME}}. {{PLURAL:$1|Próbea|Próbeas}} e achéguenos a súa opinión, para que poidamos {{PLURAL:$1|mellorala|melloralas}}.",
 	"betafeatures-tooltip": "Velaquí están as características en probas! Esta nova sección das preferencias permítelle probar e achegar comentarios sobre as novas características antes de que as lancemos para todos. Probe algo novo agora!",
-	"betafeatures-extension-type": "Características en probas"
+	"betafeatures-extension-type": "Características en probas",
+	"tooltip-pt-betafeatures": "Características en probas"
 }
