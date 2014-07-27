@@ -21,5 +21,6 @@
 	"betafeatures-auto-enroll": "Automatycznie włączaj nowe funkcje eksperymentalne",
 	"betafeatures-section-desc": "Masz możliwość przetestowania {{PLURAL:$1|nowej, eksperymentalnych funkcji|nowych, eksperymentalnych funkcji}} przygotowanych dla {{GRAMMAR:D.lp|{{SITENAME}}}}. Prosimy o ich wypróbowanie i przekazanie nam swoich refleksji, abyśmy mogli je ulepszyć, bazując na Twoich komentarzach.",
 	"betafeatures-tooltip": "Sekcja funkcji eksperymentalnych umożliwia Ci testowanie i wyrażanie opinii na temat nowych funkcji, zanim uruchomimy je jako domyślne zachowanie. Wypróbuj coś nowego!",
-	"betafeatures-extension-type": "Funkcje eksperymentalne"
+	"betafeatures-extension-type": "Funkcje eksperymentalne",
+	"tooltip-pt-betafeatures": "Funkcje eksperymentalne"
 }

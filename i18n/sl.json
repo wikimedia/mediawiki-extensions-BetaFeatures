@@ -18,5 +18,6 @@
 	"betafeatures-auto-enroll": "Samodejno omogoči vse betamožnosti",
 	"betafeatures-section-desc": "Tu {{PLURAL:$1|je nova možnost|je nekaj novih možnosti}}, ki {{PLURAL:$1|jo|jih}} načrtujemo za {{SITENAME}}. Prosimo, {{PLURAL:$1|preizkusite jo|preizkusite jih}} in nam sporočite svoje mnenje, tako da {{PLURAL:$1|jo|jih}} bomo lahko na podlagi vaših povratnih informacij izboljšali.",
 	"betafeatures-tooltip": "Predstavljamo Betamožnosti! Novi razdelek v nastavitvah vam omogoča preizkušanje in posredovanje povratnih informacij o novih možnostih, preden jih uveljavimo kot privzeto vedenje. Poskusite nekaj novega!",
-	"betafeatures-extension-type": "Preizkusne funkcije"
+	"betafeatures-extension-type": "Preizkusne funkcije",
+	"tooltip-pt-betafeatures": "Preizkusne funkcije"
 }

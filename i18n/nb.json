@@ -17,5 +17,6 @@
 	"betafeatures-auto-enroll": "Automatisk aktiver alle nye betafunksjoner",
 	"betafeatures-section-desc": "Her {{PLURAL:$1|er en ny funksjon|er noen nye funksjoner}} vi vurderer å innføre på {{SITENAME}}. Prøv {{PLURAL:$1|den|dem}} gjerne og gi oss din tilbakemelding, så vi kan forbedre {{PLURAL:$1|den|dem}}.",
 	"betafeatures-tooltip": "Vi introduserer betafunksjoner! Denne nye innstillingsseksjonen lar deg teste og gi tilbakemelding på nye funksjoner før vi lanserer dem som standardfunksjoner. Prøv noe nytt nå!",
-	"betafeatures-extension-type": "Betafunksjoner"
+	"betafeatures-extension-type": "Betafunksjoner",
+	"tooltip-pt-betafeatures": "Betafunksjoner"
 }
