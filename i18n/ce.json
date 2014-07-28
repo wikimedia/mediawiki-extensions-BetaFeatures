@@ -14,5 +14,6 @@
 	"betafeatures-toplink": "Бета",
 	"betafeatures-auto-enroll": "Ша лата йо керла бета-функцеш",
 	"betafeatures-section-desc": "{{PLURAL:$1|Йина керла фунуцеш}} оха уьш йина {{SITENAME}}н. Дехар до, {{PLURAL:$1|уьш}} лела яй а хьайна хетарг ала,тӀакха тхуна уьш дика ян аьтту хира бу.",
-	"betafeatures-extension-type": "Бета-функцеш"
+	"betafeatures-extension-type": "Бета-функцеш",
+	"tooltip-pt-betafeatures": "Бета-функцеш"
 }
