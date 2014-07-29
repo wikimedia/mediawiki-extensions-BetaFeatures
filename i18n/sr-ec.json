@@ -8,6 +8,7 @@
 	"mw-ui-feature-info": "информације",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|Један корисник је укључио ову могућност|Ову могућност је укључило $1 корисника|0=Ниједан корисник није укључио ову могућност.}}",
 	"mw-ui-feature-requirements-betafeatures": "За ову могућност потребно је омогућити {{PLURAL:$1|следећу могућност|следеће могућности}}:",
+	"mw-ui-feature-requirements-javascript": "За ову могућност је потребна JavaScript-а.",
 	"prefs-betafeatures": "Бета могућности",
 	"betafeatures-toplink": "Бета",
 	"betafeatures-auto-enroll": "Аутоматски укључи бета могућности",
