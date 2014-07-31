@@ -17,5 +17,6 @@
 	"betafeatures-auto-enroll": "Tự động bật lên các tính năng beta mới",
 	"betafeatures-section-desc": "Đây có {{PLURAL:$1|một tính năng|những tính năng}} mới mà chúng tôi đang phát triển cho {{SITENAME}}. Xin vui lòng thử {{PLURAL:$1|nó|chúng}} và gửi cho chúng tôi những ý kiến của bạn để giúp chúng tôi cải thiện {{PLURAL:$1|nó|chúng}}.",
 	"betafeatures-tooltip": "Giới thiệu các tính năng beta! Phần tùy chọn mới này cho phép bạn thử các tính năng mới và gửi phản hồi trước khi chúng trở thành mặc định. Hãy thử những gì mới ngay bây giờ!",
-	"betafeatures-extension-type": "Tính năng beta"
+	"betafeatures-extension-type": "Tính năng beta",
+	"tooltip-pt-betafeatures": "Tính năng beta"
 }
