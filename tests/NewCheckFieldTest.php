@@ -37,7 +37,7 @@ class NewCheckFieldTest extends MediaWikiTestCase {
 		$html = $form->getHTML( false );
 
 		$this->assertRegExp( '#<tr class="mw-htmlform-field-NewHTMLCheckField">#', $html, 'Table row with class name not found.' );
-		$this->assertRegExp( '#<label for="mw-input-wpblahblahblah" class="mw-ui-styled-checkbox-label"><input name="wpblahblahblah" type="checkbox" value="1" id="mw-input-wpblahblahblah" class="mw-ui-checkbox" />&\\#160;</label>#', $html, 'Styled checkbox label and input not found.' );
+		$this->assertRegExp( '#<div class="mw-ui-checkbox"><input name="wpblahblahblah" type="checkbox" value="1" id="mw-input-wpblahblahblah" /><label for="mw-input-wpblahblahblah"></label><label for="mw-input-wpblahblahblah" class="mw-ui-text-check-label">blah blah blah</label>#', $html, 'Styled checkbox label and input not found.' );
 		$this->assertRegExp( '#<label for="mw-input-wpblahblahblah" class="mw-ui-text-check-label">blah blah blah</label>#', $html, 'Checkbox label not found.' );
 	}
 }

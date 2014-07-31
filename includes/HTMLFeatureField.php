@@ -28,6 +28,9 @@ class HTMLFeatureField extends NewHTMLCheckField {
 	const OPTION_ENABLED = '1';
 	const OPTION_DISABLED = '0';
 
+	// suppress labels (see getHeaderHTML)
+	protected $includeLabel = false;
+
 	function __construct( $options ) {
 		// We need the new checkbox style to have a sane-looking field
 		$options['mw-ui'] = true;
@@ -43,7 +46,7 @@ class HTMLFeatureField extends NewHTMLCheckField {
 			'class' => 'mw-ui-feature-title-contain',
 		) );
 
-		$html .= Html::rawElement( 'p', array(
+		$html .= Html::rawElement( 'div', array(
 			'class' => 'mw-ui-feature-title',
 		), $this->getPostCheckboxLabelHTML() );
 
@@ -284,9 +287,7 @@ class HTMLFeatureField extends NewHTMLCheckField {
 			'class' => implode( ' ', $divClasses ),
 		) );
 
-		$html .= Html::rawElement( 'div', array(
-			'class' => 'mw-ui-feature-checkbox',
-		), $this->getCheckboxHTML( $value, $attrs ) );
+		$html .= $this->getCheckboxHTML( $value, $attrs );
 
 		$html .= Html::openElement( 'div', array(
 			'class' => 'mw-ui-feature-contain',

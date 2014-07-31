@@ -22,43 +22,7 @@
  * @copyright 2013 Mark Holmquist and others; see AUTHORS
  * @license GNU General Public License version 2 or later
  */
-
 @import 'mediawiki.mixins';
-
-.client-js {
-	.mw-ui-styled-checkbox-label {
-		background-color: #fff;
-		cursor: pointer;
-		display: inline-block;
-		float: left;
-		width: 24px;
-		height: 24px;
-		border: 1px solid grey;
-		border-radius: 2px;
-		margin-right: 18px;
-	}
-
-	.mw-ui-styled-checkbox-label input[type=checkbox] {
-		/* Hide visually, keep accessible */
-		position: absolute;
-		clip: rect(1px 1px 1px 1px);
-		clip: rect(1px,1px,1px,1px);
-	}
-
-	.mw-ui-styled-checkbox-label.mw-ui-checked {
-		.background-image-svg('images/checked.svg', 'images/checked.png');
-		// Vile hack for Opera 12 which should be upstreamed to background-image-svg
-		background-image: -o-linear-gradient(transparent, transparent), url(images/checked.png);
-	}
-
-	.mw-ui-styled-checkbox-label.mw-ui-disabled {
-		background-color: lightgrey;
-	}
-
-	.mw-ui-checkbox-label {
-		padding-top: 5px;
-	}
-}
 
 table.mw-htmlform-container {
 	border-collapse: separate;
@@ -84,8 +48,7 @@ table.mw-htmlform-container {
 
 .mw-ui-feature-meta,
 .mw-ui-feature-screenshot-contain,
-.mw-ui-feature-title-contain,
-.mw-ui-feature-info-links {
+.mw-ui-feature-title-contain {
 	width: 50%;
 }
 
@@ -155,9 +118,10 @@ table.mw-htmlform-container {
 	margin: 1em 0 0 0;
 }
 
-.mw-ui-feature-checkbox .mw-ui-styled-checkbox-label {
-	margin-top: 6px;
-	margin-right: 9px;
+#mw-prefsection-betafeatures {
+	.mw-ui-checkbox {
+		float: left;
+	}
 }
 
 .mw-htmlform-field-HTMLTextBlockField .mw-input {
