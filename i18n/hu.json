@@ -18,7 +18,6 @@
 	"betafeatures-auto-enroll": "Automatikusan kapcsoljon be minden új béta funkciót",
 	"betafeatures-section-desc": "Itt {{PLURAL:$1|egy|néhány}} olyan új funkciót látsz, amit idővel be szeretnénk vezetni a {{SITENAME}} wikin. Próbáld {{PLURAL:$1|ki|ki őket}}, és mondd el a véleményed, hogy javítani tudjunk {{PLURAL:$1|rajta|rajtuk}} a visszajelzésed alapján.",
 	"betafeatures-tooltip": "Ismerkedj meg a béta funkciókkal! Ez az új fül a beállításaidnál olyan funkciókat tartalmaz, amiket a közeljövőben mindenkinek alapértelmezetté szeretnénk tenni; ha még előtte kipróbálod őket és megírod a véleményed, azzal segítesz tökéletesebbé tenni őket. Próbálj ki valami újat még ma!",
-	"betafeatures-about-betafeatures": "A béta funkciókról",
-	"betafeatures-discuss-betafeatures": "Üzenj a fejlesztőknek",
-	"betafeatures-extension-type": "Béta funkciók"
+	"betafeatures-extension-type": "Béta funkciók",
+	"tooltip-pt-betafeatures": "Béta funkciók"
 }
