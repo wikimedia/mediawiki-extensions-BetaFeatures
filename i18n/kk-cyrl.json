@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Arystanbek"
+			"Arystanbek",
+			"Balnur.s"
 		]
 	},
 	"mw-ui-feature-discuss": "талқылауы",
@@ -11,9 +12,9 @@
 	"mw-ui-feature-requirements-browser": "Төмендегі {{PLURAL:$1|шолғыш|шолғыштар}} қолдамайды:",
 	"mw-ui-feature-requirements-javascript": "Бұл мүмкіндік JavaScript керек етеді",
 	"mw-ui-feature-requirements-skins": "Бұл мүмкіндік теу  {{PLURAL:$1|келесі күйде|келесі күйлерде}} жұмыс істейді:",
-	"prefs-betafeatures": "Beta мүмкіндіктер",
-	"betafeatures-toplink": "Beta",
+	"prefs-betafeatures": "Бета мүмкіндіктер",
+	"betafeatures-toplink": "Бета",
 	"betafeatures-auto-enroll": "Барлық жаңа beta мүмкіндіктерді өздікті қосу",
 	"betafeatures-section-desc": "Сізге {{SITENAME}} сайтына арналған {{PLURAL:$1|жаңа мүмкіндікті|жаңа мүмкіндіктерді}} ұсынамыз. {{PLURAL:$1|Оны|Оларды}} сынап көріп, өз ойларыңызбен бөлісуіңізді сұраймыз. Сіз берген сын-бағалардың негізінде {{PLURAL:$1|оны|оларды}} жетілдіруге мүмкіндігіміз бар.",
-	"betafeatures-extension-type": "Beta мүмкіндіктер"
+	"betafeatures-extension-type": "Бета мүмкіндіктер"
 }
