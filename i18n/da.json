@@ -7,7 +7,7 @@
 	},
 	"mw-ui-feature-discuss": "diskussion",
 	"mw-ui-feature-info": "information",
-	"mw-ui-feature-user-count": "{{PLURAL:$1|Én bruger|$1 brugere|0=ingen brugere}} bruger denne funktion.",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|Én bruger|$1 brugere|0=Ingen brugere}} prøver denne funktion.",
 	"mw-ui-feature-requirements-betafeatures": "Denne funktion kræver, at følgende {{PLURAL:$1|funktion|funktioner}} er aktiveret:",
 	"mw-ui-feature-requirements-browser": "Følgende {{PLURAL:$1|browser|browsere}} er ikke understøttet:",
 	"mw-ui-feature-requirements-javascript": "Denne funktion kræver JavaScript.",
