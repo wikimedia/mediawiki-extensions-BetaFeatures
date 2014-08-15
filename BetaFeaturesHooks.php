@@ -155,7 +155,7 @@ class BetaFeaturesHooks {
 
 		$prefs['betafeatures-section-desc'] = array(
 			'class' => 'HTMLTextBlockField',
-			'label' => wfMessage( 'betafeatures-section-desc' )->numParams( count( $betaPrefs ) )->escaped(),
+			'label' => wfMessage( 'betafeatures-section-desc' )->numParams( count( $betaPrefs ) )->parse(),
 			'section' => 'betafeatures',
 		);
 
