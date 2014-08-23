@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Aurora",
-			"Pizza1016"
+			"Pizza1016",
+			"Aviator"
 		]
 	},
 	"mw-ui-feature-discuss": "perbincangan",
@@ -13,6 +14,11 @@
 	"mw-ui-feature-requirements-javascript": "Ciri ini memerlukan JavaScript.",
 	"mw-ui-feature-requirements-skins": "Ciri ini berfungsi dengan {{PLURAL:$1|rupa|rupa-rupa}} berikut sahaja:",
 	"prefs-betafeatures": "Ciri beta",
+	"betafeatures-desc": "Membolehkan pengguna menghidupkan atau memadam ciri-ciri dalam wiki ini yang masih berada pada tahap ujian",
+	"betafeatures-toplink": "Beta",
 	"betafeatures-auto-enroll": "Bukakan semua ciri beta yang baru secara automatik",
-	"betafeatures-extension-type": "Ciri beta"
+	"betafeatures-section-desc": "Yang berikut ialah senarai ciri-ciri baru yang dipertimbangkan untuk {{SITENAME}}. Anda dipersilakan mencubanya dan mengutarakan pendapat anda kepada kami supaya kami boleh memperbaikinya berdasarkan maklum balas anda.",
+	"betafeatures-tooltip": "Memperkenalkan Ciri-Ciri Beta! Bahagian keutamaan baru ini membolehkan anda menguji dan mengajukan maklum balas berkenaan ciri-ciri baru yang belum dilancarkan. Cuba sesuatu yang baru sekarang!",
+	"betafeatures-extension-type": "Ciri beta",
+	"tooltip-pt-betafeatures": "Ciri-ciri beta"
 }
