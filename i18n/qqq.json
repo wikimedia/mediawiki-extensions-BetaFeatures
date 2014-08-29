@@ -24,5 +24,5 @@
 	"betafeatures-test-feature-field": "Used as description for the checkbox, used to test the extension.\n\nThe label for the checkbox is {{msg-mw|Betafeatures-test-check-field}}.",
 	"betafeatures-tooltip": "A tooltip meant to advertise the existence of the BetaFeatures preferences page the first time a user sees it. Only shown once, meant to be a call to action. \"Introducing\" is jargon meaning \"we are explaining you\", you can avoid translating it in your language if it doesn't fit.",
 	"betafeatures-extension-type": "Section header on [[Special:Version]].\n{{Identical|Beta feature}}",
-	"tooltip-pt-betafeatures": "Tooltip shown when hovering over the  {{msg-mw|betafeatures-toplink}} link in your personal toolbox (upper right side)"
+	"tooltip-pt-betafeatures": "Tooltip shown when hovering over the  {{msg-mw|betafeatures-toplink}} link in your personal toolbox (upper right side)\n{{Identical|Beta feature}}"
 }

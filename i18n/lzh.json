@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"LNDDYL"
+			"LNDDYL",
+			"Jason924tw"
 		]
 	},
+	"mw-ui-feature-user-count": "{{PLURAL:$1|$1|0=無}}簿今試。",
 	"betafeatures-toplink": "試灶"
 }
