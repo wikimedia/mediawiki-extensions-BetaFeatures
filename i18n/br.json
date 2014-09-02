@@ -7,13 +7,11 @@
 	},
 	"mw-ui-feature-discuss": "kaozeadenn",
 	"mw-ui-feature-info": "titouroù",
-	"mw-ui-feature-user-count": "{{PLURAL:$1|Un implijer en deus|$1 implijer o deus}} gweredekaet an arc'hweladur-mañ.",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|Un implijer zo|$1 a implijerien zo|0=N'eus implijer ebet}} oc'h esaeañ an arc'hweladur-mañ.",
 	"mw-ui-feature-requirements-browser": "Ar {{PLURAL:$1|merder-mañ ne c'haller ket ober gantañ|merdeerien-mañ ne c'haller ket ober ganto}} :",
 	"mw-ui-feature-requirements-javascript": "Ezhomm zo eus JavaScript evit an arc'heladur-mañ.",
 	"prefs-betafeatures": "Perzhioù beta",
 	"betafeatures-toplink": "Beta",
 	"betafeatures-auto-enroll": "Gweredekaat ent emgefre an holl arc'heladurioù beta nevez",
-	"betafeatures-about-betafeatures": "Diwar-benn an arc'hweladurioù beta",
-	"betafeatures-discuss-betafeatures": "Ober un evezhiadenn",
 	"betafeatures-extension-type": "Perzhioù beta"
 }
