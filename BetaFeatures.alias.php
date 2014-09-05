@@ -66,6 +66,11 @@ $specialPageAliases['lb'] = array(
 	'BetaFeatures' => array( 'Beta-Fumktiounen' ),
 );
 
+/** Malagasy (Malagasy) */
+$specialPageAliases['mg'] = array(
+	'BetaFeatures' => array( 'FitaovanaBeta' ),
+);
+
 /** Macedonian (македонски) */
 $specialPageAliases['mk'] = array(
 	'BetaFeatures' => array( 'БетаФункции' ),
