@@ -31,6 +31,12 @@ class BetaFeaturesHooks {
 	// 30 minutes
 	const COUNT_CACHE_TTL = 1800;
 
+	/**
+	 * An array of each of the available Beta Features, with their requirements, if any.
+	 *
+	 * This also includes a magic value of 'blacklist', which consequently MUST NOT be
+	 * used as the name of any registerd Beta Feature.
+	 */
 	private static $features = array();
 
 	/**
@@ -264,7 +270,7 @@ class BetaFeaturesHooks {
 		}
 
 		foreach ( $betaPrefs as $key => $info ) {
-			$features = array();
+			$requirements = array();
 
 			if ( isset( $prefs[$key]['requirements'] ) ) {
 
@@ -283,7 +289,7 @@ class BetaFeaturesHooks {
 
 				// If a browser blacklist is supplied, store so it can be passed as JSON
 				if ( isset( $prefs[$key]['requirements']['blacklist'] ) ) {
-					$features['blacklist'] = $prefs[$key]['requirements']['blacklist'];
+					$requirements['blacklist'] = $prefs[$key]['requirements']['blacklist'];
 				}
 
 				// Test skin support
@@ -306,7 +312,7 @@ class BetaFeaturesHooks {
 					);
 				}
 			}
-			self::$features[$key] = !empty( $features ) ? $features : null;
+			self::$features[$key] = $requirements;
 		}
 
 		$user->saveSettings();
