@@ -28,10 +28,12 @@ class ApiQueryBetaFeatures extends ApiQueryBase {
 	}
 
 	public function execute() {
+		global $wgBetaFeatures;
+
 		wfProfileIn( __METHOD__ );
 		$params = $this->extractRequestParams();
 
-		$prefs = array();
+		$prefs = $wgBetaFeatures;
 		$user = User::newFromName( 'MediaWiki default' );
 		wfRunHooks( 'GetBetaFeaturePreferences', array( $user, &$prefs ) );
 

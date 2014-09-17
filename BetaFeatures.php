@@ -106,3 +106,12 @@ $wgExtensionCredits['other'][] = array(
  * @example [ 'visualeditor-enable', 'betafeatures-vector-typography-update' ]
  */
 $wgBetaFeaturesWhitelist = null;
+
+/**
+ * An associative array mapping beta feature names to preference configurations.
+ * Toggleable beta features may be set by adding items to this array or by
+ * registering a GetBetaFeaturePreferences hook handler.
+ *
+ * @var array
+ */
+$wgBetaFeatures = isset( $wgBetaFeatures ) ? $wgBetaFeatures : array();

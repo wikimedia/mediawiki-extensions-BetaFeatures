@@ -105,9 +105,11 @@ class BetaFeaturesHooks {
 	 * @param array &$options List of options
 	 */
 	static function updateUserCounts( $user, &$options ) {
+		global $wgBetaFeatures;
+
 		// Let's find out what's changed
 		$oldUser = User::newFromName( $user->getName() );
-		$betaFeatures = array();
+		$betaFeatures = $wgBetaFeatures;
 		wfRunHooks( 'GetBetaFeaturePreferences', array( $user, &$betaFeatures ) );
 
 		foreach ( $betaFeatures as $name => $option ) {
@@ -141,9 +143,9 @@ class BetaFeaturesHooks {
 	 * @throws BetaFeaturesMissingFieldException
 	 */
 	public static function getPreferences( User $user, array &$prefs ) {
-		global $wgBetaFeaturesWhitelist;
+		global $wgBetaFeaturesWhitelist, $wgBetaFeatures;
 
-		$betaPrefs = array();
+		$betaPrefs = $wgBetaFeatures;
 		$depHooks = array();
 
 		wfRunHooks( 'GetBetaFeaturePreferences', array( $user, &$betaPrefs ) );
