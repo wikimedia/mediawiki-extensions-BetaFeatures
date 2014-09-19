@@ -181,7 +181,7 @@ class HTMLFeatureField extends NewHTMLCheckField {
 				$html .= Html::closeElement( 'li' );
 			}
 
-			if ( isset( $this->mParams['requirements']['skin-not-supported'] ) ) {
+			if ( isset( $this->mParams['requirements']['skin-not-supported'] ) && $this->mParams['requirements']['skin-not-supported'] === true ) {
 				$html .= Html::openElement(
 					'li',
 					array( 'class' => 'mw-ui-feature-requirements-skins' )
