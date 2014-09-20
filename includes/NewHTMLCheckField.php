@@ -79,7 +79,9 @@ class NewHTMLCheckField extends HTMLCheckField {
 		}
 
 		$out = $this->mParent->getOutput();
+		// @todo Ew, these should be split into checkbox styles and preferences page styles
 		$out->addModules( 'ext.betaFeatures' );
+		$out->addModuleStyles( 'ext.betaFeatures.styles' );
 		$out->addModuleStyles( 'mediawiki.ui.checkbox' );
 		$labelHtml = $this->includeLabel ? $this->getPostCheckboxLabelHTML() : ''; 
 		return Html::openElement( 'div', array( 'class' => $containerClasses ) ) .

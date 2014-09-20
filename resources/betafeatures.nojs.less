@@ -1,0 +1,148 @@
+/*!
+ * This file is part of the MediaWiki extension BetaFeatures.
+ *
+ * BetaFeatures is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * BetaFeatures is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with BetaFeatures.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ * BetaFeatures styles.
+ *
+ * Stripped version of the core MediaWiki styles used for agora-style
+ * checkboxes and feature fields.
+ *
+ * @copyright 2013 Mark Holmquist and others; see AUTHORS
+ * @license GNU General Public License version 2 or later
+ */
+
+@import 'mediawiki.mixins';
+
+table.mw-htmlform-container {
+	border-collapse: separate;
+	border-spacing: 0 4px;
+}
+
+.mw-htmlform-field-HTMLFeatureField .mw-input {
+	padding-top: 10px;
+}
+
+.mw-ui-feature-title {
+	margin: 0;
+	padding: 0;
+	font-size: 24px;
+	line-height: 36px;
+}
+
+.mw-ui-feature-header {
+	width: 100%;
+	border-bottom: 1px solid #e5e5e5;
+	margin-bottom: 0.5em;
+}
+
+.mw-ui-feature-meta,
+.mw-ui-feature-screenshot-contain,
+.mw-ui-feature-title-contain {
+	width: 50%;
+}
+
+.mw-ui-feature-info-links,
+.mw-ui-feature-title-contain {
+	display: inline-block;
+}
+
+.mw-ui-feature-screenshot-contain,
+.mw-ui-feature-meta {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.mw-ui-feature-field {
+	margin-bottom: 68px;
+	position: relative;
+}
+
+.mw-htmlform-field-HTMLHorizontalRuleField .mw-input hr {
+	background-color: #e5e5e5;
+}
+
+.mw-htmlform-field-HTMLHorizontalRuleField .mw-input {
+	padding-top: 15px;
+}
+
+.mw-htmlform-field-HTMLHorizontalRuleField .mw-input hr,
+.mw-ui-feature-contain {
+	margin-left: 42px;
+	width: 80%;
+}
+
+.mw-ui-feature-description {
+	margin: 1em 0 0 0;
+	padding-right: 1em;
+}
+
+.mw-ui-feature-discussion-link,
+.mw-ui-feature-info-link {
+	height: 24px;
+	line-height: 24px;
+	padding: 6px 10px 6px 40px;
+	display: inline-block;
+	border-left: 1px solid #e5e5e5;
+	background-position: left 10px top 6px;
+	background-repeat: no-repeat;
+}
+
+.mw-ui-feature-discussion-link {
+	.background-image-svg('images/feature-discussion.svg', 'images/feature-discussion.png');
+}
+
+.mw-ui-feature-info-link {
+	.background-image-svg('images/feature-information.svg', 'images/feature-information.png');
+	padding-left: 46px;
+}
+
+.mw-ui-feature-screenshot {
+	margin: 1em 0 0 0;
+	max-height: 150px;
+	max-width: 100%;
+}
+
+.mw-ui-feature-user-count {
+	color: #00b08a;
+	margin: 1em 0 0 0;
+}
+
+#mw-prefsection-betafeatures {
+	.mw-ui-checkbox {
+		float: left;
+	}
+}
+
+.mw-htmlform-field-HTMLTextBlockField .mw-input {
+	padding-bottom: 15px;
+}
+
+.mw-ui-feature-requirements-list {
+	margin-left: 0;
+}
+
+.mw-ui-feature-requirements-list li {
+	color: #c00;
+}
+
+.mw-ui-feature-requirements-list > li {
+	list-style-type: none;
+	list-style-image: none;
+}
+
+// Hidden by default, shown with JavaScript
+.mw-ui-feature-requirements-list .mw-ui-feature-requirements-browser {
+	display: none;
+}
