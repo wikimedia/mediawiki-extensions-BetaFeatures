@@ -239,6 +239,9 @@ class BetaFeaturesHooks {
 				$opt['user-count'] = $counts[$key];
 			}
 
+			// Set the beta feature in the standard preferences array
+			// Just before, unset the key to resort it in the array, in the case the key was already set
+			unset( $prefs[$key] );
 			$prefs[$key] = $opt;
 
 			$currentValue = $user->getOption( $key );
