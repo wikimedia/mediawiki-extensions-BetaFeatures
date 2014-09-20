@@ -72,15 +72,21 @@ $wgResourceModules['ext.betaFeatures'] = array(
 	'targets' => array( 'mobile', 'desktop' ),
 ) + $moduleInfo;
 
+$wgResourceModules['ext.betaFeatures.styles'] = array(
+	'styles' => array(
+		'betafeatures.nojs.less',
+	),
+	'targets' => array( 'mobile', 'desktop' ),
+	'position' => 'top',
+) + $moduleInfo;
+
 $wgResourceModules['ext.betaFeatures.popup'] = array(
 	'scripts' => array(
 		'ext.betaFeatures.popup.js',
 	),
-
 	'dependencies' => array(
 		'jquery.tipsy',
 	),
-
 	'messages' => array(
 		'betafeatures-tooltip',
 	),
