@@ -3,7 +3,8 @@
 		"authors": [
 			"Cainamarques",
 			"Fúlvio",
-			"Helder.wiki"
+			"Helder.wiki",
+			"OTAVIO1981"
 		]
 	},
 	"mw-ui-feature-discuss": "discussão",
@@ -19,7 +20,6 @@
 	"betafeatures-auto-enroll": "Ativar automaticamente todos os novos recursos beta",
 	"betafeatures-section-desc": "Aqui {{PLURAL:$1|encontra-se um novo recurso|encontram-se novos recursos}} que estamos considerando para {{SITENAME}}. Por favor, {{PLURAL:$1|teste-o|teste-os}} e diga o que pensa {{PLURAL:$1|dele|deles}}, para que possamos {{PLURAL:$1|melhorá-lo|melhorá-los}} com base em seu comentário.",
 	"betafeatures-tooltip": "Apresentando os Recursos Beta! Esta nova seção das preferências permite que você teste e comente sobre os novos recursos antes que sejam implementados como padrão. Experimente algo novo agora!",
-	"betafeatures-about-betafeatures": "Sobre os Recursos Beta",
-	"betafeatures-discuss-betafeatures": "Deixe um comentário",
-	"betafeatures-extension-type": "Recursos beta"
+	"betafeatures-extension-type": "Recursos beta",
+	"tooltip-pt-betafeatures": "Recursos beta"
 }
