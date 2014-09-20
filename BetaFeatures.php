@@ -61,7 +61,6 @@ $moduleInfo = array(
 $wgResourceModules['ext.betaFeatures'] = array(
 	'scripts' => array(
 		'betafeatures.js',
-		'mediawiki.ui.checkbox.js',
 	),
 	'styles' => array(
 		'betafeatures.less',

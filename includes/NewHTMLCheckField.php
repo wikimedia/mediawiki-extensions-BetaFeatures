@@ -42,7 +42,6 @@ class NewHTMLCheckField extends HTMLCheckField {
 			$value = !$value;
 		}
 
-		$labelAttrs['class'] = array( 'mw-ui-styled-checkbox-label' );
 		$containerClasses = array( 'mw-ui-checkbox' );
 		$labelAttrs = array( 'for' => $this->mID );
 
