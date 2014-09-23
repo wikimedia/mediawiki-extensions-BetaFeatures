@@ -96,6 +96,11 @@ $specialPageAliases['pl'] = array(
 	'BetaFeatures' => array( 'Funkcje_eksperymentalne' ),
 );
 
+/** Swedish (svenska) */
+$specialPageAliases['sv'] = array(
+	'BetaFeatures' => array( 'Beta-funktioner' ),
+);
+
 /** Ukrainian (українська) */
 $specialPageAliases['uk'] = array(
 	'BetaFeatures' => array( 'Бета-функції' ),
