@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Psubhashish"
+		]
+	},
+	"mw-ui-feature-discuss": "ଆଲୋଚନା",
+	"mw-ui-feature-info": "ସୂଚନା",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|ଜଣେ ମାତ୍ର ସଭ୍ୟ  ଏହି ସୁବିଧା ବ୍ୟବହାର କରୁଛନ୍ତି|$1 ଜଣ ସଭ୍ୟ  ଏହି ସୁବିଧା ବ୍ୟବହାର କରୁଛନ୍ତି|0=ଜଣେ ବି ସଭ୍ୟ  ଏହି ସୁବିଧା ବ୍ୟବହାର କରୁନାହାନ୍ତି}} ।",
+	"mw-ui-feature-requirements-betafeatures": "ଏହି ସୁବିଧା ନିମ୍ନ {{PLURAL:$1|ଫିଚର|ଫିଚର}}ସକ୍ରିୟ କରାଇବା  ଲୋଡ଼େ:",
+	"mw-ui-feature-requirements-browser": "ଏହି {{PLURAL:$1|ବ୍ରା ଉଜରଟି|ବ୍ରା ଉଜରସବୁ}} ଅନୁମୋଦିତ ନୁହଁନ୍ତି:",
+	"mw-ui-feature-requirements-javascript": "ଏହି ଫିଚର ପାଇଁ JavaScript ଲୋଡ଼ା ।",
+	"mw-ui-feature-requirements-skins": "ଏହି ଫିଚର କେବଳ {{PLURAL:$1|ଏହି ସ୍କିନରେ|ଏହି ସବୁ ସ୍କିନରେ}} କାମ କରେ:",
+	"prefs-betafeatures": "ବିଟା ଫିଚର",
+	"betafeatures-desc": "ଏହି  ଉଇକିରେ ଏଯାଏ ସକ୍ରିୟ କରା ଯାଇନଥିବା ଫିଚର  ସଭ୍ୟଙ୍କୁ ଏକ ଫିଚର ସକ୍ରିୟ/ନିଷ୍କ୍ରିୟ କରିବାକୁ ଦେଇଥାଏ",
+	"betafeatures-toplink": "ବିଟା",
+	"betafeatures-auto-enroll": "ସବୁ ନୂଆ ବିଟା ଫିଚର ଆପେ ଆପେ ସକ୍ରିୟ କରେ",
+	"betafeatures-extension-type": "ବିଟା ଫିଚର",
+	"tooltip-pt-betafeatures": "ବିଟା ଫିଚର"
+}
