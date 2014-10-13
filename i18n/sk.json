@@ -10,11 +10,11 @@
 	"mw-ui-feature-requirements-betafeatures": "Táto funkcia vyžaduje zapnutie {{PLURAL:$1|funkcie|funkcií}}:",
 	"mw-ui-feature-requirements-browser": "Tieto {{PLURAL:$1|prehliadač|prehliadače}} nie sú podporované:",
 	"mw-ui-feature-requirements-javascript": "Táto funkcia vyžaduje JavaScript.",
+	"mw-ui-feature-requirements-skins": "Táto funkcia je k dispozícii len v {{PLURAL:$1|nasledujúcom vzhľade|nasledujúcich vzhľadoch}}:",
 	"prefs-betafeatures": "Beta funkcie",
 	"betafeatures-desc": "Dovoľuje redaktorovi povoliť alebo zakázať funkcie, ktoré ešte nie sú úplne vyladené.",
 	"betafeatures-toplink": "Beta",
 	"betafeatures-auto-enroll": "Automaticky zapnúť všetky nové beta funkcie",
-	"betafeatures-about-betafeatures": "O beta funkciách",
-	"betafeatures-discuss-betafeatures": "Zanechať spätnú väzbu",
+	"betafeatures-section-desc": "Tu {{PLURAL:$1|je nová funkcia, ktorú|sú nové funkcie, ktoré}} zvažujeme použiť na {{grammar:6sg|{{SITENAME}}}}. Vyskúšajte {{PLURAL:$1|ju|ich}} a dajte nám vedieť, nech {{PLURAL:$1|ju|ich}} na základe vašich názorov môžeme vylepšovať.",
 	"betafeatures-extension-type": "Beta funkcie"
 }
