@@ -65,20 +65,39 @@ class ApiQueryBetaFeatures extends ApiQueryBase {
 		);
 	}
 
+	/**
+	 * @deprecated since MediaWiki core 1.25
+	 */
 	public function getParamDescription() {
 		return array(
 			'counts' => 'Whether to fetch how many users have enabled a certain preference.',
 		);
 	}
 
+	/**
+	 * @deprecated since MediaWiki core 1.25
+	 */
 	public function getDescription() {
 		return 'List all BetaFeatures';
 	}
 
 
+	/**
+	 * @deprecated since MediaWiki core 1.25
+	 */
 	public function getExamples() {
 		return array(
 			'api.php?action=query&list=betafeatures&bfcounts=' => 'Get all available betafeatures and show how many users have enabled them'
+		);
+	}
+
+	/**
+	 * @see ApiBase::getExamplesMessages()
+	 */
+	protected function getExamplesMessages() {
+		return array(
+			'action=query&list=betafeatures&bfcounts='
+				=> 'apihelp-query+betafeatures-example-1',
 		);
 	}
 

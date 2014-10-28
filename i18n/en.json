@@ -1,24 +1,27 @@
 {
-    "@metadata": {
-        "authors": [
-            "Mark Holmquist <mtraceur@member.fsf.org>"
-        ]
-    },
-    "mw-ui-feature-discuss": "discussion",
-    "mw-ui-feature-info": "information",
-    "mw-ui-feature-user-count": "{{PLURAL:$1|One user is|$1 users are|0=No users are}} trying this feature.",
-    "mw-ui-feature-requirements-betafeatures": "This feature requires the following {{PLURAL:$1|feature|features}} to be enabled:",
-    "mw-ui-feature-requirements-browser": "The following {{PLURAL:$1|browser is|browsers are}} not supported:",
-    "mw-ui-feature-requirements-javascript": "This feature requires JavaScript.",
-    "mw-ui-feature-requirements-skins": "This feature only works with {{PLURAL:$1|the following skin|the following skins}}:",
-    "prefs-betafeatures": "Beta features",
-    "betafeatures-desc": "Lets user enable or disable features on the wiki that are still not ready for prime-time",
-    "betafeatures-toplink": "Beta",
-    "betafeatures-auto-enroll": "Automatically enable all new beta features",
-    "betafeatures-section-desc": "Here {{PLURAL:$1|is a new feature|are some new features}} we're considering for {{SITENAME}}. Please try {{PLURAL:$1|it|them}} out and give us your thoughts, so we can improve {{PLURAL:$1|it|them}} based on your feedback.",
-    "betafeatures-test-check-field": "blah blah blah",
-    "betafeatures-test-feature-field": "This is a test feature - it should not show up.",
-    "betafeatures-tooltip": "Introducing Beta Features! This new preferences section lets you test and give feedback about new features before we launch them as default behavior. Try out something new now!",
-    "betafeatures-extension-type": "Beta features",
-    "tooltip-pt-betafeatures": "Beta features"
+	"@metadata": {
+		"authors": [
+			"Mark Holmquist <mtraceur@member.fsf.org>"
+		]
+	},
+	"apihelp-query+betafeatures-description": "List all BetaFeatures",
+	"apihelp-query+betafeatures-example-1": "Get all available beta features and show how many users have enabled them",
+	"apihelp-query+betafeatures-param-counts": "Whether to fetch how many users have enabled a certain preference.",
+	"betafeatures-auto-enroll": "Automatically enable all new beta features",
+	"betafeatures-desc": "Lets user enable or disable features on the wiki that are still not ready for prime-time",
+	"betafeatures-extension-type": "Beta features",
+	"betafeatures-section-desc": "Here {{PLURAL:$1|is a new feature|are some new features}} we're considering for {{SITENAME}}. Please try {{PLURAL:$1|it|them}} out and give us your thoughts, so we can improve {{PLURAL:$1|it|them}} based on your feedback.",
+	"betafeatures-test-check-field": "blah blah blah",
+	"betafeatures-test-feature-field": "This is a test feature - it should not show up.",
+	"betafeatures-tooltip": "Introducing Beta Features! This new preferences section lets you test and give feedback about new features before we launch them as default behavior. Try out something new now!",
+	"betafeatures-toplink": "Beta",
+	"mw-ui-feature-discuss": "discussion",
+	"mw-ui-feature-info": "information",
+	"mw-ui-feature-requirements-betafeatures": "This feature requires the following {{PLURAL:$1|feature|features}} to be enabled:",
+	"mw-ui-feature-requirements-browser": "The following {{PLURAL:$1|browser is|browsers are}} not supported:",
+	"mw-ui-feature-requirements-javascript": "This feature requires JavaScript.",
+	"mw-ui-feature-requirements-skins": "This feature only works with {{PLURAL:$1|the following skin|the following skins}}:",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|One user is|$1 users are|0=No users are}} trying this feature.",
+	"prefs-betafeatures": "Beta features",
+	"tooltip-pt-betafeatures": "Beta features"
 }
