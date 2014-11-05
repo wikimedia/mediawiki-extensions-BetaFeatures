@@ -13,6 +13,7 @@
 		]
 	},
 	"apihelp-query+betafeatures-description": "列出所有测试功能",
+	"apihelp-query+betafeatures-example-1": "获得所有可用测试功能，并显示启用它们的用户数量",
 	"betafeatures-auto-enroll": "自动启用所有新测试功能",
 	"betafeatures-desc": "让用户能够启用或停用仍在本wiki测试的功能",
 	"betafeatures-extension-type": "测试功能",
