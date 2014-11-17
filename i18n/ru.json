@@ -8,6 +8,8 @@
 			"Amire80"
 		]
 	},
+	"apihelp-query+betafeatures-description": "Список всех бета-функций",
+	"apihelp-query+betafeatures-example-1": "Получить все доступные бета-функции и посмотреть, сколько участников пользуется ими",
 	"betafeatures-auto-enroll": "Автоматически включать все новые бета-функции",
 	"betafeatures-desc": "Позволяет пользователю включить или отключить функции, которые еще не готовы к прайм-тайм",
 	"betafeatures-extension-type": "Бета-функции",
