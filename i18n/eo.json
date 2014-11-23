@@ -4,5 +4,18 @@
 			"KuboF"
 		]
 	},
-	"betafeatures-extension-type": "Betaj funkcioj"
+	"apihelp-query+betafeatures-description": "Listo de ĉiuj BetaFunkcioj",
+	"apihelp-query+betafeatures-example-1": "Ricevi liston de ĉiuj disponeblaj betaj funkcioj kaj informoj pri kiom multaj uzantoj ilin ŝaltis",
+	"betafeatures-auto-enroll": "Aŭtomate ŝalti ĉiujn novajn betaj funkciojn",
+	"betafeatures-extension-type": "Betaj funkcioj",
+	"betafeatures-toplink": "Beta",
+	"mw-ui-feature-discuss": "diskuto",
+	"mw-ui-feature-info": "informo",
+	"mw-ui-feature-requirements-betafeatures": "Tiu ĉi funkcio postulas ŝaltitaj {{PLURAL:$1|jenan funkcion|jenajn funkciojn}}:",
+	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|Jena foliumilo|Jenaj foliumiloj}} ne estas {{PLURAL:$1|subtenata|subtenataj}}:",
+	"mw-ui-feature-requirements-javascript": "Tiu ĉi funkcio postulas Ĝavoskripton.",
+	"mw-ui-feature-requirements-skins": "Tiu ĉi funkcio funkcias nur en {{PLURAL:$1|jena etoso|jenaj etosoj}}:",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|Unu uzanto|$1 uzantoj|0=Neniu uzanto}} provas tiun ĉi funkcion.",
+	"prefs-betafeatures": "Betaj funkcioj",
+	"tooltip-pt-betafeatures": "Betaj funkcioj"
 }
