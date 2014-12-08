@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"बिप्लब आनन्द"
+		]
+	},
+	"apihelp-query+betafeatures-description": "सभ बिटा सुविधा के सूची",
+	"apihelp-query+betafeatures-example-1": "सभ उपलब्ध बिटा सुविधा प्राप्त करु आर कतेक प्रयोक्ता ई सुविधा सक्षम केनए अछि सेहो देखाऊ",
+	"betafeatures-auto-enroll": "सभ नव बिटा सुविधा सभ के स्वचालित रूप सँ सक्षम करू",
+	"betafeatures-desc": "प्रयोक्ता सभ के विकि पर वो सुविधा सभ सक्षम करए लेल देत अछि जे अखन धरि सभ के प्रयोग करए लेल तयार नै अछि",
+	"betafeatures-extension-type": "बिटा सुविधा सभ",
+	"betafeatures-section-desc": "इ {{PLURAL:$1|एगो एहन सुविधा अछि जे|किछु एहन सुविधा सभ अछि जे}} हम {{SITENAME}} के लेल जाँचि रहल अछि। कृपया {{PLURAL:$1|एकर|एकरा}} प्रयोग कएर के देखु आर हम लोकनि के विचार बताऊ, जे सँ हम {{PLURAL:$1|ए|एकरा}} अहाँके प्रतिक्रिया के आधार पर आर बढिया बना सकि।",
+	"betafeatures-tooltip": "अहाँ लेल बिटा सुविधा सभ! इ नव खासमखास अनुभाग सँ अहाँ नव सुविधा सभ डिफल्ट रूप सँ जारी होबए सँ पहिने जाँच सकएत छी आर वोकर सम्बन्ध में प्रतिक्रिया दऽ सकएत छी। किछु नव अजमाउ!",
+	"betafeatures-toplink": "बिटा",
+	"mw-ui-feature-discuss": "वार्तालाप",
+	"mw-ui-feature-info": "जानकारी",
+	"mw-ui-feature-requirements-betafeatures": "इ सुविधा के लेल निम्न {{PLURAL:$1|सुविधा|सुविधा सभ}} सक्षम करए पडत:",
+	"mw-ui-feature-requirements-browser": "निम्न {{PLURAL:$1ब्राउजर|ब्राउजर}}समर्थित नै अछि:",
+	"mw-ui-feature-requirements-javascript": "इ सुविधा के लेल जावास्क्रिप्ट के आवश्यकता अछि।",
+	"mw-ui-feature-requirements-skins": "इ सुविधा मात्र निम्न {{PLURAL:$1|त्वचा|त्वचा सभ}} के सँग काम करएत अछि:",
+	"prefs-betafeatures": "बिटा सुविधा सभ",
+	"tooltip-pt-betafeatures": "बिटा सुविधा सभ"
+}
