@@ -137,7 +137,7 @@ class HTMLFeatureField extends NewHTMLCheckField {
 				array(
 					'class' => 'mw-ui-feature-description',
 				),
-				$parent->msg( $this->mParams['desc-message'] )->escaped() );
+				$parent->msg( $this->mParams['desc-message'] )->parse() );
 		}
 
 		$html .= Html::openElement( 'ul', array(
