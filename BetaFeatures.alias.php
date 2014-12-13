@@ -111,6 +111,11 @@ $specialPageAliases['vi'] = array(
 	'BetaFeatures' => array( 'Tính_năng_beta' ),
 );
 
+/** Chinese (中文) */
+$specialPageAliases['zh'] = array(
+	'BetaFeatures' => array( '测试功能', '測試功能' ),
+);
+
 /** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = array(
 	'BetaFeatures' => array( '测试功能' ),
