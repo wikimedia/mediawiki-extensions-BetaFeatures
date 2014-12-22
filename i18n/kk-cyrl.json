@@ -5,16 +5,18 @@
 			"Balnur.s"
 		]
 	},
+	"apihelp-query+betafeatures-description": "Барлық бета мүмкіндіктер тізімі",
+	"betafeatures-auto-enroll": "Барлық жаңа beta мүмкіндіктерді өздікті қосу",
+	"betafeatures-extension-type": "Бета мүмкіндіктер",
+	"betafeatures-section-desc": "Сізге {{SITENAME}} сайтына арналған {{PLURAL:$1|жаңа мүмкіндікті|жаңа мүмкіндіктерді}} ұсынамыз. {{PLURAL:$1|Оны|Оларды}} сынап көріп, өз ойларыңызбен бөлісуіңізді сұраймыз. Сіз берген сын-бағалардың негізінде {{PLURAL:$1|оны|оларды}} жетілдіруге мүмкіндігіміз бар.",
+	"betafeatures-toplink": "Бета",
 	"mw-ui-feature-discuss": "талқылауы",
 	"mw-ui-feature-info": "мәлімет",
-	"mw-ui-feature-user-count": "{{PLURAL:$1|Бір қатысушы|$1 қатысушы|0=ешбір қатысушы}} бұл мүмкіндікті қосқан.",
 	"mw-ui-feature-requirements-betafeatures": "Бұл мүмкіндікті іске қосу үшін төмендегі {{PLURAL:$1|мүмкіндікті|мүмкіндіктерді}} іске қосу керек:",
 	"mw-ui-feature-requirements-browser": "Төмендегі {{PLURAL:$1|шолғыш|шолғыштар}} қолдамайды:",
 	"mw-ui-feature-requirements-javascript": "Бұл мүмкіндік JavaScript керек етеді",
 	"mw-ui-feature-requirements-skins": "Бұл мүмкіндік теу  {{PLURAL:$1|келесі күйде|келесі күйлерде}} жұмыс істейді:",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|Бір қатысушы|$1 қатысушы|0=ешбір қатысушы}} бұл мүмкіндікті байқап көруде.",
 	"prefs-betafeatures": "Бета мүмкіндіктер",
-	"betafeatures-toplink": "Бета",
-	"betafeatures-auto-enroll": "Барлық жаңа beta мүмкіндіктерді өздікті қосу",
-	"betafeatures-section-desc": "Сізге {{SITENAME}} сайтына арналған {{PLURAL:$1|жаңа мүмкіндікті|жаңа мүмкіндіктерді}} ұсынамыз. {{PLURAL:$1|Оны|Оларды}} сынап көріп, өз ойларыңызбен бөлісуіңізді сұраймыз. Сіз берген сын-бағалардың негізінде {{PLURAL:$1|оны|оларды}} жетілдіруге мүмкіндігіміз бар.",
-	"betafeatures-extension-type": "Бета мүмкіндіктер"
+	"tooltip-pt-betafeatures": "Бета мүмкіндіктер"
 }
