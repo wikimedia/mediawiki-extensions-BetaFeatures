@@ -7,7 +7,7 @@
 			"Cainamarques"
 		]
 	},
-	"apihelp-query+betafeatures-description": "Listar todos os Recursos Beta",
+	"apihelp-query+betafeatures-description": "Lista todos os Recursos Beta",
 	"apihelp-query+betafeatures-example-1": "Ver todos os recursos Beta disponíveis e mostrar quantos utilizadores não os habilitaram",
 	"betafeatures-auto-enroll": "Activar automaticamente todos os novos recursos beta",
 	"betafeatures-desc": "Permite que o utilizador active ou desactive os recursos da wiki que ainda não estão prontos",
