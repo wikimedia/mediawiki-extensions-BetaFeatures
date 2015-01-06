@@ -9,11 +9,13 @@
 			"Xiaomingyan",
 			"乌拉跨氪",
 			"Hudafu",
-			"Mywood"
+			"Mywood",
+			"Yfdyh000"
 		]
 	},
 	"apihelp-query+betafeatures-description": "列出所有测试功能",
 	"apihelp-query+betafeatures-example-1": "获得所有可用测试功能，并显示启用它们的用户数量",
+	"apihelp-query+betafeatures-param-counts": "是否获取有多少用户启用了特定的设置分项。",
 	"betafeatures-auto-enroll": "自动启用所有新测试功能",
 	"betafeatures-desc": "让用户能够启用或停用仍在本wiki测试的功能",
 	"betafeatures-extension-type": "测试功能",
