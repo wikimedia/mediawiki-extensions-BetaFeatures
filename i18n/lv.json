@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Edgars2007"
+			"Edgars2007",
+			"Papuass"
 		]
 	},
-	"betafeatures-toplink": "Testa funkcijas"
+	"betafeatures-toplink": "Testa funkcijas",
+	"mw-ui-feature-discuss": "diskusija",
+	"mw-ui-feature-info": "informācija"
 }
