@@ -5,14 +5,21 @@
 		]
 	},
 	"apihelp-query+betafeatures-description": "Elenghe de tutte le BetaFeatures",
+	"apihelp-query+betafeatures-example-1": "Pigghie tutte le funziune beta e fà vedè quanne utinde le onne abbilitate",
+	"apihelp-query+betafeatures-param-counts": "Ce scorre quanda utinde onne abbilitate 'na certa preferenze.",
 	"betafeatures-auto-enroll": "Automaticamende abbilite tutte le funziune beta nove",
 	"betafeatures-desc": "Lasse l'utende a abbilità o disabbilità le funziune sus 'a ucchi ca non ge so angore pronde pa prima vote",
 	"betafeatures-extension-type": "Funziune de Beta",
 	"betafeatures-section-desc": "Aqquà {{PLURAL:$1|ste 'na funziona nove|stonne cchiù funziune nove}} ca ste considerame pe {{SITENAME}}. Pe piacere pruèvale e danne 'na parere, accussì nuje putime migliorà basannene sus 'a segnalaziona toje.",
+	"betafeatures-tooltip": "'Ndroduzione a le Funziune Beta! Sta seziona nove de me piace accussì te lasse testà e dà le segnalaziune sus a le funziune apprime ca nuje le langiame cumme combortaminde de base. Pruève quacchecose de nuève mò!",
 	"betafeatures-toplink": "Beta",
 	"mw-ui-feature-discuss": "'ngazzamende",
 	"mw-ui-feature-info": "'mbormaziune",
+	"mw-ui-feature-requirements-betafeatures": "Sta funzione vole {{PLURAL:$1|sta funzione|ste funziune}} da abbilità:",
+	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|'U browser non g'è|Le browser ge sonde}} supportate:",
 	"mw-ui-feature-requirements-javascript": "Sta funzione vole 'u JavaScript.",
+	"mw-ui-feature-requirements-skins": "Sta funzione fatìe sulamende cu {{PLURAL:$1|stu skin|ste skin}}:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|'Nu utende ave|$1 utinde onne|0=nisciune utende ave}} pruvate sta funzione.",
-	"prefs-betafeatures": "Funziune de Beta"
+	"prefs-betafeatures": "Funziune de Beta",
+	"tooltip-pt-betafeatures": "Funziune de Beta"
 }
