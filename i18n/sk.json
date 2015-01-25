@@ -1,20 +1,23 @@
 {
 	"@metadata": {
 		"authors": [
-			"Sudo77(new)"
+			"Sudo77(new)",
+			"KuboF"
 		]
 	},
+	"betafeatures-auto-enroll": "Automaticky zapnúť všetky nové beta funkcie",
+	"betafeatures-desc": "Dovoľuje redaktorovi povoliť alebo zakázať funkcie, ktoré ešte nie sú úplne vyladené.",
+	"betafeatures-extension-type": "Beta funkcie",
+	"betafeatures-section-desc": "Tu {{PLURAL:$1|je nová funkcia, ktorú|sú nové funkcie, ktoré}} zvažujeme použiť na {{grammar:6sg|{{SITENAME}}}}. Vyskúšajte {{PLURAL:$1|ju|ich}} a dajte nám vedieť, nech {{PLURAL:$1|ju|ich}} na základe vašich názorov môžeme vylepšovať.",
+	"betafeatures-tooltip": "Predstavujeme funkcie z betaverzie! Táto nová sekcia nastavení vám umožňuje vyzkúšať a okomentovať nové funkcie skôr, ako ich spustíme pre všetkých. Vyskúšajte niečo nové!",
+	"betafeatures-toplink": "Beta",
 	"mw-ui-feature-discuss": "diskusia",
 	"mw-ui-feature-info": "informácie",
-	"mw-ui-feature-user-count": "Túto funkciu si {{PLURAL:$1|zapol jeden redaktor|zapli $1 redaktori|zaplo $1 redaktorov|0=nikto nezapol}}.",
 	"mw-ui-feature-requirements-betafeatures": "Táto funkcia vyžaduje zapnutie {{PLURAL:$1|funkcie|funkcií}}:",
 	"mw-ui-feature-requirements-browser": "Tieto {{PLURAL:$1|prehliadač|prehliadače}} nie sú podporované:",
 	"mw-ui-feature-requirements-javascript": "Táto funkcia vyžaduje JavaScript.",
 	"mw-ui-feature-requirements-skins": "Táto funkcia je k dispozícii len v {{PLURAL:$1|nasledujúcom vzhľade|nasledujúcich vzhľadoch}}:",
+	"mw-ui-feature-user-count": "Túto funkciu {{PLURAL:$1|skúša jeden redaktor|skúšajú $1 redaktori|skúša $1 redaktorov|0=neskúša nikto}}.",
 	"prefs-betafeatures": "Beta funkcie",
-	"betafeatures-desc": "Dovoľuje redaktorovi povoliť alebo zakázať funkcie, ktoré ešte nie sú úplne vyladené.",
-	"betafeatures-toplink": "Beta",
-	"betafeatures-auto-enroll": "Automaticky zapnúť všetky nové beta funkcie",
-	"betafeatures-section-desc": "Tu {{PLURAL:$1|je nová funkcia, ktorú|sú nové funkcie, ktoré}} zvažujeme použiť na {{grammar:6sg|{{SITENAME}}}}. Vyskúšajte {{PLURAL:$1|ju|ich}} a dajte nám vedieť, nech {{PLURAL:$1|ju|ich}} na základe vašich názorov môžeme vylepšovať.",
-	"betafeatures-extension-type": "Beta funkcie"
+	"tooltip-pt-betafeatures": "Beta funkcie"
 }
