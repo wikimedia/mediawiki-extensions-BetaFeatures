@@ -101,6 +101,7 @@ $wgExtensionCredits['other'][] = array(
 		'MarkTraceur (Mark Holmquist)',
 	),
 	'url' => 'https://www.mediawiki.org/wiki/Extension:BetaFeatures',
+	'license-name' => 'GPL-2.0+',
 );
 
 /**
