@@ -81,6 +81,11 @@ $specialPageAliases['ml'] = array(
 	'BetaFeatures' => array( 'പരീക്ഷണസൗകര്യങ്ങൾ' ),
 );
 
+/** Malay (Bahasa Melayu) */
+$specialPageAliases['ms'] = array(
+	'BetaFeatures' => array( 'Ciri-ciri_beta' ),
+);
+
 /** Min Nan Chinese (Bân-lâm-gú) */
 $specialPageAliases['nan'] = array(
 	'BetaFeatures' => array( 'Chhì-iōng_kong-lêng' ),
