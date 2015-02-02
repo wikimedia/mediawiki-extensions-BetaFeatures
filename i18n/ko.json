@@ -7,22 +7,23 @@
 			"Priviet",
 			"아라",
 			"Bluemersen",
-			"Revi"
+			"Revi",
+			"IRTC1015"
 		]
 	},
+	"betafeatures-auto-enroll": "자동으로 새 베타 기능을 모두 활성화",
+	"betafeatures-desc": "아직 정식으로 사용되기 이른 기능을 사용자가 위키에서 활성화하거나 비활성화할 수 있게 합니다",
+	"betafeatures-extension-type": "베타 기능",
+	"betafeatures-section-desc": "{{SITENAME}}를 위해 고려 중인 {{PLURAL:$1|새로운 기능|새로운 기능들}}이 있습니다. 사용해 보시고, 의견을 남겨 주시면, 의견을 바탕으로 발전시켜 나가겠습니다.",
+	"betafeatures-tooltip": "베타 기능을 소개합니다! 이 새로운 환경 설정을 사용하여 저희가 기본 설정으로 설정하기 전에 새로운 기능에 대한 의견을 들을 수 있습니다! 새 기능을 시도해 보세요!",
+	"betafeatures-toplink": "베타",
 	"mw-ui-feature-discuss": "토론",
 	"mw-ui-feature-info": "정보",
-	"mw-ui-feature-user-count": "{{PLURAL:$1|사용자 한 명이|사용자 $1명이|0=아무도}} 이 기능을 활성화{{PLURAL:$1|했습니다|0=하지 않았습니다}}.",
 	"mw-ui-feature-requirements-betafeatures": "이 기능을 사용하기 위해서는 다음 {{PLURAL:$1|기능}}을 활성화해야 합니다:",
 	"mw-ui-feature-requirements-browser": "다음 {{PLURAL:$1|브라우저}}는 지원하지 않습니다:",
 	"mw-ui-feature-requirements-javascript": "이 기능은 자바스크립트가 필요합니다.",
 	"mw-ui-feature-requirements-skins": "이 기능은 {{PLURAL:$1|다음 스킨|다음 스킨 중 하나}}에서만 작동합니다:",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|사용자 한 명이|사용자 $1명이|0=아무도}} 이 기능을 활성화{{PLURAL:$1|했습니다|0=하지 않았습니다}}.",
 	"prefs-betafeatures": "베타 기능",
-	"betafeatures-desc": "사용자가 아직 준비가 되지 않은 위키에서 기능을 활성화하거나 비활성화할 수 있습니다",
-	"betafeatures-toplink": "베타",
-	"betafeatures-auto-enroll": "자동으로 새 베타 기능을 모두 활성화",
-	"betafeatures-section-desc": "{{SITENAME}}를 위해 고려 중인 {{PLURAL:$1|새로운 기능|새로운 기능들}}이 있습니다. 사용해 보시고, 의견을 남겨 주시면, 의견을 바탕으로 발전시켜 나가겠습니다.",
-	"betafeatures-tooltip": "베타 기능을 소개합니다! 이 새로운 환경 설정을 사용하여 저희가 기본 설정으로 설정하기 전에 새로운 기능에 대한 의견을 들을 수 있습니다! 새 기능을 시도해 보세요!",
-	"betafeatures-extension-type": "베타 기능",
 	"tooltip-pt-betafeatures": "베타 기능"
 }
