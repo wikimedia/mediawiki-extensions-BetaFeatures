@@ -24,6 +24,7 @@
  */
 
 $wgAutoloadClasses['BetaFeaturesHooks'] = __DIR__ . '/BetaFeaturesHooks.php';
+$wgAutoloadClasses['BetaFeaturesMissingFieldException'] = __DIR__ . '/BetaFeaturesHooks.php';
 $wgAutoloadClasses['NewHTMLCheckField'] = __DIR__ . '/includes/NewHTMLCheckField.php';
 $wgAutoloadClasses['HTMLFeatureField'] = __DIR__ . '/includes/HTMLFeatureField.php';
 $wgAutoloadClasses['HTMLTextBlockField'] = __DIR__ . '/includes/HTMLTextBlockField.php';
