@@ -30,7 +30,6 @@ class ApiQueryBetaFeatures extends ApiQueryBase {
 	public function execute() {
 		global $wgBetaFeatures;
 
-		wfProfileIn( __METHOD__ );
 		$params = $this->extractRequestParams();
 
 		$prefs = $wgBetaFeatures;
@@ -55,8 +54,6 @@ class ApiQueryBetaFeatures extends ApiQueryBase {
 				);
 			}
 		}
-
-		wfProfileOut( __METHOD__ );
 	}
 
 	public function getAllowedParams() {
