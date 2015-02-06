@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"1AnuraagPandey"
+		]
+	},
+	"apihelp-query+betafeatures-description": "कुल बीटा सुविधन कय सुची",
+	"betafeatures-extension-type": "बीटा सुविधा",
+	"betafeatures-toplink": "बीटा",
+	"mw-ui-feature-discuss": "चर्चा",
+	"mw-ui-feature-info": "जानकारी",
+	"mw-ui-feature-requirements-betafeatures": "इस सुविधा खत्तीर निचे दिहा {{PLURAL:$1|सुविधा|सुविधन्}} कय सक्षम करेक {{PLURAL:$1|परि}}:",
+	"mw-ui-feature-requirements-browser": "निचे दिहा ब्राउजर समर्थित नाइ {{PLURAL:$1|है}} ।",
+	"mw-ui-feature-requirements-javascript": "इ सुबिधा खत्तिर जावास्क्रिप्ट कय जरुरत है ।",
+	"mw-ui-feature-requirements-skins": "यह सुविधा खाली निचे दिहा {{PLURAL:$1|त्वचा}} कय साथे काम करत है:",
+	"prefs-betafeatures": "बीटा सुविधा",
+	"tooltip-pt-betafeatures": "बीटा सुविधा"
+}
