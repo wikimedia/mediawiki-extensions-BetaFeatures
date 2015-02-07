@@ -5,7 +5,12 @@
 		]
 	},
 	"apihelp-query+betafeatures-description": "कुल बीटा सुविधन कय सुची",
+	"apihelp-query+betafeatures-example-1": "कुल बीटा सुविधा लिहा जाय अव ई देखावा जाय की कय सदस्य इ सुविधा कय सक्षम करे हँय ।",
+	"betafeatures-auto-enroll": "कुल नँवा बिटा सुविधा कय स्वचालित रुपसे चालु करा जाय",
+	"betafeatures-desc": "सदस्यन् कय विकी पे उ सुविधन कय सक्षम कई देत है जवन कि अबहिन सब कय खत्तीर प्रयोग कय लिए तैयार नाइ है",
 	"betafeatures-extension-type": "बीटा सुविधा",
+	"betafeatures-section-desc": "हिँया कुछ नँवा {{PLURAL:$1|फिचर}} है जवन हमरे {{SITENAME}} खत्तीर परखा जात है । कृपया {{PLURAL:$1|एका|एन्हन कय}} प्रयोग करा जाय अव आपन विचार बतावा जाय,तवने हमरे {{PLURAL:$1|एका|एन्हन कय}} अउर बढिया बनाए सका जाय ।",
+	"betafeatures-tooltip": "पेश है बीटा सुविधा! इ नँवा पसंद अनुभाग से आप नँवा सुविधन् कय डिफ़ॉल्ट रूप से जारी होए से पहीलवै जाँच सका जात है औ ओकरे बारे मा प्रतिक्रिया दई सका जात है। कुछ नँवा आज़मावा जाय!",
 	"betafeatures-toplink": "बीटा",
 	"mw-ui-feature-discuss": "चर्चा",
 	"mw-ui-feature-info": "जानकारी",
@@ -13,6 +18,7 @@
 	"mw-ui-feature-requirements-browser": "निचे दिहा ब्राउजर समर्थित नाइ {{PLURAL:$1|है}} ।",
 	"mw-ui-feature-requirements-javascript": "इ सुबिधा खत्तिर जावास्क्रिप्ट कय जरुरत है ।",
 	"mw-ui-feature-requirements-skins": "यह सुविधा खाली निचे दिहा {{PLURAL:$1|त्वचा}} कय साथे काम करत है:",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|एक सदस्य|$1 सदस्य|0=कवनो सदस्य नाइ}} इ सुविधा कय इस्तेमाल करत हँय ।",
 	"prefs-betafeatures": "बीटा सुविधा",
 	"tooltip-pt-betafeatures": "बीटा सुविधा"
 }
