@@ -96,6 +96,11 @@ $specialPageAliases['nl'] = array(
 	'BetaFeatures' => array( 'BetaMogelijkheden' ),
 );
 
+/** Punjabi (ਪੰਜਾਬੀ) */
+$specialPageAliases['pa'] = array(
+	'BetaFeatures' => array( 'ਬੀਟਾ_ਗੁਣ' ),
+);
+
 /** Polish (polski) */
 $specialPageAliases['pl'] = array(
 	'BetaFeatures' => array( 'Funkcje_eksperymentalne' ),
