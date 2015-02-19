@@ -4,10 +4,11 @@
 			"KartikMistry"
 		]
 	},
+	"betafeatures-auto-enroll": "બધાં નવાં બીટા લક્ષણો આપમેળે સક્રિય કરો",
+	"betafeatures-extension-type": "બીટા લક્ષણો",
+	"betafeatures-toplink": "બીટા",
 	"mw-ui-feature-discuss": "ચર્ચા",
 	"mw-ui-feature-info": "માહિતી",
 	"prefs-betafeatures": "બીટા લક્ષણો",
-	"betafeatures-toplink": "બીટા",
-	"betafeatures-auto-enroll": "બધાં નવાં બીટા લક્ષણો આપમેળે સક્રિય કરો",
-	"betafeatures-extension-type": "બીટા લક્ષણો"
+	"tooltip-pt-betafeatures": "બીટા લક્ષણો"
 }
