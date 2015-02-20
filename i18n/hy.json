@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Vacio",
-			"Vadgt"
+			"Vadgt",
+			"Xelgen"
 		]
 	},
+	"betafeatures-toplink": "Փորձնական",
 	"prefs-betafeatures": "Փորձնական հնարավորություններ",
-	"betafeatures-toplink": "Փորձնական"
+	"tooltip-pt-betafeatures": "Փորձնական հնարավորություններ"
 }

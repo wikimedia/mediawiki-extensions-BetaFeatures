@@ -4,8 +4,9 @@
 			"Ahmed-Najib-Biabani-Ibrahimkhel"
 		]
 	},
+	"betafeatures-auto-enroll": "په اتوماتيک ډول ټولې نوې بيټا ځانتياوې چارنول",
+	"betafeatures-toplink": "بيټا",
 	"mw-ui-feature-info": "مالومات",
 	"prefs-betafeatures": "د آزمېښتي بڼې ځانگړنې",
-	"betafeatures-toplink": "بيټا",
-	"betafeatures-auto-enroll": "په اتوماتيک ډول ټولې نوې بيټا ځانتياوې چارنول"
+	"tooltip-pt-betafeatures": "آزمېښتي ځانتياوې"
 }
