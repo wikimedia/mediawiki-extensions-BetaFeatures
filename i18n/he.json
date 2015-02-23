@@ -7,19 +7,19 @@
 			"ערן"
 		]
 	},
+	"betafeatures-auto-enroll": "הפעלת כל אפשרויות הבטא החדשות באופן אוטומטי",
+	"betafeatures-desc": "מתן אפשרות למשתמש להפעיל או לכבות בוויקי אפשרויות שעדיין אינן מוכנות להוצאה כללית",
+	"betafeatures-extension-type": "אפשרויות בטא",
+	"betafeatures-section-desc": "הנה {{PLURAL:$1|אפשרות חדשה|אפשרויות חדשות}} שאנחנו שוקלים להוסיף ל{{GRAMMAR:תחילית|{{SITENAME}}}}. אנו מבקשים ממך לנסות {{PLURAL:$1|אותה|אותן}}, כדי שנוכל לשפר {{PLURAL:$1|אותה|אותן}} לפי המשוב שלך.",
+	"betafeatures-tooltip": "אנו גאים להציג את אפשרויות הבטא! לשונית ההעדפות החדשה הזאת מאפשרת לכם לבדוק תכונות חדשות ולתת עליהן משוב לפני שנפעיל אותן כברירת מחדל. נסו עכשיו משהו חדש!",
+	"betafeatures-toplink": "בטא",
 	"mw-ui-feature-discuss": "דיון",
 	"mw-ui-feature-info": "מידע",
-	"mw-ui-feature-user-count": "{{PLURAL:$1|משתמש אחד מנסה|$1 משתמשים מנסים|0=שום משתמש לא מנסה}} את האפשרות הזאת.",
 	"mw-ui-feature-requirements-betafeatures": "האפשרות הזאת דורשת {{PLURAL:$1|שהאפשרות הבאה תהיה מופעלת|שהאפשרויות הבאות יהיו מופעלות}}:",
 	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|הדפדפן הבא אינו נתמך|הדפדפנים הבאים אינם נתמכים}}:",
 	"mw-ui-feature-requirements-javascript": "האפשרות הזאת דורשת הפעלה של JavaScript.",
 	"mw-ui-feature-requirements-skins": "האפשרות הזאת עובדת רק עם {{PLURAL:$1|העיצוב הבא|העיצובים הבאים}}:",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|משתמש אחד מנסה|$1 משתמשים מנסים|0=שום משתמש לא מנסה}} את האפשרות הזאת.",
 	"prefs-betafeatures": "אפשרויות בטא",
-	"betafeatures-desc": "מתן אפשרות למשתמש להפעיל או לכבות בוויקי אפשרויות שעדיין אינן מוכנות להוצאה כללית",
-	"betafeatures-toplink": "בטא",
-	"betafeatures-auto-enroll": "הפעלת כל אפשרויות הבטא החדשות באופן אוטומטי",
-	"betafeatures-section-desc": "הנה {{PLURAL:$1|אפשרות חדשה|אפשרויות חדשות}} שאנחנו שוקלים להוסיף ל{{GRAMMAR:תחילית|{{SITENAME}}}}. אנו מבקשים ממך לנסות {{PLURAL:$1|אותה|אותן}}, כדי שנוכל לשפר {{PLURAL:$1|אותה|אותן}} לפי המשוב שלך.",
-	"betafeatures-tooltip": "אנו גאים להציג את אפשרויות הבטא! לשונית ההעדפות החדשה הזו מאפשרת לכם לבדוק תכונות חדשות ולתת עליהן משוב לפני שנפעיל אותן כברירת מחדל. נסו עכשיו משהו חדש!",
-	"betafeatures-extension-type": "אפשרויות בטא",
 	"tooltip-pt-betafeatures": "אפשרויות בטא"
 }
