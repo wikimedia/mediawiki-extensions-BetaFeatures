@@ -1,16 +1,18 @@
 {
 	"@metadata": {
 		"authors": [
-			"DCLXVI"
+			"DCLXVI",
+			"Dicto23456"
 		]
 	},
-	"mw-ui-feature-discuss": "обсъждане",
-	"mw-ui-feature-info": "информация",
-	"mw-ui-feature-user-count": "{{PLURAL:$1|Един потребител е активирал|$1 потребители са активирали|0=Нито един потребител не е активирал}} тази функционалност.",
-	"mw-ui-feature-requirements-javascript": "Тази функционалност изисква JavaScript.",
-	"mw-ui-feature-requirements-skins": "Тази функционалност изисква да използвате {{PLURAL:$1|следния облик|един от следните облици}}:",
-	"prefs-betafeatures": "Тестови функционалности",
+	"betafeatures-auto-enroll": "Автоматично включване на всички нови тестови функционалности",
 	"betafeatures-desc": "Позволява на потребителя да включва или изключва функционалности от уикито, които все още не са готови за публично използване",
 	"betafeatures-toplink": "Бета",
-	"betafeatures-auto-enroll": "Автоматично включване на всички нови тестови функционалности"
+	"mw-ui-feature-discuss": "обсъждане",
+	"mw-ui-feature-info": "информация",
+	"mw-ui-feature-requirements-javascript": "Тази функционалност изисква JavaScript.",
+	"mw-ui-feature-requirements-skins": "Тази функционалност изисква да използвате {{PLURAL:$1|следния облик|един от следните облици}}:",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|Един потребител е активирал|$1 потребители са активирали|0=Нито един потребител не е активирал}} тази функционалност.",
+	"prefs-betafeatures": "Тестови функционалности",
+	"tooltip-pt-betafeatures": "Бета-възможности"
 }
