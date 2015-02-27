@@ -28,7 +28,7 @@ $specialPageAliases['de'] = array(
 
 /** Zazaki (Zazaki) */
 $specialPageAliases['diq'] = array(
-	'BetaFeatures' => array( 'BetaArdoği' ),
+	'BetaFeatures' => array( 'XısusiyetêBeta' ),
 );
 
 /** British English (British English) */
