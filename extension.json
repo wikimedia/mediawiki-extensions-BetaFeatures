@@ -1,0 +1,110 @@
+{
+	"name": "BetaFeatures",
+	"version": "0.1",
+	"author": [
+		"MarkTraceur (Mark Holmquist)"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:BetaFeatures",
+	"descriptionmsg": "betafeatures-desc",
+	"license-name": "GPL-2.0+",
+	"type": "other",
+	"config": {
+		"BetaFeaturesWhitelist": null,
+		"BetaFeatures": []
+	},
+	"ExtensionMessagesFiles": {
+		"BetaFeaturesAlias": "BetaFeatures.alias.php"
+	},
+	"APIListModules": {
+		"betafeatures": "ApiQueryBetaFeatures"
+	},
+	"Hooks": {
+		"UserSaveOptions": [
+			"BetaFeaturesHooks::updateUserCounts"
+		],
+		"GetPreferences": [
+			"BetaFeaturesHooks::getPreferences"
+		],
+		"PersonalUrls": [
+			"BetaFeaturesHooks::getBetaFeaturesLink"
+		],
+		"UnitTestsList": [
+			"BetaFeaturesHooks::getUnitTestsList"
+		],
+		"LoadExtensionSchemaUpdates": [
+			"BetaFeaturesHooks::getSchemaUpdates"
+		],
+		"MakeGlobalVariablesScript": [
+			"BetaFeaturesHooks::onMakeGlobalVariablesScript"
+		],
+		"ExtensionTypes": [
+			"BetaFeaturesHooks::onExtensionTypes"
+		]
+	},
+	"MessagesDirs": {
+		"BetaFeatures": [
+			"i18n"
+		]
+	},
+	"ResourceModules": {
+		"ext.betaFeatures": {
+			"scripts": [
+				"betafeatures.js"
+			],
+			"styles": [
+				"betafeatures.less"
+			],
+			"dependencies": [
+				"jquery.client"
+			],
+			"targets": [
+				"mobile",
+				"desktop"
+			]
+		},
+		"ext.betaFeatures.styles": {
+			"styles": [
+				"betafeatures.nojs.less"
+			],
+			"targets": [
+				"mobile",
+				"desktop"
+			],
+			"position": "top"
+		},
+		"ext.betaFeatures.popup": {
+			"scripts": [
+				"ext.betaFeatures.popup.js"
+			],
+			"dependencies": [
+				"jquery.tipsy"
+			],
+			"messages": [
+				"betafeatures-tooltip"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "BetaFeatures/resources"
+	},
+	"JobClasses": {
+		"updateBetaFeaturesUserCounts": "UpdateBetaFeatureUserCountsJob"
+	},
+	"SpecialPages": {
+		"BetaFeatures": "SpecialBetaFeatures"
+	},
+	"AutoloadClasses": {
+		"BetaFeaturesHooks": "BetaFeaturesHooks.php",
+		"BetaFeaturesMissingFieldException": "BetaFeaturesHooks.php",
+		"NewHTMLCheckField": "includes/NewHTMLCheckField.php",
+		"HTMLFeatureField": "includes/HTMLFeatureField.php",
+		"HTMLTextBlockField": "includes/HTMLTextBlockField.php",
+		"HTMLHorizontalRuleField": "includes/HTMLHorizontalRuleField.php",
+		"BetaFeatures": "includes/BetaFeaturesUtil.php",
+		"UpdateBetaFeatureUserCountsJob": "includes/UpdateBetaFeatureUserCountsJob.php",
+		"ApiQueryBetaFeatures": "includes/ApiListBetaFeatures.php",
+		"SpecialBetaFeatures": "includes/SpecialBetaFeatures.php",
+		"BetaFeaturesTestCase": "tests/BetaFeaturesTestCase.php"
+	}
+}
