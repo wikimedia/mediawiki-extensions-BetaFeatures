@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Maxí"
+			"Maxí",
+			"Snævar"
 		]
 	},
-	"betafeatures-toplink": "Prufuútgáfa"
+	"betafeatures-toplink": "Prufuútgáfa",
+	"tooltip-pt-betafeatures": "Prufu möguleikar"
 }
