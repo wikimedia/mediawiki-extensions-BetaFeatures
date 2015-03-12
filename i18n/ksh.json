@@ -4,9 +4,14 @@
 			"Purodha"
 		]
 	},
+	"apihelp-query+betafeatures-description": "Donn alles opleßte, wat zom Ußprobehre doh es",
+	"apihelp-query+betafeatures-example-1": "Holl alles, wat zom Ußprobehre doh es, un zeisch, wi vell Metmaacher dat enjeschalldt han.",
+	"apihelp-query+betafeatures-param-counts": "Ov jehollte wähde sull, wi vell Metmaacher en beschtemmpte Müjjeleschkeid enjeschalldt han.",
 	"betafeatures-auto-enroll": "Donn de neue Denge zum Ußprobeere automattesch enschallde.",
 	"betafeatures-desc": "Löht der Metmaacher Saache un Eijeschaffte em Wiki bruche udder ußschallde, di noch nit rääsch fäädesch för er alljemeine Jebruch sin künnte.",
 	"betafeatures-extension-type": "Zom Ußprobeere",
+	"betafeatures-section-desc": "Heh {{PLURAL:$1|es en neu Müjjeleschkeit|sinn_er neu Müjjeleschkeite|sen kein Müjjeleschkeite}} övver di mer för et Wikki nohdänke. Probehr se ens uß, un lohß ons Ding Jedangke un Be'ohbachtonge derzoh weße, su dat mer velleijsch esujaa noch jät drahn verbäßere künne.",
+	"betafeatures-tooltip": "Müjjeleschkeite zom Ußprobehre!\nHeh di neue Enschtällonge lohße Desch ußprobehre un Röckmäldonge jävve övver wat mer för spääder plahne, zom Schtandatt för alle ze maache.\nJünn der öfter ens jät Neujes!",
 	"betafeatures-toplink": "Zom ußprobeere",
 	"mw-ui-feature-discuss": "Klaaf",
 	"mw-ui-feature-info": "Enfomazjuhne",
