@@ -106,6 +106,11 @@ $specialPageAliases['pl'] = array(
 	'BetaFeatures' => array( 'Funkcje_eksperymentalne' ),
 );
 
+/** Brazilian Portuguese (português do Brasil) */
+$specialPageAliases['pt-br'] = array(
+	'BetaFeatures' => array( 'Recursos_beta' ),
+);
+
 /** Swedish (svenska) */
 $specialPageAliases['sv'] = array(
 	'BetaFeatures' => array( 'Beta-funktioner' ),
