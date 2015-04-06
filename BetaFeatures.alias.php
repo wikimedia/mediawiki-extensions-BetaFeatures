@@ -21,6 +21,11 @@ $specialPageAliases['arz'] = array(
 	'BetaFeatures' => array( 'خصايص_البيتا' ),
 );
 
+/** Western Balochi (بلوچی رخشانی) */
+$specialPageAliases['bgn'] = array(
+	'BetaFeatures' => array( 'ازمایشین_قابلیت' ),
+);
+
 /** German (Deutsch) */
 $specialPageAliases['de'] = array(
 	'BetaFeatures' => array( 'Beta-Funktionen' ),

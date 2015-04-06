@@ -2,9 +2,10 @@
 	"@metadata": {
 		"authors": [
 			"Darshan kandolkar",
-			"Supriya kankumbikar"
+			"Supriya kankumbikar",
+			"Konknni mogi 24"
 		]
 	},
-	"betafeatures-toplink": "बेटो",
-	"tooltip-pt-betafeatures": "बेटा सवलती"
+	"betafeatures-toplink": "बिटो",
+	"tooltip-pt-betafeatures": "बिटा सवलती"
 }
