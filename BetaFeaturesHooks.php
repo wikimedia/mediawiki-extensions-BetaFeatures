@@ -186,6 +186,7 @@ class BetaFeaturesHooks {
 		// coming soon to a wiki very near you.
 		wfRunHooks( 'GetBetaFeatureDependencyHooks', array( &$depHooks ) );
 
+		$saveUser = false;
 		$autoEnrollAll = $user->getOption( 'betafeatures-auto-enroll' ) === HTMLFeatureField::OPTION_ENABLED;
 		$autoEnroll = array();
 
@@ -266,6 +267,7 @@ class BetaFeaturesHooks {
 				// We haven't seen this before, and the user has auto-enroll enabled!
 				// Set the option to true.
 				$user->setOption( $key, HTMLFeatureField::OPTION_ENABLED );
+				$saveUser = true;
 			}
 		}
 
@@ -315,7 +317,9 @@ class BetaFeaturesHooks {
 			self::$features[$key] = $requirements;
 		}
 
-		$user->saveSettings();
+		if ( $saveUser ) {
+			$user->saveSettings();
+		}
 
 		return true;
 	}
