@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Evropi"
+			"Evropi",
+			"Geraki"
 		]
 	},
-	"betafeatures-toplink": "Δοκιμαστική έκδοση",
+	"betafeatures-toplink": "Beta",
 	"tooltip-pt-betafeatures": "Δοκιμαστικές λειτουργίες"
 }
