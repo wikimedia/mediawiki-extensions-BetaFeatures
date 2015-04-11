@@ -7,6 +7,7 @@
 	"betafeatures-auto-enroll": "په اتوماتيک ډول ټولې نوې بيټا ځانتياوې چارنول",
 	"betafeatures-toplink": "بيټا",
 	"mw-ui-feature-info": "مالومات",
+	"mw-ui-feature-user-count": "دا ځانتيا {{PLURAL:$1|يو کارن|$1 کارنان|0=هېڅ کارن نه}} کاروي.",
 	"prefs-betafeatures": "د آزمېښتي بڼې ځانگړنې",
 	"tooltip-pt-betafeatures": "آزمېښتي ځانتياوې"
 }
