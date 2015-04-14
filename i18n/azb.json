@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Amir a57"
+			"Amir a57",
+			"Koroğlu"
 		]
 	},
 	"betafeatures-toplink": "بتا",
-	"tooltip-pt-betafeatures": "آزمایشی خصوصیتلری"
+	"tooltip-pt-betafeatures": "تست اؤزل‌لیک‌لر"
 }
