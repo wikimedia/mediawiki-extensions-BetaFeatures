@@ -2,22 +2,26 @@
 	"@metadata": {
 		"authors": [
 			"Misibacsi",
-			"Tgr"
+			"Tgr",
+			"Tacsipacsi"
 		]
 	},
+	"apihelp-query+betafeatures-description": "Összes béta funkció listázása",
+	"apihelp-query+betafeatures-example-1": "Összes béta funkció lekérdezése az őket engedélyező felhasználók számával együtt.",
+	"apihelp-query+betafeatures-param-counts": "Lekérdezze-e az adott beállítást engedélyező felhasználók számát.",
+	"betafeatures-auto-enroll": "Automatikusan kapcsoljon be minden új béta funkciót",
+	"betafeatures-desc": "Lehetővé teszi az egyes felhasználóknak az olyan funkciók be- és kikapcsolását, amik még nem készültek el teljesen.",
+	"betafeatures-extension-type": "Béta funkciók",
+	"betafeatures-section-desc": "Itt {{PLURAL:$1|egy|néhány}} olyan új funkciót látsz, amit idővel be szeretnénk vezetni a(z) {{SITENAME}} wikin. Próbáld {{PLURAL:$1|ki|ki őket}}, és mondd el a véleményed, hogy javítani tudjunk {{PLURAL:$1|rajta|rajtuk}} a visszajelzésed alapján.",
+	"betafeatures-tooltip": "Ismerkedj meg a béta funkciókkal! Ez az új fül a beállításaidnál olyan funkciókat tartalmaz, amiket a közeljövőben mindenkinek alapértelmezetté szeretnénk tenni; ha még előtte kipróbálod őket és megírod a véleményed, azzal segítesz tökéletesebbé tenni őket. Próbálj ki valami újat még ma!",
+	"betafeatures-toplink": "Béta",
 	"mw-ui-feature-discuss": "megbeszélés",
 	"mw-ui-feature-info": "információ",
-	"mw-ui-feature-user-count": "{{PLURAL:$1|Egy felhasználó|$1 felhasználó|0=Még senki sem}} használja ezt a funkciót.",
 	"mw-ui-feature-requirements-betafeatures": "A használatához be kell kapcsolni {{PLURAL:$1|ezt a funkciót|ezeket a funkciókat}} is:",
 	"mw-ui-feature-requirements-browser": "Nem működik {{PLURAL:$1|ezzel a böngészővel|ezekkel a böngészőkkel}}:",
 	"mw-ui-feature-requirements-javascript": "JavaScript szükséges hozzá.",
 	"mw-ui-feature-requirements-skins": "Csak {{PLURAL:$1|ezzel a felülettel|ezekkel a felületekkel}} működik:",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|Egy felhasználó|$1 felhasználó|0=Még senki sem}} használja ezt a funkciót.",
 	"prefs-betafeatures": "Béta funkciók",
-	"betafeatures-desc": "Lehetővé teszi az egyes felhasználóknak az olyan funkciók be- és kikapcsolását, amik még nem készültek el teljesen.",
-	"betafeatures-toplink": "Béta",
-	"betafeatures-auto-enroll": "Automatikusan kapcsoljon be minden új béta funkciót",
-	"betafeatures-section-desc": "Itt {{PLURAL:$1|egy|néhány}} olyan új funkciót látsz, amit idővel be szeretnénk vezetni a {{SITENAME}} wikin. Próbáld {{PLURAL:$1|ki|ki őket}}, és mondd el a véleményed, hogy javítani tudjunk {{PLURAL:$1|rajta|rajtuk}} a visszajelzésed alapján.",
-	"betafeatures-tooltip": "Ismerkedj meg a béta funkciókkal! Ez az új fül a beállításaidnál olyan funkciókat tartalmaz, amiket a közeljövőben mindenkinek alapértelmezetté szeretnénk tenni; ha még előtte kipróbálod őket és megírod a véleményed, azzal segítesz tökéletesebbé tenni őket. Próbálj ki valami újat még ma!",
-	"betafeatures-extension-type": "Béta funkciók",
 	"tooltip-pt-betafeatures": "Béta funkciók"
 }
