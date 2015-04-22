@@ -11,7 +11,7 @@
 	"betafeatures-auto-enroll": "Activar automáticamente toles carauterístiques beta nueves",
 	"betafeatures-desc": "Permite que l'usuariu active o desactive funciones de la wiki qu'inda nun tan pa un usu xeneralizáu",
 	"betafeatures-extension-type": "Carauterístiques beta",
-	"betafeatures-section-desc": "Est{{PLURAL:$1|a ye una carauterística nueva|es son dalgunes carauterístiques nueves}} que tamos considerando pa {{SITENAME}}. {{PLURAL:$1|Pruébala|Pruébales}} y dinos lo que pienses pa que podamos {{PLURAL:$1|ameyorarla|ameyorarles}} basandonos nes tos impresiones.",
+	"betafeatures-section-desc": "Est{{PLURAL:$1|a ye una carauterística nueva|es son dalgunes carauterístiques nueves}} que tamos considerando pa {{SITENAME}}. {{PLURAL:$1|Pruébala|Pruébales}} y dinos lo que pienses pa que podamos {{PLURAL:$1|ameyorala|ameyorales}} basándonos nes tos impresiones.",
 	"betafeatures-tooltip": "¡Presentamos les carauterístiques Beta! Esta nueva seición de les preferencies permite-y probar y comentar les carauterístiques nueves enantes de que les llancemos de mou predetermináu. ¡Pruebe agora daqué nuevo!",
 	"betafeatures-toplink": "Beta",
 	"mw-ui-feature-discuss": "alderique",
