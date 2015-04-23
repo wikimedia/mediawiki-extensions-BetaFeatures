@@ -20,7 +20,7 @@
 	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|El siguiente navegador nun tien|Los siguientes navegadores nun tienen}} encontu:",
 	"mw-ui-feature-requirements-javascript": "Esta carauterística necesita JavaScript.",
 	"mw-ui-feature-requirements-skins": "Esta carauterística sólo funciona con {{PLURAL:$1|la piel siguiente|les pieles siguientes}}:",
-	"mw-ui-feature-user-count": "{{PLURAL:$1|Un usuariu ta|$1 usuarios tan|0=Dengún usuariu ta}} probando esta carauterística.",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|Un usuariu ta|$1 usuarios tán|0=Dengún usuariu ta}} probando esta carauterística.",
 	"prefs-betafeatures": "Carauterístiques beta",
 	"tooltip-pt-betafeatures": "Carauterístiques beta"
 }
