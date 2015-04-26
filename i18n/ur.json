@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"عثمان خان شاہ"
+			"عثمان خان شاہ",
+			"عرفان ارشد"
 		]
 	},
-	"betafeatures-toplink": "بیٹہ",
+	"betafeatures-toplink": "آزمائشی",
 	"tooltip-pt-betafeatures": "بیٹہ خصوصیات"
 }
