@@ -43,64 +43,19 @@ class BetaFeaturesHooks {
 	 * @param array $prefs
 	 * @return array|mixed
 	 */
-	private static function getUserCountsFromDb( $prefs ) {
-		$jqg = JobQueueGroup::singleton();
-
-		// If we aren't waiting to update the counts, push a job to do it.
-		// Only one job in this queue at a time.
-		// Will only get added once every thirty minutes, when the
-		// cache is invalidated.
-		if ( $jqg->get( 'updateBetaFeaturesUserCounts' )->isEmpty() ) {
-			$updateJob = new UpdateBetaFeatureUserCountsJob(
-				Title::newMainPage(),
-				array(
-					'prefs' => $prefs,
-				)
-			);
-			$jqg->push( $updateJob );
-		}
-
+	static function getUserCounts( array $prefs ) {
 		$counts = array();
+
 		$dbr = wfGetDB( DB_SLAVE );
 		$res = $dbr->select(
 			'betafeatures_user_counts',
-			array(
-				'feature',
-				'number',
-			),
-			array(),
+			array( 'feature', 'number' ),
+			array( 'feature' => $prefs ),
 			__METHOD__
 		);
 
 		foreach ( $res as $row ) {
 			$counts[$row->feature] = $row->number;
-
-			// Cache for 30 minutes
-			$key = wfMemcKey( 'betafeatures', 'usercounts', $row->feature );
-			wfGetCache( CACHE_ANYTHING )->set( $key, (int)$row->number, self::COUNT_CACHE_TTL );
-		}
-
-		return $counts;
-	}
-
-	/**
-	 * @param array $prefs
-	 * @return array|mixed
-	 */
-	static function getUserCounts( $prefs ) {
-		$counts = array();
-
-		foreach ( $prefs as $pref ) {
-			$key = wfMemcKey( 'betafeatures', 'usercounts', $pref );
-			$count = wfGetCache( CACHE_ANYTHING )->get( $key );
-
-			if ( $count === false ) {
-				// Stop trying, go update the database
-				// TODO better heuristic?
-				return self::getUserCountsFromDb( $prefs );
-			}
-
-			$counts[$pref] = $count;
 		}
 
 		return $counts;
@@ -109,6 +64,7 @@ class BetaFeaturesHooks {
 	/**
 	 * @param User $user User who's just saved their preferences
 	 * @param array &$options List of options
+	 * @return bool
 	 */
 	static function updateUserCounts( $user, &$options ) {
 		global $wgBetaFeatures;
@@ -121,22 +77,19 @@ class BetaFeaturesHooks {
 		foreach ( $betaFeatures as $name => $option ) {
 			$newVal = $user->getOption( $name );
 			$oldVal = $oldUser->getOption( $name );
-
+			// Check if this preference meaningfully changed
 			if ( $oldVal === $newVal ||
-					( $oldVal === null &&
-						$newVal === HTMLFeatureField::OPTION_DISABLED ) ) {
-				// Nothing changed, carry on
-				continue;
+				( $oldVal === null && $newVal === HTMLFeatureField::OPTION_DISABLED )
+			) {
+				continue; // unchanged
 			}
-
-			$key = wfMemcKey( 'betafeatures', 'usercounts', $name );
-			$cache = wfGetCache( CACHE_ANYTHING );
-
-			if ( $newVal === HTMLFeatureField::OPTION_ENABLED ) {
-				$cache->incr( $key );
-			} else {
-				$cache->decr( $key );
-			}
+			// Enqueue a job to update the count for this preference
+			JobQueueGroup::singleton()->push(
+				new UpdateBetaFeatureUserCountsJob(
+					Title::newMainPage(),
+					array( 'prefs' => array( $name ) )
+				)
+			);
 		}
 
 		return true;
