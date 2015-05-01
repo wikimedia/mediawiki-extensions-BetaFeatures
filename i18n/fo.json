@@ -4,13 +4,18 @@
 			"EileenSanda"
 		]
 	},
+	"apihelp-query+betafeatures-description": "Yvirlit yvir allar Betafunktiónir",
+	"apihelp-query+betafeatures-example-1": "Fá alla atkomuligar betafunktiónir og vís hvussu nógvir brúkarar hava íverksett tær",
+	"apihelp-query+betafeatures-param-counts": "Hvørt talið av brúkarum ið hava aktiverað eina ávísa innstilling skal heintast.",
 	"betafeatures-auto-enroll": "Aktivera sjálvvirkandi allar nýggjar betafunksjónir",
 	"betafeatures-desc": "Loyvir brúkara at gera funksjónir, sum enn ikki eru heilt klárar, virknar ella óvirknar á wikiini.",
+	"betafeatures-extension-type": "Betafunktiónir",
 	"betafeatures-toplink": "Beta",
 	"mw-ui-feature-discuss": "kjak",
 	"mw-ui-feature-info": "kunning",
 	"mw-ui-feature-requirements-javascript": "Henda funksjónin krevur JavaScript.",
-	"mw-ui-feature-user-count": "{{PLURAL:$1|Ein brúkari hevur|$1 brúkarar hava|0=Ongir brúkarar hava}} tikið hesa funksjónina í nýtslu.",
+	"mw-ui-feature-requirements-skins": "Henda funktiónin virkar bert við {{PLURAL:$1|hesari útsjóndini|fylgjandi útsjóndum}}:",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|Ein brúkari|$1 brúkarar|0=Ongir brúkarar}} royna hesa funksjónina.",
 	"prefs-betafeatures": "Betafunktiónir",
 	"tooltip-pt-betafeatures": "Betafunktiónir"
 }
