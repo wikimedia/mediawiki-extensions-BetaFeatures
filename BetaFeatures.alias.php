@@ -16,7 +16,7 @@ $specialPageAliases['ar'] = array(
 	'BetaFeatures' => array( 'خصائص_البيتا' ),
 );
 
-/** Egyptian Spoken Arabic (مصرى) */
+/** Egyptian Arabic (مصرى) */
 $specialPageAliases['arz'] = array(
 	'BetaFeatures' => array( 'خصايص_البيتا' ),
 );
@@ -71,7 +71,7 @@ $specialPageAliases['lb'] = array(
 	'BetaFeatures' => array( 'Beta-Fumktiounen' ),
 );
 
-/** لوری (لوری) */
+/** لوری مینجایی (لوری مینجایی) */
 $specialPageAliases['lrc'] = array(
 	'BetaFeatures' => array( 'خصوصیات_بتا' ),
 );
