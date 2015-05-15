@@ -71,7 +71,7 @@ $specialPageAliases['lb'] = array(
 	'BetaFeatures' => array( 'Beta-Fumktiounen' ),
 );
 
-/** لوری مینجایی (لوری مینجایی) */
+/** Northern Luri (لوری مینجایی) */
 $specialPageAliases['lrc'] = array(
 	'BetaFeatures' => array( 'خصوصیات_بتا' ),
 );
