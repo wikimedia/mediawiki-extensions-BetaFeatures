@@ -1,9 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Danmichaelo"
+			"Danmichaelo",
+			"Chameleon222"
 		]
 	},
+	"apihelp-query+betafeatures-description": "List alle betafunksjoner",
+	"apihelp-query+betafeatures-example-1": "Finn alle tilgjengelige betafunksjoner og vis hvor mange brukere som har aktivisert dem",
+	"apihelp-query+betafeatures-param-counts": "Om antall brukere som har aktivisert en viss innstilling skal hentes.",
 	"betafeatures-auto-enroll": "Automatisk aktiver alle nye betafunksjoner",
 	"betafeatures-desc": "La brukere aktivere eller deaktivere funksjoner på wikien som ikke enda er helt ferdige.",
 	"betafeatures-extension-type": "Betafunksjoner",

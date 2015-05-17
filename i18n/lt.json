@@ -6,6 +6,12 @@
 			"Hugo.arg"
 		]
 	},
+	"apihelp-query+betafeatures-description": "Sąrašas visų BetaFunkcijų",
+	"betafeatures-extension-type": "Beta funkcijos",
 	"betafeatures-toplink": "Beta",
+	"mw-ui-feature-discuss": "diskusija",
+	"mw-ui-feature-info": "informacija",
+	"mw-ui-feature-requirements-javascript": "Ši funkcija reikalauja JavaScript.",
+	"prefs-betafeatures": "Beta funkcijos",
 	"tooltip-pt-betafeatures": "Beta funkcijos"
 }

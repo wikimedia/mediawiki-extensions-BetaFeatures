@@ -1,9 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Jayarathina"
+			"Jayarathina",
+			"Balajijagadesh"
 		]
 	},
 	"betafeatures-toplink": "பீட்டா",
+	"mw-ui-feature-discuss": "உரையாடல்",
+	"mw-ui-feature-info": "தகவல்",
+	"prefs-betafeatures": "பீட்டா பண்புகள்",
 	"tooltip-pt-betafeatures": "பீட்டா பண்புகள்"
 }

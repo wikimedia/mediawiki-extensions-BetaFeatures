@@ -5,5 +5,7 @@
 		]
 	},
 	"betafeatures-toplink": "Bêta",
-	"mw-ui-feature-discuss": "oerlis"
+	"mw-ui-feature-discuss": "oerlis",
+	"mw-ui-feature-info": "ynformaasje",
+	"tooltip-pt-betafeatures": "Bêtafunksjes"
 }
