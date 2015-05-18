@@ -7,6 +7,10 @@
 		]
 	},
 	"apihelp-query+betafeatures-description": "Sąrašas visų BetaFunkcijų",
+	"apihelp-query+betafeatures-example-1": "Gauti visas beta funkcijas ir parodyti kiek vartotoju jas įgalino",
+	"apihelp-query+betafeatures-param-counts": "Ar skaičiuoti, kiek vartotojų įgalino tam tikrą preferenciją.",
+	"betafeatures-auto-enroll": "Automatiškai įjungti visas naujas beta funkcijas",
+	"betafeatures-desc": "Leisti vartotojams įjungti ar išjungti viki funkcijas, kurios dar nėra paruoštos visuotiniam naudojimui",
 	"betafeatures-extension-type": "Beta funkcijos",
 	"betafeatures-toplink": "Beta",
 	"mw-ui-feature-discuss": "diskusija",
