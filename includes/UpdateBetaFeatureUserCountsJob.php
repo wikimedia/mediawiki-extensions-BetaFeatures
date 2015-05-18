@@ -26,6 +26,8 @@
 class UpdateBetaFeatureUserCountsJob extends Job {
 	public function __construct( $title, $params ) {
 		parent::__construct( 'updateBetaFeaturesUserCounts', $title, $params );
+
+		$this->removeDuplicates = true;
 	}
 
 	/**
@@ -34,8 +36,6 @@ class UpdateBetaFeatureUserCountsJob extends Job {
 	 * @return bool
 	 */
 	public function run() {
-		global $wgMemc;
-
 		$dbw = wfGetDB( DB_MASTER );
 
 		$res = $dbw->select(
@@ -60,10 +60,6 @@ class UpdateBetaFeatureUserCountsJob extends Job {
 
 		$rows = array();
 		foreach ( $res as $row ) {
-			// Cache for 30 minutes
-			$key = wfMemcKey( 'betafeatures', 'usercounts', $row->feature );
-			$wgMemc->set( $key, $row->number, BetaFeaturesHooks::COUNT_CACHE_TTL );
-
 			$rows[] = array(
 				'feature' => $row->feature,
 				'number' => $row->number,
