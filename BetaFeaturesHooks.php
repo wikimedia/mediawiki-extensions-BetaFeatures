@@ -41,10 +41,13 @@ class BetaFeaturesHooks {
 
 	/**
 	 * @param array $prefs
-	 * @return array|mixed
+	 * @return array
 	 */
 	static function getUserCounts( array $prefs ) {
 		$counts = array();
+		if ( !$prefs ) {
+			return $counts;
+		}
 
 		$dbr = wfGetDB( DB_SLAVE );
 		$res = $dbr->select(
