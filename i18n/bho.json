@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Nepaboy"
+			"Nepaboy",
+			"SatyamMishra"
 		]
 	},
-	"betafeatures-toplink": "बीटा"
+	"betafeatures-toplink": "बीटा",
+	"tooltip-pt-betafeatures": "बीटा सुबिधा"
 }

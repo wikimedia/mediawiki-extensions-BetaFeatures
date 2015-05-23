@@ -4,6 +4,16 @@
 			"Рустам Нурыев"
 		]
 	},
+	"apihelp-query+betafeatures-description": "Барлыҡ Бета-мөмкинлектәр исемлеге",
+	"apihelp-query+betafeatures-example-1": "Барлыҡ асыҡ бета-мөмкинлектәрҙе алырға һәм улар менән күпме ҡатнашыусы ҡулланыуын ҡарарға",
+	"apihelp-query+betafeatures-param-counts": "Биләдәле көйләүҙәрҙе тоҡандырған ҡатнашыусылар күпме икәнен беләргәме һуң.",
+	"betafeatures-auto-enroll": "Барлыҡ яңы бета-мәмкинлектәрҙе үҙ аллы тоҡандырырға",
+	"betafeatures-desc": "Тулыһынса әҙер булмаған мөмкинлектәрҙе ҡулланыусыға үҙ аллы тоҡандырырға йәки һүндерергә рөхсәт итә",
+	"betafeatures-extension-type": "Бета мөмкинлектәре",
 	"betafeatures-toplink": "Бета",
+	"mw-ui-feature-discuss": "фекерләшеү",
+	"mw-ui-feature-info": "мәғлүмәт",
+	"mw-ui-feature-requirements-javascript": "Был мөмкинлек JavaScript талап итә.",
+	"prefs-betafeatures": "Бета-мөмкинлектәр",
 	"tooltip-pt-betafeatures": "Бета мөмкинлектәре"
 }
