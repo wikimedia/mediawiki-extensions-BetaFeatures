@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Siddhartha Ghai"
+			"Siddhartha Ghai",
+			"Hindustanilanguage"
 		]
 	},
+	"apihelp-query+betafeatures-description": "सभी बीटाफ़ीचरों को सूचीबद्ध करो",
 	"betafeatures-auto-enroll": "सभी नई बीटा सुविधाओं को स्वचालित रूप से सक्षम करें",
 	"betafeatures-desc": "सदस्यों को विकी पर वो सुविधाएँ सक्षम करने देता है जो अभी सबके द्वारा प्रयोग करने के लिए तैयार नहीं हैं",
 	"betafeatures-extension-type": "बीटा सुविधाएँ",
