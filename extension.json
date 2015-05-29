@@ -106,5 +106,6 @@
 		"ApiQueryBetaFeatures": "includes/ApiListBetaFeatures.php",
 		"SpecialBetaFeatures": "includes/SpecialBetaFeatures.php",
 		"BetaFeaturesTestCase": "tests/BetaFeaturesTestCase.php"
-	}
+	},
+	"manifest_version": 1
 }
