@@ -2,8 +2,10 @@
 	"@metadata": {
 		"authors": [
 			"Benojan",
-			"十弌"
+			"十弌",
+			"Poiuyt"
 		]
 	},
-	"betafeatures-toplink": "試驗版"
+	"betafeatures-toplink": "試驗版",
+	"tooltip-pt-betafeatures": "测试功能"
 }
