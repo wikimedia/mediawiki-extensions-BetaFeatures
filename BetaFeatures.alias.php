@@ -73,7 +73,7 @@ $specialPageAliases['lb'] = array(
 
 /** Northern Luri (لوری مینجایی) */
 $specialPageAliases['lrc'] = array(
-	'BetaFeatures' => array( 'خصوصیات_بتا' ),
+	'BetaFeatures' => array( 'خوصوٙصیات_بئتا' ),
 );
 
 /** Malagasy (Malagasy) */
