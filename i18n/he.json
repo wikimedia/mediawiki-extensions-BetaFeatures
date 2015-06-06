@@ -7,6 +7,9 @@
 			"ערן"
 		]
 	},
+	"apihelp-query+betafeatures-description": "רשימת כל אפשרויות הבטא",
+	"apihelp-query+betafeatures-example-1": "קבלת כל אפשרויות הבטא הזמינות והצגה של מספר המשתמשים שבפעילו אותן",
+	"apihelp-query+betafeatures-param-counts": "האם לאחזר כמה משתמשים הפעילו העדפה מסוימת.",
 	"betafeatures-auto-enroll": "הפעלת כל אפשרויות הבטא החדשות באופן אוטומטי",
 	"betafeatures-desc": "מתן אפשרות למשתמש להפעיל או לכבות בוויקי אפשרויות שעדיין אינן מוכנות להוצאה כללית",
 	"betafeatures-extension-type": "אפשרויות בטא",
