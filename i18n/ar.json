@@ -9,6 +9,7 @@
 		]
 	},
 	"apihelp-query+betafeatures-description": "عرض كل خصائص البيتا",
+	"apihelp-query+betafeatures-example-1": "الحصول على كل المزايا التجريبية وإظهار عدد المستخدمين الذين فعلوها.",
 	"betafeatures-auto-enroll": "تمكين كافة المزايا التجريبية الجديدة تلقائيا",
 	"betafeatures-desc": "تسمح للمستخدم بتمكين أو تعطيل المزايا غير الجاهزة تمامًا لتشغيلها على الويكي",
 	"betafeatures-extension-type": "مزايا تجريبية",
