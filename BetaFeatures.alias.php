@@ -71,7 +71,7 @@ $specialPageAliases['lb'] = array(
 	'BetaFeatures' => array( 'Beta-Fumktiounen' ),
 );
 
-/** Northern Luri (لوری مینجایی) */
+/** Northern Luri (لۊری شومالی) */
 $specialPageAliases['lrc'] = array(
 	'BetaFeatures' => array( 'خوصوٙصیات_بئتا' ),
 );
