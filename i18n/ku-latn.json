@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"George Animal"
+			"George Animal",
+			"Bikarhêner"
 		]
 	},
-	"betafeatures-toplink": "Beta"
+	"betafeatures-toplink": "Beta",
+	"mw-ui-feature-info": "agahî"
 }
