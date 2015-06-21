@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Siddhartha Ghai",
-			"Hindustanilanguage"
+			"Hindustanilanguage",
+			"संजीव कुमार"
 		]
 	},
 	"apihelp-query+betafeatures-description": "सभी बीटाफ़ीचरों को सूचीबद्ध करो",
@@ -18,7 +19,7 @@
 	"mw-ui-feature-requirements-browser": "निम्न ब्राउज़र समर्थित नहीं {{PLURAL:$1|है|हैं}}:",
 	"mw-ui-feature-requirements-javascript": "इस सुविधा के लिये जावास्क्रिप्ट की आवश्यकता है।",
 	"mw-ui-feature-requirements-skins": "यह सुविधा केवल निम्न {{PLURAL:$1|त्वचा|त्वचाओं}} के साथ काम करती है:",
-	"mw-ui-feature-user-count": "इस सुविधा को {{PLURAL:$1|एक सदस्य ने|$1 सदस्यों ने|0=किसी भी सदस्य ने नहीं}} सक्षम किया है।",
+	"mw-ui-feature-user-count": "इस सुविधा का उपयोग {{PLURAL:$1|एक सदस्य कर रहा है|$1 सदस्य कर रहे हैं|0=कोई भी सदस्य नहीं कर रहा है}}।",
 	"prefs-betafeatures": "बीटा सुविधाएँ",
 	"tooltip-pt-betafeatures": "बीटा सुविधाएँ"
 }
