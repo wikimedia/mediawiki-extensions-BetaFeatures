@@ -84,7 +84,8 @@ class ApiQueryBetaFeatures extends ApiQueryBase {
 	 */
 	public function getExamples() {
 		return array(
-			'api.php?action=query&list=betafeatures&bfcounts=' => 'Get all available betafeatures and show how many users have enabled them'
+			'api.php?action=query&list=betafeatures&bfcounts='
+				=> 'Get all available betafeatures and show how many users have enabled them'
 		);
 	}
 
@@ -102,4 +103,3 @@ class ApiQueryBetaFeatures extends ApiQueryBase {
 		return 'https://www.mediawiki.org/wiki/Extension:BetaFeatures/API';
 	}
 }
-

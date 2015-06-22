@@ -53,7 +53,6 @@ class HTMLFeatureField extends NewHTMLCheckField {
 		// Close -title-contain
 		$html .= Html::closeElement( 'div' );
 
-
 		if ( isset( $this->mParams['info-message'] ) ) {
 			$infoLink = $this->mParent->msg( $this->mParams['info-message'] )->escaped();
 		}
@@ -164,7 +163,7 @@ class HTMLFeatureField extends NewHTMLCheckField {
 				$browserCount = count( $this->mParams['requirements']['blacklist'] );
 				$html .= $parent->msg( 'mw-ui-feature-requirements-browser', $browserCount )->escaped();
 				$html .= Html::openElement( 'ul' );
-				foreach( $this->mParams['requirements']['blacklist'] as $browser => $versions ) {
+				foreach ( $this->mParams['requirements']['blacklist'] as $browser => $versions ) {
 					$browserString = $browser;
 					if ( $versions ) {
 						foreach ( $versions as $version ) {
@@ -181,7 +180,10 @@ class HTMLFeatureField extends NewHTMLCheckField {
 				$html .= Html::closeElement( 'li' );
 			}
 
-			if ( isset( $this->mParams['requirements']['skin-not-supported'] ) && $this->mParams['requirements']['skin-not-supported'] === true ) {
+			if (
+				isset( $this->mParams['requirements']['skin-not-supported'] ) &&
+				$this->mParams['requirements']['skin-not-supported'] === true
+			) {
 				$html .= Html::openElement(
 					'li',
 					array( 'class' => 'mw-ui-feature-requirements-skins' )
@@ -189,7 +191,7 @@ class HTMLFeatureField extends NewHTMLCheckField {
 				$skinCount = count( $this->mParams['requirements']['skins'] );
 				$html .= $parent->msg( 'mw-ui-feature-requirements-skins', $skinCount )->escaped();
 				$html .= Html::openElement( 'ul' );
-				foreach( $this->mParams['requirements']['skins'] as $skin ) {
+				foreach ( $this->mParams['requirements']['skins'] as $skin ) {
 					$html .= Html::element(
 						'li',
 						array(),
@@ -208,7 +210,7 @@ class HTMLFeatureField extends NewHTMLCheckField {
 				$featureCount = count( $this->mParams['requirements']['betafeatures-messages'] );
 				$html .= $parent->msg( 'mw-ui-feature-requirements-betafeatures', $featureCount )->escaped();
 				$html .= Html::openElement( 'ul' );
-				foreach( $this->mParams['requirements']['betafeatures-messages'] as $message ) {
+				foreach ( $this->mParams['requirements']['betafeatures-messages'] as $message ) {
 					$html .= Html::rawElement(
 						'li',
 						array(),
@@ -314,7 +316,7 @@ class HTMLFeatureField extends NewHTMLCheckField {
 
 		if ( $res === true ) {
 			return HTMLFeatureField::OPTION_ENABLED;
-		} else if ( $res === false ) {
+		} elseif ( $res === false ) {
 			return HTMLFeatureField::OPTION_DISABLED;
 		} else {
 			// Dunno what happened, but I'm not gonna fight it.

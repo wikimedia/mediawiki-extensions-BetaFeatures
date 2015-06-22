@@ -82,7 +82,7 @@ class NewHTMLCheckField extends HTMLCheckField {
 		$out->addModules( 'ext.betaFeatures' );
 		$out->addModuleStyles( 'ext.betaFeatures.styles' );
 		$out->addModuleStyles( 'mediawiki.ui.checkbox' );
-		$labelHtml = $this->includeLabel ? $this->getPostCheckboxLabelHTML() : ''; 
+		$labelHtml = $this->includeLabel ? $this->getPostCheckboxLabelHTML() : '';
 		return Html::openElement( 'div', array( 'class' => $containerClasses ) ) .
 			Xml::check( $this->mName, $value, $attr ) .
 			Html::rawElement( 'label', $labelAttrs ) .
@@ -94,7 +94,11 @@ class NewHTMLCheckField extends HTMLCheckField {
 	 * @return string
 	 */
 	protected function getPostCheckboxLabelHTML() {
-		return Html::rawElement( 'label', array( 'for' => $this->mID, 'class' => 'mw-ui-text-check-label' ), $this->mLabel );
+		return Html::rawElement(
+			'label',
+			array( 'for' => $this->mID, 'class' => 'mw-ui-text-check-label' ),
+			$this->mLabel
+		);
 	}
 
 	/**

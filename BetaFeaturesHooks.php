@@ -143,7 +143,8 @@ class BetaFeaturesHooks {
 		wfRunHooks( 'GetBetaFeatureDependencyHooks', array( &$depHooks ) );
 
 		$saveUser = false;
-		$autoEnrollAll = $user->getOption( 'betafeatures-auto-enroll' ) === HTMLFeatureField::OPTION_ENABLED;
+		$autoEnrollAll =
+			$user->getOption( 'betafeatures-auto-enroll' ) === HTMLFeatureField::OPTION_ENABLED;
 		$autoEnroll = array();
 
 		foreach ( $betaPrefs as $key => $info ) {
@@ -194,7 +195,9 @@ class BetaFeaturesHooks {
 					// A required field isn't present in the info array
 					// we got from the GetBetaFeaturePreferences hook.
 					// Don't add this feature to the form.
-					throw new BetaFeaturesMissingFieldException( "The field {$field} was missing from the beta feature {$key}." );
+					throw new BetaFeaturesMissingFieldException(
+						"The field {$field} was missing from the beta feature {$key}."
+					);
 				}
 			}
 
@@ -212,7 +215,8 @@ class BetaFeaturesHooks {
 			$autoEnrollForThisPref = false;
 
 			if ( isset( $info['group'] ) && isset( $autoEnroll[$info['group']] ) ) {
-				$autoEnrollForThisPref = $user->getOption( $autoEnroll[$info['group']] ) === HTMLFeatureField::OPTION_ENABLED;
+				$autoEnrollForThisPref =
+				 	$user->getOption( $autoEnroll[$info['group']] ) === HTMLFeatureField::OPTION_ENABLED;
 			}
 
 			$autoEnrollHere = $autoEnrollAll === true || $autoEnrollForThisPref === true;
@@ -235,7 +239,7 @@ class BetaFeaturesHooks {
 				// Check which other beta features are required, and fetch their labels
 				if ( isset( $prefs[$key]['requirements']['betafeatures'] ) ) {
 					$requiredPrefs = array();
-					foreach( $prefs[$key]['requirements']['betafeatures'] as $preference ) {
+					foreach ( $prefs[$key]['requirements']['betafeatures'] as $preference ) {
 						if ( !$user->getOption( $preference ) ) {
 							$requiredPrefs[] = $prefs[$preference]['label-message'];
 						}
@@ -298,7 +302,9 @@ class BetaFeaturesHooks {
 			$personal_urls = wfArrayInsertAfter( $personal_urls, array(
 				'betafeatures' => array(
 					'text' => wfMessage( 'betafeatures-toplink' )->text(),
-					'href' => SpecialPage::getTitleFor( 'Preferences', false, 'mw-prefsection-betafeatures' )->getLinkURL(),
+					'href' => SpecialPage::getTitleFor(
+						'Preferences', false, 'mw-prefsection-betafeatures'
+					)->getLinkURL(),
 					'active' => $title->isSpecial( 'Preferences' ),
 				),
 			), 'preferences' );
