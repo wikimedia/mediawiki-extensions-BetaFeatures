@@ -4,5 +4,7 @@
 			"Jagwar"
 		]
 	},
-	"betafeatures-extension-type": "Fitaovana beta"
+	"betafeatures-extension-type": "Fitaovana beta",
+	"betafeatures-toplink": "Beta",
+	"tooltip-pt-betafeatures": "Fitaovana beta"
 }
