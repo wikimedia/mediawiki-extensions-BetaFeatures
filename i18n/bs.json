@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"DzWiki",
-			"Palapa"
+			"Palapa",
+			"Srdjan m"
 		]
 	},
+	"betafeatures-auto-enroll": "Automatski uključi sve beta mogućnosti",
 	"betafeatures-extension-type": "Beta mogućnosti",
 	"betafeatures-section-desc": "Ovo {{PLURAL:$1|je nova mogućnost|su nove mogućnosti}} na projektu {{SITENAME}}. Molimo {{PLURAL:$1|isprobajte je|isprobajte ih}} i napišite nam svoje mišljenje kako bismo {{PLURAL:$1|je|ih}} poboljšali na osnovi Vaših povratnih informacija.",
 	"betafeatures-toplink": "Beta faza",
