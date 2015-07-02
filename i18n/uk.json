@@ -3,7 +3,8 @@
 		"authors": [
 			"Andriykopanytsia",
 			"Lystopad",
-			"Ата"
+			"Ата",
+			"Piramidion"
 		]
 	},
 	"apihelp-query+betafeatures-description": "Список усіх Бета-функцій",
@@ -21,7 +22,7 @@
 	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|1= Наступний веб-переглядач не підтримується|Наступні веб-переглядачі не підтримуються}}:",
 	"mw-ui-feature-requirements-javascript": "Ця функція вимагає JavaScript.",
 	"mw-ui-feature-requirements-skins": "Ця функція працює лише з {{PLURAL:$1|1=наступною темою|однією з наступних тем}}:",
-	"mw-ui-feature-user-count": "{{PLURAL:$1|Один користувач пробує|$1 користувачі пробують|$1 користувачів пробують|0=Жодний користувач  не пробує}} цю функцію.",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|$1 користувач пробує|$1 користувачі пробують|$1 користувачів пробують|0=Жоден користувач не пробує}} цю функцію.",
 	"prefs-betafeatures": "Бета-функції",
 	"tooltip-pt-betafeatures": "Бета-функції"
 }
