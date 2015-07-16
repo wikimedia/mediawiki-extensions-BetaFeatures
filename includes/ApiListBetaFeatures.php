@@ -47,12 +47,15 @@ class ApiQueryBetaFeatures extends ApiQueryBase {
 				$key
 			);
 			if ( isset( $counts[$key] ) ) {
-				$this->getResult()->addValue(
-					$path,
-					'count',
-					$counts[$key]
-				);
+				$count = $counts[$key];
+			} else {
+				$count = 0;
 			}
+			$this->getResult()->addValue(
+				$path,
+				'count',
+				$count
+			);
 		}
 	}
 
