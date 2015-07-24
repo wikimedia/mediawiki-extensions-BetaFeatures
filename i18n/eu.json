@@ -1,10 +1,18 @@
 {
 	"@metadata": {
 		"authors": [
-			"Subi"
+			"Subi",
+			"Sator"
 		]
 	},
+	"apihelp-query+betafeatures-description": "Beta funtzionalitate guztien zerrenda",
+	"betafeatures-auto-enroll": "Automatikoki gaitu Beta funtzionalitate berri guztiak",
+	"betafeatures-extension-type": "Beta funtzioak",
 	"betafeatures-toplink": "Beta",
 	"mw-ui-feature-discuss": "eztabaida",
-	"mw-ui-feature-info": "Informazioa"
+	"mw-ui-feature-info": "Informazioa",
+	"mw-ui-feature-requirements-javascript": "Funtzionalitate honek JavaScript behar du.",
+	"mw-ui-feature-requirements-skins": "Funtzionalitate hau {{PLURAL:$1|the following skin|azal hauekin}} dabil soilik:",
+	"prefs-betafeatures": "Beta funtzioak",
+	"tooltip-pt-betafeatures": "Beta funtzioak"
 }
