@@ -4,6 +4,11 @@
 			"C.R."
 		]
 	},
+	"apihelp-query+betafeatures-description": "Elenco 'e tutt' 'e BetaFeatures",
+	"apihelp-query+betafeatures-example-1": "Pigghie tutt' 'e funziune beta e fà vedè quanne utente ll'hanno appicciate",
+	"betafeatures-extension-type": "Funziune sperimentale",
 	"betafeatures-toplink": "Beta",
+	"mw-ui-feature-discuss": "chiàcchiera",
+	"mw-ui-feature-info": "nfurmaziune",
 	"tooltip-pt-betafeatures": "Funziune sperimentale"
 }
