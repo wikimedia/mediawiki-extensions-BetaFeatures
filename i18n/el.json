@@ -2,9 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Evropi",
-			"Geraki"
+			"Geraki",
+			"Glavkos"
 		]
 	},
 	"betafeatures-toplink": "Beta",
+	"mw-ui-feature-discuss": "συζήτηση",
+	"mw-ui-feature-info": "πληροφορία",
+	"mw-ui-feature-requirements-javascript": "Αυτό το χαρακτηριστικό απαιτεί JavaScript.",
+	"prefs-betafeatures": "Δοκιμαστικές λειτουργίες",
 	"tooltip-pt-betafeatures": "Δοκιμαστικές λειτουργίες"
 }
