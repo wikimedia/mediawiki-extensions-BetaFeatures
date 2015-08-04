@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Highlander45temp"
+			"Highlander45temp",
+			"SamGamgee"
 		]
 	},
+	"betafeatures-toplink": "Бета",
 	"tooltip-pt-betafeatures": "Бета-функциехэр"
 }
