@@ -141,7 +141,7 @@ class AutoEnrollmentTest extends BetaFeaturesTestCase {
 			$user->setOption( $set, $setVal );
 		}
 
-		wfRunHooks( 'GetPreferences', array( $user, &$prefs ) );
+		Hooks::run( 'GetPreferences', array( $user, &$prefs ) );
 
 		$value = $user->getOption( $check );
 		if ( $expected === null ) {

@@ -62,7 +62,7 @@ class PreferenceHandlingTest extends BetaFeaturesTestCase {
 		} );
 
 		try {
-			wfRunHooks( 'GetPreferences', array( $this->user, &$prefs ) );
+			Hooks::run( 'GetPreferences', array( $this->user, &$prefs ) );
 		} catch ( BetaFeaturesMissingFieldException $e ) {
 			if ( $expected === null ) {
 				$this->assertEquals( 'BetaFeaturesMissingFieldException', get_class( $e ) );

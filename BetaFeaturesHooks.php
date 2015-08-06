@@ -75,7 +75,7 @@ class BetaFeaturesHooks {
 		// Let's find out what's changed
 		$oldUser = User::newFromName( $user->getName() );
 		$betaFeatures = $wgBetaFeatures;
-		wfRunHooks( 'GetBetaFeaturePreferences', array( $user, &$betaFeatures ) );
+		Hooks::run( 'GetBetaFeaturePreferences', array( $user, &$betaFeatures ) );
 
 		foreach ( $betaFeatures as $name => $option ) {
 			$newVal = $user->getOption( $name );
@@ -110,7 +110,7 @@ class BetaFeaturesHooks {
 		$betaPrefs = $wgBetaFeatures;
 		$depHooks = array();
 
-		wfRunHooks( 'GetBetaFeaturePreferences', array( $user, &$betaPrefs ) );
+		Hooks::run( 'GetBetaFeaturePreferences', array( $user, &$betaPrefs ) );
 
 		$prefs['betafeatures-popup-disable'] = array(
 			'type' => 'api',
@@ -140,7 +140,7 @@ class BetaFeaturesHooks {
 		// Set up dependency hooks array
 		// This complex structure brought to you by Per-Wiki Configuration,
 		// coming soon to a wiki very near you.
-		wfRunHooks( 'GetBetaFeatureDependencyHooks', array( &$depHooks ) );
+		Hooks::run( 'GetBetaFeatureDependencyHooks', array( &$depHooks ) );
 
 		$saveUser = false;
 		$autoEnrollAll =
@@ -163,7 +163,7 @@ class BetaFeaturesHooks {
 					) {
 					$success = false;
 				} elseif ( isset( $depHooks[$key] ) ) {
-					$success = wfRunHooks( $depHooks[$key] );
+					$success = Hooks::run( $depHooks[$key] );
 				}
 
 				if ( $success !== true ) {
