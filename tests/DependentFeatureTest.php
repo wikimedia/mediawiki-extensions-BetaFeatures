@@ -76,7 +76,7 @@ class DependentFeatureTest extends BetaFeaturesTestCase {
 
 		$prefs = array();
 
-		wfRunHooks( 'GetPreferences', array( $this->user, &$prefs ) );
+		Hooks::run( 'GetPreferences', array( $this->user, &$prefs ) );
 
 		$this->assertArrayHasKey( self::testPrefKey, $prefs, 'Hook did not run with passing dependency.' );
 	}
@@ -88,7 +88,7 @@ class DependentFeatureTest extends BetaFeaturesTestCase {
 
 		$prefs = array();
 
-		wfRunHooks( 'GetPreferences', array( $this->user, &$prefs ) );
+		Hooks::run( 'GetPreferences', array( $this->user, &$prefs ) );
 
 		$this->assertArrayNotHasKey( self::testPrefKey, $prefs, 'Hook ran with failing dependency.' );
 	}
@@ -96,7 +96,7 @@ class DependentFeatureTest extends BetaFeaturesTestCase {
 	public function testNoDependency() {
 		$prefs = array();
 
-		wfRunHooks( 'GetPreferences', array( $this->user, &$prefs ) );
+		Hooks::run( 'GetPreferences', array( $this->user, &$prefs ) );
 
 		$this->assertArrayHasKey( self::testPrefKey, $prefs, 'Hook did not run without dependency.' );
 	}

@@ -34,7 +34,7 @@ class ApiQueryBetaFeatures extends ApiQueryBase {
 
 		$prefs = $wgBetaFeatures;
 		$user = User::newFromName( 'MediaWiki default' );
-		wfRunHooks( 'GetBetaFeaturePreferences', array( $user, &$prefs ) );
+		Hooks::run( 'GetBetaFeaturePreferences', array( $user, &$prefs ) );
 
 		$counts = isset( $params['counts'] )
 			? BetaFeaturesHooks::getUserCounts( array_keys( $prefs ) )

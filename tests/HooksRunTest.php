@@ -57,7 +57,7 @@ class HooksRunTest extends MediaWikiTestCase {
 
 		$wgHooks['GetBetaFeaturePreferences'] = array( 'HooksRunTest::hookThatRegistersPreference' );
 		$prefs = array();
-		wfRunHooks( 'GetBetaFeaturePreferences', array( $this->user, &$prefs ) );
+		Hooks::run( 'GetBetaFeaturePreferences', array( $this->user, &$prefs ) );
 		$this->assertArrayHasKey( self::testPrefKey, $prefs, 'Hook did not run' );
 		$this->assertEquals( $prefs[self::testPrefKey], self::$testPref, 'The returned preference was not the same as what we registered.' );
 	}
