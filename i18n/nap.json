@@ -6,9 +6,18 @@
 	},
 	"apihelp-query+betafeatures-description": "Elenco 'e tutt' 'e BetaFeatures",
 	"apihelp-query+betafeatures-example-1": "Pigghie tutt' 'e funziune beta e fà vedè quanne utente ll'hanno appicciate",
+	"apihelp-query+betafeatures-param-counts": "Si s'avess'arrepiglià 'o nummero d'utente ca tenessero appicciata na certa preferenza.",
+	"betafeatures-auto-enroll": "Automaticamente appiccia tutt' 'e funziune beta nove",
+	"betafeatures-desc": "Lassa l'utente appiccià o stuta funziune dint' 'a wiki ca nun song'ancora pronte p' 'o pubblico a cchiorma",
 	"betafeatures-extension-type": "Funziune sperimentale",
+	"betafeatures-section-desc": "Ccà {{PLURAL:$1|sta 'na funziona nova|stongo cchiù funziune nove}} ca stamm'a cunziderà p' 'o {{SITENAME}}. Pe' piacere pruèvatevele e datece nu parere, accussì nuje putimmo migliurà cu bbase 'a segnalaziona vosta.",
+	"betafeatures-tooltip": "Ntroduzione a 'e Funziune Beta! Sta seziona nova 'e me piace accussì ve lassa testà e dà 'e segnalaziune ncopp' 'e funziune apprimma ca nuje 'e lanciammo cumm'a nu cumpurtamento 'e bbase. Pruvate coccosa 'e nuovo mò!",
 	"betafeatures-toplink": "Beta",
 	"mw-ui-feature-discuss": "chiàcchiera",
 	"mw-ui-feature-info": "nfurmaziune",
+	"mw-ui-feature-requirements-betafeatures": "Sta funzione vole {{PLURAL:$1|sta funzione|ste funziune}} 'e s'appiccià:",
+	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|'O browser nun è|'E browser nun songo}} suppurtate:",
+	"mw-ui-feature-requirements-javascript": "Sta funzione vole 'o JavaScript",
+	"mw-ui-feature-requirements-skins": "Sta funzione fatìca surtanto cu {{PLURAL:$1|stu skin|sti skin}}:",
 	"tooltip-pt-betafeatures": "Funziune sperimentale"
 }

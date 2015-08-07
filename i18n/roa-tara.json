@@ -16,7 +16,7 @@
 	"mw-ui-feature-discuss": "'ngazzamende",
 	"mw-ui-feature-info": "'mbormaziune",
 	"mw-ui-feature-requirements-betafeatures": "Sta funzione vole {{PLURAL:$1|sta funzione|ste funziune}} da abbilità:",
-	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|'U browser non g'è|Le browser ge sonde}} supportate:",
+	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|'U browser non g'è|Le browser non ge sonde}} supportate:",
 	"mw-ui-feature-requirements-javascript": "Sta funzione vole 'u JavaScript.",
 	"mw-ui-feature-requirements-skins": "Sta funzione fatìe sulamende cu {{PLURAL:$1|stu skin|ste skin}}:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|'Nu utende ave|$1 utinde onne|0=nisciune utende ave}} pruvate sta funzione.",
