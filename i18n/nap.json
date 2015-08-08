@@ -19,5 +19,7 @@
 	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|'O browser nun è|'E browser nun songo}} suppurtate:",
 	"mw-ui-feature-requirements-javascript": "Sta funzione vole 'o JavaScript",
 	"mw-ui-feature-requirements-skins": "Sta funzione fatìca surtanto cu {{PLURAL:$1|stu skin|sti skin}}:",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|N'utente l'ave|$1 utente l'aveno|0=nisciunu utente ave}} pruvata sta funzione.",
+	"prefs-betafeatures": "Funziune de Beta",
 	"tooltip-pt-betafeatures": "Funziune sperimentale"
 }
