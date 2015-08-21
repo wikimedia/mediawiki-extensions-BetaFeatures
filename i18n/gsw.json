@@ -1,9 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
-			"Als-Holder"
+			"Als-Holder",
+			"J. 'mach' wust"
 		]
 	},
+	"betafeatures-auto-enroll": "Alli nöüe Beta-Funktionen automatisch aktiviere",
+	"betafeatures-section-desc": "Hie het’s {{PLURAL:$1|e nöüi Funktion|es paar nöüi Funktione}}, wo mer vilech by {{SITENAME}} wei yfüere. Bitte probier sen uus u säg üs was d’ dervo haltisch. Eso chöü mer se verbessere.t",
 	"betafeatures-toplink": "Beta",
+	"mw-ui-feature-discuss": "Diskussion",
+	"mw-ui-feature-info": "Information",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|Ei Person probiert|$1 Persone probiere|0=Niemer probiert}} die Funktion uus.",
+	"prefs-betafeatures": "Beta-Funktione",
 	"tooltip-pt-betafeatures": "Beta-Funktione"
 }
