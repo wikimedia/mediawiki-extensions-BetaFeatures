@@ -28,7 +28,7 @@
 		for ( preference in features ) {
 			$input = $( '#mw-input-wp' + preference );
 			$field = $input.closest( '.mw-ui-feature-field' );
-			blacklist = features[preference] && features[preference].blacklist;
+			blacklist = features[ preference ] && features[ preference ].blacklist;
 
 			if ( blacklist && $.client.test( blacklist, null, true ) ) {
 				// Browser not compatible

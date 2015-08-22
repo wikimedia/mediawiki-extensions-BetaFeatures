@@ -19,8 +19,9 @@
  */
 
 ( function ( mw, $ ) {
+	var $link;
 	if ( !mw.user.options.get( 'betafeatures-popup-disable' ) ) {
-		var $link = $( '#pt-betafeatures a' );
+		$link = $( '#pt-betafeatures a' );
 
 		if ( $link.length > 0 ) {
 			$link.tipsy()
