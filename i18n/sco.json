@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"John Reid"
+			"John Reid",
+			"AmaryllisGardener"
 		]
 	},
-	"betafeatures-extension-type": "Beta features"
+	"betafeatures-extension-type": "Beta features",
+	"betafeatures-toplink": "Beta",
+	"tooltip-pt-betafeatures": "Beta featurs"
 }
