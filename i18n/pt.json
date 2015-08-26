@@ -9,7 +9,7 @@
 	},
 	"apihelp-query+betafeatures-description": "Lista todos os Recursos Beta",
 	"apihelp-query+betafeatures-example-1": "Ver todos os recursos Beta disponíveis e mostrar quantos utilizadores não os habilitaram",
-	"betafeatures-auto-enroll": "Activar automaticamente todos os novos recursos beta",
+	"betafeatures-auto-enroll": "Ativar automaticamente todos os novos recursos beta",
 	"betafeatures-desc": "Permite que o utilizador active ou desactive os recursos da wiki que ainda não estão prontos",
 	"betafeatures-extension-type": "Recursos beta",
 	"betafeatures-section-desc": "Aqui {{PLURAL:$1|encontra-se um novo recurso|encontram-se novos recursos}} que estamos a considerar para {{SITENAME}}. Por favor, {{PLURAL:$1|teste-o|teste-os}} e diga o que pensa {{PLURAL:$1|dele|deles}}, para que possamos {{PLURAL:$1|melhorá-lo|melhorá-los}} com base no seu comentário.",
