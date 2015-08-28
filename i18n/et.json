@@ -13,7 +13,7 @@
 	"mw-ui-feature-discuss": "arutelu",
 	"mw-ui-feature-info": "teave",
 	"mw-ui-feature-requirements-betafeatures": "See funktsioon nõuab {{PLURAL:$1|järgmise funktsiooni|järgmiste funktsioonide}} kasutamist:",
-	"mw-ui-feature-requirements-browser": "Toetatud on {{PLURAL:$1|järgmine võrgulehitseja|järgmised võrgulehitsejad}}:",
+	"mw-ui-feature-requirements-browser": "Toetatud on {{PLURAL:$1|järgmine veebilehitseja|järgmised veebilehitsejad}}:",
 	"mw-ui-feature-requirements-javascript": "Selle funktsiooni jaoks on vaja JavaScripti.",
 	"mw-ui-feature-requirements-skins": "See funktsioon töötab ainult {{PLURAL:$1|järgmise kujundusega|järgmiste kujundustega}}:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|Üks kasutaja proovib|$1 kasutajat proovivad|0=Ükski kasutaja ei proovi}} seda funktsiooni.",
