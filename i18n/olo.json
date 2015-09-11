@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Denö"
+			"Denö",
+			"Mashoi7"
 		]
 	},
-	"betafeatures-toplink": "Beta"
+	"betafeatures-toplink": "Beta",
+	"tooltip-pt-betafeatures": "Beta-toimindot"
 }

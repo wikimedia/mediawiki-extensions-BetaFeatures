@@ -1,25 +1,26 @@
 {
 	"@metadata": {
 		"authors": [
-			"Pippinu"
+			"Pippinu",
+			"Sarvaturi"
 		]
 	},
 	"apihelp-query+betafeatures-description": "Alenca tutti li BetaFeatures",
-	"apihelp-query+betafeatures-example-1": "Pigghia tutti li funziunalità in beta e mmustra quantu utenti ll’hannu attivati",
-	"apihelp-query+betafeatures-param-counts": "Si’ s’havi a’ rifiriri quantu utenti hannu attivata na quarchi’ prifirenza.",
-	"betafeatures-auto-enroll": "Attiva tutti li funziunalità in beta autumaticamenti",
-	"betafeatures-desc": "Lassa attivari o disattivari a’ l’utenti li carattirìstichi dâ wiki ca nun sunnu ancora pronti pi’ l’usu ginirali",
-	"betafeatures-extension-type": "Funziunalità in beta",
-	"betafeatures-section-desc": "Cca’ {{PLURAL:$1|cc’è na funziunalità nova|cci sunnu na para di funziunalità novi}} ca stamu pinsannu di attivari nta {{SITENAME}}. Pi’ favuri {{PLURAL:$1|pròvila|pròvili}} e dinni chi’ ti nni pari, accussì {{PLURAL:$1|la putemu migghiurari|li putemu migghiurari}} tinennu cuntu dî to ossirvazzioni.",
-	"betafeatures-tooltip": "Ti prisintamu li funziunalità in beta! Sta sizzioni nova dî prifirenzi ti cunsenti di pruvari funziunalità ca sunnu novi e di dìrinni chiddu chi’ nni pensi avanti ca l’attivamu pi’ tutti. Picchì nun provi quarchi’ cosa nova ora stissu!",
+	"apihelp-query+betafeatures-example-1": "Pigghia tutti li funziunalità n beta e ammustra quantu utenti l'hannu attivati",
+	"apihelp-query+betafeatures-param-counts": "Si s'havi a rifiriri quantu utenti hannu attivata na quarchi prifirenza.",
+	"betafeatures-auto-enroll": "Attiva tutti li funziunalità n beta autumaticamenti",
+	"betafeatures-desc": "Lassa attivari o disattivari a l'utenti li carattirìstichi dâ wiki ca nun sunnu ancora pronti pi l'usu ginirali",
+	"betafeatures-extension-type": "Funziunalità n beta",
+	"betafeatures-section-desc": "Ccà {{PLURAL:$1|c'è na funziunalità nova|ci sunnu na para di funziunalità novi}} ca stamu pinzannu d'attivari nta {{SITENAME}}. Pi favuri {{PLURAL:$1|pròvala|pròvali}} e dinni chi ti nni pari, accussì {{PLURAL:$1|la putemu migghiurari|li putemu migghiurari}} tinennu cuntu dî to ossirvazzioni.",
+	"betafeatures-tooltip": "Ti prisintamu li funziunalità n beta! Sta sizzioni nova dî prifirenzi ti cunzenti di pruvari funziunalità ca sunnu novi e di dirinni chiddu chi nni penzi avanti ca l'attivamu pi tutti. Pirchì nun provi quarchi cosa nova ora stissu!",
 	"betafeatures-toplink": "Beta",
 	"mw-ui-feature-discuss": "discussioni",
 	"mw-ui-feature-info": "nfurmazzioni",
-	"mw-ui-feature-requirements-betafeatures": "Sta funziunalità havi bisognu ca {{PLURAL:$1|è attivata st’autra funziunalità|sunnu attivati st’autri funziunalità}}:",
+	"mw-ui-feature-requirements-betafeatures": "Sta funziunalità havi bisognu ca {{PLURAL:$1|è attivata st'àutra funziunalità|sunnu attivati st'àutri funziunalità}}:",
 	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|Stu browser nun è suppurtatu|Sti browser nun sunnu suppurtati}}:",
 	"mw-ui-feature-requirements-javascript": "Sta funziunalità havi bisognu dû JavaScript.",
-	"mw-ui-feature-requirements-skins": "Sta funziunalità funziona sulu cu’ {{PLURAL:$1|sta peddi|sti peddi}}:",
-	"mw-ui-feature-user-count": "{{PLURAL:$1|N’utenti sulu sta’|$1 utenti stannu|0=Nuddu utenti sta’}} pruvannu sta funziunalità.",
-	"prefs-betafeatures": "Funziunalità in beta",
-	"tooltip-pt-betafeatures": "Funziunalità in beta"
+	"mw-ui-feature-requirements-skins": "Sta funziunalità funziona sulu cu {{PLURAL:$1|sta peddi|sti peddi}}:",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|N'utenti sulu sta|$1 utenti stannu|0=Nuddu utenti sta}} pruvannu sta funziunalità.",
+	"prefs-betafeatures": "Funziunalità n beta",
+	"tooltip-pt-betafeatures": "Funziunalità n beta"
 }
