@@ -278,7 +278,10 @@ class BetaFeaturesHooks {
 		}
 
 		if ( $saveUser ) {
-			$user->saveSettings();
+			// Save the preferences to the DB post-send
+			DeferredUpdates::addCallableUpdate( function() use ( $user ) {
+				$user->saveSettings();
+			} );
 		}
 
 		return true;
