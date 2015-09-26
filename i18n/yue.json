@@ -1,9 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Yueman"
+			"Yueman",
+			"Ktchankt"
 		]
 	},
+	"apihelp-query+betafeatures-description": "顯示所有試用功能",
+	"betafeatures-extension-type": "試用版功能",
 	"betafeatures-toplink": "試用",
+	"mw-ui-feature-discuss": "討論",
+	"mw-ui-feature-info": "資訊",
+	"prefs-betafeatures": "試用版功能",
 	"tooltip-pt-betafeatures": "試用版功能"
 }

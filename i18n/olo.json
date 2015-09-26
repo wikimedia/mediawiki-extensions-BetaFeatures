@@ -5,7 +5,9 @@
 			"Mashoi7"
 		]
 	},
+	"betafeatures-extension-type": "Beta-toimindot",
 	"betafeatures-toplink": "Beta",
 	"mw-ui-feature-discuss": "pagin",
+	"prefs-betafeatures": "Beta-toimindot",
 	"tooltip-pt-betafeatures": "Beta-toimindot"
 }
