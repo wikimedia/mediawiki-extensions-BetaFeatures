@@ -51,6 +51,15 @@ class AutoEnrollmentTest extends BetaFeaturesTestCase {
 			'discussion-link' => 'http://example.org/feedback/two',
 			'group' => 'unittest2',
 		),
+
+		'unittest-ft3' => array(
+			'label-message' => 'something entirely different',
+			'desc-message' => 'something entirely differenter',
+			'info-link' => 'http://example.org/feature/three',
+			'discussion-link' => 'http://example.org/feedback/three',
+			'group' => 'unittest2',
+			'exempt-from-auto-enrollment' => true,
+		),
 	);
 
 	static function hookThatRegistersPreference( $user, &$betaPrefs ) {
@@ -117,6 +126,14 @@ class AutoEnrollmentTest extends BetaFeaturesTestCase {
 				'unittest-ft2',
 				HTMLFeatureField::OPTION_ENABLED,
 				'Hooks did not set the preference though global auto-enroll was set.',
+			),
+
+			array(
+				'betafeatures-auto-enroll',
+				HTMLFeatureField::OPTION_ENABLED,
+				'unittest-ft3',
+				null,
+				'The preferences was not set despite auto-enroll because it is exempt-from-auto-enrollment.',
 			),
 		);
 	}
