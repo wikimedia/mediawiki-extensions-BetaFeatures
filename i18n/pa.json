@@ -1,9 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Babanwalia"
+			"Babanwalia",
+			"Satdeep gill"
 		]
 	},
+	"betafeatures-extension-type": "ਬੀਟਾ ਫ਼ੀਚਰ",
 	"betafeatures-toplink": "ਬੀਟਾ",
+	"mw-ui-feature-discuss": "ਵਿਚਾਰ -ਵਟਾਂਦਰਾ",
+	"mw-ui-feature-info": "ਜਾਣਕਾਰੀ",
+	"mw-ui-feature-requirements-javascript": "ਇਸ ਫ਼ੀਚਰ ਨੂੰ ਜਾਵਾਸਕਰਿਪਟ ਦੀ ਜ਼ਰੂਰਤ ਹੈ।",
+	"prefs-betafeatures": "ਬੀਟਾ ਫ਼ੀਚਰ",
 	"tooltip-pt-betafeatures": "ਬੀਟਾ ਦੇ ਗੁਣ"
 }
