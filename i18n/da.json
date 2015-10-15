@@ -5,19 +5,19 @@
 			"Thomsen"
 		]
 	},
+	"betafeatures-auto-enroll": "Aktivér automatisk alle nye beta funktioner",
+	"betafeatures-desc": "Lader brugeren aktivere eller deaktivere funktioner på wikien, der stadig ikke er helt færdige",
+	"betafeatures-extension-type": "Betafunktioner",
+	"betafeatures-section-desc": "Her er {{PLURAL:$1|en ny funktion|nogle nye funktioner}} vi overvejer til {{SITENAME}}. Prøv {{PLURAL:$1|den|dem}} og lad os vide hvad du tænker om {{PLURAL:$1|den|dem}}, så vi kan forbedre {{PLURAL:$1|den|dem}} baseret på din tilbagemelding.",
+	"betafeatures-tooltip": "Vi introducerer betafunktioner! Dette nye afsnit under indstillinger giver dig mulighed for at teste og give tilbagemelding om nye funktioner, før vi lancerer dem som standard for alle brugere. Prøv noget nyt nu!",
+	"betafeatures-toplink": "Beta",
 	"mw-ui-feature-discuss": "diskussion",
 	"mw-ui-feature-info": "information",
-	"mw-ui-feature-user-count": "{{PLURAL:$1|Én bruger|$1 brugere|0=Ingen brugere}} prøver denne funktion.",
 	"mw-ui-feature-requirements-betafeatures": "Denne funktion kræver, at følgende {{PLURAL:$1|funktion|funktioner}} er aktiveret:",
 	"mw-ui-feature-requirements-browser": "Følgende {{PLURAL:$1|browser|browsere}} er ikke understøttet:",
 	"mw-ui-feature-requirements-javascript": "Denne funktion kræver JavaScript.",
 	"mw-ui-feature-requirements-skins": "Denne funktion virker kun med {{PLURAL:$1|det følgende udseende|de følgende udseender}}:",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|Én bruger|$1 brugere|0=Ingen brugere}} prøver denne funktion.",
 	"prefs-betafeatures": "Betafunktioner",
-	"betafeatures-desc": "Lader brugeren aktivere eller deaktivere funktioner på wikien, der stadig ikke er helt færdige",
-	"betafeatures-toplink": "Beta",
-	"betafeatures-auto-enroll": "Aktivér automatisk alle nye beta funktioner",
-	"betafeatures-section-desc": "Her er {{PLURAL:$1|en ny funktion|nogle nye funktioner}} vi overvejer til {{SITENAME}}. Prøv {{PLURAL:$1|den|dem}} og lad os vide hvad du tænker om {{PLURAL:$1|den|dem}}, så vi kan forbedre {{PLURAL:$1|den|dem}} baseret på din tilbagemelding.",
-	"betafeatures-tooltip": "Vi introducerer betafunktioner! Dette nye afsnit under indstillinger giver dig mulighed for at teste og give tilbagemelding om nye funktioner, før vi lancerer dem som standard for alle brugere. Prøv noget nyt nu!",
-	"betafeatures-extension-type": "Betafunktioner",
 	"tooltip-pt-betafeatures": "Betafunktioner"
 }

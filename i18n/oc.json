@@ -4,14 +4,14 @@
 			"Cedric31"
 		]
 	},
+	"betafeatures-auto-enroll": "Activar automaticament totas las novèlas foncionalitats en bèta",
+	"betafeatures-desc": "Daissa l’utilizaire activar o desactivar las foncionalitats sus aqueste wiki que son pas encara prèstas per èsser generalizadas",
+	"betafeatures-extension-type": "Foncionalitats bèta",
+	"betafeatures-toplink": "Bèta",
 	"mw-ui-feature-discuss": "discussion",
 	"mw-ui-feature-info": "informacion",
-	"mw-ui-feature-user-count": "{{PLURAL:$1|Un utilizaire a|$1 utilizaires an}} activat aquesta foncionalitat.",
 	"mw-ui-feature-requirements-javascript": "Aquesta foncionalitat necessita JavaScript.",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|Un utilizaire a|$1 utilizaires an}} activat aquesta foncionalitat.",
 	"prefs-betafeatures": "Foncionalitats bèta",
-	"betafeatures-desc": "Daissa l’utilizaire activar o desactivar las foncionalitats sus aqueste wiki que son pas encara prèstas per èsser generalizadas",
-	"betafeatures-toplink": "Bèta",
-	"betafeatures-auto-enroll": "Activar automaticament totas las novèlas foncionalitats en bèta",
-	"betafeatures-extension-type": "Foncionalitats bèta",
 	"tooltip-pt-betafeatures": "Foncionalitats bèta"
 }
