@@ -13,7 +13,7 @@
 	"betafeatures-auto-enroll": "Automatiškai įjungti visas naujas beta funkcijas",
 	"betafeatures-desc": "Leisti vartotojams įjungti ar išjungti viki funkcijas, kurios dar nėra paruoštos visuotiniam naudojimui",
 	"betafeatures-extension-type": "Beta funkcijos",
-	"betafeatures-section-desc": "Štai {{PLURAL:$1|yra nauja funkcija, kurią |yra naujos funkcijos, kurias}} svarstome puslapiui {{SITENAME}}. Prašome išbandyti {{PLURAL:$1|ją|jas}} ir pateikti savo mintis, kad galėtumėme patobulinti {{PLURAL:$1|ją|jas}} remdamiesi Jūsų atsiliepimu.",
+	"betafeatures-section-desc": "Štai {{PLURAL:$1|yra nauja funkcija, kurią |yra naujos funkcijos, kurias}} svarstome puslapiui {{SITENAME}}. Prašome išbandyti {{PLURAL:$1|ją|jas}} ir pateikti savo mintis, kad galėtumėme patobulinti {{PLURAL:$1|ją|jas}} remdamiesi jūsų atsiliepimu.",
 	"betafeatures-tooltip": "Pristatome beta versijos funkcijas! Šios naujos parinkčių skiltys leidžia Jums testuoti ir pateikti atsiliepimus apie naujas funkcijas prieš jas paleidžiant kaip numatytąjį funkcionavimą. Išbandykite ką nors naujo dabar!",
 	"betafeatures-toplink": "Beta",
 	"mw-ui-feature-discuss": "diskusija",
