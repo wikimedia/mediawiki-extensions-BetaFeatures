@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"VASANTH S.N."
+			"VASANTH S.N.",
+			"Vishwanatha Badikana"
 		]
 	},
 	"betafeatures-toplink": "ಬೀಟಾ",
-	"tooltip-pt-betafeatures": "ಬೀಟಾ ವಿಶೇಷತೆಲು"
+	"tooltip-pt-betafeatures": "ಬೀಟಾ ವಿಸೇಸತೆಲು"
 }
