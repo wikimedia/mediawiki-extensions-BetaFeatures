@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Aursani"
+			"Aursani",
+			"Mehtab ahmed"
 		]
 	},
-	"betafeatures-toplink": "بيٽا"
+	"betafeatures-toplink": "بيٽا",
+	"tooltip-pt-betafeatures": "بيٽا خوبيون"
 }
