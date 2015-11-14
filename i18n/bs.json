@@ -8,7 +8,7 @@
 	},
 	"betafeatures-auto-enroll": "Automatski uključi sve beta mogućnosti",
 	"betafeatures-extension-type": "Beta mogućnosti",
-	"betafeatures-section-desc": "Ovo {{PLURAL:$1|je nova mogućnost|su nove mogućnosti}} na projektu {{SITENAME}}. Molimo {{PLURAL:$1|isprobajte je|isprobajte ih}} i napišite nam svoje mišljenje kako bismo {{PLURAL:$1|je|ih}} poboljšali na osnovi Vaših povratnih informacija.",
+	"betafeatures-section-desc": "Ovo {{PLURAL:$1|je nova mogućnost|su nove mogućnosti}} na {{GRAMMAR:dativ|{{SITENAME}}}}. Molimo {{PLURAL:$1|isprobajte je|isprobajte ih}} i dajte nam svoje mišljenje kako bismo {{PLURAL:$1|je|ih}} poboljšali na osnovi Vaših povratnih informacija.",
 	"betafeatures-tooltip": "Predstavljamo beta mogućnosti! Novi odjeljak u postavkama vam omogućava da testirate i šaljete povratne informacije o novim mogućnostima prije nego što ih postavimo kao predodređene. Isprobajte nešto novo!",
 	"betafeatures-toplink": "Beta",
 	"mw-ui-feature-discuss": "razgovor",
