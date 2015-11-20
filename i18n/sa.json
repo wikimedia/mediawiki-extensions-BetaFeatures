@@ -1,9 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Visdaviva"
+			"Visdaviva",
+			"NehalDaveND"
 		]
 	},
+	"betafeatures-auto-enroll": "सर्वाः उपान्त्यसुविधाः स्वचालिततया सक्रियाः करोतु",
+	"betafeatures-extension-type": "उपान्त्यसुविधाः",
+	"betafeatures-toplink": "उपान्त्यम्",
 	"mw-ui-feature-discuss": "सम्भाषणम्",
-	"mw-ui-feature-info": "सूचना"
+	"mw-ui-feature-info": "सूचना",
+	"prefs-betafeatures": "उपान्त्यसुविधाः",
+	"tooltip-pt-betafeatures": "उपान्त्यसुविधाः"
 }
