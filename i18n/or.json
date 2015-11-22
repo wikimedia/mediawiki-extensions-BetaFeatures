@@ -10,7 +10,7 @@
 	"betafeatures-toplink": "ବିଟା",
 	"mw-ui-feature-discuss": "ଆଲୋଚନା",
 	"mw-ui-feature-info": "ସୂଚନା",
-	"mw-ui-feature-requirements-betafeatures": "ଏହି ସୁବିଧା ନିମ୍ନ {{PLURAL:$1|ଫିଚର|ଫିଚର}}ସକ୍ରିୟ କରାଇବା  ଲୋଡ଼େ:",
+	"mw-ui-feature-requirements-betafeatures": "ଏହି ସୁବିଧା ନିମ୍ନ {{PLURAL:$1|ଫିଚର|ଫିଚରଗୁଡ଼ିକ}}ରେ ସକ୍ରିୟ କରାଇବା ଲୋଡ଼ିଥାଏ:",
 	"mw-ui-feature-requirements-browser": "ଏହି {{PLURAL:$1|ବ୍ରା ଉଜରଟି|ବ୍ରା ଉଜରସବୁ}} ଅନୁମୋଦିତ ନୁହଁନ୍ତି:",
 	"mw-ui-feature-requirements-javascript": "ଏହି ଫିଚର ପାଇଁ JavaScript ଲୋଡ଼ା ।",
 	"mw-ui-feature-requirements-skins": "ଏହି ଫିଚର କେବଳ {{PLURAL:$1|ଏହି ସ୍କିନରେ|ଏହି ସବୁ ସ୍କିନରେ}} କାମ କରେ:",
