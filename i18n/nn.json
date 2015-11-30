@@ -1,9 +1,17 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ranveig"
+			"Ranveig",
+			"Njardarlogar"
 		]
 	},
+	"betafeatures-auto-enroll": "Slå på alle nye betafunksjonar utan å spørja meg",
+	"betafeatures-extension-type": "Betafunksjonar",
+	"betafeatures-section-desc": "Her er {{PLURAL:$1|ein ny funksjon|nokre nye funksjonar}} som me vurderer å innføra på {{SITENAME}}. Prøv {{PLURAL:$1|det|dei}} gjerne og gjev oss tankane dine om {{PLURAL:$1|det|dei}}, slik at me kan betra {{PLURAL:$1|det|dei}} basert på attendemeldingane dine.",
 	"betafeatures-toplink": "Beta",
+	"mw-ui-feature-discuss": "diskusjon",
+	"mw-ui-feature-info": "informasjon",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|Éin brukar|$1 brukarar|0=Ingen brukarar}} nyttar denne funksjonen.",
+	"prefs-betafeatures": "Betafunksjonar",
 	"tooltip-pt-betafeatures": "Betafunksjonar"
 }
