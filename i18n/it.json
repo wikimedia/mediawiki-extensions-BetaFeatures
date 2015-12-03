@@ -23,7 +23,7 @@
 	"mw-ui-feature-requirements-betafeatures": "Questa funzionalità richiede che {{PLURAL:$1|sia abilitata la seguente|siano abilitate le seguenti}} funzionalità:",
 	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|Il seguente browser non è abilitato|I seguenti browser non sono abilitati}}:",
 	"mw-ui-feature-requirements-javascript": "Questa funzionalità richiede JavaScript.",
-	"mw-ui-feature-requirements-skins": "Questa funzionalità funziona solo con {{PLURAL:$1|la seguente skin|le seguenti skin}}:",
+	"mw-ui-feature-requirements-skins": "Questa funzionalità funziona solo con {{PLURAL:$1|il seguente tema|i seguenti temi}}:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|Un utente sta|$1 utenti stanno|0=Nessun utente sta}} provando questa funzione.",
 	"prefs-betafeatures": "Funzionalità sperimentali",
 	"tooltip-pt-betafeatures": "Funzionalità sperimentali"
