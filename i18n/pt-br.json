@@ -6,10 +6,11 @@
 			"Helder.wiki",
 			"OTAVIO1981",
 			"He7d3r",
-			"Araceletorres"
+			"Araceletorres",
+			"TheEduGobi"
 		]
 	},
-	"apihelp-query+betafeatures-description": "Listar todas os recursos beta",
+	"apihelp-query+betafeatures-description": "Listar todos os recursos beta",
 	"apihelp-query+betafeatures-example-1": "Obtenha todos os recursos beta disponíveis e mostre quantos usuários os habilitaram",
 	"apihelp-query+betafeatures-param-counts": "Se buscar quantos usuários habilitaram uma certa preferência.",
 	"betafeatures-auto-enroll": "Ativar automaticamente todos os novos recursos beta",
