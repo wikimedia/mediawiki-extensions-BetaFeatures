@@ -154,22 +154,24 @@ class BetaFeaturesHooks {
 		}
 
 		foreach ( $betaPrefs as $key => $info ) {
-			if ( isset( $info['dependent'] ) && $info['dependent'] === true ) {
-				$success = true;
+			// Check if feature is whitelisted
+			if (
+				is_array( $wgBetaFeaturesWhitelist ) &&
+				!in_array( $key, $wgBetaFeaturesWhitelist )
+			) {
+				// Skip this preference!
+				continue;
+			}
 
-				if (
-						is_array( $wgBetaFeaturesWhitelist ) &&
-						!in_array( $key, $wgBetaFeaturesWhitelist )
-					) {
-					$success = false;
-				} elseif ( isset( $depHooks[$key] ) ) {
-					$success = Hooks::run( $depHooks[$key] );
-				}
-
-				if ( $success !== true ) {
-					// Skip this preference!
-					continue;
-				}
+			// Check if dependencies are set but not met
+			if (
+				isset( $info['dependent'] ) &&
+				$info['dependent'] === true &&
+				isset( $depHooks[$key] ) &&
+				!Hooks::run( $depHooks[$key] )
+			) {
+				// Skip this preference!
+				continue;
 			}
 
 			$opt = array(
