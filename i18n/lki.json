@@ -4,7 +4,22 @@
 			"Hosseinblue"
 		]
 	},
+	"apihelp-query+betafeatures-description": "نمایش همهٔ امکانات آزمایشی",
+	"apihelp-query+betafeatures-example-1": "همهٔ امکانات آزمایشی را نشان بده و مشخص کن چند کاربر از آن استفاده می‌کنند",
+	"apihelp-query+betafeatures-param-counts": "برای گرفتن تعداد کاربرهایی که چندین ترجیحات را فعال کرده‌اند.",
+	"betafeatures-auto-enroll": "فعال کردن خودکار کلیهٔ ویژگی‌های جدید آزمایشی",
+	"betafeatures-desc": "به کاربر اجازه می‌دهد تا ویژگی‌های جدیدی که هنوز به صورت آزمایشی هستند را فعال یا غیرفعال کند.",
+	"betafeatures-extension-type": "ویژگی‌های آزمایشی",
+	"betafeatures-section-desc": "اینجا  {{PLURAL:$1|ویژگی جدیدی موجود است |ویژگی‌های تازه موجودند}} که برای  {{SITENAME}}  در نظر گرفته شده‌اند. لطفاً آنها را امتحان کنید و بازخوردتان را ارسال کنید تا ما بر اساس بازخوردهای شما آنها را بهبود دهیم.",
 	"betafeatures-tooltip": "معرفی ویژگی‌های آزمایشی! این بخش جدید تنظیمات به شما اجازه می دهد تا امتحان کنید و نظرات‌تان در مورد ویژگی‌های جدید را قبل از اینکه ما آن‌ها را به‌صورت پیش‌فرض راه‌اندازی کنیم ارائه دهید. الان یک مورد جدید را امتحان کنید!",
 	"betafeatures-toplink": "آزمایشی",
+	"mw-ui-feature-discuss": "قسۀل-گۀپۀل",
+	"mw-ui-feature-info": "زانستةنیةل",
+	"mw-ui-feature-requirements-betafeatures": "برای فعال‌شدن، این ویژگی نیازمند این {{PLURAL:$1|قابلیت|قابلیت‌ها}} است:",
+	"mw-ui-feature-requirements-browser": "این {{PLURAL:$1|مرورگر|مرورگرها}} حمایت نشده‌است:",
+	"mw-ui-feature-requirements-javascript": "این ویژگی نیازمند جاوااسکریپت است.",
+	"mw-ui-feature-requirements-skins": "این ویژگی فقط با {{PLURAL:$1|این پوسته|یکی از این پوسته‌ها}} کار می‌کند:",
+	"mw-ui-feature-user-count": "{{PLURAL:$1 کاربر این ویژگی را فعال کرده است|$1 کاربر این ویژگی را فعال کرده‌اند|0=هیچ کاربری این ویژگی را فعال نکرده‌است}}.",
+	"prefs-betafeatures": "ویژگی‌های آزمایشی",
 	"tooltip-pt-betafeatures": "جزئیات آزمایشی"
 }
