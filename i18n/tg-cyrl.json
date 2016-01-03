@@ -17,5 +17,6 @@
 	"mw-ui-feature-requirements-javascript": "Ин вижагӣ JavaScript-ро талаб мекунад.",
 	"mw-ui-feature-requirements-skins": "Вижагии мазкур танҳо бо {{PLURAL:$1|пӯстаи зерин|пӯстаҳои зерин}} кор мекунад:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|Як корбар|$1 корбар|0=Ягон корбар}} ин вижагиро санҷида истодааст.",
-	"prefs-betafeatures": "Бета вижагиҳо"
+	"prefs-betafeatures": "Бета вижагиҳо",
+	"tooltip-pt-betafeatures": "Бета вижагиҳо"
 }
