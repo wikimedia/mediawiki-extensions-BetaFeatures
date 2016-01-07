@@ -4,6 +4,8 @@
 			"Ильнар"
 		]
 	},
+	"betafeatures-extension-type": "Бета-мөмкинлекләр",
 	"betafeatures-toplink": "Бета",
-	"tooltip-pt-betafeatures": "Бета-функцияләр"
+	"prefs-betafeatures": "Бета-мөмкинлекләр",
+	"tooltip-pt-betafeatures": "Бета-мөмкинлекләр"
 }
