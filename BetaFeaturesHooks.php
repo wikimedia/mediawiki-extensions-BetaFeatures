@@ -281,10 +281,17 @@ class BetaFeaturesHooks {
 		}
 
 		if ( $saveUser ) {
-			// Save the preferences to the DB post-send
-			DeferredUpdates::addCallableUpdate( function() use ( $user ) {
-				$user->saveSettings();
-			} );
+			$cache = ObjectCache::getLocalClusterInstance();
+			$key = $cache->makeKey( __CLASS__, 'prefs-update', $user->getId() );
+			// T95839: If concurrent requests pile on (e.g. multiple tabs), only let one
+			// thread bother doing these updates. This avoids pointless error log spam.
+			if ( $cache->lock( $key, 0, $cache::TTL_MINUTE ) ) {
+				// Save the preferences to the DB post-send
+				DeferredUpdates::addCallableUpdate( function() use ( $user, $cache, $key ) {
+					$user->saveSettings();
+					$cache->unlock( $key );
+				} );
+			}
 		}
 
 		return true;
