@@ -14,6 +14,7 @@
 	"mw-ui-feature-discuss": "განხილვა",
 	"mw-ui-feature-info": "ინფორმაცია",
 	"mw-ui-feature-requirements-betafeatures": "ამ ხელსაწყოს ასამოქმედებლად საჭიროა უკვე გააქტიურებული იყოს შემდეგი {{PLURAL:$1|ხელსაწყო|ხელსაწყოები}}:",
+	"mw-ui-feature-requirements-browser": "შემდეგ {{PLURAL:$1|ბრაუზერს არ აქვს|ბრაუზერებს არ აქვთ}} მხარდაჭერა:",
 	"mw-ui-feature-requirements-javascript": "ეს ფუნქცია ითხოვს JavaScript-ს",
 	"mw-ui-feature-user-count": "ამ შესაძლებლობას {{PLURAL:$1|ერთი მომხმარებელი|$1 მომხმარებელი|0=არავინ არ}} იყენებს.",
 	"prefs-betafeatures": "ბეტა შესაძლებლობები",
