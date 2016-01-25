@@ -4,11 +4,12 @@
 			"Siddhartha Ghai",
 			"Hindustanilanguage",
 			"संजीव कुमार",
-			"Sfic"
+			"Sfic",
+			"Rajat11"
 		]
 	},
 	"apihelp-query+betafeatures-description": "सभी बीटाफ़ीचरों को सूचीबद्ध करो",
-	"apihelp-query+betafeatures-example-1": "सभी उपलब्ध बीटा विशेषता सक्रिय करें और दिखाएँ कि कितनों ने इसे सक्रिय किया है।",
+	"apihelp-query+betafeatures-example-1": "सभी उपलब्ध बीटा सुविधाएँ प्राप्त करें और दिखाएँ कि कितनों ने इसे सक्रिय किया है।",
 	"apihelp-query+betafeatures-param-counts": "इस वरीयता को कितने सदस्यों ने सक्रिय किया है, दिखाएँ।",
 	"betafeatures-auto-enroll": "सभी नई बीटा सुविधाओं को स्वचालित रूप से सक्षम करें",
 	"betafeatures-desc": "सदस्यों को विकी पर वो सुविधाएँ सक्षम करने देता है जो अभी सबके द्वारा प्रयोग करने के लिए तैयार नहीं हैं",
