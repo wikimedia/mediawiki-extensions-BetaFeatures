@@ -4,10 +4,12 @@
 			"David1010",
 			"Otogi",
 			"BRUTE",
-			"Dawid Deutschland"
+			"Dawid Deutschland",
+			"Tokoko"
 		]
 	},
 	"apihelp-query+betafeatures-description": "ყველა ბეტა-შესაძლებლობის სია",
+	"apihelp-query+betafeatures-example-1": "მიიღე ყველა არსებული ბეტა შესაძლებლობა და ნახე რამდენ მომხმარებელს აქვს ისინი გააქტიურებული.",
 	"betafeatures-auto-enroll": "ავტომატურად ჩაირთოს ყველა ახალი ბეტა შესაძლებლობა",
 	"betafeatures-extension-type": "ბეტა შესაძლებლობები",
 	"betafeatures-section-desc": "{{PLURAL:$1|გამოჩნდა ახალი ფუნქცია, რომელსაც|გამოჩნდა რამდენიმე ახალი ფუნქცია, რომელთაც}} ჩვენ განვიხილავთ პროექტისათვის {{SITENAME}}. გთხოვთ, მოსინჯოთ {{PLURAL:$1|ის|ისინი}} და გამოთქვათ თქვენი მოსაზრება, რათა თქვენ გამოხმაურებებზე დაყრდნობით ჩვენ შევძლოთ ამ სიახლის გაუმჯობესება.",
@@ -18,6 +20,7 @@
 	"mw-ui-feature-requirements-betafeatures": "ამ ხელსაწყოს ასამოქმედებლად საჭიროა უკვე გააქტიურებული იყოს შემდეგი {{PLURAL:$1|ხელსაწყო|ხელსაწყოები}}:",
 	"mw-ui-feature-requirements-browser": "შემდეგ {{PLURAL:$1|ბრაუზერს არ აქვს|ბრაუზერებს არ აქვთ}} მხარდაჭერა:",
 	"mw-ui-feature-requirements-javascript": "ეს ფუნქცია ითხოვს JavaScript-ს",
+	"mw-ui-feature-requirements-skins": "ეს შესაძლებლობა მუშაობს მხოლოდ შემდეგ {{PLURAL:$1|იერსახესთან|იერსახეებთან}}:",
 	"mw-ui-feature-user-count": "ამ შესაძლებლობას {{PLURAL:$1|ერთი მომხმარებელი|$1 მომხმარებელი|0=არავინ არ}} იყენებს.",
 	"prefs-betafeatures": "ბეტა შესაძლებლობები",
 	"tooltip-pt-betafeatures": "ბეტა შესაძლებლობები"
