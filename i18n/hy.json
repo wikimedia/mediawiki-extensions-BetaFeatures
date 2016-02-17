@@ -3,10 +3,14 @@
 		"authors": [
 			"Vacio",
 			"Vadgt",
-			"Xelgen"
+			"Xelgen",
+			"Աշոտ1997"
 		]
 	},
+	"betafeatures-extension-type": "Փորձնական հնարավորություններ",
 	"betafeatures-toplink": "Փորձնական",
+	"mw-ui-feature-discuss": "քննարկում",
+	"mw-ui-feature-info": "տեղեկատվություն",
 	"prefs-betafeatures": "Փորձնական հնարավորություններ",
 	"tooltip-pt-betafeatures": "Փորձնական հնարավորություններ"
 }
