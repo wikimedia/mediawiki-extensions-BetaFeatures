@@ -28,9 +28,6 @@ class BetaFeaturesMissingFieldException extends Exception {
 
 class BetaFeaturesHooks {
 
-	// 30 minutes
-	const COUNT_CACHE_TTL = 1800;
-
 	/**
 	 * An array of each of the available Beta Features, with their requirements, if any.
 	 *
