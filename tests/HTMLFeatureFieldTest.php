@@ -68,11 +68,11 @@ class HTMLFeatureFieldTest extends MediaWikiTestCase {
 				'message' => 'Meta div not found.',
 			),
 			array(
-				'pattern' => '#<a href="http://example.org/features" class="mw-ui-feature-info-link">information</a>#',
+				'pattern' => '#<a href="http://example.org/features" class="mw-ui-feature-info-link">Information</a>#',
 				'message' => 'Feature information link not found',
 			),
 			array(
-				'pattern' => '#<a href="http://example.org/feedback" class="mw-ui-feature-discussion-link">discussion</a>#',
+				'pattern' => '#<a href="http://example.org/feedback" class="mw-ui-feature-discussion-link">Discussion</a>#',
 				'message' => 'Discussion link not found',
 			),
 			array(
