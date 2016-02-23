@@ -6,7 +6,8 @@
 			"NH",
 			"Skalman",
 			"WikiPhoenix",
-			"Lokal Profil"
+			"Lokal Profil",
+			"Macofe"
 		]
 	},
 	"apihelp-query+betafeatures-description": "Lista alla Betafunktioner",
@@ -18,8 +19,8 @@
 	"betafeatures-section-desc": "Följande är {{PLURAL:$1|en ny funktion|några nya funktioner}} vi överväger på {{SITENAME}}. Prova {{PLURAL:$1|den|dem}} gärna, och låt oss veta vad du tycker, så att vi kan förbättra {{PLURAL:$1|den|dem}} baserat på din återkoppling.",
 	"betafeatures-tooltip": "Vi introducerar betafunktioner! Detta nya inställningsavsnitt låter dig testa och ge återkoppling på nya funktioner innan vi lanserar dem som standard. Testa något nytt nu!",
 	"betafeatures-toplink": "Beta",
-	"mw-ui-feature-discuss": "diskussion",
-	"mw-ui-feature-info": "information",
+	"mw-ui-feature-discuss": "Diskussion",
+	"mw-ui-feature-info": "Information",
 	"mw-ui-feature-requirements-betafeatures": "Den här funktionen kräver att följande {{PLURAL:$1|funktion är aktiverad|funktioner är aktiverade}}:",
 	"mw-ui-feature-requirements-browser": "Följande {{PLURAL:$1|webbläsare}} stöds inte:",
 	"mw-ui-feature-requirements-javascript": "Denna funktion kräver JavaScript.",

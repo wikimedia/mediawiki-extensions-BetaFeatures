@@ -8,7 +8,8 @@
 			"VegaDark",
 			"Vivaelcelta",
 			"AVIADOR",
-			"Kroji"
+			"Kroji",
+			"Macofe"
 		]
 	},
 	"apihelp-query+betafeatures-description": "Mostrar todas las funciones en pruebas",
@@ -20,8 +21,8 @@
 	"betafeatures-section-desc": "Aquí te presentamos {{PLURAL:$1|una función nueva|algunas funciones nuevas}} que estamos considerando para {{SITENAME}}. {{PLURAL:$1|Pruébala|Pruébalas}} y danos tus comentarios, así podremos {{PLURAL:$1|mejorarla|mejorarlas}} con base a tus necesidades.",
 	"betafeatures-tooltip": "Te presentamos las funciones en pruebas. Esta sección permite probar y evaluar funcionalidades nuevas antes de que las activemos para todos.",
 	"betafeatures-toplink": "Beta",
-	"mw-ui-feature-discuss": "discusión",
-	"mw-ui-feature-info": "información",
+	"mw-ui-feature-discuss": "Discusión",
+	"mw-ui-feature-info": "Información",
 	"mw-ui-feature-requirements-betafeatures": "Esta funcionalidad depende de {{PLURAL:$1|la siguiente|las siguientes}}:",
 	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|El siguiente navegador no es compatible|Los siguientes navegadores no son compatibles}}:",
 	"mw-ui-feature-requirements-javascript": "Esta funcionalidad requiere JavaScript.",

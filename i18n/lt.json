@@ -4,7 +4,8 @@
 			"Eitvys200",
 			"Amire80",
 			"Hugo.arg",
-			"Albertas"
+			"Albertas",
+			"Macofe"
 		]
 	},
 	"apihelp-query+betafeatures-description": "Sąrašas visų BetaFunkcijų",
@@ -16,8 +17,8 @@
 	"betafeatures-section-desc": "Štai {{PLURAL:$1|yra nauja funkcija, kurią |yra naujos funkcijos, kurias}} svarstome puslapiui {{SITENAME}}. Prašome išbandyti {{PLURAL:$1|ją|jas}} ir pateikti savo mintis, kad galėtumėme patobulinti {{PLURAL:$1|ją|jas}} remdamiesi jūsų atsiliepimu.",
 	"betafeatures-tooltip": "Pristatome beta versijos funkcijas! Šios naujos parinkčių skiltys leidžia Jums testuoti ir pateikti atsiliepimus apie naujas funkcijas prieš jas paleidžiant kaip numatytąjį funkcionavimą. Išbandykite ką nors naujo dabar!",
 	"betafeatures-toplink": "Beta",
-	"mw-ui-feature-discuss": "diskusija",
-	"mw-ui-feature-info": "informacija",
+	"mw-ui-feature-discuss": "Diskusija",
+	"mw-ui-feature-info": "Informacija",
 	"mw-ui-feature-requirements-betafeatures": "Šis funkcionalumas reikalauja, kad {{PLURAL:$1|ši funkcija būtų aktyvuota|šios funkcijos būtų aktyvuotos}}:",
 	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|Ši naršyklė nėra palaikoma|Šios naršyklės nėra palaikomos}}:",
 	"mw-ui-feature-requirements-javascript": "Ši funkcija reikalauja JavaScript.",

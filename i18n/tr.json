@@ -5,7 +5,8 @@
 			"Meelo",
 			"Rapsar",
 			"Sayginer",
-			"McAang"
+			"McAang",
+			"JackUKElliott"
 		]
 	},
 	"betafeatures-auto-enroll": "Tüm yeni beta özellikleri otomatik olarak etkinleştirin",
@@ -14,8 +15,8 @@
 	"betafeatures-section-desc": "Burada {{SITENAME}} için düşündüğümüz {{PLURAL:$1|yeni özellik|bazı yeni özellikler}} var. {{PLURAL:$1|Özelliği|Özellikleri}}  lütfen deneyin ve düşüncelerinizi bizimle paylaşın. Biz geri bildirimlerinize dayanarak {{PLURAL:$1|özelliği|özellikleri}} geliştiriyoruz.",
 	"betafeatures-tooltip": "Beta Özellikleri Tanıtımı! Tercihlerinize eklenen bu yeni bölüm ile beta aşamasındaki özelliklerin varsayılan olarak başlatılması sağlanabilir ve bu özellikler hakkında geri bildirimde bulunulabilir. Şimdi yeni bir şeyler deneyin!",
 	"betafeatures-toplink": "Beta",
-	"mw-ui-feature-discuss": "tartışma",
-	"mw-ui-feature-info": "bilgi",
+	"mw-ui-feature-discuss": "Tartışma",
+	"mw-ui-feature-info": "Bilgi",
 	"mw-ui-feature-requirements-betafeatures": "Bu özelliğin etkin olabilmesi için şu {{PLURAL:$1|özelliğe|özelliklere}} gereksinim duymaktadır:",
 	"mw-ui-feature-requirements-browser": "Aşağıdaki {{PLURAL:$1|tarayıcı|tarayıcılar}} desteklenmemektedir:",
 	"mw-ui-feature-requirements-javascript": "Bu özellik, JavaScript gerektirir.",

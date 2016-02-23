@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Christian List",
-			"Thomsen"
+			"Thomsen",
+			"Macofe"
 		]
 	},
 	"apihelp-query+betafeatures-description": "Liste over alle betafunktioner",
@@ -14,8 +15,8 @@
 	"betafeatures-section-desc": "Her er {{PLURAL:$1|en ny funktion|nogle nye funktioner}} vi overvejer til {{SITENAME}}. Prøv {{PLURAL:$1|den|dem}} og lad os vide hvad du tænker om {{PLURAL:$1|den|dem}}, så vi kan forbedre {{PLURAL:$1|den|dem}} baseret på din tilbagemelding.",
 	"betafeatures-tooltip": "Vi introducerer betafunktioner! Dette nye afsnit under indstillinger giver dig mulighed for at teste og give tilbagemelding om nye funktioner, før vi lancerer dem som standard for alle brugere. Prøv noget nyt nu!",
 	"betafeatures-toplink": "Beta",
-	"mw-ui-feature-discuss": "diskussion",
-	"mw-ui-feature-info": "information",
+	"mw-ui-feature-discuss": "Diskussion",
+	"mw-ui-feature-info": "Information",
 	"mw-ui-feature-requirements-betafeatures": "Denne funktion kræver, at følgende {{PLURAL:$1|funktion|funktioner}} er aktiveret:",
 	"mw-ui-feature-requirements-browser": "Følgende {{PLURAL:$1|browser|browsere}} er ikke understøttet:",
 	"mw-ui-feature-requirements-javascript": "Denne funktion kræver JavaScript.",

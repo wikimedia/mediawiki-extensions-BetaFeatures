@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Chrisportelli",
-			"Leli Forte"
+			"Leli Forte",
+			"Macofe"
 		]
 	},
 	"betafeatures-section-desc": "{{PLURAL:$1|Din hija funzjonalità ġdida|Dawn huma funzjonijiet ġodda}} li qegħdin nikkunsidraw għal {{SITENAME}}. Tista' tipprova{{PLURAL:$1|ha|hom}} u tgħildna x'taħseb, sabiex inkunu nistgħu ntejjbu{{PLURAL:$1|ha|hom}} skont dak li tkun għidtilna.",
 	"betafeatures-toplink": "Beta",
-	"mw-ui-feature-discuss": "diskussjoni",
-	"mw-ui-feature-info": "informazzjoni",
+	"mw-ui-feature-discuss": "Diskussjoni",
+	"mw-ui-feature-info": "Informazzjoni",
 	"tooltip-pt-betafeatures": "Funzjonalitajiet sperimentali"
 }

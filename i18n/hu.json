@@ -3,7 +3,8 @@
 		"authors": [
 			"Misibacsi",
 			"Tgr",
-			"Tacsipacsi"
+			"Tacsipacsi",
+			"Macofe"
 		]
 	},
 	"apihelp-query+betafeatures-description": "Összes béta funkció listázása",
@@ -16,7 +17,7 @@
 	"betafeatures-tooltip": "Ismerkedj meg a béta funkciókkal! Ez az új fül a beállításaidnál olyan funkciókat tartalmaz, amiket a közeljövőben mindenkinek alapértelmezetté szeretnénk tenni; ha még előtte kipróbálod őket és megírod a véleményed, azzal segítesz tökéletesebbé tenni őket. Próbálj ki valami újat még ma!",
 	"betafeatures-toplink": "Béta",
 	"mw-ui-feature-discuss": "megbeszélés",
-	"mw-ui-feature-info": "információ",
+	"mw-ui-feature-info": "Információ",
 	"mw-ui-feature-requirements-betafeatures": "A használatához be kell kapcsolni {{PLURAL:$1|ezt a funkciót|ezeket a funkciókat}} is:",
 	"mw-ui-feature-requirements-browser": "Nem működik {{PLURAL:$1|ezzel a böngészővel|ezekkel a böngészőkkel}}:",
 	"mw-ui-feature-requirements-javascript": "JavaScript szükséges hozzá.",

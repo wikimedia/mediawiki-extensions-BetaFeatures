@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"McDutchie"
+			"McDutchie",
+			"Macofe"
 		]
 	},
 	"betafeatures-auto-enroll": "Activar automaticamente tote le nove functionalitate beta",
@@ -10,8 +11,8 @@
 	"betafeatures-section-desc": "Ecce {{PLURAL:$1|un function nove|alcun functionalitate nove}} que nos considera pro {{SITENAME}}. Per favor essaya lo e dice nos tu opinion, de sorta que nos pote meliorar lo.",
 	"betafeatures-tooltip": "Nos presenta le functionalitate beta! Iste nove section de preferentias permitte testar e evalutar nove functiones ante lor activation pro omnes. Essaya ora qualcosa nove!",
 	"betafeatures-toplink": "Beta",
-	"mw-ui-feature-discuss": "discussion",
-	"mw-ui-feature-info": "information",
+	"mw-ui-feature-discuss": "Discussion",
+	"mw-ui-feature-info": "Information",
 	"mw-ui-feature-requirements-betafeatures": "Iste function necessita activar le sequente {{PLURAL:$1|function|functiones}}:",
 	"mw-ui-feature-requirements-browser": "Le sequente {{PLURAL:$1|navigator|navigatores}} non es supportate:",
 	"mw-ui-feature-requirements-javascript": "Iste function require JavaScript.",

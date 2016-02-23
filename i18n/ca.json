@@ -4,7 +4,8 @@
 			"Alvaro Vidal-Abarca",
 			"Fitoschido",
 			"QuimGil",
-			"Vriullop"
+			"Vriullop",
+			"Macofe"
 		]
 	},
 	"betafeatures-auto-enroll": "Activa automàticament totes les funcionalitats ''beta'' noves",
@@ -13,8 +14,8 @@
 	"betafeatures-section-desc": "Aquí teniu {{PLURAL:$1|una nova funcionalitat|noves funcionalitats}} que estem considerant per a {{SITENAME}}. Si us plau, proveu-les i compartiu les vostres opinions. Així podrem millorar-les en base als vostres comentaris.",
 	"betafeatures-tooltip": "Us presentem Funcionalitats Beta! Aquesta nova secció a les vostres preferències us permet avaluar noves funcionalitats i compartir els vostres comentaris abans d'activar-les per a tothom.  This new preferences section lets you test and give feedback about new features before we launch them as default behavior. Prova alguna beta!",
 	"betafeatures-toplink": "Beta",
-	"mw-ui-feature-discuss": "discussió",
-	"mw-ui-feature-info": "informació",
+	"mw-ui-feature-discuss": "Discussió",
+	"mw-ui-feature-info": "Informació",
 	"mw-ui-feature-requirements-betafeatures": "Aquesta funcionalitat requereix {{PLURAL:$1|aquesta altra funcionalitat|aquestes altres funcionalitats}} per a ser activada:",
 	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|Aquest navegador|Aquests navegadors}} no estan suportats:",
 	"mw-ui-feature-requirements-javascript": "Aquesta funcionalitat requereix JavaScript.",

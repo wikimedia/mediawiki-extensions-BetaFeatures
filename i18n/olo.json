@@ -2,13 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Denö",
-			"Mashoi7"
+			"Mashoi7",
+			"Macofe"
 		]
 	},
 	"betafeatures-extension-type": "Beta-toimindot",
 	"betafeatures-toplink": "Beta",
 	"mw-ui-feature-discuss": "pagin",
-	"mw-ui-feature-info": "informacii",
+	"mw-ui-feature-info": "Informacii",
 	"prefs-betafeatures": "Beta-toimindot",
 	"tooltip-pt-betafeatures": "Beta-toimindot"
 }

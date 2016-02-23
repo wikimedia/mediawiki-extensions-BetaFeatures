@@ -5,7 +5,8 @@
 			"Gomoko",
 			"Jean-Frédéric",
 			"Ltrlg",
-			"Sherbrooke"
+			"Sherbrooke",
+			"Macofe"
 		]
 	},
 	"apihelp-query+betafeatures-description": "Lister toutes les fonctionnalités bêta",
@@ -17,8 +18,8 @@
 	"betafeatures-section-desc": "Voici {{PLURAL:$1|une nouvelle fonctionnalité|de nouvelles fonctionnalités}} que nous envisageons pour {{SITENAME}}. Veuillez les essayer et nous donner votre sentiment à leur sujet, afin que nous puissions les améliorer d’après votre retour.",
 	"betafeatures-tooltip": "Voici les fonctionnalités en beta ! Cette nouvelle section des préférences vous laisse tester et donner votre ressenti sur les nouvelles fonctionnalités avant que nous les lancions par défaut. Essayez dès à présent quelque chose de nouveau !",
 	"betafeatures-toplink": "Bêta",
-	"mw-ui-feature-discuss": "discussion",
-	"mw-ui-feature-info": "information",
+	"mw-ui-feature-discuss": "Discussion",
+	"mw-ui-feature-info": "Information",
 	"mw-ui-feature-requirements-betafeatures": "Cette fonctionnalité nécessite que {{PLURAL:$1|la fonctionnalité suivante soit activée|les fonctionnalités suivantes soient activées}} :",
 	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|Le navigateur suivant n’est pas supporté|Les navigateurs suivants ne sont pas supportés}} :",
 	"mw-ui-feature-requirements-javascript": "Cette fonctionnalité nécessite JavaScript.",

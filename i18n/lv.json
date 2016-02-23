@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Edgars2007",
-			"Papuass"
+			"Papuass",
+			"Macofe"
 		]
 	},
 	"betafeatures-toplink": "Testa funkcijas",
-	"mw-ui-feature-discuss": "diskusija",
-	"mw-ui-feature-info": "informācija",
+	"mw-ui-feature-discuss": "Diskusija",
+	"mw-ui-feature-info": "Informācija",
 	"tooltip-pt-betafeatures": "Beta iespējas"
 }

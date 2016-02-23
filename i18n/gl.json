@@ -4,7 +4,8 @@
 			"Toliño",
 			"Vivaelcelta",
 			"Elisardojm",
-			"Banjo"
+			"Banjo",
+			"Macofe"
 		]
 	},
 	"apihelp-query+betafeatures-description": "Listar tódolos recursos Beta",
@@ -16,8 +17,8 @@
 	"betafeatures-section-desc": "Aquí hai {{PLURAL:$1|unha característica nova|algunhas características novas}} que estamos considerando para {{SITENAME}}. {{PLURAL:$1|Próbea|Próbeas}} e achéguenos a súa opinión, para que poidamos {{PLURAL:$1|mellorala|melloralas}}.",
 	"betafeatures-tooltip": "Velaquí están as características en probas! Esta nova sección das preferencias permítelle probar e achegar comentarios sobre as novas características antes de que as lancemos para todos. Probe algo novo agora!",
 	"betafeatures-toplink": "Beta",
-	"mw-ui-feature-discuss": "conversa",
-	"mw-ui-feature-info": "información",
+	"mw-ui-feature-discuss": "Conversa",
+	"mw-ui-feature-info": "Información",
 	"mw-ui-feature-requirements-betafeatures": "Esta característica necesita a activación {{PLURAL:$1|da seguinte característica|das seguintes características}}:",
 	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|O seguinte navegador non está soportado|Os seguintes navegadores non están soportados}}:",
 	"mw-ui-feature-requirements-javascript": "Esta característica necesita JavaScript.",

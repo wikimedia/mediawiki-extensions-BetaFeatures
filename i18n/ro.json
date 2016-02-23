@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Minisarm"
+			"Minisarm",
+			"Macofe"
 		]
 	},
 	"betafeatures-auto-enroll": "Activează automat toate noile caracteristici beta",
@@ -10,8 +11,8 @@
 	"betafeatures-section-desc": "Mai jos {{PLURAL:$1|se află o caracterisitică nouă|sunt câteva caracteristici noi}} pe care {{PLURAL:$1|o|le}} luăm în calcul la {{SITENAME}}. Încercați-{{PLURAL:$1|o|le}} și spuneți-ne ce credeți, astfel încât să {{PLURAL:$1|o|le}} îmbunătățim pe baza părerilor dumneavoastră.",
 	"betafeatures-tooltip": "Vă prezentăm funcțiile beta! Această nouă secțiune a preferințelor vă permite să testați și să comentați noile caracteristici înainte de lansarea lor generală. Încercați chiar acum ceva nou!",
 	"betafeatures-toplink": "Beta",
-	"mw-ui-feature-discuss": "discuție",
-	"mw-ui-feature-info": "informații",
+	"mw-ui-feature-discuss": "Discuție",
+	"mw-ui-feature-info": "Informații",
 	"mw-ui-feature-requirements-betafeatures": "Această caracteristică are nevoie ca {{PLURAL:$1|următoarea caracteristică|următoarele caracteristici}} să fie {{PLURAL:$1|activată|activate}}:",
 	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|Următorul navigator nu este suportat|Următoarele navigatoare nu sunt suportate}}:",
 	"mw-ui-feature-requirements-javascript": "Această caracteristică necesită JavaScript.",

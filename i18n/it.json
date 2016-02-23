@@ -6,7 +6,8 @@
 			"Elitre",
 			"FRacco",
 			"Gianfranco",
-			"Nemo bis"
+			"Nemo bis",
+			"Alexmar983"
 		]
 	},
 	"apihelp-query+betafeatures-description": "Mostra tutte le funzionalità sperimentali",
@@ -18,8 +19,8 @@
 	"betafeatures-section-desc": "{{PLURAL:$1|Questa è una nuova funzionalità sperimentale|Queste sono nuove funzionalità sperimentali}} che stiamo prendendo in considerazione per {{SITENAME}}. Puoi {{PLURAL:$1|provarla|provarle}} e dirci cosa ne pensi, così potremo {{PLURAL:$1|migliorarla|migliorarle}} in base ai tuoi commenti.",
 	"betafeatures-tooltip": "Benvenuto nelle funzionalità sperimentali! Questa nuova sezione delle preferenze consente di provare e lasciare un commento sulle nuove funzionalità prima che siano estese a tutti. Prova subito qualcosa di nuovo!",
 	"betafeatures-toplink": "beta",
-	"mw-ui-feature-discuss": "discussione",
-	"mw-ui-feature-info": "informazioni",
+	"mw-ui-feature-discuss": "Discussione",
+	"mw-ui-feature-info": "Informazioni",
 	"mw-ui-feature-requirements-betafeatures": "Questa funzionalità richiede che {{PLURAL:$1|sia abilitata la seguente|siano abilitate le seguenti}} funzionalità:",
 	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|Il seguente browser non è abilitato|I seguenti browser non sono abilitati}}:",
 	"mw-ui-feature-requirements-javascript": "Questa funzionalità richiede JavaScript.",

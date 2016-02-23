@@ -2,13 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Autokrator",
-			"UV"
+			"UV",
+			"Macofe"
 		]
 	},
 	"betafeatures-auto-enroll": "Automatice omnibus facultatibus experimentalibus utere",
 	"betafeatures-toplink": "Facultates experimentales",
-	"mw-ui-feature-discuss": "disputatio",
-	"mw-ui-feature-info": "informatio",
+	"mw-ui-feature-discuss": "Disputatio",
+	"mw-ui-feature-info": "Informatio",
 	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|Istud navigatrum|Ista navigatra}} adhiberi non licent:",
 	"mw-ui-feature-requirements-javascript": "Haec facultas necessitat JavaScript.",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|Unus usor hac facultate utitur.|$1 usores hac facultate utuntur.}}",

@@ -3,7 +3,8 @@
 		"authors": [
 			"DzWiki",
 			"Palapa",
-			"Srdjan m"
+			"Srdjan m",
+			"Macofe"
 		]
 	},
 	"betafeatures-auto-enroll": "Automatski uključi sve beta mogućnosti",
@@ -12,7 +13,7 @@
 	"betafeatures-tooltip": "Predstavljamo beta mogućnosti! Novi odjeljak u postavkama vam omogućava da testirate i šaljete povratne informacije o novim mogućnostima prije nego što ih postavimo kao predodređene. Isprobajte nešto novo!",
 	"betafeatures-toplink": "Beta",
 	"mw-ui-feature-discuss": "razgovor",
-	"mw-ui-feature-info": "informacije",
+	"mw-ui-feature-info": "Informacije",
 	"mw-ui-feature-requirements-betafeatures": "Za ovu mogućnost potrebno je omogućiti {{PLURAL:$1|sljedeću mogućnost|sljedeće mogućnosti}}:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|Jedan korisnik je uključio ovu mogućnost|Ovu mogućnost je uključilo $1 korisnika|0=Nijedan korisnik nije uključio ovu mogućnost.}}",
 	"prefs-betafeatures": "Beta mogućnosti",

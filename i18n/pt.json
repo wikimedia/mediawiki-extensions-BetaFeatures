@@ -4,7 +4,8 @@
 			"Fúlvio",
 			"Imperadeiro98",
 			"Vitorvicentevalente",
-			"Cainamarques"
+			"Cainamarques",
+			"Macofe"
 		]
 	},
 	"apihelp-query+betafeatures-description": "Lista todos os Recursos Beta",
@@ -15,8 +16,8 @@
 	"betafeatures-section-desc": "Aqui {{PLURAL:$1|encontra-se um novo recurso|encontram-se novos recursos}} que estamos a considerar para {{SITENAME}}. Por favor, {{PLURAL:$1|teste-o|teste-os}} e diga o que pensa {{PLURAL:$1|dele|deles}}, para que possamos {{PLURAL:$1|melhorá-lo|melhorá-los}} com base no seu comentário.",
 	"betafeatures-tooltip": "Apresentamos os Recursos Beta! Esta nova secção das suas preferências permite que teste e comente sobre os novos recursos antes de implementá-los como padrão. Experimente algo novo agora!",
 	"betafeatures-toplink": "Beta",
-	"mw-ui-feature-discuss": "discussão",
-	"mw-ui-feature-info": "informação",
+	"mw-ui-feature-discuss": "Discussão",
+	"mw-ui-feature-info": "Informação",
 	"mw-ui-feature-requirements-betafeatures": "Este recurso necessita {{PLURAL:$1|do seguinte recurso|dos seguintes recursos}} para ser ativado:",
 	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|O seguinte navegador não é suportado|Os seguintes navegadores não são suportados}}:",
 	"mw-ui-feature-requirements-javascript": "Este recurso requer JavaScript.",

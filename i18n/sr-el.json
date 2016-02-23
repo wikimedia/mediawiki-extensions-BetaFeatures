@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Milicevic01",
-			"Srdjan m"
+			"Srdjan m",
+			"Macofe"
 		]
 	},
 	"betafeatures-auto-enroll": "Automatski uključi beta-mogućnosti",
@@ -10,7 +11,7 @@
 	"betafeatures-tooltip": "Predstavljamo beta mogućnosti! Ovaj novi odeljak u podešavanjima vam omogućava da testirate i šaljete povratne informacije o novim mogućnostima pre nego što ih postavimo kao predodređene. Isprobajte nešto novo!",
 	"betafeatures-toplink": "Beta",
 	"mw-ui-feature-discuss": "rasprava",
-	"mw-ui-feature-info": "informacije",
+	"mw-ui-feature-info": "Informacije",
 	"mw-ui-feature-requirements-betafeatures": "Za ovu mogućnost potrebno je omogućiti {{PLURAL:$1|sledeću mogućnost|sledeće mogućnosti}}:",
 	"mw-ui-feature-requirements-javascript": "Za ovu mogućnost je potrebna JavaScript-a.",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|Jedan korisnik je uključio ovu mogućnost|Ovu mogućnost je uključilo $1 korisnika|0=Nijedan korisnik nije uključio ovu mogućnost.}}",

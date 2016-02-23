@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Danmichaelo",
-			"Chameleon222"
+			"Chameleon222",
+			"Macofe"
 		]
 	},
 	"apihelp-query+betafeatures-description": "List alle betafunksjoner",
@@ -14,8 +15,8 @@
 	"betafeatures-section-desc": "Her {{PLURAL:$1|er en ny funksjon|er noen nye funksjoner}} vi vurderer å innføre på {{SITENAME}}. Prøv {{PLURAL:$1|den|dem}} gjerne og gi oss din tilbakemelding, så vi kan forbedre {{PLURAL:$1|den|dem}}.",
 	"betafeatures-tooltip": "Vi introduserer betafunksjoner! Denne nye innstillingsseksjonen lar deg teste og gi tilbakemelding på nye funksjoner før vi lanserer dem som standardfunksjoner. Prøv noe nytt nå!",
 	"betafeatures-toplink": "Beta",
-	"mw-ui-feature-discuss": "diskusjon",
-	"mw-ui-feature-info": "informasjon",
+	"mw-ui-feature-discuss": "Diskusjon",
+	"mw-ui-feature-info": "Informasjon",
 	"mw-ui-feature-requirements-betafeatures": "Denne funksjonen krever at følgende {{PLURAL:$1|funksjon|funksjoner}} er påskrudd:",
 	"mw-ui-feature-requirements-browser": "Følgende {{PLURAL:$1|nettleser|nettlesere}} er ikke støttet:",
 	"mw-ui-feature-requirements-javascript": "Denne funksjonen krever JavaScript.",

@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Servien"
+			"Servien",
+			"Macofe"
 		]
 	},
 	"apihelp-query+betafeatures-description": "Laot alle bètafunksies zien",
@@ -13,7 +14,7 @@
 	"betafeatures-section-desc": "Hier {{PLURAL:$1|is n nieje funksie|bin n koppel nieje funksies}} die'w overwegen veur {{SITENAME}}. Probeer {{PLURAL:$1|t|ze}} uut en laot ons weten wa'j dervan vienen, zoda'w {{PLURAL:$1|de funksie|ze}} verbeteren kunnen.",
 	"betafeatures-toplink": "Bèta",
 	"mw-ui-feature-discuss": "overleg",
-	"mw-ui-feature-info": "informasie",
+	"mw-ui-feature-info": "Informasie",
 	"mw-ui-feature-requirements-betafeatures": "Bie disse funksie mu'j de volgende {{PLURAL:$1|funksie|funksies}} an-ezet hebben:",
 	"mw-ui-feature-requirements-browser": "De volgende {{PLURAL:$1|webkieker|webkiekers}} wörden niet ondersteund:",
 	"mw-ui-feature-requirements-javascript": "Veur disse funksie mu'j JavaScript hebben.",
