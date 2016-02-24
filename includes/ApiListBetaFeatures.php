@@ -47,7 +47,7 @@ class ApiQueryBetaFeatures extends ApiQueryBase {
 				$key
 			);
 			if ( isset( $counts[$key] ) ) {
-				$count = $counts[$key];
+				$count = (int)$counts[$key];
 			} else {
 				$count = 0;
 			}
