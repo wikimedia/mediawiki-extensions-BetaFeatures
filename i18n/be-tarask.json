@@ -11,7 +11,7 @@
 	"betafeatures-tooltip": "Прадстаўляем тэставыя магчымасьці! Новая закладка ў наладах дазваляе Вам паспрабаваць і ацаніць новыя функцыі перш, чым мы запусьцім ім для ўсіх дапомна. Паспрабуйце ўжо цяпер!",
 	"betafeatures-toplink": "Бэта",
 	"mw-ui-feature-discuss": "Абмеркаваньне",
-	"mw-ui-feature-info": "інфармацыя",
+	"mw-ui-feature-info": "Інфармацыя",
 	"mw-ui-feature-requirements-betafeatures": "Для гэтай магчымасьці неабходна ўключыць {{PLURAL:$1|наступную магчымасьць|наступныя магчымасьці}}:",
 	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|Гэты браўзэр|Гэтыя браўзэры}} не падтрымліваюцца:",
 	"mw-ui-feature-requirements-javascript": "Гэтая магчымасьць патрабуе JavaScript.",
