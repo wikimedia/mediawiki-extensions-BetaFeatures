@@ -5,6 +5,7 @@
 			"Eleassar"
 		]
 	},
+	"apihelp-query+betafeatures-description": "Navedi vse betazmožnosti",
 	"betafeatures-auto-enroll": "Samodejno omogoči vse betamožnosti",
 	"betafeatures-desc": "Dovoljuje uporabniku omogočiti ali onemogočiti funkcije na wikiju, ki še niso pripravljene za redno uporabo",
 	"betafeatures-extension-type": "Preizkusne funkcije",
