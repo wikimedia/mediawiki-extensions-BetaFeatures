@@ -104,6 +104,7 @@ class BetaFeaturesHooks {
 	public static function getPreferences( User $user, array &$prefs ) {
 		global $wgBetaFeaturesWhitelist, $wgBetaFeatures;
 
+		$config = ConfigFactory::getDefaultInstance()->makeConfig( 'main' );
 		$betaPrefs = $wgBetaFeatures;
 		$depHooks = array();
 
@@ -176,7 +177,7 @@ class BetaFeaturesHooks {
 				'section' => 'betafeatures',
 			);
 
-			$requiredFields = array(
+			$fields = array(
 				'label-message' => true,
 				'desc-message' => true,
 				'screenshot' => false,
@@ -187,7 +188,7 @@ class BetaFeaturesHooks {
 				'discussion-message' => false,
 			);
 
-			foreach ( $requiredFields as $field => $required ) {
+			foreach ( $fields as $field => $required ) {
 				if ( isset( $info[$field] ) ) {
 					$opt[$field] = $info[$field];
 				} elseif ( $required ) {
@@ -198,6 +199,13 @@ class BetaFeaturesHooks {
 						"The field {$field} was missing from the beta feature {$key}."
 					);
 				}
+			}
+
+			if ( isset( $opt['screenshot'] ) ) {
+				// Ensure image urls have a version hash.
+				$opt['screenshot'] = OutputPage::transformResourcePath( $config,
+					$opt['screenshot']
+				);
 			}
 
 			if ( isset( $counts[$key] ) ) {
