@@ -5,7 +5,7 @@
 	"bitwise": true,
 	"eqeqeq": true,
 	"freeze": true,
-	"latedef": true,
+	"latedef": "nofunc",
 	"noarg": true,
 	"nonew": true,
 	"undef": true,
@@ -22,8 +22,7 @@
 
 	/* Local */
 
-	"predef": [
-		"mediaWiki",
-		"jQuery"
-	]
+	"globals": {
+		"mediaWiki": false
+	}
 }
