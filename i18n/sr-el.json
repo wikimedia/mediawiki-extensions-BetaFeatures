@@ -10,7 +10,7 @@
 	"betafeatures-section-desc": "Ovo {{PLURAL:$1|je nova mogućnost|su nove mogućnosti}} na projektu {{SITENAME}}. Molimo {{PLURAL:$1|isprobajte je|isprobajte ih}} i dajte nam vaše mišljenje kako da {{PLURAL:$1|je|ih}} poboljšamo.",
 	"betafeatures-tooltip": "Predstavljamo beta mogućnosti! Ovaj novi odeljak u podešavanjima vam omogućava da testirate i šaljete povratne informacije o novim mogućnostima pre nego što ih postavimo kao predodređene. Isprobajte nešto novo!",
 	"betafeatures-toplink": "Beta",
-	"mw-ui-feature-discuss": "rasprava",
+	"mw-ui-feature-discuss": "Rasprava",
 	"mw-ui-feature-info": "Informacije",
 	"mw-ui-feature-requirements-betafeatures": "Za ovu mogućnost potrebno je omogućiti {{PLURAL:$1|sledeću mogućnost|sledeće mogućnosti}}:",
 	"mw-ui-feature-requirements-javascript": "Za ovu mogućnost je potrebna JavaScript-a.",
