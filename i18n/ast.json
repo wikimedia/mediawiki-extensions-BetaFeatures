@@ -14,7 +14,7 @@
 	"betafeatures-section-desc": "Est{{PLURAL:$1|a ye una carauterística nueva|es son dalgunes carauterístiques nueves}} que tamos considerando pa {{SITENAME}}. {{PLURAL:$1|Pruébala|Pruébales}} y dinos lo que pienses pa que podamos {{PLURAL:$1|ameyorala|ameyorales}} basándonos nes tos impresiones.",
 	"betafeatures-tooltip": "¡Presentamos les carauterístiques Beta! Esta nueva seición de les preferencies permite-y probar y comentar les carauterístiques nueves enantes de que les llancemos de mou predetermináu. ¡Pruebe agora daqué nuevo!",
 	"betafeatures-toplink": "Beta",
-	"mw-ui-feature-discuss": "alderique",
+	"mw-ui-feature-discuss": "Alderique",
 	"mw-ui-feature-info": "Información",
 	"mw-ui-feature-requirements-betafeatures": "Esta carauterística necesita activar {{PLURAL:$1|la siguiente carauterística|les siguientes carauterístiques}}:",
 	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|El siguiente navegador nun tien|Los siguientes navegadores nun tienen}} encontu:",

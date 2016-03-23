@@ -1,10 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Calak"
+			"Calak",
+			"Sarchia"
 		]
 	},
 	"betafeatures-auto-enroll": "بە شێوەی خۆگەڕ ھەموو تایبەتمەندییە نوێکانی بیتا چالاک بکە",
 	"betafeatures-toplink": "بیتا",
-	"prefs-betafeatures": "تایبەتمەندییەکانی بیتا"
+	"prefs-betafeatures": "تایبەتمەندییەکانی بیتا",
+	"tooltip-pt-betafeatures": "تایبەتمەندییەکانی بیتا"
 }
