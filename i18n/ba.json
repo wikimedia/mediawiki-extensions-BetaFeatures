@@ -3,7 +3,8 @@
 		"authors": [
 			"Рустам Нурыев",
 			"Янмурза Баки",
-			"Sagan"
+			"Sagan",
+			"Банат Валеева-Яубасарова"
 		]
 	},
 	"apihelp-query+betafeatures-description": "Барлыҡ Бета-мөмкинлектәр исемлеге",
@@ -20,6 +21,8 @@
 	"mw-ui-feature-requirements-betafeatures": "Был функция {{PLURAL:$1|1=түбәндәге функция ҡабыҙылған}} булыуын һорай:",
 	"mw-ui-feature-requirements-browser": "Киләһе {{PLURAL:$1|browser is|browsers are}} тотмай:",
 	"mw-ui-feature-requirements-javascript": "Был мөмкинлек JavaScript талап итә.",
+	"mw-ui-feature-requirements-skins": "Был функция эшләй тик{{PLURAL:$1|the following skin|the following skins}}:",
+	"mw-ui-feature-user-count": "Әлеге функцияны ҡулланығыҙ {{PLURAL:$1|One user is|$1 users are|0=No users are}}",
 	"prefs-betafeatures": "Бета-мөмкинлектәр",
 	"tooltip-pt-betafeatures": "Бета мөмкинлектәре"
 }
