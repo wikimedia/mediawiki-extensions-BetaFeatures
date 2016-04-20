@@ -30,7 +30,7 @@ class NewCheckFieldTest extends MediaWikiTestCase {
 			'blahblahblah' => array(
 				'class' => 'NewHTMLCheckField',
 				'label-message' => 'betafeatures-test-check-field',
-				'default' => true,
+				'default' => false,
 			)
 		) );
 		$form->setTitle( Title::newMainPage() );
