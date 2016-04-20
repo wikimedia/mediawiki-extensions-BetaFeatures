@@ -3,7 +3,8 @@
 		"authors": [
 			"Pxos",
 			"Silvonen",
-			"Stryn"
+			"Stryn",
+			"01miki10"
 		]
 	},
 	"apihelp-query+betafeatures-description": "Luettelo kaikista Beeta-ominaisuuksista",
@@ -14,8 +15,8 @@
 	"betafeatures-section-desc": "Tässä {{PLURAL:$1|on uusi ominaisuus, jota|on muutamia uusia ominaisuuksia, joita}} harkitsemme sivustolle {{SITENAME}}. Kokeile {{PLURAL:$1|sitä|niitä}} ja kerro meille mielipiteesi, jotta voimme parantaa {{PLURAL:$1|sitä|niitä}} palautteesi perusteella.",
 	"betafeatures-tooltip": "Esittelyssä Beeta-ominaisuudet! Tämä uusi asetukset-osio antaa sinun kokeilla ja antaa palautetta uusista ominaisuuksista, ennen kuin julkaisemme ne oletuksena. Kokeile jotain uutta nyt!",
 	"betafeatures-toplink": "Beeta",
-	"mw-ui-feature-discuss": "keskustelu",
-	"mw-ui-feature-info": "tietoa",
+	"mw-ui-feature-discuss": "Keskustelu",
+	"mw-ui-feature-info": "Tietoja",
 	"mw-ui-feature-requirements-betafeatures": "Tämä ominaisuus vaatii {{PLURAL:$1|seuraavaa ominaisuutta|seuraavia ominaisuuksia}} käyttöönotettavaksi:",
 	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|Seuraava selain ei ole tuettu|Seuraavat selaimet eivät ole tuettuja}}:",
 	"mw-ui-feature-requirements-javascript": "Tämä ominaisuus vaatii JavaScriptin olevan käytössä.",
