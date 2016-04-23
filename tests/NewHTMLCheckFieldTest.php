@@ -23,21 +23,22 @@
  * @license GNU General Public License version 2 or later
  */
 
-class NewCheckFieldTest extends MediaWikiTestCase {
+class NewHTMLCheckFieldTest extends MediaWikiTestCase {
 
 	public function testCreatingFieldGivesExpectedStrings() {
 		$form = new HTMLForm( array(
 			'blahblahblah' => array(
 				'class' => 'NewHTMLCheckField',
 				'label-message' => 'betafeatures-test-check-field',
-				'default' => false,
+				'default' => true,
 			)
 		) );
 		$form->setTitle( Title::newMainPage() );
+		$form->prepareForm();
 		$html = $form->getHTML( false );
 
 		$this->assertRegExp( '#<tr class="mw-htmlform-field-NewHTMLCheckField">#', $html, 'Table row with class name not found.' );
-		$this->assertRegExp( '#<div class="mw-ui-checkbox"><input name="wpblahblahblah" type="checkbox" value="1" id="mw-input-wpblahblahblah" /><label for="mw-input-wpblahblahblah"></label><label for="mw-input-wpblahblahblah" class="mw-ui-text-check-label">blah blah blah</label>#', $html, 'Styled checkbox label and input not found.' );
+		$this->assertRegExp( '#<div class="mw-ui-checkbox mw-ui-checked"><input name="wpblahblahblah" type="checkbox" value="1" checked="checked" id="mw-input-wpblahblahblah" /><label for="mw-input-wpblahblahblah"></label><label for="mw-input-wpblahblahblah" class="mw-ui-text-check-label">blah blah blah</label>#', $html, 'Styled checkbox label and input not found.' );
 		$this->assertRegExp( '#<label for="mw-input-wpblahblahblah" class="mw-ui-text-check-label">blah blah blah</label>#', $html, 'Checkbox label not found.' );
 	}
 }

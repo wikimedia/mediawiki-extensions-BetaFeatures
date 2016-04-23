@@ -49,10 +49,6 @@ class NewHTMLCheckField extends HTMLCheckField {
 			$containerClasses[] = 'mw-ui-checked';
 		}
 
-		if ( !empty( $this->mParams['invert'] ) ) {
-			$value = !$value;
-		}
-
 		if ( $attr === null ) {
 			$attr = $this->getTooltipAndAccessKey();
 		}
