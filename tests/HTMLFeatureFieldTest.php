@@ -44,6 +44,7 @@ class HTMLFeatureFieldTest extends MediaWikiTestCase {
 			),
 		) );
 		$form->setTitle( Title::newMainPage() );
+		$form->prepareForm();
 		$html = $form->getHTML( false );
 
 		$cases = array(

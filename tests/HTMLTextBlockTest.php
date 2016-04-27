@@ -33,6 +33,7 @@ class HTMLTextBlockFieldTest extends MediaWikiTestCase {
 			),
 		) );
 		$form->setTitle( Title::newMainPage() );
+		$form->prepareForm();
 		$html = $form->getHTML( false );
 
 		$this->assertRegExp( '#<tr class="mw-htmlform-field-HTMLTextBlockField">#', $html, 'Table row with class name not found.' );
