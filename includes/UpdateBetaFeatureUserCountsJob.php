@@ -66,11 +66,13 @@ class UpdateBetaFeatureUserCountsJob extends Job {
 			);
 		}
 
-		return $dbw->replace(
+		$dbw->replace(
 			'betafeatures_user_counts',
 			array( 'feature' ),
 			$rows,
 			__METHOD__
 		);
+
+		return true;
 	}
 }
