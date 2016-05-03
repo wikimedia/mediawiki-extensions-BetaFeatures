@@ -3,7 +3,8 @@
 		"authors": [
 			"DCLXVI",
 			"Dicto23456",
-			"Vodnokon4e"
+			"Vodnokon4e",
+			"Spiritia"
 		]
 	},
 	"apihelp-query+betafeatures-description": "Списък на всички бета-функции",
@@ -11,6 +12,7 @@
 	"betafeatures-auto-enroll": "Автоматично включване на всички нови тестови функционалности",
 	"betafeatures-desc": "Позволява на потребителя да включва или изключва функционалности от уикито, които все още не са готови за публично използване",
 	"betafeatures-extension-type": "Бета-функции",
+	"betafeatures-section-desc": "Тук има {{PLURAL:$1|една нова функционалност, която|някои нови функционалности, които}} обмисляме дали да активираме в {{SITENAME}}. Моля, изпробвайте {{PLURAL:$1|я|ги}} и ни споделете какво мислите, за да можем да {{PLURAL:$1|я|ги}} подобрим на основата на обратната връзка от Вас.",
 	"betafeatures-toplink": "Бета",
 	"mw-ui-feature-discuss": "обсъждане",
 	"mw-ui-feature-info": "информация",
@@ -18,7 +20,7 @@
 	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|Следният браузър не се поддържа|Следните браузъри не се поддържат}}:",
 	"mw-ui-feature-requirements-javascript": "Тази функционалност изисква JavaScript.",
 	"mw-ui-feature-requirements-skins": "Тази функционалност работи само със {{PLURAL:$1|следния облик|следните облици}}:",
-	"mw-ui-feature-user-count": "{{PLURAL:$1|Един потребител тества|$1 потребители тества|0=Нито един потребител не тества}} тази функционалност.",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|Един потребител тества|$1 потребители тестват|0=Нито един потребител не тества}} тази функционалност.",
 	"prefs-betafeatures": "Тестови функционалности",
 	"tooltip-pt-betafeatures": "Бета-възможности"
 }
