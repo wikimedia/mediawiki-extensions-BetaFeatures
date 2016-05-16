@@ -25,14 +25,6 @@
 
 class HTMLFeatureFieldTest extends MediaWikiTestCase {
 
-	protected function setUp() {
-		parent::setUp();
-
-		$this->setMwGlobals( array(
-			'wgWellFormedXml' => true,
-		) );
-	}
-
 	public function testCreatingFieldGivesExpectedStrings() {
 		$form = new HTMLForm( array(
 			'blahblahblah' => array(
