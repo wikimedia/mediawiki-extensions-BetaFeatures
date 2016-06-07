@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mashoi7"
+			"Mashoi7",
+			"Varvana"
 		]
 	},
-	"betafeatures-toplink": "Beta"
+	"betafeatures-toplink": "Beta",
+	"tooltip-pt-betafeatures": "Beta-ominaisuot"
 }

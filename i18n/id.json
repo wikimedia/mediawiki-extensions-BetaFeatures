@@ -4,7 +4,8 @@
 			"William Surya Permana",
 			"C5st4wr6ch",
 			"Arifin.wijaya",
-			"Macofe"
+			"Macofe",
+			"Rachmat.Wahidi"
 		]
 	},
 	"apihelp-query+betafeatures-description": "Tampilkan semua Fitur Beta",
@@ -16,7 +17,7 @@
 	"betafeatures-section-desc": "{{PLURAL:$1|Ini adalah|Berikut ini adalah beberapa}} fitur baru yang sedang kami pertimbangkan untuk {{SITENAME}}. Silakan coba  {{PLURAL:$1|fitur|fitur-fitur}} tersebut dan beritahu kami apa yang Anda pikirkan, sehingga kami dapat menyempurnakan{{PLURAL:$1|nya}} berdasarkan umpan balik Anda.",
 	"betafeatures-tooltip": "Memperkenalkan Fitur Beta! Bagian preferensi baru ini memungkinkan Anda untuk menguji dan memberikan umpan balik mengenai fitur baru sebelum kami meluncurkannya secara baku. Cobalah sesuatu yang baru sekarang!",
 	"betafeatures-toplink": "Beta",
-	"mw-ui-feature-discuss": "pembicaraan",
+	"mw-ui-feature-discuss": "Pembicaraan",
 	"mw-ui-feature-info": "Informasi",
 	"mw-ui-feature-requirements-betafeatures": "Fitur ini memerlukan {{PLURAL:$1|fitur|fitur-fitur berikut}} ini untuk diaktifkan:",
 	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|Peramban|Peramban berikut}} ini tidak didukung:",
