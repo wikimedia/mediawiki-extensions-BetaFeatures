@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Монгуш Салим"
+			"Монгуш Салим",
+			"Kaganer"
 		]
 	},
-	"betafeatures-toplink": "бета"
+	"betafeatures-toplink": "Бета"
 }
