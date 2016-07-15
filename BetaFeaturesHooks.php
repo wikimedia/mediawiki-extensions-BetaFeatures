@@ -32,7 +32,7 @@ class BetaFeaturesHooks {
 	 * An array of each of the available Beta Features, with their requirements, if any.
 	 *
 	 * This also includes a magic value of 'blacklist', which consequently MUST NOT be
-	 * used as the name of any registerd Beta Feature.
+	 * used as the name of any registered Beta Feature.
 	 */
 	private static $features = array();
 
