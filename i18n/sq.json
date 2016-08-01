@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Liridon"
+			"Liridon",
+			"Kosovastar"
 		]
 	},
-	"betafeatures-toplink": "Provë",
+	"betafeatures-toplink": "Beta",
 	"tooltip-pt-betafeatures": "Karakteristikat beta"
 }
