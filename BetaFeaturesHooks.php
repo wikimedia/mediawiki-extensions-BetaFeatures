@@ -328,16 +328,6 @@ class BetaFeaturesHooks {
 	}
 
 	/**
-	 * @param array $files
-	 * @return bool
-	 */
-	static function getUnitTestsList( &$files ) {
-		$testDir = __DIR__ . '/tests';
-		$files = array_merge( $files, glob( "$testDir/*Test.php" ) );
-		return true;
-	}
-
-	/**
 	 * @param DatabaseUpdater $updater
 	 * @return bool
 	 */
