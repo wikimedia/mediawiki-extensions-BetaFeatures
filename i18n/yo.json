@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Demmy"
+			"Demmy",
+			"Wikicology"
 		]
 	},
-	"betafeatures-toplink": "Bẹ́tà"
+	"betafeatures-toplink": "Bẹ́tà",
+	"tooltip-pt-betafeatures": "Àwọn ẹ̀yà Beta"
 }
