@@ -28,9 +28,6 @@
 		"PersonalUrls": [
 			"BetaFeaturesHooks::getBetaFeaturesLink"
 		],
-		"UnitTestsList": [
-			"BetaFeaturesHooks::getUnitTestsList"
-		],
 		"LoadExtensionSchemaUpdates": [
 			"BetaFeaturesHooks::getSchemaUpdates"
 		],
@@ -105,7 +102,7 @@
 		"UpdateBetaFeatureUserCountsJob": "includes/UpdateBetaFeatureUserCountsJob.php",
 		"ApiQueryBetaFeatures": "includes/ApiListBetaFeatures.php",
 		"SpecialBetaFeatures": "includes/SpecialBetaFeatures.php",
-		"BetaFeaturesTestCase": "tests/BetaFeaturesTestCase.php"
+		"BetaFeaturesTestCase": "tests/phpunit/BetaFeaturesTestCase.php"
 	},
 	"manifest_version": 1
 }
