@@ -13,6 +13,9 @@
 	"betafeatures-toplink": "Beta",
 	"mw-ui-feature-discuss": "Werênayış",
 	"mw-ui-feature-info": "melumat",
+	"mw-ui-feature-requirements-javascript": "Ena xısusiyet,  javaScript wazena.",
+	"mw-ui-feature-requirements-skins": "Ena xısusiyet teyna  {{PLURAL:$1|ena tema|$1 temayana}} gurena:",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|yew karbero ena xısusiyeter cerbneno|$1 karberi ena xısusiyeter cerbnenê|0= karber çınyo}}.",
 	"prefs-betafeatures": "Hacetê beta",
 	"tooltip-pt-betafeatures": "Hacetê beta"
 }
