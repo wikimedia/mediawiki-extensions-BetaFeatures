@@ -4,7 +4,8 @@
 			"DCLXVI",
 			"Dicto23456",
 			"Vodnokon4e",
-			"Spiritia"
+			"Spiritia",
+			"StanProg"
 		]
 	},
 	"apihelp-query+betafeatures-description": "Списък на всички бета-функции",
@@ -14,8 +15,8 @@
 	"betafeatures-extension-type": "Бета-функции",
 	"betafeatures-section-desc": "Тук има {{PLURAL:$1|една нова функционалност, която|някои нови функционалности, които}} обмисляме дали да активираме в {{SITENAME}}. Моля, изпробвайте {{PLURAL:$1|я|ги}} и ни споделете какво мислите, за да можем да {{PLURAL:$1|я|ги}} подобрим на основата на обратната връзка от Вас.",
 	"betafeatures-toplink": "Бета",
-	"mw-ui-feature-discuss": "обсъждане",
-	"mw-ui-feature-info": "информация",
+	"mw-ui-feature-discuss": "Обсъждане",
+	"mw-ui-feature-info": "Информация",
 	"mw-ui-feature-requirements-betafeatures": "Тази функция изисква да {{PLURAL:$1|е включена следната функция|са включени следните функции}}:",
 	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|Следният браузър не се поддържа|Следните браузъри не се поддържат}}:",
 	"mw-ui-feature-requirements-javascript": "Тази функционалност изисква JavaScript.",
