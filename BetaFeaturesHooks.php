@@ -109,11 +109,6 @@ class BetaFeaturesHooks {
 
 		Hooks::run( 'GetBetaFeaturePreferences', array( $user, &$betaPrefs ) );
 
-		$prefs['betafeatures-popup-disable'] = array(
-			'type' => 'api',
-			'default' => 0,
-		);
-
 		$prefs['betafeatures-section-desc'] = array(
 			'class' => 'HTMLTextBlockField',
 			'label' => wfMessage( 'betafeatures-section-desc' )->numParams( count( $betaPrefs ) )->parse(),
@@ -318,10 +313,6 @@ class BetaFeaturesHooks {
 					'active' => $title->isSpecial( 'Preferences' ),
 				),
 			), 'preferences' );
-
-			if ( !$user->getOption( 'betafeatures-popup-disable' ) ) {
-				$skintemplate->getOutput()->addModules( 'ext.betaFeatures.popup' );
-			}
 		}
 
 		return true;

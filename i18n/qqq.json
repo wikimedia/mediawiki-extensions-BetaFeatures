@@ -18,7 +18,6 @@
 	"betafeatures-section-desc": "Used as description for the checkbox in [[Special:Preferences]].\n\nFollowed by the checkbox which has the label {{msg-mw|Betafeatures-auto-enroll}}.\n\nParameters:\n* $1 - number of beta features",
 	"betafeatures-test-check-field": "Used as label for the checkbox, used to test the extension.\n\nThe description for this checkbox is {{msg-mw|Betafeatures-test-feature-field}}.",
 	"betafeatures-test-feature-field": "Used as description for the checkbox, used to test the extension.\n\nThe label for the checkbox is {{msg-mw|Betafeatures-test-check-field}}.",
-	"betafeatures-tooltip": "A tooltip meant to advertise the existence of the BetaFeatures preferences page the first time a user sees it. Only shown once, meant to be a call to action. \"Introducing\" is jargon meaning \"we are explaining you\", you can avoid translating it in your language if it doesn't fit.",
 	"betafeatures-toplink": "Used as link text. The link points to [[Special:Preferences]] but takes the user directly to the \"Beta\" section.\n\nSee example: [[mw:Special:Preferences#mw-prefsection-editing|mw:Special:Preferences]]\n\n{{Identical|Beta}}",
 	"mw-ui-feature-discuss": "Used as link text for the link which points to discussion of a feature.\n{{Identical|Discussion}}",
 	"mw-ui-feature-info": "Used as link text for the link which points to information about a feature.\n{{Identical|Information}}",

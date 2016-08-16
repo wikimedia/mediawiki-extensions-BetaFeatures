@@ -68,17 +68,6 @@
 				"desktop"
 			],
 			"position": "top"
-		},
-		"ext.betaFeatures.popup": {
-			"scripts": [
-				"ext.betaFeatures.popup.js"
-			],
-			"dependencies": [
-				"jquery.tipsy"
-			],
-			"messages": [
-				"betafeatures-tooltip"
-			]
 		}
 	},
 	"ResourceFileModulePaths": {
