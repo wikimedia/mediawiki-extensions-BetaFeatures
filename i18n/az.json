@@ -1,9 +1,17 @@
 {
 	"@metadata": {
 		"authors": [
-			"Dağlı95"
+			"Dağlı95",
+			"Wertuose"
 		]
 	},
+	"betafeatures-auto-enroll": "Bütün yeni beta funksiyaları aktivləşdir",
+	"betafeatures-extension-type": "Beta funksiyalar",
+	"betafeatures-section-desc": "Burada {{SITENAME}} üçün nəzərdə tutduğumuz {{PLURAL:$1|yeni funksiya|bəzi yeni funksiyalarla}} tanış ola bilərsiniz. {{PLURAL:$1|Funksiyanı|Funksiyaları}}  lütfən sınayın və düşüncələrinizi bizimlə paylaşın. Biz sizin rəylərinizə əsaslanaraq {{PLURAL:$1|funksiyanı|funksiyaları}} təkmilləşdiririk.",
 	"betafeatures-toplink": "Beta versiya",
-	"tooltip-pt-betafeatures": "Beta versiyanın xüsusiyyətləri"
+	"mw-ui-feature-discuss": "Müzakirə",
+	"mw-ui-feature-info": "Məlumat",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|Bir istifadəçi|$1 istifadəçi|0=0 istifadəçi}} bu funksiyadan istifadə edir.",
+	"prefs-betafeatures": "Beta funksiyalar",
+	"tooltip-pt-betafeatures": "Beta funksiyalar"
 }
