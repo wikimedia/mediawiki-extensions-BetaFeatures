@@ -6,7 +6,8 @@
 			"Jean-Frédéric",
 			"Ltrlg",
 			"Sherbrooke",
-			"Macofe"
+			"Macofe",
+			"Urhixidur"
 		]
 	},
 	"apihelp-query+betafeatures-description": "Lister toutes les fonctionnalités bêta",
@@ -16,12 +17,11 @@
 	"betafeatures-desc": "Laisse l’utilisateur activer ou désactiver les fonctionnalités sur ce wiki qui ne sont pas encore prêtes pour être généralisées",
 	"betafeatures-extension-type": "Fonctionnalités bêta",
 	"betafeatures-section-desc": "Voici {{PLURAL:$1|une nouvelle fonctionnalité|de nouvelles fonctionnalités}} que nous envisageons pour {{SITENAME}}. Veuillez les essayer et nous donner votre sentiment à leur sujet, afin que nous puissions les améliorer d’après votre retour.",
-	"betafeatures-tooltip": "Voici les fonctionnalités en beta ! Cette nouvelle section des préférences vous laisse tester et donner votre ressenti sur les nouvelles fonctionnalités avant que nous les lancions par défaut. Essayez dès à présent quelque chose de nouveau !",
 	"betafeatures-toplink": "Bêta",
 	"mw-ui-feature-discuss": "Discussion",
 	"mw-ui-feature-info": "Information",
 	"mw-ui-feature-requirements-betafeatures": "Cette fonctionnalité nécessite que {{PLURAL:$1|la fonctionnalité suivante soit activée|les fonctionnalités suivantes soient activées}} :",
-	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|Le navigateur suivant n’est pas supporté|Les navigateurs suivants ne sont pas supportés}} :",
+	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|Le navigateur suivant n’est|Les navigateurs suivants ne sont}} pas pris en charge :",
 	"mw-ui-feature-requirements-javascript": "Cette fonctionnalité nécessite JavaScript.",
 	"mw-ui-feature-requirements-skins": "Cette fonctionnalité fonctionne uniquement avec {{PLURAL:$1|l’habillage suivant|les habillages suivants}} :",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|Un utilisateur a|$1 utilisateurs ont|0=Aucun utilisateur n’a}} activé cette fonctionnalité.",
