@@ -2,9 +2,10 @@
 	"@metadata": {
 		"authors": [
 			"जनक राज भट्ट",
-			"रमेश सिंह बोहरा"
+			"रमेश सिंह बोहरा",
+			"Nirajan pant"
 		]
 	},
-	"betafeatures-toplink": "बेटा",
+	"betafeatures-toplink": "बिटा",
 	"tooltip-pt-betafeatures": "बेटा सुविधाहरू"
 }
