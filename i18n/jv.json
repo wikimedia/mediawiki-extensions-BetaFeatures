@@ -4,6 +4,19 @@
 			"NoiX180"
 		]
 	},
+	"apihelp-query+betafeatures-description": "Pratélan kabèh Fitur Béta",
+	"apihelp-query+betafeatures-example-1": "Jupuk kabèh fitur béta sing cumepak lan tuduhaké akèhé panganggo sing ngurubaké fitur-fitur iku.",
+	"betafeatures-auto-enroll": "Otomatis ngurubaké kabèh fitur béta anyar",
+	"betafeatures-extension-type": "Fitur béta",
+	"betafeatures-section-desc": "Ing ngisor iki kapacak {{PLURAL:$1|fitur anyar}} sing dadi pamrayogané awak dhéwé saperu dipasang kanggo {{SITENAME}}. Mangga jajala {{PLURAL:$1|fitur iku}} lan wènèha panemumu murih awak dhéwé bisa gawé {{PLURAL:$1|sing luwih apik}} adhedhasar pamrayogané sampéyan.",
 	"betafeatures-toplink": "Béta",
-	"tooltip-pt-betafeatures": "Titikaning béta"
+	"mw-ui-feature-discuss": "Rerembug",
+	"mw-ui-feature-info": "Katerangan",
+	"mw-ui-feature-requirements-betafeatures": "Fitur iki bisa dianggo yèn {{PLURAL:$1|fitur}} iki diurubaké:",
+	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|Pangluru}} ngisor iki ora kajurung:",
+	"mw-ui-feature-requirements-javascript": "Fitur iki butuh JavaScript.",
+	"mw-ui-feature-requirements-skins": "Fitur iki mung lumaku sarana {{PLURAL:$1|kulit iki}}:",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|Ana siji panganggo|Ana $1 panganggo|0=Ora ana panganggo}} sing njajal fitur iki.",
+	"prefs-betafeatures": "Fitur béta",
+	"tooltip-pt-betafeatures": "Fitur béta"
 }
