@@ -9,11 +9,12 @@
 		]
 	},
 	"apihelp-query+betafeatures-description": "Lista wszystkich funkcji eksperymantalnych",
+	"apihelp-query+betafeatures-example-1": "Pobierz informacje o wszystkich dostępnych funkcjach eksperymentalnych i pokaż ilu użytkowników je włączyło.",
+	"apihelp-query+betafeatures-param-counts": "Czy pobrać informacje o ilości użytkowników, którzy włączyli dane ustawienie.",
 	"betafeatures-auto-enroll": "Automatycznie włączaj nowe funkcje eksperymentalne",
 	"betafeatures-desc": "Pozwala użytkownikom włączać lub wyłączać funkcje, które nie są jeszcze w pełni dopracowane",
 	"betafeatures-extension-type": "Funkcje eksperymentalne",
 	"betafeatures-section-desc": "Masz możliwość przetestowania {{PLURAL:$1|nowej, eksperymentalnych funkcji|nowych, eksperymentalnych funkcji}} przygotowanych dla {{GRAMMAR:D.lp|{{SITENAME}}}}. Prosimy o ich wypróbowanie i przekazanie nam swoich refleksji, abyśmy mogli je ulepszyć, bazując na Twoich komentarzach.",
-	"betafeatures-tooltip": "Sekcja funkcji eksperymentalnych umożliwia Ci testowanie i wyrażanie opinii na temat nowych funkcji, zanim uruchomimy je jako domyślne zachowanie. Wypróbuj coś nowego!",
 	"betafeatures-toplink": "Funkcje eksperymentalne",
 	"mw-ui-feature-discuss": "Dyskusja",
 	"mw-ui-feature-info": "Informacje",
