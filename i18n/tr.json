@@ -9,11 +9,11 @@
 			"JackUKElliott"
 		]
 	},
+	"apihelp-query+betafeatures-description": "Bütün Beta Özellikleri listele",
 	"betafeatures-auto-enroll": "Tüm yeni beta özellikleri otomatik olarak etkinleştirin",
 	"betafeatures-desc": "Wiki'de hala tam zamanlı kullanım için hazır olmayan özellikleri etkinleştirmenize veya devre dışı bırakmanıza olanak sağlar",
 	"betafeatures-extension-type": "Beta özellikler",
 	"betafeatures-section-desc": "Burada {{SITENAME}} için düşündüğümüz {{PLURAL:$1|yeni özellik|bazı yeni özellikler}} var. {{PLURAL:$1|Özelliği|Özellikleri}}  lütfen deneyin ve düşüncelerinizi bizimle paylaşın. Biz geri bildirimlerinize dayanarak {{PLURAL:$1|özelliği|özellikleri}} geliştiriyoruz.",
-	"betafeatures-tooltip": "Beta Özellikleri Tanıtımı! Tercihlerinize eklenen bu yeni bölüm ile beta aşamasındaki özelliklerin varsayılan olarak başlatılması sağlanabilir ve bu özellikler hakkında geri bildirimde bulunulabilir. Şimdi yeni bir şeyler deneyin!",
 	"betafeatures-toplink": "Beta",
 	"mw-ui-feature-discuss": "Tartışma",
 	"mw-ui-feature-info": "Bilgi",
