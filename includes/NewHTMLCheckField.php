@@ -42,47 +42,29 @@ class NewHTMLCheckField extends HTMLCheckField {
 			$value = !$value;
 		}
 
-		$containerClasses = array( 'mw-ui-checkbox' );
-		$labelAttrs = array( 'for' => $this->mID );
-
-		if ( $value ) {
-			$containerClasses[] = 'mw-ui-checked';
-		}
-
-		if ( $attr === null ) {
-			$attr = $this->getTooltipAndAccessKey();
-		}
-
-		$attr['id'] = $this->mID;
-
-		$classes = array();
-
-		if ( isset( $attr['class'] ) ) {
-			$classes[] = $attr['class'];
-		}
-
-		if ( isset( $this->mParams['disabled'] ) && $this->mParams['disabled'] === true ) {
-			$attr['disabled'] = 'disabled';
-		}
-
-		if ( $this->mClass !== '' ) {
-			$classes[] = $this->mClass;
-		}
-
-		if ( $classes ) {
-			$attr['class'] = implode( ' ', $classes );
-		}
-
 		$out = $this->mParent->getOutput();
 		// @todo Ew, these should be split into checkbox styles and preferences page styles
 		$out->addModules( 'ext.betaFeatures' );
 		$out->addModuleStyles( 'ext.betaFeatures.styles' );
-		$out->addModuleStyles( 'mediawiki.ui.checkbox' );
-		$labelHtml = $this->includeLabel ? $this->getPostCheckboxLabelHTML() : '';
-		return Html::openElement( 'div', array( 'class' => $containerClasses ) ) .
-			Xml::check( $this->mName, $value, $attr ) .
-			Html::rawElement( 'label', $labelAttrs ) .
-			$labelHtml .
+		$out->enableOOUI();
+
+		// TODO: Support $this->getTooltipAndAccessKey?
+
+		return Html::openElement( 'div', array( 'class' => 'mw-ui-feature-checkbox' ) ) .
+			new OOUI\FieldLayout(
+				new OOUI\CheckboxInputWidget( [
+					'name' => $this->mName,
+					'selected' => $value,
+					'value' => 1,
+					'classes' => $this->mClass ? [ $this->mClass ] : [],
+					'disabled' => isset( $this->mParams['disabled'] ) &&
+						$this->mParams['disabled'] === true,
+				] ),
+				[
+					'align' => 'inline',
+					'label' => $this->includeLabel ? $this->mLabel : '',
+				]
+			) .
 			Html::closeElement( 'div' );
 	}
 

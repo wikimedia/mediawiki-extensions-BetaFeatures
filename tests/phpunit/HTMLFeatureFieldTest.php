@@ -45,11 +45,11 @@ class HTMLFeatureFieldTest extends MediaWikiTestCase {
 				'message' => 'Table row with class name not found.',
 			),
 			array(
-				'pattern' => '#<div class="mw-ui-checkbox"><input name="wpblahblahblah" type="checkbox" value="1" id="mw-input-wpblahblahblah" class="mw-ui-feature-toggle" /><label for="mw-input-wpblahblahblah"></label>#',
-				'message' => 'Styled checkbox label and input not found.',
+				'pattern' => "#<input type='checkbox' tabindex='0' aria-disabled='false' name='wpblahblahblah' value='1' class='oo-ui-inputWidget-input'>#",
+				'message' => 'Styled checkbox input not found.',
 			),
 			array(
-				'pattern' => '#<label for="mw-input-wpblahblahblah" class="mw-ui-text-check-label">blah blah blah</label>#',
+				'pattern' => "#<span class='oo-ui-labelElement-label'>blah blah blah</span>#",
 				'message' => 'Checkbox label not found.',
 			),
 			array(

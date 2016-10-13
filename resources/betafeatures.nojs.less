@@ -34,13 +34,6 @@ table.mw-htmlform-container {
 	padding-top: 10px;
 }
 
-.mw-ui-feature-title {
-	margin: 0;
-	padding: 0;
-	font-size: 24px;
-	line-height: 36px;
-}
-
 .mw-ui-feature-header {
 	width: 100%;
 	border-bottom: 1px solid #e5e5e5;
@@ -56,6 +49,7 @@ table.mw-htmlform-container {
 .mw-ui-feature-info-links,
 .mw-ui-feature-title-contain {
 	display: inline-block;
+	vertical-align: bottom;
 }
 
 .mw-ui-feature-screenshot-contain,
@@ -119,10 +113,23 @@ table.mw-htmlform-container {
 	margin: 1em 0 0 0;
 }
 
-#mw-prefsection-betafeatures {
-	.mw-ui-checkbox {
-		float: left;
+.mw-ui-feature-title-contain {
+	margin-left: -42px;
+	margin-right: 42px;
+	margin-bottom: -10px
+}
+
+.mw-ui-feature-checkbox {
+	float: left;
+
+	.oo-ui-fieldLayout.oo-ui-fieldLayout-align-inline {
+		margin-bottom: 0;
 	}
+}
+
+.mw-ui-feature-title-contain .oo-ui-labelElement-label {
+	font-size: 24px;
+	line-height: 36px;
 }
 
 .mw-htmlform-field-HTMLTextBlockField .mw-input {
