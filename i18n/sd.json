@@ -5,6 +5,19 @@
 			"Mehtab ahmed"
 		]
 	},
-	"betafeatures-toplink": "بيٽا",
-	"tooltip-pt-betafeatures": "بيٽا خوبيون"
+	"apihelp-query+betafeatures-description": "سڀني آزمائشي خوبين جي فھرست ڏيو",
+	"apihelp-query+betafeatures-example-1": "سڀ آزمائشي خوبيون حاصل ڪريو ۽ ڏيکاريو تہ گھڻن رڪنن انھن کي قاڀلِڪار بڻايو آھي",
+	"betafeatures-auto-enroll": "سڀ نيون آزمائشي خوبيون خودبخود قابلِڪار ڪيو",
+	"betafeatures-extension-type": "آزمائشي خوبيون",
+	"betafeatures-section-desc": "ھتي {{PLURAL:$1|ھڪ نئين خوبي آھي|ڪجھ نيون خوبيون آھن}} جيڪي اسان {{SITENAME}} لاءِ ذھن ۾ رکي رھيا آھيون. براءِ مھرباني {{PLURAL:$1|ان کي|انھن کي}} آزمايو ۽ اسان کي پنھنجون سوچون ڏيو، تہ جيئن اسان {{PLURAL:$1|ان کي|انھن کي}} توھان جي پذيرائي مطابق بھتر بڻائي سگھون.",
+	"betafeatures-toplink": "آزمائشي",
+	"mw-ui-feature-discuss": "بحث",
+	"mw-ui-feature-info": "معلومات",
+	"mw-ui-feature-requirements-betafeatures": "ھي خوبي ھيٺيان {{PLURAL:$1|خوبي|خوبيون}} قابلِڪار ھجڻ گھري ٿي:",
+	"mw-ui-feature-requirements-browser": "ھيٺيون/ھيٺيان {{PLURAL:$1|برائوزر|برائوزرس}} سپورٽ نٿو/نٿا ڪيو/ڪيا وڃي/وڃن:",
+	"mw-ui-feature-requirements-javascript": "ھي خوبي جاوا اسڪرپٽ گھري ٿي",
+	"mw-ui-feature-requirements-skins": "ھي خوبي صرف {{PLURAL:$1|ھيٺين چمڙي|ھيٺين چمڙين}} سان ڪم ڪري ٿي.",
+	"mw-ui-feature-user-count": "ھن خوبيءَ کي {{PLURAL:$1|ھڪ رڪن آزمائي رھيو آھي|$1 رڪن آزمائي رھيا آھن|0=ڪو بہ رڪن نہ آزمائي رھيو آھي}}.",
+	"prefs-betafeatures": "آزمائشي خوبيون",
+	"tooltip-pt-betafeatures": "آزمائشي خوبيون"
 }
