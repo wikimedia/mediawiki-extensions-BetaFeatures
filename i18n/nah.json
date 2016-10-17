@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Taresi"
+			"Taresi",
+			"Akapochtli"
 		]
 	},
-	"betafeatures-toplink": "Pēta"
+	"betafeatures-toplink": "Beta"
 }
