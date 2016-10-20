@@ -48,7 +48,6 @@ class HTMLFeatureField extends NewHTMLCheckField {
 			$attrs['disabled'] = true;
 		}
 
-
 		$html .= Html::openElement( 'div', array(
 			'class' => 'mw-ui-feature-title-contain',
 		) );
@@ -84,19 +83,33 @@ class HTMLFeatureField extends NewHTMLCheckField {
 			'class' => $infoLinkClasses,
 		) );
 
+		$out = $this->mParent->getOutput();
+
 		if ( isset( $infoLink ) ) {
+			$out->addModuleStyles( 'oojs-ui.styles.icons-content' );
 			$html .= Html::rawElement( 'a', array(
-				'href' => $infoLink,
-				'class' => 'mw-ui-feature-info-link',
-			), $this->mParent->msg( 'mw-ui-feature-info' )->escaped() );
+					'href' => $infoLink,
+					'class' => 'mw-ui-feature-info-link',
+				),
+				new OOUI\IconWidget( [
+					'icon' => 'article'
+				] ).
+				$this->mParent->msg( 'mw-ui-feature-info' )->escaped()
+			);
 			$html .= ' ';
 		}
 
 		if ( isset( $discussionLink ) ) {
+			$out->addModuleStyles( 'oojs-ui.styles.icons-alerts' );
 			$html .= Html::rawElement( 'a', array(
-				'href' => $discussionLink,
-				'class' => 'mw-ui-feature-discussion-link',
-			), $this->mParent->msg( 'mw-ui-feature-discuss' )->escaped() );
+					'href' => $discussionLink,
+					'class' => 'mw-ui-feature-discussion-link',
+				),
+				new OOUI\IconWidget( [
+					'icon' => 'speechBubbles'
+				] ).
+				$this->mParent->msg( 'mw-ui-feature-discuss' )->escaped()
+			);
 		}
 
 		// mw-ui-feature-info-links
