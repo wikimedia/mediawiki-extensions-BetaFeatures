@@ -3,11 +3,17 @@
 		"authors": [
 			"Edgars2007",
 			"Papuass",
-			"Macofe"
+			"Macofe",
+			"Silraks"
 		]
 	},
+	"betafeatures-auto-enroll": "Automātiski iespējot visas jaunās bēta funkcijas",
+	"betafeatures-extension-type": "Bēta funkcijas",
 	"betafeatures-toplink": "Testa funkcijas",
 	"mw-ui-feature-discuss": "Diskusija",
 	"mw-ui-feature-info": "Informācija",
+	"mw-ui-feature-requirements-javascript": "Šī funkcija izmanto JavaScript.",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|Viens dalībnieks izmēģina šo funkciju|$1 dalībnieki izmēģina šo funkciju|0=Neviens dalībnieks neizmēģina šo funkciju}}.",
+	"prefs-betafeatures": "Bēta funkcijas",
 	"tooltip-pt-betafeatures": "Beta iespējas"
 }
