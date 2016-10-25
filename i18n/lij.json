@@ -4,6 +4,21 @@
 			"Giromin Cangiaxo"
 		]
 	},
+	"apihelp-query+betafeatures-description": "Mostra tutte-e fonçionalitæ sperimentale",
+	"apihelp-query+betafeatures-example-1": "Amia tutte e fonçionalitæ sperimentale disponibbile e mostra quanti utenti i han attivæ",
+	"apihelp-query+betafeatures-param-counts": "Se se deve recuperâ quanti utenti han attivou una çerta preferença.",
+	"betafeatures-auto-enroll": "Attiva aotomaticamente tutte e noeuve fonçionalitæ sperimentale",
+	"betafeatures-desc": "O consente a l'utente d'attivâ ò disattivâ in sciâ wiki de fonçionalitæ sperimentale che no son ancon pronte pe-o grande pubbrico",
+	"betafeatures-extension-type": "Fonçionalitæ sperimentale",
+	"betafeatures-section-desc": "{{PLURAL:$1|Sta chì a l'è una noeuva|Ste chì son de noeuve}} fonçionalitæ sperimentale che semmo aproeuvo à consciderâ pe {{SITENAME}}. Ti poeu provâ{{PLURAL:$1|la|le}} e dine cose ti ne pensci, coscì poriemo amegioâ{{PLURAL:$1|la|le}} in base a-i to commenti.",
 	"betafeatures-toplink": "beta",
+	"mw-ui-feature-discuss": "Discuscion",
+	"mw-ui-feature-info": "Informaçioin",
+	"mw-ui-feature-requirements-betafeatures": "Pe sta fonçionalitæ g'ha da ese abilitou {{PLURAL:$1|a|e}} seguente fonçionalitæ:",
+	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|O seguente navegatô o no l'è abilitou|I seguenti navegatoî no son abilitæ}}:",
+	"mw-ui-feature-requirements-javascript": "Pe sta fonçionalitæ ghe voeu JavaScript.",
+	"mw-ui-feature-requirements-skins": "Questa fonçionalitæ a fonçion-a solo co-{{PLURAL:$1|o seguente tema|i seguenti temi}}:",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|Un utente o l'è|$1 utenti son|0=Nessun utente sta}} aproeuvo a provâ sta fonçion.",
+	"prefs-betafeatures": "Fonçionalitæ sperimentale",
 	"tooltip-pt-betafeatures": "Fonçionalitæ sperimentale"
 }
