@@ -9,7 +9,7 @@
 	"betafeatures-auto-enroll": "Automatski omogući beta mogućnosti",
 	"betafeatures-section-desc": "Ovo {{PLURAL:$1|je nova mogućnost|su nove mogućnosti}} na projektu {{SITENAME}}. Molimo {{PLURAL:$1|iskušajte ju|iskušajte ih}} i napišite nam svoje mišljenje kako bismo {{PLURAL:$1|je|ih}} poboljšali na osnovi Vaših povratnih informacija.",
 	"betafeatures-toplink": "Beta",
-	"mw-ui-feature-discuss": "Rasprava",
+	"mw-ui-feature-discuss": "rasprava",
 	"mw-ui-feature-info": "informacije",
 	"mw-ui-feature-requirements-betafeatures": "Zahtijeva uključivanje {{PLURAL:$1|sljedeće mogućnosti|sljedećih mogućnosti}}:",
 	"mw-ui-feature-requirements-javascript": "Ova mogućnost zahtijeva JavaScript.",
