@@ -15,7 +15,6 @@
 	"betafeatures-desc": "Memungkinkan pengguna mengaktifkan atau menonaktifkan fitur di wiki yang masih belum siap untuk tayang",
 	"betafeatures-extension-type": "Fitur beta",
 	"betafeatures-section-desc": "{{PLURAL:$1|Ini adalah|Berikut ini adalah beberapa}} fitur baru yang sedang kami pertimbangkan untuk {{SITENAME}}. Silakan coba  {{PLURAL:$1|fitur|fitur-fitur}} tersebut dan beritahu kami apa yang Anda pikirkan, sehingga kami dapat menyempurnakan{{PLURAL:$1|nya}} berdasarkan umpan balik Anda.",
-	"betafeatures-tooltip": "Memperkenalkan Fitur Beta! Bagian preferensi baru ini memungkinkan Anda untuk menguji dan memberikan umpan balik mengenai fitur baru sebelum kami meluncurkannya secara baku. Cobalah sesuatu yang baru sekarang!",
 	"betafeatures-toplink": "Beta",
 	"mw-ui-feature-discuss": "Pembicaraan",
 	"mw-ui-feature-info": "Informasi",
