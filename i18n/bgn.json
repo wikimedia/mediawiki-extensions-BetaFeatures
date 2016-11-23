@@ -1,10 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Baloch Afghanistan"
+			"Baloch Afghanistan",
+			"Ibrahim khashrowdi"
 		]
 	},
 	"betafeatures-toplink": "آزمایشی،بیتا",
+	"mw-ui-feature-discuss": "حبر/گپ",
 	"mw-ui-feature-info": "مئلومات",
 	"tooltip-pt-betafeatures": "آزماشی خاصیتان"
 }
