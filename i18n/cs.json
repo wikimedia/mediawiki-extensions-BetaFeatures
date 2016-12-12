@@ -13,7 +13,6 @@
 	"betafeatures-desc": "Umožňuje uživatelům zapínat a vypínat nové funkce, které zatím nejsou zcela odladěné",
 	"betafeatures-extension-type": "Betaverze",
 	"betafeatures-section-desc": "Zde {{PLURAL:$1|je nová funkce, kterou|jsou nové funkce, které}} zvažujeme pro použití na {{grammar:6sg|{{SITENAME}}}}. Vyzkoušejte {{PLURAL:$1|ji|je}} a dejte nám vědět, ať {{PLURAL:$1|ji|je}} na základě vašich názorů můžeme vylepšovat.",
-	"betafeatures-tooltip": "Představujeme funkce z betaverze! Tato nová sekce nastavení vám umožňuje vyzkoušet a okomentovat nové funkce dříve, než je spustíme pro všechny. Vyzkoušejte něco nového!",
 	"betafeatures-toplink": "Beta",
 	"mw-ui-feature-discuss": "Diskuse",
 	"mw-ui-feature-info": "Informace",

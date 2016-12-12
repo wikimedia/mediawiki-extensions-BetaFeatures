@@ -1,15 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mikalai Udodau"
+			"Mikalai Udodau",
+			"Mechanizatar"
 		]
 	},
 	"betafeatures-auto-enroll": "Аўтаматычна задзейнічаць усе новыя бэта-магчымасці",
 	"betafeatures-extension-type": "Бэта-магчымасці",
 	"betafeatures-section-desc": "Тут пададзен{{PLURAL:$1|а новая магчымасць, якую|ы некаторыя новыя магчымасці, якія}} мы разглядаем для {{SITENAME}}. Калі ласка, паспрабуйце {{PLURAL:$1|яе|іх}} і выкажыце сваё меркаванне, каб мы маглі палепшыць {{PLURAL:$1|яе|іх}}, засноўваючыся на вашых водгуках.",
 	"betafeatures-toplink": "Бэта",
-	"mw-ui-feature-discuss": "абмеркаванне",
-	"mw-ui-feature-info": "інфармацыя",
+	"mw-ui-feature-discuss": "Абмеркаванне",
+	"mw-ui-feature-info": "Інфармацыя",
 	"mw-ui-feature-requirements-javascript": "Гэта магчымасць патрабуе JavaScript.",
 	"prefs-betafeatures": "Бэта магчымасці",
 	"tooltip-pt-betafeatures": "Бэта-магчымасці"
