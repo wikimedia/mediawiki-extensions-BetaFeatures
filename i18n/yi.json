@@ -4,6 +4,13 @@
 			"פוילישער"
 		]
 	},
+	"betafeatures-auto-enroll": "אויטאמאַטיש אַקטיווירן אַלע נייע בעטאַ־פֿונקציעס",
+	"betafeatures-extension-type": "בעטא־פֿונקציעס",
 	"betafeatures-toplink": "בעטא",
+	"mw-ui-feature-discuss": "שמועס",
+	"mw-ui-feature-info": "אינפֿארמאציע",
+	"mw-ui-feature-requirements-javascript": "די פֿונקציע פֿאדערט JavaScript.",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|איין באניצער פרואווט|$1 באניצער פרואוון|0=קיין באניצער פרואווט נישט}} די פֿונקציע.",
+	"prefs-betafeatures": "בעטא־פֿונקציעס",
 	"tooltip-pt-betafeatures": "בעטא פונקציאנען"
 }
