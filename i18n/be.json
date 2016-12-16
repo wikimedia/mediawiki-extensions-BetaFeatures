@@ -5,13 +5,21 @@
 			"Mechanizatar"
 		]
 	},
+	"apihelp-query+betafeatures-description": "Спіс усіх бэта-функцый",
+	"apihelp-query+betafeatures-example-1": "Атрымаць усе даступныя бэта-функцыі і колькасць удзельнікаў, якія карыстаюцца імі",
+	"apihelp-query+betafeatures-param-counts": "Паказваць, колькі ўдзельнікаў падключылі пэўную наладу.",
 	"betafeatures-auto-enroll": "Аўтаматычна задзейнічаць усе новыя бэта-магчымасці",
+	"betafeatures-desc": "Дазваляе карыстальніку ўключаць ці адключаць функцыі, якія яшчэ цалкам не дапрацаваныя",
 	"betafeatures-extension-type": "Бэта-магчымасці",
 	"betafeatures-section-desc": "Тут пададзен{{PLURAL:$1|а новая магчымасць, якую|ы некаторыя новыя магчымасці, якія}} мы разглядаем для {{SITENAME}}. Калі ласка, паспрабуйце {{PLURAL:$1|яе|іх}} і выкажыце сваё меркаванне, каб мы маглі палепшыць {{PLURAL:$1|яе|іх}}, засноўваючыся на вашых водгуках.",
 	"betafeatures-toplink": "Бэта",
 	"mw-ui-feature-discuss": "Абмеркаванне",
 	"mw-ui-feature-info": "Інфармацыя",
+	"mw-ui-feature-requirements-betafeatures": "Для гэтай функцыі неабходна ўключыць {{PLURAL:$1|наступную функцыю|наступныя функцыі}}:",
+	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|Гэты браўзер|Гэтыя браўзеры}} не падтрымліваюцца:",
 	"mw-ui-feature-requirements-javascript": "Гэта магчымасць патрабуе JavaScript.",
+	"mw-ui-feature-requirements-skins": "Гэтая функцыя працуе толькі з {{PLURAL:$1|наступнай тэмай|наступнымі тэмамі}}:",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|$1 удзельнік уключыў|$1 удзельнікі ўключылі|$1 удзельнікаў уключылі|0=Ніхто з удзельнікаў не ўключыў}} гэтую функцыю.",
 	"prefs-betafeatures": "Бэта магчымасці",
 	"tooltip-pt-betafeatures": "Бэта-магчымасці"
 }
