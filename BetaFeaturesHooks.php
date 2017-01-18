@@ -64,13 +64,18 @@ class BetaFeaturesHooks {
 	/**
 	 * @param User $user User who's just saved their preferences
 	 * @param array &$options List of options
-	 * @return bool
 	 */
-	static function updateUserCounts( $user, &$options ) {
+	static function updateUserCounts( User $user, &$options ) {
 		global $wgBetaFeatures;
 
 		// Let's find out what's changed
 		$oldUser = User::newFromName( $user->getName() );
+
+		if ( !$oldUser ) {
+			// Anonymous users do not have options, shorten out.
+			return;
+		}
+
 		$betaFeatures = $wgBetaFeatures;
 		Hooks::run( 'GetBetaFeaturePreferences', array( $user, &$betaFeatures ) );
 
@@ -91,8 +96,6 @@ class BetaFeaturesHooks {
 				)
 			);
 		}
-
-		return true;
 	}
 
 	/**
