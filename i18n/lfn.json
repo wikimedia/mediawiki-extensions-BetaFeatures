@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Katxis"
+			"Katxis",
+			"Cgboeree"
 		]
 	},
-	"betafeatures-toplink": "Beta"
+	"betafeatures-toplink": "Beta",
+	"tooltip-pt-betafeatures": "cualias spesial de Beta"
 }
