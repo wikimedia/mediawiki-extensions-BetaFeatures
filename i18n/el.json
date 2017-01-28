@@ -6,6 +6,7 @@
 			"Glavkos"
 		]
 	},
+	"apihelp-query+betafeatures-description": "Λίστα όλων των BetaFeatures",
 	"betafeatures-toplink": "Beta",
 	"mw-ui-feature-discuss": "Συζήτηση",
 	"mw-ui-feature-info": "Πληροφορία",
