@@ -38,7 +38,11 @@ class NewHTMLCheckFieldTest extends MediaWikiTestCase {
 		$html = $form->getHTML( false );
 
 		$this->assertRegExp( '#<tr class="mw-htmlform-field-NewHTMLCheckField">#', $html, 'Table row with class name not found.' );
-		$this->assertRegExp( "#<input type='checkbox' tabindex='0' aria-disabled='false' name='wpblahblahblah' value='1' checked='checked' class='oo-ui-inputWidget-input' />#", $html, 'Styled input not found.' );
-		$this->assertRegExp( "#<span class='oo-ui-labelElement-label'>blah blah blah</span>#", $html, 'Checkbox label not found.' );
+		$this->assertRegExp(
+			"#<input type='checkbox' tabindex='0' aria-disabled='false' name='wpblahblahblah' value='1' checked='checked' id='ooui-\d+' class='oo-ui-inputWidget-input' />#",
+			$html,
+			'Styled input not found.'
+		);
+		$this->assertRegExp( "#<label for='ooui-\d+' class='oo-ui-labelElement-label'>blah blah blah</label>#", $html, 'Checkbox label not found.' );
 	}
 }
