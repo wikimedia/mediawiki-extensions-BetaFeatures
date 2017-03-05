@@ -3,12 +3,14 @@
 		"authors": [
 			"Yueman",
 			"Ktchankt",
-			"Deryck Chan"
+			"Deryck Chan",
+			"Suzukaze-c"
 		]
 	},
 	"apihelp-query+betafeatures-description": "顯示所有試用功能",
 	"betafeatures-auto-enroll": "自動開所有新功能",
 	"betafeatures-extension-type": "試用版功能",
+	"betafeatures-section-desc": "下面{{PLURAL:$1|係}}我哋準備喺維基百科開嘅新功能，你可以幫手測試同提供寶貴反饋畀我哋，幫我哋改進。",
 	"betafeatures-toplink": "試用",
 	"mw-ui-feature-discuss": "討論",
 	"mw-ui-feature-info": "資訊",
