@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Horus",
-			"Nullzero"
+			"Nullzero",
+			"Aefgh39622"
 		]
 	},
 	"apihelp-query+betafeatures-description": "รายการคุณลักษณะระยะทดสอบทั้งหมด",
@@ -12,10 +13,9 @@
 	"betafeatures-desc": "ให้ผู้ใช้เปิดใช้งานหรือปิดใช้งานคุณลักษณะบนวิกินี้ที่ยังไม่พร้อมให้มีผู้ใช้งานจำนวนมาก",
 	"betafeatures-extension-type": "คุณลักษณะรุ่นทดสอบ",
 	"betafeatures-section-desc": "นี่คือ{{PLURAL:$1|คุณลักษณะ}}ใหม่ที่เรากำลังพิจารณาแก่ {{SITENAME}} โปรดลองใช้คุณลักษณะนี้และออกความเห็นเพื่อที่เราจะได้ปรับปรุงตามผลป้อนกลับของคุณ",
-	"betafeatures-tooltip": "แนะนำคุณลักษณะระยะทดสอบ! ส่วนการตั้งค่าใหม่นี้ให้คุณทดสอบและให้ผลป้อนกลับเกี่ยวกับคุณลักษณะใหม่ก่อนเราเปิดตัวเป็นค่าตั้งต้น ลองบางสิ่งเดี๋ยวนี้เลย!",
 	"betafeatures-toplink": "ระยะทดสอบ",
 	"mw-ui-feature-discuss": "อภิปราย",
-	"mw-ui-feature-info": "สารสนเทศ",
+	"mw-ui-feature-info": "ข้อมูลเพิ่มเติม",
 	"mw-ui-feature-requirements-betafeatures": "คุณลักษณะนี้ต้องการ{{PLURAL:$1|คุณลักษณะ| $1 คุณลักษณะ}}ต่อไปนี้จึงจะเปิดใช้งานได้:",
 	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|เบราเซอร์}}ต่อไปนี้ไม่รองรับ:",
 	"mw-ui-feature-requirements-javascript": "คุณลักษณะนี้ต้องการจาวาสคริปต์",
