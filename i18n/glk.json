@@ -1,10 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"V6rg"
+			"V6rg",
+			"شیخ"
 		]
 	},
 	"betafeatures-toplink": "آزميتي",
 	"mw-ui-feature-discuss": "بگۊبشتؤ",
-	"mw-ui-feature-info": "اطلاعات"
+	"mw-ui-feature-info": "اطلاعات",
+	"tooltip-pt-betafeatures": "أزميتي ايمکانات"
 }
