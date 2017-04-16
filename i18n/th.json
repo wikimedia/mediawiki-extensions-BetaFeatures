@@ -3,7 +3,8 @@
 		"authors": [
 			"Horus",
 			"Nullzero",
-			"Aefgh39622"
+			"Aefgh39622",
+			"Octahedron80"
 		]
 	},
 	"apihelp-query+betafeatures-description": "รายการคุณลักษณะระยะทดสอบทั้งหมด",
@@ -14,7 +15,7 @@
 	"betafeatures-extension-type": "คุณลักษณะรุ่นทดสอบ",
 	"betafeatures-section-desc": "นี่คือ{{PLURAL:$1|คุณลักษณะ}}ใหม่ที่เรากำลังพิจารณาแก่ {{SITENAME}} โปรดลองใช้คุณลักษณะนี้และออกความเห็นเพื่อที่เราจะได้ปรับปรุงตามผลป้อนกลับของคุณ",
 	"betafeatures-toplink": "ระยะทดสอบ",
-	"mw-ui-feature-discuss": "อภิปราย",
+	"mw-ui-feature-discuss": "การอภิปราย",
 	"mw-ui-feature-info": "ข้อมูลเพิ่มเติม",
 	"mw-ui-feature-requirements-betafeatures": "คุณลักษณะนี้ต้องการ{{PLURAL:$1|คุณลักษณะ| $1 คุณลักษณะ}}ต่อไปนี้จึงจะเปิดใช้งานได้:",
 	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|เบราเซอร์}}ต่อไปนี้ไม่รองรับ:",
