@@ -13,7 +13,6 @@
 	"betafeatures-desc": "La brukere aktivere eller deaktivere funksjoner på wikien som ikke enda er helt ferdige.",
 	"betafeatures-extension-type": "Betafunksjoner",
 	"betafeatures-section-desc": "Her {{PLURAL:$1|er en ny funksjon|er noen nye funksjoner}} vi vurderer å innføre på {{SITENAME}}. Prøv {{PLURAL:$1|den|dem}} gjerne og gi oss din tilbakemelding, så vi kan forbedre {{PLURAL:$1|den|dem}}.",
-	"betafeatures-tooltip": "Vi introduserer betafunksjoner! Denne nye innstillingsseksjonen lar deg teste og gi tilbakemelding på nye funksjoner før vi lanserer dem som standardfunksjoner. Prøv noe nytt nå!",
 	"betafeatures-toplink": "Beta",
 	"mw-ui-feature-discuss": "Diskusjon",
 	"mw-ui-feature-info": "Informasjon",
