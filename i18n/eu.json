@@ -13,6 +13,7 @@
 	"mw-ui-feature-info": "Informazioa",
 	"mw-ui-feature-requirements-javascript": "Funtzionalitate honek JavaScript behar du.",
 	"mw-ui-feature-requirements-skins": "Funtzionalitate hau {{PLURAL:$1|the following skin|azal hauekin}} dabil soilik:",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|Erabiltzaile bat funtzionalitate hau probatzen ari da|$1 erabiltzaile funtzionalitate hau probatzen ari dira|0=Inor ez da funtzionalitate hau probatzen ari}}.",
 	"prefs-betafeatures": "Beta funtzioak",
 	"tooltip-pt-betafeatures": "Beta funtzioak"
 }
