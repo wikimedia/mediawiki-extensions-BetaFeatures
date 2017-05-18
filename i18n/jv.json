@@ -15,7 +15,7 @@
 	"mw-ui-feature-requirements-betafeatures": "Fitur iki bisa dianggo yèn {{PLURAL:$1|fitur}} iki diurubaké:",
 	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|Pangluru}} ngisor iki ora kajurung:",
 	"mw-ui-feature-requirements-javascript": "Fitur iki butuh JavaScript.",
-	"mw-ui-feature-requirements-skins": "Fitur iki mung lumaku sarana {{PLURAL:$1|kulit iki}}:",
+	"mw-ui-feature-requirements-skins": "Fitur iki mung lumaku sarana {{PLURAL:$1|ules iki}}:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|Ana siji panganggo|Ana $1 panganggo|0=Ora ana panganggo}} sing njajal fitur iki.",
 	"prefs-betafeatures": "Fitur béta",
 	"tooltip-pt-betafeatures": "Fitur béta"

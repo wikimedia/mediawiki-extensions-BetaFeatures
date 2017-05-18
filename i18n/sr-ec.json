@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Milicevic01",
-			"Zoranzoki21"
+			"Zoranzoki21",
+			"Obsuser"
 		]
 	},
 	"apihelp-query+betafeatures-description": "Листа свих Бета могућности",
@@ -15,7 +16,7 @@
 	"mw-ui-feature-info": "Информације",
 	"mw-ui-feature-requirements-betafeatures": "За ову могућност потребно је омогућити {{PLURAL:$1|следећу могућност|следеће могућности}}:",
 	"mw-ui-feature-requirements-javascript": "За ову могућност је потребна JavaScript-а.",
-	"mw-ui-feature-user-count": "{{PLURAL:$1|1=Један корисник је укључио ову могућност|Ову могућност је укључило $1 корисника|0=Ниједан корисник није укључио ову могућност}}.",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|1=Један корисник је укључио ову могућност|Ову могућност су укључила $1 корисника|Ову могућност је укључило $1 корисника|0=Ниједан корисник није укључио ову могућност}}.",
 	"prefs-betafeatures": "Бета могућности",
 	"tooltip-pt-betafeatures": "Бета могућности"
 }
