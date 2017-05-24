@@ -29,18 +29,18 @@ class HooksRunTest extends MediaWikiTestCase {
 	const testPrefKey = 'unittest';
 
 	// Structure of testing preference
-	static $testPref = array(
+	public static $testPref = array(
 		'label-message' => 'nullish',
 		'desc-message' => 'nullish',
 		'info-link' => 'http://example.org/features',
 		'discussion-link' => 'http://example.org/feedback',
 	);
 
-	static function nullHook( $user, &$betaPrefs ) {
+	public static function nullHook( $user, &$betaPrefs ) {
 		return true;
 	}
 
-	static function hookThatRegistersPreference( $user, &$betaPrefs ) {
+	public static function hookThatRegistersPreference( $user, &$betaPrefs ) {
 		$betaPrefs[self::testPrefKey] = self::$testPref;
 		return true;
 	}

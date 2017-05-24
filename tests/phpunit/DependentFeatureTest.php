@@ -32,7 +32,7 @@ class DependentFeatureTest extends BetaFeaturesTestCase {
 	const testDepsKey = 'DependentFeatureTestDependencyCheck';
 
 	// Structure of testing preference
-	static $testPref = array(
+	public static $testPref = array(
 		'label-message' => 'nullish',
 		'desc-message' => 'nullish',
 		'info-link' => 'http://example.org/features',
@@ -40,20 +40,20 @@ class DependentFeatureTest extends BetaFeaturesTestCase {
 		'dependent' => true,
 	);
 
-	static function failHook() {
+	public static function failHook() {
 		return false;
 	}
 
-	static function passHook() {
+	public static function passHook() {
 		return true;
 	}
 
-	static function hookThatRegistersPreference( $user, &$betaPrefs ) {
+	public static function hookThatRegistersPreference( $user, &$betaPrefs ) {
 		$betaPrefs[self::testPrefKey] = self::$testPref;
 		return true;
 	}
 
-	static function hookThatRegistersDependency( &$depHooks ) {
+	public static function hookThatRegistersDependency( &$depHooks ) {
 		$depHooks[self::testPrefKey] = self::testDepsKey;
 		return true;
 	}

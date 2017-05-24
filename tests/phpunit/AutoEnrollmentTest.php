@@ -26,7 +26,7 @@
 class AutoEnrollmentTest extends BetaFeaturesTestCase {
 
 	// Structure of testing preference
-	static $testPrefs = array(
+	public static $testPrefs = array(
 		'unittest-all' => array(
 			'label-message' => 'nullish',
 			'desc-message' => 'nullish',
@@ -62,7 +62,7 @@ class AutoEnrollmentTest extends BetaFeaturesTestCase {
 		),
 	);
 
-	static function hookThatRegistersPreference( $user, &$betaPrefs ) {
+	public static function hookThatRegistersPreference( $user, &$betaPrefs ) {
 		foreach ( self::$testPrefs as $key => $testPref ) {
 			$betaPrefs[$key] = $testPref;
 		}
@@ -70,7 +70,7 @@ class AutoEnrollmentTest extends BetaFeaturesTestCase {
 		return true;
 	}
 
-	static function getTestData() {
+	public static function getTestData() {
 		return array(
 			array(
 				null,
