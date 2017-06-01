@@ -59,6 +59,10 @@ class HooksRunTest extends MediaWikiTestCase {
 		$prefs = array();
 		Hooks::run( 'GetBetaFeaturePreferences', array( $this->user, &$prefs ) );
 		$this->assertArrayHasKey( self::testPrefKey, $prefs, 'Hook did not run' );
-		$this->assertEquals( $prefs[self::testPrefKey], self::$testPref, 'The returned preference was not the same as what we registered.' );
+		$this->assertEquals(
+			$prefs[self::testPrefKey],
+			self::$testPref,
+			'The returned preference was not the same as what we registered.'
+		);
 	}
 }

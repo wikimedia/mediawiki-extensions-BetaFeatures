@@ -133,7 +133,8 @@ class AutoEnrollmentTest extends BetaFeaturesTestCase {
 				HTMLFeatureField::OPTION_ENABLED,
 				'unittest-ft3',
 				null,
-				'The preferences was not set despite auto-enroll because it is exempt-from-auto-enrollment.',
+				'The preferences was not set despite auto-enroll ' .
+					'because it is exempt-from-auto-enrollment.',
 			),
 		);
 	}
@@ -143,8 +144,8 @@ class AutoEnrollmentTest extends BetaFeaturesTestCase {
 
 		parent::setUp();
 
-		$wgHooks['GetBetaFeaturePreferences'] = array( 'AutoEnrollmentTest::hookThatRegistersPreference' );
-
+		$wgHooks['GetBetaFeaturePreferences'] =
+			array( 'AutoEnrollmentTest::hookThatRegistersPreference' );
 	}
 
 	/**

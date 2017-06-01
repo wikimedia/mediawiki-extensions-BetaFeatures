@@ -45,7 +45,9 @@ class PreferenceHandlingTest extends BetaFeaturesTestCase {
 
 		return array(
 			array( 'Invalid preference should cause an error', $invalidPref, null ),
-			array( 'Totally valid preference should get set accurately', $validPref, $validPrefPostHook ),
+			array(
+				'Totally valid preference should get set accurately', $validPref, $validPrefPostHook
+			),
 		);
 	}
 
@@ -56,10 +58,12 @@ class PreferenceHandlingTest extends BetaFeaturesTestCase {
 		global $wgHooks;
 		$prefkey = self::testPrefKey;
 		$prefs = array();
-		$wgHooks['GetBetaFeaturePreferences'] = array( function ( $user, &$prefs ) use ( $pref, $prefkey ) {
-			$prefs[$prefkey] = $pref;
-			return true;
-		} );
+		$wgHooks['GetBetaFeaturePreferences'] = array(
+			function ( $user, &$prefs ) use ( $pref, $prefkey ) {
+				$prefs[$prefkey] = $pref;
+				return true;
+			}
+		);
 
 		try {
 			Hooks::run( 'GetPreferences', array( $this->user, &$prefs ) );

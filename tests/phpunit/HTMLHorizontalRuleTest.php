@@ -35,8 +35,14 @@ class HTMLHorizontalRuleFieldTest extends MediaWikiTestCase {
 		$form->prepareForm();
 		$html = $form->getHTML( false );
 
-		$this->assertRegExp( '#<tr class="mw-htmlform-field-HTMLHorizontalRuleField">#', $html, 'Table row with class name not found.' );
+		$this->assertRegExp(
+			'#<tr class="mw-htmlform-field-HTMLHorizontalRuleField">#',
+			$html,
+			'Table row with class name not found.'
+		);
 
-		$this->assertRegExp( '#<td class="mw-input"><hr/>\n</td>#', $html, 'Actual HR element not found.' );
+		$this->assertRegExp(
+			'#<td class="mw-input"><hr/>\n</td>#', $html, 'Actual HR element not found.'
+		);
 	}
 }

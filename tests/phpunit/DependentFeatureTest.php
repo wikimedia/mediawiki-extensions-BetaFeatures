@@ -64,8 +64,10 @@ class DependentFeatureTest extends BetaFeaturesTestCase {
 		parent::setUp();
 
 		$wgHooks[self::testDepsKey] = array();
-		$wgHooks['GetBetaFeaturePreferences'][] = 'DependentFeatureTest::hookThatRegistersPreference';
-		$wgHooks['GetBetaFeatureDependencyHooks'][] = 'DependentFeatureTest::hookThatRegistersDependency';
+		$wgHooks['GetBetaFeaturePreferences'][] =
+			'DependentFeatureTest::hookThatRegistersPreference';
+		$wgHooks['GetBetaFeatureDependencyHooks'][] =
+			'DependentFeatureTest::hookThatRegistersDependency';
 
 	}
 
@@ -78,7 +80,9 @@ class DependentFeatureTest extends BetaFeaturesTestCase {
 
 		Hooks::run( 'GetPreferences', array( $this->user, &$prefs ) );
 
-		$this->assertArrayHasKey( self::testPrefKey, $prefs, 'Hook did not run with passing dependency.' );
+		$this->assertArrayHasKey(
+			self::testPrefKey, $prefs, 'Hook did not run with passing dependency.'
+		);
 	}
 
 	public function testFailingDependency() {
@@ -90,7 +94,9 @@ class DependentFeatureTest extends BetaFeaturesTestCase {
 
 		Hooks::run( 'GetPreferences', array( $this->user, &$prefs ) );
 
-		$this->assertArrayNotHasKey( self::testPrefKey, $prefs, 'Hook ran with failing dependency.' );
+		$this->assertArrayNotHasKey(
+			self::testPrefKey, $prefs, 'Hook ran with failing dependency.'
+		);
 	}
 
 	public function testNoDependency() {
@@ -98,6 +104,8 @@ class DependentFeatureTest extends BetaFeaturesTestCase {
 
 		Hooks::run( 'GetPreferences', array( $this->user, &$prefs ) );
 
-		$this->assertArrayHasKey( self::testPrefKey, $prefs, 'Hook did not run without dependency.' );
+		$this->assertArrayHasKey(
+			self::testPrefKey, $prefs, 'Hook did not run without dependency.'
+		);
 	}
 }
