@@ -41,6 +41,6 @@ class HTMLHorizontalRuleField extends HTMLFormField {
 	 * @return string
 	 */
 	function getInputHTML( $value, $attr = null ) {
-		return Html::element( 'hr', array() );
+		return Html::element( 'hr', [] );
 	}
 }

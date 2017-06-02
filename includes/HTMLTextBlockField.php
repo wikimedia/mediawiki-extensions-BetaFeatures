@@ -56,6 +56,6 @@ class HTMLTextBlockField extends HTMLFormField {
 	 * @return string
 	 */
 	function getInputHTML( $value, $attr = null ) {
-		return Html::rawElement( 'div', array(), $this->mLabel );
+		return Html::rawElement( 'div', [], $this->mLabel );
 	}
 }

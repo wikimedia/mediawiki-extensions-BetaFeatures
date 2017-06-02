@@ -34,14 +34,14 @@ class BetaFeaturesHooks {
 	 * This also includes a magic value of 'blacklist', which consequently MUST NOT be
 	 * used as the name of any registered Beta Feature.
 	 */
-	private static $features = array();
+	private static $features = [];
 
 	/**
 	 * @param array $prefs
 	 * @return array
 	 */
 	static function getUserCounts( array $prefs ) {
-		$counts = array();
+		$counts = [];
 		if ( !$prefs ) {
 			return $counts;
 		}
@@ -49,8 +49,8 @@ class BetaFeaturesHooks {
 		$dbr = wfGetDB( DB_SLAVE );
 		$res = $dbr->select(
 			'betafeatures_user_counts',
-			array( 'feature', 'number' ),
-			array( 'feature' => $prefs ),
+			[ 'feature', 'number' ],
+			[ 'feature' => $prefs ],
 			__METHOD__
 		);
 
@@ -77,7 +77,7 @@ class BetaFeaturesHooks {
 		}
 
 		$betaFeatures = $wgBetaFeatures;
-		Hooks::run( 'GetBetaFeaturePreferences', array( $user, &$betaFeatures ) );
+		Hooks::run( 'GetBetaFeaturePreferences', [ $user, &$betaFeatures ] );
 
 		foreach ( $betaFeatures as $name => $option ) {
 			$newVal = $user->getOption( $name );
@@ -92,7 +92,7 @@ class BetaFeaturesHooks {
 			JobQueueGroup::singleton()->push(
 				new UpdateBetaFeatureUserCountsJob(
 					Title::newMainPage(),
-					array( 'prefs' => array( $name ) )
+					[ 'prefs' => [ $name ] ]
 				)
 			);
 		}
@@ -108,39 +108,39 @@ class BetaFeaturesHooks {
 		global $wgBetaFeaturesWhitelist, $wgBetaFeatures;
 
 		$betaPrefs = $wgBetaFeatures;
-		$depHooks = array();
+		$depHooks = [];
 
-		Hooks::run( 'GetBetaFeaturePreferences', array( $user, &$betaPrefs ) );
+		Hooks::run( 'GetBetaFeaturePreferences', [ $user, &$betaPrefs ] );
 
-		$prefs['betafeatures-section-desc'] = array(
+		$prefs['betafeatures-section-desc'] = [
 			'class' => 'HTMLTextBlockField',
 			'label' => wfMessage( 'betafeatures-section-desc' )->numParams( count( $betaPrefs ) )->parse(),
 			'section' => 'betafeatures',
-		);
+		];
 
-		$prefs['betafeatures-auto-enroll'] = array(
+		$prefs['betafeatures-auto-enroll'] = [
 			'class' => 'NewHTMLCheckField',
 			'label-message' => 'betafeatures-auto-enroll',
 			'section' => 'betafeatures',
-		);
+		];
 
 		// Purely visual field.
-		$prefs['betafeatures-breaking-hr'] = array(
+		$prefs['betafeatures-breaking-hr'] = [
 			'class' => 'HTMLHorizontalRuleField',
 			'section' => 'betafeatures',
-		);
+		];
 
 		$counts = self::getUserCounts( array_keys( $betaPrefs ) );
 
 		// Set up dependency hooks array
 		// This complex structure brought to you by Per-Wiki Configuration,
 		// coming soon to a wiki very near you.
-		Hooks::run( 'GetBetaFeatureDependencyHooks', array( &$depHooks ) );
+		Hooks::run( 'GetBetaFeatureDependencyHooks', [ &$depHooks ] );
 
 		$saveUser = false;
 		$autoEnrollAll =
 			$user->getOption( 'betafeatures-auto-enroll' ) === HTMLFeatureField::OPTION_ENABLED;
-		$autoEnroll = array();
+		$autoEnroll = [];
 
 		foreach ( $betaPrefs as $key => $info ) {
 			if ( isset( $info['auto-enrollment'] ) ) {
@@ -169,12 +169,12 @@ class BetaFeaturesHooks {
 				continue;
 			}
 
-			$opt = array(
+			$opt = [
 				'class' => 'HTMLFeatureField',
 				'section' => 'betafeatures',
-			);
+			];
 
-			$requiredFields = array(
+			$requiredFields = [
 				'label-message' => true,
 				'desc-message' => true,
 				'screenshot' => false,
@@ -183,7 +183,7 @@ class BetaFeaturesHooks {
 				'info-message' => false,
 				'discussion-link' => false,
 				'discussion-message' => false,
-			);
+			];
 
 			foreach ( $requiredFields as $field => $required ) {
 				if ( isset( $info[$field] ) ) {
@@ -232,13 +232,13 @@ class BetaFeaturesHooks {
 		}
 
 		foreach ( $betaPrefs as $key => $info ) {
-			$requirements = array();
+			$requirements = [];
 
 			if ( isset( $prefs[$key]['requirements'] ) ) {
 
 				// Check which other beta features are required, and fetch their labels
 				if ( isset( $prefs[$key]['requirements']['betafeatures'] ) ) {
-					$requiredPrefs = array();
+					$requiredPrefs = [];
 					foreach ( $prefs[$key]['requirements']['betafeatures'] as $preference ) {
 						if ( !$user->getOption( $preference ) ) {
 							$requiredPrefs[] = $prefs[$preference]['label-message'];
@@ -309,15 +309,15 @@ class BetaFeaturesHooks {
 	static function getBetaFeaturesLink( &$personal_urls, Title $title, SkinTemplate $skintemplate ) {
 		$user = $skintemplate->getUser();
 		if ( $user->isLoggedIn() ) {
-			$personal_urls = wfArrayInsertAfter( $personal_urls, array(
-				'betafeatures' => array(
+			$personal_urls = wfArrayInsertAfter( $personal_urls, [
+				'betafeatures' => [
 					'text' => wfMessage( 'betafeatures-toplink' )->text(),
 					'href' => SpecialPage::getTitleFor(
 						'Preferences', false, 'mw-prefsection-betafeatures'
 					)->getLinkURL(),
 					'active' => $title->isSpecial( 'Preferences' ),
-				),
-			), 'preferences' );
+				],
+			], 'preferences' );
 		}
 
 		return true;

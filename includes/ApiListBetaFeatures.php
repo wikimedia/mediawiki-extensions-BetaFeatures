@@ -34,13 +34,13 @@ class ApiQueryBetaFeatures extends ApiQueryBase {
 
 		$prefs = $wgBetaFeatures;
 		$user = User::newFromName( 'MediaWiki default' );
-		Hooks::run( 'GetBetaFeaturePreferences', array( $user, &$prefs ) );
+		Hooks::run( 'GetBetaFeaturePreferences', [ $user, &$prefs ] );
 
 		$counts = isset( $params['counts'] )
 			? BetaFeaturesHooks::getUserCounts( array_keys( $prefs ) )
-			: array();
+			: [];
 		foreach ( $prefs as $key => $info ) {
-			$path = array( 'query', $this->getModuleName(), $key );
+			$path = [ 'query', $this->getModuleName(), $key ];
 			$this->getResult()->addValue(
 				$path,
 				'name',
@@ -60,19 +60,19 @@ class ApiQueryBetaFeatures extends ApiQueryBase {
 	}
 
 	public function getAllowedParams() {
-		return array(
+		return [
 			'counts' => null,
-		);
+		];
 	}
 
 	/**
 	 * @see ApiBase::getExamplesMessages()
 	 */
 	protected function getExamplesMessages() {
-		return array(
+		return [
 			'action=query&list=betafeatures&bfcounts='
 				=> 'apihelp-query+betafeatures-example-1',
-		);
+		];
 	}
 
 	public function getHelpUrls() {

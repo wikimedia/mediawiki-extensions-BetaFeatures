@@ -40,35 +40,35 @@ class UpdateBetaFeatureUserCountsJob extends Job {
 
 		$res = $dbw->select(
 			'user_properties',
-			array(
+			[
 				'number' => 'COUNT(up_property)',
 				'feature' => 'up_property',
-			),
-			array(
+			],
+			[
 				'up_value' => HTMLFeatureField::OPTION_ENABLED,
 				'up_property' => $this->params['prefs'],
-			),
+			],
 			__METHOD__,
-			array(
+			[
 				'GROUP BY' => 'up_property',
-			)
+			]
 		);
 
 		if ( !$res ) {
 			return false;
 		}
 
-		$rows = array();
+		$rows = [];
 		foreach ( $res as $row ) {
-			$rows[] = array(
+			$rows[] = [
 				'feature' => $row->feature,
 				'number' => $row->number,
-			);
+			];
 		}
 
 		$dbw->replace(
 			'betafeatures_user_counts',
-			array( 'feature' ),
+			[ 'feature' ],
 			$rows,
 			__METHOD__
 		);

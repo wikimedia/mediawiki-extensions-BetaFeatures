@@ -50,7 +50,7 @@ class NewHTMLCheckField extends HTMLCheckField {
 
 		// TODO: Support $this->getTooltipAndAccessKey?
 
-		return Html::openElement( 'div', array( 'class' => 'mw-ui-feature-checkbox' ) ) .
+		return Html::openElement( 'div', [ 'class' => 'mw-ui-feature-checkbox' ] ) .
 			new OOUI\FieldLayout(
 				new OOUI\CheckboxInputWidget( [
 					'name' => $this->mName,
@@ -74,7 +74,7 @@ class NewHTMLCheckField extends HTMLCheckField {
 	protected function getPostCheckboxLabelHTML() {
 		return Html::rawElement(
 			'label',
-			array( 'for' => $this->mID, 'class' => 'mw-ui-text-check-label' ),
+			[ 'for' => $this->mID, 'class' => 'mw-ui-text-check-label' ],
 			$this->mLabel
 		);
 	}

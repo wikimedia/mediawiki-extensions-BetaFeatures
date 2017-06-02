@@ -2,151 +2,150 @@
 /**
  * Aliases for special pages in the BetaFeatures extension.
  */
-// @codingStandardsIgnoreFile
 
-$specialPageAliases = array();
+$specialPageAliases = [];
 
 /** English (English) */
-$specialPageAliases['en'] = array(
-	'BetaFeatures' => array( 'BetaFeatures' ),
-);
+$specialPageAliases['en'] = [
+	'BetaFeatures' => [ 'BetaFeatures' ],
+];
 
 /** Arabic (العربية) */
-$specialPageAliases['ar'] = array(
-	'BetaFeatures' => array( 'خصائص_البيتا' ),
-);
+$specialPageAliases['ar'] = [
+	'BetaFeatures' => [ 'خصائص_البيتا' ],
+];
 
 /** Egyptian Arabic (مصرى) */
-$specialPageAliases['arz'] = array(
-	'BetaFeatures' => array( 'خصايص_البيتا' ),
-);
+$specialPageAliases['arz'] = [
+	'BetaFeatures' => [ 'خصايص_البيتا' ],
+];
 
 /** Western Balochi (بلوچی رخشانی) */
-$specialPageAliases['bgn'] = array(
-	'BetaFeatures' => array( 'ازمایشین_قابلیت' ),
-);
+$specialPageAliases['bgn'] = [
+	'BetaFeatures' => [ 'ازمایشین_قابلیت' ],
+];
 
 /** German (Deutsch) */
-$specialPageAliases['de'] = array(
-	'BetaFeatures' => array( 'Beta-Funktionen' ),
-);
+$specialPageAliases['de'] = [
+	'BetaFeatures' => [ 'Beta-Funktionen' ],
+];
 
 /** Zazaki (Zazaki) */
-$specialPageAliases['diq'] = array(
-	'BetaFeatures' => array( 'XısusiyetêBeta' ),
-);
+$specialPageAliases['diq'] = [
+	'BetaFeatures' => [ 'XısusiyetêBeta' ],
+];
 
 /** British English (British English) */
-$specialPageAliases['en-gb'] = array(
-	'BetaFeatures' => array( 'BetaFeatures' ),
-);
+$specialPageAliases['en-gb'] = [
+	'BetaFeatures' => [ 'BetaFeatures' ],
+];
 
 /** Estonian (eesti) */
-$specialPageAliases['et'] = array(
-	'BetaFeatures' => array( 'Beeta' ),
-);
+$specialPageAliases['et'] = [
+	'BetaFeatures' => [ 'Beeta' ],
+];
 
 /** Persian (فارسی) */
-$specialPageAliases['fa'] = array(
-	'BetaFeatures' => array( 'قابلیت‌های_آزمایشی' ),
-);
+$specialPageAliases['fa'] = [
+	'BetaFeatures' => [ 'قابلیت‌های_آزمایشی' ],
+];
 
 /** Hebrew (עברית) */
-$specialPageAliases['he'] = array(
-	'BetaFeatures' => array( 'אפשרויות_בטא' ),
-);
+$specialPageAliases['he'] = [
+	'BetaFeatures' => [ 'אפשרויות_בטא' ],
+];
 
 /** Upper Sorbian (hornjoserbsce) */
-$specialPageAliases['hsb'] = array(
-	'BetaFeatures' => array( 'Beta-funkcije' ),
-);
+$specialPageAliases['hsb'] = [
+	'BetaFeatures' => [ 'Beta-funkcije' ],
+];
 
 /** Korean (한국어) */
-$specialPageAliases['ko'] = array(
-	'BetaFeatures' => array( '베타기능' ),
-);
+$specialPageAliases['ko'] = [
+	'BetaFeatures' => [ '베타기능' ],
+];
 
 /** Luxembourgish (Lëtzebuergesch) */
-$specialPageAliases['lb'] = array(
-	'BetaFeatures' => array( 'Beta-Fumktiounen' ),
-);
+$specialPageAliases['lb'] = [
+	'BetaFeatures' => [ 'Beta-Fumktiounen' ],
+];
 
 /** Northern Luri (لۊری شومالی) */
-$specialPageAliases['lrc'] = array(
-	'BetaFeatures' => array( 'خوصوٙصیات_بئتا' ),
-);
+$specialPageAliases['lrc'] = [
+	'BetaFeatures' => [ 'خوصوٙصیات_بئتا' ],
+];
 
 /** Malagasy (Malagasy) */
-$specialPageAliases['mg'] = array(
-	'BetaFeatures' => array( 'FitaovanaBeta' ),
-);
+$specialPageAliases['mg'] = [
+	'BetaFeatures' => [ 'FitaovanaBeta' ],
+];
 
 /** Macedonian (македонски) */
-$specialPageAliases['mk'] = array(
-	'BetaFeatures' => array( 'БетаФункции' ),
-);
+$specialPageAliases['mk'] = [
+	'BetaFeatures' => [ 'БетаФункции' ],
+];
 
 /** Malayalam (മലയാളം) */
-$specialPageAliases['ml'] = array(
-	'BetaFeatures' => array( 'പരീക്ഷണസൗകര്യങ്ങൾ' ),
-);
+$specialPageAliases['ml'] = [
+	'BetaFeatures' => [ 'പരീക്ഷണസൗകര്യങ്ങൾ' ],
+];
 
 /** Malay (Bahasa Melayu) */
-$specialPageAliases['ms'] = array(
-	'BetaFeatures' => array( 'Ciri-ciri_beta' ),
-);
+$specialPageAliases['ms'] = [
+	'BetaFeatures' => [ 'Ciri-ciri_beta' ],
+];
 
 /** Min Nan Chinese (Bân-lâm-gú) */
-$specialPageAliases['nan'] = array(
-	'BetaFeatures' => array( 'Chhì-iōng_kong-lêng' ),
-);
+$specialPageAliases['nan'] = [
+	'BetaFeatures' => [ 'Chhì-iōng_kong-lêng' ],
+];
 
 /** Dutch (Nederlands) */
-$specialPageAliases['nl'] = array(
-	'BetaFeatures' => array( 'BetaMogelijkheden' ),
-);
+$specialPageAliases['nl'] = [
+	'BetaFeatures' => [ 'BetaMogelijkheden' ],
+];
 
 /** Punjabi (ਪੰਜਾਬੀ) */
-$specialPageAliases['pa'] = array(
-	'BetaFeatures' => array( 'ਬੀਟਾ_ਗੁਣ' ),
-);
+$specialPageAliases['pa'] = [
+	'BetaFeatures' => [ 'ਬੀਟਾ_ਗੁਣ' ],
+];
 
 /** Polish (polski) */
-$specialPageAliases['pl'] = array(
-	'BetaFeatures' => array( 'Funkcje_eksperymentalne' ),
-);
+$specialPageAliases['pl'] = [
+	'BetaFeatures' => [ 'Funkcje_eksperymentalne' ],
+];
 
 /** Brazilian Portuguese (português do Brasil) */
-$specialPageAliases['pt-br'] = array(
-	'BetaFeatures' => array( 'Recursos_beta' ),
-);
+$specialPageAliases['pt-br'] = [
+	'BetaFeatures' => [ 'Recursos_beta' ],
+];
 
 /** Swedish (svenska) */
-$specialPageAliases['sv'] = array(
-	'BetaFeatures' => array( 'Beta-funktioner' ),
-);
+$specialPageAliases['sv'] = [
+	'BetaFeatures' => [ 'Beta-funktioner' ],
+];
 
 /** Ukrainian (українська) */
-$specialPageAliases['uk'] = array(
-	'BetaFeatures' => array( 'Бета-функції' ),
-);
+$specialPageAliases['uk'] = [
+	'BetaFeatures' => [ 'Бета-функції' ],
+];
 
 /** Vietnamese (Tiếng Việt) */
-$specialPageAliases['vi'] = array(
-	'BetaFeatures' => array( 'Tính_năng_beta' ),
-);
+$specialPageAliases['vi'] = [
+	'BetaFeatures' => [ 'Tính_năng_beta' ],
+];
 
 /** Chinese (中文) */
-$specialPageAliases['zh'] = array(
-	'BetaFeatures' => array( '测试功能', '測試功能' ),
-);
+$specialPageAliases['zh'] = [
+	'BetaFeatures' => [ '测试功能', '測試功能' ],
+];
 
 /** Simplified Chinese (中文（简体）‎) */
-$specialPageAliases['zh-hans'] = array(
-	'BetaFeatures' => array( '测试功能' ),
-);
+$specialPageAliases['zh-hans'] = [
+	'BetaFeatures' => [ '测试功能' ],
+];
 
 /** Traditional Chinese (中文（繁體）‎) */
-$specialPageAliases['zh-hant'] = array(
-	'BetaFeatures' => array( '測試功能' ),
-);
+$specialPageAliases['zh-hant'] = [
+	'BetaFeatures' => [ '測試功能' ],
+];
