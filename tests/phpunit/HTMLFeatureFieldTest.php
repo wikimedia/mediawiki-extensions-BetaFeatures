@@ -26,56 +26,56 @@
 class HTMLFeatureFieldTest extends MediaWikiTestCase {
 
 	public function testCreatingFieldGivesExpectedStrings() {
-		$form = new HTMLForm( array(
-			'blahblahblah' => array(
+		$form = new HTMLForm( [
+			'blahblahblah' => [
 				'class' => 'HTMLFeatureField',
 				'label-message' => 'betafeatures-test-check-field',
 				'desc-message' => 'betafeatures-test-feature-field',
 				'info-link' => 'http://example.org/features',
 				'discussion-link' => 'http://example.org/feedback',
-			),
-		) );
+			],
+		] );
 		$form->setTitle( Title::newMainPage() );
 		$form->prepareForm();
 		$html = $form->getHTML( false );
 
-		$cases = array(
-			array(
+		$cases = [
+			[
 				'pattern' => '#<tr class="mw-htmlform-field-HTMLFeatureField">#',
 				'message' => 'Table row with class name not found.',
-			),
-			array(
+			],
+			[
 				'pattern' => "#<input type='checkbox' tabindex='0' aria-disabled='false' " .
 					"name='wpblahblahblah' value='1' id='ooui-\d+' class='oo-ui-inputWidget-input' />#",
 				'message' => 'Styled checkbox input not found.',
-			),
-			array(
+			],
+			[
 				'pattern' => "#<label for='ooui-\d+' class='oo-ui-labelElement-label'>" .
 					"blah blah blah</label>#",
 				'message' => 'Checkbox label not found.',
-			),
-			array(
+			],
+			[
 				'pattern' => '#<p class="mw-ui-feature-description">This is a test feature - ' .
 					'it should not show up.</p>#',
 				'message' => 'Feature description not found',
-			),
-			array(
+			],
+			[
 				'pattern' => '#<div class="mw-ui-feature-meta">#',
 				'message' => 'Meta div not found.',
-			),
-			array(
+			],
+			[
 				'pattern' => '#<a href="http://example.org/features" class="mw-ui-feature-info-link">#',
 				'message' => 'Feature information link not found',
-			),
-			array(
+			],
+			[
 				'pattern' => '#<a href="http://example.org/feedback" class="mw-ui-feature-discussion-link">#',
 				'message' => 'Discussion link not found',
-			),
-			array(
+			],
+			[
 				'pattern' => '#<div class="mw-ui-feature-screenshot-contain"></div>#',
 				'message' => 'Screenshot div not empty or not found.',
-			),
-		);
+			],
+		];
 
 		foreach ( $cases as $case ) {
 			$this->assertRegExp(

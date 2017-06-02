@@ -28,27 +28,27 @@ class PreferenceHandlingTest extends BetaFeaturesTestCase {
 	const testPrefKey = 'unittest';
 
 	static function preferenceListing() {
-		$invalidPref = array(
+		$invalidPref = [
 			'screenshot' => 'google it bro',
-		);
+		];
 
-		$validPref = array(
+		$validPref = [
 			'label-message' => 'soup-label',
 			'desc-message' => 'something-something-desc-side',
 			'info-link' => 'http://example.org/features',
 			'discussion-link' => 'http://example.org/feedback',
-		);
+		];
 
 		$validPrefPostHook = $validPref;
 		$validPrefPostHook['class'] = 'HTMLFeatureField';
 		$validPrefPostHook['section'] = 'betafeatures';
 
-		return array(
-			array( 'Invalid preference should cause an error', $invalidPref, null ),
-			array(
+		return [
+			[ 'Invalid preference should cause an error', $invalidPref, null ],
+			[
 				'Totally valid preference should get set accurately', $validPref, $validPrefPostHook
-			),
-		);
+			],
+		];
 	}
 
 	/**
@@ -57,16 +57,16 @@ class PreferenceHandlingTest extends BetaFeaturesTestCase {
 	public function testHandlingOfPreferences( $msg, $pref, $expected ) {
 		global $wgHooks;
 		$prefkey = self::testPrefKey;
-		$prefs = array();
-		$wgHooks['GetBetaFeaturePreferences'] = array(
+		$prefs = [];
+		$wgHooks['GetBetaFeaturePreferences'] = [
 			function ( $user, &$prefs ) use ( $pref, $prefkey ) {
 				$prefs[$prefkey] = $pref;
 				return true;
 			}
-		);
+		];
 
 		try {
-			Hooks::run( 'GetPreferences', array( $this->user, &$prefs ) );
+			Hooks::run( 'GetPreferences', [ $this->user, &$prefs ] );
 		} catch ( BetaFeaturesMissingFieldException $e ) {
 			if ( $expected === null ) {
 				$this->assertEquals( 'BetaFeaturesMissingFieldException', get_class( $e ) );

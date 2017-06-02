@@ -32,8 +32,8 @@ class BetaFeaturesTestCase extends MediaWikiTestCase {
 
 		// Avoid interactions with other extensions
 		$newHooks = $wgHooks;
-		$newHooks['GetPreferences'] = array( 'BetaFeaturesHooks::getPreferences' );
-		$this->setMwGlobals( array( 'wgHooks' => $newHooks ) );
+		$newHooks['GetPreferences'] = [ 'BetaFeaturesHooks::getPreferences' ];
+		$this->setMwGlobals( [ 'wgHooks' => $newHooks ] );
 
 		$this->user = $this->getMutableTestUser()->getUser();
 		$this->user->addGroup( 'unittesters' );

@@ -26,12 +26,12 @@
 class HTMLTextBlockFieldTest extends MediaWikiTestCase {
 
 	public function testCreatingFieldGivesExpectedStrings() {
-		$form = new HTMLForm( array(
-			'blahblahblah' => array(
+		$form = new HTMLForm( [
+			'blahblahblah' => [
 				'class' => 'HTMLTextBlockField',
 				'label' => 'This is a label.',
-			),
-		) );
+			],
+		] );
 		$form->setTitle( Title::newMainPage() );
 		$form->prepareForm();
 		$html = $form->getHTML( false );

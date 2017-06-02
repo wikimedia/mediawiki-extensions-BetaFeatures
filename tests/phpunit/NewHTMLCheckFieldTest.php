@@ -26,13 +26,13 @@
 class NewHTMLCheckFieldTest extends MediaWikiTestCase {
 
 	public function testCreatingFieldGivesExpectedStrings() {
-		$form = new HTMLForm( array(
-			'blahblahblah' => array(
+		$form = new HTMLForm( [
+			'blahblahblah' => [
 				'class' => 'NewHTMLCheckField',
 				'label-message' => 'betafeatures-test-check-field',
 				'default' => true,
-			)
-		) );
+			]
+		] );
 		$form->setTitle( Title::newMainPage() );
 		$form->prepareForm();
 		$html = $form->getHTML( false );

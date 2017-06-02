@@ -32,13 +32,13 @@ class DependentFeatureTest extends BetaFeaturesTestCase {
 	const testDepsKey = 'DependentFeatureTestDependencyCheck';
 
 	// Structure of testing preference
-	public static $testPref = array(
+	public static $testPref = [
 		'label-message' => 'nullish',
 		'desc-message' => 'nullish',
 		'info-link' => 'http://example.org/features',
 		'discussion-link' => 'http://example.org/feedback',
 		'dependent' => true,
-	);
+	];
 
 	public static function failHook() {
 		return false;
@@ -63,7 +63,7 @@ class DependentFeatureTest extends BetaFeaturesTestCase {
 
 		parent::setUp();
 
-		$wgHooks[self::testDepsKey] = array();
+		$wgHooks[self::testDepsKey] = [];
 		$wgHooks['GetBetaFeaturePreferences'][] =
 			'DependentFeatureTest::hookThatRegistersPreference';
 		$wgHooks['GetBetaFeatureDependencyHooks'][] =
@@ -76,9 +76,9 @@ class DependentFeatureTest extends BetaFeaturesTestCase {
 
 		$wgHooks[self::testDepsKey][] = 'DependentFeatureTest::passHook';
 
-		$prefs = array();
+		$prefs = [];
 
-		Hooks::run( 'GetPreferences', array( $this->user, &$prefs ) );
+		Hooks::run( 'GetPreferences', [ $this->user, &$prefs ] );
 
 		$this->assertArrayHasKey(
 			self::testPrefKey, $prefs, 'Hook did not run with passing dependency.'
@@ -90,9 +90,9 @@ class DependentFeatureTest extends BetaFeaturesTestCase {
 
 		$wgHooks[self::testDepsKey][] = 'DependentFeatureTest::failHook';
 
-		$prefs = array();
+		$prefs = [];
 
-		Hooks::run( 'GetPreferences', array( $this->user, &$prefs ) );
+		Hooks::run( 'GetPreferences', [ $this->user, &$prefs ] );
 
 		$this->assertArrayNotHasKey(
 			self::testPrefKey, $prefs, 'Hook ran with failing dependency.'
@@ -100,9 +100,9 @@ class DependentFeatureTest extends BetaFeaturesTestCase {
 	}
 
 	public function testNoDependency() {
-		$prefs = array();
+		$prefs = [];
 
-		Hooks::run( 'GetPreferences', array( $this->user, &$prefs ) );
+		Hooks::run( 'GetPreferences', [ $this->user, &$prefs ] );
 
 		$this->assertArrayHasKey(
 			self::testPrefKey, $prefs, 'Hook did not run without dependency.'

@@ -29,12 +29,12 @@ class HooksRunTest extends MediaWikiTestCase {
 	const testPrefKey = 'unittest';
 
 	// Structure of testing preference
-	public static $testPref = array(
+	public static $testPref = [
 		'label-message' => 'nullish',
 		'desc-message' => 'nullish',
 		'info-link' => 'http://example.org/features',
 		'discussion-link' => 'http://example.org/feedback',
-	);
+	];
 
 	public static function nullHook( $user, &$betaPrefs ) {
 		return true;
@@ -55,9 +55,9 @@ class HooksRunTest extends MediaWikiTestCase {
 	public function testHooksRun() {
 		global $wgHooks;
 
-		$wgHooks['GetBetaFeaturePreferences'] = array( 'HooksRunTest::hookThatRegistersPreference' );
-		$prefs = array();
-		Hooks::run( 'GetBetaFeaturePreferences', array( $this->user, &$prefs ) );
+		$wgHooks['GetBetaFeaturePreferences'] = [ 'HooksRunTest::hookThatRegistersPreference' ];
+		$prefs = [];
+		Hooks::run( 'GetBetaFeaturePreferences', [ $this->user, &$prefs ] );
 		$this->assertArrayHasKey( self::testPrefKey, $prefs, 'Hook did not run' );
 		$this->assertEquals(
 			$prefs[self::testPrefKey],

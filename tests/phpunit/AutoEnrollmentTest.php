@@ -26,41 +26,41 @@
 class AutoEnrollmentTest extends BetaFeaturesTestCase {
 
 	// Structure of testing preference
-	public static $testPrefs = array(
-		'unittest-all' => array(
+	public static $testPrefs = [
+		'unittest-all' => [
 			'label-message' => 'nullish',
 			'desc-message' => 'nullish',
 			'info-link' => 'http://example.org/features',
 			'discussion-link' => 'http://example.org/feedback',
 			'auto-enrollment' => 'unittest',
-		),
+		],
 
-		'unittest-ft1' => array(
+		'unittest-ft1' => [
 			'label-message' => 'something else',
 			'desc-message' => 'something even differenter',
 			'info-link' => 'http://example.org/feature/one',
 			'discussion-link' => 'http://example.org/feedback/one',
 			'group' => 'unittest',
 			'auto-enrollment' => 'unittest2',
-		),
+		],
 
-		'unittest-ft2' => array(
+		'unittest-ft2' => [
 			'label-message' => 'something even more else',
 			'desc-message' => 'something even more differenter',
 			'info-link' => 'http://example.org/feature/two',
 			'discussion-link' => 'http://example.org/feedback/two',
 			'group' => 'unittest2',
-		),
+		],
 
-		'unittest-ft3' => array(
+		'unittest-ft3' => [
 			'label-message' => 'something entirely different',
 			'desc-message' => 'something entirely differenter',
 			'info-link' => 'http://example.org/feature/three',
 			'discussion-link' => 'http://example.org/feedback/three',
 			'group' => 'unittest2',
 			'exempt-from-auto-enrollment' => true,
-		),
-	);
+		],
+	];
 
 	public static function hookThatRegistersPreference( $user, &$betaPrefs ) {
 		foreach ( self::$testPrefs as $key => $testPref ) {
@@ -71,72 +71,72 @@ class AutoEnrollmentTest extends BetaFeaturesTestCase {
 	}
 
 	public static function getTestData() {
-		return array(
-			array(
+		return [
+			[
 				null,
 				null,
 				'unittest-ft1',
 				null,
 				'Hooks set the preference though auto-enroll was not set.'
-			),
+			],
 
-			array(
+			[
 				'betafeatures-auto-enroll',
 				HTMLFeatureField::OPTION_ENABLED,
 				'unittest-ft1',
 				HTMLFeatureField::OPTION_ENABLED,
 				'Hooks did not set the preference though global auto-enroll was set.',
-			),
+			],
 
-			array(
+			[
 				null,
 				null,
 				'unittest-ft1',
 				null,
 				'Hooks set the preference though group auto-enroll was not set.'
-			),
+			],
 
-			array(
+			[
 				'unittest-all',
 				HTMLFeatureField::OPTION_ENABLED,
 				'unittest-ft1',
 				HTMLFeatureField::OPTION_ENABLED,
 				'Hooks did not set the preference though group auto-enroll was set.',
-			),
+			],
 
-			array(
+			[
 				null,
 				null,
 				'unittest-ft2',
 				null,
 				'Hooks set the preference though no auto-enroll was set.'
-			),
+			],
 
-			array(
+			[
 				'unittest-all',
 				HTMLFeatureField::OPTION_ENABLED,
 				'unittest-ft2',
 				HTMLFeatureField::OPTION_ENABLED,
 				'Hooks did not set the preference though grandparent group auto-enroll was set.',
-			),
+			],
 
-			array(
+			[
 				'betafeatures-auto-enroll',
 				HTMLFeatureField::OPTION_ENABLED,
 				'unittest-ft2',
 				HTMLFeatureField::OPTION_ENABLED,
 				'Hooks did not set the preference though global auto-enroll was set.',
-			),
+			],
 
-			array(
+			[
 				'betafeatures-auto-enroll',
 				HTMLFeatureField::OPTION_ENABLED,
 				'unittest-ft3',
 				null,
 				'The preferences was not set despite auto-enroll ' .
 					'because it is exempt-from-auto-enrollment.',
-			),
-		);
+			],
+		];
 	}
 
 	protected function setUp() {
@@ -145,7 +145,7 @@ class AutoEnrollmentTest extends BetaFeaturesTestCase {
 		parent::setUp();
 
 		$wgHooks['GetBetaFeaturePreferences'] =
-			array( 'AutoEnrollmentTest::hookThatRegistersPreference' );
+			[ 'AutoEnrollmentTest::hookThatRegistersPreference' ];
 	}
 
 	/**
@@ -153,13 +153,13 @@ class AutoEnrollmentTest extends BetaFeaturesTestCase {
 	 */
 	public function testAutoEnroll( $set, $setVal, $check, $expected, $msg ) {
 		$user = $this->user;
-		$prefs = array();
+		$prefs = [];
 
 		if ( $set !== null ) {
 			$user->setOption( $set, $setVal );
 		}
 
-		Hooks::run( 'GetPreferences', array( $user, &$prefs ) );
+		Hooks::run( 'GetPreferences', [ $user, &$prefs ] );
 
 		$value = $user->getOption( $check );
 		if ( $expected === null ) {
