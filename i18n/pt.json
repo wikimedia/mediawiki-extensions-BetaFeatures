@@ -9,12 +9,13 @@
 			"Hamilton Abreu"
 		]
 	},
-	"apihelp-query+betafeatures-description": "Lista todos os Recursos Beta",
-	"apihelp-query+betafeatures-example-1": "Ver todos os recursos Beta disponíveis e mostrar quantos utilizadores não os ativaram",
+	"apihelp-query+betafeatures-description": "Lista todas as Funcionalidades Beta",
+	"apihelp-query+betafeatures-summary": "Lista todas as Funcionalidades Beta",
+	"apihelp-query+betafeatures-example-1": "Ver todas as funcionalidades beta disponíveis e mostrar quantos utilizadores as ativaram",
 	"apihelp-query+betafeatures-param-counts": "Obter, ou não, o número de utilizadores que ativaram uma preferência específica.",
 	"betafeatures-auto-enroll": "Ativar automaticamente todas as novas funcionalidades beta",
 	"betafeatures-desc": "Permite que o utilizador ative ou desative as funcionalidades da wiki que ainda não estão prontas",
-	"betafeatures-extension-type": "Recursos beta",
+	"betafeatures-extension-type": "Funcionalidades beta",
 	"betafeatures-section-desc": "Encontra aqui {{PLURAL:$1|uma nova funcionalidade|novas funcionalidades}} que estamos a considerar para a wiki {{SITENAME}}. Por favor, {{PLURAL:$1|teste-a|teste-as}} e diga o que pensa {{PLURAL:$1|dela|delas}}, para que possamos {{PLURAL:$1|melhorá-la|melhorá-las}} com base nos seus comentários.",
 	"betafeatures-toplink": "Beta",
 	"mw-ui-feature-discuss": "Discussão",
@@ -25,5 +26,5 @@
 	"mw-ui-feature-requirements-skins": "Esta funcionalidade requer a utilização {{PLURAL:$1|do seguinte tema|dos seguintes temas}}:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|Um utilizador está|$1 utilizadores estão|0=Nenhum utilizador está}} a experimentar esta funcionalidade.",
 	"prefs-betafeatures": "Funcionalidades Beta",
-	"tooltip-pt-betafeatures": "Recursos Beta"
+	"tooltip-pt-betafeatures": "Funcionalidades beta"
 }
