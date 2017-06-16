@@ -3,10 +3,12 @@
 		"authors": [
 			"Danmichaelo",
 			"Chameleon222",
-			"Macofe"
+			"Macofe",
+			"Jon Harald Søby"
 		]
 	},
 	"apihelp-query+betafeatures-description": "List alle betafunksjoner",
+	"apihelp-query+betafeatures-summary": "List opp alle betafunksjoner",
 	"apihelp-query+betafeatures-example-1": "Finn alle tilgjengelige betafunksjoner og vis hvor mange brukere som har aktivisert dem",
 	"apihelp-query+betafeatures-param-counts": "Om antall brukere som har aktivisert en viss innstilling skal hentes.",
 	"betafeatures-auto-enroll": "Automatisk aktiver alle nye betafunksjoner",
