@@ -6,6 +6,7 @@
 		]
 	},
 	"apihelp-query+betafeatures-description": "Listar tote le functiones beta",
+	"apihelp-query+betafeatures-summary": "Listar tote le functiones beta",
 	"apihelp-query+betafeatures-example-1": "Obtener tote le functiones beta e monstrar quante usatores los ha activate",
 	"apihelp-query+betafeatures-param-counts": "Si se debe obtener le numero de usatores que ha activate un certe preferentia.",
 	"betafeatures-auto-enroll": "Activar automaticamente tote le nove functionalitate beta",
