@@ -68,7 +68,6 @@ class DependentFeatureTest extends BetaFeaturesTestCase {
 			'DependentFeatureTest::hookThatRegistersPreference';
 		$wgHooks['GetBetaFeatureDependencyHooks'][] =
 			'DependentFeatureTest::hookThatRegistersDependency';
-
 	}
 
 	public function testPassingDependency() {

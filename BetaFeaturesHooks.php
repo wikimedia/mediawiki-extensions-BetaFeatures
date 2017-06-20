@@ -213,7 +213,7 @@ class BetaFeaturesHooks {
 
 			if ( isset( $info['group'] ) && isset( $autoEnroll[$info['group']] ) ) {
 				$autoEnrollForThisPref =
-				 	$user->getOption( $autoEnroll[$info['group']] ) === HTMLFeatureField::OPTION_ENABLED;
+					 $user->getOption( $autoEnroll[$info['group']] ) === HTMLFeatureField::OPTION_ENABLED;
 			}
 
 			$exemptAutoEnroll = isset( $info['exempt-from-auto-enrollment'] )
@@ -235,7 +235,6 @@ class BetaFeaturesHooks {
 			$requirements = [];
 
 			if ( isset( $prefs[$key]['requirements'] ) ) {
-
 				// Check which other beta features are required, and fetch their labels
 				if ( isset( $prefs[$key]['requirements']['betafeatures'] ) ) {
 					$requiredPrefs = [];
@@ -284,7 +283,7 @@ class BetaFeaturesHooks {
 			// thread bother doing these updates. This avoids pointless error log spam.
 			if ( $cache->lock( $key, 0, $cache::TTL_MINUTE ) ) {
 				// Save the preferences to the DB post-send
-				DeferredUpdates::addCallableUpdate( function() use ( $user, $cache, $key ) {
+				DeferredUpdates::addCallableUpdate( function () use ( $user, $cache, $key ) {
 					$user->saveSettings();
 					$cache->unlock( $key );
 				} );

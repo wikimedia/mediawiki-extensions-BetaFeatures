@@ -84,6 +84,5 @@ class HTMLFeatureFieldTest extends MediaWikiTestCase {
 				$case['message']
 			);
 		}
-
 	}
 }
