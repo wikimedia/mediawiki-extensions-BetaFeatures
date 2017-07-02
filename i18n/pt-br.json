@@ -8,17 +8,18 @@
 			"He7d3r",
 			"Araceletorres",
 			"TheEduGobi",
-			"Macofe"
+			"Macofe",
+			"Felipe L. Ewald"
 		]
 	},
 	"apihelp-query+betafeatures-description": "Listar todos os recursos beta",
+	"apihelp-query+betafeatures-summary": "Listar todos os recursos beta",
 	"apihelp-query+betafeatures-example-1": "Obtenha todos os recursos beta disponíveis e mostre quantos usuários os habilitaram",
 	"apihelp-query+betafeatures-param-counts": "Se buscar quantos usuários habilitaram uma certa preferência.",
 	"betafeatures-auto-enroll": "Ativar automaticamente todos os novos recursos beta",
 	"betafeatures-desc": "Permite ao usuário ativar ou desativar funções da wiki que ainda não estão prontas para serem ativamente usadas",
 	"betafeatures-extension-type": "Recursos beta",
 	"betafeatures-section-desc": "Aqui {{PLURAL:$1|encontra-se um novo recurso|encontram-se novos recursos}} que estamos considerando para {{SITENAME}}. Por favor, {{PLURAL:$1|teste-o|teste-os}} e diga o que pensa {{PLURAL:$1|dele|deles}}, para que possamos {{PLURAL:$1|melhorá-lo|melhorá-los}} com base em seu comentário.",
-	"betafeatures-tooltip": "Apresentando os Recursos Beta! Esta nova seção das preferências permite que você teste e comente sobre os novos recursos antes que sejam implementados como padrão. Experimente algo novo agora!",
 	"betafeatures-toplink": "Beta",
 	"mw-ui-feature-discuss": "Discussão",
 	"mw-ui-feature-info": "Informação",
