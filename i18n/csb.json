@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kirsan"
+			"Kirsan",
+			"Kaszeba"
 		]
 	},
 	"betafeatures-toplink": "Beta",
-	"tooltip-pt-betafeatures": "Beta-fónkcje"
+	"tooltip-pt-betafeatures": "Beta-fùnnkcëje"
 }
