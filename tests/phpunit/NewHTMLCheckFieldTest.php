@@ -23,6 +23,9 @@
  * @license GNU General Public License version 2 or later
  */
 
+/**
+ * @group BetaFeatures
+ */
 class NewHTMLCheckFieldTest extends MediaWikiTestCase {
 
 	public function testCreatingFieldGivesExpectedStrings() {
