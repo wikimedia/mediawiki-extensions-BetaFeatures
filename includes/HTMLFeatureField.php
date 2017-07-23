@@ -320,9 +320,9 @@ class HTMLFeatureField extends NewHTMLCheckField {
 		$res = parent::loadDataFromRequest( $request );
 
 		if ( $res === true ) {
-			return HTMLFeatureField::OPTION_ENABLED;
+			return self::OPTION_ENABLED;
 		} elseif ( $res === false ) {
-			return HTMLFeatureField::OPTION_DISABLED;
+			return self::OPTION_DISABLED;
 		} else {
 			// Dunno what happened, but I'm not gonna fight it.
 			return $res;
