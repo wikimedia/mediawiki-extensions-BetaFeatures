@@ -5,5 +5,9 @@
 		]
 	},
 	"betafeatures-toplink": "Bèta",
+	"mw-ui-feature-discuss": "Euverlègk",
+	"mw-ui-feature-info": "Infermasie",
+	"mw-ui-feature-requirements-betafeatures": "Dees functie vereisj det de volgende {{PLURAL:$1|functie weurt|functies waere}} aangezatte:",
+	"prefs-betafeatures": "Bètafuncties",
 	"tooltip-pt-betafeatures": "Bètafuncties"
 }
