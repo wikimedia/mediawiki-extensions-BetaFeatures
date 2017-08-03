@@ -4,10 +4,22 @@
 			"Ooswesthoesbes"
 		]
 	},
+	"apihelp-query+betafeatures-description": "Toean alle bètafuncties",
+	"apihelp-query+betafeatures-summary": "Toean alle bètafuncties",
+	"apihelp-query+betafeatures-example-1": "Toean alle besjikbaar bètafuncties en wieväöl gebroekers die höbbe aangezatte",
+	"apihelp-query+betafeatures-param-counts": "Of mót waere aangegaeve wieväöl gebroekers 'ne bepaolde veurkäör höbben aangezatte.",
+	"betafeatures-auto-enroll": "Zèt automatische alle nuuj bètafuncties aan",
+	"betafeatures-desc": "Laot de gebroeker functies die in óntwikkeling zeen aan- of oetzètte",
+	"betafeatures-extension-type": "Bètafuncties",
+	"betafeatures-section-desc": "Hie {{PLURAL:$1|is 'n nuuj functie|zint inkel nuuj functies}} die v'r euverwaege veur {{SITENAME}}. Perbeer {{PLURAL:$1|dees}} oet en laot ós weite waat se daovan vinjs, zodet v'r {{PLURAL:$1|dees functie|dees functies}} kónne verbaetere.",
 	"betafeatures-toplink": "Bèta",
 	"mw-ui-feature-discuss": "Euverlègk",
 	"mw-ui-feature-info": "Infermasie",
 	"mw-ui-feature-requirements-betafeatures": "Dees functie vereisj det de volgende {{PLURAL:$1|functie weurt|functies waere}} aangezatte:",
+	"mw-ui-feature-requirements-browser": "De volgende {{PLURAL:$1|browser weurt|browsers waere}} neet óngersteundj:",
+	"mw-ui-feature-requirements-javascript": "Dees functie vereisj JavaScript.",
+	"mw-ui-feature-requirements-skins": "Deed functie wirk allein mit {{PLURAL:$1|'t volgend uterlik|ei van de volgende uterlike}}:",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|Eine gebroeker perbeert|$1 gebroekers perbere|0=Geine perbeert}} dees functie oet.",
 	"prefs-betafeatures": "Bètafuncties",
 	"tooltip-pt-betafeatures": "Bètafuncties"
 }
