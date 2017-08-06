@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Joao Xavier"
+			"Joao Xavier",
+			"Pskosinski"
 		]
 	},
-	"betafeatures-toplink": "Beta"
+	"betafeatures-toplink": "Beta",
+	"tooltip-pt-betafeatures": "Experimentala funcioni"
 }
