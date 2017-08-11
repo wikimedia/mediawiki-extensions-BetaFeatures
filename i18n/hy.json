@@ -4,13 +4,14 @@
 			"Vacio",
 			"Vadgt",
 			"Xelgen",
-			"Աշոտ1997"
+			"Աշոտ1997",
+			"Դավիթ Սարոյան"
 		]
 	},
 	"betafeatures-extension-type": "Փորձնական հնարավորություններ",
 	"betafeatures-toplink": "Փորձնական",
-	"mw-ui-feature-discuss": "քննարկում",
-	"mw-ui-feature-info": "տեղեկատվություն",
+	"mw-ui-feature-discuss": "Քննարկում",
+	"mw-ui-feature-info": "Տեղեկատվություն",
 	"prefs-betafeatures": "Փորձնական հնարավորություններ",
 	"tooltip-pt-betafeatures": "Փորձնական հնարավորություններ"
 }
