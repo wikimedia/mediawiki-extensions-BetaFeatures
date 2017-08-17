@@ -8,7 +8,7 @@
 	},
 	"apihelp-query+betafeatures-description": "Листа свих Бета могућности",
 	"apihelp-query+betafeatures-example-1": "Добијате све доступне бета могућности и показује колико корисника их је омогућило",
-	"betafeatures-auto-enroll": "Аутоматски укључи бета-могућности",
+	"betafeatures-auto-enroll": "Аутоматски омогући све нове бета могућности",
 	"betafeatures-extension-type": "Бета могућности",
 	"betafeatures-section-desc": "Ово {{PLURAL:$1|је нова могућност|су нове могућности}} на пројекту {{SITENAME}}. Молимо {{PLURAL:$1|испробајте је|испробајте их}} и дајте нам ваше мишљење како да {{PLURAL:$1|је|их}} побољшамо.",
 	"betafeatures-toplink": "Бета",

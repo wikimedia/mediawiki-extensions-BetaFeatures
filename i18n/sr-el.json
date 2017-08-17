@@ -3,12 +3,12 @@
 		"authors": [
 			"Milicevic01",
 			"Srdjan m",
-			"Macofe"
+			"Macofe",
+			"Obsuser"
 		]
 	},
-	"betafeatures-auto-enroll": "Automatski uključi beta-mogućnosti",
+	"betafeatures-auto-enroll": "Automatski omogući sve nove beta mogućnosti",
 	"betafeatures-section-desc": "Ovo {{PLURAL:$1|je nova mogućnost|su nove mogućnosti}} na projektu {{SITENAME}}. Molimo {{PLURAL:$1|isprobajte je|isprobajte ih}} i dajte nam vaše mišljenje kako da {{PLURAL:$1|je|ih}} poboljšamo.",
-	"betafeatures-tooltip": "Predstavljamo beta mogućnosti! Ovaj novi odeljak u podešavanjima vam omogućava da testirate i šaljete povratne informacije o novim mogućnostima pre nego što ih postavimo kao predodređene. Isprobajte nešto novo!",
 	"betafeatures-toplink": "Beta",
 	"mw-ui-feature-discuss": "Rasprava",
 	"mw-ui-feature-info": "Informacije",
