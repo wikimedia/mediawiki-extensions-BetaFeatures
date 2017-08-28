@@ -5,6 +5,9 @@
 		]
 	},
 	"betafeatures-auto-enroll": "Atibar outomaticamente todas las nuobas funcionalidades beta",
+	"betafeatures-extension-type": "Funcionalidades beta",
 	"betafeatures-section-desc": "Ancontra eiqui {{PLURAL:$1|ua nuoba funcionalidade|nuobas funcionalidades}} que stamos a cunsidrar pa la wiki {{SITENAME}}. Por fabor, {{PLURAL:$1|teste eilha|teste eilhas}} i diga l que pensa {{PLURAL:$1|deilha|deilhas}}, pa que puodamos {{PLURAL:$1|melhorar eilha|melhorar eilhas}} cun base ne ls sous comentairos.",
-	"mw-ui-feature-user-count": "{{PLURAL:$1|Un outelizador stá|$1 outelizadores stan|0=Nanhun outelizador stá}} a spurmentar esta funcionalidade."
+	"mw-ui-feature-user-count": "{{PLURAL:$1|Un outelizador stá|$1 outelizadores stan|0=Nanhun outelizador stá}} a spurmentar esta funcionalidade.",
+	"prefs-betafeatures": "Funcionalidades Beta",
+	"tooltip-pt-betafeatures": "Funcionalidades beta"
 }
