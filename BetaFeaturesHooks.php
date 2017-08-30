@@ -46,7 +46,7 @@ class BetaFeaturesHooks {
 			return $counts;
 		}
 
-		$dbr = wfGetDB( DB_SLAVE );
+		$dbr = wfGetDB( DB_REPLICA );
 		$res = $dbr->select(
 			'betafeatures_user_counts',
 			[ 'feature', 'number' ],
