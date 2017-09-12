@@ -5,6 +5,16 @@
 			"Kaszeba"
 		]
 	},
+	"apihelp-query+betafeatures-description": "Lësta wszëtczich fùnkcëjów beta",
+	"apihelp-query+betafeatures-summary": "Wëszkrzëniô wszëtczé fùnkcëje beta",
+	"apihelp-query+betafeatures-example-1": "Dobëjë całowną wëdowiédzã ò przistãpnych fùnkcëjach beta ë wëskrzeni wielënã brëkòwników mających je aktiwòwóné",
+	"apihelp-query+betafeatures-param-counts": "Czë dobëc wëdowiédzã ò wielënie brëkòwników mających aktiwòwóny nen nastôw.",
+	"betafeatures-auto-enroll": "Automatno aktiwùjë wszëtczé nowé fùnkcëje beta",
+	"betafeatures-desc": "Zezwôlô brëkòwnikòm właczac ë wëłączac funkcëje, chtërné nie sã jesz do kùńca fardich",
+	"betafeatures-extension-type": "Fùnkcëje beta",
 	"betafeatures-toplink": "Beta",
-	"tooltip-pt-betafeatures": "Beta-fùnnkcëje"
+	"mw-ui-feature-discuss": "Diskùsëjô",
+	"mw-ui-feature-info": "Wëdowiédzô",
+	"prefs-betafeatures": "Fùnkcëje beta",
+	"tooltip-pt-betafeatures": "Fùnkcëje beta"
 }
