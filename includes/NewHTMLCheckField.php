@@ -83,7 +83,20 @@ class NewHTMLCheckField extends HTMLCheckField {
 	 * @param null $attr
 	 * @return String
 	 */
-	function getInputHTML( $value, $attr = null ) {
+	public function getInputHTML( $value, $attr = null ) {
 		return $this->getCheckboxHTML( $value, $attr );
+	}
+
+	public function getInputOOUI( $value ) {
+		// Use the same output as for the HTML version, otherwise OOUIHTMLForm would use
+		// a plain checkbox, inherited from HTMLCheckField. This isn't actually a widget
+		// (just a HTML string) but that's okay, HTMLFormField::getOOUI() will handle it.
+		return $this->getInputHTML( $value );
+	}
+
+	protected function getFieldLayoutOOUI( $inputField, $config ) {
+		// Label is already included in the field's HTML, do not duplicate it
+		unset( $config['label'] );
+		return parent::getFieldLayoutOOUI( $inputField, $config );
 	}
 }
