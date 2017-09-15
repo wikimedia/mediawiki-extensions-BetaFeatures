@@ -1,9 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Translatealcd"
+			"Translatealcd",
+			"Hitaypayan"
 		]
 	},
 	"betafeatures-toplink": "Tlamiy",
+	"mw-ui-feature-discuss": "Spkayal",
+	"mw-ui-feature-info": "Ggalan kinbaq zayzyuwaw",
 	"tooltip-pt-betafeatures": "Beta ttalam sa musa’ tthzyazyun"
 }
