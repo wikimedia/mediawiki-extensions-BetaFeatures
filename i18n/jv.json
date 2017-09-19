@@ -8,7 +8,7 @@
 	"apihelp-query+betafeatures-example-1": "Jupuk kabèh fitur béta sing cumepak lan tuduhaké akèhé panganggo sing ngurubaké fitur-fitur iku.",
 	"betafeatures-auto-enroll": "Otomatis ngurubaké kabèh fitur béta anyar",
 	"betafeatures-extension-type": "Fitur béta",
-	"betafeatures-section-desc": "Ing ngisor iki kapacak {{PLURAL:$1|fitur anyar}} sing dadi pamrayogané awak dhéwé saperu dipasang kanggo {{SITENAME}}. Mangga jajala {{PLURAL:$1|fitur iku}} lan wènèha panemumu murih awak dhéwé bisa gawé {{PLURAL:$1|sing luwih apik}} adhedhasar pamrayogané sampéyan.",
+	"betafeatures-section-desc": "Ing ngisor iki kapacak {{PLURAL:$1|fitur anyar}} sing dadi pamrayogané awak dhéwé saperu dipasang kanggo {{SITENAME}}. Mangga jajala {{PLURAL:$1|fitur iku}} lan wènèha panemumu supaya awak dhéwé bisa gawé {{PLURAL:$1|sing luwih apik}} adhedhasar pamrayogané panjenengan.",
 	"betafeatures-toplink": "Béta",
 	"mw-ui-feature-discuss": "Rerembug",
 	"mw-ui-feature-info": "Katerangan",
