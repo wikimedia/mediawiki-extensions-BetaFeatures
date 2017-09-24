@@ -9,7 +9,6 @@
 	"betafeatures-desc": "Декъашхошна прайм-тайман кийча йоцу функцеш лато я дӀаяйа таро хуьлуьйту",
 	"betafeatures-extension-type": "Бета-функцеш",
 	"betafeatures-section-desc": "{{PLURAL:$1|Йина керла фунуцеш}} оха уьш еш ю {{SITENAME}}н. Дехар до, {{PLURAL:$1|уьш}} лела яй а хьайна хетарг ала,тӀакха тхуна уьш дика ян аьтту хира бу.",
-	"betafeatures-tooltip": "Йовзийту бета-фуекцеш! ХӀокху гӀирсо шуна йиш хуьлуьйту керла таронаш зен а, царах лаьцна хаам бан а уьш массарна лата яле. Лела де цхьа керла хӀума хӀинцале!",
 	"betafeatures-toplink": "Бета",
 	"mw-ui-feature-discuss": "дийцаре",
 	"mw-ui-feature-info": "хаам",
@@ -17,7 +16,7 @@
 	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|1=ХӀара браузер ловш яц|ХӀара браузераш ловш яц}}:",
 	"mw-ui-feature-requirements-javascript": "ХӀокху функцин оьшу JavaScript.",
 	"mw-ui-feature-requirements-skins": "ХӀара функци {{PLURAL:$1|1=кечярца|кечяршца}} бен бол беш яц:",
-	"mw-ui-feature-user-count": "{{PLURAL:$1|Цхьам декъашхочо латина|$1 декъашхоша латина|0=Цхьамо латина яц}} хӀара функци.",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|1 декъашхочо зуьйш ю|$1 декъашхочо зуьйш ю|0=Цхьано зуьйш яц}} хӀара функци.",
 	"prefs-betafeatures": "Бета-функцеш",
 	"tooltip-pt-betafeatures": "Бета-функцеш"
 }
