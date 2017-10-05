@@ -15,7 +15,7 @@
 	"mw-ui-feature-info": "Informācija",
 	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|Šie pārlūki|Šis pārlūks|Šie pārlūki}} nav atbalstīti:",
 	"mw-ui-feature-requirements-javascript": "Šī funkcija izmanto JavaScript.",
-	"mw-ui-feature-user-count": "{{PLURAL:$1|Viens dalībnieks izmēģina šo funkciju|$1 dalībnieki izmēģina šo funkciju|0=Neviens dalībnieks neizmēģina šo funkciju}}.",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|$1 dalībnieki izmēģina šo funkciju|$1 dalībnieks izmēģina šo funkciju|$1 dalībnieki izmēģina šo funkciju|0=Neviens dalībnieks neizmēģina šo funkciju}}.",
 	"prefs-betafeatures": "Bēta funkcijas",
 	"tooltip-pt-betafeatures": "Beta iespējas"
 }
