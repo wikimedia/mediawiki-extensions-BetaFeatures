@@ -6,11 +6,13 @@
 		]
 	},
 	"apihelp-query+betafeatures-description": "pasilsil sacahamin mitanam a sasahicaan",
+	"apihelp-query+betafeatures-param-counts": "amaala pinaay a misaungayay mawawah setin tu kanamuhan a cesyun haw.",
 	"betafeatures-auto-enroll": "lunuk miwawah sacahamin mitanam ngatu a baluhay sasahicaan",
 	"betafeatures-extension-type": "mitanam kungneng",
 	"betafeatures-toplink": "mitanam",
 	"mw-ui-feature-discuss": "matatengil",
 	"mw-ui-feature-info": "cesyun",
+	"mw-ui-feature-requirements-browser": "caay midama isasa’ay {{PLURAL:$1|saazih-sakaluk}}",
 	"mw-ui-feature-requirements-javascript": "tina kungneng maydih pisaungay JavaScript.",
 	"prefs-betafeatures": "mitanam kungneng",
 	"tooltip-pt-betafeatures": "mitanam kungneng"
