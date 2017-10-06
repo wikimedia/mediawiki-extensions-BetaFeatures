@@ -315,6 +315,8 @@ class HTMLFeatureField extends NewHTMLCheckField {
 	/**
 	 * Override to use integers, so we don't lose the database rows on
 	 * unset...
+	 * @param WebRequest $request
+	 * @return string
 	 */
 	function loadDataFromRequest( $request ) {
 		$res = parent::loadDataFromRequest( $request );

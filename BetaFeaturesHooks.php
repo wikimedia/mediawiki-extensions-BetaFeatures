@@ -100,7 +100,7 @@ class BetaFeaturesHooks {
 
 	/**
 	 * @param User $user
-	 * @param array $prefs
+	 * @param array &$prefs
 	 * @return bool
 	 * @throws BetaFeaturesMissingFieldException
 	 */
@@ -300,7 +300,7 @@ class BetaFeaturesHooks {
 	}
 
 	/**
-	 * @param array $personal_urls
+	 * @param array &$personal_urls
 	 * @param Title $title
 	 * @param SkinTemplate $skintemplate
 	 * @return bool

@@ -27,6 +27,7 @@ class HTMLTextBlockField extends HTMLFormField {
 
 	/**
 	 * Override __construct so we can allow HTML in labels
+	 * @param array $params
 	 */
 	function __construct( $params ) {
 		if ( isset( $params['label'] ) ) {

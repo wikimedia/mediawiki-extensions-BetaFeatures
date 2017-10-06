@@ -33,8 +33,8 @@ class NewHTMLCheckField extends HTMLCheckField {
 	// Override these in subclasses (see HTMLFeatureField, e.g.)
 
 	/**
-	 * @param $value
-	 * @param $attr
+	 * @param string $value
+	 * @param string $attr
 	 * @return string
 	 */
 	protected function getCheckboxHTML( $value, $attr ) {
