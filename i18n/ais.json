@@ -6,14 +6,18 @@
 		]
 	},
 	"apihelp-query+betafeatures-description": "pasilsil sacahamin mitanam a sasahicaan",
+	"apihelp-query+betafeatures-example-1": "maala sacahamin kapahay amitanamay a sasahicaan zumasatu paazih papina ku misaungayay mawawah kya sasahicaan ayza.",
 	"apihelp-query+betafeatures-param-counts": "amaala pinaay a misaungayay mawawah setin tu kanamuhan a cesyun haw.",
 	"betafeatures-auto-enroll": "lunuk miwawah sacahamin mitanam ngatu a baluhay sasahicaan",
+	"betafeatures-desc": "mahasa misaungayay miwawah saca miedeb i Wiki caay henay pahalhal pahezek a sasahicaan.",
 	"betafeatures-extension-type": "mitanam kungneng",
 	"betafeatures-toplink": "mitanam",
 	"mw-ui-feature-discuss": "matatengil",
 	"mw-ui-feature-info": "cesyun",
+	"mw-ui-feature-requirements-betafeatures": "tina sasahicaan maydih miwawah cudad i sasa {{PLURAL:$1|sasahicaan}}:",
 	"mw-ui-feature-requirements-browser": "caay midama isasa’ay {{PLURAL:$1|saazih-sakaluk}}",
 	"mw-ui-feature-requirements-javascript": "tina kungneng maydih pisaungay JavaScript.",
+	"mw-ui-feature-requirements-skins": "tina sasahicaan kapah dada’ isasa’ay a taypuolayta {{PLURAL:$1|nuhekalan}}",
 	"prefs-betafeatures": "mitanam kungneng",
 	"tooltip-pt-betafeatures": "mitanam kungneng"
 }
