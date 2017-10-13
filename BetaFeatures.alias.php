@@ -130,6 +130,11 @@ $specialPageAliases['uk'] = [
 	'BetaFeatures' => [ 'Бета-функції' ],
 ];
 
+/** Urdu (اردو) */
+$specialPageAliases['ur'] = [
+	'BetaFeatures' => [ 'آزمائشی_خصوصیات' ],
+];
+
 /** Vietnamese (Tiếng Việt) */
 $specialPageAliases['vi'] = [
 	'BetaFeatures' => [ 'Tính_năng_beta' ],
