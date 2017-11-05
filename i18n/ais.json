@@ -18,6 +18,7 @@
 	"mw-ui-feature-requirements-browser": "caay midama isasa’ay {{PLURAL:$1|saazih-sakaluk}}",
 	"mw-ui-feature-requirements-javascript": "tina kungneng maydih pisaungay JavaScript.",
 	"mw-ui-feature-requirements-skins": "tina sasahicaan kapah dada’ isasa’ay a taypuolayta {{PLURAL:$1|nuhekalan}}",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|$1 ku misaungayay|0=nayi’ henay misaungayay}} imahini mitanam misaungay tina sasahicaan.",
 	"prefs-betafeatures": "mitanam kungneng",
 	"tooltip-pt-betafeatures": "mitanam kungneng"
 }
