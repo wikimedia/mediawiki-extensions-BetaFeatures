@@ -25,6 +25,8 @@
 
 @import 'mediawiki.mixins';
 
+@indent: 28px;
+
 table.mw-htmlform-container {
 	border-collapse: separate;
 	border-spacing: 0 4px;
@@ -73,7 +75,7 @@ table.mw-htmlform-container {
 
 .mw-htmlform-field-HTMLHorizontalRuleField .mw-input hr,
 .mw-ui-feature-contain {
-	margin-left: 32px;
+	margin-left: @indent;
 	width: 80%;
 }
 
@@ -113,9 +115,8 @@ table.mw-htmlform-container {
 }
 
 .mw-ui-feature-title-contain {
-	margin-left: -32px;
-	margin-right: 32px;
-	margin-bottom: -10px;
+	margin-left: -@indent;
+	margin-right: @indent;
 }
 
 .mw-ui-feature-field .mw-ui-feature-checkbox {
