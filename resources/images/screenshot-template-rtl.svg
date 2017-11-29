@@ -7,8 +7,7 @@
     </defs>
     <g clip-path="url(#jagged-edge)" fill="#eaecf0">
         <path id="background" fill="#fff" d="M0 0h264v162H0"/>
-        <path id="site-logo" d="M253 22c0-8-6-14-14-14s-14 6-14 14 6 14 14 14 14-6 14-14z"/>
-        <path id="site-title" d="M226 45v-5h25v5h-25z"/>
+        <path id="logo" d="M253 22c0-8-6-14-14-14s-14 6-14 14 6 14 14 14 14-6 14-14zM226 45v-5h25v5h-25z"/>
         <path id="sidebar" d="M226 163V58h25v106h-25z"/>
         <path id="personal-tools" d="M233 5h26v6h-26V5zM209 5h22v6h-22zM185 5h22v6h-22zM162 5h13v6h-13zM177 5h6v6h-6zM154 5h6v6h-6z" transform="matrix(-1 0 0 1 264 0)"/>
         <g id="search" transform="matrix(-1 0 0 1 264 0)">
