@@ -280,7 +280,7 @@ class HTMLFeatureField extends NewHTMLCheckField {
 		return $html;
 	}
 
-	function getInputHTML( $value ) {
+	function getInputHTML( $value, $attr = null ) {
 		$html = '';
 
 		$divClasses = [
