@@ -12,7 +12,6 @@
 	"betafeatures-desc": "Yn caniatau i ddefnyddiwr i alluogi nodweddion ar y wici nad ydynt yn barod i'w mabwysiadu'n llwyr eto, neu i'w hanalluogi.",
 	"betafeatures-extension-type": "Nodweddion beta",
 	"betafeatures-section-desc": "Yma ceir {{PLURAL:$1|is a new feature|rhai nodweddion}} rydym yn eu hystyried ar gyfer {{SITENAME}}. Rhowch gynnig {{PLURAL:$1|arni|arnynt}} a mynegwch eich barn fel y gallem , so we can improve {{PLURAL:$1|ei wella|eu gwella}}.",
-	"betafeatures-tooltip": "Dyma gyflwyno Nodweddion Beta! Mae'r adran hon yn caniatau i chi brofi a rhoi adborth am nodweddion newydd cyn i ni eu lansio. Rhowch gynnig arni!",
 	"betafeatures-toplink": "Beta",
 	"mw-ui-feature-discuss": "Sgwrs",
 	"mw-ui-feature-info": "Gwybodaeth",

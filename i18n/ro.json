@@ -9,7 +9,6 @@
 	"betafeatures-desc": "Permite utilizatorilor să activeze sau să dezactiveze în cadrul wikiului caracteristici care nu sunt pregătire pentru lansarea generală",
 	"betafeatures-extension-type": "Opțiuni beta",
 	"betafeatures-section-desc": "Mai jos {{PLURAL:$1|se află o caracterisitică nouă|sunt câteva caracteristici noi}} pe care {{PLURAL:$1|o|le}} luăm în calcul la {{SITENAME}}. Încercați-{{PLURAL:$1|o|le}} și spuneți-ne ce credeți, astfel încât să {{PLURAL:$1|o|le}} îmbunătățim pe baza părerilor dumneavoastră.",
-	"betafeatures-tooltip": "Vă prezentăm funcțiile beta! Această nouă secțiune a preferințelor vă permite să testați și să comentați noile caracteristici înainte de lansarea lor generală. Încercați chiar acum ceva nou!",
 	"betafeatures-toplink": "Beta",
 	"mw-ui-feature-discuss": "Discuție",
 	"mw-ui-feature-info": "Informații",

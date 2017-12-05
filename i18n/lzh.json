@@ -2,9 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"LNDDYL",
-			"Jason924tw"
+			"Jason924tw",
+			"Bowleerin"
 		]
 	},
+	"betafeatures-section-desc": "吾等正思索於{{SITENAME}}供下列{{PLURAL:$1|新功能}}。邀君同試並供己見，使吾等據其更進也。",
 	"betafeatures-toplink": "試灶",
-	"mw-ui-feature-user-count": "{{PLURAL:$1|$1|0=無}}簿今試。"
+	"mw-ui-feature-user-count": "{{PLURAL:$1|$1|0=無}}簿今試。",
+	"tooltip-pt-betafeatures": "試灶"
 }

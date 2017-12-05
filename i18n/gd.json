@@ -12,7 +12,6 @@
 	"betafeatures-desc": "Leigidh seo leis a' chleachdaiche feartan nach eil buileach deiseil glan a chur an comas no à comas air an uicidh",
 	"betafeatures-extension-type": "Feartan beta",
 	"betafeatures-section-desc": "Seo {{PLURAL:$1|feart ùr a tha sinn a' beachdachadh air|feartan ùra a tha sinn a' beachdachadh orra}} airson {{SITENAME}}. Feuch {{PLURAL:$1|e|iad}} agus innis dhuinn dè do bheachdan ach an urrainn dhuinn piseach a thoirt {{PLURAL:$1|air|orra}} le taic do bheachdan.",
-	"betafeatures-tooltip": "A' cur an aithne air feartan beta! Leigidh an earrann dhe roghainnean ùra seo leat feartan ùra a chur fo dheuchainn agus do bheachdan mun dèidhinn a chur thugainn mus nochd iad mar ghiùlan àbhaisteach. Feuch rudeigin ùr an-dràsta!",
 	"betafeatures-toplink": "Beta",
 	"mw-ui-feature-discuss": "Deasbaireachd",
 	"mw-ui-feature-info": "Fiosrachadh",

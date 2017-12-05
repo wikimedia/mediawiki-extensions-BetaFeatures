@@ -12,7 +12,6 @@
 	"betafeatures-desc": "Ebligas al uzantoj ŝalti aŭ malŝalti funkciojn en tiu ĉi vikio, kiuj ankoraŭ ne estas tute pretaj por vera uzado.",
 	"betafeatures-extension-type": "Betaj funkcioj",
 	"betafeatures-section-desc": "Jen estas {{PLURAL:$1|nova funkcio|kelkaj novaj funkcioj}} kiujn ni prikonsideras por {{SITENAME}}. Bonvolu provi {{PLURAL:$1|ĝin|ilin}} kaj komentu ilin al ni por, ke ni povus plibonigi {{PLURAL:$1|ĝin|ilin}} laŭ viaj rimarkoj.",
-	"betafeatures-tooltip": "Bonvenon al beta-funkcioj! Tiu ĉi nova sekcio en agordoj ebligas al vi testi kaj doni prijuĝajn rimarkojn pri novaj funkcioj antaŭ ol ili estos ŝaltitaj kiel defaŭltaj. Ekprovu ion novan!",
 	"betafeatures-toplink": "Beta",
 	"mw-ui-feature-discuss": "Diskuto",
 	"mw-ui-feature-info": "Informo",

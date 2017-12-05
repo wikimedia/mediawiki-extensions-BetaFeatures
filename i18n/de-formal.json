@@ -4,6 +4,5 @@
 			"Kghbln"
 		]
 	},
-	"betafeatures-section-desc": "Hier {{PLURAL:$1|wird eine neue Funktion|werden einige neue Funktionen}} angezeigt, die wir für {{SITENAME}} planen. Bitte probieren Sie sie aus und teilen Sie uns Ihre Meinung mit. So können wir sie, aufgrund Ihrer Rückmeldung, verbessern.",
-	"betafeatures-tooltip": "Die Beta-Funktionen! Dieser neue Abschnitt in den Benutzereinstellungen ermöglicht Ihnen das Auswählen neuer Funktionen, damit Sie sie testen und uns Rückmeldungen geben können, bevor sie standardmäßig aktiviert werden. Probieren Sie bitte einige der neuen Funktionen aus!"
+	"betafeatures-section-desc": "Hier {{PLURAL:$1|wird eine neue Funktion|werden einige neue Funktionen}} angezeigt, die wir für {{SITENAME}} planen. Bitte probieren Sie sie aus und teilen Sie uns Ihre Meinung mit. So können wir sie, aufgrund Ihrer Rückmeldung, verbessern."
 }
