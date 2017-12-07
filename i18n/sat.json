@@ -2,14 +2,15 @@
 	"@metadata": {
 		"authors": [
 			"Albinus",
-			"Ramjit Tudu"
+			"Ramjit Tudu",
+			"Manik Soren"
 		]
 	},
 	"apihelp-query+betafeatures-description": "ᱡᱚᱛᱚ ᱵᱤᱴᱟ ᱥᱩᱵᱤᱫᱷᱟ ᱞᱤᱥᱴᱤᱢᱮ",
 	"apihelp-query+betafeatures-summary": "ᱡᱚᱛᱚ ᱵᱤᱴᱟ ᱥᱩᱵᱤᱫᱷᱟ ᱞᱤᱥᱴᱤᱢᱮ",
 	"betafeatures-extension-type": "ᱵᱤᱴᱟ ᱥᱩᱵᱤᱫᱷᱟ ᱠᱚ",
-	"betafeatures-toplink": "Beta",
+	"betafeatures-toplink": "ᱵᱮᱴᱟ",
 	"mw-ui-feature-discuss": "ᱜᱟᱞᱚᱪ",
-	"prefs-betafeatures": "ᱵᱤᱴᱟ ᱥᱩᱵᱤᱫᱷᱟ ᱠᱚ",
-	"tooltip-pt-betafeatures": "Beta features"
+	"prefs-betafeatures": "ᱵᱮᱴᱟ ᱥᱩᱵᱤᱫᱷᱟ ᱠᱚ",
+	"tooltip-pt-betafeatures": "ᱵᱮᱴᱟ ᱥᱩᱵᱤᱫᱷᱟ ᱠᱚ"
 }
