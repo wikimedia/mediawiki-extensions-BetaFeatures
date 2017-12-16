@@ -23,9 +23,6 @@
  * @license GNU General Public License version 2 or later
  */
 
-class BetaFeaturesMissingFieldException extends Exception {
-}
-
 class BetaFeaturesHooks {
 
 	/**

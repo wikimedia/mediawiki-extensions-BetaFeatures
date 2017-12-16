@@ -82,7 +82,7 @@
 	},
 	"AutoloadClasses": {
 		"BetaFeaturesHooks": "BetaFeaturesHooks.php",
-		"BetaFeaturesMissingFieldException": "BetaFeaturesHooks.php",
+		"BetaFeaturesMissingFieldException": "includes/BetaFeaturesMissingFieldException.php",
 		"NewHTMLCheckField": "includes/NewHTMLCheckField.php",
 		"HTMLFeatureField": "includes/HTMLFeatureField.php",
 		"HTMLTextBlockField": "includes/HTMLTextBlockField.php",
