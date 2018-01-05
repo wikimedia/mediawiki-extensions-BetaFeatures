@@ -12,7 +12,7 @@
 	"apihelp-query+betafeatures-description": "Sąrašas visų Beta funkcijų",
 	"apihelp-query+betafeatures-summary": "Sąrašas visų Beta funkcijų",
 	"apihelp-query+betafeatures-example-1": "Įjungti visas beta funkcijas ir parodyti kiek vartotojų jas naudoja",
-	"apihelp-query+betafeatures-param-counts": "Ar skaičiuoti, kiek vartotojų įgalino tam tikrą preferenciją.",
+	"apihelp-query+betafeatures-param-counts": "Ar skaičiuoti, kiek vartotojų įgalino tam tikrą funkciją.",
 	"betafeatures-auto-enroll": "Automatiškai įjungti visas naujas beta funkcijas",
 	"betafeatures-desc": "Leisti vartotojams įjungti ar išjungti viki funkcijas, kurios dar nėra paruoštos visuotiniam naudojimui",
 	"betafeatures-extension-type": "Beta funkcijos",
