@@ -6,10 +6,12 @@
 			"StephDC",
 			"Liangent",
 			"Cwlin0416",
-			"S8321414"
+			"S8321414",
+			"Kly"
 		]
 	},
 	"apihelp-query+betafeatures-description": "列出所有測試功能",
+	"apihelp-query+betafeatures-summary": "列出所有測試功能",
 	"apihelp-query+betafeatures-example-1": "取得所有可用的測試功能並顯示目前有多少數使用者已開啟該功能",
 	"apihelp-query+betafeatures-param-counts": "是否取得有多少使用者已開啟某個偏好設定的資訊。",
 	"betafeatures-auto-enroll": "自動開啟所有測試階段的新功能",
