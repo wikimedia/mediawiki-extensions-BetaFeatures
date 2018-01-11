@@ -52,6 +52,7 @@ class NewHTMLCheckField extends HTMLCheckField {
 		return Html::openElement( 'div', [ 'class' => 'mw-ui-feature-checkbox' ] ) .
 			new OOUI\FieldLayout(
 				new OOUI\CheckboxInputWidget( [
+					'infusable' => true,
 					'name' => $this->mName,
 					'selected' => $value,
 					'value' => 1,
