@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Giromin Cangiaxo"
+			"Giromin Cangiaxo",
+			"S4b1nuz E.656"
 		]
 	},
 	"apihelp-query+betafeatures-description": "Mostra tutte-e fonçionalitæ sperimentale",
@@ -12,7 +13,7 @@
 	"betafeatures-extension-type": "Fonçionalitæ sperimentale",
 	"betafeatures-section-desc": "{{PLURAL:$1|Sta chì a l'è una noeuva|Ste chì son de noeuve}} fonçionalitæ sperimentale che semmo aproeuvo à consciderâ pe {{SITENAME}}. Ti poeu provâ{{PLURAL:$1|la|le}} e dine cose ti ne pensci, coscì poriemo amegioâ{{PLURAL:$1|la|le}} in base a-i to commenti.",
 	"betafeatures-toplink": "beta",
-	"mw-ui-feature-discuss": "Discuscion",
+	"mw-ui-feature-discuss": "Discusción",
 	"mw-ui-feature-info": "Informaçioin",
 	"mw-ui-feature-requirements-betafeatures": "Pe sta fonçionalitæ g'ha da ese abilitou {{PLURAL:$1|a|e}} seguente fonçionalitæ:",
 	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|O seguente navegatô o no l'è abilitou|I seguenti navegatoî no son abilitæ}}:",
