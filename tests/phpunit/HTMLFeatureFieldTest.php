@@ -49,11 +49,11 @@ class HTMLFeatureFieldTest extends MediaWikiTestCase {
 			],
 			[
 				'pattern' => "#<input type='checkbox' tabindex='0' aria-disabled='false' " .
-					"name='wpblahblahblah' value='1' id='ooui-\d+' class='oo-ui-inputWidget-input' />#",
+					"name='wpblahblahblah' value='1' id='ooui-php-\d+' class='oo-ui-inputWidget-input' />#",
 				'message' => 'Styled checkbox input not found.',
 			],
 			[
-				'pattern' => "#<label for='ooui-\d+' class='oo-ui-labelElement-label'>" .
+				'pattern' => "#<label for='ooui-php-\d+' class='oo-ui-labelElement-label'>" .
 					"blah blah blah</label>#",
 				'message' => 'Checkbox label not found.',
 			],

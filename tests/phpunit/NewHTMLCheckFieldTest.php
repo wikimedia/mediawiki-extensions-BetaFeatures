@@ -47,12 +47,12 @@ class NewHTMLCheckFieldTest extends MediaWikiTestCase {
 		);
 		$this->assertRegExp(
 			"#<input type='checkbox' tabindex='0' aria-disabled='false' name='wpblahblahblah' " .
-				"value='1' checked='checked' id='ooui-\d+' class='oo-ui-inputWidget-input' />#",
+				"value='1' checked='checked' id='ooui-php-\d+' class='oo-ui-inputWidget-input' />#",
 			$html,
 			'Styled input not found.'
 		);
 		$this->assertRegExp(
-			"#<label for='ooui-\d+' class='oo-ui-labelElement-label'>blah blah blah</label>#",
+			"#<label for='ooui-php-\d+' class='oo-ui-labelElement-label'>blah blah blah</label>#",
 			$html,
 			'Checkbox label not found.'
 		);
