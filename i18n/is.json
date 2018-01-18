@@ -15,7 +15,7 @@
 	"betafeatures-toplink": "Prufuútgáfa",
 	"mw-ui-feature-discuss": "Spjall",
 	"mw-ui-feature-info": "Upplýsingar",
-	"mw-ui-feature-requirements-browser": "Þessi eiginleiki styður ekki eftirfarandi vafra:",
+	"mw-ui-feature-requirements-browser": "Eftirfarandi {{PLURAL:$1|vafri er ekki studdur|vafrar eru ekki studdir}}:",
 	"mw-ui-feature-requirements-javascript": "Þessi eiginleiki krefst JavaScript.",
 	"mw-ui-feature-requirements-skins": "Þessi eiginleiki virkar eingöngu með {{PLURAL:$1|eftirfarandi skinni|eftirfarandi skinnum}}:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|Einn notandi|$1 notendur eru|0=Enginn notandi er}} að prófa þennan eiginleika.",
