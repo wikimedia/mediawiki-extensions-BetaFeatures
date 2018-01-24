@@ -24,6 +24,8 @@
  */
 
 /**
+ * @covers \NewHTMLCheckField
+ *
  * @group BetaFeatures
  */
 class NewHTMLCheckFieldTest extends MediaWikiTestCase {

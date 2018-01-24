@@ -24,6 +24,8 @@
  */
 
 /**
+ * @covers \BetaFeaturesHooks::getPreferences
+ *
  * @group BetaFeatures
  */
 class AutoEnrollmentTest extends BetaFeaturesTestCase {

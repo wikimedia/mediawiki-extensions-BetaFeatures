@@ -24,6 +24,8 @@
  */
 
 /**
+ * @covers \BetaFeaturesHooks::getPreferences
+ *
  * @group BetaFeatures
  */
 class PreferenceHandlingTest extends BetaFeaturesTestCase {

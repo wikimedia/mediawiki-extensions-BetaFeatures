@@ -24,6 +24,8 @@
  */
 
 /**
+ * @covers \HTMLFeatureField
+ *
  * @group BetaFeatures
  */
 class HTMLFeatureFieldTest extends MediaWikiTestCase {

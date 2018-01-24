@@ -24,6 +24,8 @@
  */
 
 /**
+ * @covers \HTMLHorizontalRuleField
+ *
  * @group BetaFeatures
  */
 class HTMLHorizontalRuleFieldTest extends MediaWikiTestCase {

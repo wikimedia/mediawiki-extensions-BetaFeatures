@@ -24,6 +24,8 @@
  */
 
 /**
+ * @covers \HTMLTextBlockField
+ *
  * @group BetaFeatures
  */
 class HTMLTextBlockFieldTest extends MediaWikiTestCase {
