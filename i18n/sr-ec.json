@@ -3,10 +3,11 @@
 		"authors": [
 			"Milicevic01",
 			"Zoranzoki21",
-			"Obsuser"
+			"Obsuser",
+			"Acamicamacaraca"
 		]
 	},
-	"apihelp-query+betafeatures-description": "Листа свих Бета могућности",
+	"apihelp-query+betafeatures-description": "Списак свих Бета могућности",
 	"apihelp-query+betafeatures-example-1": "Добијате све доступне бета могућности и показује колико корисника их је омогућило",
 	"betafeatures-auto-enroll": "Аутоматски омогући све нове бета могућности",
 	"betafeatures-extension-type": "Бета могућности",
