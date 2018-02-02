@@ -66,8 +66,7 @@
 			"targets": [
 				"mobile",
 				"desktop"
-			],
-			"position": "top"
+			]
 		}
 	},
 	"ResourceFileModulePaths": {
