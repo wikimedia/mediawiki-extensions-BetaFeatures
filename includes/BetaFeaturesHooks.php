@@ -325,7 +325,7 @@ class BetaFeaturesHooks {
 	 */
 	static function getSchemaUpdates( $updater ) {
 		$updater->addExtensionTable( 'betafeatures_user_counts',
-			__DIR__ . '/sql/create_counts.sql' );
+			__DIR__ . '/../sql/create_counts.sql' );
 		return true;
 	}
 
