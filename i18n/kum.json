@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Arsenekoumyk"
+			"Arsenekoumyk",
+			"ArslanX"
 		]
 	},
-	"betafeatures-toplink": "Бета"
+	"betafeatures-toplink": "Бета",
+	"tooltip-pt-betafeatures": "Бета-функсиялары"
 }
