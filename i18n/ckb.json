@@ -2,13 +2,16 @@
 	"@metadata": {
 		"authors": [
 			"Calak",
-			"Sarchia"
+			"Sarchia",
+			"Épine"
 		]
 	},
 	"betafeatures-auto-enroll": "بە شێوەی خۆگەڕ ھەموو تایبەتمەندییە نوێکانی بیتا چالاک بکە",
+	"betafeatures-section-desc": "لێرەدا چەند ئامرازێکی نوێ دادەنرێن بۆ تاقیکردنەوەی گشتی پێش ئەوەی زیادیان بکەینە {{SITENAME}}ەوە. تکایە تاقیان بکەنەوە و بۆچوونی خۆتمان پێ بڵێ تاکوو ئەگەر ھاتوو کێشەیەکیان ھەبوو چارەسەریان بکەین.",
 	"betafeatures-toplink": "بێتا",
 	"mw-ui-feature-discuss": "وتووێژ",
 	"mw-ui-feature-info": "زانیاری",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|بەکارھێنەرێک|$1 بەکارھێنەر|0=ھیچ بەکارھێنەرێک}} ئەم ئامرازە بەکاردەبات.",
 	"prefs-betafeatures": "تایبەتمەندییەکانی بیتا",
 	"tooltip-pt-betafeatures": "تایبەتمەندییەکانی بێتا"
 }
