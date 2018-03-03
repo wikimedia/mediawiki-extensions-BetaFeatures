@@ -3,10 +3,12 @@
 		"authors": [
 			"Evropi",
 			"Geraki",
-			"Glavkos"
+			"Glavkos",
+			"Nikosgranturismogt"
 		]
 	},
 	"apihelp-query+betafeatures-description": "Λίστα όλων των BetaFeatures",
+	"betafeatures-extension-type": "Δοκιμαστικές λειτουργίες",
 	"betafeatures-toplink": "Beta",
 	"mw-ui-feature-discuss": "Συζήτηση",
 	"mw-ui-feature-info": "Πληροφορία",
