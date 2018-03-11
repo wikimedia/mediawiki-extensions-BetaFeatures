@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Mogoeilor",
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"Beyronvan"
 		]
 	},
-	"apihelp-query+betafeatures-param-counts": "برای گرفتن تعداد کاربرهایی که چندین ترجیحات را فعال کرده‌اند.",
+	"apihelp-query+betafeatures-param-counts": " سی گرتن",
 	"betafeatures-toplink": "بتا",
 	"tooltip-pt-betafeatures": "ویجه ییا بتا"
 }
