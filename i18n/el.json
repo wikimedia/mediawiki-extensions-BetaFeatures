@@ -8,6 +8,8 @@
 		]
 	},
 	"apihelp-query+betafeatures-description": "Λίστα όλων των BetaFeatures",
+	"apihelp-query+betafeatures-summary": "Λίστα όλων των δοκιμαστικών χαρακτηριστικών",
+	"betafeatures-auto-enroll": "Αυτόματη ενεργοποίηση όλων των δοκιμαστικών χαρακτηριστικών",
 	"betafeatures-extension-type": "Δοκιμαστικές λειτουργίες",
 	"betafeatures-toplink": "Beta",
 	"mw-ui-feature-discuss": "Συζήτηση",
