@@ -114,11 +114,6 @@ table.mw-htmlform-container {
 	margin: 1em 0 0 0;
 }
 
-.mw-ui-feature-title-contain {
-	margin-left: -@indent;
-	margin-right: @indent;
-}
-
 .mw-ui-feature-field .mw-ui-feature-checkbox {
 	float: left;
 
@@ -127,9 +122,17 @@ table.mw-htmlform-container {
 	}
 }
 
-.mw-ui-feature-title-contain .oo-ui-labelElement-label {
-	font-size: 24px;
-	line-height: 36px;
+.mw-ui-feature-title-contain {
+	margin-left: -@indent;
+	margin-right: @indent;
+
+	.oo-ui-fieldLayout-field {
+		padding-top: 0.4em;
+	}
+	.oo-ui-labelElement-label {
+		font-size: 24px;
+		line-height: 36px;
+	}
 }
 
 .mw-htmlform-field-HTMLTextBlockField .mw-input {
