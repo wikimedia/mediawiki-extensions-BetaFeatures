@@ -4,14 +4,15 @@
 			"Evropi",
 			"Geraki",
 			"Glavkos",
-			"Nikosgranturismogt"
+			"Nikosgranturismogt",
+			"Xaris333"
 		]
 	},
 	"apihelp-query+betafeatures-description": "Λίστα όλων των BetaFeatures",
 	"apihelp-query+betafeatures-summary": "Λίστα όλων των δοκιμαστικών χαρακτηριστικών",
 	"betafeatures-auto-enroll": "Αυτόματη ενεργοποίηση όλων των δοκιμαστικών χαρακτηριστικών",
 	"betafeatures-extension-type": "Δοκιμαστικές λειτουργίες",
-	"betafeatures-toplink": "Beta",
+	"betafeatures-toplink": "Δοκιμαστικές λειτουργίες",
 	"mw-ui-feature-discuss": "Συζήτηση",
 	"mw-ui-feature-info": "Πληροφορία",
 	"mw-ui-feature-requirements-javascript": "Αυτό το χαρακτηριστικό απαιτεί JavaScript.",
