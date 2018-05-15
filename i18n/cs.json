@@ -7,6 +7,7 @@
 		]
 	},
 	"apihelp-query+betafeatures-description": "Seznam všech funkcí betaverze",
+	"apihelp-query+betafeatures-summary": "Seznam všech funkcí betaverze",
 	"apihelp-query+betafeatures-example-1": "Získá seznam všech funkcí betaverze a počet uživatelů, kteří si je zapnuli",
 	"apihelp-query+betafeatures-param-counts": "Jestli se má načíst i počet uživatelů, kteří si zapnuli příslušnou volbu.",
 	"betafeatures-auto-enroll": "Automaticky zapnout všechny nové funkce betaverze",
