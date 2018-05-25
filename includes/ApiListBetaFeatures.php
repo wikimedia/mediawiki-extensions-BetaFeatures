@@ -20,7 +20,7 @@
  * @ingroup API
  * @file
  * @author Kunal Mehta <legoktm@gmail.com>
- * @license GNU General Public License version 2 or later
+ * @license GPL-2.0-or-later
  */
 class ApiQueryBetaFeatures extends ApiQueryBase {
 	public function __construct( $query, $moduleName ) {
