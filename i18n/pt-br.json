@@ -9,7 +9,8 @@
 			"Araceletorres",
 			"TheEduGobi",
 			"Macofe",
-			"Felipe L. Ewald"
+			"Felipe L. Ewald",
+			"Opraco"
 		]
 	},
 	"apihelp-query+betafeatures-description": "Listar todos os recursos beta",
@@ -28,6 +29,6 @@
 	"mw-ui-feature-requirements-javascript": "Este recurso requer JavaScript.",
 	"mw-ui-feature-requirements-skins": "Este recurso funciona com {{PLURAL:$1|o seguinte skin|os seguintes skins}}:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|Um usuário ativou|$1 usuários ativaram|0=Nenhum usuário ativou}} este recurso.",
-	"prefs-betafeatures": "Recursos Beta",
+	"prefs-betafeatures": "Recursos beta",
 	"tooltip-pt-betafeatures": "Recursos beta"
 }
