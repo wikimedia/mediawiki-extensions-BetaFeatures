@@ -30,7 +30,7 @@
  */
 class PreferenceHandlingTest extends BetaFeaturesTestCase {
 
-	const testPrefKey = 'unittest';
+	const TESTPREFKEY = 'unittest';
 
 	static function preferenceListing() {
 		$invalidPref = [
@@ -61,7 +61,7 @@ class PreferenceHandlingTest extends BetaFeaturesTestCase {
 	 */
 	public function testHandlingOfPreferences( $msg, $pref, $expected ) {
 		global $wgHooks;
-		$prefkey = self::testPrefKey;
+		$prefkey = self::TESTPREFKEY;
 		$prefs = [];
 		$wgHooks['GetBetaFeaturePreferences'] = [
 			function ( $user, &$prefs ) use ( $pref, $prefkey ) {

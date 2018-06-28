@@ -86,9 +86,9 @@
 		"HTMLFeatureField": "includes/HTMLFeatureField.php",
 		"HTMLTextBlockField": "includes/HTMLTextBlockField.php",
 		"HTMLHorizontalRuleField": "includes/HTMLHorizontalRuleField.php",
-		"BetaFeatures": "includes/BetaFeaturesUtil.php",
+		"BetaFeatures": "includes/BetaFeatures.php",
 		"UpdateBetaFeatureUserCountsJob": "includes/UpdateBetaFeatureUserCountsJob.php",
-		"ApiQueryBetaFeatures": "includes/ApiListBetaFeatures.php",
+		"ApiQueryBetaFeatures": "includes/ApiQueryBetaFeatures.php",
 		"SpecialBetaFeatures": "includes/SpecialBetaFeatures.php",
 		"BetaFeaturesTestCase": "tests/phpunit/BetaFeaturesTestCase.php"
 	},

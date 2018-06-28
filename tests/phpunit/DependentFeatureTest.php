@@ -31,10 +31,10 @@
 class DependentFeatureTest extends BetaFeaturesTestCase {
 
 	// Key for testing preference
-	const testPrefKey = 'unittest';
+	const TESTPREFKEY = 'unittest';
 
 	// Key for dependency hook
-	const testDepsKey = 'DependentFeatureTestDependencyCheck';
+	const TESTDEPSKEY = 'DependentFeatureTestDependencyCheck';
 
 	// Structure of testing preference
 	public static $testPref = [
@@ -54,12 +54,12 @@ class DependentFeatureTest extends BetaFeaturesTestCase {
 	}
 
 	public static function hookThatRegistersPreference( $user, &$betaPrefs ) {
-		$betaPrefs[self::testPrefKey] = self::$testPref;
+		$betaPrefs[self::TESTPREFKEY] = self::$testPref;
 		return true;
 	}
 
 	public static function hookThatRegistersDependency( &$depHooks ) {
-		$depHooks[self::testPrefKey] = self::testDepsKey;
+		$depHooks[self::TESTPREFKEY] = self::TESTDEPSKEY;
 		return true;
 	}
 
@@ -68,7 +68,7 @@ class DependentFeatureTest extends BetaFeaturesTestCase {
 
 		parent::setUp();
 
-		$wgHooks[self::testDepsKey] = [];
+		$wgHooks[self::TESTDEPSKEY] = [];
 		$wgHooks['GetBetaFeaturePreferences'][] =
 			'DependentFeatureTest::hookThatRegistersPreference';
 		$wgHooks['GetBetaFeatureDependencyHooks'][] =
@@ -78,28 +78,28 @@ class DependentFeatureTest extends BetaFeaturesTestCase {
 	public function testPassingDependency() {
 		global $wgHooks;
 
-		$wgHooks[self::testDepsKey][] = 'DependentFeatureTest::passHook';
+		$wgHooks[self::TESTDEPSKEY][] = 'DependentFeatureTest::passHook';
 
 		$prefs = [];
 
 		Hooks::run( 'GetPreferences', [ $this->user, &$prefs ] );
 
 		$this->assertArrayHasKey(
-			self::testPrefKey, $prefs, 'Hook did not run with passing dependency.'
+			self::TESTPREFKEY, $prefs, 'Hook did not run with passing dependency.'
 		);
 	}
 
 	public function testFailingDependency() {
 		global $wgHooks;
 
-		$wgHooks[self::testDepsKey][] = 'DependentFeatureTest::failHook';
+		$wgHooks[self::TESTDEPSKEY][] = 'DependentFeatureTest::failHook';
 
 		$prefs = [];
 
 		Hooks::run( 'GetPreferences', [ $this->user, &$prefs ] );
 
 		$this->assertArrayNotHasKey(
-			self::testPrefKey, $prefs, 'Hook ran with failing dependency.'
+			self::TESTPREFKEY, $prefs, 'Hook ran with failing dependency.'
 		);
 	}
 
@@ -109,7 +109,7 @@ class DependentFeatureTest extends BetaFeaturesTestCase {
 		Hooks::run( 'GetPreferences', [ $this->user, &$prefs ] );
 
 		$this->assertArrayHasKey(
-			self::testPrefKey, $prefs, 'Hook did not run without dependency.'
+			self::TESTPREFKEY, $prefs, 'Hook did not run without dependency.'
 		);
 	}
 }

@@ -31,7 +31,7 @@
 class HooksRunTest extends MediaWikiTestCase {
 
 	// Key for testing preference
-	const testPrefKey = 'unittest';
+	const TESTPREFKEY = 'unittest';
 
 	// Structure of testing preference
 	public static $testPref = [
@@ -46,7 +46,7 @@ class HooksRunTest extends MediaWikiTestCase {
 	}
 
 	public static function hookThatRegistersPreference( $user, &$betaPrefs ) {
-		$betaPrefs[self::testPrefKey] = self::$testPref;
+		$betaPrefs[self::TESTPREFKEY] = self::$testPref;
 		return true;
 	}
 
@@ -63,9 +63,9 @@ class HooksRunTest extends MediaWikiTestCase {
 		$wgHooks['GetBetaFeaturePreferences'] = [ 'HooksRunTest::hookThatRegistersPreference' ];
 		$prefs = [];
 		Hooks::run( 'GetBetaFeaturePreferences', [ $this->user, &$prefs ] );
-		$this->assertArrayHasKey( self::testPrefKey, $prefs, 'Hook did not run' );
+		$this->assertArrayHasKey( self::TESTPREFKEY, $prefs, 'Hook did not run' );
 		$this->assertEquals(
-			$prefs[self::testPrefKey],
+			$prefs[self::TESTPREFKEY],
 			self::$testPref,
 			'The returned preference was not the same as what we registered.'
 		);

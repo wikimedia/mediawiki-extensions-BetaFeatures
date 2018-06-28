@@ -83,7 +83,8 @@ class BetaFeaturesHooks {
 			if ( $oldVal === $newVal ||
 				( $oldVal === null && $newVal === HTMLFeatureField::OPTION_DISABLED )
 			) {
-				continue; // unchanged
+				// unchanged
+				continue;
 			}
 			// Enqueue a job to update the count for this preference
 			JobQueueGroup::singleton()->push(
