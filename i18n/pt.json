@@ -6,7 +6,8 @@
 			"Vitorvicentevalente",
 			"Cainamarques",
 			"Macofe",
-			"Hamilton Abreu"
+			"Hamilton Abreu",
+			"Opraco"
 		]
 	},
 	"apihelp-query+betafeatures-description": "Lista todas as Funcionalidades Beta",
@@ -25,6 +26,6 @@
 	"mw-ui-feature-requirements-javascript": "Esta funcionalidade requer JavaScript.",
 	"mw-ui-feature-requirements-skins": "Esta funcionalidade requer a utilização {{PLURAL:$1|do seguinte tema|dos seguintes temas}}:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|Um utilizador está|$1 utilizadores estão|0=Nenhum utilizador está}} a experimentar esta funcionalidade.",
-	"prefs-betafeatures": "Funcionalidades Beta",
+	"prefs-betafeatures": "Funcionalidades beta",
 	"tooltip-pt-betafeatures": "Funcionalidades beta"
 }
