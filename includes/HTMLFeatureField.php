@@ -268,6 +268,7 @@ class HTMLFeatureField extends NewHTMLCheckField {
 			$html .= Html::element( 'img', [
 				'src' => $screenshot,
 				'class' => 'mw-ui-feature-screenshot',
+				'alt' => '',
 			] );
 		}
 
