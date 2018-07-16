@@ -2,14 +2,15 @@
 	"@metadata": {
 		"authors": [
 			"Dbc334",
-			"Eleassar"
+			"Eleassar",
+			"Janezdrilc"
 		]
 	},
 	"apihelp-query+betafeatures-description": "Navedi vse betazmožnosti",
-	"betafeatures-auto-enroll": "Samodejno omogoči vse betamožnosti",
+	"betafeatures-auto-enroll": "Samodejno omogoči vse preizkusne funkcije",
 	"betafeatures-desc": "Dovoljuje uporabniku omogočiti ali onemogočiti funkcije na wikiju, ki še niso pripravljene za redno uporabo",
 	"betafeatures-extension-type": "Preizkusne funkcije",
-	"betafeatures-section-desc": "Tu {{PLURAL:$1|je nova možnost|je nekaj novih možnosti}}, ki {{PLURAL:$1|jo|jih}} načrtujemo za {{SITENAME}}. Prosimo, {{PLURAL:$1|preizkusite jo|preizkusite jih}} in nam sporočite svoje mnenje, tako da {{PLURAL:$1|jo|jih}} bomo lahko na podlagi vaših povratnih informacij izboljšali.",
+	"betafeatures-section-desc": "Tu {{PLURAL:$1|je nova funkcija|je nekaj novih funkcij}}, ki {{PLURAL:$1|jo|jih}} načrtujemo za {{SITENAME}}. {{PLURAL:$1|Preizkusi jo|Preizkusi jih}} in nam sporoči svoje mnenje, na podlagi katerega {{PLURAL:$1|jo|jih}} bomo poskusili izboljšati.",
 	"betafeatures-toplink": "Beta",
 	"mw-ui-feature-discuss": "Pogovor",
 	"mw-ui-feature-info": "Opis",
@@ -17,7 +18,7 @@
 	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|Naslednji brskalnik ni podprt|Naslednja brskalnika nista podprta|Naslednji brskalniki niso podprti}}:",
 	"mw-ui-feature-requirements-javascript": "Ta možnost zahteva JavaScript",
 	"mw-ui-feature-requirements-skins": "Ta možnost deluje samo z {{PLURAL:$1|naslednjo kožo|eno od naslednjih kož}}:",
-	"mw-ui-feature-user-count": "{{PLURAL:$1|To možnost preizkuša en uporabnik|To možnost preizkušata $1 uporabnika|To možnost preizkušajo $1 uporabniki|To možnost preizkuša $1 uporabnikov|0=Te možnosti ne preizkuša noben uporabnik}}.",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|To možnost preizkuša 1 uporabnik|To možnost preizkušata $1 uporabnika|To možnost preizkušajo $1 uporabniki|To možnost preizkuša $1 uporabnikov|0=Te možnosti ne preizkuša noben uporabnik}}.",
 	"prefs-betafeatures": "Preizkusne funkcije",
 	"tooltip-pt-betafeatures": "Preizkusne funkcije"
 }
