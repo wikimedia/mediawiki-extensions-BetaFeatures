@@ -1,8 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kw-Moon"
+			"Kw-Moon",
+			"Nrowe"
 		]
 	},
-	"betafeatures-toplink": "Beta"
+	"betafeatures-extension-type": "Nasyow beta",
+	"betafeatures-toplink": "Beta",
+	"prefs-betafeatures": "Nasyow beta",
+	"tooltip-pt-betafeatures": "Nasyow beta"
 }
