@@ -53,12 +53,12 @@ class DependentFeatureTest extends BetaFeaturesTestCase {
 		return true;
 	}
 
-	public static function hookThatRegistersPreference( $user, &$betaPrefs ) {
+	public static function hookThatRegistersPreference( User $user, array &$betaPrefs ) {
 		$betaPrefs[self::TESTPREFKEY] = self::$testPref;
 		return true;
 	}
 
-	public static function hookThatRegistersDependency( &$depHooks ) {
+	public static function hookThatRegistersDependency( array &$depHooks ) {
 		$depHooks[self::TESTPREFKEY] = self::TESTDEPSKEY;
 		return true;
 	}

@@ -33,7 +33,7 @@ class BetaFeatures {
 	 *     from the GetBetaFeaturePreferences hook
 	 * @return bool
 	 */
-	static function isFeatureEnabled( $user, $feature ) {
+	static function isFeatureEnabled( User $user, $feature ) {
 		global $wgBetaFeaturesWhitelist;
 		if ( is_array( $wgBetaFeaturesWhitelist ) && !in_array( $feature, $wgBetaFeaturesWhitelist ) ) {
 			// If there is a whitelist, and the feature is not whitelisted,
