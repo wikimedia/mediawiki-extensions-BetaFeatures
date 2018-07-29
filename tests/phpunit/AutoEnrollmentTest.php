@@ -67,7 +67,7 @@ class AutoEnrollmentTest extends BetaFeaturesTestCase {
 		],
 	];
 
-	public static function hookThatRegistersPreference( $user, &$betaPrefs ) {
+	public static function hookThatRegistersPreference( User $user, array &$betaPrefs ) {
 		foreach ( self::$testPrefs as $key => $testPref ) {
 			$betaPrefs[$key] = $testPref;
 		}

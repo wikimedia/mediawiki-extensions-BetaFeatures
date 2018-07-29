@@ -45,7 +45,7 @@ class HooksRunTest extends MediaWikiTestCase {
 		return true;
 	}
 
-	public static function hookThatRegistersPreference( $user, &$betaPrefs ) {
+	public static function hookThatRegistersPreference( User $user, array &$betaPrefs ) {
 		$betaPrefs[self::TESTPREFKEY] = self::$testPref;
 		return true;
 	}

@@ -24,7 +24,7 @@
  */
 
 class UpdateBetaFeatureUserCountsJob extends Job {
-	public function __construct( $title, $params ) {
+	public function __construct( Title $title, array $params ) {
 		parent::__construct( 'updateBetaFeaturesUserCounts', $title, $params );
 
 		$this->removeDuplicates = true;
