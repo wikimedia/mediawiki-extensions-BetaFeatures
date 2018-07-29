@@ -34,8 +34,8 @@ class BetaFeaturesHooks {
 	private static $features = [];
 
 	/**
-	 * @param array $prefs
-	 * @return array
+	 * @param string[] $prefs
+	 * @return int[]
 	 */
 	static function getUserCounts( array $prefs ) {
 		$counts = [];
@@ -62,7 +62,7 @@ class BetaFeaturesHooks {
 	 * @param User $user User who's just saved their preferences
 	 * @param array &$options List of options
 	 */
-	static function updateUserCounts( User $user, &$options ) {
+	static function updateUserCounts( User $user, array &$options ) {
 		global $wgBetaFeatures;
 
 		// Let's find out what's changed
@@ -98,8 +98,7 @@ class BetaFeaturesHooks {
 
 	/**
 	 * @param User $user
-	 * @param array &$prefs
-	 * @return bool
+	 * @param array[] &$prefs
 	 * @throws BetaFeaturesMissingFieldException
 	 */
 	public static function getPreferences( User $user, array &$prefs ) {
@@ -287,21 +286,16 @@ class BetaFeaturesHooks {
 				} );
 			}
 		}
-
-		return true;
 	}
 
 	public static function onMakeGlobalVariablesScript( array &$vars ) {
 		$vars['wgBetaFeaturesFeatures'] = self::$features;
-
-		return true;
 	}
 
 	/**
 	 * @param array &$personal_urls
 	 * @param Title $title
 	 * @param SkinTemplate $skintemplate
-	 * @return bool
 	 */
 	static function getBetaFeaturesLink( &$personal_urls, Title $title, SkinTemplate $skintemplate ) {
 		$user = $skintemplate->getUser();
@@ -316,23 +310,18 @@ class BetaFeaturesHooks {
 				],
 			], 'preferences' );
 		}
+	}
 
-		return true;
+	static function getSchemaUpdates( DatabaseUpdater $updater ) {
+		$updater->addExtensionTable( 'betafeatures_user_counts',
+			__DIR__ . '/../sql/create_counts.sql' );
 	}
 
 	/**
-	 * @param DatabaseUpdater $updater
-	 * @return bool
+	 * @param string[] &$extTypes
 	 */
-	static function getSchemaUpdates( $updater ) {
-		$updater->addExtensionTable( 'betafeatures_user_counts',
-			__DIR__ . '/../sql/create_counts.sql' );
-		return true;
-	}
-
 	public static function onExtensionTypes( array &$extTypes ) {
 		$extTypes['betafeatures'] = wfMessage( 'betafeatures-extension-type' )->escaped();
-		return true;
 	}
 
 }
