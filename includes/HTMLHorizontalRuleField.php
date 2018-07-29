@@ -37,10 +37,9 @@ class HTMLHorizontalRuleField extends HTMLFormField {
 	/**
 	 * Pretty much ignores its arguments and returns a raw HR tag.
 	 * @param string $value
-	 * @param null $attr
 	 * @return string
 	 */
-	public function getInputHTML( $value, $attr = null ) {
+	public function getInputHTML( $value ) {
 		return Html::element( 'hr', [] );
 	}
 }
