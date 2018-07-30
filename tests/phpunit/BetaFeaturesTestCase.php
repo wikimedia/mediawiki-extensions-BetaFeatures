@@ -28,6 +28,11 @@
  */
 class BetaFeaturesTestCase extends MediaWikiTestCase {
 
+	/**
+	 * @var User
+	 */
+	protected $user;
+
 	protected function setUp() {
 		global $wgHooks;
 

@@ -41,7 +41,12 @@ class HooksRunTest extends MediaWikiTestCase {
 		'discussion-link' => 'http://example.org/feedback',
 	];
 
-	public static function nullHook( $user, &$betaPrefs ) {
+	/**
+	 * @var User
+	 */
+	private $user;
+
+	public static function nullHook( User $user, array &$betaPrefs ) {
 		return true;
 	}
 
