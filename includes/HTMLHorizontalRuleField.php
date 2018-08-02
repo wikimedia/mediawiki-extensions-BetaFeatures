@@ -30,7 +30,7 @@ class HTMLHorizontalRuleField extends HTMLFormField {
 	 * the right-aligned label style doesn't really apply.
 	 * @return string
 	 */
-	function getLabel() {
+	public function getLabel() {
 		return '&#160;';
 	}
 
@@ -40,7 +40,7 @@ class HTMLHorizontalRuleField extends HTMLFormField {
 	 * @param null $attr
 	 * @return string
 	 */
-	function getInputHTML( $value, $attr = null ) {
+	public function getInputHTML( $value, $attr = null ) {
 		return Html::element( 'hr', [] );
 	}
 }

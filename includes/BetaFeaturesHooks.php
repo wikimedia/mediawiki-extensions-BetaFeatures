@@ -37,7 +37,7 @@ class BetaFeaturesHooks {
 	 * @param string[] $prefs
 	 * @return int[]
 	 */
-	static function getUserCounts( array $prefs ) {
+	public static function getUserCounts( array $prefs ) {
 		$counts = [];
 		if ( !$prefs ) {
 			return $counts;
@@ -62,7 +62,7 @@ class BetaFeaturesHooks {
 	 * @param User $user User who's just saved their preferences
 	 * @param array &$options List of options
 	 */
-	static function updateUserCounts( User $user, array &$options ) {
+	public static function updateUserCounts( User $user, array &$options ) {
 		global $wgBetaFeatures;
 
 		// Let's find out what's changed
@@ -293,11 +293,15 @@ class BetaFeaturesHooks {
 	}
 
 	/**
-	 * @param array &$personal_urls
+	 * @param array[] &$personal_urls
 	 * @param Title $title
 	 * @param SkinTemplate $skintemplate
 	 */
-	static function getBetaFeaturesLink( &$personal_urls, Title $title, SkinTemplate $skintemplate ) {
+	public static function getBetaFeaturesLink(
+		array &$personal_urls,
+		Title $title,
+		SkinTemplate $skintemplate
+	) {
 		$user = $skintemplate->getUser();
 		if ( $user->isLoggedIn() ) {
 			$personal_urls = wfArrayInsertAfter( $personal_urls, [
@@ -312,7 +316,10 @@ class BetaFeaturesHooks {
 		}
 	}
 
-	static function getSchemaUpdates( DatabaseUpdater $updater ) {
+	/**
+	 * @param DatabaseUpdater $updater
+	 */
+	public static function getSchemaUpdates( DatabaseUpdater $updater ) {
 		$updater->addExtensionTable( 'betafeatures_user_counts',
 			__DIR__ . '/../sql/create_counts.sql' );
 	}

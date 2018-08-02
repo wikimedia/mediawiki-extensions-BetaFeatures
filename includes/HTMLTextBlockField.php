@@ -29,7 +29,7 @@ class HTMLTextBlockField extends HTMLFormField {
 	 * Override __construct so we can allow HTML in labels
 	 * @param array $params
 	 */
-	function __construct( $params ) {
+	public function __construct( $params ) {
 		if ( isset( $params['label'] ) ) {
 			$label = $params['label'];
 		}
@@ -46,7 +46,7 @@ class HTMLTextBlockField extends HTMLFormField {
 	 * the right-aligned label style doesn't really apply.
 	 * @return string
 	 */
-	function getLabel() {
+	public function getLabel() {
 		return '&#160;';
 	}
 
@@ -56,7 +56,7 @@ class HTMLTextBlockField extends HTMLFormField {
 	 * @param null $attr
 	 * @return string
 	 */
-	function getInputHTML( $value, $attr = null ) {
+	public function getInputHTML( $value, $attr = null ) {
 		return Html::rawElement( 'div', [], $this->mLabel );
 	}
 }
