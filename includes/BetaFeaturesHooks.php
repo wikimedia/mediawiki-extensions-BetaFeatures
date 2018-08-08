@@ -110,9 +110,12 @@ class BetaFeaturesHooks {
 		Hooks::run( 'GetBetaFeaturePreferences', [ $user, &$betaPrefs ] );
 
 		$prefs['betafeatures-section-desc'] = [
-			'class' => HTMLTextBlockField::class,
-			'label' => wfMessage( 'betafeatures-section-desc' )->numParams( count( $betaPrefs ) )->parse(),
+			'type' => 'info',
+			'default' => Xml::tags( 'tr', [],
+				Xml::tags( 'td', [ 'colspan' => 2 ],
+					wfMessage( 'betafeatures-section-desc' )->numParams( count( $betaPrefs ) )->parseAsBlock() ) ),
 			'section' => 'betafeatures',
+			'rawrow' => true,
 		];
 
 		$prefs['betafeatures-auto-enroll'] = [

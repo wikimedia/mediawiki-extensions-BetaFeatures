@@ -84,7 +84,6 @@
 		"BetaFeaturesMissingFieldException": "includes/BetaFeaturesMissingFieldException.php",
 		"NewHTMLCheckField": "includes/NewHTMLCheckField.php",
 		"HTMLFeatureField": "includes/HTMLFeatureField.php",
-		"HTMLTextBlockField": "includes/HTMLTextBlockField.php",
 		"HTMLHorizontalRuleField": "includes/HTMLHorizontalRuleField.php",
 		"BetaFeatures": "includes/BetaFeatures.php",
 		"UpdateBetaFeatureUserCountsJob": "includes/UpdateBetaFeatureUserCountsJob.php",
