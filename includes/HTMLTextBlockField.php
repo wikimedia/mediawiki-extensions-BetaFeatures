@@ -53,10 +53,9 @@ class HTMLTextBlockField extends HTMLFormField {
 	/**
 	 * Pretty much ignores its arguments and returns the label-message.
 	 * @param string $value
-	 * @param null $attr
 	 * @return string
 	 */
-	public function getInputHTML( $value, $attr = null ) {
+	public function getInputHTML( $value ) {
 		return Html::rawElement( 'div', [], $this->mLabel );
 	}
 }

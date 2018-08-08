@@ -39,20 +39,11 @@ class HTMLFeatureField extends NewHTMLCheckField {
 			'class' => 'mw-ui-feature-header',
 		] );
 
-		$attrs = $this->getTooltipAndAccessKey();
-		$attrs['id'] = $this->mID;
-		$attrs['class'] = 'mw-ui-feature-toggle';
-
-		if ( isset( $this->mParams['disabled'] ) &&
-				$this->mParams['disabled'] === true ) {
-			$attrs['disabled'] = true;
-		}
-
 		$html .= Html::openElement( 'div', [
 			'class' => 'mw-ui-feature-title-contain',
 		] );
 
-		$html .= $this->getCheckboxHTML( $value, $attrs );
+		$html .= $this->getCheckboxHTML( $value );
 
 		// Close -title-contain
 		$html .= Html::closeElement( 'div' );
@@ -142,8 +133,6 @@ class HTMLFeatureField extends NewHTMLCheckField {
 				[ 'class' => 'mw-ui-feature-user-count' ],
 				$parent->msg( $userCountMsg )->numParams( $this->mParams['user-count'] )->escaped()
 			);
-
-			$attrs['data-count'] = $this->mParams['user-count'];
 		}
 
 		if ( isset( $this->mParams['desc-message'] ) ) {
@@ -281,7 +270,7 @@ class HTMLFeatureField extends NewHTMLCheckField {
 		return $html;
 	}
 
-	public function getInputHTML( $value, $attr = null ) {
+	public function getInputHTML( $value ) {
 		$html = '';
 
 		$divClasses = [

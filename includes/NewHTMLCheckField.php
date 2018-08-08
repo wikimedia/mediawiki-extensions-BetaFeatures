@@ -34,10 +34,9 @@ class NewHTMLCheckField extends HTMLCheckField {
 
 	/**
 	 * @param string $value
-	 * @param string $attr
 	 * @return string
 	 */
-	protected function getCheckboxHTML( $value, $attr ) {
+	protected function getCheckboxHTML( $value ) {
 		if ( !empty( $this->mParams['invert'] ) ) {
 			$value = !$value;
 		}
@@ -81,11 +80,10 @@ class NewHTMLCheckField extends HTMLCheckField {
 
 	/**
 	 * @param string $value
-	 * @param null $attr
 	 * @return String
 	 */
-	public function getInputHTML( $value, $attr = null ) {
-		return $this->getCheckboxHTML( $value, $attr );
+	public function getInputHTML( $value ) {
+		return $this->getCheckboxHTML( $value );
 	}
 
 	public function getInputOOUI( $value ) {
