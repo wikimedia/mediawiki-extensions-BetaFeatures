@@ -116,6 +116,8 @@ class BetaFeaturesHooks {
 					wfMessage( 'betafeatures-section-desc' )->numParams( count( $betaPrefs ) )->parseAsBlock() ) ),
 			'section' => 'betafeatures',
 			'rawrow' => true,
+			// Needed to pass phan-taint-check-plugin, see T201902
+			'raw' => true,
 		];
 
 		$prefs['betafeatures-auto-enroll'] = [
