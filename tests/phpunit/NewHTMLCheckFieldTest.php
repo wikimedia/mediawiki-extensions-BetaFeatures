@@ -33,7 +33,7 @@ class NewHTMLCheckFieldTest extends MediaWikiTestCase {
 	public function testCreatingFieldGivesExpectedStrings() {
 		$form = new HTMLForm( [
 			'blahblahblah' => [
-				'class' => 'NewHTMLCheckField',
+				'class' => NewHTMLCheckField::class,
 				'label-message' => 'betafeatures-test-check-field',
 				'default' => true,
 			]

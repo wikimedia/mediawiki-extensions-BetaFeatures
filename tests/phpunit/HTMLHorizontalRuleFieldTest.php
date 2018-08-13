@@ -33,7 +33,7 @@ class HTMLHorizontalRuleFieldTest extends MediaWikiTestCase {
 	public function testCreatingFieldGivesExpectedStrings() {
 		$form = new HTMLForm( [
 			'blahblahblah' => [
-				'class' => 'HTMLHorizontalRuleField',
+				'class' => HTMLHorizontalRuleField::class,
 			],
 		] );
 		$form->setTitle( Title::newMainPage() );

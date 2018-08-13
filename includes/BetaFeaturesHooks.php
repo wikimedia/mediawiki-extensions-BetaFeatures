@@ -110,20 +110,20 @@ class BetaFeaturesHooks {
 		Hooks::run( 'GetBetaFeaturePreferences', [ $user, &$betaPrefs ] );
 
 		$prefs['betafeatures-section-desc'] = [
-			'class' => 'HTMLTextBlockField',
+			'class' => HTMLTextBlockField::class,
 			'label' => wfMessage( 'betafeatures-section-desc' )->numParams( count( $betaPrefs ) )->parse(),
 			'section' => 'betafeatures',
 		];
 
 		$prefs['betafeatures-auto-enroll'] = [
-			'class' => 'NewHTMLCheckField',
+			'class' => NewHTMLCheckField::class,
 			'label-message' => 'betafeatures-auto-enroll',
 			'section' => 'betafeatures',
 		];
 
 		// Purely visual field.
 		$prefs['betafeatures-breaking-hr'] = [
-			'class' => 'HTMLHorizontalRuleField',
+			'class' => HTMLHorizontalRuleField::class,
 			'section' => 'betafeatures',
 		];
 
@@ -167,7 +167,7 @@ class BetaFeaturesHooks {
 			}
 
 			$opt = [
-				'class' => 'HTMLFeatureField',
+				'class' => HTMLFeatureField::class,
 				'section' => 'betafeatures',
 			];
 

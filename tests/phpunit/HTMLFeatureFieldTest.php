@@ -33,7 +33,7 @@ class HTMLFeatureFieldTest extends MediaWikiTestCase {
 	public function testCreatingFieldGivesExpectedStrings() {
 		$form = new HTMLForm( [
 			'blahblahblah' => [
-				'class' => 'HTMLFeatureField',
+				'class' => HTMLFeatureField::class,
 				'label-message' => 'betafeatures-test-check-field',
 				'desc-message' => 'betafeatures-test-feature-field',
 				'info-link' => 'http://example.org/features',
