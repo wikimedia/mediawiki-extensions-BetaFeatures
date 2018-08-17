@@ -137,7 +137,7 @@ class BetaFeaturesHooks {
 		// coming soon to a wiki very near you.
 		Hooks::run( 'GetBetaFeatureDependencyHooks', [ &$depHooks ] );
 
-		$saveUser = false;
+		$autoEnrollSaveSettings = [];
 		$autoEnrollAll =
 			$user->getOption( 'betafeatures-auto-enroll' ) === HTMLFeatureField::OPTION_ENABLED;
 		$autoEnroll = [];
@@ -225,9 +225,10 @@ class BetaFeaturesHooks {
 					$currentValue !== HTMLFeatureField::OPTION_DISABLED &&
 					$autoEnrollHere === true ) {
 				// We haven't seen this before, and the user has auto-enroll enabled!
-				// Set the option to true.
+				// Set the option to true and make it visible for the current user object
 				$user->setOption( $key, HTMLFeatureField::OPTION_ENABLED );
-				$saveUser = true;
+				// Also put it aside for saving the settings later
+				$autoEnrollSaveSettings[$key] = HTMLFeatureField::OPTION_ENABLED;
 			}
 		}
 
@@ -276,18 +277,17 @@ class BetaFeaturesHooks {
 			self::$features[$key] = $requirements;
 		}
 
-		if ( $saveUser ) {
-			$cache = ObjectCache::getLocalClusterInstance();
-			$key = $cache->makeKey( __CLASS__, 'prefs-update', $user->getId() );
-			// T95839: If concurrent requests pile on (e.g. multiple tabs), only let one
-			// thread bother doing these updates. This avoids pointless error log spam.
-			if ( $cache->lock( $key, 0, $cache::TTL_MINUTE ) ) {
-				// Save the preferences to the DB post-send
-				DeferredUpdates::addCallableUpdate( function () use ( $user, $cache, $key ) {
-					$user->saveSettings();
-					$cache->unlock( $key );
-				} );
-			}
+		if ( $autoEnrollSaveSettings !== [] ) {
+			// Save the preferences to the DB post-send
+			DeferredUpdates::addCallableUpdate( function () use ( $user, $autoEnrollSaveSettings ) {
+				// Refresh, because the settings could be changed in the meantime by api or special page
+				$user->load( User::READ_LATEST );
+				// Apply the settings and save
+				foreach ( $autoEnrollSaveSettings as $key => $option ) {
+					$user->setOption( $key, $option );
+				}
+				$user->saveSettings();
+			} );
 		}
 	}
 
