@@ -1,9 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ninjastrikers"
+			"Ninjastrikers",
+			"Dr Lotus Black"
 		]
 	},
 	"betafeatures-toplink": "အစမ်းမူကွဲ",
+	"mw-ui-feature-discuss": "ဆွေးနွေးချက်",
+	"mw-ui-feature-info": "သတင်းအချက်အလက်",
 	"tooltip-pt-betafeatures": "အစမ်း အသွင်အပြင်များ"
 }
