@@ -82,7 +82,7 @@ class HTMLFeatureField extends NewHTMLCheckField {
 				],
 				new OOUI\IconWidget( [
 					'icon' => 'article'
-				] ).
+				] ) .
 				$this->mParent->msg( 'mw-ui-feature-info' )->escaped()
 			);
 			$html .= ' ';
@@ -96,7 +96,7 @@ class HTMLFeatureField extends NewHTMLCheckField {
 				],
 				new OOUI\IconWidget( [
 					'icon' => 'speechBubbles'
-				] ).
+				] ) .
 				$this->mParent->msg( 'mw-ui-feature-discuss' )->escaped()
 			);
 		}
