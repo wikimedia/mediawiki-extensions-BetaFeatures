@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Geopoet"
+			"Geopoet",
+			"ShimunUfesoj"
 		]
 	},
 	"betafeatures-auto-enroll": "Awtomatikong pagpaganahon an gabos na baguhong mga estima nin beta",
@@ -15,5 +16,6 @@
 	"mw-ui-feature-requirements-javascript": "Ining estima minakaipo nin JavaScript.",
 	"mw-ui-feature-requirements-skins": "Ining estima minagana sana sa{{PLURAL:$1|minasunod na kublit|minasunod na mga kublit}}:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|Sarong paragamit igwa nin|$1 mga paragamit igwa nin|0=Mayong paragamit na igwa nin}} pinagpagana ining estima.",
-	"prefs-betafeatures": "Mga posturang yaon sa beta"
+	"prefs-betafeatures": "Mga posturang yaon sa beta",
+	"tooltip-pt-betafeatures": "Mga posturang yaon sa beta"
 }

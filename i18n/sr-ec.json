@@ -14,7 +14,7 @@
 	"betafeatures-extension-type": "Бета могућности",
 	"betafeatures-section-desc": "Ово {{PLURAL:$1|је нова могућност коју|су нове могућности које}} разматрамо за пројекат {{SITENAME}}. {{PLURAL:$1|Испробајте је|Испробајте их}} и дајте нам Ваше мишљење да бисмо {{PLURAL:$1|је|их}} побољшали на основу Ваших повратних информација.",
 	"betafeatures-toplink": "Бета",
-	"mw-ui-feature-discuss": "Расправа",
+	"mw-ui-feature-discuss": "Дискусија",
 	"mw-ui-feature-info": "Информације",
 	"mw-ui-feature-requirements-betafeatures": "За ову могућност потребно је омогућити {{PLURAL:$1|следећу могућност|следеће могућности}}:",
 	"mw-ui-feature-requirements-javascript": "За ову могућност је потребна JavaScript-а.",
