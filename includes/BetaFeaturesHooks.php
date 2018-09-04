@@ -111,12 +111,9 @@ class BetaFeaturesHooks {
 
 		$prefs['betafeatures-section-desc'] = [
 			'type' => 'info',
-			'default' => Xml::tags( 'tr', [],
-				Xml::tags( 'td', [ 'colspan' => 2 ],
-					wfMessage( 'betafeatures-section-desc' )->numParams( count( $betaPrefs ) )->parseAsBlock() ) ),
+			'default' =>
+				wfMessage( 'betafeatures-section-desc' )->numParams( count( $betaPrefs ) )->parseAsBlock(),
 			'section' => 'betafeatures',
-			'rawrow' => true,
-			// Needed to pass phan-taint-check-plugin, see T201902
 			'raw' => true,
 		];
 
