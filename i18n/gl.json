@@ -5,12 +5,13 @@
 			"Vivaelcelta",
 			"Elisardojm",
 			"Banjo",
-			"Macofe"
+			"Macofe",
+			"Navhy"
 		]
 	},
 	"apihelp-query+betafeatures-description": "Listar tódolos recursos Beta",
 	"apihelp-query+betafeatures-summary": "Listar tódolos recursos Beta",
-	"apihelp-query+betafeatures-example-1": "Ver tódolos recursos Beta disponibles e mostrar cantos usuarios os habilitaron",
+	"apihelp-query+betafeatures-example-1": "Ver tódolos recursos Beta dispoñíbeis e amosar cantos usuarios os habilitaron",
 	"apihelp-query+betafeatures-param-counts": "Recoller o número de usuarios que teñan habilitada unha certa preferencia.",
 	"betafeatures-auto-enroll": "Activar automaticamente todas as novas características en probas",
 	"betafeatures-desc": "Permite que o usuario active ou desactive as características do wiki que aínda non están listas para o seu uso xeneralizado",
