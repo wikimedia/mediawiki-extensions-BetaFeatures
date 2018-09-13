@@ -9,13 +9,13 @@
 	},
 	"apihelp-query+betafeatures-description": "ᱡᱚᱛᱚ ᱵᱤᱴᱟ ᱥᱩᱵᱤᱫᱷᱟ ᱞᱤᱥᱴᱤᱢᱮ",
 	"apihelp-query+betafeatures-summary": "ᱡᱚᱛᱚ ᱵᱮᱴᱟ ᱥᱩᱵᱤᱫᱷᱟ ᱞᱤᱥᱴᱤᱢᱮ",
-	"betafeatures-extension-type": "ᱵᱮᱴᱟ ᱥᱩᱵᱤᱫᱷᱟ ᱠᱚ",
+	"betafeatures-extension-type": "ᱵᱤᱴᱟ ᱥᱩᱵᱤᱫᱷᱟ",
 	"betafeatures-toplink": "ᱵᱤᱴᱟ",
 	"mw-ui-feature-discuss": "ᱜᱟᱞᱚᱪ",
 	"mw-ui-feature-info": "ᱧᱮᱛᱮᱞ",
 	"mw-ui-feature-requirements-javascript": "ᱱᱚᱶᱟ ᱥᱩᱵᱤᱫᱷᱟ ᱡᱟᱵᱷᱟᱥᱠᱨᱤᱯᱴ ᱞᱟᱹᱠᱛᱤᱭᱟᱭ ᱾",
 	"mw-ui-feature-requirements-skins": "ᱱᱚᱶᱟ ᱥᱩᱵᱤᱫᱷᱟ ᱫᱚ ᱥᱩᱢᱩᱝ {{PLURAL:$1|ᱱᱚᱶᱟ ᱦᱟᱨᱛᱟ|ᱱᱚᱶᱟ ᱦᱟᱨᱛᱟᱠᱚ}} ᱥᱟᱶ ᱜᱮ ᱠᱟᱹᱢᱤᱭᱟᱭ:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|ᱢᱤᱫ ᱵᱮᱵᱷᱟᱨᱤᱭᱟᱹ|$1 ᱵᱮᱵᱷᱟᱨᱤᱭᱟᱹ ᱠᱚ|0=᱐ ᱦᱚᱲ}} ᱱᱚᱶᱟ ᱥᱩᱵᱤᱫᱷᱟ ᱵᱮᱵᱷᱟᱨ ᱞᱮᱫᱼᱟ ᱾",
-	"prefs-betafeatures": "ᱵᱮᱴᱟ ᱥᱩᱵᱤᱫᱷᱟ ᱠᱚ",
+	"prefs-betafeatures": "ᱵᱤᱴᱟ ᱥᱩᱵᱤᱫᱷᱟ",
 	"tooltip-pt-betafeatures": "ᱵᱮᱴᱟ ᱥᱩᱵᱤᱫᱷᱟ ᱠᱚ"
 }
