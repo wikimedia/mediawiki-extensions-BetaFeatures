@@ -5,10 +5,12 @@
 			"Shirayuki",
 			"Whym",
 			"2nd-player",
-			"Takot"
+			"Takot",
+			"Omotecho"
 		]
 	},
-	"apihelp-query+betafeatures-description": "ベータ版機能を一覧表示します。",
+	"apihelp-query+betafeatures-description": "ベータ版機能を一覧表示",
+	"apihelp-query+betafeatures-summary": "すべてのベータ版機能を一覧する",
 	"apihelp-query+betafeatures-example-1": "すべての利用可能なベータ版機能を取得し、それを何人の利用者が有効化しているか表示する",
 	"apihelp-query+betafeatures-param-counts": "特定の機能について何人のユーザーが有効にしているかを取得するかどうか",
 	"betafeatures-auto-enroll": "すべてのベータ版機能を自動的に有効にする",
