@@ -278,15 +278,25 @@ class BetaFeaturesHooks {
 
 		if ( $autoEnrollSaveSettings !== [] ) {
 			// Save the preferences to the DB post-send
-			DeferredUpdates::addCallableUpdate( function () use ( $user, $autoEnrollSaveSettings ) {
-				// Refresh, because the settings could be changed in the meantime by api or special page
-				$user->load( User::READ_LATEST );
-				// Apply the settings and save
-				foreach ( $autoEnrollSaveSettings as $key => $option ) {
-					$user->setOption( $key, $option );
+			DeferredUpdates::addCallableUpdate(
+				function () use ( $user, $autoEnrollSaveSettings ) {
+					$cache = ObjectCache::getLocalClusterInstance();
+					$key = $cache->makeKey( __CLASS__, 'prefs-update', $user->getId() );
+
+					// T95839: If concurrent requests pile on (e.g. multiple tabs), only let one
+					// thread bother doing these updates. This avoids pointless error log spam.
+					if ( $cache->lock( $key, 0, $cache::TTL_MINUTE ) ) {
+						// Refresh, because the settings could be changed in the meantime by api or special page
+						$user->load( User::READ_LATEST );
+						// Apply the settings and save
+						foreach ( $autoEnrollSaveSettings as $key => $option ) {
+							$user->setOption( $key, $option );
+						}
+						$user->saveSettings();
+						$cache->unlock( $key );
+					}
 				}
-				$user->saveSettings();
-			} );
+			);
 		}
 	}
 
