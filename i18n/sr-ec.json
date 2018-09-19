@@ -8,17 +8,17 @@
 			"BadDog"
 		]
 	},
-	"apihelp-query+betafeatures-description": "Списак свих Бета могућности",
-	"apihelp-query+betafeatures-example-1": "Добијате све доступне бета могућности и показује колико корисника их је омогућило",
-	"betafeatures-auto-enroll": "Аутоматски омогући све нове бета могућности",
-	"betafeatures-extension-type": "Бета могућности",
-	"betafeatures-section-desc": "Ово {{PLURAL:$1|је нова могућност коју|су нове могућности које}} разматрамо за пројекат {{SITENAME}}. {{PLURAL:$1|Испробајте је|Испробајте их}} и дајте нам Ваше мишљење да бисмо {{PLURAL:$1|је|их}} побољшали на основу Ваших повратних информација.",
+	"apihelp-query+betafeatures-description": "Списак свих бета-функција",
+	"apihelp-query+betafeatures-example-1": "Добијате све доступне бета-функције и показује колико корисника их је омогућило",
+	"betafeatures-auto-enroll": "Аутоматски омогући све нове бета-функције",
+	"betafeatures-extension-type": "Бета-функције",
+	"betafeatures-section-desc": "Ово {{PLURAL:$1|је нова функција коју|су нове функције које}} разматрамо за пројекат {{SITENAME}}. {{PLURAL:$1|Испробајте је|Испробајте их}} и дајте нам ваше мишљење да бисмо {{PLURAL:$1|је|их}} побољшали на основу ваших повратних информација.",
 	"betafeatures-toplink": "Бета",
 	"mw-ui-feature-discuss": "Дискусија",
 	"mw-ui-feature-info": "Информације",
 	"mw-ui-feature-requirements-betafeatures": "За ову могућност потребно је омогућити {{PLURAL:$1|следећу могућност|следеће могућности}}:",
 	"mw-ui-feature-requirements-javascript": "За ову могућност је потребна JavaScript-а.",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|Један корисник је укључио ову могућност|Ову могућност су укључила $1 корисника|Ову могућност је укључило $1 корисника|0=Ниједан корисник није укључио ову могућност}}.",
-	"prefs-betafeatures": "Бета могућности",
-	"tooltip-pt-betafeatures": "Бета могућности"
+	"prefs-betafeatures": "Бета-функције",
+	"tooltip-pt-betafeatures": "Бета-функције"
 }

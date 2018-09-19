@@ -1,9 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Htawmonzel"
+			"Htawmonzel",
+			"Aue Nai"
 		]
 	},
 	"betafeatures-toplink": "မူတၞဟ်",
+	"mw-ui-feature-discuss": "သဳကၠဳ",
+	"mw-ui-feature-info": "တင်ဂၞင်ပရိုင်",
 	"tooltip-pt-betafeatures": "Beta features"
 }
