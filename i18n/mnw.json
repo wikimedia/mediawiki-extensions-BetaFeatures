@@ -5,8 +5,12 @@
 			"Aue Nai"
 		]
 	},
+	"apihelp-query+betafeatures-description": "ထမံက်စရၚ် BetaFeatures အလုံဖအိုတ်",
+	"apihelp-query+betafeatures-summary": "ထမံက်စရၚ် BetaFeatures အလုံဖအိုတ်",
+	"betafeatures-extension-type": "Beta features",
 	"betafeatures-toplink": "မူတၞဟ်",
 	"mw-ui-feature-discuss": "သဳကၠဳ",
 	"mw-ui-feature-info": "တင်ဂၞင်ပရိုင်",
+	"prefs-betafeatures": "Beta features",
 	"tooltip-pt-betafeatures": "Beta features"
 }
