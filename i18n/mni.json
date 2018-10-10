@@ -4,8 +4,22 @@
 			"Awangba Mangang"
 		]
 	},
+	"apihelp-query+betafeatures-description": "ꯕꯦꯇꯥ ꯑꯣꯏꯒꯗꯕ ꯃꯑꯣꯡ ꯃꯇꯧꯁꯤꯡ ꯄꯔꯤꯡ ꯑꯄꯨꯟꯕ",
+	"apihelp-query+betafeatures-summary": "List all BetaFeatures",
+	"apihelp-query+betafeatures-example-1": "ꯕꯦꯇꯥ ꯐꯤꯠꯆꯔ ꯂꯩꯕ ꯄꯨꯝꯅꯃꯛ ꯐꯪꯕ ꯑꯃꯁꯨꯡ ꯁꯤꯖꯤꯟꯅꯔꯤꯕ ꯃꯁꯤꯡ ꯀꯌꯥꯝ ꯌꯥꯍꯟꯕ ꯗꯨ ꯎꯠꯄ",
+	"apihelp-query+betafeatures-param-counts": "Whether to fetch how many users have enabled a certain preference.",
+	"betafeatures-auto-enroll": "ꯕꯦꯇꯥꯒꯤ ꯑꯅꯧꯕ ꯐꯤꯆꯔꯁꯤꯡ ꯃꯁꯥ ꯃꯇꯣꯝꯇꯥ ꯌꯥꯍꯟꯕ",
+	"betafeatures-desc": "Lets user enable or disable features on the wiki that are still not ready for prime-time",
+	"betafeatures-extension-type": "ꯕꯦꯇꯥ ꯒꯤ ꯃꯑꯣꯡ ꯃꯇꯧ",
+	"betafeatures-section-desc": "ꯁꯤꯗꯥ {{PLURAL:$1|ꯁꯤ ꯑꯅꯧꯕ ꯑꯣꯏꯒꯗꯕ ꯃꯑꯣꯡ ꯃꯇꯧ|ꯁꯤꯡ ꯑꯁꯤ ꯑꯅꯧꯕ ꯑꯣꯏꯒꯗꯕ ꯃꯑꯣꯡ ꯃꯇꯧ}} {{SITENAME}} ꯒꯤꯗꯝꯛ ꯑꯩꯈꯣꯏꯅꯥ ꯈꯟꯂꯤ ꯫ ꯆꯟꯕꯤꯗꯨꯅꯥ ꯌꯦꯡꯕꯤꯌꯨ {{PLURAL:$1|ꯃꯁꯤ|ꯃꯈꯣꯏ}} ꯊꯣꯛꯄ ꯑꯃꯁꯨꯡ ꯅꯪꯒꯤ ꯋꯥꯈꯜꯗꯨ ꯈꯔꯥ ꯍꯥꯏꯔꯛ ꯎ,ꯑꯗꯨꯅꯥ ꯑꯩꯈꯣꯏꯅꯥ ꯐꯥꯒꯠꯍꯟꯕ ꯉꯃꯤ {{PLURAL:$1|ꯃꯁꯤ|ꯃꯈꯣꯏ}} ꯅꯪꯒꯤ ꯐꯤꯗꯕꯦꯛꯀꯤ ꯃꯇꯨꯡ ꯏꯟꯅ ꯫",
 	"betafeatures-toplink": "ꯕꯦꯇꯥ",
 	"mw-ui-feature-discuss": "ꯈꯟꯅ ꯅꯩꯅꯕ",
 	"mw-ui-feature-info": "ꯑꯀꯨꯞꯄ ꯋꯥꯔꯣꯜ",
+	"mw-ui-feature-requirements-betafeatures": "ꯃꯁꯤꯒꯤ ꯐꯤꯆꯔ ꯑꯁꯤꯅꯥ ꯃꯈꯥꯒꯤ {{PLURAL:$1|ꯑꯣꯏꯒꯗꯕ ꯃꯑꯣꯡ ꯃꯇꯧ|ꯑꯣꯏꯒꯗꯕ ꯃꯑꯣꯡ ꯃꯇꯧꯁꯤꯡ}} ꯌꯥꯍꯟꯕ ꯑꯃꯥ ꯆꯪꯉꯤ:",
+	"mw-ui-feature-requirements-browser": "ꯃꯈꯥꯒꯤ ꯑꯁꯤꯗ{{PLURAL:$1|browser |browsersꯁꯤꯡ}} ꯑꯁꯤ ꯉꯥꯛꯂꯧ ꯄꯤꯗꯔꯦ:",
+	"mw-ui-feature-requirements-javascript": "ꯃꯁꯤꯒꯤ ꯑꯣꯏꯒꯗꯕ ꯃꯑꯣꯡꯁꯤ ꯖꯥꯚꯥꯃꯌꯦꯛ ꯆꯪꯉꯤ",
+	"mw-ui-feature-requirements-skins": "ꯃꯁꯤꯒꯤ ꯐꯤꯆꯔ ꯑꯁꯤ ꯈꯛꯇꯃꯛ  {{PLURAL:$1|the following skin|the following skins}} ꯂꯣꯏꯅꯅ ꯆꯠꯅꯕ ꯌꯥꯏ :",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|ꯁꯤꯖꯤꯟꯅꯔꯤꯕ ꯱ ꯁꯤ|$1 ꯁꯤꯖꯤꯟꯅꯔꯤꯕꯁꯤꯡ|0=ꯁꯤꯖꯤꯟꯅꯔꯤꯕꯁꯤꯡ ꯑꯃꯇꯅ ꯇꯧꯔꯣꯏ}} ꯃꯁꯤꯒꯤ ꯐꯤꯆꯔ ꯑꯁꯤ ꯫",
+	"prefs-betafeatures": "ꯕꯦꯇꯥ ꯒꯤ ꯃꯑꯣꯡ ꯃꯇꯧ",
 	"tooltip-pt-betafeatures": "ꯕꯦꯇꯥ ꯒꯤ ꯃꯑꯣꯡ ꯃꯇꯧ"
 }
