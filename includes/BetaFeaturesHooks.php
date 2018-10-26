@@ -286,12 +286,12 @@ class BetaFeaturesHooks {
 					// thread bother doing these updates. This avoids pointless error log spam.
 					if ( $cache->lock( $key, 0, $cache::TTL_MINUTE ) ) {
 						// Refresh, because the settings could be changed in the meantime by api or special page
-						$user->load( User::READ_EXCLUSIVE );
+						$userLatest = $user->getInstanceForUpdate();
 						// Apply the settings and save
 						foreach ( $autoEnrollSaveSettings as $key => $option ) {
-							$user->setOption( $key, $option );
+							$userLatest->setOption( $key, $option );
 						}
-						$user->saveSettings();
+						$userLatest->saveSettings();
 						$cache->unlock( $key );
 					}
 				}
