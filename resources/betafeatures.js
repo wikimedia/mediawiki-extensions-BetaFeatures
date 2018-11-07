@@ -20,20 +20,18 @@
  * @license GNU General Public License version 2 or later
  */
 
-( function ( mw, $ ) {
-	$( function () {
-		var preference, blacklist, $input, $field,
-			features = mw.config.get( 'wgBetaFeaturesFeatures' );
+$( function () {
+	var preference, blacklist, $input, $field,
+		features = mw.config.get( 'wgBetaFeaturesFeatures' );
 
-		for ( preference in features ) {
-			$input = $( '#mw-input-wp' + preference );
-			$field = $input.closest( '.mw-ui-feature-field' );
-			blacklist = features[ preference ] && features[ preference ].blacklist;
+	for ( preference in features ) {
+		$input = $( '#mw-input-wp' + preference );
+		$field = $input.closest( '.mw-ui-feature-field' );
+		blacklist = features[ preference ] && features[ preference ].blacklist;
 
-			if ( blacklist && $.client.test( blacklist, null, true ) ) {
-				// Browser not compatible
-				$field.find( '.mw-ui-feature-requirements-browser' ).show();
-			}
+		if ( blacklist && $.client.test( blacklist, null, true ) ) {
+			// Browser not compatible
+			$field.find( '.mw-ui-feature-requirements-browser' ).show();
 		}
-	} );
-}( mediaWiki, jQuery ) );
+	}
+} );
