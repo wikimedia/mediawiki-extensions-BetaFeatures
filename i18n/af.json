@@ -6,6 +6,7 @@
 		]
 	},
 	"betafeatures-auto-enroll": "Aktiveer alle nuwe beta-funksionaliteit outomaties",
+	"betafeatures-extension-type": "Beta-funksionaliteit",
 	"betafeatures-section-desc": "Hier is {{PLURAL:$1|'n nuwe funksionaliteit|nuwe funksionaliteit}} wat ons oorweeg vir {{SITENAME}}. Probeer {{PLURAL:$1|dit}} gerus en deel u indrukke sodat ons {{PLURAL:$1|dit}} kan verbeter op grond van die terugvoer.",
 	"betafeatures-toplink": "Beta",
 	"mw-ui-feature-discuss": "bespreking",
