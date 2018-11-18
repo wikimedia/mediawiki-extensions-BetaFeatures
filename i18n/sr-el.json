@@ -16,5 +16,5 @@
 	"mw-ui-feature-requirements-javascript": "Za ovu mogućnost je potrebna JavaScript-a.",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|Jedan korisnik je uključio ovu mogućnost|Ovu mogućnost su uključila $1 korisnika|Ovu mogućnost je uključilo $1 korisnika|0=Nijedan korisnik nije uključio ovu mogućnost}}.",
 	"prefs-betafeatures": "Beta mogućnosti",
-	"tooltip-pt-betafeatures": "Beta mogućnosti"
+	"tooltip-pt-betafeatures": "Beta-funkcije"
 }
