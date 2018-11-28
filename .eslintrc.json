@@ -5,8 +5,5 @@
 	],
 	"globals": {
 		"mw": false
-	},
-	"rules": {
-		"dot-notation": [ "error", { "allowKeywords": true } ]
 	}
 }
