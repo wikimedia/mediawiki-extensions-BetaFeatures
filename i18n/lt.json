@@ -9,8 +9,8 @@
 			"Manvydasz"
 		]
 	},
-	"apihelp-query+betafeatures-description": "Sąrašas visų Beta funkcijų",
-	"apihelp-query+betafeatures-summary": "Sąrašas visų Beta funkcijų",
+	"apihelp-query+betafeatures-description": "Visų Beta funkcijų sąrašas",
+	"apihelp-query+betafeatures-summary": "Visų Beta funkcijų sąrašas",
 	"apihelp-query+betafeatures-example-1": "Įjungti visas beta funkcijas ir parodyti kiek vartotojų jas naudoja",
 	"apihelp-query+betafeatures-param-counts": "Ar skaičiuoti, kiek vartotojų įgalino tam tikrą funkciją.",
 	"betafeatures-auto-enroll": "Automatiškai įjungti visas naujas beta funkcijas",
@@ -22,9 +22,9 @@
 	"mw-ui-feature-info": "Informacija",
 	"mw-ui-feature-requirements-betafeatures": "Šiai funkcijai reikia, kad {{PLURAL:$1|ši funkcija būtų įgalinta|šios funkcijos būtų įgalintos}}:",
 	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|Ši naršyklė nėra palaikoma|Šios naršyklės nėra palaikomos}}:",
-	"mw-ui-feature-requirements-javascript": "Ši funkcijai reikia JavaScript.",
+	"mw-ui-feature-requirements-javascript": "Šiai funkcijai reikia JavaScript.",
 	"mw-ui-feature-requirements-skins": "Ši funkcija veikia tik su {{PLURAL:$1|šia išvaizda|šiomis išvaizdomis}}:",
-	"mw-ui-feature-user-count": "{{PLURAL:$1|Vienas naudotojas bando|$1 naudotojai bando|$1 naudotojų bando|0=Nėra naudotojų, kurie bando}} šį funkcionalumą.",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|Vienas naudotojas bando|$1 naudotojai bando|$1 naudotojų bando|0=Nėra naudotojų, kurie bando}} šią funkciją.",
 	"prefs-betafeatures": "Beta funkcijos",
 	"tooltip-pt-betafeatures": "Beta funkcijos"
 }

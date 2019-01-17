@@ -12,6 +12,7 @@
 	"betafeatures-toplink": "Beta",
 	"mw-ui-feature-discuss": "Diskusjon",
 	"mw-ui-feature-info": "Informasjon",
+	"mw-ui-feature-requirements-javascript": "Denne funksjonen krev JavaScript.",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|Éin brukar|$1 brukarar|0=Ingen brukarar}} nyttar denne funksjonen.",
 	"prefs-betafeatures": "Betafunksjonar",
 	"tooltip-pt-betafeatures": "Betafunksjonar"
