@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mogoeilor"
+			"Mogoeilor",
+			"Kikumoron"
 		]
 	},
 	"apihelp-query+betafeatures-description": "نومگٱ تٱموم چیا بتا",
@@ -10,6 +11,7 @@
 	"betafeatures-toplink": "بتا",
 	"mw-ui-feature-discuss": "گٱپ",
 	"mw-ui-feature-info": "دونسمٱندیٱل",
+	"mw-ui-feature-requirements-javascript": "چونو چی یی جاڤا اْسکریپت ناْ خا.",
 	"prefs-betafeatures": "چيا بتا",
 	"tooltip-pt-betafeatures": "چيا بتا"
 }
