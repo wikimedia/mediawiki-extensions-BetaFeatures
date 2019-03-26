@@ -9,9 +9,9 @@
 		]
 	},
 	"apihelp-query+betafeatures-description": "Списак свих бета-функција",
-	"apihelp-query+betafeatures-example-1": "Добијате све доступне бета-функције и показује колико корисника их је омогућило",
-	"betafeatures-auto-enroll": "Аутоматски омогући све нове бета-функције",
-	"betafeatures-extension-type": "Бета-функције",
+	"apihelp-query+betafeatures-example-1": "Добијате све доступне бета функције и показује колико корисника их је омогућило",
+	"betafeatures-auto-enroll": "Аутоматски омогући све нове бета функције",
+	"betafeatures-extension-type": "Бета функције",
 	"betafeatures-section-desc": "Ово {{PLURAL:$1|је нова функција коју|су нове функције које}} разматрамо за пројекат {{SITENAME}}. {{PLURAL:$1|Испробајте је|Испробајте их}} и дајте нам ваше мишљење да бисмо {{PLURAL:$1|је|их}} побољшали на основу ваших повратних информација.",
 	"betafeatures-toplink": "Бета",
 	"mw-ui-feature-discuss": "Дискусија",
@@ -19,6 +19,6 @@
 	"mw-ui-feature-requirements-betafeatures": "За ову могућност потребно је омогућити {{PLURAL:$1|следећу могућност|следеће могућности}}:",
 	"mw-ui-feature-requirements-javascript": "За ову могућност је потребна JavaScript-а.",
 	"mw-ui-feature-user-count": "Ову функцију {{PLURAL:$1|испробава један корисник|испробавају $1 корисника|испробава $1 корисника|0=не испробава ниједан корисник}}.",
-	"prefs-betafeatures": "Бета-функције",
-	"tooltip-pt-betafeatures": "Бета-функције"
+	"prefs-betafeatures": "Бета функције",
+	"tooltip-pt-betafeatures": "Бета функције"
 }
