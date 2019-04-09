@@ -22,7 +22,7 @@
 
 $( function () {
 	var $autoEnrollCheckbox, preference, blacklist,
-		featuresModel = mw.config.get( 'wgBetaFeaturesFeatures', [] );
+		featuresModel = require( './data.json' ).model;
 
 	// eslint-disable-next-line no-jquery/no-global-selector
 	$autoEnrollCheckbox = OO.ui.infuse( $( '[name=wpbetafeatures-auto-enroll]' ).parent() );

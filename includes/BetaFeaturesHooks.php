@@ -301,13 +301,14 @@ class BetaFeaturesHooks {
 		}
 	}
 
-	public static function onMakeGlobalVariablesScript( array &$vars ) {
-		if ( self::$features ) {
-			// This is added to page view HTML on all articles.
-			// FIXME: Move this to the preferences page somehow, or
-			// bundle with the module that loads betafeatures.js.
-			$vars['wgBetaFeaturesFeatures'] = self::$features;
-		}
+	/**
+	 * @internal For internal use in extension.json only.
+	 * @return array
+	 */
+	public static function getDataForPreferencesPage() {
+		return [
+			'model' => self::$features,
+		];
 	}
 
 	/**
