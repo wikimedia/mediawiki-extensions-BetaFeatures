@@ -4,13 +4,15 @@
 			"Mark Holmquist <mtraceur@member.fsf.org>"
 		]
 	},
-	"betafeatures-auto-enroll": "Automatically enable all new beta features",
+	"betafeatures-auto-enroll": "Automatically enable most beta features",
+	"betafeatures-auto-enroll-help": "Some beta features can have surprising changes, and so {{GENDER:you}} have to opt in manually.",
 	"betafeatures-desc": "Lets user enable or disable features on the wiki that are still not ready for prime-time",
 	"betafeatures-extension-type": "Beta features",
 	"betafeatures-section-desc": "Here {{PLURAL:$1|is a new feature|are some new features}} we're considering for {{SITENAME}}. Please try {{PLURAL:$1|it|them}} out and give us your thoughts, so we can improve {{PLURAL:$1|it|them}} based on your feedback.",
 	"betafeatures-test-check-field": "blah blah blah",
 	"betafeatures-test-feature-field": "This is a test feature - it should not show up.",
 	"betafeatures-toplink": "Beta",
+	"betafeatures-feature-autoenrolled": "Auto-enrolled feature",
 	"mw-ui-feature-discuss": "Discussion",
 	"mw-ui-feature-info": "Information",
 	"mw-ui-feature-requirements-betafeatures": "This feature requires the following {{PLURAL:$1|feature|features}} to be enabled:",

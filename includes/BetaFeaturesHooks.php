@@ -118,6 +118,7 @@ class BetaFeaturesHooks {
 		$prefs['betafeatures-auto-enroll'] = [
 			'class' => NewHTMLCheckField::class,
 			'label-message' => 'betafeatures-auto-enroll',
+			'help-message' => 'betafeatures-auto-enroll-help',
 			'section' => 'betafeatures',
 		];
 
@@ -218,17 +219,22 @@ class BetaFeaturesHooks {
 			$autoEnrollHere = !$exemptAutoEnroll
 				&& ( $autoEnrollAll === true || $autoEnrollForThisPref === true );
 
-			if ( $currentValue !== HTMLFeatureField::OPTION_ENABLED &&
-					$currentValue !== HTMLFeatureField::OPTION_DISABLED &&
-					$autoEnrollHere === true ) {
-				// We haven't seen this before, and the user has auto-enroll enabled!
-				// Set the option to true and make it visible for the current user object
-				$user->setOption( $key, HTMLFeatureField::OPTION_ENABLED );
-				// Also put it aside for saving the settings later
-				$autoEnrollSaveSettings[$key] = HTMLFeatureField::OPTION_ENABLED;
+			if ( $autoEnrollHere === true ) {
+				// Preferences controlled by the auto-enroller can't be changed individually when it's on
+				$prefs[$key]['disabled'] = true;
+
+				if ( $currentValue !== HTMLFeatureField::OPTION_ENABLED &&
+					$currentValue !== HTMLFeatureField::OPTION_DISABLED ) {
+					// We haven't seen this before, and the user has auto-enroll enabled!
+					// Set the option to true and make it visible for the current user object
+					$user->setOption( $key, HTMLFeatureField::OPTION_ENABLED );
+					// Also put it aside for saving the settings later
+					$autoEnrollSaveSettings[$key] = HTMLFeatureField::OPTION_ENABLED;
+				}
 			}
 
 			self::$features[$key] = [];
+			self::$features[$key]['__skip-auto-enroll'] = $exemptAutoEnroll;
 		}
 
 		foreach ( $betaPrefs as $key => $info ) {

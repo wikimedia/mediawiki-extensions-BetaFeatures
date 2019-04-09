@@ -21,19 +21,33 @@
  */
 
 $( function () {
-	var preference, $checkbox, blacklist,
+	var $autoEnrollCheckbox, preference, blacklist,
 		featuresModel = mw.config.get( 'wgBetaFeaturesFeatures', [] );
 
-	for ( preference in featuresModel ) {
+	// eslint-disable-next-line no-jquery/no-global-selector
+	$autoEnrollCheckbox = OO.ui.infuse( $( '[name=wpbetafeatures-auto-enroll]' ).parent() );
+	$autoEnrollCheckbox.connect( this, { change: function ( selectedState ) {
+		for ( preference in featuresModel ) {
+			// Some preferences don't follow the auto-enroll process; ignore them
+			if ( featuresModel[ preference ][ '__skip-auto-enroll' ] ) {
+				continue;
+			}
 
-		$checkbox = $( '[name=wp' + preference + ']' );
+			// Mass-select auto-enrollable features if clicked, but don't mass-disable
+			if ( selectedState ) {
+				featuresModel[ preference ].widget.setSelected( true );
+			}
 
-		// Extensions might hide their preferences late or by a different method
-		if ( !$checkbox.length ) {
-			continue;
+			// Mass-disable toggle based on auto-enroll state, as it controls if you can
+			featuresModel[ preference ].widget.setDisabled( selectedState );
+
+			// If it is now disabled, hint to the user why with a tooltip
+			featuresModel[ preference ].widget.setTitle( selectedState ? mw.msg( 'betafeatures-feature-autoenrolled' ) : null );
 		}
+	} } );
 
-		featuresModel[ preference ].widget = OO.ui.infuse( $checkbox.parent() );
+	for ( preference in featuresModel ) {
+		featuresModel[ preference ].widget = OO.ui.infuse( $( '[name=wp' + preference + ']' ).parent() );
 
 		blacklist = featuresModel[ preference ].blacklist;
 

@@ -47,6 +47,9 @@
 			"styles": [
 				"betafeatures.less"
 			],
+			"messages": [
+				"betafeatures-feature-autoenrolled"
+			],
 			"dependencies": [
 				"jquery.client",
 				"oojs-ui-core"
