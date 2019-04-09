@@ -22,7 +22,7 @@
 
 $( function () {
 	var preference, blacklist, $input, $field,
-		features = mw.config.get( 'wgBetaFeaturesFeatures' );
+		features = mw.config.get( 'wgBetaFeaturesFeatures', [] );
 
 	for ( preference in features ) {
 		$input = $( '#mw-input-wp' + preference );
