@@ -14,7 +14,7 @@
 	"betafeatures-auto-enroll": "Ota automaattisesti käyttöön kaikki uudet beeta-ominaisuudet",
 	"betafeatures-desc": "Antaa käyttäjän ottaa käyttöön tai poistaa käytöstä ominaisuuksia wikissä, jotka ovat eivät ole vielä valmiita kaikkien käytettäväksi",
 	"betafeatures-extension-type": "Beeta-ominaisuudet",
-	"betafeatures-section-desc": "Tässä {{PLURAL:$1|on uusi ominaisuus, jota|on muutamia uusia ominaisuuksia, joita}} harkitsemme sivustolle {{SITENAME}}. Kokeile {{PLURAL:$1|sitä|niitä}} ja kerro mielipiteesi meille, jotta voimme parantaa {{PLURAL:$1|sitä|niitä}} palautteesi perusteella.",
+	"betafeatures-section-desc": "Tässä {{PLURAL:$1|on uusi ominaisuus, jota|on muutamia uusia ominaisuuksia, joita}} harkitsemme {{GRAMMAR:illative|{{SITENAME}}}}. Kokeile {{PLURAL:$1|sitä|niitä}} ja kerro mielipiteesi meille, jotta voimme parantaa {{PLURAL:$1|sitä|niitä}} palautteesi perusteella.",
 	"betafeatures-toplink": "Beeta",
 	"mw-ui-feature-discuss": "Keskustelu",
 	"mw-ui-feature-info": "Tietoja",
