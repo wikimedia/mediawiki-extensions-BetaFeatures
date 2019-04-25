@@ -250,6 +250,7 @@ class BetaFeaturesHooks {
 
 				// If a browser blacklist is supplied, store so it can be passed as JSON
 				if ( isset( $prefs[$key]['requirements']['blacklist'] ) ) {
+					/** @phan-suppress-next-line PhanTypeInvalidDimOffset */
 					$requirements['blacklist'] = $prefs[$key]['requirements']['blacklist'];
 				}
 
@@ -257,6 +258,7 @@ class BetaFeaturesHooks {
 				if ( isset( $prefs[$key]['requirements']['skins'] ) ) {
 					// Remove any skins that aren't installed or users can't choose
 					$prefs[$key]['requirements']['skins'] = array_intersect(
+						/** @phan-suppress-next-line PhanTypeInvalidDimOffset */
 						$prefs[$key]['requirements']['skins'],
 						array_keys( Skin::getAllowedSkins() )
 					);
