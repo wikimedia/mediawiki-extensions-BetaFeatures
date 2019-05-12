@@ -2,11 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Robin0van0der0vliet",
-			"Robin van der Vliet"
+			"Robin van der Vliet",
+			"PiefPafPier"
 		]
 	},
 	"betafeatures-toplink": "Bêta",
 	"mw-ui-feature-discuss": "oerlis",
 	"mw-ui-feature-info": "ynformaasje",
+	"prefs-betafeatures": "Bêtafunksjes",
 	"tooltip-pt-betafeatures": "Bêtafunksjes"
 }
