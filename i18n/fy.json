@@ -6,9 +6,11 @@
 			"PiefPafPier"
 		]
 	},
+	"betafeatures-auto-enroll": "Alle nije bêtafunksjes automatysk ynskeakelje",
 	"betafeatures-toplink": "Bêta",
-	"mw-ui-feature-discuss": "oerlis",
-	"mw-ui-feature-info": "ynformaasje",
+	"mw-ui-feature-discuss": "Diskusje",
+	"mw-ui-feature-info": "Ynformaasje",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|Ien meidogger hat|$1 meidoggers hawwe|0=Gjin meidogger hat}} dizze funksje op probearjen.",
 	"prefs-betafeatures": "Bêtafunksjes",
 	"tooltip-pt-betafeatures": "Bêtafunksjes"
 }
