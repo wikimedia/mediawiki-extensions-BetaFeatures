@@ -15,7 +15,7 @@
 	"betafeatures-toplink": "বিটা",
 	"mw-ui-feature-discuss": "আলোচনা",
 	"mw-ui-feature-info": "তথ্য",
-	"mw-ui-feature-requirements-betafeatures": "এই বৈশিষ্টৰ বাবে নিম্নলিখিত {{PLURAL:$1|বৈশিষ্ট|বৈশিষ্টসমূহ}} সক্ৰিয় কৰিব লাগিব:",
+	"mw-ui-feature-requirements-betafeatures": "এই বৈশিষ্ট্যৰ বাবে নিম্নলিখিত {{PLURAL:$1|বৈশিষ্ট|বৈশিষ্টসমূহ}} সক্ৰিয় কৰিব লাগিব:",
 	"mw-ui-feature-requirements-browser": "নিম্নলিখিত {{PLURAL:$1|ব্ৰাউজাৰ|ব্ৰাউজাৰসমূহ}} সমৰ্থিত নহয়:",
 	"mw-ui-feature-requirements-javascript": "এই বৈশিষ্টৰ বাবে জাভাস্ক্ৰিপ্টৰ প্ৰয়োজন।",
 	"mw-ui-feature-requirements-skins": "এই বৈশিষ্টই কেৱল তলৰ {{PLURAL:$1|আৱৰণৰ|আৱৰণসমূহৰ}} লগতহে কাম কৰে:",
