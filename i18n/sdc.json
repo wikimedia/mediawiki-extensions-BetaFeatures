@@ -4,6 +4,11 @@
 			"Jun Misugi"
 		]
 	},
+	"betafeatures-extension-type": "Funtzioni beta",
 	"betafeatures-toplink": "Beta",
+	"mw-ui-feature-discuss": "Dischussioni",
+	"mw-ui-feature-info": "Infuimmazioni",
+	"mw-ui-feature-requirements-betafeatures": "This feature requires the following {{PLURAL:$1|feature|features}} to be enabled:",
+	"prefs-betafeatures": "Funtzioni beta",
 	"tooltip-pt-betafeatures": "Funtzioni beta"
 }

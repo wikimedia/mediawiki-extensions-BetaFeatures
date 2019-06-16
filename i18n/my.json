@@ -5,8 +5,12 @@
 			"Dr Lotus Black"
 		]
 	},
+	"betafeatures-auto-enroll": "အစမ်း အသွင်အပြင်သစ်များအားလုံးကို အလိုအလျောက် အသက်ဝင်စေမည်",
+	"betafeatures-extension-type": "အစမ်း အသွင်အပြင်များ",
 	"betafeatures-toplink": "အစမ်းမူကွဲ",
 	"mw-ui-feature-discuss": "ဆွေးနွေးချက်",
 	"mw-ui-feature-info": "သတင်းအချက်အလက်",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|အသုံးပြုသူတစ်ဦး|$1 အသုံးပြုသူများ|0=အသုံးပြုသူ မရှိ}} က ဤအစမ်းသွင်ပြင်ကို စမ်းကြည့်နေကြသည်။",
+	"prefs-betafeatures": "အစမ်း အသွင်အပြင်များ",
 	"tooltip-pt-betafeatures": "အစမ်း အသွင်အပြင်များ"
 }
