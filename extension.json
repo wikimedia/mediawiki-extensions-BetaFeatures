@@ -40,7 +40,8 @@
 	},
 	"MessagesDirs": {
 		"BetaFeatures": [
-			"i18n"
+			"i18n",
+			"i18n/api"
 		]
 	},
 	"ResourceModules": {
