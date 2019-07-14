@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Brad Jorsch"
+		]
+	},
+	"apihelp-query+betafeatures-description": "{{doc-apihelp-description|query+betafeatures}}",
+	"apihelp-query+betafeatures-summary": "{{doc-apihelp-summary|query+betafeatures}}",
+	"apihelp-query+betafeatures-example-1": "{{doc-apihelp-example|query+betafeatures}}",
+	"apihelp-query+betafeatures-param-counts": "{{doc-apihelp-param|query+betafeatures|counts}}"
+}

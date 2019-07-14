@@ -4,10 +4,6 @@
 			"Mark Holmquist <mtraceur@member.fsf.org>"
 		]
 	},
-	"apihelp-query+betafeatures-description": "List all BetaFeatures",
-	"apihelp-query+betafeatures-summary": "List all BetaFeatures",
-	"apihelp-query+betafeatures-example-1": "Get all available beta features and show how many users have enabled them",
-	"apihelp-query+betafeatures-param-counts": "Whether to fetch how many users have enabled a certain preference.",
 	"betafeatures-auto-enroll": "Automatically enable all new beta features",
 	"betafeatures-desc": "Lets user enable or disable features on the wiki that are still not ready for prime-time",
 	"betafeatures-extension-type": "Beta features",

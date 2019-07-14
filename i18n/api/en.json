@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Brad Jorsch"
+		]
+	},
+	"apihelp-query+betafeatures-description": "List all BetaFeatures",
+	"apihelp-query+betafeatures-summary": "List all BetaFeatures",
+	"apihelp-query+betafeatures-example-1": "Get all available beta features and show how many users have enabled them",
+	"apihelp-query+betafeatures-param-counts": "Whether to fetch how many users have enabled a certain preference."
+}
