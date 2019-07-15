@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Christian List",
+			"Saederup92"
+		]
+	},
+	"apihelp-query+betafeatures-description": "Liste over alle betafunktioner",
+	"apihelp-query+betafeatures-summary": "Liste over alle betafunktioner",
+	"apihelp-query+betafeatures-example-1": "Få alle tilgængelige betafunktioner, og vis hvor mange brugere, der har aktiveret dem",
+	"apihelp-query+betafeatures-param-counts": "Om antal brugere som har aktiveret en vis indstilling skal hentes."
+}

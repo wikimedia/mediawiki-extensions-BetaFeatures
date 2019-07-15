@@ -4,10 +4,6 @@
 			"Awangba Mangang"
 		]
 	},
-	"apihelp-query+betafeatures-description": "ꯕꯦꯇꯥ ꯑꯣꯏꯒꯗꯕ ꯃꯑꯣꯡ ꯃꯇꯧꯁꯤꯡ ꯄꯔꯤꯡ ꯑꯄꯨꯟꯕ",
-	"apihelp-query+betafeatures-summary": "List all BetaFeatures",
-	"apihelp-query+betafeatures-example-1": "ꯕꯦꯇꯥ ꯐꯤꯠꯆꯔ ꯂꯩꯕ ꯄꯨꯝꯅꯃꯛ ꯐꯪꯕ ꯑꯃꯁꯨꯡ ꯁꯤꯖꯤꯟꯅꯔꯤꯕ ꯃꯁꯤꯡ ꯀꯌꯥꯝ ꯌꯥꯍꯟꯕ ꯗꯨ ꯎꯠꯄ",
-	"apihelp-query+betafeatures-param-counts": "Whether to fetch how many users have enabled a certain preference.",
 	"betafeatures-auto-enroll": "ꯕꯦꯇꯥꯒꯤ ꯑꯅꯧꯕ ꯐꯤꯆꯔꯁꯤꯡ ꯃꯁꯥ ꯃꯇꯣꯝꯇꯥ ꯌꯥꯍꯟꯕ",
 	"betafeatures-desc": "Lets user enable or disable features on the wiki that are still not ready for prime-time",
 	"betafeatures-extension-type": "ꯕꯦꯇꯥ ꯒꯤ ꯃꯑꯣꯡ ꯃꯇꯧ",

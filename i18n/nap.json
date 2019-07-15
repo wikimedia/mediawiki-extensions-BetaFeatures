@@ -4,10 +4,6 @@
 			"C.R."
 		]
 	},
-	"apihelp-query+betafeatures-description": "Elenco 'e tutt' 'e BetaFeatures",
-	"apihelp-query+betafeatures-summary": "Elenco 'e tutt' 'e BetaFeatures",
-	"apihelp-query+betafeatures-example-1": "Pigghie tutt' 'e funziune beta e fà vedè quanne utente ll'hanno appicciate",
-	"apihelp-query+betafeatures-param-counts": "Si s'avess'arrepiglià 'o nummero d'utente ca tenessero appicciata na certa preferenza.",
 	"betafeatures-auto-enroll": "Automaticamente appiccia tutt' 'e funziune beta nove",
 	"betafeatures-desc": "Lassa l'utente appiccià o stuta funziune dint' 'a wiki ca nun song'ancora pronte p' 'o pubblico a cchiorma",
 	"betafeatures-extension-type": "Funziune sperimentale",

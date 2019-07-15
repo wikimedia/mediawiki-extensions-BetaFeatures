@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Okras",
+			"Sunpriat"
+		]
+	},
+	"apihelp-query+betafeatures-description": "Список всех бета-функций",
+	"apihelp-query+betafeatures-summary": "Список всех бета-функций",
+	"apihelp-query+betafeatures-example-1": "Получить все доступные бета-функции и посмотреть, сколько участников пользуется ими",
+	"apihelp-query+betafeatures-param-counts": "Извлекать ли сколько пользователей включило определённую настройку."
+}

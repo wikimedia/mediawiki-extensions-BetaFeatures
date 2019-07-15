@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"EileenSanda"
+		]
+	},
+	"apihelp-query+betafeatures-description": "Yvirlit yvir allar Betafunktiónir",
+	"apihelp-query+betafeatures-example-1": "Fá alla atkomuligar betafunktiónir og vís hvussu nógvir brúkarar hava íverksett tær",
+	"apihelp-query+betafeatures-param-counts": "Hvørt talið av brúkarum ið hava aktiverað eina ávísa innstilling skal heintast."
+}

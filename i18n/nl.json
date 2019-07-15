@@ -10,10 +10,6 @@
 			"Mainframe98"
 		]
 	},
-	"apihelp-query+betafeatures-description": "Alle betafuncties weergeven",
-	"apihelp-query+betafeatures-summary": "Alle betafuncties weergeven",
-	"apihelp-query+betafeatures-example-1": "Alle beschikbare betafuncties weergeven en hoeveel gebruikers ze hebben ingeschakeld",
-	"apihelp-query+betafeatures-param-counts": "Of aangegeven moet worden hoeveel gebruikers een bepaalde voorkeur hebben ingeschakeld.",
 	"betafeatures-auto-enroll": "Automatisch alle nieuwe betafuncties inschakelen",
 	"betafeatures-desc": "Laat de gebruiker functies die in ontwikkeling zijn in- of uitschakelen",
 	"betafeatures-extension-type": "Betafuncties",

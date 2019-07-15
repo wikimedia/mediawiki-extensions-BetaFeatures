@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aefgh39622",
+			"Horus"
+		]
+	},
+	"apihelp-query+betafeatures-description": "รายการคุณลักษณะระยะทดสอบทั้งหมด",
+	"apihelp-query+betafeatures-summary": "รายการคุณลักษณะระยะทดสอบทั้งหมด",
+	"apihelp-query+betafeatures-example-1": "ดึงคุณลักษณะระยะทดสอบที่มีทั้งหมดและแสดงจำนวนผู้ใช้ที่เปิดใช้งาน",
+	"apihelp-query+betafeatures-param-counts": "ไปนำจำนวนผู้ใช้ที่เปิดใช้งานค่าพึงใจบางอย่างหรือไม่"
+}

@@ -6,9 +6,6 @@
 			"Janezdrilc"
 		]
 	},
-	"apihelp-query+betafeatures-description": "Navedi vse betazmožnosti",
-	"apihelp-query+betafeatures-summary": "Prikaži seznam vseh preizkusnih funkcij",
-	"apihelp-query+betafeatures-example-1": "Prikaži vse preizkusne funkcije, ki so na voljo, izpiši, koliko uporabnikov jih ima vklopljene",
 	"betafeatures-auto-enroll": "Samodejno omogoči vse preizkusne funkcije",
 	"betafeatures-desc": "Dovoljuje uporabniku omogočiti ali onemogočiti funkcije na wikiju, ki še niso pripravljene za redno uporabo",
 	"betafeatures-extension-type": "Preizkusne funkcije",

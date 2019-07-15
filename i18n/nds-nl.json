@@ -5,9 +5,6 @@
 			"Macofe"
 		]
 	},
-	"apihelp-query+betafeatures-description": "Laot alle bètafunksies zien",
-	"apihelp-query+betafeatures-example-1": "Laot alle beschikbaore bètafunksies zien en hoeveule gebrukers ze an-ezet hebben",
-	"apihelp-query+betafeatures-param-counts": "Of an-egeven mut wörden hoeveule gebrukers n bepaolde veurkeur an-ezet hebben.",
 	"betafeatures-auto-enroll": "Automaties alle bètafunksies anzetten",
 	"betafeatures-desc": "Laot de gebruker funksies die in ontwikkeling bin an- of uutzetten",
 	"betafeatures-extension-type": "Bètafunksies",

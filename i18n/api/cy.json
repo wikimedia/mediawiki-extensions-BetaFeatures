@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robin Owain"
+		]
+	},
+	"apihelp-query+betafeatures-description": "Dangos yr holl NodweddionBeta",
+	"apihelp-query+betafeatures-example-1": "Llwyther holl nodweddion beta a dangoser sawl defnyddiwr sydd wedi eu galluogi",
+	"apihelp-query+betafeatures-param-counts": "A ddylid cywain y wyboadaeth o sawl defnyddiwr sydd wedi galluogi'r dewisiadau."
+}

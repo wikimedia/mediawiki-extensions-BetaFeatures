@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"apihelp-query+betafeatures-description": "Elenghe de tutte le BetaFeatures",
+	"apihelp-query+betafeatures-summary": "Elenghe de tutte le BetaFeatures",
+	"apihelp-query+betafeatures-example-1": "Pigghie tutte le funziune beta e fà vedè quanne utinde le onne abbilitate",
+	"apihelp-query+betafeatures-param-counts": "Ce scorre quanda utinde onne abbilitate 'na certa preferenze."
+}

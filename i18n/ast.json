@@ -5,10 +5,6 @@
 			"Xuacu"
 		]
 	},
-	"apihelp-query+betafeatures-description": "Llista de toles carauterístiques Beta",
-	"apihelp-query+betafeatures-summary": "Llista de toles carauterístiques Beta",
-	"apihelp-query+betafeatures-example-1": "Ver tolos recursos Beta disponibles y amosar cuántos usuarios los activaron",
-	"apihelp-query+betafeatures-param-counts": "Si tien de pidise cuántos usuarios activaron una función determinada.",
 	"betafeatures-auto-enroll": "Activar automáticamente toles carauterístiques beta nueves",
 	"betafeatures-desc": "Permite que l'usuariu active o desactive funciones de la wiki qu'inda nun tan pa un usu xeneralizáu",
 	"betafeatures-extension-type": "Carauterístiques beta",

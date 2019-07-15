@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"KuboF"
+		]
+	},
+	"apihelp-query+betafeatures-description": "Listo de ĉiuj BetaFunkcioj",
+	"apihelp-query+betafeatures-summary": "Listo de ĉiuj BetaFunkcioj",
+	"apihelp-query+betafeatures-example-1": "Ricevi liston de ĉiuj disponeblaj betaj funkcioj kaj informoj pri kiom multaj uzantoj ilin ŝaltis",
+	"apihelp-query+betafeatures-param-counts": "Ĉu ŝuti ankaŭ nombron de uzantoj, kiuj ŝaltis certan preferon."
+}

@@ -5,8 +5,6 @@
 			"Mehtab ahmed"
 		]
 	},
-	"apihelp-query+betafeatures-description": "سڀني آزمائشي خوبين جي فھرست ڏيو",
-	"apihelp-query+betafeatures-example-1": "سڀ آزمائشي خوبيون حاصل ڪريو ۽ ڏيکاريو تہ گھڻن رڪنن انھن کي قاڀلِڪار بڻايو آھي",
 	"betafeatures-auto-enroll": "سڀ نيون آزمائشي خوبيون خودبخود قابلِڪار ڪيو",
 	"betafeatures-extension-type": "آزمائشي خوبيون",
 	"betafeatures-section-desc": "ھتي {{PLURAL:$1|ھڪ نئين خوبي آھي|ڪجھ نيون خوبيون آھن}} جيڪي اسان {{SITENAME}} لاءِ ذھن ۾ رکي رھيا آھيون. براءِ مھرباني {{PLURAL:$1|ان کي|انھن کي}} آزمايو ۽ اسان کي پنھنجون سوچون ڏيو، تہ جيئن اسان {{PLURAL:$1|ان کي|انھن کي}} توھان جي پذيرائي مطابق بھتر بڻائي سگھون.",

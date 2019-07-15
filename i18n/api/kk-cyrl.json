@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Arystanbek"
+		]
+	},
+	"apihelp-query+betafeatures-description": "Барлық бета мүмкіндіктер тізімі",
+	"apihelp-query+betafeatures-example-1": "Барлық қолжетімді бета мүмкіндіктерді алу және оларды қанша қатысушы іске қосқанын көрсету"
+}

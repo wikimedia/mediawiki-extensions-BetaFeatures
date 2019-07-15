@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Stryn"
+		]
+	},
+	"apihelp-query+betafeatures-description": "Luettelo kaikista Beeta-ominaisuuksista",
+	"apihelp-query+betafeatures-summary": "Luettelo kaikista Beeta-ominaisuuksista",
+	"apihelp-query+betafeatures-example-1": "Näe kaikki saatavilla olevat beeta-ominaisuudet ja näe kuinka moni käyttäjä on ottanut ne käyttöön"
+}

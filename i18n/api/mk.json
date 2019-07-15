@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"apihelp-query+betafeatures-description": "Список на сите бета-можности",
+	"apihelp-query+betafeatures-summary": "Список на сите бета-можности",
+	"apihelp-query+betafeatures-example-1": "Дај ги сите расположиви бета-можности и прикажи колку луѓе ги имаат вклучено",
+	"apihelp-query+betafeatures-param-counts": "Дали да се прикаже колку корисници имаат вклучено дадена можност."
+}

@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido",
+			"Kroji"
+		]
+	},
+	"apihelp-query+betafeatures-description": "Mostrar todas las funciones en pruebas",
+	"apihelp-query+betafeatures-summary": "Mostrar todas las funciones en pruebas",
+	"apihelp-query+betafeatures-example-1": "Activar todas las funciones en pruebas disponibles, y mostrar el número de usuarios que las han activado",
+	"apihelp-query+betafeatures-param-counts": "Si se debe obtener el número de usuarios que han activado una función concreta."
+}

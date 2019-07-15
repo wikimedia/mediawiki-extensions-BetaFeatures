@@ -5,9 +5,6 @@
 			"Sovichet"
 		]
 	},
-	"apihelp-query+betafeatures-description": "បញ្ជីមុខងារពិសេសបេតា",
-	"apihelp-query+betafeatures-summary": "បញ្ជីមុខងារពិសេសបេតា",
-	"apihelp-query+betafeatures-example-1": "ទទួលយកមុខងារពិសេសបេតាទាំងអស់ដែលអាចប្រើបាន ហើយបង្ហាញចំនួនអ្នកប្រើប្រាស់ដែលកំពុងប្រើវា",
 	"betafeatures-auto-enroll": "បើកប្រើមុខងារបេតាថ្មីៗទាំងអស់ដោយស្វ័យប្រវត្តិ",
 	"betafeatures-desc": "អនុញ្ញាតអោយអ្នកប្រើប្រាស់បើកប្រើឬបិទមិនប្រើមុខងារពិសេសនានា ដែលមិនទាន់ពេញលេញសម្រាប់ដាក់អោយប្រើជាទូទៅ។",
 	"betafeatures-extension-type": "មុខងារពិសេសបេតា",

@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kghbln",
+			"Metalhead64"
+		]
+	},
+	"apihelp-query+betafeatures-description": "Alle Beta-Funktionen auflisten",
+	"apihelp-query+betafeatures-summary": "Listet alle Betafunktionen auf",
+	"apihelp-query+betafeatures-example-1": "Alle Beta-Funktionen abfragen und anzeigen wie viele Benutzer sie aktiviert haben",
+	"apihelp-query+betafeatures-param-counts": "Ob abgefragt werden soll, wie vielen Benutzer eine bestimmte Beta-Funktion aktiviert haben"
+}

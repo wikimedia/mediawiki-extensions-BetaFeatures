@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu"
+		]
+	},
+	"apihelp-query+betafeatures-description": "Lista todas as Funcionalidades Beta",
+	"apihelp-query+betafeatures-summary": "Lista todas as Funcionalidades Beta",
+	"apihelp-query+betafeatures-example-1": "Ver todas as funcionalidades beta disponíveis e mostrar quantos utilizadores as ativaram",
+	"apihelp-query+betafeatures-param-counts": "Obter, ou não, o número de utilizadores que ativaram uma preferência específica."
+}

@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226"
+		]
+	},
+	"apihelp-query+betafeatures-description": "列出所有测试功能",
+	"apihelp-query+betafeatures-summary": "列出所有测试功能",
+	"apihelp-query+betafeatures-example-1": "获取所有可用测试功能，并显示启用它们的用户数量",
+	"apihelp-query+betafeatures-param-counts": "是否取得有多少用户启用了特定的设置分项。"
+}

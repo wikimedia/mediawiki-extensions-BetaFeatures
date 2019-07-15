@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Рустам Нурыев"
+		]
+	},
+	"apihelp-query+betafeatures-description": "Барлыҡ Бета-мөмкинлектәр исемлеге",
+	"apihelp-query+betafeatures-example-1": "Барлыҡ асыҡ бета-мөмкинлектәрҙе алырға һәм улар менән күпме ҡатнашыусы ҡулланыуын ҡарарға",
+	"apihelp-query+betafeatures-param-counts": "Биләдәле көйләүҙәрҙе тоҡандырған ҡатнашыусылар күпме икәнен беләргәме һуң."
+}

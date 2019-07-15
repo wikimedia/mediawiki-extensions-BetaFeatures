@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"ShockD",
+			"StanProg",
+			"Vodnokon4e"
+		]
+	},
+	"apihelp-query+betafeatures-description": "Списък на всички бета-функции",
+	"apihelp-query+betafeatures-summary": "Списък с всички Бета функции",
+	"apihelp-query+betafeatures-example-1": "Вземи всички налични бета функции и покажи колко потребители са ги активирали",
+	"apihelp-query+betafeatures-param-counts": "Да се извлича ли информация относно това колко потребители са активирали определена настройка."
+}

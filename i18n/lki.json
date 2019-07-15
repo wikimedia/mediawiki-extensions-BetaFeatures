@@ -5,9 +5,6 @@
 			"Lakzon"
 		]
 	},
-	"apihelp-query+betafeatures-description": "نمایش همهٔ امکانات آزمایشی",
-	"apihelp-query+betafeatures-example-1": "همهٔ امکانات آزمایشی را نشان بده و مشخص کن چند کاربر از آن استفاده می‌کنند",
-	"apihelp-query+betafeatures-param-counts": "برای گرفتن تعداد کاربرهایی که چندین ترجیحات را فعال کرده‌اند.",
 	"betafeatures-auto-enroll": "فعال کردن خودکار کلیهٔ ویژگی‌های جدید آزمایشی",
 	"betafeatures-desc": "به کاربر اجازه می‌دهد تا ویژگی‌های جدیدی که هنوز به صورت آزمایشی هستند را فعال یا غیرفعال کند.",
 	"betafeatures-extension-type": "ویژگی‌های آزمایشی",

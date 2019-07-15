@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Red Winged Duck"
+		]
+	},
+	"apihelp-query+betafeatures-description": "Сьпіс усіх бэта-функцыяў",
+	"apihelp-query+betafeatures-summary": "Сьпіс усіх бэта-функцыяў",
+	"apihelp-query+betafeatures-example-1": "Атрымаць усе даступныя бэта-функцыі і колькасьць удзельнікаў, якія карыстаюцца імі",
+	"apihelp-query+betafeatures-param-counts": "Ці атрымліваць колькасьць удзельнікаў, якія падключылі пэўную наладу."
+}

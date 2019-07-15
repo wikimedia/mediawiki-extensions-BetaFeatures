@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sureshkhole",
+			"V.narsikar"
+		]
+	},
+	"apihelp-query+betafeatures-description": "सर्व बीटा फिचर्सची यादी द्या",
+	"apihelp-query+betafeatures-summary": "सर्व बीटा फिचर्सची यादी",
+	"apihelp-query+betafeatures-example-1": "सर्व उपलब्ध बीटा फिचर्स मागवा व हे दाखवा कि किती सदस्यांनी त्यास सक्षम केले",
+	"apihelp-query+betafeatures-param-counts": "एखादा विशिष्ट फिचर किती सदस्यांनी सक्षम केला हे द्यावयाचे काय."
+}

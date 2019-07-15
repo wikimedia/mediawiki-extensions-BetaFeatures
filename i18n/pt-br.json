@@ -13,10 +13,6 @@
 			"Opraco"
 		]
 	},
-	"apihelp-query+betafeatures-description": "Listar todos os recursos beta",
-	"apihelp-query+betafeatures-summary": "Listar todos os recursos beta",
-	"apihelp-query+betafeatures-example-1": "Obtenha todos os recursos beta disponíveis e mostre quantos usuários os habilitaram",
-	"apihelp-query+betafeatures-param-counts": "Se buscar quantos usuários habilitaram uma certa preferência.",
 	"betafeatures-auto-enroll": "Ativar automaticamente todos os novos recursos beta",
 	"betafeatures-desc": "Permite ao usuário ativar ou desativar funções da wiki que ainda não estão prontas para serem ativamente usadas",
 	"betafeatures-extension-type": "Recursos beta",

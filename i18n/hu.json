@@ -7,10 +7,6 @@
 			"Macofe"
 		]
 	},
-	"apihelp-query+betafeatures-description": "Összes béta funkció listázása",
-	"apihelp-query+betafeatures-summary": "Összes béta funkció listázása",
-	"apihelp-query+betafeatures-example-1": "Összes béta funkció lekérdezése az őket engedélyező felhasználók számával együtt.",
-	"apihelp-query+betafeatures-param-counts": "Lekérdezze-e az adott beállítást engedélyező felhasználók számát.",
 	"betafeatures-auto-enroll": "Automatikusan kapcsoljon be minden új béta funkciót",
 	"betafeatures-desc": "Lehetővé teszi az egyes felhasználóknak az olyan funkciók be- és kikapcsolását, amik még nem készültek el teljesen.",
 	"betafeatures-extension-type": "Béta funkciók",

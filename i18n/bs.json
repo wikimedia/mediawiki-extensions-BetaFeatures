@@ -7,7 +7,6 @@
 			"Macofe"
 		]
 	},
-	"apihelp-query+betafeatures-param-counts": "Da li da se prikaže koliko je korisnika uključilo određenu mogućnost.",
 	"betafeatures-auto-enroll": "Automatski uključi sve beta mogućnosti",
 	"betafeatures-extension-type": "Beta mogućnosti",
 	"betafeatures-section-desc": "Ovo {{PLURAL:$1|je nova mogućnost koju planiramo|su nove mogućnosti koje planiramo}} za {{GRAMMAR:akuzativ|{{SITENAME}}}}. {{PLURAL:$1|Isprobajte je|Isprobajte ih}} i recite nam šta mislite da bismo {{PLURAL:$1|je|ih}} poboljšali na osnovi Vaših povratnih informacija.",

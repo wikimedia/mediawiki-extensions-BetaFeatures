@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tacsipacsi"
+		]
+	},
+	"apihelp-query+betafeatures-description": "Összes béta funkció listázása",
+	"apihelp-query+betafeatures-summary": "Összes béta funkció listázása",
+	"apihelp-query+betafeatures-example-1": "Összes béta funkció lekérdezése az őket engedélyező felhasználók számával együtt.",
+	"apihelp-query+betafeatures-param-counts": "Lekérdezze-e az adott beállítást engedélyező felhasználók számát."
+}

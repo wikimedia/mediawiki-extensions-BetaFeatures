@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piramidion",
+			"Ата"
+		]
+	},
+	"apihelp-query+betafeatures-description": "Список усіх Бета-функцій",
+	"apihelp-query+betafeatures-summary": "Список усіх Бета-функцій",
+	"apihelp-query+betafeatures-example-1": "Отримати усі можливі бета-функції і відобразити, скільки користувачів їх увімкнули",
+	"apihelp-query+betafeatures-param-counts": "Чи показувати, скільки користувачів увімкнули певне налаштування."
+}

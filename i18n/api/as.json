@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gitartha.bordoloi"
+		]
+	},
+	"apihelp-query+betafeatures-description": "সকলো বিটা বৈশিষ্টৰ তালিকা দেখুৱাওক",
+	"apihelp-query+betafeatures-summary": "সকলো বিটা বৈশিষ্টৰ তালিকা দেখুৱাওক",
+	"apihelp-query+betafeatures-example-1": "সকলো বিটা বৈশিষ্ট সক্ৰিয় কৰক আৰু কিমানজন সদস্যই সেয়া ব্যৱহাৰ কৰিছে দেখুৱাওক",
+	"apihelp-query+betafeatures-param-counts": "কোনো সদস্য‌ই বিশেষ কোনো পছন্দ সক্ৰিয় কৰিছে নেকি দেখুৱাওক।"
+}

@@ -4,10 +4,6 @@
 			"Praveenp"
 		]
 	},
-	"apihelp-query+betafeatures-description": "എല്ലാ ബീറ്റാ സൗകര്യങ്ങളും നൽകുക",
-	"apihelp-query+betafeatures-summary": "എല്ലാ ബീറ്റാസവിശേഷതകളുടേയും പട്ടിക",
-	"apihelp-query+betafeatures-example-1": "ലഭ്യമായ എല്ലാ ബീറ്റാ സൗകര്യങ്ങളും എടുക്കുക ഒപ്പം എത്രപേർ അവ  ഉപയോഗിക്കുന്നുവെന്ന് കാണിക്കുക",
-	"apihelp-query+betafeatures-param-counts": "ഒരു പ്രത്യേക ക്രമീകരണം എത്രപേരുപയോഗിക്കുന്നുവെന്ന് എടുക്കണം.",
 	"betafeatures-auto-enroll": "സ്വയം എല്ലാ ബീറ്റാ സവിശേഷതകളും സജ്ജമാക്കുക",
 	"betafeatures-desc": "മുഖ്യധാരയ്ക്ക് തയ്യാറാവാത്ത സവിശേഷതകൾ വിക്കിയിൽ പരീക്ഷിക്കാൻ ഉപയോക്താക്കളെ അനുവദിക്കുന്നു",
 	"betafeatures-extension-type": "പരീക്ഷണാടിസ്ഥാനത്തിലുള്ള സൗകര്യങ്ങൾ",

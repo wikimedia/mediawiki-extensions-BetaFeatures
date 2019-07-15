@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Giromin Cangiaxo"
+		]
+	},
+	"apihelp-query+betafeatures-description": "Mostra tutte-e fonçionalitæ sperimentale",
+	"apihelp-query+betafeatures-example-1": "Amia tutte e fonçionalitæ sperimentale disponibbile e mostra quanti utenti i han attivæ",
+	"apihelp-query+betafeatures-param-counts": "Se se deve recuperâ quanti utenti han attivou una çerta preferença."
+}

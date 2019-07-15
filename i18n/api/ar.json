@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Meno25",
+			"محمد أحمد عبد الفتاح"
+		]
+	},
+	"apihelp-query+betafeatures-description": "عرض كل خصائص البيتا",
+	"apihelp-query+betafeatures-summary": "عرض كل خصائص البيتا",
+	"apihelp-query+betafeatures-example-1": "الحصول على كل المزايا التجريبية وإظهار عدد المستخدمين الذين فعلوها.",
+	"apihelp-query+betafeatures-param-counts": "الحصول على عدد المستخدمين الذين قاموا بتفعيل خيار معين."
+}

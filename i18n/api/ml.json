@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Praveenp"
+		]
+	},
+	"apihelp-query+betafeatures-description": "എല്ലാ ബീറ്റാ സൗകര്യങ്ങളും നൽകുക",
+	"apihelp-query+betafeatures-summary": "എല്ലാ ബീറ്റാസവിശേഷതകളുടേയും പട്ടിക",
+	"apihelp-query+betafeatures-example-1": "ലഭ്യമായ എല്ലാ ബീറ്റാ സൗകര്യങ്ങളും എടുക്കുക ഒപ്പം എത്രപേർ അവ  ഉപയോഗിക്കുന്നുവെന്ന് കാണിക്കുക",
+	"apihelp-query+betafeatures-param-counts": "ഒരു പ്രത്യേക ക്രമീകരണം എത്രപേരുപയോഗിക്കുന്നുവെന്ന് എടുക്കണം."
+}

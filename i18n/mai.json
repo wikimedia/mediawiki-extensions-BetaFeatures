@@ -4,8 +4,6 @@
 			"बिप्लब आनन्द"
 		]
 	},
-	"apihelp-query+betafeatures-description": "सभ बिटा सुविधासभक सूची",
-	"apihelp-query+betafeatures-example-1": "सभ उपलब्ध बिटा सुविधा प्राप्त करु आर कतेक प्रयोक्ता ई सुविधा सक्षम केनए अछि सेहो देखाऊ",
 	"betafeatures-auto-enroll": "सभ नव बिटा सुविधा सभ के स्वचालित रूप सँ सक्षम करू",
 	"betafeatures-desc": "प्रयोक्ता सभ के विकि पर वो सुविधा सभ सक्षम करए लेल देत अछि जे अखन धरि सभ के प्रयोग करए लेल तयार नै अछि",
 	"betafeatures-extension-type": "बिटा सुविधा सभ",

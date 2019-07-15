@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"GunChleoc"
+		]
+	},
+	"apihelp-query+betafeatures-description": "Seall liosta dhe na feartan beta uile",
+	"apihelp-query+betafeatures-example-1": "Faigh a h-uile feart beta a tha ri fhaighinn agus seall co mheud cleachdaiche a chur an comas iad",
+	"apihelp-query+betafeatures-param-counts": "Co-dhiù an dèid fhaighinn co mheud cleachdaiche a chuir roghainn shònraichte an comas gus nach dèid"
+}

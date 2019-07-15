@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lam-ang"
+		]
+	},
+	"apihelp-query+betafeatures-description": "Ilista amin dagiti Beta a langa",
+	"apihelp-query+betafeatures-summary": "Ilista amin dagiti Beta a langa",
+	"apihelp-query+betafeatures-example-1": "Alaen amin dagiti magun-od a beta a langa ken ipakita no mano nga agar-aramat ti nangpakabael kaniada",
+	"apihelp-query+betafeatures-param-counts": "No mangala ken no mano kadagiti agar-aramat ti nangpakabael iti naisangayan a kakaykayatan."
+}

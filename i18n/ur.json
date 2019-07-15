@@ -8,7 +8,6 @@
 			"Muhammad Shuaib"
 		]
 	},
-	"apihelp-query+betafeatures-description": "آزمائشی سہولیات کی فہرست",
 	"betafeatures-auto-enroll": "تمام نئی ابتدائی سہولتوں کو خودکار طور پر فعال کریں",
 	"betafeatures-extension-type": "آزمائشی خصوصیات",
 	"betafeatures-section-desc": "یہاں {{PLURAL:$1|نئی سہولت موجود ہے|کچھ نئی سہولیات موجود ہیں}}، جو {{SITENAME}} پر تجرباتی مراحل میں ہیں۔ براہ کرم {{PLURAL:$1|اسے|انہیں}} جانچیں، تجربہ کریں اور اپنی آراء سے ہمیں نوازیں، تاکہ ہم اس بنیاد پر {{PLURAL:$1|اسے|انہیں}} مزید بہتر بناسکیں۔",

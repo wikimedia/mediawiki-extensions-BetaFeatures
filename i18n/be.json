@@ -5,9 +5,6 @@
 			"Mechanizatar"
 		]
 	},
-	"apihelp-query+betafeatures-description": "Спіс усіх бэта-функцый",
-	"apihelp-query+betafeatures-example-1": "Атрымаць усе даступныя бэта-функцыі і колькасць удзельнікаў, якія карыстаюцца імі",
-	"apihelp-query+betafeatures-param-counts": "Паказваць, колькі ўдзельнікаў падключылі пэўную наладу.",
 	"betafeatures-auto-enroll": "Аўтаматычна задзейнічаць усе новыя бэта-магчымасці",
 	"betafeatures-desc": "Дазваляе карыстальніку ўключаць ці адключаць функцыі, якія яшчэ цалкам не дапрацаваныя",
 	"betafeatures-extension-type": "Бэта-магчымасці",

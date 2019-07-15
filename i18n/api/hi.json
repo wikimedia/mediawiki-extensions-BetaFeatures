@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hindustanilanguage",
+			"Rajat11",
+			"Sfic"
+		]
+	},
+	"apihelp-query+betafeatures-description": "सभी बीटाफ़ीचरों को सूचीबद्ध करो",
+	"apihelp-query+betafeatures-summary": "सभी बीटा विशेषता की सूची",
+	"apihelp-query+betafeatures-example-1": "सभी उपलब्ध बीटा सुविधाएँ प्राप्त करें और दिखाएँ कि कितनों ने इसे सक्रिय किया है।",
+	"apihelp-query+betafeatures-param-counts": "इस वरीयता को कितने सदस्यों ने सक्रिय किया है, दिखाएँ।"
+}

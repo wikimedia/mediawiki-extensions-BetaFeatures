@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Araceletorres",
+			"Felipe L. Ewald",
+			"TheEduGobi"
+		]
+	},
+	"apihelp-query+betafeatures-description": "Listar todos os recursos beta",
+	"apihelp-query+betafeatures-summary": "Listar todos os recursos beta",
+	"apihelp-query+betafeatures-example-1": "Obtenha todos os recursos beta disponíveis e mostre quantos usuários os habilitaram",
+	"apihelp-query+betafeatures-param-counts": "Se buscar quantos usuários habilitaram uma certa preferência."
+}

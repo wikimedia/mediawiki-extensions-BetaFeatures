@@ -4,10 +4,6 @@
 			"Joetaras"
 		]
 	},
-	"apihelp-query+betafeatures-description": "Elenghe de tutte le BetaFeatures",
-	"apihelp-query+betafeatures-summary": "Elenghe de tutte le BetaFeatures",
-	"apihelp-query+betafeatures-example-1": "Pigghie tutte le funziune beta e fà vedè quanne utinde le onne abbilitate",
-	"apihelp-query+betafeatures-param-counts": "Ce scorre quanda utinde onne abbilitate 'na certa preferenze.",
 	"betafeatures-auto-enroll": "Automaticamende abbilite tutte le funziune beta nove",
 	"betafeatures-desc": "Lasse l'utende a abbilità o disabbilità le funziune sus 'a ucchi ca non ge so angore pronde pa prima vote",
 	"betafeatures-extension-type": "Funziune de Beta",

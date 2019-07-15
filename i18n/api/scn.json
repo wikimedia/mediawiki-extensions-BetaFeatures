@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sarvaturi"
+		]
+	},
+	"apihelp-query+betafeatures-description": "Elenca tutti li BetaFeatures",
+	"apihelp-query+betafeatures-example-1": "Pigghia tutti li funziunalità n beta e ammustra quantu utenti l'hannu attivati",
+	"apihelp-query+betafeatures-param-counts": "Si s'havi a rifiriri quantu utenti hannu attivata na quarchi prifirenza."
+}

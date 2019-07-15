@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"គីមស៊្រុន"
+		]
+	},
+	"apihelp-query+betafeatures-description": "បញ្ជីមុខងារពិសេសបេតា",
+	"apihelp-query+betafeatures-summary": "បញ្ជីមុខងារពិសេសបេតា",
+	"apihelp-query+betafeatures-example-1": "ទទួលយកមុខងារពិសេសបេតាទាំងអស់ដែលអាចប្រើបាន ហើយបង្ហាញចំនួនអ្នកប្រើប្រាស់ដែលកំពុងប្រើវា"
+}

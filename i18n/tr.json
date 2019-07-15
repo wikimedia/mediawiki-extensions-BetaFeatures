@@ -10,9 +10,6 @@
 			"Hedda"
 		]
 	},
-	"apihelp-query+betafeatures-description": "Bütün Beta Özellikleri listele",
-	"apihelp-query+betafeatures-summary": "Tüm Beta Özelliklerini Listele",
-	"apihelp-query+betafeatures-example-1": "Kullanılabilir tüm beta özelliklerini edinin ve kaç kullanıcının bunları etkinleştirdiğini görün",
 	"betafeatures-auto-enroll": "Tüm yeni beta özellikleri otomatik olarak etkinleştirin",
 	"betafeatures-desc": "Wiki'de hala tam zamanlı kullanım için hazır olmayan özellikleri etkinleştirmenize veya devre dışı bırakmanıza olanak sağlar",
 	"betafeatures-extension-type": "Beta özellikler",

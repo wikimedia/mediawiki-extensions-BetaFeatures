@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"BadDog"
+		]
+	},
+	"apihelp-query+betafeatures-description": "Списак свих бета-функција",
+	"apihelp-query+betafeatures-example-1": "Добијате све доступне бета функције и показује колико корисника их је омогућило"
+}

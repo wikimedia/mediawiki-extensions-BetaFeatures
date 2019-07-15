@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"बिप्लब आनन्द"
+		]
+	},
+	"apihelp-query+betafeatures-description": "सबै बेटासुविधाहरुको सूची",
+	"apihelp-query+betafeatures-example-1": "सबै उपलब्ध बेटा सुविधाहरू र तिनीहरूलाई कति प्रयोगकर्ताले सक्षम गरेका छन् त्यो देखाउने",
+	"apihelp-query+betafeatures-param-counts": "देखाउनुहोस् एक निश्चित सुविधा कति प्रयोगकर्ताले सक्षम गरेका छन्।"
+}

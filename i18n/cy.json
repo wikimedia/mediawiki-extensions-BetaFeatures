@@ -5,9 +5,6 @@
 			"Robin Owain"
 		]
 	},
-	"apihelp-query+betafeatures-description": "Dangos yr holl NodweddionBeta",
-	"apihelp-query+betafeatures-example-1": "Llwyther holl nodweddion beta a dangoser sawl defnyddiwr sydd wedi eu galluogi",
-	"apihelp-query+betafeatures-param-counts": "A ddylid cywain y wyboadaeth o sawl defnyddiwr sydd wedi galluogi'r dewisiadau.",
 	"betafeatures-auto-enroll": "Galluogi pob nodwedd beta yn awtomatig",
 	"betafeatures-desc": "Yn caniatau i ddefnyddiwr i alluogi nodweddion ar y wici nad ydynt yn barod i'w mabwysiadu'n llwyr eto, neu i'w hanalluogi.",
 	"betafeatures-extension-type": "Nodweddion beta",

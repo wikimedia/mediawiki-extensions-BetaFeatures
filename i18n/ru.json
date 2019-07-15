@@ -10,10 +10,6 @@
 			"Diralik"
 		]
 	},
-	"apihelp-query+betafeatures-description": "Список всех бета-функций",
-	"apihelp-query+betafeatures-summary": "Список всех бета-функций",
-	"apihelp-query+betafeatures-example-1": "Получить все доступные бета-функции и посмотреть, сколько участников пользуется ими",
-	"apihelp-query+betafeatures-param-counts": "Извлекать ли сколько пользователей включило определённую настройку.",
 	"betafeatures-auto-enroll": "Автоматически включать все новые бета-функции",
 	"betafeatures-desc": "Позволяет пользователю включить или отключить функции, которые ещё не готовы к прайм-тайм",
 	"betafeatures-extension-type": "Бета-функции",

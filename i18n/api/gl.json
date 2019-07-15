@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Banjo",
+			"Elisardojm",
+			"Navhy"
+		]
+	},
+	"apihelp-query+betafeatures-description": "Listar tódolos recursos Beta",
+	"apihelp-query+betafeatures-summary": "Listar tódolos recursos Beta",
+	"apihelp-query+betafeatures-example-1": "Ver tódolos recursos Beta dispoñíbeis e amosar cantos usuarios os habilitaron",
+	"apihelp-query+betafeatures-param-counts": "Recoller o número de usuarios que teñan habilitada unha certa preferencia."
+}

@@ -6,8 +6,6 @@
 			"Sveinn í Felli"
 		]
 	},
-	"apihelp-query+betafeatures-description": "Birta alla prufueiginleika",
-	"apihelp-query+betafeatures-summary": "Birta alla prufueiginleika",
 	"betafeatures-auto-enroll": "Virkja alla prufueiginleika sjálfkrafa",
 	"betafeatures-desc": "Leyfir notendum að virkja eða afvirkja eiginleika á wiki sem eru enn í vinnslu",
 	"betafeatures-extension-type": "Prófunareiginleikar",

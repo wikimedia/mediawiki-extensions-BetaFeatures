@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Geraki",
+			"Nikosgranturismogt"
+		]
+	},
+	"apihelp-query+betafeatures-description": "Λίστα όλων των BetaFeatures",
+	"apihelp-query+betafeatures-summary": "Λίστα όλων των δοκιμαστικών χαρακτηριστικών"
+}

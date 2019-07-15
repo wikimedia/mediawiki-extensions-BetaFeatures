@@ -7,10 +7,6 @@
 			"Piramidion"
 		]
 	},
-	"apihelp-query+betafeatures-description": "Список усіх Бета-функцій",
-	"apihelp-query+betafeatures-summary": "Список усіх Бета-функцій",
-	"apihelp-query+betafeatures-example-1": "Отримати усі можливі бета-функції і відобразити, скільки користувачів їх увімкнули",
-	"apihelp-query+betafeatures-param-counts": "Чи показувати, скільки користувачів увімкнули певне налаштування.",
 	"betafeatures-auto-enroll": "Автоматично увімкнути усі бета-функції",
 	"betafeatures-desc": "Дозволяє користувачу вмикати чи вимикати функції вікі, все ще не готові до прайм-тайму",
 	"betafeatures-extension-type": "Бета-функції",

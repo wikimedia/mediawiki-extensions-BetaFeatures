@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"C.R."
+		]
+	},
+	"apihelp-query+betafeatures-description": "Elenco 'e tutt' 'e BetaFeatures",
+	"apihelp-query+betafeatures-summary": "Elenco 'e tutt' 'e BetaFeatures",
+	"apihelp-query+betafeatures-example-1": "Pigghie tutt' 'e funziune beta e fà vedè quanne utente ll'hanno appicciate",
+	"apihelp-query+betafeatures-param-counts": "Si s'avess'arrepiglià 'o nummero d'utente ca tenessero appicciata na certa preferenza."
+}

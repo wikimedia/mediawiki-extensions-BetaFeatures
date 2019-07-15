@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kwj2772",
+			"Revi",
+			"Ykhwong"
+		]
+	},
+	"apihelp-query+betafeatures-description": "모든 베타 기능을 나열",
+	"apihelp-query+betafeatures-summary": "모든 베타 기능을 나열",
+	"apihelp-query+betafeatures-example-1": "사용 가능한 모든 베타 기능을 불러오고, 얼마나 많은 사용자가 기능을 활성화했는지 보여주기",
+	"apihelp-query+betafeatures-param-counts": "특정 환경설정을 활성화한 사용자의 수를 확인할 지 선택합니다."
+}

@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"BRUTE",
+			"David1010",
+			"Tokoko"
+		]
+	},
+	"apihelp-query+betafeatures-description": "ყველა ბეტა-შესაძლებლობის სია",
+	"apihelp-query+betafeatures-summary": "ყველა ბეტა-შესაძლებლობის სია",
+	"apihelp-query+betafeatures-example-1": "მიიღე ყველა არსებული ბეტა შესაძლებლობა და ნახე რამდენ მომხმარებელს აქვს ისინი გააქტიურებული."
+}

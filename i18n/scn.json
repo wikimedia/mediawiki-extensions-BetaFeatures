@@ -6,9 +6,6 @@
 			"Macofe"
 		]
 	},
-	"apihelp-query+betafeatures-description": "Elenca tutti li BetaFeatures",
-	"apihelp-query+betafeatures-example-1": "Pigghia tutti li funziunalità n beta e ammustra quantu utenti l'hannu attivati",
-	"apihelp-query+betafeatures-param-counts": "Si s'havi a rifiriri quantu utenti hannu attivata na quarchi prifirenza.",
 	"betafeatures-auto-enroll": "Attiva tutti li funziunalità n beta autumaticamenti",
 	"betafeatures-desc": "Lassa attivari o disattivari a l'utenti li carattirìstichi dâ wiki ca nun sunnu ancora pronti pi l'usu ginirali",
 	"betafeatures-extension-type": "Funziunalità n beta",

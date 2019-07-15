@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kaszeba"
+		]
+	},
+	"apihelp-query+betafeatures-description": "Lësta wszëtczich fùnkcëjów beta",
+	"apihelp-query+betafeatures-summary": "Wëszkrzëniô wszëtczé fùnkcëje beta",
+	"apihelp-query+betafeatures-example-1": "Dobëjë całowną wëdowiédzã ò przistãpnych fùnkcëjach beta ë wëskrzeni wielënã brëkòwników mających je aktiwòwóné",
+	"apihelp-query+betafeatures-param-counts": "Czë dobëc wëdowiédzã ò wielënie brëkòwników mających aktiwòwóny nen nastôw."
+}

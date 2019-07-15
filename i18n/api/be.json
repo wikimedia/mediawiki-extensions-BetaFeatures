@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mechanizatar"
+		]
+	},
+	"apihelp-query+betafeatures-description": "Спіс усіх бэта-функцый",
+	"apihelp-query+betafeatures-example-1": "Атрымаць усе даступныя бэта-функцыі і колькасць удзельнікаў, якія карыстаюцца імі",
+	"apihelp-query+betafeatures-param-counts": "Паказваць, колькі ўдзельнікаў падключылі пэўную наладу."
+}

@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80"
+		]
+	},
+	"apihelp-query+betafeatures-description": "רשימת כל אפשרויות הבטא",
+	"apihelp-query+betafeatures-summary": "רשימת כל אפשרויות הבטא",
+	"apihelp-query+betafeatures-example-1": "קבלת כל אפשרויות הבטא הזמינות והצגה של מספר המשתמשים שהפעילו אותן",
+	"apihelp-query+betafeatures-param-counts": "האם לאחזר כמה משתמשים הפעילו העדפה מסוימת."
+}

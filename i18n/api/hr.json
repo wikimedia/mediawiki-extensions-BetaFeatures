@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"MaGa"
+		]
+	},
+	"apihelp-query+betafeatures-description": "Popis svih beta mogućnosti",
+	"apihelp-query+betafeatures-example-1": "Omogući sve beta mogućnosti i prikaži koliko ih je suradnika omogućilo."
+}

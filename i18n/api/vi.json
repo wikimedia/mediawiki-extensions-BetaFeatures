@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Max20091",
+			"Minh Nguyen"
+		]
+	},
+	"apihelp-query+betafeatures-description": "Danh sách tất cả các tính năng thử nghiệm",
+	"apihelp-query+betafeatures-summary": "Danh sách tất cả các tính năng thử nghiệm",
+	"apihelp-query+betafeatures-example-1": "Lấy tất cả các tính năng thử nghiệm sẵn có và xem có bao nhiều người dùng đã bật lên",
+	"apihelp-query+betafeatures-param-counts": "Có nên lấy số người dùng đã bật một tùy chọn hay không."
+}

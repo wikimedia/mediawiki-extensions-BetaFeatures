@@ -4,10 +4,6 @@
 			"Ooswesthoesbes"
 		]
 	},
-	"apihelp-query+betafeatures-description": "Toean alle bètafuncties",
-	"apihelp-query+betafeatures-summary": "Toean alle bètafuncties",
-	"apihelp-query+betafeatures-example-1": "Toean alle besjikbaar bètafuncties en wieväöl gebroekers die höbbe aangezatte",
-	"apihelp-query+betafeatures-param-counts": "Of mót waere aangegaeve wieväöl gebroekers 'ne bepaolde veurkäör höbben aangezatte.",
 	"betafeatures-auto-enroll": "Zèt automatische alle nuuj bètafuncties aan",
 	"betafeatures-desc": "Laot de gebroeker functies die in óntwikkeling zeen aan- of oetzètte",
 	"betafeatures-extension-type": "Bètafuncties",

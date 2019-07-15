@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"apihelp-query+betafeatures-description": "Llista de toles carauterístiques Beta",
+	"apihelp-query+betafeatures-summary": "Llista de toles carauterístiques Beta",
+	"apihelp-query+betafeatures-example-1": "Ver tolos recursos Beta disponibles y amosar cuántos usuarios los activaron",
+	"apihelp-query+betafeatures-param-counts": "Si tien de pidise cuántos usuarios activaron una función determinada."
+}

@@ -14,10 +14,6 @@
 			"Od1n"
 		]
 	},
-	"apihelp-query+betafeatures-description": "Lister toutes les fonctionnalités bêta",
-	"apihelp-query+betafeatures-summary": "Afficher toutes les fonctionnalités bêta",
-	"apihelp-query+betafeatures-example-1": "Obtenir toutes les fonctionnalités bêta disponibles et afficher combien d’utilisateurs les ont activées",
-	"apihelp-query+betafeatures-param-counts": "S’il faut récupérer combien d’utilisateurs ont activé une certaine préférence.",
 	"betafeatures-auto-enroll": "Activer automatiquement toutes les nouvelles fonctionnalités en bêta",
 	"betafeatures-desc": "Laisse l’utilisateur activer ou désactiver les fonctionnalités sur ce wiki qui ne sont pas encore prêtes pour être généralisées",
 	"betafeatures-extension-type": "Fonctionnalités bêta",

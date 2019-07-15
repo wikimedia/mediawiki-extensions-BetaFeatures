@@ -7,8 +7,6 @@
 			"Bugoslav"
 		]
 	},
-	"apihelp-query+betafeatures-description": "Popis svih beta mogućnosti",
-	"apihelp-query+betafeatures-example-1": "Omogući sve beta mogućnosti i prikaži koliko ih je suradnika omogućilo.",
 	"betafeatures-auto-enroll": "Automatski omogući beta mogućnosti",
 	"betafeatures-extension-type": "Beta mogućnosti",
 	"betafeatures-section-desc": "Ovo {{PLURAL:$1|je nova mogućnost|su nove mogućnosti}} na projektu {{SITENAME}}. Molimo {{PLURAL:$1|iskušajte ju|iskušajte ih}} i napišite nam svoje mišljenje kako bismo {{PLURAL:$1|je|ih}} poboljšali na osnovi Vaših povratnih informacija.",

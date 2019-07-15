@@ -8,9 +8,6 @@
 			"Pyscowicz"
 		]
 	},
-	"apihelp-query+betafeatures-description": "Luettelo kaikista Beeta-ominaisuuksista",
-	"apihelp-query+betafeatures-summary": "Luettelo kaikista Beeta-ominaisuuksista",
-	"apihelp-query+betafeatures-example-1": "Näe kaikki saatavilla olevat beeta-ominaisuudet ja näe kuinka moni käyttäjä on ottanut ne käyttöön",
 	"betafeatures-auto-enroll": "Ota automaattisesti käyttöön kaikki uudet beeta-ominaisuudet",
 	"betafeatures-desc": "Antaa käyttäjän ottaa käyttöön tai poistaa käytöstä ominaisuuksia wikissä, jotka ovat eivät ole vielä valmiita kaikkien käytettäväksi",
 	"betafeatures-extension-type": "Beeta-ominaisuudet",

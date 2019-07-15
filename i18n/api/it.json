@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"FRacco",
+			"Fringio"
+		]
+	},
+	"apihelp-query+betafeatures-description": "Elenca tutte le funzionalità sperimentali",
+	"apihelp-query+betafeatures-summary": "Elenca tutte le funzionalità sperimentali",
+	"apihelp-query+betafeatures-example-1": "Vedi tutte le funzionalità sperimentali disponibili e mostra quanti utenti le hanno attivate",
+	"apihelp-query+betafeatures-param-counts": "Se si deve recuperare quanti utenti hanno attivato una certa preferenza."
+}

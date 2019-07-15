@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lokal Profil",
+			"WikiPhoenix"
+		]
+	},
+	"apihelp-query+betafeatures-description": "Lista alla Betafunktioner",
+	"apihelp-query+betafeatures-summary": "Lista alla Betafunktioner",
+	"apihelp-query+betafeatures-example-1": "Få alla tillgängliga betafunktioner och visar hur många användare som har aktiverat dem",
+	"apihelp-query+betafeatures-param-counts": "Om antalet användare som har aktiverat en viss inställning ska hämtas."
+}

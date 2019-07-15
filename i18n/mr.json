@@ -8,10 +8,6 @@
 			"Sureshkhole"
 		]
 	},
-	"apihelp-query+betafeatures-description": "सर्व बीटा फिचर्सची यादी द्या",
-	"apihelp-query+betafeatures-summary": "सर्व बीटा फिचर्सची यादी",
-	"apihelp-query+betafeatures-example-1": "सर्व उपलब्ध बीटा फिचर्स मागवा व हे दाखवा कि किती सदस्यांनी त्यास सक्षम केले",
-	"apihelp-query+betafeatures-param-counts": "एखादा विशिष्ट फिचर किती सदस्यांनी सक्षम केला हे द्यावयाचे काय.",
 	"betafeatures-auto-enroll": "सर्व नवीन बीटा फिचर्स आपोआप सक्षम करा",
 	"betafeatures-desc": "सदस्यास,या विकिवर कोणतेही फिचर्स जे अद्याप पूर्ण सुविधांसह परिपूर्ण नाहीत,सक्षम किंवा अक्षम करू देते",
 	"betafeatures-extension-type": "बीटा तोंडवळे",

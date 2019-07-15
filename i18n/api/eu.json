@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Iñaki LL",
+			"Sator"
+		]
+	},
+	"apihelp-query+betafeatures-description": "Beta funtzionalitate guztien zerrenda",
+	"apihelp-query+betafeatures-summary": "Beta tresna guztien zerrenda",
+	"apihelp-query+betafeatures-example-1": "Eskuratu beta tresna guztiak eta erakutsi erabiltzaile askok nola aktibatu dituzten",
+	"apihelp-query+betafeatures-param-counts": "erabiltzaile askok hobespen jakin bat ea aktibatu duten."
+}
