@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"ArmenBakkalian"
+			"ArmenBakkalian",
+			"Դավիթ Սարոյան"
 		]
 	},
-	"betafeatures-toplink": "Փորձնական",
+	"betafeatures-toplink": "Փորձառական",
 	"tooltip-pt-betafeatures": "Փորձնական հնարաւորութիւններ"
 }
