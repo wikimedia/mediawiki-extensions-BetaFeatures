@@ -5,7 +5,7 @@
 		]
 	},
 	"apihelp-query+betafeatures-description": "ꯕꯦꯇꯥ ꯑꯣꯏꯒꯗꯕ ꯃꯑꯣꯡ ꯃꯇꯧꯁꯤꯡ ꯄꯔꯤꯡ ꯑꯄꯨꯟꯕ",
-	"apihelp-query+betafeatures-summary": "List all BetaFeatures",
+	"apihelp-query+betafeatures-summary": "ꯕꯦꯇꯥ ꯐꯤꯆꯔ ꯄꯨꯂꯞ",
 	"apihelp-query+betafeatures-example-1": "ꯕꯦꯇꯥ ꯐꯤꯠꯆꯔ ꯂꯩꯕ ꯄꯨꯝꯅꯃꯛ ꯐꯪꯕ ꯑꯃꯁꯨꯡ ꯁꯤꯖꯤꯟꯅꯔꯤꯕ ꯃꯁꯤꯡ ꯀꯌꯥꯝ ꯌꯥꯍꯟꯕ ꯗꯨ ꯎꯠꯄ",
 	"apihelp-query+betafeatures-param-counts": "Whether to fetch how many users have enabled a certain preference."
 }
