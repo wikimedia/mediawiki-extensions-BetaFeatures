@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Krol111"
+			"Krol111",
+			"Uostofchuodnego"
 		]
 	},
-	"betafeatures-toplink": "Ekszperymentalne funkcyje",
+	"betafeatures-toplink": "Beta",
 	"tooltip-pt-betafeatures": "Beta funkcyje"
 }
