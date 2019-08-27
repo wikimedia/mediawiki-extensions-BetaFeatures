@@ -77,6 +77,6 @@ class ApiQueryBetaFeatures extends ApiQueryBase {
 	}
 
 	public function getHelpUrls() {
-		return 'https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:BetaFeatures/API';
+		return 'https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:BetaFeatures';
 	}
 }
