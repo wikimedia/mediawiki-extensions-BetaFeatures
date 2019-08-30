@@ -5,10 +5,10 @@
 			"Iwan Novirion"
 		]
 	},
-	"betafeatures-auto-enroll": "Sacaro otomatih aktifkan kasado fitur beta baru",
-	"betafeatures-section-desc": "{{PLURAL:$1|Iko adolah|Barikuik ko adolah babarapo}} fitur baru nan tangah kami patimbangkan untuak {{SITENAME}}. Silakan cubo  {{PLURAL:$1|fitur|fitur-fitur}} tasabuik dan agiah tau kami apo nan Sanak pikiakan, bia dapek kami patimbangkan.",
+	"betafeatures-auto-enroll": "Sacaro otomatih aktifkan kasado fitua beta baru",
+	"betafeatures-section-desc": "{{PLURAL:$1|Iko adolah|Barikuik ko adolah babarapo}} fitua baru nan tangah kami patimbangkan untuak {{SITENAME}}. Silakan cubo  {{PLURAL:$1|fitua|fitua-fitua}} tasabuik dan agiah tau kami apo nan Sanak pikiakan, bia dapek kami kambangkan beko.",
 	"betafeatures-toplink": "Beta",
 	"mw-ui-feature-discuss": "Rundiang",
-	"mw-ui-feature-user-count": "{{PLURAL:$1|Surang pangguno tangah|$1 pangguno tangah|0=Indak ado panggono nan tangah}} mancubo fitur ko.",
-	"tooltip-pt-betafeatures": "Fitur beta"
+	"mw-ui-feature-user-count": "{{PLURAL:$1|Surang pangguno tangah|$1 pangguno tangah|0=Indak ado panggono nan tangah}} mancubo fitua ko.",
+	"tooltip-pt-betafeatures": "Fitua beta"
 }
