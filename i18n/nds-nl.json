@@ -5,18 +5,18 @@
 			"Macofe"
 		]
 	},
-	"betafeatures-auto-enroll": "Automaties alle bètafunksies anzetten",
-	"betafeatures-desc": "Laot de gebruker funksies die in ontwikkeling bin an- of uutzetten",
+	"betafeatures-auto-enroll": "Automatisk alle betafunktys ansetten",
+	"betafeatures-desc": "Låt de gebruker funktys dee in untwikkeling binnet an- of uutsetten",
 	"betafeatures-extension-type": "Betafunktys",
-	"betafeatures-section-desc": "Hier {{PLURAL:$1|is n nieje funksie|bin n koppel nieje funksies}} die'w overwegen veur {{SITENAME}}. Probeer {{PLURAL:$1|t|ze}} uut en laot ons weten wa'j dervan vienen, zoda'w {{PLURAL:$1|de funksie|ze}} verbeteren kunnen.",
+	"betafeatures-section-desc": "Hyr {{PLURAL:$1|is een nye funkty|binnet een koppel nye funktys}} dee wy oaverweaget vöär {{SITENAME}}. Probeer {{PLURAL:$1|et|se}} uut en låt uns weaten wat jy dervan vindet, sodat wy {{PLURAL:$1|et|se}} verbeateren künnet.",
 	"betafeatures-toplink": "Beta",
-	"mw-ui-feature-discuss": "overleg",
-	"mw-ui-feature-info": "Informasie",
-	"mw-ui-feature-requirements-betafeatures": "Bie disse funksie mu'j de volgende {{PLURAL:$1|funksie|funksies}} an-ezet hebben:",
-	"mw-ui-feature-requirements-browser": "De volgende {{PLURAL:$1|webkieker|webkiekers}} wörden niet ondersteund:",
-	"mw-ui-feature-requirements-javascript": "Veur disse funksie mu'j JavaScript hebben.",
-	"mw-ui-feature-requirements-skins": "Disse funksie warkt allinnig mit {{PLURAL:$1|t volgende uterlik|een van de volgende uterliken}}:",
-	"mw-ui-feature-user-count": "{{PLURAL:$1|Eén persoon gebruukt|$1 meensen gebruken|0=Gienene gebruukt}} disse funksie.",
+	"mw-ui-feature-discuss": "Oaverleg",
+	"mw-ui-feature-info": "Informaty",
+	"mw-ui-feature-requirements-betafeatures": "By disse funkty müt jy de volgende {{PLURAL:$1|funkty|funktys}} ansetted hebben:",
+	"mw-ui-feature-requirements-browser": "De volgende {{PLURAL:$1|webkyker|webkykers}} wördet neet understöänd:",
+	"mw-ui-feature-requirements-javascript": "Vöär disse funkty müt jy JavaScript hebben.",
+	"mw-ui-feature-requirements-skins": "Disse funkty warkt allinnig mid {{PLURAL:$1|et volgende uterlik|eyn van de volgende uterliken}}:",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|Eyn persoon gebruukt|$1 mensken gebruken|0=Geeneyne gebruukt}} disse funkty.",
 	"prefs-betafeatures": "Betafunktys",
 	"tooltip-pt-betafeatures": "Betafunktys"
 }
