@@ -144,7 +144,7 @@ class AutoEnrollmentTest extends BetaFeaturesTestCase {
 		];
 	}
 
-	protected function setUp() {
+	protected function setUp() : void {
 		global $wgHooks;
 
 		parent::setUp();

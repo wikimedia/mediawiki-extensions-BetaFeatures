@@ -33,7 +33,7 @@ class BetaFeaturesTestCase extends MediaWikiTestCase {
 	 */
 	protected $user;
 
-	protected function setUp() {
+	protected function setUp() : void {
 		global $wgHooks;
 
 		parent::setUp();
