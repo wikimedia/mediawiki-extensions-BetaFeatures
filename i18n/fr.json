@@ -11,21 +11,22 @@
 			"The RedBurn",
 			"Wladek92",
 			"Epok",
-			"Od1n"
+			"Od1n",
+			"Verdy p"
 		]
 	},
 	"betafeatures-auto-enroll": "Activer automatiquement toutes les nouvelles fonctionnalités en bêta",
 	"betafeatures-desc": "Laisse l’utilisateur activer ou désactiver les fonctionnalités sur ce wiki qui ne sont pas encore prêtes pour être généralisées",
 	"betafeatures-extension-type": "Fonctionnalités bêta",
-	"betafeatures-section-desc": "Voici {{PLURAL:$1|une nouvelle fonctionnalité|de nouvelles fonctionnalités}} que nous envisageons pour {{SITENAME}}. Vous pouvez {{PLURAL:$1|l'essayer|les essayer}} et nous donner vos impressions afin que nous puissions {{PLURAL:$1|l'améliorer|les améliorer}} sur la base de vos commentaires.",
+	"betafeatures-section-desc": "Voici {{PLURAL:$1|une nouvelle fonctionnalité|de nouvelles fonctionnalités}} que nous envisageons pour {{SITENAME}}. Vous pouvez {{PLURAL:$1|l’|les }}essayer et nous donner vos impressions afin que nous puissions {{PLURAL:$1|l’|les }}améliorer sur la base de vos commentaires.",
 	"betafeatures-toplink": "Bêta",
 	"mw-ui-feature-discuss": "Discussion",
-	"mw-ui-feature-info": "Information",
-	"mw-ui-feature-requirements-betafeatures": "Cette fonctionnalité nécessite que {{PLURAL:$1|la fonctionnalité suivante soit activée|les fonctionnalités suivantes soient activées}} :",
-	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|Le navigateur suivant n’est|Les navigateurs suivants ne sont}} pas pris en charge :",
+	"mw-ui-feature-info": "Informations",
+	"mw-ui-feature-requirements-betafeatures": "Cette fonctionnalité nécessite que {{PLURAL:$1|la fonctionnalité suivante soit activée|les fonctionnalités suivantes soient activées}} :",
+	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|Le navigateur suivant n’est|Les navigateurs suivants ne sont}} pas pris en charge :",
 	"mw-ui-feature-requirements-javascript": "Cette fonctionnalité nécessite JavaScript.",
-	"mw-ui-feature-requirements-skins": "Cette fonctionnalité fonctionne uniquement avec {{PLURAL:$1|l’habillage suivant|les habillages suivants}} :",
-	"mw-ui-feature-user-count": "{{PLURAL:$1|Un utilisateur a|$1 utilisateurs ont|0=Aucun utilisateur n’a}} activé cette fonctionnalité.",
+	"mw-ui-feature-requirements-skins": "Cette fonctionnalité fonctionne uniquement avec {{PLURAL:$1|l’habillage suivant|les habillages suivants}} :",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|0=Aucun utilisateur n’a|Un utilisateur a|$1 utilisateurs ont}} activé cette fonctionnalité.",
 	"prefs-betafeatures": "Fonctionnalités bêta",
 	"tooltip-pt-betafeatures": "Fonctionnalités bêta"
 }
