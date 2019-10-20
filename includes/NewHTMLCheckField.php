@@ -73,7 +73,7 @@ class NewHTMLCheckField extends HTMLCheckField {
 	protected function getPostCheckboxLabelHTML() {
 		return Html::rawElement(
 			'label',
-			[ 'for' => $this->mID, 'class' => 'mw-ui-text-check-label' ],
+			[ 'for' => $this->mID ],
 			$this->mLabel
 		);
 	}
