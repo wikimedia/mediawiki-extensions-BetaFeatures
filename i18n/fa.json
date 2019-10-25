@@ -9,10 +9,11 @@
 			"Rtemis",
 			"Alirezaaa",
 			"Ladsgroup",
-			"FarsiNevis"
+			"FarsiNevis",
+			"Alireza Ivaz"
 		]
 	},
-	"betafeatures-auto-enroll": "فعال کردن خودکار کلیهٔ ویژگی‌های جدید آزمایشی",
+	"betafeatures-auto-enroll": "فعال‌کردن خودکار همۀ ویژگی‌های جدید آزمایشی",
 	"betafeatures-desc": "به کاربر اجازه می‌دهد تا ویژگی‌های جدیدی که هنوز به صورت آزمایشی هستند را فعال یا غیرفعال کند.",
 	"betafeatures-extension-type": "ویژگی‌های آزمایشی",
 	"betafeatures-section-desc": "اینجا  {{PLURAL:$1|ویژگی جدیدی موجود است |ویژگی‌های تازه موجودند}} که برای  {{SITENAME}}  در نظر گرفته شده‌اند. لطفاً آنها را امتحان کنید و بازخوردتان را ارسال کنید تا ما بر اساس بازخوردهای شما آنها را بهبود دهیم.",
@@ -20,8 +21,8 @@
 	"mw-ui-feature-discuss": "بحث",
 	"mw-ui-feature-info": "اطلاعات",
 	"mw-ui-feature-requirements-betafeatures": "برای فعال‌شدن، این ویژگی نیازمند این {{PLURAL:$1|قابلیت|قابلیت‌ها}} است:",
-	"mw-ui-feature-requirements-browser": "این {{PLURAL:$1|مرورگر|مرورگرها}} حمایت نشده‌است:",
-	"mw-ui-feature-requirements-javascript": "این ویژگی نیازمند جاوااسکریپت است.",
+	"mw-ui-feature-requirements-browser": "این {{PLURAL:$1|مرورگر|مرورگرها}} پشتیبانی نشده‌است:",
+	"mw-ui-feature-requirements-javascript": "این ویژگی نیازمند جاوا اسکریپت است.",
 	"mw-ui-feature-requirements-skins": "این ویژگی فقط با {{PLURAL:$1|این پوسته|یکی از این پوسته‌ها}} کار می‌کند:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1 کاربر این ویژگی را فعال کرده است|$1 کاربر این ویژگی را فعال کرده‌اند|0=هیچ کاربری این ویژگی را فعال نکرده‌است}}.",
 	"prefs-betafeatures": "ویژگی‌های آزمایشی",
