@@ -3,13 +3,14 @@
 		"authors": [
 			"Sudo77(new)",
 			"KuboF",
-			"Macofe"
+			"Macofe",
+			"Luky001"
 		]
 	},
 	"betafeatures-auto-enroll": "Automaticky zapnúť všetky nové beta funkcie",
 	"betafeatures-desc": "Dovoľuje redaktorovi povoliť alebo zakázať funkcie, ktoré ešte nie sú úplne vyladené.",
 	"betafeatures-extension-type": "Beta funkcie",
-	"betafeatures-section-desc": "Tu {{PLURAL:$1|je nová funkcia, ktorú|sú nové funkcie, ktoré}} zvažujeme použiť na {{grammar:6sg|{{SITENAME}}}}. Vyskúšajte {{PLURAL:$1|ju|ich}} a dajte nám vedieť, nech {{PLURAL:$1|ju|ich}} na základe vašich názorov môžeme vylepšovať.",
+	"betafeatures-section-desc": "Tu {{PLURAL:$1|je nová funkcia, ktorú|sú nové funkcie, ktoré}} zvažujeme použiť na {{grammar:lokál|{{SITENAME}}}}. Vyskúšajte {{PLURAL:$1|ju|ich}} a dajte nám vedieť, aby sme {{PLURAL:$1|ju|ich}} na základe vašich názorov mohli vylepšovať.",
 	"betafeatures-toplink": "Beta",
 	"mw-ui-feature-discuss": "Diskusia",
 	"mw-ui-feature-info": "Informácie",
