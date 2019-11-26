@@ -7,6 +7,6 @@
 	},
 	"apihelp-query+betafeatures-description": "List alle betafunksjoner",
 	"apihelp-query+betafeatures-summary": "List opp alle betafunksjoner",
-	"apihelp-query+betafeatures-example-1": "Finn alle tilgjengelige betafunksjoner og vis hvor mange brukere som har aktivisert dem",
+	"apihelp-query+betafeatures-example-1": "Finn alle tilgjengelige betafunksjoner og vis hvor mange brukere som har aktivert dem",
 	"apihelp-query+betafeatures-param-counts": "Om antall brukere som har aktivisert en viss innstilling skal hentes."
 }
