@@ -18,7 +18,7 @@
 	"betafeatures-auto-enroll": "Activer automatiquement toutes les nouvelles fonctionnalités en bêta",
 	"betafeatures-desc": "Laisse l’utilisateur activer ou désactiver les fonctionnalités sur ce wiki qui ne sont pas encore prêtes pour être généralisées",
 	"betafeatures-extension-type": "Fonctionnalités bêta",
-	"betafeatures-section-desc": "Voici {{PLURAL:$1|une nouvelle fonctionnalité|de nouvelles fonctionnalités}} que nous envisageons pour {{SITENAME}}. Vous pouvez {{PLURAL:$1|l'essayer|les essayer}} et nous donner vos impressions afin que nous puissions {{PLURAL:$1|l'améliorer|les améliorer}} sur la base de vos commentaires.",
+	"betafeatures-section-desc": "Voici {{PLURAL:$1|une nouvelle fonctionnalité|de nouvelles fonctionnalités}} que nous envisageons pour {{SITENAME}}. Vous pouvez {{PLURAL:$1|l’|les }}essayer et nous donner vos impressions afin que nous puissions {{PLURAL:$1|l’améliorer|les améliorer}} sur la base de vos commentaires.",
 	"betafeatures-toplink": "Bêta",
 	"mw-ui-feature-discuss": "Discussion",
 	"mw-ui-feature-info": "Informations",
