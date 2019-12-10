@@ -8,6 +8,9 @@
 	"descriptionmsg": "betafeatures-desc",
 	"license-name": "GPL-2.0-or-later",
 	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.35.0"
+	},
 	"config": {
 		"BetaFeaturesWhitelist": null,
 		"BetaFeatures": []
@@ -89,7 +92,9 @@
 		"BetaFeatures": "includes/BetaFeatures.php",
 		"UpdateBetaFeatureUserCountsJob": "includes/UpdateBetaFeatureUserCountsJob.php",
 		"ApiQueryBetaFeatures": "includes/ApiQueryBetaFeatures.php",
-		"SpecialBetaFeatures": "includes/SpecialBetaFeatures.php",
+		"SpecialBetaFeatures": "includes/SpecialBetaFeatures.php"
+	},
+	"TestAutoloadClasses": {
 		"BetaFeaturesTestCase": "tests/phpunit/BetaFeaturesTestCase.php"
 	},
 	"manifest_version": 1
