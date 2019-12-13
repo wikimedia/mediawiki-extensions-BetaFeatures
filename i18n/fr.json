@@ -12,7 +12,8 @@
 			"Wladek92",
 			"Epok",
 			"Od1n",
-			"Verdy p"
+			"Verdy p",
+			"Thibaut120094"
 		]
 	},
 	"betafeatures-auto-enroll": "Activer automatiquement toutes les nouvelles fonctionnalités en bêta",
@@ -22,10 +23,10 @@
 	"betafeatures-toplink": "Bêta",
 	"mw-ui-feature-discuss": "Discussion",
 	"mw-ui-feature-info": "Informations",
-	"mw-ui-feature-requirements-betafeatures": "Cette fonctionnalité nécessite que {{PLURAL:$1|la fonctionnalité suivante soit activée|les fonctionnalités suivantes soient activées}} :",
-	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|Le navigateur suivant n’est|Les navigateurs suivants ne sont}} pas pris en charge :",
+	"mw-ui-feature-requirements-betafeatures": "Cette fonctionnalité nécessite que {{PLURAL:$1|la fonctionnalité suivante soit activée|les fonctionnalités suivantes soient activées}} :",
+	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|Le navigateur suivant n’est|Les navigateurs suivants ne sont}} pas pris en charge :",
 	"mw-ui-feature-requirements-javascript": "Cette fonctionnalité nécessite JavaScript.",
-	"mw-ui-feature-requirements-skins": "Cette fonctionnalité fonctionne uniquement avec {{PLURAL:$1|l’habillage suivant|les habillages suivants}} :",
+	"mw-ui-feature-requirements-skins": "Cette fonctionnalité fonctionne uniquement avec {{PLURAL:$1|l’habillage suivant|les habillages suivants}} :",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|0=Aucun utilisateur n’a|Un utilisateur a|$1 utilisateurs ont}} activé cette fonctionnalité.",
 	"prefs-betafeatures": "Fonctionnalités bêta",
 	"tooltip-pt-betafeatures": "Fonctionnalités bêta"
