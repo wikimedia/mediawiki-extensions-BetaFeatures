@@ -258,7 +258,7 @@ class BetaFeaturesHooks {
 				if ( isset( $prefs[$key]['requirements']['skins'] ) ) {
 					// Remove any skins that aren't installed or users can't choose
 					$prefs[$key]['requirements']['skins'] = array_intersect(
-						/** @phan-suppress-next-line PhanTypeInvalidDimOffset */
+						/** @phan-suppress-next-line PhanTypeInvalidDimOffset,PhanTypeMismatchArgumentInternal */
 						$prefs[$key]['requirements']['skins'],
 						array_keys( Skin::getAllowedSkins() )
 					);

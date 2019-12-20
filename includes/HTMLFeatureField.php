@@ -307,6 +307,7 @@ class HTMLFeatureField extends NewHTMLCheckField {
 	 * unset...
 	 * @param WebRequest $request
 	 * @return string
+	 * @suppress PhanParamSignatureMismatch
 	 */
 	public function loadDataFromRequest( $request ) {
 		$res = parent::loadDataFromRequest( $request );
