@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Candalua"
+			"Candalua",
+			"Conky77"
 		]
 	},
 	"betafeatures-toplink": "Beta",
+	"mw-ui-feature-discuss": "Discusion",
 	"tooltip-pt-betafeatures": "Funsionalità sperimentali"
 }
