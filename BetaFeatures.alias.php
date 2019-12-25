@@ -120,6 +120,16 @@ $specialPageAliases['pt-br'] = [
 	'BetaFeatures' => [ 'Recursos_beta' ],
 ];
 
+/** Serbian Cyrillic (српски (ћирилица)) */
+$specialPageAliases['sr-ec'] = [
+	'BetaFeatures' => [ 'Бета_функције', 'БетаФункције' ],
+];
+
+/** Serbian Latin (srpski (latinica)) */
+$specialPageAliases['sr-el'] = [
+	'BetaFeatures' => [ 'Beta_funkcije', 'BetaFunkcije' ],
+];
+
 /** Swedish (svenska) */
 $specialPageAliases['sv'] = [
 	'BetaFeatures' => [ 'Beta-funktioner' ],
