@@ -3,16 +3,17 @@
 		"authors": [
 			"Aurora",
 			"Pizza1016",
-			"Aviator"
+			"Aviator",
+			"CyberTroopers"
 		]
 	},
 	"betafeatures-auto-enroll": "Bukakan semua ciri beta yang baru secara automatik",
 	"betafeatures-desc": "Membolehkan pengguna menghidupkan atau memadam ciri-ciri dalam wiki ini yang masih berada pada tahap ujian",
 	"betafeatures-extension-type": "Ciri beta",
-	"betafeatures-section-desc": "Yang berikut ialah senarai ciri-ciri baru yang dipertimbangkan untuk {{SITENAME}}. Anda dipersilakan mencubanya dan mengutarakan pendapat anda kepada kami supaya kami boleh memperbaikinya berdasarkan maklum balas anda.",
+	"betafeatures-section-desc": "Berikut {{PLURAL:$1|ialah senarai ciri-ciri baru}} yang dipertimbangkan untuk {{SITENAME}}. Anda dipersilakan mencuba {{PLURAL:$1| ciri-ciri tersebut}} dan mengutarakan pendapat anda kepada kami supaya kami boleh memperbaikinya berdasarkan maklum balas anda.",
 	"betafeatures-toplink": "Beta",
-	"mw-ui-feature-discuss": "perbincangan",
-	"mw-ui-feature-info": "maklumat",
+	"mw-ui-feature-discuss": "Perbincangan",
+	"mw-ui-feature-info": "Maklumat",
 	"mw-ui-feature-requirements-betafeatures": "Ciri ini memerlukan {{PLURAL:$1|ciri|ciri-ciri}} di bawah untuk dibukakan:",
 	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|Pelayar|Pelayar-pelayar}} di bawah tidak disokong:",
 	"mw-ui-feature-requirements-javascript": "Ciri ini memerlukan JavaScript.",
