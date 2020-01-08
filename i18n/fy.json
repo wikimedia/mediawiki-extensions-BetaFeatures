@@ -7,7 +7,7 @@
 		]
 	},
 	"betafeatures-auto-enroll": "Alle nije bêtafunksjes automatysk ynskeakelje",
-	"betafeatures-section-desc": "Hjir {{PLURAL:$1|stiet in nije funksje|steane in pear nije funksjes}} dy't wy yn berie nimme foar {{SITENAME}}. Soene jo {{PLURAL:$1|dy}} probearje wolle en jo befinings jaan, sadat wy {{PLURAL:$1|it|se}} mei jo weromkeppeling ferbetterje kinne?",
+	"betafeatures-section-desc": "Hjir {{PLURAL:$1|stiet in nije funksje|steane in pear nije funksjes}} dy't wy yn berie nimme foar {{GRAMMAR:lidw|{{SITENAME}}}}. Soene jo {{PLURAL:$1|dy}} probearje wolle en jo befinings jaan, sadat wy {{PLURAL:$1|it|se}} mei jo weromkeppeling ferbetterje kinne?",
 	"betafeatures-toplink": "Bêta",
 	"mw-ui-feature-discuss": "Diskusje",
 	"mw-ui-feature-info": "Ynformaasje",
