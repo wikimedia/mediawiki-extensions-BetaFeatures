@@ -7,20 +7,21 @@
 			"Sayginer",
 			"McAang",
 			"JackUKElliott",
-			"Hedda"
+			"Hedda",
+			"BaRaN6161 TURK"
 		]
 	},
 	"betafeatures-auto-enroll": "Tüm yeni beta özellikleri otomatik olarak etkinleştirin",
-	"betafeatures-desc": "Wiki'de hala tam zamanlı kullanım için hazır olmayan özellikleri etkinleştirmenize veya devre dışı bırakmanıza olanak sağlar",
+	"betafeatures-desc": "Vikide hala tam zamanlı kullanım için hazır olmayan özellikleri etkinleştirmenize veya devre dışı bırakmanıza olanak sağlar",
 	"betafeatures-extension-type": "Beta özellikler",
-	"betafeatures-section-desc": "Burada {{SITENAME}} için düşündüğümüz {{PLURAL:$1|yeni özellik|bazı yeni özellikler}} var. {{PLURAL:$1|Özelliği|Özellikleri}}  lütfen deneyin ve düşüncelerinizi bizimle paylaşın. Biz geri bildirimlerinize dayanarak {{PLURAL:$1|özelliği|özellikleri}} geliştiriyoruz.",
+	"betafeatures-section-desc": "Burada {{SITENAME}} için düşündüğümüz {{PLURAL:$1|yeni özellik|bazı yeni özellikler}} var. Lütfen deneyin ve düşüncelerinizi bize bildirin, böylece geri bildiriminize göre geliştirebiliriz.",
 	"betafeatures-toplink": "Beta",
 	"mw-ui-feature-discuss": "Tartışma",
 	"mw-ui-feature-info": "Bilgi",
-	"mw-ui-feature-requirements-betafeatures": "Bu özelliğin etkin olabilmesi için şu {{PLURAL:$1|özelliğe|özelliklere}} gereksinim duymaktadır:",
-	"mw-ui-feature-requirements-browser": "Aşağıdaki {{PLURAL:$1|tarayıcı|tarayıcılar}} desteklenmemektedir:",
+	"mw-ui-feature-requirements-betafeatures": "Bu özelliğin etkin olabilmesi için şu {{PLURAL:$1|özelliğe|özelliğe}} gereksinim duymaktadır:",
+	"mw-ui-feature-requirements-browser": "Aşağıdaki {{PLURAL:$1|tarayıcı|tarayıcı}} desteklenmemektedir:",
 	"mw-ui-feature-requirements-javascript": "Bu özellik, JavaScript gerektirir.",
-	"mw-ui-feature-requirements-skins": "Bu özellik yalnızca {{PLURAL:$1|şu tema|şu temalar}} ile çalışır:",
+	"mw-ui-feature-requirements-skins": "Bu özellik yalnızca {{PLURAL:$1|şu tema|şu tema}} ile çalışır:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|Bir kullanıcı|$1 kullanıcı|0=0 kullanıcı}} bu özelliği deniyor.",
 	"prefs-betafeatures": "Beta özellikler",
 	"tooltip-pt-betafeatures": "Beta özellikler"
