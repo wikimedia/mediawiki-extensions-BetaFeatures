@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"JinJian"
+			"JinJian",
+			"Harvzsf"
 		]
 	},
 	"betafeatures-toplink": "Beta",
-	"mw-ui-feature-discuss": "hiruhimangraw",
-	"mw-ui-feature-info": "impormasyon",
+	"mw-ui-feature-discuss": "Hiruhimangraw",
+	"mw-ui-feature-info": "Impormasyon",
 	"tooltip-pt-betafeatures": "Features han Beta"
 }
