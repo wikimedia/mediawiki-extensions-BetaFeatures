@@ -100,7 +100,7 @@ class BetaFeaturesHooks {
 	 * @throws BetaFeaturesMissingFieldException
 	 */
 	public static function getPreferences( User $user, array &$prefs ) {
-		global $wgBetaFeaturesWhitelist, $wgBetaFeatures;
+		global $wgBetaFeaturesWhitelist, $wgBetaFeatures, $wgHiddenPrefs;
 
 		$betaPrefs = $wgBetaFeatures;
 		$depHooks = [];
@@ -146,23 +146,23 @@ class BetaFeaturesHooks {
 		}
 
 		foreach ( $betaPrefs as $key => $info ) {
-			// Check if feature is whitelisted
+			// Check if feature should be skipped
 			if (
-				is_array( $wgBetaFeaturesWhitelist ) &&
-				!in_array( $key, $wgBetaFeaturesWhitelist )
+				// Check if feature is hidden
+				in_array( $key, $wgHiddenPrefs ) ||
+				// Check if feature is whitelisted
+				(
+					is_array( $wgBetaFeaturesWhitelist ) &&
+					!in_array( $key, $wgBetaFeaturesWhitelist )
+				) ||
+				// Check if dependencies are set but not met
+				(
+					isset( $info['dependent'] ) &&
+					$info['dependent'] === true &&
+					isset( $depHooks[$key] ) &&
+					!Hooks::run( $depHooks[$key] )
+				)
 			) {
-				// Skip this preference!
-				continue;
-			}
-
-			// Check if dependencies are set but not met
-			if (
-				isset( $info['dependent'] ) &&
-				$info['dependent'] === true &&
-				isset( $depHooks[$key] ) &&
-				!Hooks::run( $depHooks[$key] )
-			) {
-				// Skip this preference!
 				continue;
 			}
 
