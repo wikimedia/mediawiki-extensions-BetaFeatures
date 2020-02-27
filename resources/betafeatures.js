@@ -21,17 +21,20 @@
  */
 
 $( function () {
-	var preference, blacklist, $input, $field,
-		features = mw.config.get( 'wgBetaFeaturesFeatures', [] );
+	var preference, blacklist,
+		featuresModel = mw.config.get( 'wgBetaFeaturesFeatures', [] );
 
-	for ( preference in features ) {
-		$input = $( '#mw-input-wp' + preference );
-		$field = $input.closest( '.mw-ui-feature-field' );
-		blacklist = features[ preference ] && features[ preference ].blacklist;
+	for ( preference in featuresModel ) {
 
+		featuresModel[ preference ].widget = OO.ui.infuse( $( '[name=wp' + preference + ']' ).parent() );
+
+		blacklist = featuresModel[ preference ].blacklist;
+
+		// Browser not compatible
 		if ( blacklist && $.client.test( blacklist, null, true ) ) {
-			// Browser not compatible
-			$field.find( '.mw-ui-feature-requirements-browser' ).show();
+			featuresModel[ preference ].widget.$element
+				.closest( '.mw-ui-feature-field' )
+				.find( '.mw-ui-feature-requirements-browser' ).show();
 		}
 	}
 } );

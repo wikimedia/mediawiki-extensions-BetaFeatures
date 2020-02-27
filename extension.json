@@ -56,7 +56,8 @@
 				"betafeatures.less"
 			],
 			"dependencies": [
-				"jquery.client"
+				"jquery.client",
+				"oojs-ui-core"
 			],
 			"targets": [
 				"mobile",

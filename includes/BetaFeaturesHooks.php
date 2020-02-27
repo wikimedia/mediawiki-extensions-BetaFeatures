@@ -27,9 +27,7 @@ class BetaFeaturesHooks {
 
 	/**
 	 * An array of each of the available Beta Features, with their requirements, if any.
-	 *
-	 * This also includes a magic value of 'blacklist', which consequently MUST NOT be
-	 * used as the name of any registered Beta Feature.
+	 * It is passed client-side for JavaScript rendering/responsiveness.
 	 */
 	private static $features = [];
 
@@ -229,11 +227,11 @@ class BetaFeaturesHooks {
 				// Also put it aside for saving the settings later
 				$autoEnrollSaveSettings[$key] = HTMLFeatureField::OPTION_ENABLED;
 			}
+
+			self::$features[$key] = [];
 		}
 
 		foreach ( $betaPrefs as $key => $info ) {
-			$requirements = [];
-
 			if ( isset( $prefs[$key]['requirements'] ) ) {
 				// Check which other beta features are required, and fetch their labels
 				if ( isset( $prefs[$key]['requirements']['betafeatures'] ) ) {
@@ -246,12 +244,6 @@ class BetaFeaturesHooks {
 					if ( count( $requiredPrefs ) ) {
 						$prefs[$key]['requirements']['betafeatures-messages'] = $requiredPrefs;
 					}
-				}
-
-				// If a browser blacklist is supplied, store so it can be passed as JSON
-				if ( isset( $prefs[$key]['requirements']['blacklist'] ) ) {
-					/** @phan-suppress-next-line PhanTypeInvalidDimOffset */
-					$requirements['blacklist'] = $prefs[$key]['requirements']['blacklist'];
 				}
 
 				// Test skin support
@@ -275,7 +267,9 @@ class BetaFeaturesHooks {
 					);
 				}
 			}
-			self::$features[$key] = $requirements;
+
+			// If a browser blacklist is supplied, store so it can be passed as JSON
+			self::$features[$key]['blacklist'] = $prefs[$key]['requirements']['blacklist'] ?? null;
 		}
 
 		if ( $autoEnrollSaveSettings !== [] ) {
