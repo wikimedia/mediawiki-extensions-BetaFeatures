@@ -21,12 +21,19 @@
  */
 
 $( function () {
-	var preference, blacklist,
+	var preference, $checkbox, blacklist,
 		featuresModel = mw.config.get( 'wgBetaFeaturesFeatures', [] );
 
 	for ( preference in featuresModel ) {
 
-		featuresModel[ preference ].widget = OO.ui.infuse( $( '[name=wp' + preference + ']' ).parent() );
+		$checkbox = $( '[name=wp' + preference + ']' );
+
+		// Extensions might hide their preferences late or by a different method
+		if ( !$checkbox.length ) {
+			continue;
+		}
+
+		featuresModel[ preference ].widget = OO.ui.infuse( $checkbox.parent() );
 
 		blacklist = featuresModel[ preference ].blacklist;
 
