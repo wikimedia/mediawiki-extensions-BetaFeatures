@@ -14,7 +14,7 @@
 	"mw-ui-feature-discuss": "Razgovor",
 	"mw-ui-feature-info": "Informacije",
 	"mw-ui-feature-requirements-betafeatures": "Za ovu mogućnost potrebno je omogućiti {{PLURAL:$1|sljedeću mogućnost|sljedeće mogućnosti}}:",
-	"mw-ui-feature-user-count": "{{PLURAL:$1|Jedan korisnik uključio je ovu mogućnost.|Ovu mogućnost uključila su $1 korisnika.|Ovu mogućnost uključilo je $1 korisnika.|0=Nijedan korisnik nije uključio ovu mogućnost.}}",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|1=Jedan korisnik uključio je ovu mogućnost|Ovu mogućnost uključio je $1 korisnik|Ovu mogućnost uključila su $1 korisnika|Ovu mogućnost uključilo je $1 korisnika|0=Nijedan korisnik nije uključio ovu mogućnost}}.",
 	"prefs-betafeatures": "Beta mogućnosti",
 	"tooltip-pt-betafeatures": "Beta mogućnosti"
 }

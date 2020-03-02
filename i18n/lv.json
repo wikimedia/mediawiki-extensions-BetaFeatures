@@ -8,6 +8,7 @@
 		]
 	},
 	"betafeatures-auto-enroll": "Automātiski iespējot visas jaunās bēta funkcijas",
+	"betafeatures-desc": "Ļauj vikivietnes lietotājiem iespējot vai atspējot iespējas, kas vēl nav gatavas plašai lietošanai",
 	"betafeatures-extension-type": "Bēta funkcijas",
 	"betafeatures-section-desc": "{{PLURAL:$1|Šīs ir jaunas iespējas|Šī ir jauna iespēja|Šīs ir jaunas iespējas}}, ko mēs izmēģinām projektā \"{{SITENAME}}\". Lūdzu, pamēģini {{PLURAL:$1|tās|to|tās}} un dalies ar savām domām, lai mēs {{PLURAL:$1|tās|to|tās}} varētu uzlabot.",
 	"betafeatures-toplink": "Testa funkcijas",
