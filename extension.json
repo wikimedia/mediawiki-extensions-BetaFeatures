@@ -22,24 +22,12 @@
 		"betafeatures": "ApiQueryBetaFeatures"
 	},
 	"Hooks": {
-		"UserSaveOptions": [
-			"BetaFeaturesHooks::updateUserCounts"
-		],
-		"GetPreferences": [
-			"BetaFeaturesHooks::getPreferences"
-		],
-		"PersonalUrls": [
-			"BetaFeaturesHooks::getBetaFeaturesLink"
-		],
-		"LoadExtensionSchemaUpdates": [
-			"BetaFeaturesHooks::getSchemaUpdates"
-		],
-		"MakeGlobalVariablesScript": [
-			"BetaFeaturesHooks::onMakeGlobalVariablesScript"
-		],
-		"ExtensionTypes": [
-			"BetaFeaturesHooks::onExtensionTypes"
-		]
+		"UserSaveOptions": "BetaFeaturesHooks::updateUserCounts",
+		"GetPreferences": "BetaFeaturesHooks::getPreferences",
+		"PersonalUrls": "BetaFeaturesHooks::getBetaFeaturesLink",
+		"LoadExtensionSchemaUpdates": "BetaFeaturesHooks::getSchemaUpdates",
+		"MakeGlobalVariablesScript": "BetaFeaturesHooks::onMakeGlobalVariablesScript",
+		"ExtensionTypes": "BetaFeaturesHooks::onExtensionTypes"
 	},
 	"MessagesDirs": {
 		"BetaFeatures": [
