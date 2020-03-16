@@ -4,6 +4,9 @@
 			"Pyscowicz"
 		]
 	},
+	"betafeatures-auto-enroll": "Ota auttomaattisesti käythöön kaikki uuet beeta-ominaisuuet",
+	"betafeatures-extension-type": "Beeta-ominaisuuet",
 	"betafeatures-toplink": "Beeta",
+	"prefs-betafeatures": "Beeta-ominaisuuet",
 	"tooltip-pt-betafeatures": "Beeta-ominaisuuet"
 }
