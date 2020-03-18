@@ -9,11 +9,11 @@
 			"Ans"
 		]
 	},
-	"betafeatures-auto-enroll": "เปิดใช้คุณลักษณะใหม่รุ่นทดสอบทั้งหมดอัตโนมัติ",
+	"betafeatures-auto-enroll": "เปิดใช้งานคุณลักษณะใหม่ระยะทดสอบทั้งหมดอัตโนมัติ",
 	"betafeatures-desc": "ให้ผู้ใช้เปิดใช้งานหรือปิดใช้งานคุณลักษณะบนวิกินี้ที่ยังไม่พร้อมให้มีผู้ใช้งานจำนวนมาก",
 	"betafeatures-extension-type": "คุณลักษณะรุ่นทดสอบ",
 	"betafeatures-section-desc": "นี่คือ{{PLURAL:$1|คุณลักษณะใหม่}}ที่เรากำลังพิจารณาแก่ {{SITENAME}} โปรดลองใช้คุณลักษณะนี้และออกความเห็นเพื่อที่เราจะได้ปรับปรุงตามความคิดเห็นและข้อเสนอแนะของคุณ",
-	"betafeatures-toplink": "รุ่นทดสอบ",
+	"betafeatures-toplink": "ระยะทดสอบ",
 	"mw-ui-feature-discuss": "การอภิปราย",
 	"mw-ui-feature-info": "ข้อมูลเพิ่มเติม",
 	"mw-ui-feature-requirements-betafeatures": "คุณลักษณะนี้ต้องการ{{PLURAL:$1|คุณลักษณะ| $1 คุณลักษณะ}}ต่อไปนี้จึงจะเปิดใช้งานได้:",
@@ -21,6 +21,6 @@
 	"mw-ui-feature-requirements-javascript": "คุณลักษณะนี้ต้องการจาวาสคริปต์",
 	"mw-ui-feature-requirements-skins": "คุณลักษณะนี้ทำงานได้เฉพาะกับ{{PLURAL:$1|สกินต่อไปนี้}}:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|ผู้ใช้ $1 คน|ผู้ใช้ $1 คน|0=ไม่มีผู้ใช้}}กำลังลองคุณลักษณะนี้",
-	"prefs-betafeatures": "คุณลักษณะรุ่นทดสอบ",
-	"tooltip-pt-betafeatures": "คุณลักษณะรุ่นทดสอบ"
+	"prefs-betafeatures": "คุณลักษณะระยะทดสอบ",
+	"tooltip-pt-betafeatures": "คุณลักษณะระยะทดสอบ"
 }
