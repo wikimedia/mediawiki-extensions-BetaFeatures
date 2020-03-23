@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"ChrisPtDe"
+			"ChrisPtDe",
+			"Bugoslav"
 		]
 	},
 	"betafeatures-toplink": "Bètâ",
+	"mw-ui-feature-info": "Enformacions",
 	"tooltip-pt-betafeatures": "Fonccionalitâts bètâ"
 }

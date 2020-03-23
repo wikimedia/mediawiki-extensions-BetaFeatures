@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Sky Harbor"
+			"Sky Harbor",
+			"Bugoslav"
 		]
 	},
 	"betafeatures-toplink": "Beta",
+	"mw-ui-feature-info": "Kabatiran",
 	"tooltip-pt-betafeatures": "Mga kagamitang nasa beta"
 }

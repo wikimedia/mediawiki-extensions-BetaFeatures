@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Chuvash2014"
+			"Chuvash2014",
+			"Bugoslav"
 		]
 	},
-	"betafeatures-toplink": "Бета"
+	"betafeatures-toplink": "Бета",
+	"mw-ui-feature-info": "Информаци"
 }

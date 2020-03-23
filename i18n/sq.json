@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Liridon",
-			"Kosovastar"
+			"Kosovastar",
+			"Bugoslav"
 		]
 	},
 	"betafeatures-toplink": "Beta",
+	"mw-ui-feature-info": "Informacion",
 	"tooltip-pt-betafeatures": "Karakteristikat beta"
 }

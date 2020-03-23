@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"LeGuyanaisPure"
+			"LeGuyanaisPure",
+			"Bugoslav"
 		]
 	},
 	"betafeatures-toplink": "Béta",
+	"mw-ui-feature-info": "Lenfòrmasyon",
 	"tooltip-pt-betafeatures": "Fongsyonnalité béta"
 }

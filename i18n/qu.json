@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"AlimanRuna"
+			"AlimanRuna",
+			"Bugoslav"
 		]
 	},
 	"betafeatures-toplink": "Beta",
+	"mw-ui-feature-info": "Willay",
 	"tooltip-pt-betafeatures": "Llanchina llamk'anakuna"
 }

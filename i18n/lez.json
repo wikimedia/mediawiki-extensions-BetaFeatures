@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Migraghvi"
+			"Migraghvi",
+			"Bugoslav"
 		]
 	},
-	"betafeatures-toplink": "Бета-жуьре"
+	"betafeatures-toplink": "Бета-жуьре",
+	"mw-ui-feature-info": "Хабар"
 }

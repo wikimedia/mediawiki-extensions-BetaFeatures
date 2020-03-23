@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"محک"
+			"محک",
+			"Bugoslav"
 		]
 	},
 	"betafeatures-toplink": "بتا",
+	"mw-ui-feature-info": "اطلاعات",
 	"tooltip-pt-betafeatures": "بتا"
 }

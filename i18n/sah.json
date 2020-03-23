@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"HalanTul"
+			"HalanTul",
+			"Bugoslav"
 		]
 	},
 	"betafeatures-toplink": "Бета",
+	"mw-ui-feature-info": "Бу туһунан",
 	"tooltip-pt-betafeatures": "Бета-функция"
 }

@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Belkacem77"
+			"Belkacem77",
+			"Bugoslav"
 		]
 	},
 	"betafeatures-toplink": "Beta",
+	"mw-ui-feature-info": "Talɣut",
 	"tooltip-pt-betafeatures": "Timahilin Beta"
 }

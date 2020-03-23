@@ -1,10 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Jagwar"
+			"Jagwar",
+			"Bugoslav"
 		]
 	},
 	"betafeatures-extension-type": "Fitaovana beta",
 	"betafeatures-toplink": "Beta",
+	"mw-ui-feature-info": "Fampahalalana",
 	"tooltip-pt-betafeatures": "Fitaovana beta"
 }

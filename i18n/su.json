@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kandar"
+			"Kandar",
+			"Bugoslav"
 		]
 	},
 	"betafeatures-toplink": "Béta",
+	"mw-ui-feature-info": "Émbaran",
 	"tooltip-pt-betafeatures": "Fitur béta"
 }

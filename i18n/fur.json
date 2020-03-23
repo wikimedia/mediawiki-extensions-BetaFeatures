@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Tocaibon"
+			"Tocaibon",
+			"Bugoslav"
 		]
 	},
 	"betafeatures-toplink": "Beta",
+	"mw-ui-feature-info": "Informazions",
 	"tooltip-pt-betafeatures": "Funzionalitâts sperimentalis"
 }

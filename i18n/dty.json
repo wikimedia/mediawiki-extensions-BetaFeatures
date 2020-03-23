@@ -3,9 +3,11 @@
 		"authors": [
 			"जनक राज भट्ट",
 			"रमेश सिंह बोहरा",
-			"Nirajan pant"
+			"Nirajan pant",
+			"Bugoslav"
 		]
 	},
 	"betafeatures-toplink": "बिटा",
+	"mw-ui-feature-info": "जानकारी",
 	"tooltip-pt-betafeatures": "बेटा सुविधाहरू"
 }

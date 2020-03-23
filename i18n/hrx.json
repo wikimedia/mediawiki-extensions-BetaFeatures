@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Midnight Gambler"
+			"Midnight Gambler",
+			"Bugoslav"
 		]
 	},
-	"betafeatures-toplink": "Beta"
+	"betafeatures-toplink": "Beta",
+	"mw-ui-feature-info": "Informatione"
 }

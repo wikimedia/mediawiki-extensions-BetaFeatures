@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Angpradesh"
+			"Angpradesh",
+			"Bugoslav"
 		]
 	},
 	"betafeatures-toplink": "बीटा",
+	"mw-ui-feature-info": "जानकारी",
 	"tooltip-pt-betafeatures": "बीटा सुविधा"
 }

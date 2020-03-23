@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Saimawnkham"
+			"Saimawnkham",
+			"Bugoslav"
 		]
 	},
 	"betafeatures-toplink": "တူဝ်ၸၢမ်း",
+	"mw-ui-feature-info": "လွၼ်ႉၶၢဝ်ႇ",
 	"tooltip-pt-betafeatures": "လၢႆးႁဵတ်းၵၢၼ် ၸၢမ်းတူၺ်း"
 }

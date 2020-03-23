@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Bellatrix10"
+			"Bellatrix10",
+			"Bugoslav"
 		]
 	},
+	"mw-ui-feature-info": "Informacije",
 	"tooltip-pt-betafeatures": "Beta mogućnosti"
 }

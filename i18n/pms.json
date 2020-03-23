@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Borichèt"
+			"Borichèt",
+			"Bugoslav"
 		]
 	},
 	"betafeatures-toplink": "Beta",
+	"mw-ui-feature-info": "Anformassion",
 	"tooltip-pt-betafeatures": "Fonsionalità beta"
 }

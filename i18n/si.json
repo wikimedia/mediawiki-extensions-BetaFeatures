@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"හරිත"
+			"හරිත",
+			"Bugoslav"
 		]
 	},
 	"betafeatures-toplink": "බීටා",
+	"mw-ui-feature-info": "තොරතුරු",
 	"tooltip-pt-betafeatures": "බීටා විශේෂාංග"
 }

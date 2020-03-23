@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Amir a57",
-			"Koroğlu"
+			"Koroğlu",
+			"Bugoslav"
 		]
 	},
 	"betafeatures-toplink": "بتا",
+	"mw-ui-feature-info": "بیلگیلر",
 	"tooltip-pt-betafeatures": "تست اؤزل‌لیک‌لر"
 }

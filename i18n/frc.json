@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Hangmanwa7id"
+			"Hangmanwa7id",
+			"Bugoslav"
 		]
 	},
-	"betafeatures-toplink": "Bêta"
+	"betafeatures-toplink": "Bêta",
+	"mw-ui-feature-info": "Informations"
 }

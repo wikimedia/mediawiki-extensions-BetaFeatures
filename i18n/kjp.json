@@ -1,10 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Rul1902"
+			"Rul1902",
+			"Bugoslav"
 		]
 	},
 	"betafeatures-toplink": "ပ္တုံယောဝ်ႋအ်ုထိုဝ်",
 	"mw-ui-feature-discuss": "လဝ်ထါင်ကါင်ကါ",
+	"mw-ui-feature-info": "ဆ်ုပြိုင့်အ်ုၯာင်းအ်ုကျံင်",
 	"tooltip-pt-betafeatures": "အ်ုဍံင် အ်ုၯင်းသယ်လ်ုဖး"
 }

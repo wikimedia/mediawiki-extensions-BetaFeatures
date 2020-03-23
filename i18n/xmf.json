@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Silovan"
+			"Silovan",
+			"Bugoslav"
 		]
 	},
 	"betafeatures-toplink": "ბეტა",
+	"mw-ui-feature-info": "ინფორმაცია",
 	"tooltip-pt-betafeatures": "ბეტა ასა-გასეფი"
 }

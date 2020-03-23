@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Marwan Mohamad"
+			"Marwan Mohamad",
+			"Bugoslav"
 		]
 	},
 	"betafeatures-toplink": "Beta",
+	"mw-ui-feature-info": "Habari",
 	"tooltip-pt-betafeatures": "Pitur beta"
 }

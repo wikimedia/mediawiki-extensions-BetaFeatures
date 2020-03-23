@@ -6,6 +6,7 @@
 	},
 	"betafeatures-auto-enroll": "Ota auttomaattisesti käythöön kaikki uuet beeta-ominaisuuet",
 	"betafeatures-extension-type": "Beeta-ominaisuuet",
+	"betafeatures-section-desc": "Täsä {{PLURAL:$1|oon uusi ominaisuus, jota|oon muutamia uusia ominaisuuksia, joita}} harkitsemme {{GRAMMAR:illative|{{SITENAME}}}}. Kokeile {{PLURAL:$1|sitä|niitä}} ja kerro mielipiteesi meille, jotta voimme parantaa {{PLURAL:$1|sitä|niitä}} palautteesi perusteella.",
 	"betafeatures-toplink": "Beeta",
 	"prefs-betafeatures": "Beeta-ominaisuuet",
 	"tooltip-pt-betafeatures": "Beeta-ominaisuuet"

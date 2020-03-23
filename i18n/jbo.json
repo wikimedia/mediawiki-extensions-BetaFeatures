@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Olwe519"
+			"Olwe519",
+			"Bugoslav"
 		]
 	},
-	"mw-ui-feature-discuss": "casnu"
+	"mw-ui-feature-discuss": "casnu",
+	"mw-ui-feature-info": "lo datni"
 }
