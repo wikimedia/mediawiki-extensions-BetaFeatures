@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"ⲁϩⲙⲉⲧ"
+			"ⲁϩⲙⲉⲧ",
+			"Bloomaround"
 		]
 	},
-	"betafeatures-toplink": "ⲃⲏⲧⲁ"
+	"betafeatures-toplink": "ⲃⲏⲧⲁ",
+	"tooltip-pt-betafeatures": "ϩⲁⲛⲫⲁϣⲛⲓ ⲛ̀ϫⲱⲛⲧ"
 }
