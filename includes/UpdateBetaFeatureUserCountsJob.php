@@ -69,7 +69,7 @@ class UpdateBetaFeatureUserCountsJob extends Job {
 		if ( $rows ) {
 			$dbw->replace(
 				'betafeatures_user_counts',
-				[ 'feature' ],
+				'feature',
 				$rows,
 				__METHOD__
 			);
