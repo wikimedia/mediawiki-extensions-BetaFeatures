@@ -1,11 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Pxos",
-			"Silvonen",
-			"Stryn",
 			"01miki10",
-			"Pyscowicz"
+			"Pxos",
+			"Pyscowicz",
+			"Silvonen",
+			"Stryn"
 		]
 	},
 	"betafeatures-auto-enroll": "Ota automaattisesti käyttöön kaikki uudet beeta-ominaisuudet",

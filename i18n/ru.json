@@ -1,13 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
+			"Diralik",
 			"Kaganer",
 			"Lockal",
 			"Lord Dimetr",
 			"Okras",
-			"Amire80",
-			"Sunpriat",
-			"Diralik"
+			"Sunpriat"
 		]
 	},
 	"betafeatures-auto-enroll": "Автоматически включать все новые бета-функции",

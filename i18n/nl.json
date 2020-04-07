@@ -1,14 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
+			"Bdijkstra",
 			"Flightmare",
+			"Mainframe98",
 			"Romaine",
+			"Servien",
 			"Siebrand",
 			"Sjoerddebruin",
-			"TBloemink",
-			"Servien",
-			"Mainframe98",
-			"Bdijkstra"
+			"TBloemink"
 		]
 	},
 	"betafeatures-auto-enroll": "Automatisch alle nieuwe bètafuncties inschakelen",

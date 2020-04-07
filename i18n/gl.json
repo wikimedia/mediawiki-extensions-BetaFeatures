@@ -1,12 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Toliño",
-			"Vivaelcelta",
-			"Elisardojm",
 			"Banjo",
+			"Elisardojm",
 			"Macofe",
-			"Navhy"
+			"Toliño",
+			"Vivaelcelta"
 		]
 	},
 	"betafeatures-auto-enroll": "Activar automaticamente todas as novas características en probas",

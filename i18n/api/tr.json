@@ -1,10 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Hedda",
-			"Sayginer",
 			"BaRaN6161 TURK",
-			"Mirzali"
+			"Hedda",
+			"Mirzali",
+			"Sayginer"
 		]
 	},
 	"apihelp-query+betafeatures-description": "Bütün Beta Özellikleri listele",

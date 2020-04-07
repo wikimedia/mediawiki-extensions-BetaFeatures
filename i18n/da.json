@@ -2,9 +2,9 @@
 	"@metadata": {
 		"authors": [
 			"Christian List",
-			"Thomsen",
 			"Macofe",
-			"Saederup92"
+			"Saederup92",
+			"Thomsen"
 		]
 	},
 	"betafeatures-auto-enroll": "Aktivér automatisk alle nye betafunktioner",

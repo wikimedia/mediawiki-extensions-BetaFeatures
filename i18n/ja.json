@@ -1,12 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Fryed-peach",
-			"Shirayuki",
-			"Whym",
 			"2nd-player",
+			"Fryed-peach",
+			"Omotecho",
+			"Shirayuki",
 			"Takot",
-			"Omotecho"
+			"Whym"
 		]
 	},
 	"betafeatures-auto-enroll": "すべてのベータ版機能を自動的に有効にする",

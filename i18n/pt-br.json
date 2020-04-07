@@ -1,16 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
-			"Cainamarques",
-			"Fúlvio",
-			"Helder.wiki",
-			"OTAVIO1981",
-			"He7d3r",
 			"Araceletorres",
-			"TheEduGobi",
-			"Macofe",
+			"Cainamarques",
 			"Felipe L. Ewald",
-			"Opraco"
+			"Fúlvio",
+			"He7d3r",
+			"Helder.wiki",
+			"Macofe",
+			"OTAVIO1981",
+			"Opraco",
+			"TheEduGobi"
 		]
 	},
 	"betafeatures-auto-enroll": "Ativar automaticamente todos os novos recursos beta",

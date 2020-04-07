@@ -1,12 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"William Surya Permana",
-			"C5st4wr6ch",
 			"Arifin.wijaya",
+			"C5st4wr6ch",
 			"Macofe",
 			"Rachmat.Wahidi",
-			"Rachmat04"
+			"Rachmat04",
+			"William Surya Permana"
 		]
 	},
 	"betafeatures-auto-enroll": "Secara otomatis aktifkan semua fitur beta baru",

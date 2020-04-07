@@ -1,9 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
+			"Bugoslav",
 			"Joao Xavier",
-			"Pskosinski",
-			"Bugoslav"
+			"Pskosinski"
 		]
 	},
 	"betafeatures-auto-enroll": "Permisar omna nova funcioni 'Beta', automatale",

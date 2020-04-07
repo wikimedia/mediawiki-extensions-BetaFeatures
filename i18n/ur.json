@@ -1,11 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"عثمان خان شاہ",
-			"عرفان ارشد",
-			"Obaid Raza",
 			"BukhariSaeed",
-			"Muhammad Shuaib"
+			"Muhammad Shuaib",
+			"Obaid Raza",
+			"عثمان خان شاہ",
+			"عرفان ارشد"
 		]
 	},
 	"betafeatures-auto-enroll": "تمام نئی ابتدائی سہولتوں کو خودکار طور پر فعال کریں",

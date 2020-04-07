@@ -1,11 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Milicevic01",
-			"Zoranzoki21",
-			"Obsuser",
 			"Acamicamacaraca",
-			"BadDog"
+			"BadDog",
+			"Milicevic01",
+			"Obsuser",
+			"Zoranzoki21"
 		]
 	},
 	"betafeatures-auto-enroll": "Аутоматски омогући све нове бета функције",

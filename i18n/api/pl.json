@@ -1,9 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
+			"Rail",
 			"Railfail536",
-			"Woytecr",
-			"Rail"
+			"Woytecr"
 		]
 	},
 	"apihelp-query+betafeatures-description": "Lista wszystkich funkcji eksperymentalnych",

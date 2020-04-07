@@ -1,9 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
+			"Macofe",
 			"Michaelbrabec",
-			"Mormegil",
-			"Macofe"
+			"Mormegil"
 		]
 	},
 	"betafeatures-auto-enroll": "Automaticky zapnout všechny nové funkce betaverze",

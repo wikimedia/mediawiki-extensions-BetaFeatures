@@ -1,13 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Fúlvio",
-			"Imperadeiro98",
-			"Vitorvicentevalente",
 			"Cainamarques",
-			"Macofe",
+			"Fúlvio",
 			"Hamilton Abreu",
-			"Opraco"
+			"Imperadeiro98",
+			"Macofe",
+			"Opraco",
+			"Vitorvicentevalente"
 		]
 	},
 	"betafeatures-auto-enroll": "Ativar automaticamente todas as novas funcionalidades beta",

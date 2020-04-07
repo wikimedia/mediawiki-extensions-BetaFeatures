@@ -1,15 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
+			"AVIADOR",
 			"Benfutbol10",
 			"Fitoschido",
+			"Kroji",
+			"Macofe",
 			"Ovruni",
 			"Sporeunai",
 			"VegaDark",
-			"Vivaelcelta",
-			"AVIADOR",
-			"Kroji",
-			"Macofe"
+			"Vivaelcelta"
 		]
 	},
 	"betafeatures-auto-enroll": "Activar automáticamente las funciones en pruebas nuevas",

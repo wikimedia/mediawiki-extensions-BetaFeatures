@@ -1,9 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
+			"Bdijkstra",
 			"Mainframe98",
-			"Siebrand",
-			"Bdijkstra"
+			"Siebrand"
 		]
 	},
 	"apihelp-query+betafeatures-description": "Alle bètafuncties weergeven",
