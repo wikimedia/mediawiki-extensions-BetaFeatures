@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"Reptilien.19831209BE1",
 			"Srtxg"
 		]
 	},
-	"mw-ui-feature-info": "Infôrmåcion"
+	"betafeatures-toplink": "Béta",
+	"mw-ui-feature-info": "Infôrmåcion",
+	"tooltip-pt-betafeatures": "Ahesses béta"
 }
