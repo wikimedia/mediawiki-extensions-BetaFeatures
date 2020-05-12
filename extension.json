@@ -12,8 +12,12 @@
 		"MediaWiki": ">= 1.35.0"
 	},
 	"config": {
-		"BetaFeaturesWhitelist": null,
-		"BetaFeatures": []
+		"BetaFeaturesWhitelist": {
+			"value": null
+		},
+		"BetaFeatures": {
+			"value": []
+		}
 	},
 	"ExtensionMessagesFiles": {
 		"BetaFeaturesAlias": "BetaFeatures.alias.php"
@@ -86,5 +90,5 @@
 	"TestAutoloadClasses": {
 		"BetaFeaturesTestCase": "tests/phpunit/BetaFeaturesTestCase.php"
 	},
-	"manifest_version": 1
+	"manifest_version": 2
 }
