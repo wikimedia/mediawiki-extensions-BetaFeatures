@@ -11,7 +11,7 @@
 			"Nemo bis"
 		]
 	},
-	"betafeatures-auto-enroll": "Attiva automaticamente tutte le nuove funzionalità sperimentali",
+	"betafeatures-auto-enroll": "Attiva automaticamente la maggior parte delle funzionalità sperimentali",
 	"betafeatures-desc": "Consente all'utente di attivare o disattivare sul wiki funzionalità sperimentali che non sono ancora pronte per il grande pubblico",
 	"betafeatures-extension-type": "Funzionalità sperimentali",
 	"betafeatures-section-desc": "{{PLURAL:$1|Questa è una nuova funzionalità sperimentale|Queste sono nuove funzionalità sperimentali}} che stiamo prendendo in considerazione per {{SITENAME}}. Puoi {{PLURAL:$1|provarla|provarle}} e dirci cosa ne pensi, così potremo {{PLURAL:$1|migliorarla|migliorarle}} in base ai tuoi commenti.",

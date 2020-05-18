@@ -5,11 +5,13 @@
 			"Metalhead64"
 		]
 	},
-	"betafeatures-auto-enroll": "Automatisch alle neuen Beta-Funktionen aktivieren",
+	"betafeatures-auto-enroll": "Automatisch die meisten Beta-Funktionen aktivieren",
+	"betafeatures-auto-enroll-help": "Einige Beta-Features können überraschende Änderungen haben, so dass {{GENDER:|du}} sie manuell aktivieren musst.",
 	"betafeatures-desc": "Ermöglicht Benutzern das Aktivieren oder Deaktivieren von Funktionen in diesem Wiki, die sich noch in der Entwicklung befinden",
 	"betafeatures-extension-type": "Erweiterungen zu Beta-Funktionen",
 	"betafeatures-section-desc": "Hier {{PLURAL:$1|wird eine neue Funktion|werden einige neue Funktionen}} angezeigt, die wir für {{SITENAME}} planen. Bitte probier sie aus und teile uns deine Meinung mit. So können wir sie, aufgrund deiner Rückmeldung, verbessern.",
 	"betafeatures-toplink": "Beta",
+	"betafeatures-feature-autoenrolled": "Automatisch aktivierte Funktion",
 	"mw-ui-feature-discuss": "Diskussion",
 	"mw-ui-feature-info": "Informationen",
 	"mw-ui-feature-requirements-betafeatures": "Diese Funktion erfordert die Aktivierung folgender {{PLURAL:$1|Funktion|Funktionen}}:",

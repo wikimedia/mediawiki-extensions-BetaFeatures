@@ -11,11 +11,13 @@
 			"Sayginer"
 		]
 	},
-	"betafeatures-auto-enroll": "Tüm yeni beta özellikleri otomatik olarak etkinleştirin",
+	"betafeatures-auto-enroll": "Çoğu beta özelliği otomatik olarak etkinleştir",
+	"betafeatures-auto-enroll-help": "Bazı beta özelliklerinde şaşırtıcı değişiklikler olabilir ve bu nedenle manüel olarak kaydolmanız gerekir.",
 	"betafeatures-desc": "Vikide hala tam zamanlı kullanım için hazır olmayan özellikleri etkinleştirmenize veya devre dışı bırakmanıza olanak sağlar",
 	"betafeatures-extension-type": "Beta özellikler",
 	"betafeatures-section-desc": "Burada {{SITENAME}} için düşündüğümüz {{PLURAL:$1|yeni özellik|bazı yeni özellikler}} var. Lütfen deneyin ve düşüncelerinizi bize bildirin, böylece geri bildiriminize göre geliştirebiliriz.",
 	"betafeatures-toplink": "Beta",
+	"betafeatures-feature-autoenrolled": "Otomatik kayıt özelliği",
 	"mw-ui-feature-discuss": "Tartışma",
 	"mw-ui-feature-info": "Bilgi",
 	"mw-ui-feature-requirements-betafeatures": "Bu özelliğin etkin olabilmesi için şu {{PLURAL:$1|özelliğe|özelliklere}} gereksinim duymaktadır:",

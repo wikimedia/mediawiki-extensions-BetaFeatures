@@ -7,11 +7,13 @@
 			"ערן"
 		]
 	},
-	"betafeatures-auto-enroll": "הפעלת כל אפשרויות הבטא החדשות באופן אוטומטי",
+	"betafeatures-auto-enroll": "הפעל אוטומטית של רוב אפשרויות הבטא",
+	"betafeatures-auto-enroll-help": "בחלק מאפשרויות הבטא החדשות יכולים להיות שינויים מפתיעים, ולכן {{GENDER:|תצטרך|תצטרכי}} להירשם לזה ידנית.",
 	"betafeatures-desc": "מתן אפשרות למשתמש להפעיל או לכבות באתר הוויקי אפשרויות שעדיין אינן מוכנות להוצאה כללית",
 	"betafeatures-extension-type": "אפשרויות בטא",
 	"betafeatures-section-desc": "להלן {{PLURAL:$1|אפשרות חדשה|אפשרויות חדשות}} שאנחנו שוקלים להוסיף ל{{GRAMMAR:תחילית|{{SITENAME}}}}. נא לנסות {{PLURAL:$1|אותה|אותן}}, כדי שנוכל לשפר {{PLURAL:$1|אותה|אותן}} לפי המשוב שלך.",
 	"betafeatures-toplink": "בטא",
+	"betafeatures-feature-autoenrolled": "אשפרות מופעלת אוטומטית",
 	"mw-ui-feature-discuss": "דיון",
 	"mw-ui-feature-info": "מידע",
 	"mw-ui-feature-requirements-betafeatures": "האפשרות הזאת דורשת {{PLURAL:$1|שהאפשרות הבאה תהיה מופעלת|שהאפשרויות הבאות יהיו מופעלות}}:",

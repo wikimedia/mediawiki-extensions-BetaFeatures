@@ -4,12 +4,14 @@
 			"Chrumps",
 			"Matma Rex",
 			"Peter Bowman",
+			"Rail",
 			"Railfail536",
 			"WTM",
 			"Woytecr"
 		]
 	},
-	"betafeatures-auto-enroll": "Automatycznie włączaj nowe funkcje eksperymentalne",
+	"betafeatures-auto-enroll": "Automatycznie włączaj większość funkcji eksperymentalnych",
+	"betafeatures-auto-enroll-help": "Niektóre funkcje eksperymentalne mogą uwzględniać niespodziewane zmiany, więc musisz samemu je włączyć.",
 	"betafeatures-desc": "Pozwala użytkownikom włączać lub wyłączać funkcje, które nie są jeszcze w pełni dopracowane",
 	"betafeatures-extension-type": "Funkcje eksperymentalne",
 	"betafeatures-section-desc": "Masz możliwość przetestowania {{PLURAL:$1|nowej, eksperymentalnych funkcji|nowych, eksperymentalnych funkcji}} przygotowanych dla {{GRAMMAR:D.lp|{{SITENAME}}}}. Prosimy o ich wypróbowanie i przekazanie nam swoich refleksji, abyśmy mogli je ulepszyć, bazując na Twoich komentarzach.",
