@@ -18,11 +18,12 @@
 		]
 	},
 	"betafeatures-auto-enroll": "Activer automatiquement la plupart des fonctionnalités  bêta",
-	"betafeatures-auto-enroll-help": "Certaines fonctionnalités de la version bêta peuvent présenter des changements surprenants, et {{GENDER:vous}} devez donc les activer manuellement.",
+	"betafeatures-auto-enroll-help": "Certaines fonctionnalités de la version bêta peuvent présenter des changements surprenants, et {{GENDER:|vous}} devez donc les activer manuellement.",
 	"betafeatures-desc": "Laisse l’utilisateur activer ou désactiver les fonctionnalités sur ce wiki qui ne sont pas encore prêtes pour être généralisées",
 	"betafeatures-extension-type": "Fonctionnalités bêta",
 	"betafeatures-section-desc": "Voici {{PLURAL:$1|une nouvelle fonctionnalité|de nouvelles fonctionnalités}} que nous envisageons pour {{SITENAME}}. Vous pouvez {{PLURAL:$1|l’|les }}essayer et nous donner vos impressions afin que nous puissions {{PLURAL:$1|l’améliorer|les améliorer}} sur la base de vos commentaires.",
 	"betafeatures-toplink": "Bêta",
+	"betafeatures-feature-autoenrolled": "Fonctionnalité à inscription automatique",
 	"mw-ui-feature-discuss": "Discussion",
 	"mw-ui-feature-info": "Informations",
 	"mw-ui-feature-requirements-betafeatures": "Cette fonctionnalité nécessite que {{PLURAL:$1|la fonctionnalité suivante soit activée|les fonctionnalités suivantes soient activées}} :",

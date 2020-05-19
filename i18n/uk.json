@@ -3,15 +3,18 @@
 		"authors": [
 			"Andriykopanytsia",
 			"Lystopad",
+			"Movses",
 			"Piramidion",
 			"Ата"
 		]
 	},
-	"betafeatures-auto-enroll": "Автоматично увімкнути усі бета-функції",
+	"betafeatures-auto-enroll": "Автоматично увімкнути максимум бета-функцій",
+	"betafeatures-auto-enroll-help": "Деякі бетафункції можуть мати неочікувані змінити, тому {{GENDER:|вам}} треба вмикати їх вручну.",
 	"betafeatures-desc": "Дозволяє користувачу вмикати чи вимикати функції вікі, все ще не готові до прайм-тайму",
 	"betafeatures-extension-type": "Бета-функції",
 	"betafeatures-section-desc": "Тут  {{PLURAL:$1|1=є нова функція, яку|деякі нові функції, які}} ми розробляємо для сайту {{SITENAME}}. Спробуйте їх та висловіть ваші думки, щоб ми могли покращити їх, виходячи з ваших відгуків.",
 	"betafeatures-toplink": "Бета",
+	"betafeatures-feature-autoenrolled": "Автоувімкнена функція",
 	"mw-ui-feature-discuss": "Обговорення",
 	"mw-ui-feature-info": "Інформація",
 	"mw-ui-feature-requirements-betafeatures": "Ця функція вимагає, щоб {{PLURAL:$1|1=була включена наступна функція|були включені наступні функції}}:",
