@@ -25,8 +25,8 @@
 
 class HTMLFeatureField extends NewHTMLCheckField {
 
-	const OPTION_ENABLED = '1';
-	const OPTION_DISABLED = '0';
+	public const OPTION_ENABLED = '1';
+	public const OPTION_DISABLED = '0';
 
 	public function __construct( $options ) {
 		// We need the new checkbox style to have a sane-looking field

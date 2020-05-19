@@ -31,10 +31,10 @@
 class DependentFeatureTest extends BetaFeaturesTestCase {
 
 	// Key for testing preference
-	const TESTPREFKEY = 'unittest';
+	private const TESTPREFKEY = 'unittest';
 
 	// Key for dependency hook
-	const TESTDEPSKEY = 'DependentFeatureTestDependencyCheck';
+	private const TESTDEPSKEY = 'DependentFeatureTestDependencyCheck';
 
 	// Structure of testing preference
 	public static $testPref = [

@@ -30,7 +30,7 @@
  */
 class PreferenceHandlingTest extends BetaFeaturesTestCase {
 
-	const TESTPREFKEY = 'unittest';
+	private const TESTPREFKEY = 'unittest';
 
 	public static function preferenceListing() {
 		$invalidPref = [

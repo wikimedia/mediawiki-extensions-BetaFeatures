@@ -31,7 +31,7 @@
 class HooksRunTest extends MediaWikiTestCase {
 
 	// Key for testing preference
-	const TESTPREFKEY = 'unittest';
+	private const TESTPREFKEY = 'unittest';
 
 	// Structure of testing preference
 	public static $testPref = [
