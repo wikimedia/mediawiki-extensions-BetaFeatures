@@ -7,11 +7,13 @@
 			"Silraks"
 		]
 	},
-	"betafeatures-auto-enroll": "Automātiski iespējot visas jaunās bēta funkcijas",
+	"betafeatures-auto-enroll": "Automātiski iespējot vairumu jauno bēta funkciju",
+	"betafeatures-auto-enroll-help": "Dažām bēta iespējām var būt pārsteidzošas izmaiņas, tāpēc tās {{GENDER:|tev}} jāieslēdz manuāli.",
 	"betafeatures-desc": "Ļauj vikivietnes lietotājiem iespējot vai atspējot iespējas, kas vēl nav gatavas plašai lietošanai",
 	"betafeatures-extension-type": "Bēta funkcijas",
 	"betafeatures-section-desc": "{{PLURAL:$1|Šīs ir jaunas iespējas|Šī ir jauna iespēja|Šīs ir jaunas iespējas}}, ko mēs izmēģinām projektā \"{{SITENAME}}\". Lūdzu, pamēģini {{PLURAL:$1|tās|to|tās}} un dalies ar savām domām, lai mēs {{PLURAL:$1|tās|to|tās}} varētu uzlabot.",
 	"betafeatures-toplink": "Testa funkcijas",
+	"betafeatures-feature-autoenrolled": "Automātiski ieslēgta iespēja",
 	"mw-ui-feature-discuss": "Diskusija",
 	"mw-ui-feature-info": "Informācija",
 	"mw-ui-feature-requirements-betafeatures": "Šīs funkcionalitātes darbībai nepieciešams ieslēgt {{PLURAL:$1|šīs citas iespējas|šo citu iespēju|šīs citas iespējas}}:",
