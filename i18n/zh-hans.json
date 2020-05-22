@@ -10,10 +10,11 @@
 			"Shizhao",
 			"Xiaomingyan",
 			"Yfdyh000",
-			"乌拉跨氪"
+			"乌拉跨氪",
+			"铁桶"
 		]
 	},
-	"betafeatures-auto-enroll": "自动启用所有新测试功能",
+	"betafeatures-auto-enroll": "自动启用大部分测试功能",
 	"betafeatures-desc": "让用户能够启用或停用仍在本wiki测试的功能",
 	"betafeatures-extension-type": "测试功能",
 	"betafeatures-section-desc": "我们有{{PLURAL:$1|一个|一些}}计划用于{{SITENAME}}的新功能。请试用{{PLURAL:$1|该|这些}}功能，并把您的想法告诉我们，以便我们依据您的反馈改进{{PLURAL:$1|它|它们}}。",
