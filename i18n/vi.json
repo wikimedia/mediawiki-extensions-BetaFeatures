@@ -3,10 +3,11 @@
 		"authors": [
 			"Max20091",
 			"Minh Nguyen",
-			"Nguyên Lê"
+			"Nguyên Lê",
+			"Trần Nguyễn Minh Huy"
 		]
 	},
-	"betafeatures-auto-enroll": "Tự động bật lên các tính năng beta mới",
+	"betafeatures-auto-enroll": "Tự động bật lên hầu hết tính năng beta mới",
 	"betafeatures-desc": "Cho phép người dùng bật hay tắt các tính năng wiki chưa ổn định",
 	"betafeatures-extension-type": "Tính năng beta",
 	"betafeatures-section-desc": "Đây có {{PLURAL:$1|một tính năng|những tính năng}} mới mà chúng tôi đang phát triển cho {{SITENAME}}. Xin vui lòng thử {{PLURAL:$1|nó|chúng}} và gửi cho chúng tôi những ý kiến của bạn để giúp chúng tôi cải thiện {{PLURAL:$1|nó|chúng}}.",
