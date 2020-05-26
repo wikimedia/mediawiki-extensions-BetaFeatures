@@ -58,15 +58,18 @@ class BetaFeaturesHooks {
 
 	/**
 	 * @param User $user User who's just saved their preferences
-	 * @param array &$options List of options
+	 * @param array $options List of options
+	 * @param array $originalOptions List of original user options
+	 * @throws Exception
 	 */
-	public static function updateUserCounts( User $user, array &$options ) {
+	public static function updateUserCounts(
+		User $user,
+		array $options,
+		array $originalOptions
+	) {
 		global $wgBetaFeatures;
 
-		// Let's find out what's changed
-		$oldUser = User::newFromName( $user->getName() );
-
-		if ( !$oldUser ) {
+		if ( !$user->isRegistered() ) {
 			// Anonymous users do not have options, shorten out.
 			return;
 		}
@@ -75,8 +78,8 @@ class BetaFeaturesHooks {
 		Hooks::run( 'GetBetaFeaturePreferences', [ $user, &$betaFeatures ] );
 
 		foreach ( $betaFeatures as $name => $option ) {
-			$newVal = $user->getOption( $name );
-			$oldVal = $oldUser->getOption( $name );
+			$newVal = $options[$name] ?? null;
+			$oldVal = $originalOptions[$name] ?? null;
 			// Check if this preference meaningfully changed
 			if ( $oldVal === $newVal ||
 				( $oldVal === null && $newVal === HTMLFeatureField::OPTION_DISABLED )
