@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
+			"Diki Ananta",
 			"NoiX180"
 		]
 	},
 	"apihelp-query+betafeatures-description": "Pratélan kabèh Fitur Béta",
-	"apihelp-query+betafeatures-example-1": "Jupuk kabèh fitur béta sing cumepak lan tuduhaké akèhé panganggo sing ngurubaké fitur-fitur iku."
+	"apihelp-query+betafeatures-example-1": "Jupuk kabèh fitur béta sing cumepak lan tuduhaké akèhé naraguna sing ngurubaké fitur-fitur iku."
 }
