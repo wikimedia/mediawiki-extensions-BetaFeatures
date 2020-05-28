@@ -3,13 +3,14 @@
 		"authors": [
 			"Arifin.wijaya",
 			"C5st4wr6ch",
+			"Diki Ananta",
 			"Macofe",
 			"Rachmat.Wahidi",
 			"Rachmat04",
 			"William Surya Permana"
 		]
 	},
-	"betafeatures-auto-enroll": "Secara otomatis aktifkan semua fitur beta baru",
+	"betafeatures-auto-enroll": "Secara otomatis aktifkan sebagian besar fitur beta",
 	"betafeatures-desc": "Memungkinkan pengguna mengaktifkan atau menonaktifkan fitur di wiki yang masih belum siap untuk tayang",
 	"betafeatures-extension-type": "Fitur beta",
 	"betafeatures-section-desc": "{{PLURAL:$1|Ini adalah|Berikut ini adalah beberapa}} fitur baru yang sedang kami pertimbangkan untuk {{SITENAME}}. Silakan coba  {{PLURAL:$1|fitur|fitur-fitur}} tersebut dan beritahu kami apa yang Anda pikirkan, sehingga kami dapat menyempurnakan{{PLURAL:$1|nya}} berdasarkan umpan balik Anda.",
