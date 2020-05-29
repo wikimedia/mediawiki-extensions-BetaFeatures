@@ -49,13 +49,13 @@ class HTMLFeatureField extends NewHTMLCheckField {
 		$html .= Html::closeElement( 'div' );
 
 		if ( isset( $this->mParams['info-message'] ) ) {
-			$infoLink = $this->mParent->msg( $this->mParams['info-message'] )->escaped();
+			$infoLink = $this->mParent->msg( $this->mParams['info-message'] )->text();
 		} else {
 			$infoLink = $this->mParams['info-link'];
 		}
 
 		if ( isset( $this->mParams['discussion-message'] ) ) {
-			$discussionLink = $this->mParent->msg( $this->mParams['discussion-message'] )->escaped();
+			$discussionLink = $this->mParent->msg( $this->mParams['discussion-message'] )->text();
 		} else {
 			$discussionLink = $this->mParams['discussion-link'];
 		}
