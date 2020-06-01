@@ -6,7 +6,16 @@
 			"Fierodelveneto"
 		]
 	},
+	"betafeatures-auto-enroll": "Ativar automadegamente łe nove funsion in proa",
+	"betafeatures-auto-enroll-help": "Calche funsion in proa ła podaria ver canbiamenti da star co ła boca verta, de conseguensa a {{GENDER:|te}} ghè da ativar a man.",
+	"betafeatures-desc": "Ła dà ła manjiera de ativar o dexativar in ła Wiki instrumenti esperimentałi che no i xe njoncora pronti par ła piasa granda",
+	"betafeatures-extension-type": "Instrumenti esperimentałi",
+	"betafeatures-section-desc": "{{PLURAL:$1|Sta cuà ła xe on novo instrumento esperimentałe|Ste cuà łe xe dei novi instrumenti esperimentałi}} che semo drio ciapar in considerasion par {{SITENAME}}. Te połi {{PLURAL:$1|proarla|proarle}} e dirne cosa che te ghene pensi, cusì podaremo {{PLURAL:$1|mejorarla|mejorarle}} sevendo i to comenti.",
 	"betafeatures-toplink": "Beta",
+	"betafeatures-feature-autoenrolled": "Auto-enrolled feature",
 	"mw-ui-feature-discuss": "Discusion",
-	"tooltip-pt-betafeatures": "Funsion in próa"
+	"mw-ui-feature-info": "Informasion",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|On utetensa ła xe|$1 utetense łe xe|0=Nisuna utensa ła xe}} drio proar sto instrumento.",
+	"prefs-betafeatures": "Instrumenti esperimentałi",
+	"tooltip-pt-betafeatures": "Instrumenti esperimentałi"
 }

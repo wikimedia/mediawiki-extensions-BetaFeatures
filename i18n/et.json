@@ -4,7 +4,7 @@
 			"Pikne"
 		]
 	},
-	"betafeatures-auto-enroll": "Kasuta automaatselt kõiki uusi beetafunktsioone",
+	"betafeatures-auto-enroll": "Kasuta automaatselt enamikku uusi beetafunktsioone",
 	"betafeatures-desc": "Võimaldab kasutajal proovida või keelata funktsioone, mis pole veel valmis kõigile kasutamiseks.",
 	"betafeatures-extension-type": "Beetafunktsioonid",
 	"betafeatures-section-desc": "Siin on {{PLURAL:$1|uus funktsioon|mõned uued funktsioonid}}, mille {{GRAMMAR:inessive|{{SITENAME}}}} kasutamist kaalume. Palun proovi {{PLURAL:$1|seda|neid}} ja avalda arvamust, et saaksime {{PLURAL:$1|seda|neid}} sinu tagasiside põhjal täiustada.",

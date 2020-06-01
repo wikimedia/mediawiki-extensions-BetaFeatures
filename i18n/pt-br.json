@@ -15,7 +15,7 @@
 		]
 	},
 	"betafeatures-auto-enroll": "Ativar automaticamente a maioria dos recursos beta",
-	"betafeatures-auto-enroll-help": "Alguns recursos beta podem ter alterações surpreendentes e, portanto, o {{GENDER:|você}} precisa ser ativado manualmente.",
+	"betafeatures-auto-enroll-help": "Alguns recursos beta podem ter alterações surpreendentes e, portanto, {{GENDER:|você}} precisará ativá-los manualmente.",
 	"betafeatures-desc": "Permite ao usuário ativar ou desativar funções da wiki que ainda não estão prontas para serem ativamente usadas",
 	"betafeatures-extension-type": "Recursos beta",
 	"betafeatures-section-desc": "Aqui {{PLURAL:$1|encontra-se um novo recurso|encontram-se novos recursos}} que estamos considerando para {{SITENAME}}. Por favor, {{PLURAL:$1|teste-o|teste-os}} e diga o que pensa {{PLURAL:$1|dele|deles}}, para que possamos {{PLURAL:$1|melhorá-lo|melhorá-los}} com base em seu comentário.",
