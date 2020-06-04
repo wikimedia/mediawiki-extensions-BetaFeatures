@@ -6,13 +6,13 @@
 			"Janezdrilc"
 		]
 	},
-	"betafeatures-auto-enroll": "Samodejno omogoči vse preizkusne funkcije",
+	"betafeatures-auto-enroll": "Samodejno omogoči večino preizkusnih funkcij",
 	"betafeatures-desc": "Dovoljuje uporabniku omogočiti ali onemogočiti funkcije na wikiju, ki še niso pripravljene za redno uporabo",
 	"betafeatures-extension-type": "Preizkusne funkcije",
 	"betafeatures-section-desc": "Tu {{PLURAL:$1|je nova funkcija|je nekaj novih funkcij}}, ki {{PLURAL:$1|jo|jih}} načrtujemo za {{SITENAME}}. {{PLURAL:$1|Preizkusi jo|Preizkusi jih}} in nam sporoči svoje mnenje, na podlagi katerega {{PLURAL:$1|jo|jih}} bomo poskusili izboljšati.",
 	"betafeatures-toplink": "Preizkusne funkcije",
 	"mw-ui-feature-discuss": "Pogovor",
-	"mw-ui-feature-info": "Opis",
+	"mw-ui-feature-info": "Informacije",
 	"mw-ui-feature-requirements-betafeatures": "Ta možnost zahteva, da {{PLURAL:$1|je omogočena naslednja možnost|so omogočene naslednje možnosti}}:",
 	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|Naslednji brskalnik ni podprt|Naslednja brskalnika nista podprta|Naslednji brskalniki niso podprti}}:",
 	"mw-ui-feature-requirements-javascript": "Ta možnost zahteva JavaScript",
