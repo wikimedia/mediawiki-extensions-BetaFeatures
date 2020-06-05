@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Ainali",
+			"JohanahoJ",
 			"Jopparn",
 			"Lokal Profil",
 			"Macofe",
@@ -10,7 +11,7 @@
 			"WikiPhoenix"
 		]
 	},
-	"betafeatures-auto-enroll": "Aktivera automatiskt alla nya betafunktioner",
+	"betafeatures-auto-enroll": "Aktivera automatiskt de flesta nya betafunktionerna",
 	"betafeatures-desc": "Låter användare aktivera eller inaktivera funktioner på wikin som fortfarande inte är helt färdiga",
 	"betafeatures-extension-type": "Betafunktioner",
 	"betafeatures-section-desc": "Följande är {{PLURAL:$1|en ny funktion|några nya funktioner}} vi överväger på {{SITENAME}}. Prova {{PLURAL:$1|den|dem}} gärna, och låt oss veta vad du tycker, så att vi kan förbättra {{PLURAL:$1|den|dem}} baserat på din återkoppling.",
