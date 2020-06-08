@@ -15,7 +15,7 @@
 	"betafeatures-feature-autoenrolled": "Auto-enrolled feature",
 	"mw-ui-feature-discuss": "Discusion",
 	"mw-ui-feature-info": "Informasion",
-	"mw-ui-feature-user-count": "{{PLURAL:$1|On utetensa ła xe|$1 utetense łe xe|0=Nisuna utensa ła xe}} drio proar sto instrumento.",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|On utensa ła xe|$1 utense łe xe|0=Nisuna utensa ła xe}} drio proar sto instrumento.",
 	"prefs-betafeatures": "Instrumenti esperimentałi",
 	"tooltip-pt-betafeatures": "Instrumenti esperimentałi"
 }
