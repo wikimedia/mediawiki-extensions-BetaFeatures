@@ -277,8 +277,10 @@ class BetaFeaturesHooks {
 				}
 			}
 
-			// If a browser blacklist is supplied, store so it can be passed as JSON
-			self::$features[$key]['blacklist'] = $prefs[$key]['requirements']['blacklist'] ?? null;
+			// If a unsupported browsers list is supplied, store so it can be passed as JSON
+			self::$features[$key]['unsupportedList'] = $prefs[$key]['requirements']['unsupportedList'] ??
+				// @deprecated since 1.35, use unsupportedList instead of blacklist
+				( $prefs[$key]['requirements']['blacklist'] ?? null );
 		}
 
 		if ( $autoEnrollSaveSettings !== [] ) {

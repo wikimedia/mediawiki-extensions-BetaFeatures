@@ -21,7 +21,7 @@
  */
 
 $( function () {
-	var $autoEnrollCheckbox, preference, blacklist,
+	var $autoEnrollCheckbox, preference, unsupportedList,
 		featuresModel = mw.config.get( 'wgBetaFeaturesFeatures', [] );
 
 	// eslint-disable-next-line no-jquery/no-global-selector
@@ -49,10 +49,10 @@ $( function () {
 	for ( preference in featuresModel ) {
 		featuresModel[ preference ].widget = OO.ui.infuse( $( '[name=wp' + preference + ']' ).parent() );
 
-		blacklist = featuresModel[ preference ].blacklist;
+		unsupportedList = featuresModel[ preference ].unsupportedList;
 
 		// Browser not compatible
-		if ( blacklist && $.client.test( blacklist, null, true ) ) {
+		if ( unsupportedList && $.client.test( unsupportedList, null, true ) ) {
 			featuresModel[ preference ].widget.$element
 				.closest( '.mw-ui-feature-field' )
 				.find( '.mw-ui-feature-requirements-browser' ).show();

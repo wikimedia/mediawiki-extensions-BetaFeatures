@@ -160,15 +160,18 @@ class HTMLFeatureField extends NewHTMLCheckField {
 				);
 			}
 
-			if ( isset( $this->mParams['requirements']['blacklist'] ) ) {
+			$unsupportedList = $this->mParams['requirements']['unsupportedList'] ??
+				// @deprecated since 1.35, use unsupportedList instead of blacklist
+				( $this->mParams['requirements']['blacklist'] ?? false );
+			if ( $unsupportedList ) {
 				$html .= Html::openElement(
 					'li',
 					[ 'class' => 'mw-ui-feature-requirements-browser' ]
 				);
-				$browserCount = count( $this->mParams['requirements']['blacklist'] );
+				$browserCount = count( $unsupportedList );
 				$html .= $parent->msg( 'mw-ui-feature-requirements-browser', $browserCount )->escaped();
 				$html .= Html::openElement( 'ul' );
-				foreach ( $this->mParams['requirements']['blacklist'] as $browser => $versions ) {
+				foreach ( $unsupportedList as $browser => $versions ) {
 					$browserString = $browser;
 					if ( $versions ) {
 						foreach ( $versions as $version ) {
