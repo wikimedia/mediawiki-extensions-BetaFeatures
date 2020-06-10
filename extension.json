@@ -30,6 +30,7 @@
 		"GetPreferences": "BetaFeaturesHooks::getPreferences",
 		"PersonalUrls": "BetaFeaturesHooks::getBetaFeaturesLink",
 		"LoadExtensionSchemaUpdates": "BetaFeaturesHooks::getSchemaUpdates",
+		"MakeGlobalVariablesScript": "BetaFeaturesHooks::onMakeGlobalVariablesScript",
 		"ExtensionTypes": "BetaFeaturesHooks::onExtensionTypes"
 	},
 	"MessagesDirs": {
@@ -40,12 +41,8 @@
 	},
 	"ResourceModules": {
 		"ext.betaFeatures": {
-			"packageFiles": [
-				"betafeatures.js",
-				{
-					"name": "data.json",
-					"callback": "BetaFeaturesHooks::getDataForPreferencesPage"
-				}
+			"scripts": [
+				"betafeatures.js"
 			],
 			"styles": [
 				"betafeatures.less"
