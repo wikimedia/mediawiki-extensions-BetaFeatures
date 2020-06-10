@@ -5,10 +5,11 @@
 			"Geraki",
 			"Glavkos",
 			"Nikosgranturismogt",
+			"Norhorn",
 			"Xaris333"
 		]
 	},
-	"betafeatures-auto-enroll": "Αυτόματη ενεργοποίηση όλων των δοκιμαστικών χαρακτηριστικών",
+	"betafeatures-auto-enroll": "Αυτόματη ενεργοποίηση των περισσότερων δοκιμαστικών χαρακτηριστικών",
 	"betafeatures-extension-type": "Δοκιμαστικές λειτουργίες",
 	"betafeatures-toplink": "Δοκιμαστικές λειτουργίες",
 	"mw-ui-feature-discuss": "Συζήτηση",
