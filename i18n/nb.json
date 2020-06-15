@@ -7,7 +7,8 @@
 			"Macofe"
 		]
 	},
-	"betafeatures-auto-enroll": "Automatisk aktiver alle nye betafunksjoner",
+	"betafeatures-auto-enroll": "Automatisk aktiver de fleste nye betafunksjoner",
+	"betafeatures-auto-enroll-help": "Noen betafunksjoner kan ha overraskende endringer, så disse må {{GENDER:|du}} slå på manuelt.",
 	"betafeatures-desc": "La brukere aktivere eller deaktivere funksjoner på wikien som ikke enda er helt ferdige.",
 	"betafeatures-extension-type": "Betafunksjoner",
 	"betafeatures-section-desc": "Her er {{PLURAL:$1|en ny funksjon|noen nye funksjoner}} vi vurderer å innføre på {{SITENAME}}. Prøv {{PLURAL:$1|den|dem}} gjerne og gi oss din tilbakemelding, så vi kan forbedre {{PLURAL:$1|den|dem}}.",

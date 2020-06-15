@@ -9,10 +9,11 @@
 		]
 	},
 	"betafeatures-auto-enroll": "Аутоматски омогући све нове бета функције",
+	"betafeatures-auto-enroll-help": "Неке бета функције могу имати изненадне промене, те {{GENDER:|морате}} да их ручно укључите.",
 	"betafeatures-extension-type": "Бета функције",
 	"betafeatures-section-desc": "Ово {{PLURAL:$1|је нова функција коју|су нове функције које}} разматрамо за пројекат {{SITENAME}}. Испробајте {{PLURAL:$1|је|их}} и реците нам шта мислите да бисмо {{PLURAL:$1|је|их}} побољшали на основу ваших повратних информација.",
 	"betafeatures-toplink": "Бета",
-	"mw-ui-feature-discuss": "Дискусија",
+	"mw-ui-feature-discuss": "Разговор",
 	"mw-ui-feature-info": "Информације",
 	"mw-ui-feature-requirements-betafeatures": "За ову могућност потребно је омогућити {{PLURAL:$1|следећу могућност|следеће могућности}}:",
 	"mw-ui-feature-requirements-javascript": "За ову могућност је потребна JavaScript-а.",
