@@ -21,7 +21,7 @@
  */
 
 $( function () {
-	var $autoEnrollCheckbox, preference, unsupportedList,
+	var $autoEnrollCheckbox, preference, $checkbox, unsupportedList,
 		featuresModel = mw.config.get( 'wgBetaFeaturesFeatures', [] );
 
 	// eslint-disable-next-line no-jquery/no-global-selector
@@ -47,7 +47,14 @@ $( function () {
 	} } );
 
 	for ( preference in featuresModel ) {
-		featuresModel[ preference ].widget = OO.ui.infuse( $( '[name=wp' + preference + ']' ).parent() );
+		$checkbox = $( '[name=wp' + preference + ']' );
+
+		// Extensions might hide their preferences late or by a different method
+		if ( !$checkbox.length ) {
+			continue;
+		}
+
+		featuresModel[ preference ].widget = OO.ui.infuse( $checkbox.parent() );
 
 		unsupportedList = featuresModel[ preference ].unsupportedList;
 
