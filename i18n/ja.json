@@ -3,17 +3,21 @@
 		"authors": [
 			"2nd-player",
 			"Fryed-peach",
+			"Object＊tofu",
 			"Omotecho",
 			"Shirayuki",
 			"Takot",
+			"Tmv",
 			"Whym"
 		]
 	},
 	"betafeatures-auto-enroll": "すべてのベータ版機能を自動的に有効にする",
+	"betafeatures-auto-enroll-help": "ベータ機能の中には意外な変更がある可能性があるので、{{GENDER:|you}}は手動で選り分ける必要があります。",
 	"betafeatures-desc": "本番環境のウィキで使用する準備がまだできていない機能について、利用者が有効化/無効化できるようにする",
 	"betafeatures-extension-type": "ベータ版機能",
 	"betafeatures-section-desc": "{{SITENAME}}のために検討している{{PLURAL:$1|新しい機能}}があります。お試しの上ご意見をお寄せください。そのフィードバックに基づいて機能を改善します。",
 	"betafeatures-toplink": "ベータ版",
+	"betafeatures-feature-autoenrolled": "自動登録機能",
 	"mw-ui-feature-discuss": "議論",
 	"mw-ui-feature-info": "情報",
 	"mw-ui-feature-requirements-betafeatures": "この機能を使用するには、以下の{{PLURAL:$1|機能}}を有効にする必要があります:",

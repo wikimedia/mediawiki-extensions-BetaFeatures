@@ -8,6 +8,7 @@
 		]
 	},
 	"betafeatures-auto-enroll": "Automaticky zapnúť všetky nové beta funkcie",
+	"betafeatures-auto-enroll-help": "Zmeny niektorých funkcií v beta verzii môžu byť prekvapivé, takže si ich musíte zapnúť ručne.",
 	"betafeatures-desc": "Dovoľuje redaktorovi povoliť alebo zakázať funkcie, ktoré ešte nie sú úplne vyladené.",
 	"betafeatures-extension-type": "Beta funkcie",
 	"betafeatures-section-desc": "Tu {{PLURAL:$1|je nová funkcia, ktorú|sú nové funkcie, ktoré}} zvažujeme použiť na {{grammar:lokál|{{SITENAME}}}}. Vyskúšajte {{PLURAL:$1|ju|ich}} a dajte nám vedieť, aby sme {{PLURAL:$1|ju|ich}} na základe vašich názorov mohli vylepšovať.",
