@@ -7,11 +7,13 @@
 			"Roberta F."
 		]
 	},
-	"betafeatures-auto-enroll": "Automatski omogući sve beta mogućnosti",
+	"betafeatures-auto-enroll": "Automatski omogući većinu beta-mogućnosti",
+	"betafeatures-auto-enroll-help": "Poneke beta-mogućnosti mogu imati neočekivane promjene, stoga ih {{GENDER:|trebate}} ručno uključiti.",
 	"betafeatures-desc": "Omogućuje suradnicima omogućavanje ili onemogućavanje značajki na ovom wikiju koje su još u izradi",
 	"betafeatures-extension-type": "Beta mogućnosti",
 	"betafeatures-section-desc": "Ovo {{PLURAL:$1|je nova mogućnost|su nove mogućnosti}} na projektu {{SITENAME}}. Molimo {{PLURAL:$1|iskušajte ju|iskušajte ih}} i napišite nam svoje mišljenje kako bismo {{PLURAL:$1|je|ih}} poboljšali na osnovi Vaših povratnih informacija.",
 	"betafeatures-toplink": "Beta",
+	"betafeatures-feature-autoenrolled": "Automatski uključena mogućnost",
 	"mw-ui-feature-discuss": "Rasprava",
 	"mw-ui-feature-info": "Informacije",
 	"mw-ui-feature-requirements-betafeatures": "Zahtijeva uključivanje {{PLURAL:$1|sljedeće mogućnosti|sljedećih mogućnosti}}:",
