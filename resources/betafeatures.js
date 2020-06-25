@@ -28,6 +28,11 @@ $( function () {
 	$autoEnrollCheckbox = OO.ui.infuse( $( '[name=wpbetafeatures-auto-enroll]' ).parent() );
 	$autoEnrollCheckbox.connect( this, { change: function ( selectedState ) {
 		for ( preference in featuresModel ) {
+			// Hidden preference
+			if ( !featuresModel[ preference ].widget ) {
+				continue;
+			}
+
 			// Some preferences don't follow the auto-enroll process; ignore them
 			if ( featuresModel[ preference ][ '__skip-auto-enroll' ] ) {
 				continue;
