@@ -8,7 +8,7 @@
 		]
 	},
 	"apihelp-query+betafeatures-description": "Bütün Beta Özellikleri listele",
-	"apihelp-query+betafeatures-summary": "Tüm Beta Özelliklerini Listele",
+	"apihelp-query+betafeatures-summary": "Tüm BetaÖzelliklerini listeleyin",
 	"apihelp-query+betafeatures-example-1": "Kullanılabilir tüm beta özelliklerini edinin ve kaç kullanıcının bunları etkinleştirdiğini görün",
 	"apihelp-query+betafeatures-param-counts": "Kaç kullanıcının belirli bir tercihi etkinleştirdiğinin getirilip getirilmeyeceği."
 }
