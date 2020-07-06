@@ -1,13 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
+			"Bencemac",
 			"Macofe",
 			"Misibacsi",
 			"Tacsipacsi",
 			"Tgr"
 		]
 	},
-	"betafeatures-auto-enroll": "Automatikusan kapcsoljon be minden új béta funkciót",
+	"betafeatures-auto-enroll": "Automatikusan kapcsoljon be a legtöbb új béta funkció",
+	"betafeatures-auto-enroll-help": "Néhány béta funkció meglepő változásokkal is járhat, ezért {{GENDER:|neked}} kell bekapcsolnod ezeket manuálisan.",
 	"betafeatures-desc": "Lehetővé teszi az egyes felhasználóknak az olyan funkciók be- és kikapcsolását, amik még nem készültek el teljesen.",
 	"betafeatures-extension-type": "Béta funkciók",
 	"betafeatures-section-desc": "Itt {{PLURAL:$1|egy|néhány}} olyan új funkciót látsz, amit idővel be szeretnénk vezetni a(z) {{SITENAME}} wikin. Próbáld {{PLURAL:$1|ki|ki őket}}, és mondd el a véleményed, hogy javítani tudjunk {{PLURAL:$1|rajta|rajtuk}} a visszajelzésed alapján.",
