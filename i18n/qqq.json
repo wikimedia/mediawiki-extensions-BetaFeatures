@@ -25,6 +25,6 @@
 	"mw-ui-feature-requirements-javascript": "Error message shown when the feature requires JavaScript.",
 	"mw-ui-feature-requirements-skins": "Error message shown when the skin is not supported.\n\nFollowed by list of skins.\n\nParameters:\n* $1 - number of skins in list",
 	"mw-ui-feature-user-count": "Used to show how many users have enabled a particular feature on the site.\n\nParameters:\n* $1 - number of users",
-	"prefs-betafeatures": "Used as section title for beta features in [[Special:Preferences]].\n{{Identical|Beta feature}}",
+	"prefs-betafeatures": "Used as tab title for beta features in [[Special:Preferences]]",
 	"tooltip-pt-betafeatures": "Tooltip shown when hovering over the  {{msg-mw|betafeatures-toplink}} link in your personal toolbox (upper right side)\n{{Identical|Beta feature}}"
 }

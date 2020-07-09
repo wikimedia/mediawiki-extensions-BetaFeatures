@@ -10,11 +10,13 @@
 			"Vitorvicentevalente"
 		]
 	},
-	"betafeatures-auto-enroll": "Ativar automaticamente todas as novas funcionalidades beta",
+	"betafeatures-auto-enroll": "Ativar automaticamente a maioria das funcionalidades beta",
+	"betafeatures-auto-enroll-help": "Algumas funcionalidades beta podem ter alterações surpreendentes e, portanto, tem de {{GENDER:|ativá-las}} manualmente.",
 	"betafeatures-desc": "Permite que o utilizador ative ou desative as funcionalidades da wiki que ainda não estão prontas",
 	"betafeatures-extension-type": "Funcionalidades beta",
 	"betafeatures-section-desc": "Encontra aqui {{PLURAL:$1|uma nova funcionalidade|novas funcionalidades}} que estamos a considerar para a wiki {{SITENAME}}. {{PLURAL:$1|Teste-a|Teste-as}}, por favor, e dê-nos a sua opinião para que possamos {{PLURAL:$1|melhorá-la|melhorá-las}} com base nos seus comentários.",
 	"betafeatures-toplink": "Beta",
+	"betafeatures-feature-autoenrolled": "Funcionalidade ativada automaticamente",
 	"mw-ui-feature-discuss": "Discussão",
 	"mw-ui-feature-info": "Informação",
 	"mw-ui-feature-requirements-betafeatures": "Esta funcionalidade requer a existência {{PLURAL:$1|da seguinte funcionalidade|das seguintes funcionalidades}} para ser ativada:",
