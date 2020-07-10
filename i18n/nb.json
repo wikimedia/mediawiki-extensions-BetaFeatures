@@ -13,6 +13,7 @@
 	"betafeatures-extension-type": "Betafunksjoner",
 	"betafeatures-section-desc": "Her er {{PLURAL:$1|en ny funksjon|noen nye funksjoner}} vi vurderer å innføre på {{SITENAME}}. Prøv {{PLURAL:$1|den|dem}} gjerne og gi oss din tilbakemelding, så vi kan forbedre {{PLURAL:$1|den|dem}}.",
 	"betafeatures-toplink": "Beta",
+	"betafeatures-feature-autoenrolled": "Slått på automatisk",
 	"mw-ui-feature-discuss": "Diskusjon",
 	"mw-ui-feature-info": "Informasjon",
 	"mw-ui-feature-requirements-betafeatures": "Denne funksjonen krever at følgende {{PLURAL:$1|funksjon|funksjoner}} er påskrudd:",
