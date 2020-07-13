@@ -27,6 +27,6 @@
 	"mw-ui-feature-requirements-javascript": "Esta funcionalidad requiere JavaScript.",
 	"mw-ui-feature-requirements-skins": "Esta funcionalidad requiere que utilices {{PLURAL:$1|la siguiente apariencia|una de las siguientes apariencias}}:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|Un usuario ha|$1 usuarios han|0=Nadie ha}} activado esta característica.",
-	"prefs-betafeatures": "Funciones beta",
+	"prefs-betafeatures": "Funciones en pruebas",
 	"tooltip-pt-betafeatures": "Funciones en pruebas"
 }
