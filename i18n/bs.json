@@ -8,13 +8,15 @@
 			"Srđan"
 		]
 	},
-	"betafeatures-auto-enroll": "Automatski uključi sve beta mogućnosti",
+	"betafeatures-auto-enroll": "Automatski uključi većinu beta mogućnosti",
 	"betafeatures-extension-type": "Beta mogućnosti",
 	"betafeatures-section-desc": "Ovo {{PLURAL:$1|je nova mogućnost koju planiramo|su nove mogućnosti koje planiramo}} za {{GRAMMAR:akuzativ|{{SITENAME}}}}. {{PLURAL:$1|Isprobajte je|Isprobajte ih}} i recite nam šta mislite da bismo {{PLURAL:$1|je|ih}} poboljšali na osnovi Vaših povratnih informacija.",
 	"betafeatures-toplink": "Beta",
 	"mw-ui-feature-discuss": "Razgovor",
 	"mw-ui-feature-info": "Informacije",
 	"mw-ui-feature-requirements-betafeatures": "Za ovu mogućnost potrebno je omogućiti {{PLURAL:$1|sljedeću mogućnost|sljedeće mogućnosti}}:",
+	"mw-ui-feature-requirements-javascript": "Mogućnost zahtijeva JavaScript.",
+	"mw-ui-feature-requirements-skins": "Mogućnost radi jedno sa {{PLURAL:$1|sljedećom temom|sljedećim temama}}:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|1=Jedan korisnik uključio je ovu mogućnost|Ovu mogućnost uključio je $1 korisnik|Ovu mogućnost uključila su $1 korisnika|Ovu mogućnost uključilo je $1 korisnika|0=Nijedan korisnik nije uključio ovu mogućnost}}.",
 	"prefs-betafeatures": "Beta mogućnosti",
 	"tooltip-pt-betafeatures": "Beta mogućnosti"
