@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Bikarhêner",
-			"George Animal"
+			"George Animal",
+			"Guherto"
 		]
 	},
 	"betafeatures-toplink": "Beta",
 	"mw-ui-feature-info": "Agahî",
-	"prefs-betafeatures": "Taybetmendîyên Beta'yê",
+	"prefs-betafeatures": "Taybetmendîyên Betayê",
 	"tooltip-pt-betafeatures": "Taybetmendîyên Beta'yê"
 }
