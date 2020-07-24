@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"Bjh21",
 			"Dejavu",
 			"Shirayuki"
 		]
 	},
-	"betafeatures-auto-enroll": "Automatically enable all new beta features",
+	"betafeatures-auto-enroll": "Automatically enable most beta features",
 	"betafeatures-desc": "Lets user enable or disable features on the wiki that are still not ready for prime-time",
 	"betafeatures-extension-type": "Beta features",
 	"betafeatures-section-desc": "Here {{PLURAL:$1|is a new feature|are some new features}} we're considering for {{SITENAME}}. Please try {{PLURAL:$1|it|them}} out and give us your thoughts, so we can improve {{PLURAL:$1|it|them}} based on your feedback.",
