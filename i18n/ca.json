@@ -4,6 +4,7 @@
 			"Alvaro Vidal-Abarca",
 			"Fitoschido",
 			"Macofe",
+			"Mguix",
 			"QuimGil",
 			"Vriullop"
 		]
@@ -20,6 +21,6 @@
 	"mw-ui-feature-requirements-javascript": "Aquesta funcionalitat requereix JavaScript.",
 	"mw-ui-feature-requirements-skins": "Aquesta funcionalitat només funciona amb {{PLURAL:$1|aquesta plantilla|aquestes plantilles}}:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|Un usuari està|$1 usuaris estan|0=Cap usuari està}} provant aquesta funcionalitat.",
-	"prefs-betafeatures": "Funcionalitats beta",
+	"prefs-betafeatures": "Característiques de la beta",
 	"tooltip-pt-betafeatures": "Funcionalitats beta"
 }
