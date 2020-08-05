@@ -257,11 +257,12 @@ class BetaFeaturesHooks {
 
 				// Test skin support
 				if ( isset( $prefs[$key]['requirements']['skins'] ) ) {
+					$skinFactory = MediaWiki\MediaWikiServices::getInstance()->getSkinFactory();
 					// Remove any skins that aren't installed or users can't choose
 					$prefs[$key]['requirements']['skins'] = array_intersect(
 						/** @phan-suppress-next-line PhanTypeInvalidDimOffset,PhanTypeMismatchArgumentInternal */
 						$prefs[$key]['requirements']['skins'],
-						array_keys( Skin::getAllowedSkins() )
+						array_keys( $skinFactory->getAllowedSkins() )
 					);
 
 					if ( empty( $prefs[$key]['requirements']['skins'] ) ) {
