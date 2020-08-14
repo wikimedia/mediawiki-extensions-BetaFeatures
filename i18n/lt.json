@@ -6,10 +6,11 @@
 			"Eitvys200",
 			"Hugo.arg",
 			"Macofe",
-			"Manvydasz"
+			"Manvydasz",
+			"Tomasdd"
 		]
 	},
-	"betafeatures-auto-enroll": "Automatiškai įjungti visas naujas beta funkcijas",
+	"betafeatures-auto-enroll": "Automatiškai įjungti daugumą beta funkcijų",
 	"betafeatures-desc": "Leisti vartotojams įjungti ar išjungti viki funkcijas, kurios dar nėra paruoštos visuotiniam naudojimui",
 	"betafeatures-extension-type": "Beta funkcijos",
 	"betafeatures-section-desc": "Tai {{PLURAL:$1|yra nauja funkcija, kurią|yra naujos funkcijos, kurias|yra naujų funkcijų, kurias}} svarstome puslapiui {{SITENAME}}. Prašome išbandyti {{PLURAL:$1|ją|jas}} ir pateikti savo mintis, kad galėtumėme patobulinti {{PLURAL:$1|ją|jas}} remdamiesi jūsų atsiliepimu.",
