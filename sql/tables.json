@@ -1,0 +1,20 @@
+[
+	{
+		"name": "betafeatures_user_counts",
+		"comment": "BetaFeatures user counts table",
+		"columns": [
+			{
+				"name": "feature",
+				"type": "string",
+				"options": { "length": 255, "notnull": true }
+			},
+			{
+				"name": "number",
+				"type": "integer",
+				"options": { "length": 255, "notnull": true, "default": 0 }
+			}
+		],
+		"indexes": [],
+		"pk": [ "feature" ]
+	}
+]
