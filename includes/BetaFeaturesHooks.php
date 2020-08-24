@@ -344,8 +344,21 @@ class BetaFeaturesHooks {
 	 * @param DatabaseUpdater $updater
 	 */
 	public static function getSchemaUpdates( DatabaseUpdater $updater ) {
-		$updater->addExtensionTable( 'betafeatures_user_counts',
-			__DIR__ . '/../sql/create_counts.sql' );
+		$dbType = $updater->getDB()->getType();
+
+		if ( $dbType === 'mysql' ) {
+			$updater->addExtensionTable( 'betafeatures_user_counts',
+				dirname( __DIR__ ) . '/sql/tables-generated.sql'
+			);
+		} elseif ( $dbType === 'sqlite' ) {
+			$updater->addExtensionTable( 'betafeatures_user_counts',
+				dirname( __DIR__ ) . '/sql/sqlite/tables-generated.sql'
+			);
+		} elseif ( $dbType === 'postgres' ) {
+			$updater->addExtensionTable( 'betafeatures_user_counts',
+				dirname( __DIR__ ) . '/sql/postgres/tables-generated.sql'
+			);
+		}
 	}
 
 	/**
