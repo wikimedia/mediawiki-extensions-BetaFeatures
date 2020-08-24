@@ -2,10 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Dağlı95",
+			"Toghrul Rahimli",
 			"Wertuose"
 		]
 	},
 	"betafeatures-auto-enroll": "Bütün yeni beta funksiyaları aktivləşdir",
+	"betafeatures-auto-enroll-help": "Bəzi beta funksiyalar gözlənilmədən dəyişilə bilər, buna görə {{GENDER:|siz}} onları əl ilə aktivləşdirməlisiniz.",
 	"betafeatures-extension-type": "Beta funksiyalar",
 	"betafeatures-section-desc": "Burada {{SITENAME}} üçün nəzərdə tutduğumuz {{PLURAL:$1|yeni funksiya|bəzi yeni funksiyalarla}} tanış ola bilərsiniz. {{PLURAL:$1|Funksiyanı|Funksiyaları}}  lütfən sınayın və düşüncələrinizi bizimlə paylaşın. Biz sizin rəylərinizə əsaslanaraq {{PLURAL:$1|funksiyanı|funksiyaları}} təkmilləşdiririk.",
 	"betafeatures-toplink": "Beta versiya",
