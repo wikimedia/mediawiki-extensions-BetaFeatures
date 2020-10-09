@@ -23,9 +23,9 @@
  * @license GNU General Public License version 2 or later
  */
 
-class UpdateBetaFeatureUserCountsJob extends Job {
-	public function __construct( Title $title, array $params ) {
-		parent::__construct( 'updateBetaFeaturesUserCounts', $title, $params );
+class UpdateBetaFeatureUserCountsJob extends Job implements GenericParameterJob {
+	public function __construct( array $params ) {
+		parent::__construct( 'updateBetaFeaturesUserCounts', $params );
 
 		$this->removeDuplicates = true;
 	}

@@ -90,7 +90,6 @@ class BetaFeaturesHooks {
 			// Enqueue a job to update the count for this preference
 			JobQueueGroup::singleton()->push(
 				new UpdateBetaFeatureUserCountsJob(
-					Title::newMainPage(),
 					[ 'prefs' => [ $name ] ]
 				)
 			);
