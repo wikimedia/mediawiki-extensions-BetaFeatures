@@ -35,18 +35,13 @@ class HTMLFeatureField extends NewHTMLCheckField {
 	}
 
 	private function getHeaderHTML( $value ) {
-		$html = Html::openElement( 'div', [
-			'class' => 'mw-ui-feature-header',
-		] );
+		$html = Html::openElement( 'div', [ 'class' => 'mw-ui-feature-header' ] );
 
-		$html .= Html::openElement( 'div', [
-			'class' => 'mw-ui-feature-title-contain',
-		] );
-
-		$html .= $this->getCheckboxHTML( $value );
-
-		// Close -title-contain
-		$html .= Html::closeElement( 'div' );
+		$html .= Html::rawElement(
+			'div',
+			[ 'class' => 'mw-ui-feature-title-contain' ],
+			$this->getCheckboxHTML( $value )
+		);
 
 		if ( isset( $this->mParams['info-message'] ) ) {
 			$infoLink = $this->mParent->msg( $this->mParams['info-message'] )->text();
@@ -60,17 +55,13 @@ class HTMLFeatureField extends NewHTMLCheckField {
 			$discussionLink = $this->mParams['discussion-link'];
 		}
 
-		$infoLinkClasses = [
-			'mw-ui-feature-info-links',
-		];
+		$infoLinkClasses = [ 'mw-ui-feature-info-links' ];
 
 		if ( isset( $infoLink ) || isset( $discussionLink ) ) {
 			$infoLinkClasses[] = 'filled';
 		}
 
-		$html .= Html::openElement( 'div', [
-			'class' => $infoLinkClasses,
-		] );
+		$html .= Html::openElement( 'div', [ 'class' => $infoLinkClasses ] );
 
 		$out = $this->mParent->getOutput();
 
@@ -80,9 +71,7 @@ class HTMLFeatureField extends NewHTMLCheckField {
 					'href' => $infoLink,
 					'class' => 'mw-ui-feature-info-link',
 				],
-				new OOUI\IconWidget( [
-					'icon' => 'article'
-				] ) .
+				new OOUI\IconWidget( [ 'icon' => 'article' ] ) .
 				$this->mParent->msg( 'mw-ui-feature-info' )->escaped()
 			);
 			$html .= ' ';
@@ -94,9 +83,7 @@ class HTMLFeatureField extends NewHTMLCheckField {
 					'href' => $discussionLink,
 					'class' => 'mw-ui-feature-discussion-link',
 				],
-				new OOUI\IconWidget( [
-					'icon' => 'speechBubbles'
-				] ) .
+				new OOUI\IconWidget( [ 'icon' => 'speechBubbles' ] ) .
 				$this->mParent->msg( 'mw-ui-feature-discuss' )->escaped()
 			);
 		}
@@ -113,13 +100,9 @@ class HTMLFeatureField extends NewHTMLCheckField {
 	private function getMainHTML( $value ) {
 		$parent = $this->mParent;
 
-		$html = Html::openElement( 'div', [
-			'class' => 'mw-ui-feature-main',
-		] );
+		$html = Html::openElement( 'div', [ 'class' => 'mw-ui-feature-main' ] );
 
-		$html .= Html::openElement( 'div', [
-			'class' => 'mw-ui-feature-meta',
-		] );
+		$html .= Html::openElement( 'div', [ 'class' => 'mw-ui-feature-meta' ] );
 
 		if ( isset( $this->mParams['user-count'] ) ) {
 			$userCountMsg = 'mw-ui-feature-user-count';
@@ -138,15 +121,11 @@ class HTMLFeatureField extends NewHTMLCheckField {
 		if ( isset( $this->mParams['desc-message'] ) ) {
 			$html .= Html::rawElement(
 				'p',
-				[
-					'class' => 'mw-ui-feature-description',
-				],
+				[ 'class' => 'mw-ui-feature-description' ],
 				$parent->msg( $this->mParams['desc-message'] )->parse() );
 		}
 
-		$html .= Html::openElement( 'ul', [
-			'class' => 'mw-ui-feature-requirements-list',
-		] );
+		$html .= Html::openElement( 'ul', [ 'class' => 'mw-ui-feature-requirements-list' ] );
 
 		if ( isset( $this->mParams['requirements'] ) ) {
 			if (
@@ -236,9 +215,7 @@ class HTMLFeatureField extends NewHTMLCheckField {
 		// Close -meta
 		$html .= Html::closeElement( 'div' );
 
-		$html .= Html::openElement( 'div', [
-			'class' => 'mw-ui-feature-screenshot-contain',
-		] );
+		$html .= Html::openElement( 'div', [ 'class' => 'mw-ui-feature-screenshot-contain' ] );
 
 		if ( isset( $this->mParams['screenshot'] ) ) {
 			$screenshot = $this->mParams['screenshot'];
@@ -274,35 +251,22 @@ class HTMLFeatureField extends NewHTMLCheckField {
 	}
 
 	public function getInputHTML( $value ) {
-		$html = '';
-
-		$divClasses = [
-			'mw-ui-feature-field',
-		];
+		$divClasses = [ 'mw-ui-feature-field' ];
 
 		// Use 'cssclass' to populate this. Separate from 'class', of course.
 		if ( $this->mClass !== '' ) {
 			$divClasses[] = $this->mClass;
 		}
 
-		$html .= Html::openElement( 'div', [
-			'class' => implode( ' ', $divClasses ),
-		] );
-
-		$html .= Html::openElement( 'div', [
-			'class' => 'mw-ui-feature-contain',
-		] );
-
-		$html .= $this->getHeaderHTML( $value );
-		$html .= $this->getMainHTML( $value );
-
-		// mw-ui-feature-contain
-		$html .= Html::closeElement( 'div' );
-
-		// mw-ui-feature-field
-		$html .= Html::closeElement( 'div' );
-
-		return $html;
+		return Html::rawElement(
+			'div',
+			[ 'class' => $divClasses ],
+			Html::rawElement(
+				'div',
+				[ 'class' => 'mw-ui-feature-contain' ],
+				$this->getHeaderHTML( $value ) . $this->getMainHTML( $value )
+			)
+		);
 	}
 
 	/**
