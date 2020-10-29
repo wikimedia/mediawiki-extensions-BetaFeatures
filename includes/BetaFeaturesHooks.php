@@ -183,6 +183,7 @@ class BetaFeaturesHooks {
 				'info-message' => false,
 				'discussion-link' => false,
 				'discussion-message' => false,
+				'disabled' => false,
 			];
 
 			foreach ( $requiredFields as $field => $required ) {
@@ -216,8 +217,8 @@ class BetaFeaturesHooks {
 					 $user->getOption( $autoEnroll[$info['group']] ) === HTMLFeatureField::OPTION_ENABLED;
 			}
 
-			$exemptAutoEnroll = isset( $info['exempt-from-auto-enrollment'] )
-				&& $info['exempt-from-auto-enrollment'] === true;
+			$exemptAutoEnroll = ( $info['exempt-from-auto-enrollment'] ?? false ) === true
+				|| ( $info['disabled'] ?? false ) === true;
 			$autoEnrollHere = !$exemptAutoEnroll
 				&& ( $autoEnrollAll === true || $autoEnrollForThisPref === true );
 
