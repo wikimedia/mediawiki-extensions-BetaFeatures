@@ -25,7 +25,7 @@
 
 class NewHTMLCheckField extends HTMLCheckField {
 	/**
-	 * @var boolean directive whether to include a label with the checkbox
+	 * @var bool directive whether to include a label with the checkbox
 	 */
 	protected $includeLabel = true;
 
@@ -80,7 +80,7 @@ class NewHTMLCheckField extends HTMLCheckField {
 
 	/**
 	 * @param string $value
-	 * @return String
+	 * @return string
 	 */
 	public function getInputHTML( $value ) {
 		return $this->getCheckboxHTML( $value );
