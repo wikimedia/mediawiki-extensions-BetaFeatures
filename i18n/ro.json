@@ -2,10 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Macofe",
-			"Minisarm"
+			"Minisarm",
+			"NGC 54"
 		]
 	},
-	"betafeatures-auto-enroll": "Activează automat toate noile caracteristici beta",
+	"betafeatures-auto-enroll": "Activează automat majoritatea noilor caracteristici beta",
+	"betafeatures-auto-enroll-help": "Unele funcții beta pot avea modificări surprinzătoare, așa că {{GENDER:|dvs.}} puteți să le alegeți manual.",
 	"betafeatures-desc": "Permite utilizatorilor să activeze sau să dezactiveze în cadrul wikiului caracteristici care nu sunt pregătire pentru lansarea generală",
 	"betafeatures-extension-type": "Opțiuni beta",
 	"betafeatures-section-desc": "Mai jos {{PLURAL:$1|se află o caracterisitică nouă|sunt câteva caracteristici noi}} pe care {{PLURAL:$1|o|le}} luăm în calcul la {{SITENAME}}. Încercați-{{PLURAL:$1|o|le}} și spuneți-ne ce credeți, astfel încât să {{PLURAL:$1|o|le}} îmbunătățim pe baza părerilor dumneavoastră.",
