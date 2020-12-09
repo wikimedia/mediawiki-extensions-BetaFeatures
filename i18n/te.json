@@ -1,13 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
+			"Arjunaraoc",
 			"Chaduvari",
 			"Ravichandra",
 			"Veeven",
 			"Visdaviva"
 		]
 	},
-	"betafeatures-auto-enroll": "దాదాపు అన్ని బీటా సౌలభ్యాలను చేతనించు",
+	"betafeatures-auto-enroll": "దాదాపు అన్ని బీటా సౌలభ్యాలను చేతనం చేయి",
 	"betafeatures-auto-enroll-help": "కొన్ని బీటా అంశాల్లో ఊహించని మార్పులు ఉండే అవకాశం ఉంది. అంచేత వీటిని మానవికంగా {{GENDER:|ఎంచుకోవాలి}}.",
 	"betafeatures-extension-type": "బీటా విశేషాలు",
 	"betafeatures-section-desc": "{{SITENAME}} లో {{PLURAL:$1|ఈ కొత్త అంశాన్ని|కింది కొత్త అంశాలను}} చేర్చాలని ఆలోచిస్తున్నాం. {{PLURAL:$1|దాన్ని|వాటిని}} వాడి, మీ ఆలోచనలను మాకు చెప్పండి. మీ సూచనల ప్రకారం {{PLURAL:$1|దాన్ని|వాటిని}} మెరుగుపరుస్తాం.",
