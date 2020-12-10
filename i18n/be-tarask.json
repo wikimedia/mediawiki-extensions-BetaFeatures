@@ -18,6 +18,6 @@
 	"mw-ui-feature-requirements-javascript": "Гэтая магчымасьць патрабуе JavaScript.",
 	"mw-ui-feature-requirements-skins": "Гэтая магчымасьць працуе толькі пад {{PLURAL:$1|наступнай тэмай|наступнымі тэмамі}}:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|$1 удзельнік уключыў|$1 удзельнікі ўключылі|$1 удзельнікаў уключылі|0=Ніхто з удзельнікаў не ўключыў}} гэтую функцыю.",
-	"prefs-betafeatures": "Тэставыя магчымасьці",
+	"prefs-betafeatures": "Бэта-функцыі",
 	"tooltip-pt-betafeatures": "Бэта-функцыі"
 }
