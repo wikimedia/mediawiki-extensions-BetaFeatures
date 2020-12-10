@@ -88,11 +88,8 @@ class HTMLFeatureField extends NewHTMLCheckField {
 			);
 		}
 
-		// mw-ui-feature-info-links
-		$html .= Html::closeElement( 'div' );
-
-		// Close -header
-		$html .= Html::closeElement( 'div' );
+		// Close mw-ui-feature-info-links and then -header
+		$html .= Html::closeElement( 'div' ) . Html::closeElement( 'div' );
 
 		return $html;
 	}
@@ -241,11 +238,8 @@ class HTMLFeatureField extends NewHTMLCheckField {
 			] );
 		}
 
-		// Close -screenshot-contain
-		$html .= Html::closeElement( 'div' );
-
-		// Close -main
-		$html .= Html::closeElement( 'div' );
+		// Close -screenshot-contain and then -main
+		$html .= Html::closeElement( 'div' ) . Html::closeElement( 'div' );
 
 		return $html;
 	}
