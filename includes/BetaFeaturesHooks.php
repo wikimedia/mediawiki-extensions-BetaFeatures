@@ -327,7 +327,7 @@ class BetaFeaturesHooks {
 		SkinTemplate $skintemplate
 	) {
 		$user = $skintemplate->getUser();
-		if ( $user->isLoggedIn() ) {
+		if ( $user->isRegistered() ) {
 			$personal_urls = wfArrayInsertAfter( $personal_urls, [
 				'betafeatures' => [
 					'text' => wfMessage( 'betafeatures-toplink' )->text(),
