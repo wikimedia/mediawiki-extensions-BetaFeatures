@@ -3,14 +3,17 @@
 		"authors": [
 			"Brazal.dang",
 			"Geopoet",
+			"Kunokuno",
 			"ShimunUfesoj"
 		]
 	},
-	"betafeatures-auto-enroll": "Awtomatikong pagpaganahon an gabos na baguhong mga estima nin beta",
+	"betafeatures-auto-enroll": "Awtomatikong pagpaganahon an kadakli sa mga beta features",
+	"betafeatures-auto-enroll-help": "An iba sa mga beta features pwedeng igwa nin mga pagbabago, kaya an {{GENDER:|ika}}dapat na manwal na ikaag.",
 	"betafeatures-desc": "Minatugot sa paragamit na paganahon o pauntukon an mga postura kaining wiki na dae pa man handa para sa premyadong-panahon",
 	"betafeatures-extension-type": "Mga posturang yaon sa beta",
 	"betafeatures-section-desc": "Uya {{PLURAL:$1|an sarong baguhong estima|an nagkapirang baguhon na mga estima}} na samuyang kinokonsidera para sa {{SITENAME}}. Tabi man prubari sinda asin itao samuya an saimong mga kaisipan, na tangani baya samuya pang mapakarhay sinda na pinagbase sa saimong balik-simbag.",
 	"betafeatures-toplink": "Beta",
+	"betafeatures-feature-autoenrolled": "Auto-enrolled na kakayahan",
 	"mw-ui-feature-discuss": "Urulayan",
 	"mw-ui-feature-info": "Impormasyon",
 	"mw-ui-feature-requirements-betafeatures": "Ining estima minakaipo kan minasunod na {{PLURAL:$1|estima|mga estima}} tanganing pagpaganahon:",
@@ -18,6 +21,6 @@
 	"mw-ui-feature-requirements-javascript": "Ining estima minakaipo nin JavaScript.",
 	"mw-ui-feature-requirements-skins": "Ining estima minagana sana sa{{PLURAL:$1|minasunod na kublit|minasunod na mga kublit}}:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|Sarong paragamit igwa nin|$1 mga paragamit igwa nin|0=Mayong paragamit na igwa nin}} pinagpagana ining estima.",
-	"prefs-betafeatures": "Mga posturang yaon sa beta",
+	"prefs-betafeatures": "Mga Beta features",
 	"tooltip-pt-betafeatures": "Mga posturang yaon sa beta"
 }
