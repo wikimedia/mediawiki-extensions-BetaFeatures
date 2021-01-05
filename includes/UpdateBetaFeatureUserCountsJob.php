@@ -24,6 +24,7 @@
  */
 
 class UpdateBetaFeatureUserCountsJob extends Job implements GenericParameterJob {
+	/** @inheritDoc */
 	public function __construct( array $params ) {
 		parent::__construct( 'updateBetaFeaturesUserCounts', $params );
 

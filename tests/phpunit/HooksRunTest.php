@@ -30,10 +30,10 @@
  */
 class HooksRunTest extends MediaWikiTestCase {
 
-	// Key for testing preference
+	/** Key for testing preference */
 	private const TESTPREFKEY = 'unittest';
 
-	// Structure of testing preference
+	/** @var array Structure of testing preference */
 	public static $testPref = [
 		'label-message' => 'nullish',
 		'desc-message' => 'nullish',
@@ -46,10 +46,22 @@ class HooksRunTest extends MediaWikiTestCase {
 	 */
 	private $user;
 
+	/**
+	 * Hook callback
+	 * @param User $user
+	 * @param array &$betaPrefs
+	 * @return true
+	 */
 	public static function nullHook( User $user, array &$betaPrefs ) {
 		return true;
 	}
 
+	/**
+	 * Hook callback
+	 * @param User $user
+	 * @param array &$betaPrefs
+	 * @return true
+	 */
 	public static function hookThatRegistersPreference( User $user, array &$betaPrefs ) {
 		$betaPrefs[self::TESTPREFKEY] = self::$testPref;
 		return true;

@@ -28,12 +28,17 @@ class HTMLFeatureField extends NewHTMLCheckField {
 	public const OPTION_ENABLED = '1';
 	public const OPTION_DISABLED = '0';
 
+	/** @inheritDoc */
 	public function __construct( $options ) {
 		// We need the new checkbox style to have a sane-looking field
 		$options['mw-ui'] = true;
 		parent::__construct( $options );
 	}
 
+	/**
+	 * @param string $value
+	 * @return string HTML
+	 */
 	private function getHeaderHTML( $value ) {
 		$html = Html::openElement( 'div', [ 'class' => 'mw-ui-feature-header' ] );
 
@@ -94,6 +99,10 @@ class HTMLFeatureField extends NewHTMLCheckField {
 		return $html;
 	}
 
+	/**
+	 * @param string $value
+	 * @return string HTML
+	 */
 	private function getMainHTML( $value ) {
 		$parent = $this->mParent;
 
@@ -244,6 +253,7 @@ class HTMLFeatureField extends NewHTMLCheckField {
 		return $html;
 	}
 
+	/** @inheritDoc */
 	public function getInputHTML( $value ) {
 		$divClasses = [ 'mw-ui-feature-field' ];
 
