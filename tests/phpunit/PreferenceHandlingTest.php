@@ -32,7 +32,7 @@ class PreferenceHandlingTest extends BetaFeaturesTestCase {
 
 	private const TESTPREFKEY = 'unittest';
 
-	public static function preferenceListing() {
+	public static function providePreferenceListing() {
 		$invalidPref = [
 			'screenshot' => 'google it bro',
 		];
@@ -57,7 +57,7 @@ class PreferenceHandlingTest extends BetaFeaturesTestCase {
 	}
 
 	/**
-	 * @dataProvider preferenceListing
+	 * @dataProvider providePreferenceListing
 	 */
 	public function testHandlingOfPreferences( $msg, array $pref, $expected ) {
 		global $wgHooks;

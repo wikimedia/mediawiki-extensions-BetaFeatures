@@ -75,7 +75,7 @@ class AutoEnrollmentTest extends BetaFeaturesTestCase {
 		return true;
 	}
 
-	public static function getTestData() {
+	public static function provideTestData() {
 		return [
 			[
 				null,
@@ -154,7 +154,7 @@ class AutoEnrollmentTest extends BetaFeaturesTestCase {
 	}
 
 	/**
-	 * @dataProvider getTestData
+	 * @dataProvider provideTestData
 	 */
 	public function testAutoEnroll( $set, $setVal, $check, $expected, $msg ) {
 		$user = $this->user;
