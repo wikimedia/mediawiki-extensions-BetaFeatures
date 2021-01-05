@@ -86,6 +86,7 @@ class NewHTMLCheckField extends HTMLCheckField {
 		return $this->getCheckboxHTML( $value );
 	}
 
+	/** @inheritDoc */
 	public function getInputOOUI( $value ) {
 		// Use the same output as for the HTML version, otherwise OOUIHTMLForm would use
 		// a plain checkbox, inherited from HTMLCheckField. This isn't actually a widget
@@ -93,6 +94,7 @@ class NewHTMLCheckField extends HTMLCheckField {
 		return $this->getInputHTML( $value );
 	}
 
+	/** @inheritDoc */
 	protected function getFieldLayoutOOUI( $inputField, $config ) {
 		// Label is already included in the field's HTML, do not duplicate it
 		unset( $config['label'] );

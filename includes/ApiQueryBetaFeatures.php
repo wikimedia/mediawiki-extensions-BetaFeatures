@@ -23,6 +23,7 @@
  * @license GPL-2.0-or-later
  */
 class ApiQueryBetaFeatures extends ApiQueryBase {
+	/** @inheritDoc */
 	public function __construct( $query, $moduleName ) {
 		parent::__construct( $query, $moduleName, 'bf' );
 	}
@@ -59,6 +60,7 @@ class ApiQueryBetaFeatures extends ApiQueryBase {
 		}
 	}
 
+	/** @inheritDoc */
 	public function getAllowedParams() {
 		return [
 			'counts' => null,
@@ -76,6 +78,7 @@ class ApiQueryBetaFeatures extends ApiQueryBase {
 		];
 	}
 
+	/** @inheritDoc */
 	public function getHelpUrls() {
 		return 'https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:BetaFeatures';
 	}

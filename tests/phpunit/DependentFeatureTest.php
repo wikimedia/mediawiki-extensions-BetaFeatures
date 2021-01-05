@@ -30,13 +30,13 @@
  */
 class DependentFeatureTest extends BetaFeaturesTestCase {
 
-	// Key for testing preference
+	/** Key for testing preference */
 	private const TESTPREFKEY = 'unittest';
 
-	// Key for dependency hook
+	/** Key for dependency hook */
 	private const TESTDEPSKEY = 'DependentFeatureTestDependencyCheck';
 
-	// Structure of testing preference
+	/** @var array Structure of testing preference */
 	public static $testPref = [
 		'label-message' => 'nullish',
 		'desc-message' => 'nullish',
@@ -45,19 +45,38 @@ class DependentFeatureTest extends BetaFeaturesTestCase {
 		'dependent' => true,
 	];
 
+	/**
+	 * Hook callback
+	 * @return bool
+	 */
 	public static function failHook() {
 		return false;
 	}
 
+	/**
+	 * Hook callback
+	 * @return bool
+	 */
 	public static function passHook() {
 		return true;
 	}
 
+	/**
+	 * Hook callback
+	 * @param User $user
+	 * @param array &$betaPrefs
+	 * @return bool
+	 */
 	public static function hookThatRegistersPreference( User $user, array &$betaPrefs ) {
 		$betaPrefs[self::TESTPREFKEY] = self::$testPref;
 		return true;
 	}
 
+	/**
+	 * Hook callback
+	 * @param array &$depHooks
+	 * @return bool
+	 */
 	public static function hookThatRegistersDependency( array &$depHooks ) {
 		$depHooks[self::TESTPREFKEY] = self::TESTDEPSKEY;
 		return true;

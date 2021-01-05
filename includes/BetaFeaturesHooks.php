@@ -26,7 +26,7 @@
 class BetaFeaturesHooks {
 
 	/**
-	 * An array of each of the available Beta Features, with their requirements, if any.
+	 * @var array An array of each of the available Beta Features, with their requirements, if any.
 	 * It is passed client-side for JavaScript rendering/responsiveness.
 	 */
 	private static $features = [];
@@ -307,6 +307,9 @@ class BetaFeaturesHooks {
 		}
 	}
 
+	/**
+	 * @param array &$vars
+	 */
 	public static function onMakeGlobalVariablesScript( array &$vars ) {
 		if ( self::$features ) {
 			// This is added to page view HTML on all articles.
