@@ -12,6 +12,7 @@
 	"betafeatures-extension-type": "Opțiuni beta",
 	"betafeatures-section-desc": "Mai jos {{PLURAL:$1|se află o caracterisitică nouă|sunt câteva caracteristici noi}} pe care {{PLURAL:$1|o|le}} luăm în calcul la {{SITENAME}}. Încercați-{{PLURAL:$1|o|le}} și spuneți-ne ce credeți, astfel încât să {{PLURAL:$1|o|le}} îmbunătățim pe baza părerilor dumneavoastră.",
 	"betafeatures-toplink": "Beta",
+	"betafeatures-feature-autoenrolled": "Funcție auto-înscrisă",
 	"mw-ui-feature-discuss": "Discuție",
 	"mw-ui-feature-info": "Informații",
 	"mw-ui-feature-requirements-betafeatures": "Această caracteristică are nevoie ca {{PLURAL:$1|următoarea caracteristică|următoarele caracteristici}} să fie {{PLURAL:$1|activată|activate}}:",
@@ -19,6 +20,6 @@
 	"mw-ui-feature-requirements-javascript": "Această caracteristică necesită JavaScript.",
 	"mw-ui-feature-requirements-skins": "Această caracteristică funcționează doar împreună cu {{PLURAL:$1|următoarea interfață|următoarele interfețe}}:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|Un utilizator|$1 utilizatori|$1 de utilizatori|0=Niciun utilizator nu}} testează această caracteristică.",
-	"prefs-betafeatures": "Opțiuni beta",
+	"prefs-betafeatures": "Funcții beta",
 	"tooltip-pt-betafeatures": "Opțiuni beta"
 }
