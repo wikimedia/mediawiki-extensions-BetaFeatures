@@ -6,7 +6,7 @@
 			"NGC 54"
 		]
 	},
-	"betafeatures-auto-enroll": "Activează automat majoritatea noilor caracteristici beta",
+	"betafeatures-auto-enroll": "Activează automat majoritatea noilor funcții beta",
 	"betafeatures-auto-enroll-help": "Unele funcții beta pot avea modificări surprinzătoare, așa că {{GENDER:|dvs.}} puteți să le alegeți manual.",
 	"betafeatures-desc": "Permite utilizatorilor să activeze sau să dezactiveze în cadrul wikiului caracteristici care nu sunt pregătire pentru lansarea generală",
 	"betafeatures-extension-type": "Opțiuni beta",
