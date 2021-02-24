@@ -19,7 +19,7 @@
 	"mw-ui-feature-requirements-browser": "కింది {{PLURAL:$1|బ్రౌజరుకు|బ్రౌజర్లకు}} యోగ్యత లేదు:",
 	"mw-ui-feature-requirements-javascript": "ఈ సౌలభ్యానికి జావాస్క్రిప్టు కావాలి.",
 	"mw-ui-feature-requirements-skins": "ఈ అంశం {{PLURAL:$1|కింది రూపుతో|కింది రూపులతో}} మాత్రమే పనిచేస్తుంది:",
-	"mw-ui-feature-user-count": "ఈ అంశాన్ని {{PLURAL:$1|ఒక్క వాడుకరి వాడుతున్నారు.|$1 వాడుకరులు వాడుతున్నారు.|0=ఎవరూ వాడడం లేదు.}}",
+	"mw-ui-feature-user-count": "ఈ అంశాన్ని {{PLURAL:$1|ఒక్క వాడుకరి వాడుతున్నారు.|$1 మంది వాడుకరులు వాడుతున్నారు.|0=ఎవరూ వాడడం లేదు.}}",
 	"prefs-betafeatures": "బీటా అంశాలు",
 	"tooltip-pt-betafeatures": "బీటా సౌలభ్యాలు"
 }
