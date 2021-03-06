@@ -29,11 +29,9 @@ class ApiQueryBetaFeatures extends ApiQueryBase {
 	}
 
 	public function execute() {
-		global $wgBetaFeatures;
-
 		$params = $this->extractRequestParams();
 
-		$prefs = $wgBetaFeatures;
+		$prefs = $this->getConfig()->get( 'BetaFeatures' );
 		$user = User::newFromName( 'MediaWiki default' );
 		Hooks::run( 'GetBetaFeaturePreferences', [ $user, &$prefs ] );
 
