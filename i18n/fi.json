@@ -12,7 +12,7 @@
 	"betafeatures-auto-enroll": "Ota automaattisesti käyttöön useimmat beetaominaisuudet",
 	"betafeatures-auto-enroll-help": "Joissakin beetaominaisuuksissa voi olla yllättäviä muutoksia, joten {{GENDER:|sinun}} tulee ottaa ne käyttöön manuaalisesti.",
 	"betafeatures-desc": "Antaa käyttäjän ottaa käyttöön tai poistaa käytöstä ominaisuuksia wikissä, jotka ovat eivät ole vielä valmiita kaikkien käytettäväksi",
-	"betafeatures-extension-type": "Beetaominaisuudet",
+	"betafeatures-extension-type": "Beeta-ominaisuudet",
 	"betafeatures-section-desc": "Tässä {{PLURAL:$1|on uusi ominaisuus, jota|on muutamia uusia ominaisuuksia, joita}} harkitsemme {{GRAMMAR:illative|{{SITENAME}}}}. Kokeile {{PLURAL:$1|sitä|niitä}} ja kerro mielipiteesi meille, jotta voimme parantaa {{PLURAL:$1|sitä|niitä}} palautteesi perusteella.",
 	"betafeatures-toplink": "Beeta",
 	"betafeatures-feature-autoenrolled": "Automaattisesti käyttöönotettu ominaisuus",
@@ -23,6 +23,6 @@
 	"mw-ui-feature-requirements-javascript": "Tämä ominaisuus vaatii JavaScriptin olevan käytössä.",
 	"mw-ui-feature-requirements-skins": "Tämä ominaisuus toimii ainoastaan {{PLURAL:$1|seuraavan ulkoasun|seuraavien ulkoasujen}} kanssa:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|Yksi käyttäjä kokeilee tätä ominaisuutta.|$1 käyttäjää kokeilee tätä ominaisuutta.|0=Kukaan ei käytä tätä ominaisuutta.}}",
-	"prefs-betafeatures": "Beetaominaisuudet",
-	"tooltip-pt-betafeatures": "Beetaominaisuudet"
+	"prefs-betafeatures": "Beeta-ominaisuudet",
+	"tooltip-pt-betafeatures": "Beeta-ominaisuudet"
 }
