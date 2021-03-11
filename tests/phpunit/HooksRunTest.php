@@ -70,8 +70,7 @@ class HooksRunTest extends MediaWikiTestCase {
 	protected function setUp() : void {
 		parent::setUp();
 
-		$this->user = $this->getMutableTestUser()->getUser();
-		$this->user->addGroup( 'unittesters' );
+		$this->user = $this->getMutableTestUser( [ 'unittesters' ] )->getUser();
 	}
 
 	public function testHooksRun() {
