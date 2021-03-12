@@ -17,7 +17,7 @@
 	"betafeatures-desc": "Laat de gebruiker functies die in ontwikkeling zijn in- of uitschakelen",
 	"betafeatures-extension-type": "Betafuncties",
 	"betafeatures-section-desc": "Hier {{PLURAL:$1|is een nieuwe functie|zijn enkele nieuwe functies}} die we overwegen voor {{SITENAME}}. Probeer {{PLURAL:$1|deze|ze}} uit en laat ons weten wat u ervan vindt, zodat wij {{PLURAL:$1|de functie|ze}} kunnen verbeteren.",
-	"betafeatures-toplink": "Beta",
+	"betafeatures-toplink": "Bèta",
 	"betafeatures-feature-autoenrolled": "Automatisch ingeschakelde functie",
 	"mw-ui-feature-discuss": "Overleg",
 	"mw-ui-feature-info": "Informatie",
