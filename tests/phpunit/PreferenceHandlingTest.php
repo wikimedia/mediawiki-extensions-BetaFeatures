@@ -23,8 +23,11 @@
  * @license GNU General Public License version 2 or later
  */
 
+use MediaWiki\Extension\BetaFeatures\BetaFeaturesMissingFieldException;
+use MediaWiki\Extension\BetaFeatures\HTMLFeatureField;
+
 /**
- * @covers \BetaFeaturesHooks::getPreferences
+ * @covers \MediaWiki\Extension\BetaFeatures\Hooks::getPreferences
  *
  * @group BetaFeatures
  */
@@ -45,7 +48,7 @@ class PreferenceHandlingTest extends BetaFeaturesTestCase {
 		];
 
 		$validPrefPostHook = $validPref;
-		$validPrefPostHook['class'] = 'HTMLFeatureField';
+		$validPrefPostHook['class'] = HTMLFeatureField::class;
 		$validPrefPostHook['section'] = 'betafeatures';
 
 		return [
@@ -74,7 +77,7 @@ class PreferenceHandlingTest extends BetaFeaturesTestCase {
 			Hooks::run( 'GetPreferences', [ $this->user, &$prefs ] );
 		} catch ( BetaFeaturesMissingFieldException $e ) {
 			if ( $expected === null ) {
-				$this->assertEquals( 'BetaFeaturesMissingFieldException', get_class( $e ) );
+				$this->assertEquals( BetaFeaturesMissingFieldException::class, get_class( $e ) );
 				return;
 			} else {
 				throw $e;

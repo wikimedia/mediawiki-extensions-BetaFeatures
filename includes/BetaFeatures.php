@@ -23,6 +23,10 @@
  * @license GNU General Public License version 2 or later
  */
 
+namespace MediaWiki\Extension\BetaFeatures;
+
+use User;
+
 class BetaFeatures {
 
 	/**
@@ -43,3 +47,5 @@ class BetaFeatures {
 		return $user->getOption( $feature ) === HTMLFeatureField::OPTION_ENABLED;
 	}
 }
+
+class_alias( BetaFeatures::class, 'BetaFeatures' );

@@ -23,6 +23,11 @@
  * @license GNU General Public License version 2 or later
  */
 
+namespace MediaWiki\Extension\BetaFeatures;
+
+use Html;
+use HTMLFormField;
+
 class HTMLHorizontalRuleField extends HTMLFormField {
 
 	/**

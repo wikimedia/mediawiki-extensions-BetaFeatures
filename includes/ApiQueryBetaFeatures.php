@@ -1,4 +1,5 @@
 <?php
+
 /**
  * This file is part of the MediaWiki extension BetaFeatures.
  *
@@ -22,6 +23,13 @@
  * @author Kunal Mehta <legoktm@gmail.com>
  * @license GPL-2.0-or-later
  */
+
+namespace MediaWiki\Extension\BetaFeatures;
+
+use ApiQueryBase;
+use Hooks as MWHooks;
+use User;
+
 class ApiQueryBetaFeatures extends ApiQueryBase {
 	public function __construct( $query, $moduleName ) {
 		parent::__construct( $query, $moduleName, 'bf' );
@@ -34,10 +42,10 @@ class ApiQueryBetaFeatures extends ApiQueryBase {
 
 		$prefs = $wgBetaFeatures;
 		$user = User::newFromName( 'MediaWiki default' );
-		Hooks::run( 'GetBetaFeaturePreferences', [ $user, &$prefs ] );
+		MWHooks::run( 'GetBetaFeaturePreferences', [ $user, &$prefs ] );
 
 		$counts = isset( $params['counts'] )
-			? BetaFeaturesHooks::getUserCounts( array_keys( $prefs ) )
+			? Hooks::getUserCounts( array_keys( $prefs ) )
 			: [];
 		foreach ( $prefs as $key => $info ) {
 			$path = [ 'query', $this->getModuleName(), $key ];

@@ -23,6 +23,11 @@
  * @license GNU General Public License version 2 or later
  */
 
+namespace MediaWiki\Extension\BetaFeatures;
+
+use Job;
+use Title;
+
 class UpdateBetaFeatureUserCountsJob extends Job {
 	public function __construct( Title $title, array $params ) {
 		parent::__construct( 'updateBetaFeaturesUserCounts', $title, $params );

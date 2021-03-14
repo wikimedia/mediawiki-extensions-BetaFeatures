@@ -23,8 +23,10 @@
  * @license GNU General Public License version 2 or later
  */
 
+use MediaWiki\Extension\BetaFeatures\HTMLHorizontalRuleField;
+
 /**
- * @covers \HTMLHorizontalRuleField
+ * @covers \MediaWiki\Extension\BetaFeatures\HTMLHorizontalRuleField
  *
  * @group BetaFeatures
  */

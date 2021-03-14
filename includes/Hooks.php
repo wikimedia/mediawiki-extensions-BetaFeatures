@@ -23,7 +23,21 @@
  * @license GNU General Public License version 2 or later
  */
 
-class BetaFeaturesHooks {
+namespace MediaWiki\Extension\BetaFeatures;
+
+use DatabaseUpdater;
+use DeferredUpdates;
+use Exception;
+use Hooks as MWHooks;
+use JobQueueGroup;
+use ObjectCache;
+use RequestContext;
+use SkinTemplate;
+use SpecialPage;
+use Title;
+use User;
+
+class Hooks {
 
 	/**
 	 * An array of each of the available Beta Features, with their requirements, if any.
@@ -75,7 +89,7 @@ class BetaFeaturesHooks {
 		}
 
 		$betaFeatures = $wgBetaFeatures;
-		Hooks::run( 'GetBetaFeaturePreferences', [ $user, &$betaFeatures ] );
+		MWHooks::run( 'GetBetaFeaturePreferences', [ $user, &$betaFeatures ] );
 
 		foreach ( $betaFeatures as $name => $option ) {
 			$newVal = $options[$name] ?? null;
@@ -108,7 +122,7 @@ class BetaFeaturesHooks {
 		$betaPrefs = $wgBetaFeatures;
 		$depHooks = [];
 
-		Hooks::run( 'GetBetaFeaturePreferences', [ $user, &$betaPrefs ] );
+		MWHooks::run( 'GetBetaFeaturePreferences', [ $user, &$betaPrefs ] );
 
 		$prefs['betafeatures-section-desc'] = [
 			'type' => 'info',
@@ -136,7 +150,7 @@ class BetaFeaturesHooks {
 		// Set up dependency hooks array
 		// This complex structure brought to you by Per-Wiki Configuration,
 		// coming soon to a wiki very near you.
-		Hooks::run( 'GetBetaFeatureDependencyHooks', [ &$depHooks ] );
+		MWHooks::run( 'GetBetaFeatureDependencyHooks', [ &$depHooks ] );
 
 		$autoEnrollSaveSettings = [];
 		$autoEnrollAll =
@@ -164,7 +178,7 @@ class BetaFeaturesHooks {
 					isset( $info['dependent'] ) &&
 					$info['dependent'] === true &&
 					isset( $depHooks[$key] ) &&
-					!Hooks::run( $depHooks[$key] )
+					!MWHooks::run( $depHooks[$key] )
 				)
 			) {
 				continue;
