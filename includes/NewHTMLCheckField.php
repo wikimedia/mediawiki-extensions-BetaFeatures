@@ -23,6 +23,13 @@
  * @license GNU General Public License version 2 or later
  */
 
+namespace MediaWiki\Extension\BetaFeatures;
+
+use Html;
+use HTMLCheckField;
+use OOUI\CheckboxInputWidget;
+use OOUI\FieldLayout;
+
 class NewHTMLCheckField extends HTMLCheckField {
 	/**
 	 * @var bool directive whether to include a label with the checkbox
@@ -49,8 +56,8 @@ class NewHTMLCheckField extends HTMLCheckField {
 		// TODO: Support $this->getTooltipAndAccessKey?
 
 		return Html::openElement( 'div', [ 'class' => 'mw-ui-feature-checkbox' ] ) .
-			new OOUI\FieldLayout(
-				new OOUI\CheckboxInputWidget( [
+			new FieldLayout(
+				new CheckboxInputWidget( [
 					'infusable' => true,
 					'name' => $this->mName,
 					'selected' => $value,

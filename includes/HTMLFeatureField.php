@@ -23,6 +23,12 @@
  * @license GNU General Public License version 2 or later
  */
 
+namespace MediaWiki\Extension\BetaFeatures;
+
+use Html;
+use OOUI\IconWidget;
+use WebRequest;
+
 class HTMLFeatureField extends NewHTMLCheckField {
 
 	public const OPTION_ENABLED = '1';
@@ -76,7 +82,7 @@ class HTMLFeatureField extends NewHTMLCheckField {
 					'href' => $infoLink,
 					'class' => 'mw-ui-feature-info-link',
 				],
-				new OOUI\IconWidget( [ 'icon' => 'article' ] ) .
+				new IconWidget( [ 'icon' => 'article' ] ) .
 				$this->mParent->msg( 'mw-ui-feature-info' )->escaped()
 			);
 			$html .= ' ';
@@ -88,7 +94,7 @@ class HTMLFeatureField extends NewHTMLCheckField {
 					'href' => $discussionLink,
 					'class' => 'mw-ui-feature-discussion-link',
 				],
-				new OOUI\IconWidget( [ 'icon' => 'speechBubbles' ] ) .
+				new IconWidget( [ 'icon' => 'speechBubbles' ] ) .
 				$this->mParent->msg( 'mw-ui-feature-discuss' )->escaped()
 			);
 		}

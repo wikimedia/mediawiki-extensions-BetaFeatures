@@ -23,6 +23,11 @@
  * @license GNU General Public License version 2 or later
  */
 
+namespace MediaWiki\Extension\BetaFeatures;
+
+use GenericParameterJob;
+use Job;
+
 class UpdateBetaFeatureUserCountsJob extends Job implements GenericParameterJob {
 	/** @inheritDoc */
 	public function __construct( array $params ) {

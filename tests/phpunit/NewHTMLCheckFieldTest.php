@@ -23,8 +23,10 @@
  * @license GNU General Public License version 2 or later
  */
 
+use MediaWiki\Extension\BetaFeatures\NewHTMLCheckField;
+
 /**
- * @covers \NewHTMLCheckField
+ * @covers \MediaWiki\Extension\BetaFeatures\NewHTMLCheckField
  *
  * @group BetaFeatures
  */

@@ -23,15 +23,15 @@
 		"BetaFeaturesAlias": "BetaFeatures.alias.php"
 	},
 	"APIListModules": {
-		"betafeatures": "ApiQueryBetaFeatures"
+		"betafeatures": "MediaWiki\\Extension\\BetaFeatures\\ApiQueryBetaFeatures"
 	},
 	"Hooks": {
-		"UserSaveOptions": "BetaFeaturesHooks::updateUserCounts",
-		"GetPreferences": "BetaFeaturesHooks::getPreferences",
-		"PersonalUrls": "BetaFeaturesHooks::getBetaFeaturesLink",
-		"LoadExtensionSchemaUpdates": "BetaFeaturesHooks::getSchemaUpdates",
-		"MakeGlobalVariablesScript": "BetaFeaturesHooks::onMakeGlobalVariablesScript",
-		"ExtensionTypes": "BetaFeaturesHooks::onExtensionTypes"
+		"UserSaveOptions": "MediaWiki\\Extension\\BetaFeatures\\Hooks::updateUserCounts",
+		"GetPreferences": "MediaWiki\\Extension\\BetaFeatures\\Hooks::getPreferences",
+		"PersonalUrls": "MediaWiki\\Extension\\BetaFeatures\\Hooks::getBetaFeaturesLink",
+		"LoadExtensionSchemaUpdates": "MediaWiki\\Extension\\BetaFeatures\\Hooks::getSchemaUpdates",
+		"MakeGlobalVariablesScript": "MediaWiki\\Extension\\BetaFeatures\\Hooks::onMakeGlobalVariablesScript",
+		"ExtensionTypes": "MediaWiki\\Extension\\BetaFeatures\\Hooks::onExtensionTypes"
 	},
 	"MessagesDirs": {
 		"BetaFeatures": [
@@ -74,21 +74,17 @@
 		"remoteExtPath": "BetaFeatures/resources"
 	},
 	"JobClasses": {
-		"updateBetaFeaturesUserCounts": "UpdateBetaFeatureUserCountsJob"
+		"updateBetaFeaturesUserCounts": "MediaWiki\\Extension\\BetaFeatures\\UpdateBetaFeatureUserCountsJob"
 	},
 	"SpecialPages": {
-		"BetaFeatures": "SpecialBetaFeatures"
+		"BetaFeatures": "MediaWiki\\Extension\\BetaFeatures\\SpecialBetaFeatures"
 	},
 	"AutoloadClasses": {
-		"BetaFeaturesHooks": "includes/BetaFeaturesHooks.php",
-		"BetaFeaturesMissingFieldException": "includes/BetaFeaturesMissingFieldException.php",
-		"NewHTMLCheckField": "includes/NewHTMLCheckField.php",
-		"HTMLFeatureField": "includes/HTMLFeatureField.php",
-		"HTMLHorizontalRuleField": "includes/HTMLHorizontalRuleField.php",
 		"BetaFeatures": "includes/BetaFeatures.php",
-		"UpdateBetaFeatureUserCountsJob": "includes/UpdateBetaFeatureUserCountsJob.php",
-		"ApiQueryBetaFeatures": "includes/ApiQueryBetaFeatures.php",
-		"SpecialBetaFeatures": "includes/SpecialBetaFeatures.php"
+		"MediaWiki\\Extension\\BetaFeatures\\BetaFeatures": "includes/BetaFeatures.php"
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\BetaFeatures\\": "includes/"
 	},
 	"TestAutoloadClasses": {
 		"BetaFeaturesTestCase": "tests/phpunit/BetaFeaturesTestCase.php"

@@ -23,7 +23,22 @@
  * @license GNU General Public License version 2 or later
  */
 
-class BetaFeaturesHooks {
+namespace MediaWiki\Extension\BetaFeatures;
+
+use DatabaseUpdater;
+use DeferredUpdates;
+use Exception;
+use Hooks as MWHooks;
+use JobQueueGroup;
+use MediaWiki\MediaWikiServices;
+use ObjectCache;
+use RequestContext;
+use SkinTemplate;
+use SpecialPage;
+use Title;
+use User;
+
+class Hooks {
 
 	/**
 	 * @var array An array of each of the available Beta Features, with their requirements, if any.
@@ -75,7 +90,7 @@ class BetaFeaturesHooks {
 		}
 
 		$betaFeatures = $wgBetaFeatures;
-		Hooks::run( 'GetBetaFeaturePreferences', [ $user, &$betaFeatures ] );
+		MWHooks::run( 'GetBetaFeaturePreferences', [ $user, &$betaFeatures ] );
 
 		foreach ( $betaFeatures as $name => $option ) {
 			$newVal = $options[$name] ?? null;
@@ -107,7 +122,7 @@ class BetaFeaturesHooks {
 		$betaPrefs = $wgBetaFeatures;
 		$depHooks = [];
 
-		Hooks::run( 'GetBetaFeaturePreferences', [ $user, &$betaPrefs ] );
+		MWHooks::run( 'GetBetaFeaturePreferences', [ $user, &$betaPrefs ] );
 
 		$prefs['betafeatures-section-desc'] = [
 			'type' => 'info',
@@ -135,7 +150,7 @@ class BetaFeaturesHooks {
 		// Set up dependency hooks array
 		// This complex structure brought to you by Per-Wiki Configuration,
 		// coming soon to a wiki very near you.
-		Hooks::run( 'GetBetaFeatureDependencyHooks', [ &$depHooks ] );
+		MWHooks::run( 'GetBetaFeatureDependencyHooks', [ &$depHooks ] );
 
 		$autoEnrollSaveSettings = [];
 		$autoEnrollAll =
@@ -163,7 +178,7 @@ class BetaFeaturesHooks {
 					isset( $info['dependent'] ) &&
 					$info['dependent'] === true &&
 					isset( $depHooks[$key] ) &&
-					!Hooks::run( $depHooks[$key] )
+					!MWHooks::run( $depHooks[$key] )
 				)
 			) {
 				continue;
@@ -257,7 +272,7 @@ class BetaFeaturesHooks {
 
 				// Test skin support
 				if ( isset( $prefs[$key]['requirements']['skins'] ) ) {
-					$skinFactory = MediaWiki\MediaWikiServices::getInstance()->getSkinFactory();
+					$skinFactory = MediaWikiServices::getInstance()->getSkinFactory();
 					// Remove any skins that aren't installed or users can't choose
 					$prefs[$key]['requirements']['skins'] = array_intersect(
 						/** @phan-suppress-next-line PhanTypeInvalidDimOffset,PhanTypeMismatchArgumentInternal */

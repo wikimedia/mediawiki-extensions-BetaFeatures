@@ -21,5 +21,9 @@
  * @license GNU General Public License version 2 or later
  */
 
+namespace MediaWiki\Extension\BetaFeatures;
+
+use Exception;
+
 class BetaFeaturesMissingFieldException extends Exception {
 }

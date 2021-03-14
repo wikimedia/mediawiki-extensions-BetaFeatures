@@ -23,8 +23,10 @@
  * @license GNU General Public License version 2 or later
  */
 
+use MediaWiki\Extension\BetaFeatures\HTMLFeatureField;
+
 /**
- * @covers \BetaFeaturesHooks::getPreferences
+ * @covers \MediaWiki\Extension\BetaFeatures\Hooks::getPreferences
  *
  * @group BetaFeatures
  */

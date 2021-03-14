@@ -1,5 +1,11 @@
 <?php
 
+namespace MediaWiki\Extension\BetaFeatures;
+
+use RedirectSpecialPage;
+use SpecialPage;
+use Title;
+
 /**
  * @codeCoverageIgnore
  */

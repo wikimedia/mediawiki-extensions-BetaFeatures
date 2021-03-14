@@ -23,8 +23,10 @@
  * @license GNU General Public License version 2 or later
  */
 
+use MediaWiki\Extension\BetaFeatures\HTMLFeatureField;
+
 /**
- * @covers \HTMLFeatureField
+ * @covers \MediaWiki\Extension\BetaFeatures\HTMLFeatureField
  *
  * @group BetaFeatures
  */
