@@ -6,9 +6,9 @@
 		]
 	},
 	"betafeatures-auto-enroll": "Automatisk alle betafunktys ansetten",
-	"betafeatures-desc": "Låt de gebruker funktys dee in untwikkeling binnet an- of uutsetten",
+	"betafeatures-desc": "Låt de gebruker funktys dee in untwikkeling bint an- of uutsetten",
 	"betafeatures-extension-type": "Betafunktys",
-	"betafeatures-section-desc": "Hyr {{PLURAL:$1|is een nye funkty|binnet een koppel nye funktys}} dee wy oaverweaget vöär {{SITENAME}}. Probeer {{PLURAL:$1|et|se}} uut en låt uns weaten wat jy dervan vindet, sodat wy {{PLURAL:$1|et|se}} verbeateren künnet.",
+	"betafeatures-section-desc": "Hyr {{PLURAL:$1|is en nye funkty|bint en koppel nye funktys}} dee wy oaverweaget vöär {{SITENAME}}. Probeer {{PLURAL:$1|et|se}} uut en låt uns weaten wat jy dervan vindet, soudat wy {{PLURAL:$1|et|se}} verbeateren künnet.",
 	"betafeatures-toplink": "Beta",
 	"mw-ui-feature-discuss": "Oaverleg",
 	"mw-ui-feature-info": "Informaty",
