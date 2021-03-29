@@ -6,10 +6,12 @@
 		]
 	},
 	"betafeatures-auto-enroll": "Déi meescht Beta-Funktiounen automatesch aschalten",
+	"betafeatures-auto-enroll-help": "Verschidde Beta-Funktionalitéite kënnen iwwerraschend Ännerungen hunn, an dofir musst {{GENDER:|Dir}} se manuell aktivéieren.",
 	"betafeatures-desc": "Léisst Benotzer Funktiounen op der Wiki aktivéieren oder desaktivéieren déi nach net fäerdeg entwéckelt sinn",
 	"betafeatures-extension-type": "Beta-Funktiounen",
 	"betafeatures-section-desc": "Hei {{PLURAL:$1|ass eng nei Funktioun|sinn e puer nei Funktiounen}} déi mir fir {{SITENAME}} proposéieren. Probéiert se wgl. aus an deelt eis Är Iwwerleeungen dozou mat, da kënne mir se op der Basis vun Ärem Feedback verbesseren.",
 	"betafeatures-toplink": "Beta",
+	"betafeatures-feature-autoenrolled": "Automatesch aktivéiert Funktionalitéit",
 	"mw-ui-feature-discuss": "Diskussioun",
 	"mw-ui-feature-info": "Informatioun",
 	"mw-ui-feature-requirements-betafeatures": "Dës Funktioun erfuerdert d'Aktivéiere vun {{PLURAL:$1|dëser Funktioun|dëse Funktiounen}}:",
