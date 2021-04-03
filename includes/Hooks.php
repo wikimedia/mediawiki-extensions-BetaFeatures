@@ -171,6 +171,8 @@ class Hooks {
 			}
 		}
 
+		$userOptionsManager = MediaWikiServices::getInstance()->getUserOptionsManager();
+
 		foreach ( $betaPrefs as $key => $info ) {
 			// Check if feature should be skipped
 			if (
@@ -253,7 +255,7 @@ class Hooks {
 					$currentValue !== HTMLFeatureField::OPTION_DISABLED ) {
 					// We haven't seen this before, and the user has auto-enroll enabled!
 					// Set the option to true and make it visible for the current user object
-					$user->setOption( $key, HTMLFeatureField::OPTION_ENABLED );
+					$userOptionsManager->setOption( $user, $key, HTMLFeatureField::OPTION_ENABLED );
 					// Also put it aside for saving the settings later
 					$autoEnrollSaveSettings[$key] = HTMLFeatureField::OPTION_ENABLED;
 				}
@@ -310,7 +312,7 @@ class Hooks {
 		if ( $autoEnrollSaveSettings !== [] ) {
 			// Save the preferences to the DB post-send
 			DeferredUpdates::addCallableUpdate(
-				static function () use ( $user, $autoEnrollSaveSettings ) {
+				static function () use ( $user, $autoEnrollSaveSettings, $userOptionsManager ) {
 					$cache = ObjectCache::getLocalClusterInstance();
 					$key = $cache->makeKey( __CLASS__, 'prefs-update', $user->getId() );
 					// T95839: If concurrent requests pile on (e.g. multiple tabs), only let one
@@ -320,9 +322,9 @@ class Hooks {
 						$userLatest = $user->getInstanceForUpdate();
 						// Apply the settings and save
 						foreach ( $autoEnrollSaveSettings as $key => $option ) {
-							$userLatest->setOption( $key, $option );
+							$userOptionsManager->setOption( $userLatest, $key, $option );
 						}
-						$userLatest->saveSettings();
+						$userOptionsManager->saveOptions( $userLatest );
 						$cache->unlock( $key );
 					}
 				}
