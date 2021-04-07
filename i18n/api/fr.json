@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Gomoko",
+			"Verdy p",
 			"Wladek92"
 		]
 	},
-	"apihelp-query+betafeatures-description": "Lister toutes les fonctionnalités bêta",
-	"apihelp-query+betafeatures-summary": "Afficher toutes les fonctionnalités bêta",
-	"apihelp-query+betafeatures-example-1": "Obtenir toutes les fonctionnalités bêta disponibles et afficher combien d’utilisateurs les ont activées",
+	"apihelp-query+betafeatures-description": "Lister toutes les fonctionnalités en phase bêta",
+	"apihelp-query+betafeatures-summary": "Afficher toutes les fonctionnalités en phase bêta",
+	"apihelp-query+betafeatures-example-1": "Obtenir toutes les fonctionnalités disponibles en phase bêta et afficher combien d’utilisateurs les ont activées",
 	"apihelp-query+betafeatures-param-counts": "S’il faut récupérer combien d’utilisateurs ont activé une certaine préférence."
 }
