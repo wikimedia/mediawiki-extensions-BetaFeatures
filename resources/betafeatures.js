@@ -21,21 +21,20 @@
  */
 
 $( function () {
-	var $autoEnrollCheckbox, preference, $checkbox, unsupportedList,
-		featuresModel = mw.config.get( 'wgBetaFeaturesFeatures', [] );
+	var featuresModel = mw.config.get( 'wgBetaFeaturesFeatures', {} );
 
 	// eslint-disable-next-line no-jquery/no-global-selector
-	$autoEnrollCheckbox = OO.ui.infuse( $( '[name=wpbetafeatures-auto-enroll]' ).parent() );
+	var $autoEnrollCheckbox = OO.ui.infuse( $( '[name=wpbetafeatures-auto-enroll]' ).parent() );
 	$autoEnrollCheckbox.connect( this, { change: function ( selectedState ) {
-		for ( preference in featuresModel ) {
+		Object.keys( featuresModel ).forEach( function ( preference ) {
 			// Hidden preference
 			if ( !featuresModel[ preference ].widget ) {
-				continue;
+				return;
 			}
 
 			// Some preferences don't follow the auto-enroll process; ignore them
 			if ( featuresModel[ preference ][ '__skip-auto-enroll' ] ) {
-				continue;
+				return;
 			}
 
 			// Mass-select auto-enrollable features if clicked, but don't mass-disable
@@ -48,20 +47,20 @@ $( function () {
 
 			// If it is now disabled, hint to the user why with a tooltip
 			featuresModel[ preference ].widget.setTitle( selectedState ? mw.msg( 'betafeatures-feature-autoenrolled' ) : null );
-		}
+		} );
 	} } );
 
-	for ( preference in featuresModel ) {
-		$checkbox = $( '[name=wp' + preference + ']' );
+	Object.keys( featuresModel ).forEach( function ( preference ) {
+		var $checkbox = $( '[name=wp' + preference + ']' );
 
 		// Extensions might hide their preferences late or by a different method
 		if ( !$checkbox.length ) {
-			continue;
+			return;
 		}
 
 		featuresModel[ preference ].widget = OO.ui.infuse( $checkbox.parent() );
 
-		unsupportedList = featuresModel[ preference ].unsupportedList;
+		var unsupportedList = featuresModel[ preference ].unsupportedList;
 
 		// Browser not compatible
 		if ( unsupportedList && $.client.test( unsupportedList, null, true ) ) {
@@ -69,5 +68,5 @@ $( function () {
 				.closest( '.mw-ui-feature-field' )
 				.find( '.mw-ui-feature-requirements-browser' ).show();
 		}
-	}
+	} );
 } );
