@@ -302,7 +302,7 @@ class Hooks {
 		if ( $autoEnrollSaveSettings !== [] ) {
 			// Save the preferences to the DB post-send
 			DeferredUpdates::addCallableUpdate(
-				function () use ( $user, $autoEnrollSaveSettings ) {
+				static function () use ( $user, $autoEnrollSaveSettings ) {
 					$cache = ObjectCache::getLocalClusterInstance();
 					$key = $cache->makeKey( __CLASS__, 'prefs-update', $user->getId() );
 					// T95839: If concurrent requests pile on (e.g. multiple tabs), only let one

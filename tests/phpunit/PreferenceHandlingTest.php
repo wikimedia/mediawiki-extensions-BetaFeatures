@@ -67,7 +67,7 @@ class PreferenceHandlingTest extends BetaFeaturesTestCase {
 		$prefkey = self::TESTPREFKEY;
 		$prefs = [];
 		$wgHooks['GetBetaFeaturePreferences'] = [
-			function ( User $user, array &$prefs ) use ( $pref, $prefkey ) {
+			static function ( User $user, array &$prefs ) use ( $pref, $prefkey ) {
 				$prefs[$prefkey] = $pref;
 				return true;
 			}
