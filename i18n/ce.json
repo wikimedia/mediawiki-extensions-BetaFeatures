@@ -14,10 +14,10 @@
 	"mw-ui-feature-discuss": "дийцаре",
 	"mw-ui-feature-info": "хаам",
 	"mw-ui-feature-requirements-betafeatures": "ХӀокху функцин {{PLURAL:$1|функци|функцеш}} лато еза:",
-	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|1=ХӀара браузер ловш яц|ХӀара браузераш ловш яц}}:",
+	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|1=ХӀара браузер ловш йац|ХӀара браузераш ловш йац}}:",
 	"mw-ui-feature-requirements-javascript": "ХӀокху функцин оьшу JavaScript.",
-	"mw-ui-feature-requirements-skins": "ХӀара функци {{PLURAL:$1|1=кечярца|кечяршца}} бен бол беш яц:",
-	"mw-ui-feature-user-count": "{{PLURAL:$1|1 декъашхочо зуьйш ю|$1 декъашхочо зуьйш ю|0=Цхьано зуьйш яц}} хӀара функци.",
+	"mw-ui-feature-requirements-skins": "ХӀара функци {{PLURAL:$1|1=темица|темашца}} бен болх беш йац:",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|1 декъашхочо зуьйш йу|$1 декъашхочо зуьйш йу|0=Цхьано зуьйш йац}} хӀара функци.",
 	"prefs-betafeatures": "Бета-функцеш",
 	"tooltip-pt-betafeatures": "Бета-функцеш"
 }
