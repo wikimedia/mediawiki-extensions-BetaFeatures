@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Patriot Kur"
+			"Patriot Kur",
+			"Гусейн"
 		]
 	},
 	"betafeatures-extension-type": "Beta xüsusiyyəton",
-	"betafeatures-toplink": "Beta",
+	"betafeatures-toplink": "Бета",
 	"prefs-betafeatures": "Beta xüsusiyyəton",
 	"tooltip-pt-betafeatures": "Beta xüsusiyyəton"
 }
