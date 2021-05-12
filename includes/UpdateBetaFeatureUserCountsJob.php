@@ -42,7 +42,7 @@ class UpdateBetaFeatureUserCountsJob extends Job implements GenericParameterJob 
 	 * @return bool
 	 */
 	public function run() {
-		$dbw = wfGetDB( DB_MASTER );
+		$dbw = wfGetDB( DB_PRIMARY );
 
 		$res = $dbw->select(
 			'user_properties',
