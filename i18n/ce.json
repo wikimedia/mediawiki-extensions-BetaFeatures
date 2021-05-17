@@ -11,7 +11,7 @@
 	"betafeatures-extension-type": "Бета-функцеш",
 	"betafeatures-section-desc": "{{PLURAL:$1|Йина керла фунуцеш}} оха уьш йеш йу {{SITENAME}}. Дехар до, {{PLURAL:$1|уьш}} лелайайн а хьайна хетарг ала, тӀакха тхуна уьш дика йан аьтту хира бу.",
 	"betafeatures-toplink": "Бета",
-	"mw-ui-feature-discuss": "дийцаре",
+	"mw-ui-feature-discuss": "Дийцар",
 	"mw-ui-feature-info": "хаам",
 	"mw-ui-feature-requirements-betafeatures": "ХӀокху функцин {{PLURAL:$1|функци}} лато йеза:",
 	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|1=ХӀара браузер ловш йац|ХӀара браузераш ловш йац}}:",
