@@ -3,6 +3,7 @@
 		"authors": [
 			"Evropi",
 			"Geraki",
+			"Giannaras99",
 			"Glavkos",
 			"NikosLikomitros",
 			"Nikosgranturismogt",
@@ -16,6 +17,6 @@
 	"mw-ui-feature-discuss": "Συζήτηση",
 	"mw-ui-feature-info": "Πληροφορία",
 	"mw-ui-feature-requirements-javascript": "Αυτό το χαρακτηριστικό απαιτεί JavaScript.",
-	"prefs-betafeatures": "Δοκιμαστικές λειτουργίες",
+	"prefs-betafeatures": "Χαρακτηριστικά δοκιμαστικής έκδοσης(Beta)",
 	"tooltip-pt-betafeatures": "Δοκιμαστικές λειτουργίες"
 }
