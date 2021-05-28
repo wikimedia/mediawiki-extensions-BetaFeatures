@@ -7,8 +7,9 @@
 		]
 	},
 	"betafeatures-auto-enroll": "Permisar omna nova funcioni 'Beta', automatale",
+	"betafeatures-auto-enroll-help": "Kelka funcioni 'beta' povas efektigar surprizanta modifikuri, do {{GENDER:|vu}} mustos selektor li unope.",
 	"betafeatures-extension-type": "Versioni experimentala ('Beta')",
-	"betafeatures-section-desc": "Yen esas kelka {{PLURAL:$1|nova experimentala funciono|experimentala funcioni}} 'Beta' quin ni konsideras adoptur por {{SITENAME}}. Voluntez probar {{PLURAL:$1|ol|li}} e sendar vua opinioni a ni, do ni povos plubonigor {{PLURAL:$1|ol|li}} segun vua egardo ('feedback').",
+	"betafeatures-section-desc": "Yen kelka {{PLURAL:$1|nova experimentala funciono|experimentala funcioni}} 'Beta' quin ni konsideras adoptor por {{SITENAME}}. Voluntez probar {{PLURAL:$1|ol|li}} e sendar vua opinioni a ni, do ni povos plubonigor {{PLURAL:$1|ol|li}} segun vua egardo ('feedback').",
 	"betafeatures-toplink": "Beta",
 	"mw-ui-feature-info": "Informo",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|1 uzero|$1 uzeri|0=Nulu}} probabas ica versiono 'Beta'.",
