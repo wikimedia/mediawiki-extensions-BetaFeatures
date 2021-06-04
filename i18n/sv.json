@@ -18,6 +18,7 @@
 	"betafeatures-extension-type": "Betafunktioner",
 	"betafeatures-section-desc": "Följande är {{PLURAL:$1|en ny funktion|några nya funktioner}} vi överväger på {{SITENAME}}. Prova {{PLURAL:$1|den|dem}} gärna, och låt oss veta vad du tycker, så att vi kan förbättra {{PLURAL:$1|den|dem}} baserat på din återkoppling.",
 	"betafeatures-toplink": "Beta",
+	"betafeatures-feature-autoenrolled": "Auto-påslagen funktion",
 	"mw-ui-feature-discuss": "Diskussion",
 	"mw-ui-feature-info": "Information",
 	"mw-ui-feature-requirements-betafeatures": "Den här funktionen kräver att följande {{PLURAL:$1|funktion är aktiverad|funktioner är aktiverade}}:",
