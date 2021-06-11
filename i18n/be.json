@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Maksim L.",
 			"Mechanizatar",
 			"Mikalai Udodau"
 		]
@@ -9,7 +10,7 @@
 	"betafeatures-desc": "Дазваляе карыстальніку ўключаць ці адключаць функцыі, якія яшчэ цалкам не дапрацаваныя",
 	"betafeatures-extension-type": "Бэта-магчымасці",
 	"betafeatures-section-desc": "Тут пададзен{{PLURAL:$1|а новая магчымасць, якую|ы некаторыя новыя магчымасці, якія}} мы разглядаем для {{SITENAME}}. Калі ласка, паспрабуйце {{PLURAL:$1|яе|іх}} і выкажыце сваё меркаванне, каб мы маглі палепшыць {{PLURAL:$1|яе|іх}}, засноўваючыся на вашых водгуках.",
-	"betafeatures-toplink": "Бэта",
+	"betafeatures-toplink": "бэта",
 	"mw-ui-feature-discuss": "Абмеркаванне",
 	"mw-ui-feature-info": "Інфармацыя",
 	"mw-ui-feature-requirements-betafeatures": "Для гэтай функцыі неабходна ўключыць {{PLURAL:$1|наступную функцыю|наступныя функцыі}}:",
