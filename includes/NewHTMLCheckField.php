@@ -31,10 +31,6 @@ use OOUI\CheckboxInputWidget;
 use OOUI\FieldLayout;
 
 class NewHTMLCheckField extends HTMLCheckField {
-	/**
-	 * @var bool directive whether to include a label with the checkbox
-	 */
-	protected $includeLabel = true;
 
 	// Protected internal methods for getting the bits of the field
 	// Override these in subclasses (see HTMLFeatureField, e.g.)
@@ -68,21 +64,10 @@ class NewHTMLCheckField extends HTMLCheckField {
 				] ),
 				[
 					'align' => 'inline',
-					'label' => $this->includeLabel ? $this->mLabel : '',
+					'label' => $this->mLabel,
 				]
 			) .
 			Html::closeElement( 'div' );
-	}
-
-	/**
-	 * @return string
-	 */
-	protected function getPostCheckboxLabelHTML() {
-		return Html::rawElement(
-			'label',
-			[ 'for' => $this->mID ],
-			$this->mLabel
-		);
 	}
 
 	/**
