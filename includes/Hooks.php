@@ -353,6 +353,7 @@ class Hooks {
 						'Preferences', false, 'mw-prefsection-betafeatures'
 					)->getLinkURL(),
 					'active' => $title->isSpecial( 'Preferences' ),
+					'icon' => 'labFlask'
 				],
 			], 'preferences' );
 		}
