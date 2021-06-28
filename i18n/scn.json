@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ajeje Brazorf",
 			"Macofe",
 			"Pippinu",
 			"Sarvaturi"
@@ -12,7 +13,7 @@
 	"betafeatures-section-desc": "Ccà {{PLURAL:$1|c'è na funziunalità nova|ci sunnu na para di funziunalità novi}} ca stamu pinzannu d'attivari nta {{SITENAME}}. Pi favuri {{PLURAL:$1|pròvala|pròvali}} e dinni chi ti nni pari, accussì {{PLURAL:$1|la putemu migghiurari|li putemu migghiurari}} tinennu cuntu dî tò ossirvazzioni.",
 	"betafeatures-toplink": "Beta",
 	"mw-ui-feature-discuss": "Discussioni",
-	"mw-ui-feature-info": "nfurmazzioni",
+	"mw-ui-feature-info": "Nfurmazzioni",
 	"mw-ui-feature-requirements-betafeatures": "Sta funziunalità havi bisognu ca {{PLURAL:$1|è attivata st'àutra funziunalità|sunnu attivati st'àutri funziunalità}}:",
 	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|Stu browser nun è suppurtatu|Sti browser nun sunnu suppurtati}}:",
 	"mw-ui-feature-requirements-javascript": "Sta funziunalità havi bisognu dû JavaScript.",
