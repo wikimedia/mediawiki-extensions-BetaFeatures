@@ -67,7 +67,7 @@ class HooksRunTest extends MediaWikiTestCase {
 		return true;
 	}
 
-	protected function setUp() : void {
+	protected function setUp(): void {
 		parent::setUp();
 
 		$this->user = $this->getMutableTestUser( [ 'unittesters' ] )->getUser();

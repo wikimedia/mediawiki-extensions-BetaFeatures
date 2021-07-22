@@ -82,7 +82,7 @@ class DependentFeatureTest extends BetaFeaturesTestCase {
 		return true;
 	}
 
-	protected function setUp() : void {
+	protected function setUp(): void {
 		global $wgHooks;
 
 		parent::setUp();
