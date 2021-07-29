@@ -9,7 +9,7 @@
 	"betafeatures-toplink": "બીટા",
 	"mw-ui-feature-discuss": "ચર્ચા",
 	"mw-ui-feature-info": "માહિતી",
-	"mw-ui-feature-user-count": "{{PLURAL:$1|એક સભ્ય|$1 સભ્યો|0=કોઇ નહી}} આ લક્ષ વાપરી રહ્યા છે.",
+	"mw-ui-feature-user-count": "આ લક્ષણ આટલા સભ્યો વાપરી રહ્યા છે: {{PLURAL:$1|એક સભ્ય|$1 સભ્યો|0=કોઇપણ નહી}}.",
 	"prefs-betafeatures": "બીટા લક્ષણો",
 	"tooltip-pt-betafeatures": "બીટા લક્ષણો"
 }
