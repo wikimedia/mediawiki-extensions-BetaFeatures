@@ -9,7 +9,7 @@
 	"license-name": "GPL-2.0-or-later",
 	"type": "other",
 	"requires": {
-		"MediaWiki": ">= 1.36.0"
+		"MediaWiki": ">= 1.37.0"
 	},
 	"config": {
 		"BetaFeaturesWhitelist": {
@@ -26,7 +26,7 @@
 		"betafeatures": "MediaWiki\\Extension\\BetaFeatures\\ApiQueryBetaFeatures"
 	},
 	"Hooks": {
-		"UserSaveOptions": "MediaWiki\\Extension\\BetaFeatures\\Hooks::updateUserCounts",
+		"SaveUserOptions": "MediaWiki\\Extension\\BetaFeatures\\Hooks::updateUserCounts",
 		"GetPreferences": "MediaWiki\\Extension\\BetaFeatures\\Hooks::getPreferences",
 		"PersonalUrls": "MediaWiki\\Extension\\BetaFeatures\\Hooks::getBetaFeaturesLink",
 		"LoadExtensionSchemaUpdates": "MediaWiki\\Extension\\BetaFeatures\\Hooks::getSchemaUpdates",

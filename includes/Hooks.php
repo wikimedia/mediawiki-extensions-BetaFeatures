@@ -31,6 +31,7 @@ use Exception;
 use Hooks as MWHooks;
 use JobQueueGroup;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\User\UserIdentity;
 use ObjectCache;
 use RequestContext;
 use SkinTemplate;
@@ -72,14 +73,16 @@ class Hooks {
 	}
 
 	/**
-	 * @param User $user User who's just saved their preferences
-	 * @param array $options List of options
+	 * @see https://www.mediawiki.org/wiki/Manual:Hooks/SaveUserOptions
+	 *
+	 * @param UserIdentity $user User who's just saved their preferences
+	 * @param array $modifiedOptions List of modified options
 	 * @param array $originalOptions List of original user options
 	 * @throws Exception
 	 */
 	public static function updateUserCounts(
-		User $user,
-		array $options,
+		UserIdentity $user,
+		array $modifiedOptions,
 		array $originalOptions
 	) {
 		global $wgBetaFeatures;
@@ -90,10 +93,15 @@ class Hooks {
 		}
 
 		$betaFeatures = $wgBetaFeatures;
+
+		$user = MediaWikiServices::getInstance()->getUserFactory()->newFromUserIdentity( $user );
 		MWHooks::run( 'GetBetaFeaturePreferences', [ $user, &$betaFeatures ] );
 
 		foreach ( $betaFeatures as $name => $option ) {
-			$newVal = $options[$name] ?? null;
+			if ( !array_key_exists( $name, $modifiedOptions ) ) {
+				continue;
+			}
+			$newVal = $modifiedOptions[$name];
 			$oldVal = $originalOptions[$name] ?? null;
 			// Check if this preference meaningfully changed
 			if ( $oldVal === $newVal ||
