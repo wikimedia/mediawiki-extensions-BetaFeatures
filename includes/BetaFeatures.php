@@ -25,26 +25,29 @@
 
 namespace MediaWiki\Extension\BetaFeatures;
 
-use User;
+use MediaWiki\MediaWikiServices;
+use MediaWiki\User\UserIdentity;
 
 class BetaFeatures {
 
 	/**
 	 * Check if a user has a beta feature enabled.
 	 *
-	 * @param User $user The user to check
+	 * @param UserIdentity $user The user identity to check
 	 * @param string $feature The key passed back to BetaFeatures
 	 *     from the GetBetaFeaturePreferences hook
 	 * @return bool
 	 */
-	public static function isFeatureEnabled( User $user, $feature ) {
+	public static function isFeatureEnabled( UserIdentity $user, $feature ) {
 		global $wgBetaFeaturesWhitelist;
 		if ( is_array( $wgBetaFeaturesWhitelist ) && !in_array( $feature, $wgBetaFeaturesWhitelist ) ) {
 			// If there is a whitelist, and the feature is not whitelisted,
 			// it can't be enabled.
 			return false;
 		}
-		return $user->getOption( $feature ) === HTMLFeatureField::OPTION_ENABLED;
+		return MediaWikiServices::getInstance()
+			->getUserOptionsLookup()
+			->getOption( $user, $feature ) === HTMLFeatureField::OPTION_ENABLED;
 	}
 }
 
