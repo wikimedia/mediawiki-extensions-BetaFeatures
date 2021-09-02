@@ -24,6 +24,7 @@
  */
 
 use MediaWiki\Extension\BetaFeatures\HTMLFeatureField;
+use MediaWiki\MediaWikiServices;
 
 /**
  * @covers \MediaWiki\Extension\BetaFeatures\Hooks::getPreferences
@@ -169,7 +170,8 @@ class AutoEnrollmentTest extends BetaFeaturesTestCase {
 		$prefs = [];
 
 		if ( $set !== null ) {
-			$user->setOption( $set, $setVal );
+			MediaWikiServices::getInstance()->getUserOptionsManager()
+				->setOption( $user, $set, $setVal );
 		}
 
 		Hooks::run( 'GetPreferences', [ $user, &$prefs ] );
