@@ -83,6 +83,7 @@ class NewHTMLCheckField extends HTMLCheckField {
 		// Use the same output as for the HTML version, otherwise OOUIHTMLForm would use
 		// a plain checkbox, inherited from HTMLCheckField. This isn't actually a widget
 		// (just a HTML string) but that's okay, HTMLFormField::getOOUI() will handle it.
+		// @phan-suppress-next-line PhanTypeMismatchReturn
 		return $this->getInputHTML( $value );
 	}
 

@@ -242,12 +242,12 @@ class Hooks {
 					 $user->getOption( $autoEnroll[$info['group']] ) === HTMLFeatureField::OPTION_ENABLED;
 			}
 
-			$exemptAutoEnroll = ( $info['exempt-from-auto-enrollment'] ?? false ) === true
-				|| ( $info['disabled'] ?? false ) === true;
+			$exemptAutoEnroll = ( $info['exempt-from-auto-enrollment'] ?? false )
+				|| ( $info['disabled'] ?? false );
 			$autoEnrollHere = !$exemptAutoEnroll
-				&& ( $autoEnrollAll === true || $autoEnrollForThisPref === true );
+				&& ( $autoEnrollAll || $autoEnrollForThisPref );
 
-			if ( $autoEnrollHere === true ) {
+			if ( $autoEnrollHere ) {
 				// Preferences controlled by the auto-enroller can't be changed individually when it's on
 				$prefs[$key]['disabled'] = true;
 
