@@ -333,6 +333,19 @@ class Hooks {
 	}
 
 	/**
+	 * Add default preferences values
+	 *
+	 * @param array &$defaultOptions Array of preference keys and their default values.
+	 */
+	public static function onUserGetDefaultOptions( &$defaultOptions ) {
+		global $wgBetaFeatures;
+
+		foreach ( $wgBetaFeatures as $key => $_ ) {
+			$defaultOptions[$key] = false;
+		}
+	}
+
+	/**
 	 * @param array &$vars
 	 */
 	public static function onMakeGlobalVariablesScript( array &$vars ) {

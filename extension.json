@@ -28,6 +28,7 @@
 	"Hooks": {
 		"SaveUserOptions": "MediaWiki\\Extension\\BetaFeatures\\Hooks::updateUserCounts",
 		"GetPreferences": "MediaWiki\\Extension\\BetaFeatures\\Hooks::getPreferences",
+		"UserGetDefaultOptions": "MediaWiki\\Extension\\BetaFeatures\\Hooks::onUserGetDefaultOptions",
 		"PersonalUrls": "MediaWiki\\Extension\\BetaFeatures\\Hooks::getBetaFeaturesLink",
 		"LoadExtensionSchemaUpdates": "MediaWiki\\Extension\\BetaFeatures\\Hooks::getSchemaUpdates",
 		"MakeGlobalVariablesScript": "MediaWiki\\Extension\\BetaFeatures\\Hooks::onMakeGlobalVariablesScript",
@@ -84,6 +85,9 @@
 	},
 	"TestAutoloadClasses": {
 		"BetaFeaturesTestCase": "tests/phpunit/BetaFeaturesTestCase.php"
+	},
+	"DefaultUserOptions": {
+		"betafeatures-auto-enroll": false
 	},
 	"manifest_version": 2
 }
