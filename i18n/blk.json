@@ -5,9 +5,13 @@
 		]
 	},
 	"betafeatures-extension-type": "စမ်ꩻအပွုံႏအငုဲင်ꩻဖုံႏ",
+	"betafeatures-section-desc": "{{SITENAME}}တာႏ {{PLURAL:$1|အပွိုင်အဆင်တသာတဗာႏ|အပွိုင်အဆင်တသာယဟန်ႏ}}သွူ။ စံꩻထွားထွူ{{PLURAL:$1|ယို|ယိုဖုံႏ}}တဲင် ဖန်းဖြယ်ဖေႏပါသွော့ထာꩻယူႏ နီသွဥ်းသီးထျ့ꩻသြ။",
 	"betafeatures-toplink": "မူကွဲꩻအစံꩻ",
 	"mw-ui-feature-discuss": "အုံကွံချက်",
 	"mw-ui-feature-info": "သတင်ꩻအချက်လက်",
+	"mw-ui-feature-requirements-browser": "စွဲးကမ်းခါꩻတဝ်း {{PLURAL:$1|ဗရောင်သာ|ဗရောင်သာလ့နဝ်ꩻဖုံႏ}}သွူ:",
+	"mw-ui-feature-requirements-javascript": "အလွိုးအပွုံႏယိုနဝ်ꩻ အဝ်ႏလိုႏ JavaScript သွူ။",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|ကသွုံꩻသားတဖြာꩻ|$1 ကသွုံꩻသားဖုံႏ|0=သွုံꩻသားအဝ်ႏတဝ်း}}နဝ်ꩻ အဝ်ႏနွို့ထွားစံꩻ အလွိုးအပွုံႏယိုသွူ။",
 	"prefs-betafeatures": "စမ်ꩻအပွုံႏအငုဲင်ꩻဖုံႏ",
 	"tooltip-pt-betafeatures": "စမ်ꩻအပွုံႏအငုဲင်ꩻဖုံႏ"
 }
