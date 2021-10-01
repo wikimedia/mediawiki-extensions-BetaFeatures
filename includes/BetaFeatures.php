@@ -50,5 +50,3 @@ class BetaFeatures {
 			->getOption( $user, $feature ) === HTMLFeatureField::OPTION_ENABLED;
 	}
 }
-
-class_alias( BetaFeatures::class, 'BetaFeatures' );

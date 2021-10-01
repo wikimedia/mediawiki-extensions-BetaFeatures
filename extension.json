@@ -79,10 +79,6 @@
 	"SpecialPages": {
 		"BetaFeatures": "MediaWiki\\Extension\\BetaFeatures\\SpecialBetaFeatures"
 	},
-	"AutoloadClasses": {
-		"BetaFeatures": "includes/BetaFeatures.php",
-		"MediaWiki\\Extension\\BetaFeatures\\BetaFeatures": "includes/BetaFeatures.php"
-	},
 	"AutoloadNamespaces": {
 		"MediaWiki\\Extension\\BetaFeatures\\": "includes/"
 	},
