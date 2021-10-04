@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ninjastrikers",
 			"咽頭べさ"
 		]
 	},
 	"betafeatures-extension-type": "စမ်ꩻအပွုံႏအငုဲင်ꩻဖုံႏ",
-	"betafeatures-section-desc": "{{SITENAME}}တာႏ {{PLURAL:$1|အပွိုင်အဆင်တသာတဗာႏ|အပွိုင်အဆင်တသာယဟန်ႏ}}သွူ။ စံꩻထွားထွူ{{PLURAL:$1|ယို|ယိုဖုံႏ}}တဲင် ဖန်းဖြယ်ဖေႏပါသွော့ထာꩻယူႏ နီသွဥ်းသီးထျ့ꩻသြ။",
+	"betafeatures-section-desc": "{{SITENAME}}တာႏ {{PLURAL:$1|အပွိုင်အဆင်တသာတဗာႏ|အပွိုင်အဆင်တသာယဟန်ႏ}}သွူ။ စံꩻထွားထွူ{{PLURAL:$1|ယို|ယိုဖုံႏ}}တဲင် ဖန်းဖြယ်ဖေႏပါသွော့ထာꩻယူႏ နီသွဉ်းသီးထျ့ꩻဩ။",
 	"betafeatures-toplink": "မူကွဲꩻအစံꩻ",
 	"mw-ui-feature-discuss": "အုံကွံချက်",
 	"mw-ui-feature-info": "သတင်ꩻအချက်လက်",
