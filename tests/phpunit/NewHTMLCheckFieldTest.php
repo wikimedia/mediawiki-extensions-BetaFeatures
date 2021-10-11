@@ -30,7 +30,7 @@ use MediaWiki\Extension\BetaFeatures\NewHTMLCheckField;
  *
  * @group BetaFeatures
  */
-class NewHTMLCheckFieldTest extends MediaWikiTestCase {
+class NewHTMLCheckFieldTest extends MediaWikiIntegrationTestCase {
 
 	public function testCreatingFieldGivesExpectedStrings() {
 		$form = new HTMLForm( [

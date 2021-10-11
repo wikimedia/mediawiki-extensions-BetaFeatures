@@ -28,7 +28,7 @@
  *
  * @group BetaFeatures
  */
-class HooksRunTest extends MediaWikiTestCase {
+class HooksRunTest extends MediaWikiIntegrationTestCase {
 
 	/** Key for testing preference */
 	private const TESTPREFKEY = 'unittest';

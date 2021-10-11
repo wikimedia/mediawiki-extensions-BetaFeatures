@@ -26,7 +26,7 @@
 /**
  * @group BetaFeatures
  */
-class BetaFeaturesTestCase extends MediaWikiTestCase {
+class BetaFeaturesTestCase extends MediaWikiIntegrationTestCase {
 
 	/**
 	 * @var User
