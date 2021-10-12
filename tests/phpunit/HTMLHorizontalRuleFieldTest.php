@@ -30,7 +30,7 @@ use MediaWiki\Extension\BetaFeatures\HTMLHorizontalRuleField;
  *
  * @group BetaFeatures
  */
-class HTMLHorizontalRuleFieldTest extends MediaWikiTestCase {
+class HTMLHorizontalRuleFieldTest extends MediaWikiIntegrationTestCase {
 
 	public function testCreatingFieldGivesExpectedStrings() {
 		$form = new HTMLForm( [

@@ -30,7 +30,7 @@ use MediaWiki\Extension\BetaFeatures\HTMLFeatureField;
  *
  * @group BetaFeatures
  */
-class HTMLFeatureFieldTest extends MediaWikiTestCase {
+class HTMLFeatureFieldTest extends MediaWikiIntegrationTestCase {
 
 	public function testCreatingFieldGivesExpectedStrings() {
 		$form = new HTMLForm( [
