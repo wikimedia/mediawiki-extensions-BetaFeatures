@@ -13,7 +13,7 @@
 	"mw-ui-feature-info": "သတင်ꩻအချက်လက်",
 	"mw-ui-feature-requirements-browser": "စွဲးကမ်းခါꩻတဝ်း {{PLURAL:$1|ဗရောင်သာ|ဗရောင်သာလ့နဝ်ꩻဖုံႏ}}သွူ:",
 	"mw-ui-feature-requirements-javascript": "အလွိုးအပွုံႏယိုနဝ်ꩻ အဝ်ႏလိုႏ JavaScript သွူ။",
-	"mw-ui-feature-user-count": "{{PLURAL:$1|ကသွုံꩻသားတဖြာꩻ|$1 ကသွုံꩻသားဖုံႏ|0=သွုံꩻသားအဝ်ႏတဝ်း}}နဝ်ꩻ အဝ်ႏနွို့ထွားစံꩻ အလွိုးအပွုံႏယိုသွူ။",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|ကေားသုင်ꩻသားတဖြာꩻ|$1 ကေားသုင်ꩻသားဖိုင်ႏ|0=ကေားသုင်ꩻသားအဝ်ႏတဝ်း}}နဝ်ꩻ အဝ်ႏနွို့ထွားစံꩻ အလွိုးအပုင်ႏယိုသွူ။",
 	"prefs-betafeatures": "စမ်ꩻအပုင်ႏအငုဲင်ꩻဖုံႏ",
 	"tooltip-pt-betafeatures": "စမ်ꩻအပုင်ႏအငုဲင်ꩻဖုံႏ"
 }
