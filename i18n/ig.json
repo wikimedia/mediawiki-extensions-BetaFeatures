@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ukabia"
+			"Ukabia",
+			"Tochiprecious"
 		]
 	},
+	"betafeatures-toplink": "Beta",
 	"mw-ui-feature-discuss": "Nkpata okà"
 }

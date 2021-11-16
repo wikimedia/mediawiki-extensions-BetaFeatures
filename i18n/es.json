@@ -10,12 +10,13 @@
 			"Ovruni",
 			"Sporeunai",
 			"VegaDark",
-			"Vivaelcelta"
+			"Vivaelcelta",
+			"Jakeukalane"
 		]
 	},
 	"betafeatures-auto-enroll": "Activar automáticamente la mayoría de las funciones beta",
 	"betafeatures-auto-enroll-help": "Algunas características beta pueden tener cambios sorprendentes, por lo que hay que optar por ellas manualmente.",
-	"betafeatures-desc": "Permite al usuario activar o desactivar funciones del wiki que todavía no están listas",
+	"betafeatures-desc": "Permite al usuario activar o desactivar funciones de la wiki que todavía no están listas",
 	"betafeatures-extension-type": "Funciones en pruebas",
 	"betafeatures-section-desc": "Aquí te presentamos {{PLURAL:$1|una función nueva|algunas funciones nuevas}} que estamos considerando para {{SITENAME}}. {{PLURAL:$1|Pruébala|Pruébalas}} y danos tus comentarios, así podremos {{PLURAL:$1|mejorarla|mejorarlas}} con base a tus necesidades.",
 	"betafeatures-toplink": "Beta",
