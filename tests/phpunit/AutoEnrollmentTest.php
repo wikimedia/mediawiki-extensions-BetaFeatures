@@ -175,7 +175,7 @@ class AutoEnrollmentTest extends BetaFeaturesTestCase {
 
 		Hooks::run( 'GetPreferences', [ $user, &$prefs ] );
 
-		$value = $user->getOption( $check );
+		$value = $this->getServiceContainer()->getUserOptionsLookup()->getOption( $user, $check );
 		if ( $expected === null ) {
 			$this->assertNull( $value, $msg );
 		} else {

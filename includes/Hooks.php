@@ -160,9 +160,11 @@ class Hooks {
 		// coming soon to a wiki very near you.
 		MWHooks::run( 'GetBetaFeatureDependencyHooks', [ &$depHooks ] );
 
+		$userOptionsManager = MediaWikiServices::getInstance()->getUserOptionsManager();
 		$autoEnrollSaveSettings = [];
-		$autoEnrollAll =
-			$user->getOption( 'betafeatures-auto-enroll' ) === HTMLFeatureField::OPTION_ENABLED;
+		$autoEnrollAll = $userOptionsManager
+				->getOption( $user, 'betafeatures-auto-enroll' ) === HTMLFeatureField::OPTION_ENABLED;
+
 		$autoEnroll = [];
 
 		foreach ( $betaPrefs as $key => $info ) {
@@ -170,8 +172,6 @@ class Hooks {
 				$autoEnroll[$info['auto-enrollment']] = $key;
 			}
 		}
-
-		$userOptionsManager = MediaWikiServices::getInstance()->getUserOptionsManager();
 
 		foreach ( $betaPrefs as $key => $info ) {
 			// Check if feature should be skipped
@@ -233,13 +233,14 @@ class Hooks {
 			unset( $prefs[$key] );
 			$prefs[$key] = $opt;
 
-			$currentValue = $user->getOption( $key );
+			$currentValue = $userOptionsManager->getOption( $user, $key );
 
 			$autoEnrollForThisPref = false;
 
 			if ( isset( $info['group'] ) && isset( $autoEnroll[$info['group']] ) ) {
 				$autoEnrollForThisPref =
-					 $user->getOption( $autoEnroll[$info['group']] ) === HTMLFeatureField::OPTION_ENABLED;
+					$userOptionsManager->getOption( $user, $autoEnroll[$info['group']] )
+					=== HTMLFeatureField::OPTION_ENABLED;
 			}
 
 			$exemptAutoEnroll = ( $info['exempt-from-auto-enrollment'] ?? false )
@@ -271,7 +272,7 @@ class Hooks {
 				if ( isset( $prefs[$key]['requirements']['betafeatures'] ) ) {
 					$requiredPrefs = [];
 					foreach ( $prefs[$key]['requirements']['betafeatures'] as $preference ) {
-						if ( !$user->getOption( $preference ) ) {
+						if ( !$userOptionsManager->getOption( $user, $preference ) ) {
 							$requiredPrefs[] = $prefs[$preference]['label-message'];
 						}
 					}
