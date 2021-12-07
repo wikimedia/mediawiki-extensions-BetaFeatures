@@ -4,11 +4,12 @@
 			"KartikMistry"
 		]
 	},
-	"betafeatures-auto-enroll": "બધાં નવાં બીટા લક્ષણો આપમેળે સક્રિય કરો",
+	"betafeatures-auto-enroll": "મોટાભાગનાં બીટા લક્ષણો આપમેળે સક્રિય કરો",
 	"betafeatures-extension-type": "બીટા લક્ષણો",
 	"betafeatures-toplink": "બીટા",
 	"mw-ui-feature-discuss": "ચર્ચા",
 	"mw-ui-feature-info": "માહિતી",
+	"mw-ui-feature-user-count": "આ લક્ષણ આટલા સભ્યો વાપરી રહ્યા છે: {{PLURAL:$1|એક સભ્ય|$1 સભ્યો|0=કોઇપણ નહી}}.",
 	"prefs-betafeatures": "બીટા લક્ષણો",
 	"tooltip-pt-betafeatures": "બીટા લક્ષણો"
 }

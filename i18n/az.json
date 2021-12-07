@@ -3,17 +3,18 @@
 		"authors": [
 			"Dağlı95",
 			"Toghrul Rahimli",
-			"Wertuose"
+			"Wertuose",
+			"NMW03"
 		]
 	},
-	"betafeatures-auto-enroll": "Bütün yeni beta funksiyaları aktivləşdir",
+	"betafeatures-auto-enroll": "Bəzi yeni beta funksiyaları aktivləşdir",
 	"betafeatures-auto-enroll-help": "Bəzi beta funksiyalar gözlənilmədən dəyişilə bilər, buna görə {{GENDER:|siz}} onları əl ilə aktivləşdirməlisiniz.",
 	"betafeatures-extension-type": "Beta funksiyalar",
 	"betafeatures-section-desc": "Burada {{SITENAME}} üçün nəzərdə tutduğumuz {{PLURAL:$1|yeni funksiya|bəzi yeni funksiyalarla}} tanış ola bilərsiniz. {{PLURAL:$1|Funksiyanı|Funksiyaları}}  lütfən sınayın və düşüncələrinizi bizimlə paylaşın. Biz sizin rəylərinizə əsaslanaraq {{PLURAL:$1|funksiyanı|funksiyaları}} təkmilləşdiririk.",
-	"betafeatures-toplink": "Beta versiya",
+	"betafeatures-toplink": "Beta",
 	"mw-ui-feature-discuss": "Müzakirə",
 	"mw-ui-feature-info": "Məlumat",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|Bir istifadəçi|$1 istifadəçi|0=0 istifadəçi}} bu funksiyadan istifadə edir.",
-	"prefs-betafeatures": "Beta funksiyalar",
+	"prefs-betafeatures": "Beta funksiyaları",
 	"tooltip-pt-betafeatures": "Beta funksiyalar"
 }

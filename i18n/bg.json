@@ -22,6 +22,6 @@
 	"mw-ui-feature-requirements-javascript": "Тази функционалност изисква JavaScript.",
 	"mw-ui-feature-requirements-skins": "Тази функционалност работи само със {{PLURAL:$1|следния облик|следните облици}}:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|Един потребител тества|$1 потребители тестват|0=Нито един потребител не тества}} тази функционалност.",
-	"prefs-betafeatures": "Тестови функционалности",
+	"prefs-betafeatures": "Бета функционалности",
 	"tooltip-pt-betafeatures": "Бета функционалности"
 }

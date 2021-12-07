@@ -4,7 +4,8 @@
 			"Fohanno",
 			"Fulup",
 			"Gwenn-Ael",
-			"Y-M D"
+			"Y-M D",
+			"Adriendelucca"
 		]
 	},
 	"betafeatures-auto-enroll": "Gweredekaat ent emgefre an holl arc'heladurioù beta nevez",
@@ -15,6 +16,6 @@
 	"mw-ui-feature-requirements-browser": "Ar {{PLURAL:$1|merder-mañ ne c'haller ket ober gantañ|merdeerien-mañ ne c'haller ket ober ganto}} :",
 	"mw-ui-feature-requirements-javascript": "Ezhomm zo eus JavaScript evit an arc'heladur-mañ.",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|Un implijer zo|$1 implijer zo|0=N'eus implijer ebet}} oc'h esaeañ an arc'hweladur-mañ.",
-	"prefs-betafeatures": "Perzhioù beta",
+	"prefs-betafeatures": "Arc'hweladurioù beta",
 	"tooltip-pt-betafeatures": "Perzhioù beta"
 }

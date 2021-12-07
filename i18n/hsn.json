@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Bugoslav"
+			"Bugoslav",
+			"ChoiChong"
 		]
 	},
+	"betafeatures-toplink": "测试",
 	"mw-ui-feature-info": "信息"
 }

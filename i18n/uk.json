@@ -5,7 +5,8 @@
 			"Lystopad",
 			"Movses",
 			"Piramidion",
-			"Ата"
+			"Ата",
+			"DDPAT"
 		]
 	},
 	"betafeatures-auto-enroll": "Автоматично увімкнути максимум бета-функцій",
@@ -20,7 +21,7 @@
 	"mw-ui-feature-requirements-betafeatures": "Ця функція вимагає, щоб {{PLURAL:$1|1=була включена наступна функція|були включені наступні функції}}:",
 	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|1= Наступний веб-переглядач не підтримується|Наступні веб-переглядачі не підтримуються}}:",
 	"mw-ui-feature-requirements-javascript": "Ця функція вимагає JavaScript.",
-	"mw-ui-feature-requirements-skins": "Ця функція працює лише з {{PLURAL:$1|1=наступною темою|однією з наступних тем}}:",
+	"mw-ui-feature-requirements-skins": "Ця функція працює лише з {{PLURAL:$1|1=такою темою|однією з таких тем}}:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|$1 користувач пробує|$1 користувачі пробують|$1 користувачів пробують|0=Жоден користувач не пробує}} цю функцію.",
 	"prefs-betafeatures": "Бета-функції",
 	"tooltip-pt-betafeatures": "Бета-функції"
