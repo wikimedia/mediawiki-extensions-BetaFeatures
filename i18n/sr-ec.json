@@ -8,15 +8,17 @@
 			"Zoranzoki21"
 		]
 	},
-	"betafeatures-auto-enroll": "Аутоматски омогући све нове бета функције",
-	"betafeatures-auto-enroll-help": "Неке бета функције могу имати изненадне промене, те {{GENDER:|морате}} да их ручно укључите.",
+	"betafeatures-auto-enroll": "Аутоматски укључи већину бета функција",
+	"betafeatures-auto-enroll-help": "Неке бета функције {{GENDER:|треба}} да укључите ручно, јер могу имати изненадне промене.",
+	"betafeatures-desc": "Омогућава кориснику да укључи или искључи функције на пројекту које су још у изради",
 	"betafeatures-extension-type": "Бета функције",
 	"betafeatures-section-desc": "Ово {{PLURAL:$1|је нова функција коју|су нове функције које}} разматрамо за пројекат {{SITENAME}}. Испробајте {{PLURAL:$1|је|их}} и реците нам шта мислите да бисмо {{PLURAL:$1|је|их}} побољшали на основу ваших повратних информација.",
 	"betafeatures-toplink": "Бета",
 	"mw-ui-feature-discuss": "Разговор",
 	"mw-ui-feature-info": "Информације",
 	"mw-ui-feature-requirements-betafeatures": "За ову могућност потребно је омогућити {{PLURAL:$1|следећу могућност|следеће могућности}}:",
-	"mw-ui-feature-requirements-javascript": "За ову могућност је потребна JavaScript-а.",
+	"mw-ui-feature-requirements-javascript": "Функција захтева JavaScript.",
+	"mw-ui-feature-requirements-skins": "Функција ради само у {{PLURAL:$1|следећој теми|следећим темама}}:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|Један корисник је укључио ову функцију.|Ову функцију су укључила $1 корисника.|Ову функцију је укључило $1 корисника.|0=Ниједан корисник није укључио ову функцију.}}",
 	"prefs-betafeatures": "Бета функције",
 	"tooltip-pt-betafeatures": "Бета функције"

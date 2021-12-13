@@ -5,10 +5,11 @@
 			"Hello903hello",
 			"Ktchankt",
 			"Suzukaze-c",
-			"Yueman"
+			"Yueman",
+			"Z423x5c6"
 		]
 	},
-	"betafeatures-auto-enroll": "自動開所有新功能",
+	"betafeatures-auto-enroll": "自動開所有測試功能",
 	"betafeatures-extension-type": "試用版功能",
 	"betafeatures-section-desc": "下面{{PLURAL:$1|係}}我哋準備喺{{SITENAME}}開嘅新功能。請幫手測試同提供寶貴反饋畀我哋，幫我哋改進。",
 	"betafeatures-toplink": "試用",

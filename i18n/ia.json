@@ -5,11 +5,13 @@
 			"McDutchie"
 		]
 	},
-	"betafeatures-auto-enroll": "Activar automaticamente tote le nove functionalitate beta",
+	"betafeatures-auto-enroll": "Activar automaticamente le major parte del functionalitate beta",
+	"betafeatures-auto-enroll-help": "Alcun functiones beta pote comportar cambiamentos surprendente, e pro iste ration {{GENDER:|tu}} debe activar los manualmente.",
 	"betafeatures-desc": "Permitte que le usator activa o disactiva functionalitate in le wiki que non ha ancora essite perfectionate",
 	"betafeatures-extension-type": "Functionalitate beta",
 	"betafeatures-section-desc": "Ecce {{PLURAL:$1|un function nove|alcun functionalitate nove}} que nos considera pro {{SITENAME}}. Per favor essaya lo e dice nos tu opinion, de sorta que nos pote meliorar lo.",
 	"betafeatures-toplink": "Beta",
+	"betafeatures-feature-autoenrolled": "Function activate automaticamente",
 	"mw-ui-feature-discuss": "Discussion",
 	"mw-ui-feature-info": "Information",
 	"mw-ui-feature-requirements-betafeatures": "Iste function necessita activar le sequente {{PLURAL:$1|function|functiones}}:",

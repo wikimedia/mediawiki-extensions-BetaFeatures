@@ -5,10 +5,11 @@
 			"Elisardojm",
 			"Macofe",
 			"Toliño",
-			"Vivaelcelta"
+			"Vivaelcelta",
+			"ArenaL5"
 		]
 	},
-	"betafeatures-auto-enroll": "Activar automaticamente todas as novas características en probas",
+	"betafeatures-auto-enroll": "Activar automaticamente case todas as novas características en probas",
 	"betafeatures-desc": "Permite que o usuario active ou desactive as características do wiki que aínda non están listas para o seu uso xeneralizado",
 	"betafeatures-extension-type": "Características en probas",
 	"betafeatures-section-desc": "Aquí hai {{PLURAL:$1|unha característica nova|algunhas características novas}} que estamos considerando para {{SITENAME}}. {{PLURAL:$1|Próbea|Próbeas}} e achéguenos a súa opinión, para que poidamos {{PLURAL:$1|mellorala|melloralas}}.",

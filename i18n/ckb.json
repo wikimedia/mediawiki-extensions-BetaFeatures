@@ -3,16 +3,19 @@
 		"authors": [
 			"Calak",
 			"Sarchia",
-			"Épine"
+			"Épine",
+			"Halbast",
+			"ئارام بکر"
 		]
 	},
-	"betafeatures-auto-enroll": "بە شێوەی خۆگەڕ ھەموو تایبەتمەندییە نوێکانی بیتا چالاک بکە",
-	"betafeatures-extension-type": "تایبەتمەندییەکانی بێتا",
+	"betafeatures-auto-enroll": "بە شێوەی خۆگەڕ زۆرینەی تایبەتمەندییە نوێکانی بیتا چالاک بکە",
+	"betafeatures-auto-enroll-help": "لەوانەیە هەندێک تایبەتمەندیی بیتا گۆڕانکاریی کتوپڕیان هەبێت، بۆیە دەبێت بەدەست {{GENDER:|هەڵیان بژێریت}}.",
+	"betafeatures-extension-type": "تایبەتمەندییەکانی بیتا",
 	"betafeatures-section-desc": "لێرەدا چەند ئامرازێکی نوێ دادەنرێن بۆ تاقیکردنەوەی گشتی پێش ئەوەی زیادیان بکەینە {{SITENAME}}ەوە. تکایە تاقیان بکەنەوە و بۆچوونی خۆتمان پێ بڵێ تاکوو ئەگەر ھاتوو کێشەیەکیان ھەبوو چارەسەریان بکەین.",
-	"betafeatures-toplink": "بێتا",
+	"betafeatures-toplink": "بیتا",
 	"mw-ui-feature-discuss": "وتووێژ",
 	"mw-ui-feature-info": "زانیاری",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|بەکارھێنەرێک|$1 بەکارھێنەر|0=ھیچ بەکارھێنەرێک}} ئەم ئامرازە بەکاردەبات.",
-	"prefs-betafeatures": "تایبەتمەندییەکانی بێتا",
-	"tooltip-pt-betafeatures": "تایبەتمەندییەکانی بێتا"
+	"prefs-betafeatures": "تایبەتمەندییەکانی بیتا",
+	"tooltip-pt-betafeatures": "تایبەتمەندییەکانی بیتا"
 }

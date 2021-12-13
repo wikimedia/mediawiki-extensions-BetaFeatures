@@ -1,13 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Gitartha.bordoloi"
+			"Gitartha.bordoloi",
+			"Simbu123"
 		]
 	},
 	"betafeatures-auto-enroll": "স্বয়ংক্ৰিয়ভাৱে সকলো বিটা বৈশিষ্ট সক্ৰিয় কৰক",
+	"betafeatures-auto-enroll-help": "কিছুমান বিটা বৈশিষ্টৰ অগতানুগতিক পৰিৱৰ্তন হ'ব পাৰে আৰু সেয়েহে {{GENDER:|আপুনি}} নিজেই বাছনি কৰিব লাগিব।",
 	"betafeatures-desc": "সদস্যসকলক এই ৱিকিত সম্পূৰ্ণ সাজু নোহোৱা বৈশিষ্টবোৰ সক্ৰিয় বা নিষ্ক্ৰিয় কৰিবলৈ দিয়ক",
 	"betafeatures-extension-type": "বিটা বৈশিষ্টসমূহ",
-	"betafeatures-section-desc": "{{SITENAME}}ৰ বাবে বিবেচনা কৰা এয়া {{PLURAL:$1|এটা নতুন বৈশিষ্ট|কেইটামান নতুন বৈশিষ্ট}}। অনুগ্ৰহ কৰি {{PLURAL:$1|এইটো|এইবোৰ}} ব্যৱহাৰ কৰি চাওক আৰু আপোনাৰ মনৰ ভাৱ জনাওক যাতে আমি আপোনাৰ মতামতৰ ওপৰত ভিত্তি কৰি {{PLURAL:$1|এইটো|এইবোৰ}} উন্নত কৰিব পাৰোঁ।",
+	"betafeatures-section-desc": "{{SITENAME}}ৰ বাবে বিবেচনা কৰা এয়া {{PLURAL:$1|এটা নতুন বৈশিষ্ট|কেইটামান নতুন বৈশিষ্ট}}। অনুগ্ৰহ কৰি {{PLURAL:$1|এইটো|এইবোৰ}} ব্যৱহাৰ কৰি চাওক আৰু আপোনাৰ মতামত জনাওক যাতে আমি আপোনাৰ মতামতৰ ওপৰত ভিত্তি কৰি {{PLURAL:$1|এইটো|এইবোৰ}} উন্নত কৰিব পাৰোঁ।",
 	"betafeatures-toplink": "বিটা",
 	"mw-ui-feature-discuss": "আলোচনা",
 	"mw-ui-feature-info": "তথ্য",
@@ -15,7 +17,7 @@
 	"mw-ui-feature-requirements-browser": "নিম্নলিখিত {{PLURAL:$1|ব্ৰাউজাৰ|ব্ৰাউজাৰসমূহ}} সমৰ্থিত নহয়:",
 	"mw-ui-feature-requirements-javascript": "এই বৈশিষ্টৰ বাবে জাভাস্ক্ৰিপ্টৰ প্ৰয়োজন।",
 	"mw-ui-feature-requirements-skins": "এই বৈশিষ্টই কেৱল তলৰ {{PLURAL:$1|আৱৰণৰ|আৱৰণসমূহৰ}} লগতহে কাম কৰে:",
-	"mw-ui-feature-user-count": "{{PLURAL:$1|এজন সদস্যই|$1 জন সদস্যই|0=কোনো সদস্যই}} এই বৈশিষ্ট্য সক্ৰিয় {{PLURAL:$1|কৰিছে|0=কৰা নাই}}।",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|এজন সদস্যই|$1জন সদস্যই|0=কোনো সদস্যই}} এই বৈশিষ্ট্য সক্ৰিয় {{PLURAL:$1|কৰিছে|0=কৰা নাই}}।",
 	"prefs-betafeatures": "বিটা বৈশিষ্টসমূহ",
 	"tooltip-pt-betafeatures": "বিটা বৈশিষ্টসমূহ"
 }

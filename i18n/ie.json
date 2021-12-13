@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Stavanger7"
+			"Stavanger7",
+			"Mithridates"
 		]
 	},
-	"betafeatures-toplink": "Beta"
+	"betafeatures-toplink": "Beta",
+	"tooltip-pt-betafeatures": "Beta functionalitás"
 }

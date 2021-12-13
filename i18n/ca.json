@@ -5,10 +5,11 @@
 			"Fitoschido",
 			"Macofe",
 			"QuimGil",
-			"Vriullop"
+			"Vriullop",
+			"Mguix"
 		]
 	},
-	"betafeatures-auto-enroll": "Habilita automàticament totes les funcionalitats beta noves",
+	"betafeatures-auto-enroll": "Habilita automàticament la majoria de funcions beta",
 	"betafeatures-desc": "Permet a l'usuari activar o desactivar funcionalitats en el wiki que encara no són a punt per a una estrena oficial.",
 	"betafeatures-extension-type": "Funcionalitats beta",
 	"betafeatures-section-desc": "Aquí teniu {{PLURAL:$1|una nova funcionalitat|noves funcionalitats}} que estem considerant per a {{SITENAME}}. Si us plau, proveu-les i compartiu les vostres opinions. Així podrem millorar-les en base als vostres comentaris.",
@@ -20,6 +21,6 @@
 	"mw-ui-feature-requirements-javascript": "Aquesta funcionalitat requereix JavaScript.",
 	"mw-ui-feature-requirements-skins": "Aquesta funcionalitat només funciona amb {{PLURAL:$1|aquesta plantilla|aquestes plantilles}}:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|Un usuari està|$1 usuaris estan|0=Cap usuari està}} provant aquesta funcionalitat.",
-	"prefs-betafeatures": "Funcionalitats beta",
+	"prefs-betafeatures": "Característiques de la beta",
 	"tooltip-pt-betafeatures": "Funcionalitats beta"
 }

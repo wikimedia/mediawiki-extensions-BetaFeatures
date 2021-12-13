@@ -4,13 +4,15 @@
 			"Macofe",
 			"Matěj Suchánek",
 			"Michaelbrabec",
-			"Mormegil"
+			"Mormegil",
+			"Patriccck",
+			"Patrik L."
 		]
 	},
 	"betafeatures-auto-enroll": "Automaticky zapnout většinu funkcí v beta verzi",
 	"betafeatures-auto-enroll-help": "Změny některých funkcí v beta verzi mohou být překvapivé, takže si je {{GENDER:|musíte}} zapnout ručně.",
 	"betafeatures-desc": "Umožňuje uživatelům zapínat a vypínat nové funkce, které zatím nejsou zcela odladěné",
-	"betafeatures-extension-type": "Betaverze",
+	"betafeatures-extension-type": "Beta verze",
 	"betafeatures-section-desc": "Zde {{PLURAL:$1|je nová funkce, kterou|jsou nové funkce, které}} zvažujeme pro použití na {{grammar:6sg|{{SITENAME}}}}. Vyzkoušejte {{PLURAL:$1|ji|je}} a dejte nám vědět, ať {{PLURAL:$1|ji|je}} na základě vašich názorů můžeme vylepšovat.",
 	"betafeatures-toplink": "Beta",
 	"betafeatures-feature-autoenrolled": "Automaticky zapnutá funkce",
@@ -21,6 +23,6 @@
 	"mw-ui-feature-requirements-javascript": "Tato funkce vyžaduje JavaScript.",
 	"mw-ui-feature-requirements-skins": "Tato funkce je k dispozici jen v {{PLURAL:$1|následujícím vzhledu|následujících vzhledech}}:",
 	"mw-ui-feature-user-count": "Tuto funkci {{PLURAL:$1|zkouší jeden uživatel|zkouší $1 uživatelé|zkouší $1 uživatelů|0=nikdo nezkouší}}.",
-	"prefs-betafeatures": "Betaverze",
-	"tooltip-pt-betafeatures": "Betaverze"
+	"prefs-betafeatures": "Beta verze",
+	"tooltip-pt-betafeatures": "Beta verze"
 }

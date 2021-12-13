@@ -14,6 +14,7 @@
 	"betafeatures-extension-type": "Béta funkciók",
 	"betafeatures-section-desc": "Itt {{PLURAL:$1|egy|néhány}} olyan új funkciót látsz, amit idővel be szeretnénk vezetni a(z) {{SITENAME}} wikin. Próbáld {{PLURAL:$1|ki|ki őket}}, és mondd el a véleményed, hogy javítani tudjunk {{PLURAL:$1|rajta|rajtuk}} a visszajelzésed alapján.",
 	"betafeatures-toplink": "Béta",
+	"betafeatures-feature-autoenrolled": "Automatikusan bekapcsolt funkció",
 	"mw-ui-feature-discuss": "megbeszélés",
 	"mw-ui-feature-info": "Információ",
 	"mw-ui-feature-requirements-betafeatures": "A használatához be kell kapcsolni {{PLURAL:$1|ezt a funkciót|ezeket a funkciókat}} is:",

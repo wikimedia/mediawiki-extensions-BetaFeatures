@@ -21,6 +21,6 @@
 	"mw-ui-feature-requirements-javascript": "Šī funkcija izmanto JavaScript.",
 	"mw-ui-feature-requirements-skins": "Šī iespēja strādā tikai ar {{PLURAL:$1|šīm apdarēm|šo apdari|šīm apdarēm}}:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|$1 dalībnieki izmēģina šo funkciju|$1 dalībnieks izmēģina šo funkciju|$1 dalībnieki izmēģina šo funkciju|0=Neviens dalībnieks neizmēģina šo funkciju}}.",
-	"prefs-betafeatures": "Bēta funkcijas",
+	"prefs-betafeatures": "Bēta iespējas",
 	"tooltip-pt-betafeatures": "Beta iespējas"
 }

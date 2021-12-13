@@ -4,15 +4,22 @@
 			"Chaduvari",
 			"Ravichandra",
 			"Veeven",
-			"Visdaviva"
+			"Visdaviva",
+			"Arjunaraoc"
 		]
 	},
-	"betafeatures-auto-enroll": "దాదాపు అన్ని బీటా సౌలభ్యాలను చేతనించు",
+	"betafeatures-auto-enroll": "దాదాపు అన్ని బీటా సౌలభ్యాలను చేతనం చేయి",
+	"betafeatures-auto-enroll-help": "కొన్ని బీటా అంశాల్లో ఊహించని మార్పులు ఉండే అవకాశం ఉంది. అంచేత వీటిని మానవికంగా {{GENDER:|ఎంచుకోవాలి}}.",
 	"betafeatures-extension-type": "బీటా విశేషాలు",
+	"betafeatures-section-desc": "{{SITENAME}} లో {{PLURAL:$1|ఈ కొత్త అంశాన్ని|కింది కొత్త అంశాలను}} చేర్చాలని ఆలోచిస్తున్నాం. {{PLURAL:$1|దాన్ని|వాటిని}} వాడి, మీ ఆలోచనలను మాకు చెప్పండి. మీ సూచనల ప్రకారం {{PLURAL:$1|దాన్ని|వాటిని}} మెరుగుపరుస్తాం.",
 	"betafeatures-toplink": "బీటా",
 	"mw-ui-feature-discuss": "చర్చ",
 	"mw-ui-feature-info": "సమాచారం",
+	"mw-ui-feature-requirements-betafeatures": "ఈ అంశాన్ని వాడాలంటే కింది {{PLURAL:$1|అంశం|అంశాలు}} చేతనమై ఉండాలి:",
+	"mw-ui-feature-requirements-browser": "కింది {{PLURAL:$1|బ్రౌజరుకు|బ్రౌజర్లకు}} యోగ్యత లేదు:",
 	"mw-ui-feature-requirements-javascript": "ఈ సౌలభ్యానికి జావాస్క్రిప్టు కావాలి.",
-	"prefs-betafeatures": "బీటా సౌలభ్యాలు",
+	"mw-ui-feature-requirements-skins": "ఈ అంశం {{PLURAL:$1|కింది రూపుతో|కింది రూపులతో}} మాత్రమే పనిచేస్తుంది:",
+	"mw-ui-feature-user-count": "ఈ అంశాన్ని {{PLURAL:$1|ఒక్క వాడుకరి వాడుతున్నారు.|$1 మంది వాడుకరులు వాడుతున్నారు.|0=ఎవరూ వాడడం లేదు.}}",
+	"prefs-betafeatures": "బీటా అంశాలు",
 	"tooltip-pt-betafeatures": "బీటా సౌలభ్యాలు"
 }

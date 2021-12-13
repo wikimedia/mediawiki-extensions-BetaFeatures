@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Bugoslav"
+			"Bugoslav",
+			"Filipinayzd"
 		]
 	},
+	"betafeatures-toplink": "Beta",
 	"mw-ui-feature-info": "Impormasyon"
 }

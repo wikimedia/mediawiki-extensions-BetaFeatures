@@ -15,7 +15,7 @@
 	},
 	"betafeatures-auto-enroll": "自動開啟大多數的測試階段新功能",
 	"betafeatures-auto-enroll-help": "一些測試階段新功能會有大幅度修改，因此{{GENDER:|您}}必須手動選擇。",
-	"betafeatures-desc": "允許使用者開啟或關閉 Wiki 上尚未準備完成的功能",
+	"betafeatures-desc": "允許使用者啟用或停用 wiki 上尚未準備完成的功能",
 	"betafeatures-extension-type": "測試功能",
 	"betafeatures-section-desc": "目前我們正在考慮於{{SITENAME}}提供下列{{PLURAL:$1|新功能}}。需要麻煩您試用這些功能並提供您的意見，讓我們能夠根據您的回饋意見做改進。",
 	"betafeatures-toplink": "測試",
@@ -25,7 +25,7 @@
 	"mw-ui-feature-requirements-betafeatures": "此功能需要開啟下列{{PLURAL:$1|功能|功能}}：",
 	"mw-ui-feature-requirements-browser": "不支援下列{{PLURAL:$1|瀏覽器}}：",
 	"mw-ui-feature-requirements-javascript": "此功能需要使用 JavaScript。",
-	"mw-ui-feature-requirements-skins": "此功能只能用於下列{{PLURAL:$1|佈景主題}}：",
+	"mw-ui-feature-requirements-skins": "此功能只能用於下列{{PLURAL:$1|外觀}}：",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|$1 位使用者|0=尚無使用者}}正在試用此功能。",
 	"prefs-betafeatures": "測試功能",
 	"tooltip-pt-betafeatures": "測試功能"

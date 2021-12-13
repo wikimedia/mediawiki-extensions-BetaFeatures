@@ -5,17 +5,17 @@
 			"Mehtab ahmed"
 		]
 	},
-	"betafeatures-auto-enroll": "سڀ نيون آزمائشي خوبيون پاڻمرادو قابلِڪار ڪيو",
-	"betafeatures-extension-type": "آزمائشي خوبيون",
-	"betafeatures-section-desc": "ھتي {{PLURAL:$1|ھڪ نئين خوبي آھي|ڪجھ نيون خوبيون آھن}} جيڪي اسان {{SITENAME}} لاءِ ذھن ۾ رکي رھيا آھيون. براءِ مھرباني {{PLURAL:$1|ان کي|انھن کي}} آزمايو ۽ اسان کي پنھنجون سوچون ڏيو، تہ جيئن اسان {{PLURAL:$1|ان کي|انھن کي}} توھان جي پذيرائي مطابق بھتر بڻائي سگھون.",
+	"betafeatures-auto-enroll": "گهڻيون تڻيون نيون آزمائشي خصوصيتون پاڻمرادو فعال ڪريو",
+	"betafeatures-extension-type": "آزمائشي خصوصيتون",
+	"betafeatures-section-desc": "ھتي {{PLURAL:$1|ھڪ نئين خصوصيت آھي|ڪجهہ نيون خصوصيتون آھن}} جيڪي اسان {{SITENAME}} لاءِ ذھن ۾ رکي رھيا آھيون. مھرباني فرمائي {{PLURAL:$1|ان کي|انھن کي}} آزمايو ۽ اسان کي پنھنجون سوچون ڏيو، تہ جيئن اسان {{PLURAL:$1|ان کي|انھن کي}} توھان جي موٽ مطابق بھتر بڻائي سگهون.",
 	"betafeatures-toplink": "آزمائشي",
 	"mw-ui-feature-discuss": "بحث",
 	"mw-ui-feature-info": "معلومات",
-	"mw-ui-feature-requirements-betafeatures": "ھي خوبي ھيٺيان {{PLURAL:$1|خوبي|خوبيون}} قابلِڪار ھجڻ گھري ٿي:",
+	"mw-ui-feature-requirements-betafeatures": "ھي خصوصيت ھيٺ ڏنل {{PLURAL:$1|خصوصيت|خصوصيتون}} قابلِڪار ھجڻ گهري ٿي:",
 	"mw-ui-feature-requirements-browser": "ھيٺيون/ھيٺيان {{PLURAL:$1|برائوزر|برائوزرس}} سپورٽ نٿو/نٿا ڪيو/ڪيا وڃي/وڃن:",
-	"mw-ui-feature-requirements-javascript": "ھي خوبي جاوا اسڪرپٽ گھري ٿي",
-	"mw-ui-feature-requirements-skins": "ھي خصوصيت رڳو {{PLURAL:$1|ھيٺين چمڙي|ھيٺين چمڙين}} سان ڪم ڪري ٿي.",
-	"mw-ui-feature-user-count": "ھن خوبيءَ کي {{PLURAL:$1|ھڪ رڪن آزمائي رھيو آھي|$1 رڪن آزمائي رھيا آھن|0=ڪو بہ رڪن نہ آزمائي رھيو آھي}}.",
-	"prefs-betafeatures": "آزمائشي خوبيون",
-	"tooltip-pt-betafeatures": "آزمائشي خوبيون"
+	"mw-ui-feature-requirements-javascript": "ھي خصوصيت جاوااسڪرپٽ گهري ٿي.",
+	"mw-ui-feature-requirements-skins": "ھي خصوصيت رڳو {{PLURAL:$1|ھيٺين ظاھري ڏيک|ھيٺين ظاھر ڏيکن}} سان ڪم ڪري ٿي.",
+	"mw-ui-feature-user-count": "ھن خصوصيت کي {{PLURAL:$1|ھڪ واپرائيندڙ آزمائي رھيو آھي|$1 واپرائيندڙَ آزمائي رھيا آھن|0=ڪو بہ واپرائيندڙ نہ آزمائي رھيو آھي}}.",
+	"prefs-betafeatures": "آزمائشي خصوصيتون",
+	"tooltip-pt-betafeatures": "آزمائشي خصوصيتون"
 }

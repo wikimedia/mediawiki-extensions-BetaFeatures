@@ -1,9 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mybluberet"
+			"Mybluberet",
+			"Amire80",
+			"JiveJay"
 		]
 	},
 	"betafeatures-toplink": "Bita",
+	"mw-ui-feature-info": "Sane",
 	"tooltip-pt-betafeatures": "Beta he su"
 }

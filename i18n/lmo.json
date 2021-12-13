@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Salvemm el lombard"
+		]
+	},
+	"betafeatures-auto-enroll": "L'ativa in automatich la pupart di fonzion sperimentai",
+	"betafeatures-auto-enroll-help": "Desgià che l'è possibil che i fonzion sperimentai i faghen di cambiament a l'imprevista, {{GENDER:|te}} gh'hee de ativai a man.",
+	"betafeatures-desc": "El permet a l'utent de ativà o disativà in sul wiki di fonzion sperimentai ch'a inn nananmò pronte per el grand publich.",
+	"betafeatures-extension-type": "Istrument sperimentai",
+	"betafeatures-section-desc": "{{PLURAL:$1|Questa l'è ona carateristica sperimental noeuva|Queste chì a inn di carateristiche sperimentai noeuve}} che semm 'dree a toeu in esam per {{SITENAME}}. Te podet {{PLURAL:$1|provala|provai}} e dinn cosa te 'n penset, de manera che podaremm {{PLURAL:$1|migliorala|migliorai}} a segonda di to coment.",
+	"betafeatures-toplink": "Beta",
+	"betafeatures-feature-autoenrolled": "Fonzion de registrazzion automatica",
+	"mw-ui-feature-discuss": "Discussion",
+	"mw-ui-feature-info": "Informazzion",
+	"mw-ui-feature-requirements-betafeatures": "Questa fonzion chì la gh'hà besogn che {{PLURAL:$1|la sia ativada quella fonzion chì|'ste fonzion chì i sìen ativade}}:",
+	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|'Sto programa de navigazzion chì l'è minga suportad|'Sti programa de navigazzion chì a inn minga suportad}}:",
+	"mw-ui-feature-requirements-javascript": "Quella fonzion chì la gh'hà besogn de JavaScript.",
+	"mw-ui-feature-requirements-skins": "Quella fonzion chì la và domà con {{PLURAL:$1|quell tema chì|chi temi chì}}:",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|Un utent a l'è|$1 utent a inn|0=Nissun utent a l'è}} dree a provà quella fonzion chì.",
+	"prefs-betafeatures": "Fonzion sperimentai",
+	"tooltip-pt-betafeatures": "Carateristiche sperimentai"
+}

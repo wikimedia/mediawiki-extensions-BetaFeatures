@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"علی ساکی لرستانی"
+			"علی ساکی لرستانی",
+			"Bluehamed"
 		]
 	},
-	"betafeatures-toplink": "بیتا",
-	"tooltip-pt-betafeatures": "ڤیژیگی یل بیتا"
+	"betafeatures-toplink": "بتا",
+	"tooltip-pt-betafeatures": "ڤیژگیٱل بتا"
 }

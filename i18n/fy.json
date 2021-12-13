@@ -6,12 +6,19 @@
 			"Robin0van0der0vliet"
 		]
 	},
-	"betafeatures-auto-enroll": "Alle nije bêtafunksjes automatysk ynskeakelje",
-	"betafeatures-auto-enroll-help": "Guon bêtafunksjes kinne ûnferwachte feroarings meibringe, dat sadwaande moatte {{GENDER:|jo}} hânmjittich  yntekenje.",
+	"betafeatures-auto-enroll": "Bêtafunksjes ornaris automatysk ynskeakelje",
+	"betafeatures-auto-enroll-help": "Guon bêtafunksjes kinne ûnferwachte feroarings meibringe, dat sadwaande moatte {{GENDER:|jo}} hânmjittich yntekenje.",
+	"betafeatures-desc": "Lit de meidogger funksjes op 'e wiki yn- as útskeakelje dy't noch net klear binne foar algemien gebrûk",
+	"betafeatures-extension-type": "Bêtafunksjes",
 	"betafeatures-section-desc": "Hjir {{PLURAL:$1|stiet in nije funksje|steane in pear nije funksjes}} dy't wy yn berie nimme foar {{GRAMMAR:lidw|{{SITENAME}}}}. Soene jo {{PLURAL:$1|dy}} probearje wolle en jo befinings jaan, sadat wy {{PLURAL:$1|it|se}} mei jo weromkeppeling ferbetterje kinne?",
 	"betafeatures-toplink": "Bêta",
+	"betafeatures-feature-autoenrolled": "Automatysk ynskeakele funksje",
 	"mw-ui-feature-discuss": "Diskusje",
 	"mw-ui-feature-info": "Ynformaasje",
+	"mw-ui-feature-requirements-betafeatures": "Dizze funksje freget dat de neikommende {{PLURAL:$1|funksje ynskeakele wurdt|funksjes ynskeakele wurde}}:",
+	"mw-ui-feature-requirements-browser": "De neikommende {{PLURAL:$1|webblêder wurdt|webblêders wurde}} net stipe:",
+	"mw-ui-feature-requirements-javascript": "Dizze funksje freget JavaScript.",
+	"mw-ui-feature-requirements-skins": "Dizze funksje wurket inkeld mei de neikommende {{PLURAL:$1|foarmjouwing|foarmjouwings}}:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|Ien meidogger hat|$1 meidoggers hawwe|0=Gjin meidogger hat}} dizze funksje op probearjen.",
 	"prefs-betafeatures": "Bêtafunksjes",
 	"tooltip-pt-betafeatures": "Bêtafunksjes"

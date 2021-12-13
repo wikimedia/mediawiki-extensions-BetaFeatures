@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Bugoslav",
-			"Midnight Gambler"
+			"Midnight Gambler",
+			"Iohanen"
 		]
 	},
 	"betafeatures-toplink": "Beta",
-	"mw-ui-feature-info": "Informatione"
+	"mw-ui-feature-info": "Informatione",
+	"tooltip-pt-betafeatures": "Beta-Funkzione"
 }

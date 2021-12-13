@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Bugoslav",
-			"Sky Harbor"
+			"Sky Harbor",
+			"GinawaSaHapon"
 		]
 	},
 	"betafeatures-toplink": "Beta",
 	"mw-ui-feature-info": "Kabatiran",
-	"tooltip-pt-betafeatures": "Mga kagamitang nasa beta"
+	"tooltip-pt-betafeatures": "Mga tampok na beta"
 }
