@@ -4,10 +4,11 @@
 			"Ademo",
 			"Amire80",
 			"Guycn2",
+			"YaronSh",
 			"ערן"
 		]
 	},
-	"betafeatures-auto-enroll": "הפעל אוטומטית של רוב אפשרויות הבטא",
+	"betafeatures-auto-enroll": "הפעלה אוטומטית של רוב אפשרויות הבטא",
 	"betafeatures-auto-enroll-help": "בחלק מאפשרויות הבטא החדשות יכולים להיות שינויים מפתיעים, ולכן {{GENDER:|תצטרך|תצטרכי}} להירשם לזה ידנית.",
 	"betafeatures-desc": "מתן אפשרות למשתמש להפעיל או לכבות באתר הוויקי אפשרויות שעדיין אינן מוכנות להוצאה כללית",
 	"betafeatures-extension-type": "אפשרויות בטא",
