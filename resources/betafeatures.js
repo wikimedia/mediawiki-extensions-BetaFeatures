@@ -42,9 +42,6 @@ $( function () {
 				featuresModel[ preference ].widget.setSelected( true );
 			}
 
-			// Mass-disable toggle based on auto-enroll state, as it controls if you can
-			featuresModel[ preference ].widget.setDisabled( selectedState );
-
 			// If it is now disabled, hint to the user why with a tooltip
 			featuresModel[ preference ].widget.setTitle( selectedState ? mw.msg( 'betafeatures-feature-autoenrolled' ) : null );
 		} );
