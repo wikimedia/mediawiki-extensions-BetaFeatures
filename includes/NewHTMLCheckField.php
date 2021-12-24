@@ -27,8 +27,8 @@ namespace MediaWiki\Extension\BetaFeatures;
 
 use Html;
 use HTMLCheckField;
+use HTMLFormFieldLayout;
 use OOUI\CheckboxInputWidget;
-use OOUI\FieldLayout;
 
 class NewHTMLCheckField extends HTMLCheckField {
 
@@ -51,8 +51,14 @@ class NewHTMLCheckField extends HTMLCheckField {
 
 		// TODO: Support $this->getTooltipAndAccessKey?
 
+		$extraParams = [];
+		// Only support disable here, it shouldn't be hide partially
+		if ( isset( $this->mParams['disable-if'] ) ) {
+			$extraParams['classes'] = [ 'mw-htmlform-disable-if' ];
+			$extraParams['condState']['disable'] = $this->mParams['disable-if'];
+		}
 		return Html::openElement( 'div', [ 'class' => 'mw-ui-feature-checkbox' ] ) .
-			new FieldLayout(
+			new HTMLFormFieldLayout(
 				new CheckboxInputWidget( [
 					'infusable' => true,
 					'name' => $this->mName,
@@ -63,9 +69,10 @@ class NewHTMLCheckField extends HTMLCheckField {
 						$this->mParams['disabled'] === true,
 				] ),
 				[
+					'infusable' => true,
 					'align' => 'inline',
 					'label' => $this->mLabel,
-				]
+				] + $extraParams
 			) .
 			Html::closeElement( 'div' );
 	}
