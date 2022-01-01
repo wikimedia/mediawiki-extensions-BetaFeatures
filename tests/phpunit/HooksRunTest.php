@@ -80,7 +80,7 @@ class HooksRunTest extends MediaWikiIntegrationTestCase {
 		$prefs = [];
 		Hooks::run( 'GetBetaFeaturePreferences', [ $this->user, &$prefs ] );
 		$this->assertArrayHasKey( self::TESTPREFKEY, $prefs, 'Hook did not run' );
-		$this->assertEquals(
+		$this->assertSame(
 			$prefs[self::TESTPREFKEY],
 			self::$testPref,
 			'The returned preference was not the same as what we registered.'

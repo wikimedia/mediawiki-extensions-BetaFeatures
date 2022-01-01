@@ -95,7 +95,7 @@ class AutoEnrollmentTest extends BetaFeaturesTestCase {
 
 			[
 				'betafeatures-auto-enroll',
-				HTMLFeatureField::OPTION_ENABLED,
+				true,
 				'unittest-ft1',
 				HTMLFeatureField::OPTION_ENABLED,
 				'Hooks did not set the preference though global auto-enroll was set.',
@@ -135,7 +135,7 @@ class AutoEnrollmentTest extends BetaFeaturesTestCase {
 
 			[
 				'betafeatures-auto-enroll',
-				HTMLFeatureField::OPTION_ENABLED,
+				true,
 				'unittest-ft2',
 				HTMLFeatureField::OPTION_ENABLED,
 				'Hooks did not set the preference though global auto-enroll was set.',
@@ -143,7 +143,7 @@ class AutoEnrollmentTest extends BetaFeaturesTestCase {
 
 			[
 				'betafeatures-auto-enroll',
-				HTMLFeatureField::OPTION_ENABLED,
+				true,
 				'unittest-ft3',
 				null,
 				'The preferences was not set despite auto-enroll ' .
@@ -179,7 +179,7 @@ class AutoEnrollmentTest extends BetaFeaturesTestCase {
 		if ( $expected === null ) {
 			$this->assertNull( $value, $msg );
 		} else {
-			$this->assertEquals( $expected, $value, $msg );
+			$this->assertSame( $expected, $value, $msg );
 		}
 	}
 }

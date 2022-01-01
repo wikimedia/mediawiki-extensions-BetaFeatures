@@ -47,10 +47,12 @@ class PreferenceHandlingTest extends BetaFeaturesTestCase {
 			'discussion-link' => 'http://example.org/feedback',
 		];
 
-		$validPrefPostHook = $validPref;
-		$validPrefPostHook['class'] = HTMLFeatureField::class;
-		$validPrefPostHook['section'] = 'betafeatures';
-		$validPrefPostHook['disable-if'] = [ '===', 'betafeatures-auto-enroll', '1' ];
+		$validPrefPostHook = [
+			'class' => HTMLFeatureField::class,
+			'section' => 'betafeatures',
+			'disable-if' => [ '===', 'betafeatures-auto-enroll', '1' ],
+		];
+		$validPrefPostHook += $validPref;
 
 		return [
 			[ 'Invalid preference should cause an error', $invalidPref, null ],
@@ -78,7 +80,7 @@ class PreferenceHandlingTest extends BetaFeaturesTestCase {
 			Hooks::run( 'GetPreferences', [ $this->user, &$prefs ] );
 		} catch ( BetaFeaturesMissingFieldException $e ) {
 			if ( $expected === null ) {
-				$this->assertEquals( BetaFeaturesMissingFieldException::class, get_class( $e ) );
+				$this->assertSame( BetaFeaturesMissingFieldException::class, get_class( $e ) );
 				return;
 			} else {
 				throw $e;
@@ -89,7 +91,7 @@ class PreferenceHandlingTest extends BetaFeaturesTestCase {
 			$this->fail( $msg );
 		} else {
 			$this->assertArrayHasKey( $prefkey, $prefs );
-			$this->assertEquals( $expected, $prefs[$prefkey] );
+			$this->assertSame( $expected, $prefs[$prefkey] );
 		}
 	}
 }

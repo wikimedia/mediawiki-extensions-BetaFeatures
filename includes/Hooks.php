@@ -164,8 +164,7 @@ class Hooks {
 
 		$userOptionsManager = MediaWikiServices::getInstance()->getUserOptionsManager();
 		$autoEnrollSaveSettings = [];
-		$autoEnrollAll = $userOptionsManager
-				->getOption( $user, 'betafeatures-auto-enroll' ) === HTMLFeatureField::OPTION_ENABLED;
+		$autoEnrollAll = $userOptionsManager->getBoolOption( $user, 'betafeatures-auto-enroll' );
 
 		$autoEnroll = [];
 
