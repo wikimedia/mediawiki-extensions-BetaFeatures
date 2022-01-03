@@ -11,7 +11,7 @@
 			{
 				"name": "number",
 				"type": "integer",
-				"options": { "length": 255, "notnull": true, "default": 0 }
+				"options": { "notnull": true, "default": 0 }
 			}
 		],
 		"indexes": [],
