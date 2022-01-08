@@ -29,7 +29,6 @@ use DatabaseUpdater;
 use DeferredUpdates;
 use Exception;
 use Hooks as MWHooks;
-use JobQueueGroup;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\User\UserIdentity;
 use ObjectCache;
@@ -94,9 +93,11 @@ class Hooks {
 
 		$betaFeatures = $wgBetaFeatures;
 
-		$user = MediaWikiServices::getInstance()->getUserFactory()->newFromUserIdentity( $user );
+		$services = MediaWikiServices::getInstance();
+		$user = $services->getUserFactory()->newFromUserIdentity( $user );
 		MWHooks::run( 'GetBetaFeaturePreferences', [ $user, &$betaFeatures ] );
 
+		$jobs = [];
 		foreach ( $betaFeatures as $name => $option ) {
 			if ( !array_key_exists( $name, $modifiedOptions ) ) {
 				continue;
@@ -111,11 +112,12 @@ class Hooks {
 				continue;
 			}
 			// Enqueue a job to update the count for this preference
-			JobQueueGroup::singleton()->push(
-				new UpdateBetaFeatureUserCountsJob(
-					[ 'prefs' => [ $name ] ]
-				)
+			$jobs[] = new UpdateBetaFeatureUserCountsJob(
+				[ 'prefs' => [ $name ] ]
 			);
+		}
+		if ( $jobs !== [] ) {
+			$services->getJobQueueGroupFactory()->makeJobQueueGroup()->push( $jobs );
 		}
 	}
 
