@@ -26,13 +26,58 @@
 namespace MediaWiki\Extension\BetaFeatures;
 
 use Html;
+use HTMLCheckField;
+use HTMLFormFieldLayout;
+use OOUI\CheckboxInputWidget;
 use OOUI\IconWidget;
 use WebRequest;
 
-class HTMLFeatureField extends NewHTMLCheckField {
+class HTMLFeatureField extends HTMLCheckField {
 
 	public const OPTION_ENABLED = '1';
 	public const OPTION_DISABLED = '0';
+
+	/**
+	 * @param string $value
+	 * @return string
+	 */
+	protected function getCheckboxHTML( $value ) {
+		if ( !empty( $this->mParams['invert'] ) ) {
+			$value = !$value;
+		}
+
+		$out = $this->mParent->getOutput();
+		$out->addModules( 'ext.betaFeatures' );
+		$out->addModuleStyles( 'ext.betaFeatures.styles' );
+		$out->enableOOUI();
+
+		// TODO: Support $this->getTooltipAndAccessKey?
+
+		$extraParams = [];
+		// Only support disable here, it shouldn't be hide partially
+		if ( isset( $this->mParams['disable-if'] ) ) {
+			$extraParams['classes'] = [ 'mw-htmlform-disable-if' ];
+			$extraParams['condState']['disable'] = $this->mParams['disable-if'];
+		}
+		return Html::openElement( 'div', [ 'class' => 'mw-ui-feature-checkbox' ] ) .
+			new HTMLFormFieldLayout(
+				new CheckboxInputWidget( [
+					'infusable' => true,
+					'name' => $this->mName,
+					'selected' => $value,
+					'value' => 1,
+					'classes' => $this->mClass ? [ $this->mClass ] : [],
+					'disabled' => isset( $this->mParams['disabled'] ) &&
+						$this->mParams['disabled'] === true,
+				] ),
+				[
+					'infusable' => true,
+					'align' => 'inline',
+					'label' => $this->mLabel,
+				] + $extraParams
+			) .
+			Html::closeElement( 'div' );
+	}
 
 	/**
 	 * @param string $value
@@ -270,6 +315,22 @@ class HTMLFeatureField extends NewHTMLCheckField {
 				$this->getHeaderHTML( $value ) . $this->getMainHTML( $value )
 			)
 		);
+	}
+
+	/** @inheritDoc */
+	public function getInputOOUI( $value ) {
+		// Use the same output as for the HTML version, otherwise OOUIHTMLForm would use
+		// a plain checkbox, inherited from HTMLCheckField. This isn't actually a widget
+		// (just a HTML string) but that's okay, HTMLFormField::getOOUI() will handle it.
+		// @phan-suppress-next-line PhanTypeMismatchReturn
+		return $this->getInputHTML( $value );
+	}
+
+	/** @inheritDoc */
+	protected function getFieldLayoutOOUI( $inputField, $config ) {
+		// Label is already included in the field's HTML, do not duplicate it
+		unset( $config['label'] );
+		return parent::getFieldLayoutOOUI( $inputField, $config );
 	}
 
 	/**

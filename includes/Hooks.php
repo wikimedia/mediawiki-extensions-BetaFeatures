@@ -143,7 +143,7 @@ class Hooks {
 		];
 
 		$prefs['betafeatures-auto-enroll'] = [
-			'class' => NewHTMLCheckField::class,
+			'type' => 'check',
 			'label-message' => 'betafeatures-auto-enroll',
 			'help-message' => 'betafeatures-auto-enroll-help',
 			'section' => 'betafeatures',
