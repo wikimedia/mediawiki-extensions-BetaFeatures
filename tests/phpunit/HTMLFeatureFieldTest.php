@@ -52,7 +52,7 @@ class HTMLFeatureFieldTest extends MediaWikiIntegrationTestCase {
 				'message' => 'Table row with class name not found.',
 			],
 			[
-				'pattern' => "#<input type='checkbox' tabindex='0' aria-disabled='false' " .
+				'pattern' => "#<input type='checkbox' tabindex='0' (?:aria-disabled='false' )?" .
 					"name='wpblahblahblah' value='1' id='ooui-php-\d+' class='oo-ui-inputWidget-input' />#",
 				'message' => 'Styled checkbox input not found.',
 			],
