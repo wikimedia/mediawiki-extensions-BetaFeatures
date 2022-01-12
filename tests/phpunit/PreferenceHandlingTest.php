@@ -50,6 +50,7 @@ class PreferenceHandlingTest extends BetaFeaturesTestCase {
 		$validPrefPostHook = $validPref;
 		$validPrefPostHook['class'] = HTMLFeatureField::class;
 		$validPrefPostHook['section'] = 'betafeatures';
+		$validPrefPostHook['disable-if'] = [ '===', 'betafeatures-auto-enroll', '1' ];
 
 		return [
 			[ 'Invalid preference should cause an error', $invalidPref, null ],
