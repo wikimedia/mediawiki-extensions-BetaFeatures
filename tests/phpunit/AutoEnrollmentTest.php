@@ -23,8 +23,6 @@
  * @license GNU General Public License version 2 or later
  */
 
-use MediaWiki\Extension\BetaFeatures\HTMLFeatureField;
-
 /**
  * @covers \MediaWiki\Extension\BetaFeatures\Hooks::getPreferences
  *
@@ -93,7 +91,7 @@ class AutoEnrollmentTest extends BetaFeaturesTestCase {
 
 			[
 				[ 'betafeatures-auto-enroll' => true ],
-				[ 'unittest-ft1' => HTMLFeatureField::OPTION_ENABLED ],
+				[ 'unittest-ft1' => true ],
 				'Hooks did not set the preference though global auto-enroll was set.',
 			],
 
@@ -104,8 +102,8 @@ class AutoEnrollmentTest extends BetaFeaturesTestCase {
 			],
 
 			[
-				[ 'unittest-all' => HTMLFeatureField::OPTION_ENABLED ],
-				[ 'unittest-ft1' => HTMLFeatureField::OPTION_ENABLED ],
+				[ 'unittest-all' => true ],
+				[ 'unittest-ft1' => true ],
 				'Hooks did not set the preference though group auto-enroll was set.',
 			],
 
@@ -116,14 +114,14 @@ class AutoEnrollmentTest extends BetaFeaturesTestCase {
 			],
 
 			[
-				[ 'unittest-all' => HTMLFeatureField::OPTION_ENABLED ],
-				[ 'unittest-ft2' => HTMLFeatureField::OPTION_ENABLED ],
+				[ 'unittest-all' => true ],
+				[ 'unittest-ft2' => true ],
 				'Hooks did not set the preference though grandparent group auto-enroll was set.',
 			],
 
 			[
 				[ 'betafeatures-auto-enroll' => true ],
-				[ 'unittest-ft2' => HTMLFeatureField::OPTION_ENABLED ],
+				[ 'unittest-ft2' => true ],
 				'Hooks did not set the preference though global auto-enroll was set.',
 			],
 
@@ -164,7 +162,8 @@ class AutoEnrollmentTest extends BetaFeaturesTestCase {
 			if ( $expected === null ) {
 				$this->assertNull( $value, $msg );
 			} else {
-				$this->assertSame( $expected, $value, $msg );
+				$this->assertNotNull( $value, $msg );
+				$this->assertSame( $expected, $manager->getBoolOption( $user, $key ), $msg );
 			}
 		}
 	}

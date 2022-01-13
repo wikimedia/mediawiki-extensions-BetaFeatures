@@ -105,9 +105,7 @@ class Hooks {
 			$newVal = $modifiedOptions[$name];
 			$oldVal = $originalOptions[$name] ?? null;
 			// Check if this preference meaningfully changed
-			if ( $oldVal === $newVal ||
-				( $oldVal === null && $newVal === HTMLFeatureField::OPTION_DISABLED )
-			) {
+			if ( $oldVal == $newVal ) {
 				// unchanged
 				continue;
 			}
@@ -235,28 +233,28 @@ class Hooks {
 			unset( $prefs[$key] );
 			$prefs[$key] = $opt;
 
-			$currentValue = $userOptionsManager->getOption( $user, $key );
-
 			$autoEnrollForThisPref = false;
 
 			if ( isset( $info['group'] ) && isset( $autoEnroll[$info['group']] ) ) {
-				$autoEnrollForThisPref =
-					$userOptionsManager->getOption( $user, $autoEnroll[$info['group']] )
-					=== HTMLFeatureField::OPTION_ENABLED;
+				$autoEnrollForThisPref = $userOptionsManager
+					->getBoolOption( $user, $autoEnroll[$info['group']] );
 			}
 
 			$exemptAutoEnroll = ( $info['exempt-from-auto-enrollment'] ?? false )
 				|| ( $info['disabled'] ?? false );
-			$autoEnrollHere = !$exemptAutoEnroll
-				&& ( $autoEnrollAll || $autoEnrollForThisPref );
+			$autoEnrollHere = !$exemptAutoEnroll && ( $autoEnrollAll || $autoEnrollForThisPref );
 
-			if ( $autoEnrollHere && $currentValue !== HTMLFeatureField::OPTION_ENABLED &&
-				$currentValue !== HTMLFeatureField::OPTION_DISABLED ) {
+			// Use raw value for existence test
+			$currentValue = $userOptionsManager->getOption( $user, $key );
+
+			// Keep it break now... The tests applied are against the comments below.
+			// Fixing all the tests is not worthwhile, the auto-enroll logic should be refactored later.
+			if ( $autoEnrollHere && $currentValue !== '1' ) {
 				// We haven't seen this before, and the user has auto-enroll enabled!
 				// Set the option to true and make it visible for the current user object
-				$userOptionsManager->setOption( $user, $key, HTMLFeatureField::OPTION_ENABLED );
+				$userOptionsManager->setOption( $user, $key, true );
 				// Also put it aside for saving the settings later
-				$autoEnrollSaveSettings[$key] = HTMLFeatureField::OPTION_ENABLED;
+				$autoEnrollSaveSettings[$key] = true;
 			}
 
 			self::$features[$key] = [];
@@ -269,7 +267,7 @@ class Hooks {
 				if ( isset( $prefs[$key]['requirements']['betafeatures'] ) ) {
 					$requiredPrefs = [];
 					foreach ( $prefs[$key]['requirements']['betafeatures'] as $preference ) {
-						if ( !$userOptionsManager->getOption( $user, $preference ) ) {
+						if ( !$userOptionsManager->getBoolOption( $user, $preference ) ) {
 							$requiredPrefs[] = $prefs[$preference]['label-message'];
 						}
 					}

@@ -51,7 +51,8 @@ class UpdateBetaFeatureUserCountsJob extends Job implements GenericParameterJob 
 				'feature' => 'up_property',
 			],
 			[
-				'up_value' => HTMLFeatureField::OPTION_ENABLED,
+				// Database would convert true to '1'
+				'up_value' => '1',
 				'up_property' => $this->params['prefs'],
 			],
 			__METHOD__,

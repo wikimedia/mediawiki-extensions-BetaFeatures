@@ -47,6 +47,6 @@ class BetaFeatures {
 		}
 		return MediaWikiServices::getInstance()
 			->getUserOptionsLookup()
-			->getOption( $user, $feature ) === HTMLFeatureField::OPTION_ENABLED;
+			->getBoolOption( $user, $feature );
 	}
 }

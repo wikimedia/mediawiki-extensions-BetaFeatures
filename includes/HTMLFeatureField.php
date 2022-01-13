@@ -30,13 +30,8 @@ use HTMLCheckField;
 use HTMLFormFieldLayout;
 use OOUI\CheckboxInputWidget;
 use OOUI\IconWidget;
-use WebRequest;
 
 class HTMLFeatureField extends HTMLCheckField {
-
-	public const OPTION_ENABLED = '1';
-	public const OPTION_DISABLED = '0';
-
 	/**
 	 * @param string $value
 	 * @return string
@@ -331,25 +326,5 @@ class HTMLFeatureField extends HTMLCheckField {
 		// Label is already included in the field's HTML, do not duplicate it
 		unset( $config['label'] );
 		return parent::getFieldLayoutOOUI( $inputField, $config );
-	}
-
-	/**
-	 * Override to use integers, so we don't lose the database rows on
-	 * unset...
-	 * @param WebRequest $request
-	 * @return string
-	 * @suppress PhanParamSignatureMismatch
-	 */
-	public function loadDataFromRequest( $request ) {
-		$res = parent::loadDataFromRequest( $request );
-
-		if ( $res === true ) {
-			return self::OPTION_ENABLED;
-		} elseif ( $res === false ) {
-			return self::OPTION_DISABLED;
-		} else {
-			// Dunno what happened, but I'm not gonna fight it.
-			return $res;
-		}
 	}
 }
