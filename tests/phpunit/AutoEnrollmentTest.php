@@ -86,66 +86,50 @@ class AutoEnrollmentTest extends BetaFeaturesTestCase {
 	public static function provideTestData() {
 		return [
 			[
-				null,
-				null,
-				'unittest-ft1',
-				null,
+				[],
+				[ 'unittest-ft1' => null ],
 				'Hooks set the preference though auto-enroll was not set.'
 			],
 
 			[
-				'betafeatures-auto-enroll',
-				true,
-				'unittest-ft1',
-				HTMLFeatureField::OPTION_ENABLED,
+				[ 'betafeatures-auto-enroll' => true ],
+				[ 'unittest-ft1' => HTMLFeatureField::OPTION_ENABLED ],
 				'Hooks did not set the preference though global auto-enroll was set.',
 			],
 
 			[
-				null,
-				null,
-				'unittest-ft1',
-				null,
+				[],
+				[ 'unittest-ft1' => null ],
 				'Hooks set the preference though group auto-enroll was not set.'
 			],
 
 			[
-				'unittest-all',
-				HTMLFeatureField::OPTION_ENABLED,
-				'unittest-ft1',
-				HTMLFeatureField::OPTION_ENABLED,
+				[ 'unittest-all' => HTMLFeatureField::OPTION_ENABLED ],
+				[ 'unittest-ft1' => HTMLFeatureField::OPTION_ENABLED ],
 				'Hooks did not set the preference though group auto-enroll was set.',
 			],
 
 			[
-				null,
-				null,
-				'unittest-ft2',
-				null,
+				[],
+				[ 'unittest-ft2' => null ],
 				'Hooks set the preference though no auto-enroll was set.'
 			],
 
 			[
-				'unittest-all',
-				HTMLFeatureField::OPTION_ENABLED,
-				'unittest-ft2',
-				HTMLFeatureField::OPTION_ENABLED,
+				[ 'unittest-all' => HTMLFeatureField::OPTION_ENABLED ],
+				[ 'unittest-ft2' => HTMLFeatureField::OPTION_ENABLED ],
 				'Hooks did not set the preference though grandparent group auto-enroll was set.',
 			],
 
 			[
-				'betafeatures-auto-enroll',
-				true,
-				'unittest-ft2',
-				HTMLFeatureField::OPTION_ENABLED,
+				[ 'betafeatures-auto-enroll' => true ],
+				[ 'unittest-ft2' => HTMLFeatureField::OPTION_ENABLED ],
 				'Hooks did not set the preference though global auto-enroll was set.',
 			],
 
 			[
-				'betafeatures-auto-enroll',
-				true,
-				'unittest-ft3',
-				null,
+				[ 'betafeatures-auto-enroll' => true ],
+				[ 'unittest-ft3' => null ],
 				'The preferences was not set despite auto-enroll ' .
 					'because it is exempt-from-auto-enrollment.',
 			],
@@ -164,22 +148,24 @@ class AutoEnrollmentTest extends BetaFeaturesTestCase {
 	/**
 	 * @dataProvider provideTestData
 	 */
-	public function testAutoEnroll( $set, $setVal, $check, $expected, $msg ) {
+	public function testAutoEnroll( $setOption, $checkOption, $msg ) {
 		$user = $this->user;
+		$manager = $this->getServiceContainer()->getUserOptionsManager();
 		$prefs = [];
 
-		if ( $set !== null ) {
-			$this->getServiceContainer()->getUserOptionsManager()
-				->setOption( $user, $set, $setVal );
+		foreach ( $setOption as $key => $value ) {
+			$manager->setOption( $user, $key, $value );
 		}
 
 		Hooks::run( 'GetPreferences', [ $user, &$prefs ] );
 
-		$value = $this->getServiceContainer()->getUserOptionsLookup()->getOption( $user, $check );
-		if ( $expected === null ) {
-			$this->assertNull( $value, $msg );
-		} else {
-			$this->assertSame( $expected, $value, $msg );
+		foreach ( $checkOption as $key => $expected ) {
+			$value = $manager->getOption( $user, $key );
+			if ( $expected === null ) {
+				$this->assertNull( $value, $msg );
+			} else {
+				$this->assertSame( $expected, $value, $msg );
+			}
 		}
 	}
 }
