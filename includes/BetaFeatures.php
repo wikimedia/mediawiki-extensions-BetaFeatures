@@ -26,6 +26,7 @@
 namespace MediaWiki\Extension\BetaFeatures;
 
 use MediaWiki\MediaWikiServices;
+use MediaWiki\User\StaticUserOptionsLookup;
 use MediaWiki\User\UserIdentity;
 
 class BetaFeatures {
@@ -36,17 +37,23 @@ class BetaFeatures {
 	 * @param UserIdentity $user The user identity to check
 	 * @param string $feature The key passed back to BetaFeatures
 	 *     from the GetBetaFeaturePreferences hook
+	 * @param array|null $userOptions Specific state of user options,
+	 *     can be used to handle SaveUserOptions hook.
 	 * @return bool
 	 */
-	public static function isFeatureEnabled( UserIdentity $user, $feature ) {
+	public static function isFeatureEnabled( UserIdentity $user, $feature, $userOptions = null ) {
+		$lookup = MediaWikiServices::getInstance()->getUserOptionsLookup();
+		if ( is_array( $userOptions ) ) {
+			$defaults = $lookup->getDefaultOptions();
+			$lookup = new StaticUserOptionsLookup( [ $user->getName() => $userOptions ], $defaults );
+		}
+
 		global $wgBetaFeaturesWhitelist;
 		if ( is_array( $wgBetaFeaturesWhitelist ) && !in_array( $feature, $wgBetaFeaturesWhitelist ) ) {
 			// If there is a whitelist, and the feature is not whitelisted,
 			// it can't be enabled.
 			return false;
 		}
-		return MediaWikiServices::getInstance()
-			->getUserOptionsLookup()
-			->getBoolOption( $user, $feature );
+		return $lookup->getBoolOption( $user, $feature );
 	}
 }
