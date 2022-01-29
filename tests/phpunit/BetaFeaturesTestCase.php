@@ -34,14 +34,12 @@ class BetaFeaturesTestCase extends MediaWikiIntegrationTestCase {
 	protected $user;
 
 	protected function setUp(): void {
-		global $wgHooks;
-
 		parent::setUp();
 
 		// Avoid interactions with other extensions
-		$newHooks = $wgHooks;
-		$newHooks['GetPreferences'] = [ 'MediaWiki\\Extension\\BetaFeatures\\Hooks::getPreferences' ];
-		$this->setMwGlobals( [ 'wgHooks' => $newHooks ] );
+		$this->setTemporaryHook( 'GetPreferences', [
+			MediaWiki\Extension\BetaFeatures\Hooks::class, 'getPreferences'
+		] );
 
 		$this->user = $this->getMutableTestUser( [ 'unittesters' ] )->getUser();
 	}

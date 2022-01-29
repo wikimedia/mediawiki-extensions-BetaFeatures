@@ -62,7 +62,7 @@ class HooksRunTest extends MediaWikiIntegrationTestCase {
 	 * @param array &$betaPrefs
 	 * @return true
 	 */
-	public static function hookThatRegistersPreference( User $user, array &$betaPrefs ) {
+	public static function registerPreference( User $user, array &$betaPrefs ) {
 		$betaPrefs[self::TESTPREFKEY] = self::$testPref;
 		return true;
 	}
@@ -74,9 +74,7 @@ class HooksRunTest extends MediaWikiIntegrationTestCase {
 	}
 
 	public function testHooksRun() {
-		global $wgHooks;
-
-		$wgHooks['GetBetaFeaturePreferences'] = [ 'HooksRunTest::hookThatRegistersPreference' ];
+		$this->setTemporaryHook( 'GetBetaFeaturePreferences', [ self::class, 'registerPreference' ] );
 		$prefs = [];
 		Hooks::run( 'GetBetaFeaturePreferences', [ $this->user, &$prefs ] );
 		$this->assertArrayHasKey( self::TESTPREFKEY, $prefs, 'Hook did not run' );

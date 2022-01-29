@@ -67,7 +67,7 @@ class DependentFeatureTest extends BetaFeaturesTestCase {
 	 * @param array &$betaPrefs
 	 * @return bool
 	 */
-	public static function hookThatRegistersPreference( User $user, array &$betaPrefs ) {
+	public static function registerPreference( User $user, array &$betaPrefs ) {
 		$betaPrefs[self::TESTPREFKEY] = self::$testPref;
 		return true;
 	}
@@ -77,27 +77,21 @@ class DependentFeatureTest extends BetaFeaturesTestCase {
 	 * @param array &$depHooks
 	 * @return bool
 	 */
-	public static function hookThatRegistersDependency( array &$depHooks ) {
+	public static function registerDependency( array &$depHooks ) {
 		$depHooks[self::TESTPREFKEY] = self::TESTDEPSKEY;
 		return true;
 	}
 
 	protected function setUp(): void {
-		global $wgHooks;
-
 		parent::setUp();
 
-		$wgHooks[self::TESTDEPSKEY] = [];
-		$wgHooks['GetBetaFeaturePreferences'][] =
-			'DependentFeatureTest::hookThatRegistersPreference';
-		$wgHooks['GetBetaFeatureDependencyHooks'][] =
-			'DependentFeatureTest::hookThatRegistersDependency';
+		$this->setTemporaryHook( self::TESTDEPSKEY, [] );
+		$this->setTemporaryHook( 'GetBetaFeaturePreferences', [ self::class, 'registerPreference' ] );
+		$this->setTemporaryHook( 'GetBetaFeatureDependencyHooks', [ self::class, 'registerDependency' ] );
 	}
 
 	public function testPassingDependency() {
-		global $wgHooks;
-
-		$wgHooks[self::TESTDEPSKEY][] = 'DependentFeatureTest::passHook';
+		$this->setTemporaryHook( self::TESTDEPSKEY, [ self::class, 'passHook' ], false );
 
 		$prefs = [];
 
@@ -109,9 +103,7 @@ class DependentFeatureTest extends BetaFeaturesTestCase {
 	}
 
 	public function testFailingDependency() {
-		global $wgHooks;
-
-		$wgHooks[self::TESTDEPSKEY][] = 'DependentFeatureTest::failHook';
+		$this->setTemporaryHook( self::TESTDEPSKEY, [ self::class, 'failHook' ], false );
 
 		$prefs = [];
 

@@ -66,15 +66,14 @@ class PreferenceHandlingTest extends BetaFeaturesTestCase {
 	 * @dataProvider providePreferenceListing
 	 */
 	public function testHandlingOfPreferences( $msg, array $pref, $expected ) {
-		global $wgHooks;
 		$prefkey = self::TESTPREFKEY;
 		$prefs = [];
-		$wgHooks['GetBetaFeaturePreferences'] = [
+		$this->setTemporaryHook( 'GetBetaFeaturePreferences',
 			static function ( User $user, array &$prefs ) use ( $pref, $prefkey ) {
 				$prefs[$prefkey] = $pref;
 				return true;
 			}
-		];
+		);
 
 		try {
 			Hooks::run( 'GetPreferences', [ $this->user, &$prefs ] );

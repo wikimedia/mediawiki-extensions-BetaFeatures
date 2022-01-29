@@ -73,7 +73,7 @@ class AutoEnrollmentTest extends BetaFeaturesTestCase {
 	 * @param array &$betaPrefs
 	 * @return true
 	 */
-	public static function hookThatRegistersPreference( User $user, array &$betaPrefs ) {
+	public static function registerPreference( User $user, array &$betaPrefs ) {
 		foreach ( self::$testPrefs as $key => $testPref ) {
 			$betaPrefs[$key] = $testPref;
 		}
@@ -135,12 +135,9 @@ class AutoEnrollmentTest extends BetaFeaturesTestCase {
 	}
 
 	protected function setUp(): void {
-		global $wgHooks;
-
 		parent::setUp();
 
-		$wgHooks['GetBetaFeaturePreferences'] =
-			[ 'AutoEnrollmentTest::hookThatRegistersPreference' ];
+		$this->setTemporaryHook( 'GetBetaFeaturePreferences', [ self::class, 'registerPreference' ] );
 	}
 
 	/**
