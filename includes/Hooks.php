@@ -84,16 +84,13 @@ class Hooks {
 		array $modifiedOptions,
 		array $originalOptions
 	) {
-		global $wgBetaFeatures;
-
 		if ( !$user->isRegistered() ) {
 			// Anonymous users do not have options, shorten out.
 			return;
 		}
 
-		$betaFeatures = $wgBetaFeatures;
-
 		$services = MediaWikiServices::getInstance();
+		$betaFeatures = $services->getMainConfig()->get( 'BetaFeatures' );
 		$user = $services->getUserFactory()->newFromUserIdentity( $user );
 		MWHooks::run( 'GetBetaFeaturePreferences', [ $user, &$betaFeatures ] );
 
@@ -125,9 +122,10 @@ class Hooks {
 	 * @throws BetaFeaturesMissingFieldException
 	 */
 	public static function getPreferences( User $user, array &$prefs ) {
-		global $wgBetaFeaturesWhitelist, $wgBetaFeatures, $wgHiddenPrefs;
+		$services = MediaWikiServices::getInstance();
+		$mainConfig = $services->getMainConfig();
 
-		$betaPrefs = $wgBetaFeatures;
+		$betaPrefs = $mainConfig->get( 'BetaFeatures' );
 		$depHooks = [];
 
 		MWHooks::run( 'GetBetaFeaturePreferences', [ $user, &$betaPrefs ] );
@@ -160,7 +158,7 @@ class Hooks {
 		// coming soon to a wiki very near you.
 		MWHooks::run( 'GetBetaFeatureDependencyHooks', [ &$depHooks ] );
 
-		$userOptionsManager = MediaWikiServices::getInstance()->getUserOptionsManager();
+		$userOptionsManager = $services->getUserOptionsManager();
 		$autoEnrollSaveSettings = [];
 		$autoEnrollAll = $userOptionsManager->getBoolOption( $user, 'betafeatures-auto-enroll' );
 
@@ -172,16 +170,15 @@ class Hooks {
 			}
 		}
 
+		$hiddenPrefs = $mainConfig->get( 'HiddenPrefs' );
+		$allowlist = $mainConfig->get( 'BetaFeaturesWhitelist' );
 		foreach ( $betaPrefs as $key => $info ) {
 			// Check if feature should be skipped
 			if (
 				// Check if feature is hidden
-				in_array( $key, $wgHiddenPrefs ) ||
+				in_array( $key, $hiddenPrefs ) ||
 				// Check if feature is whitelisted
-				(
-					is_array( $wgBetaFeaturesWhitelist ) &&
-					!in_array( $key, $wgBetaFeaturesWhitelist )
-				) ||
+				( is_array( $allowlist ) && !in_array( $key, $allowlist ) ) ||
 				// Check if dependencies are set but not met
 				(
 					isset( $info['dependent'] ) &&
@@ -278,7 +275,7 @@ class Hooks {
 
 				// Test skin support
 				if ( isset( $prefs[$key]['requirements']['skins'] ) ) {
-					$skinFactory = MediaWikiServices::getInstance()->getSkinFactory();
+					$skinFactory = $services->getSkinFactory();
 					// Remove any skins that aren't installed or users can't choose
 					$prefs[$key]['requirements']['skins'] = array_intersect(
 						/** @phan-suppress-next-line PhanTypeInvalidDimOffset,PhanTypeMismatchArgumentInternal */
@@ -334,9 +331,9 @@ class Hooks {
 	 * @param array &$defaultOptions Array of preference keys and their default values.
 	 */
 	public static function onUserGetDefaultOptions( &$defaultOptions ) {
-		global $wgBetaFeatures;
+		$betaPrefs = MediaWikiServices::getInstance()->getMainConfig()->get( 'BetaFeatures' );
 
-		foreach ( $wgBetaFeatures as $key => $_ ) {
+		foreach ( $betaPrefs as $key => $_ ) {
 			$defaultOptions[$key] = false;
 		}
 	}

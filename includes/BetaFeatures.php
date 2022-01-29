@@ -42,14 +42,15 @@ class BetaFeatures {
 	 * @return bool
 	 */
 	public static function isFeatureEnabled( UserIdentity $user, $feature, $userOptions = null ) {
-		$lookup = MediaWikiServices::getInstance()->getUserOptionsLookup();
+		$services = MediaWikiServices::getInstance();
+		$lookup = $services->getUserOptionsLookup();
 		if ( is_array( $userOptions ) ) {
 			$defaults = $lookup->getDefaultOptions();
 			$lookup = new StaticUserOptionsLookup( [ $user->getName() => $userOptions ], $defaults );
 		}
 
-		global $wgBetaFeaturesWhitelist;
-		if ( is_array( $wgBetaFeaturesWhitelist ) && !in_array( $feature, $wgBetaFeaturesWhitelist ) ) {
+		$allowlist = $services->getMainConfig()->get( 'BetaFeaturesWhitelist' );
+		if ( is_array( $allowlist ) && !in_array( $feature, $allowlist ) ) {
 			// If there is a whitelist, and the feature is not whitelisted,
 			// it can't be enabled.
 			return false;
