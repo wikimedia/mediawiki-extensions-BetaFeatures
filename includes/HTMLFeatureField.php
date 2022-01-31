@@ -52,7 +52,7 @@ class HTMLFeatureField extends HTMLCheckField {
 		// Only support disable here, it shouldn't be hide partially
 		if ( isset( $this->mParams['disable-if'] ) ) {
 			$extraParams['classes'] = [ 'mw-htmlform-disable-if' ];
-			$extraParams['condState']['disable'] = $this->mParams['disable-if'];
+			$extraParams['condState']['disable'] = $this->parseCondState( $this->mParams['disable-if'] );
 		}
 		return Html::openElement( 'div', [ 'class' => 'mw-ui-feature-checkbox' ] ) .
 			new HTMLFormFieldLayout(
