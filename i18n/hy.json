@@ -5,13 +5,15 @@
 			"Vadgt",
 			"Xelgen",
 			"Աշոտ1997",
-			"Դավիթ Սարոյան"
+			"Դավիթ Սարոյան",
+			"Kareyac"
 		]
 	},
 	"betafeatures-extension-type": "Փորձնական հնարավորություններ",
 	"betafeatures-toplink": "Փորձնական",
-	"mw-ui-feature-discuss": "Քննարկում",
+	"mw-ui-feature-discuss": "քննարկում",
 	"mw-ui-feature-info": "Տեղեկատվություն",
+	"mw-ui-feature-requirements-javascript": "Այս հատկությունը պահանջում է JavaScript",
 	"prefs-betafeatures": "Փորձնական հնարավորություններ",
 	"tooltip-pt-betafeatures": "Փորձնական հնարավորություններ"
 }
