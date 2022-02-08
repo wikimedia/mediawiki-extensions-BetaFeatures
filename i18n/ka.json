@@ -5,7 +5,8 @@
 			"David1010",
 			"Dawid Deutschland",
 			"Otogi",
-			"Tokoko"
+			"Tokoko",
+			"Გიო ოქრო"
 		]
 	},
 	"betafeatures-auto-enroll": "ავტომატურად ჩაირთოს ყველა ახალი ბეტა-ფუნქცია",
@@ -21,5 +22,5 @@
 	"mw-ui-feature-requirements-skins": "ეს შესაძლებლობა მუშაობს მხოლოდ შემდეგ {{PLURAL:$1|იერსახესთან|იერსახეებთან}}:",
 	"mw-ui-feature-user-count": "ამ შესაძლებლობას {{PLURAL:$1|ერთი მომხმარებელი|$1 მომხმარებელი|0=არავინ არ}} იყენებს.",
 	"prefs-betafeatures": "ბეტა-ფუნქციები",
-	"tooltip-pt-betafeatures": "ბეტა შესაძლებლობები"
+	"tooltip-pt-betafeatures": "ბეტა-ფუნქციები"
 }
