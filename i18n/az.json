@@ -15,6 +15,6 @@
 	"mw-ui-feature-discuss": "Müzakirə",
 	"mw-ui-feature-info": "Məlumat",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|Bir istifadəçi|$1 istifadəçi|0=0 istifadəçi}} bu funksiyadan istifadə edir.",
-	"prefs-betafeatures": "Beta funksiyaları",
+	"prefs-betafeatures": "Beta funksiyalar",
 	"tooltip-pt-betafeatures": "Beta funksiyalar"
 }
