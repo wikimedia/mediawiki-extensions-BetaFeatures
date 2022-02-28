@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Trondtr"
+			"Trondtr",
+			"Seipinne"
 		]
 	},
 	"betafeatures-toplink": "Beeta",
+	"mw-ui-feature-discuss": "Savâstâllâm",
 	"tooltip-pt-betafeatures": "Beeta-jiešvuođah"
 }
