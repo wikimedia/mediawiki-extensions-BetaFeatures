@@ -400,7 +400,7 @@ class Hooks {
 	 * @param string[] &$extTypes
 	 */
 	public static function onExtensionTypes( array &$extTypes ) {
-		$extTypes['betafeatures'] = wfMessage( 'betafeatures-extension-type' )->escaped();
+		$extTypes['betafeatures'] = wfMessage( 'betafeatures-extension-type' )->text();
 	}
 
 }
