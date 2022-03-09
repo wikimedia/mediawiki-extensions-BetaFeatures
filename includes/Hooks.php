@@ -130,10 +130,14 @@ class Hooks {
 
 		MWHooks::run( 'GetBetaFeaturePreferences', [ $user, &$betaPrefs ] );
 
+		$count = count( $betaPrefs );
 		$prefs['betafeatures-section-desc'] = [
 			'type' => 'info',
-			'default' =>
-				wfMessage( 'betafeatures-section-desc' )->numParams( count( $betaPrefs ) )->parseAsBlock(),
+			'default' => static function () use ( $count ) {
+				return wfMessage( 'betafeatures-section-desc' )
+					->numParams( $count )
+					->parseAsBlock();
+			},
 			'section' => 'betafeatures',
 			'raw' => true,
 		];
