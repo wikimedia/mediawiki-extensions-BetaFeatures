@@ -29,16 +29,32 @@ use DatabaseUpdater;
 use DeferredUpdates;
 use Exception;
 use Hooks as MWHooks;
+use MediaWiki\Hook\ExtensionTypesHook;
+use MediaWiki\Hook\MakeGlobalVariablesScriptHook;
+use MediaWiki\Hook\PersonalUrlsHook;
+use MediaWiki\Installer\Hook\LoadExtensionSchemaUpdatesHook;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Preferences\Hook\GetPreferencesHook;
+use MediaWiki\User\Hook\UserGetDefaultOptionsHook;
+use MediaWiki\User\Options\Hook\SaveUserOptionsHook;
 use MediaWiki\User\UserIdentity;
 use ObjectCache;
+use OutputPage;
 use RequestContext;
 use SkinTemplate;
 use SpecialPage;
 use Title;
 use User;
 
-class Hooks {
+class Hooks implements
+	ExtensionTypesHook,
+	GetPreferencesHook,
+	LoadExtensionSchemaUpdatesHook,
+	MakeGlobalVariablesScriptHook,
+	PersonalUrlsHook,
+	SaveUserOptionsHook,
+	UserGetDefaultOptionsHook
+{
 
 	/**
 	 * @var array An array of each of the available Beta Features, with their requirements, if any.
@@ -75,13 +91,13 @@ class Hooks {
 	 * @see https://www.mediawiki.org/wiki/Manual:Hooks/SaveUserOptions
 	 *
 	 * @param UserIdentity $user User who's just saved their preferences
-	 * @param array $modifiedOptions List of modified options
+	 * @param array &$modifiedOptions List of modified options
 	 * @param array $originalOptions List of original user options
 	 * @throws Exception
 	 */
-	public static function updateUserCounts(
+	public function onSaveUserOptions(
 		UserIdentity $user,
-		array $modifiedOptions,
+		array &$modifiedOptions,
 		array $originalOptions
 	) {
 		if ( !$user->isRegistered() ) {
@@ -121,7 +137,7 @@ class Hooks {
 	 * @param array[] &$prefs
 	 * @throws BetaFeaturesMissingFieldException
 	 */
-	public static function getPreferences( User $user, array &$prefs ) {
+	public function onGetPreferences( $user, &$prefs ) {
 		$services = MediaWikiServices::getInstance();
 		$mainConfig = $services->getMainConfig();
 
@@ -334,7 +350,7 @@ class Hooks {
 	 *
 	 * @param array &$defaultOptions Array of preference keys and their default values.
 	 */
-	public static function onUserGetDefaultOptions( &$defaultOptions ) {
+	public function onUserGetDefaultOptions( &$defaultOptions ) {
 		$betaPrefs = MediaWikiServices::getInstance()->getMainConfig()->get( 'BetaFeatures' );
 
 		foreach ( $betaPrefs as $key => $_ ) {
@@ -344,8 +360,9 @@ class Hooks {
 
 	/**
 	 * @param array &$vars
+	 * @param OutputPage $out
 	 */
-	public static function onMakeGlobalVariablesScript( array &$vars ) {
+	public function onMakeGlobalVariablesScript( &$vars, $out ): void {
 		if ( self::$features ) {
 			// This is added to page view HTML on all articles.
 			// FIXME: Move this to the preferences page somehow, or
@@ -356,14 +373,14 @@ class Hooks {
 
 	/**
 	 * @param array[] &$personal_urls
-	 * @param Title $title
+	 * @param Title &$title
 	 * @param SkinTemplate $skintemplate
 	 */
-	public static function getBetaFeaturesLink(
-		array &$personal_urls,
-		Title $title,
-		SkinTemplate $skintemplate
-	) {
+	public function onPersonalUrls(
+		&$personal_urls,
+		&$title,
+		$skintemplate
+	): void {
 		$user = $skintemplate->getUser();
 		if ( $user->isRegistered() ) {
 			$personal_urls = wfArrayInsertAfter( $personal_urls, [
@@ -382,7 +399,7 @@ class Hooks {
 	/**
 	 * @param DatabaseUpdater $updater
 	 */
-	public static function getSchemaUpdates( DatabaseUpdater $updater ) {
+	public function onLoadExtensionSchemaUpdates( $updater ) {
 		$dbType = $updater->getDB()->getType();
 
 		if ( $dbType === 'mysql' ) {
@@ -403,7 +420,7 @@ class Hooks {
 	/**
 	 * @param string[] &$extTypes
 	 */
-	public static function onExtensionTypes( array &$extTypes ) {
+	public function onExtensionTypes( &$extTypes ) {
 		$extTypes['betafeatures'] = wfMessage( 'betafeatures-extension-type' )->text();
 	}
 

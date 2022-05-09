@@ -23,6 +23,8 @@
  * @license GNU General Public License version 2 or later
  */
 
+use MediaWiki\Extension\BetaFeatures\Hooks as BFHooks;
+
 /**
  * @group BetaFeatures
  */
@@ -37,9 +39,10 @@ class BetaFeaturesTestCase extends MediaWikiIntegrationTestCase {
 		parent::setUp();
 
 		// Avoid interactions with other extensions
-		$this->setTemporaryHook( 'GetPreferences', [
-			MediaWiki\Extension\BetaFeatures\Hooks::class, 'getPreferences'
-		] );
+		$this->setTemporaryHook(
+			'GetPreferences',
+			[ new BFHooks(), 'onGetPreferences' ]
+		);
 
 		$this->user = $this->getMutableTestUser( [ 'unittesters' ] )->getUser();
 	}

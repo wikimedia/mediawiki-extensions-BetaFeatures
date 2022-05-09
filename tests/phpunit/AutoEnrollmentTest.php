@@ -24,7 +24,7 @@
  */
 
 /**
- * @covers \MediaWiki\Extension\BetaFeatures\Hooks::getPreferences
+ * @covers \MediaWiki\Extension\BetaFeatures\Hooks::onGetPreferences
  *
  * @group BetaFeatures
  */

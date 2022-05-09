@@ -26,14 +26,20 @@
 		"betafeatures": "MediaWiki\\Extension\\BetaFeatures\\ApiQueryBetaFeatures"
 	},
 	"Hooks": {
-		"SaveUserOptions": "MediaWiki\\Extension\\BetaFeatures\\Hooks::updateUserCounts",
-		"GetPreferences": "MediaWiki\\Extension\\BetaFeatures\\Hooks::getPreferences",
-		"UserGetDefaultOptions": "MediaWiki\\Extension\\BetaFeatures\\Hooks::onUserGetDefaultOptions",
-		"PersonalUrls": "MediaWiki\\Extension\\BetaFeatures\\Hooks::getBetaFeaturesLink",
-		"LoadExtensionSchemaUpdates": "MediaWiki\\Extension\\BetaFeatures\\Hooks::getSchemaUpdates",
-		"MakeGlobalVariablesScript": "MediaWiki\\Extension\\BetaFeatures\\Hooks::onMakeGlobalVariablesScript",
-		"ExtensionTypes": "MediaWiki\\Extension\\BetaFeatures\\Hooks::onExtensionTypes"
+		"SaveUserOptions": "main",
+		"GetPreferences": "main",
+		"UserGetDefaultOptions": "main",
+		"PersonalUrls": "main",
+		"LoadExtensionSchemaUpdates": "main",
+		"MakeGlobalVariablesScript": "main",
+		"ExtensionTypes": "main"
 	},
+	"HookHandlers": {
+		"main": {
+			"class": "MediaWiki\\Extension\\BetaFeatures\\Hooks"
+		}
+	},
+
 	"MessagesDirs": {
 		"BetaFeatures": [
 			"i18n",
