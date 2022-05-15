@@ -37,7 +37,7 @@ class HTMLHorizontalRuleFieldTest extends MediaWikiIntegrationTestCase {
 			'blahblahblah' => [
 				'class' => HTMLHorizontalRuleField::class,
 			],
-		] );
+		], RequestContext::getMain() );
 		$form->setTitle( Title::newMainPage() );
 		$form->prepareForm();
 		$html = $form->getHTML( false );

@@ -41,7 +41,7 @@ class HTMLFeatureFieldTest extends MediaWikiIntegrationTestCase {
 				'info-link' => 'http://example.org/features',
 				'discussion-link' => 'http://example.org/feedback',
 			],
-		] );
+		], RequestContext::getMain() );
 		$form->setTitle( Title::newMainPage() );
 		$form->prepareForm();
 		$html = $form->getHTML( false );
