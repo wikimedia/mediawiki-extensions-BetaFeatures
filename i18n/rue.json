@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Bugoslav"
+			"Bugoslav",
+			"Gramo6"
 		]
 	},
+	"betafeatures-toplink": "Бета",
 	"mw-ui-feature-info": "Інформація"
 }

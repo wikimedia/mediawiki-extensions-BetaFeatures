@@ -4,10 +4,11 @@
 			"Mechanizatar",
 			"Mikalai Udodau",
 			"Maksim L.",
-			"Chadyka"
+			"Chadyka",
+			"No Sleep till Krupki"
 		]
 	},
-	"betafeatures-auto-enroll": "Аўтаматычна задзейнічаць усе новыя бэта-магчымасці",
+	"betafeatures-auto-enroll": "Аўтаматычна задзейнічаць большасць бэта-магчымасцяў",
 	"betafeatures-auto-enroll-help": "Некаторыя бэта-магчымасці могуць рабіць нечаканыя змены, таму {{GENDER:|вы}} павінны ўключаць іх уручную.",
 	"betafeatures-desc": "Дазваляе карыстальніку ўключаць ці адключаць функцыі, якія яшчэ цалкам не дапрацаваныя",
 	"betafeatures-extension-type": "Бэта-магчымасці",
@@ -21,6 +22,6 @@
 	"mw-ui-feature-requirements-javascript": "Гэта магчымасць патрабуе JavaScript.",
 	"mw-ui-feature-requirements-skins": "Гэтая функцыя працуе толькі з {{PLURAL:$1|наступнай тэмай|наступнымі тэмамі}}:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|$1 удзельнік уключыў|$1 удзельнікі ўключылі|$1 удзельнікаў уключылі|0=Ніхто з удзельнікаў не ўключыў}} гэтую функцыю.",
-	"prefs-betafeatures": "Бэта магчымасці",
+	"prefs-betafeatures": "Бэта-магчымасці",
 	"tooltip-pt-betafeatures": "Бэта-магчымасці"
 }
