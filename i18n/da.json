@@ -7,7 +7,7 @@
 			"Thomsen"
 		]
 	},
-	"betafeatures-auto-enroll": "Aktivér automatisk alle nye betafunktioner",
+	"betafeatures-auto-enroll": "Aktivér automatisk de fleste betafunktioner",
 	"betafeatures-desc": "Lader brugeren aktivere eller deaktivere funktioner på wikien, der stadig ikke er helt færdige",
 	"betafeatures-extension-type": "Betafunktioner",
 	"betafeatures-section-desc": "Her er {{PLURAL:$1|en ny funktion|nogle nye funktioner}} vi overvejer til {{SITENAME}}. Prøv {{PLURAL:$1|den|dem}} og lad os vide hvad du tænker om {{PLURAL:$1|den|dem}}, så vi kan forbedre {{PLURAL:$1|den|dem}} baseret på din tilbagemelding.",
