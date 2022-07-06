@@ -3,14 +3,15 @@
 		"authors": [
 			"Nirajan pant",
 			"बिप्लब आनन्द",
-			"सरोज कुमार ढकाल"
+			"सरोज कुमार ढकाल",
+			"Bada Kaji"
 		]
 	},
 	"betafeatures-auto-enroll": "सबै नयाँ बेटा सुविधाहरूलाई स्वचालित रूपले सक्षम गर्ने",
 	"betafeatures-desc": "प्रयोगकर्ताहरूलाई विकीमा ती सुविधाहरू सक्षम गर्न दिन्छ जुन अहिले सबै द्वारा प्रयोग गर्नका लागि तयार छैन",
 	"betafeatures-extension-type": "बेटा सुविधाहरू",
 	"betafeatures-section-desc": "यो {{PLURAL:$1|एक यस्तो सुविधा हो जसलाई|केही यस्ता सुविधाहरू हुन् जसलाई}} हामी {{SITENAME}} को लागि जाँचदै छौं। कृपया {{PLURAL:$1|यस|यसलाई}} प्रयोग गरेर हेर्नुस र हामीलाई आफ्नो विचार बताउनुहोस्, जसले हामी {{PLURAL:$1|यस|यसलाई}} तपाईंको प्रतिक्रियाहरूको आधारमा अझ राम्रो बनाउन सकौं।",
-	"betafeatures-toplink": "बेटा",
+	"betafeatures-toplink": "परिक्षण",
 	"mw-ui-feature-discuss": "छलफल",
 	"mw-ui-feature-info": "जानकारी",
 	"mw-ui-feature-requirements-betafeatures": "यस सुविधाको लागि निम्न {{PLURAL:$1|सुविधा|सुविधाहरू}} सक्षम गर्नु {{PLURAL:$1|पर्नेछ|पर्नेछ}}:",
@@ -18,6 +19,6 @@
 	"mw-ui-feature-requirements-javascript": "यस सुविधाको लागि जावास्क्रिप्टको आवश्यकता छ।",
 	"mw-ui-feature-requirements-skins": "यो सुविधा मात्रै निम्न {{PLURAL:$1|छाला|छालाहरू}} सँग काम गर्छ:",
 	"mw-ui-feature-user-count": "यस सुविधालाई {{PLURAL:$1|एक प्रयोगकर्ताले|$1 प्रयोगकर्ता ले|0=कुनै पनि प्रयोगकर्ताले}} सक्षम गरेका छन्।",
-	"prefs-betafeatures": "बेटा सुविधाहरू",
+	"prefs-betafeatures": "परिक्षण सुविधाहरू",
 	"tooltip-pt-betafeatures": "बेटा सुविधाहरू"
 }
