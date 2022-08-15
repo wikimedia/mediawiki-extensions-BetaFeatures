@@ -9,13 +9,14 @@
 			"Y-M D"
 		]
 	},
-	"betafeatures-auto-enroll": "Gweredekaat ent emgefre al lodenn vrasañ eus an arc'heladurioù beta nevez",
+	"betafeatures-auto-enroll": "Gweredekaat ent emgefre al lodenn vrasañ eus an arc'hweladurioù beta nevez",
+	"betafeatures-auto-enroll-help": "Arc’wheladurioù beta zo a c’hell degas kemmoù souezhus, neuze e {{GENDER:|rankit}} gweredekaat anezho dre zorn.",
 	"betafeatures-extension-type": "Perzhioù beta",
 	"betafeatures-toplink": "Beta",
 	"mw-ui-feature-discuss": "Kaozeadenn",
 	"mw-ui-feature-info": "Titouroù",
 	"mw-ui-feature-requirements-browser": "Ar {{PLURAL:$1|merder-mañ ne c'haller ket ober gantañ|merdeerien-mañ ne c'haller ket ober ganto}} :",
-	"mw-ui-feature-requirements-javascript": "Ezhomm zo eus JavaScript evit an arc'heladur-mañ.",
+	"mw-ui-feature-requirements-javascript": "Ezhomm zo eus JavaScript evit an arc'hweladur-mañ.",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|Un implijer zo|$1 implijer zo|0=N'eus implijer ebet}} oc'h esaeañ an arc'hweladur-mañ.",
 	"prefs-betafeatures": "Arc'hweladurioù beta",
 	"tooltip-pt-betafeatures": "Perzhioù beta"
