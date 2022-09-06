@@ -2,14 +2,15 @@
 	"@metadata": {
 		"authors": [
 			"Fwolff",
-			"Naudefj"
+			"Naudefj",
+			"Rooiratel"
 		]
 	},
 	"betafeatures-auto-enroll": "Aktiveer alle nuwe beta-funksionaliteit outomaties",
 	"betafeatures-extension-type": "Beta-funksionaliteit",
 	"betafeatures-section-desc": "Hier is {{PLURAL:$1|'n nuwe funksionaliteit|nuwe funksionaliteit}} wat ons oorweeg vir {{SITENAME}}. Probeer {{PLURAL:$1|dit}} gerus en deel u indrukke sodat ons {{PLURAL:$1|dit}} kan verbeter op grond van die terugvoer.",
 	"betafeatures-toplink": "Beta",
-	"mw-ui-feature-discuss": "bespreking",
+	"mw-ui-feature-discuss": "Bespreking",
 	"mw-ui-feature-info": "inligting",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|Een gebruiker|$1 gebruikers|0=Geen gebruikers}} toets tans hierdie funksionaliteit.",
 	"prefs-betafeatures": "Beta-funksionaliteit",
