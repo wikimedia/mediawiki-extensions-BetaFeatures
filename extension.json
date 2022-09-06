@@ -29,7 +29,7 @@
 		"SaveUserOptions": "main",
 		"GetPreferences": "main",
 		"UserGetDefaultOptions": "main",
-		"PersonalUrls": "main",
+		"SkinTemplateNavigation::Universal": "main",
 		"LoadExtensionSchemaUpdates": "main",
 		"MakeGlobalVariablesScript": "main",
 		"ExtensionTypes": "main"

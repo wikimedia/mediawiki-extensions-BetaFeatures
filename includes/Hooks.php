@@ -31,7 +31,7 @@ use Exception;
 use Hooks as MWHooks;
 use MediaWiki\Hook\ExtensionTypesHook;
 use MediaWiki\Hook\MakeGlobalVariablesScriptHook;
-use MediaWiki\Hook\PersonalUrlsHook;
+use MediaWiki\Hook\SkinTemplateNavigation__UniversalHook;
 use MediaWiki\Installer\Hook\LoadExtensionSchemaUpdatesHook;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Preferences\Hook\GetPreferencesHook;
@@ -43,7 +43,6 @@ use OutputPage;
 use RequestContext;
 use SkinTemplate;
 use SpecialPage;
-use Title;
 use User;
 
 class Hooks implements
@@ -51,8 +50,8 @@ class Hooks implements
 	GetPreferencesHook,
 	LoadExtensionSchemaUpdatesHook,
 	MakeGlobalVariablesScriptHook,
-	PersonalUrlsHook,
 	SaveUserOptionsHook,
+	SkinTemplateNavigation__UniversalHook,
 	UserGetDefaultOptionsHook
 {
 
@@ -372,15 +371,18 @@ class Hooks implements
 	}
 
 	/**
-	 * @param array[] &$personal_urls
-	 * @param Title &$title
 	 * @param SkinTemplate $skintemplate
+	 * @param array[] &$links
+	 * @phpcs:disable MediaWiki.NamingConventions.LowerCamelFunctionsName.FunctionName
 	 */
-	public function onPersonalUrls(
-		&$personal_urls,
-		&$title,
-		$skintemplate
+	public function onSkinTemplateNavigation__Universal(
+		$skintemplate,
+		&$links
 	): void {
+		// phpcs:enable MediaWiki.NamingConventions.LowerCamelFunctionsName.FunctionName
+		// using // phpcs:ignore after docblock doesn't work, it shows
+		// MediaWiki.Commenting.FunctionComment.MissingDocumentationPublic
+		$personal_urls = $links['user-menu'] ?? [];
 		$user = $skintemplate->getUser();
 		if ( $user->isRegistered() ) {
 			$personal_urls = wfArrayInsertAfter( $personal_urls, [
@@ -389,11 +391,12 @@ class Hooks implements
 					'href' => SpecialPage::getTitleFor(
 						'Preferences', false, 'mw-prefsection-betafeatures'
 					)->getLinkURL(),
-					'active' => $title->isSpecial( 'Preferences' ),
+					'active' => $skintemplate->getTitle()->isSpecial( 'Preferences' ),
 					'icon' => 'labFlask'
 				],
 			], 'preferences' );
 		}
+		$links['user-menu'] = $personal_urls;
 	}
 
 	/**
