@@ -21,7 +21,7 @@
 	"mw-ui-feature-requirements-browser": "निम्न ब्राउजर समर्थित {{PLURAL:$1|छैन|रहेको छैन}}:",
 	"mw-ui-feature-requirements-javascript": "यस सुविधाको लागि जावास्क्रिप्टको आवश्यकता छ।",
 	"mw-ui-feature-requirements-skins": "यो सुविधा मात्रै निम्न {{PLURAL:$1|छाला|छालाहरू}} सँग काम गर्छ:",
-	"mw-ui-feature-user-count": "यस सुविधालाई {{PLURAL:$1|एक प्रयोगकर्ताले|$1 प्रयोगकर्ता ले|0=कुनै पनि प्रयोगकर्ताले}} सक्षम गरेका छन्।",
+	"mw-ui-feature-user-count": "यस सुविधालाई {{PLURAL:$1|एक प्रयोगकर्ताले|$1 प्रयोगकर्ता ले|0=कुनै पनि प्रयोगकर्ताले}} प्रयोग गर्दै छन्।",
 	"prefs-betafeatures": "परिक्षण सुविधाहरू",
 	"tooltip-pt-betafeatures": "परिक्षण सुविधाहरू"
 }
