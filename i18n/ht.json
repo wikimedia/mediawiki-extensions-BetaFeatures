@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Tisave"
+			"Tisave",
+			"Amire80"
 		]
 	},
 	"betafeatures-toplink": "Beta",
+	"prefs-betafeatures": "Fonksyon beta",
 	"tooltip-pt-betafeatures": "Fonksyon beta"
 }
