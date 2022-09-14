@@ -12,6 +12,7 @@
 	"betafeatures-auto-enroll": "Gweredekaat ent emgefre al lodenn vrasañ eus an arc'hweladurioù beta nevez",
 	"betafeatures-auto-enroll-help": "Arc’wheladurioù beta zo a c’hell degas kemmoù souezhus, neuze e {{GENDER:|rankit}} gweredekaat anezho dre zorn.",
 	"betafeatures-extension-type": "Perzhioù beta",
+	"betafeatures-section-desc": "Setu {{PLURAL:$1|arc’hweladur|arc’hweladurioù}} nevez emaomp o soñjal gweredekaat evit {{SITENAME}}. Esaeit {{PLURAL:$1|anezhañ|anezhi}} ha roit deomp ho soñj evit ma {{PLURAL:$1|vo|vint}} gwellaet hervez ar pezh lavaret ganeoc’h.",
 	"betafeatures-toplink": "Beta",
 	"mw-ui-feature-discuss": "Kaozeadenn",
 	"mw-ui-feature-info": "Titouroù",
