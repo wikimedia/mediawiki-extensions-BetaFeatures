@@ -6,7 +6,8 @@
 			"زكريا",
 			"محمد أحمد عبد الفتاح",
 			"مشعل الحربي",
-			"Mohanad Kh"
+			"Mohanad Kh",
+			"Dr-Taher"
 		]
 	},
 	"betafeatures-auto-enroll": "تفعيل معظم الميزات التجريبية تلقائيًا",
@@ -15,6 +16,7 @@
 	"betafeatures-extension-type": "مزايا تجريبية",
 	"betafeatures-section-desc": "هنا {{PLURAL:$1|ميزة جديدة|مزايا جديدة}} نخطط لإضافتها إلى {{SITENAME}}. نرجو تجربتها وتزويدنا بآرائك حولها، لنتمكن من تحسينها حسب تعليقاتكم.",
 	"betafeatures-toplink": "تجريبي",
+	"betafeatures-feature-autoenrolled": "ميزة التسجيل التلقائي",
 	"mw-ui-feature-discuss": "نقاش",
 	"mw-ui-feature-info": "معلومات",
 	"mw-ui-feature-requirements-betafeatures": "تتطلب هذه الميزة تفعيل {{PLURAL:$1||الميزة التالية|الميزتين التاليتن|المزايا التالية}}:",
