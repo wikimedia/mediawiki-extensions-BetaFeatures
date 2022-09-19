@@ -9,9 +9,9 @@
 	"betafeatures-auto-enroll": "Samodejno omogoči večino preizkusnih funkcij",
 	"betafeatures-auto-enroll-help": "Nekatere beta možnosti imajo lahko presenetljive učinke, zato jih morate aktivirati ročno.",
 	"betafeatures-desc": "Dovoljuje uporabniku omogočiti ali onemogočiti funkcije na wikiju, ki še niso pripravljene za redno uporabo",
-	"betafeatures-extension-type": "Preizkusne funkcije",
+	"betafeatures-extension-type": "Preizkusne možnosti",
 	"betafeatures-section-desc": "Tu {{PLURAL:$1|je nova funkcija|je nekaj novih funkcij}}, ki {{PLURAL:$1|jo|jih}} načrtujemo v projektu {{SITENAME}}. {{PLURAL:$1|Preizkusite jo|Preizkusite jih}} in nam sporočite svoje mnenje, na podlagi katerega {{PLURAL:$1|jo|jih}} bomo poskusili izboljšati.",
-	"betafeatures-toplink": "Preizkusne funkcije",
+	"betafeatures-toplink": "Preizkusne možnosti",
 	"mw-ui-feature-discuss": "Pogovor",
 	"mw-ui-feature-info": "Informacije",
 	"mw-ui-feature-requirements-betafeatures": "Ta možnost zahteva, da {{PLURAL:$1|je omogočena naslednja možnost|so omogočene naslednje možnosti}}:",
@@ -19,6 +19,6 @@
 	"mw-ui-feature-requirements-javascript": "Ta možnost zahteva JavaScript",
 	"mw-ui-feature-requirements-skins": "Ta možnost deluje samo z {{PLURAL:$1|naslednjo preobleko|eno od naslednjih preoblek}}:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|To možnost preizkuša 1 uporabnik|To možnost preizkušata $1 uporabnika|To možnost preizkušajo $1 uporabniki|To možnost preizkuša $1 uporabnikov|0=Te možnosti ne preizkuša noben uporabnik}}.",
-	"prefs-betafeatures": "Preizkusne funkcije",
-	"tooltip-pt-betafeatures": "Preizkusne funkcije"
+	"prefs-betafeatures": "Preizkusne možnosti",
+	"tooltip-pt-betafeatures": "Preizkusne možnosti"
 }
