@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Dbc334",
-			"Janezdrilc"
+			"Janezdrilc",
+			"Eleassar"
 		]
 	},
 	"apihelp-query+betafeatures-description": "Navedi vse betazmožnosti",
 	"apihelp-query+betafeatures-summary": "Prikaži seznam vseh preizkusnih funkcij",
-	"apihelp-query+betafeatures-example-1": "Prikaži vse preizkusne funkcije, ki so na voljo, izpiši, koliko uporabnikov jih ima vklopljene"
+	"apihelp-query+betafeatures-example-1": "Prikaži vse preizkusne možnosti, ki so na voljo, in izpiši, koliko uporabnikov jih ima vklopljene"
 }
