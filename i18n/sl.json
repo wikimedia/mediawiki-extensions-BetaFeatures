@@ -10,7 +10,7 @@
 	"betafeatures-auto-enroll-help": "Nekatere beta možnosti imajo lahko presenetljive učinke, zato jih morate aktivirati ročno.",
 	"betafeatures-desc": "Dovoljuje uporabniku omogočiti ali onemogočiti funkcije na wikiju, ki še niso pripravljene za redno uporabo",
 	"betafeatures-extension-type": "Preizkusne možnosti",
-	"betafeatures-section-desc": "Tu {{PLURAL:$1|je nova funkcija|je nekaj novih funkcij}}, ki {{PLURAL:$1|jo|jih}} načrtujemo v projektu {{SITENAME}}. {{PLURAL:$1|Preizkusite jo|Preizkusite jih}} in nam sporočite svoje mnenje, na podlagi katerega {{PLURAL:$1|jo|jih}} bomo poskusili izboljšati.",
+	"betafeatures-section-desc": "Tu {{PLURAL:$1|je nova funkcija|je nekaj novih funkcij}}, ki {{PLURAL:$1|jo|jih}} načrtujemo v projektu {{SITENAME}}. {{PLURAL:$1|Preizkusite jo|Preizkusite jih}} in nam sporočite svoje mnenje, na podlagi česar {{PLURAL:$1|jo|jih}} bomo poskusili izboljšati.",
 	"betafeatures-toplink": "Preizkusne možnosti",
 	"mw-ui-feature-discuss": "Pogovor",
 	"mw-ui-feature-info": "Informacije",
