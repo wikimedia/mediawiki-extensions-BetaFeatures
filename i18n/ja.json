@@ -9,14 +9,15 @@
 			"Siglite3",
 			"Takot",
 			"Tmv",
-			"Whym"
+			"Whym",
+			"Jaw Salvager"
 		]
 	},
 	"betafeatures-auto-enroll": "すべてのベータ版機能を自動的に有効にする",
-	"betafeatures-auto-enroll-help": "いくつかのベータ版機能には予期しない変更が含まれている可能性があるため、{{GENDER:|あなた}}が手動で有効化する必要があります。",
+	"betafeatures-auto-enroll-help": "ベータ版機能は予期しない変化や変更が生じる可能性があるため、{{GENDER:|あなた}}が手動で有効化する必要があります。",
 	"betafeatures-desc": "本番環境のウィキで使用する準備がまだできていない機能について、利用者が有効化/無効化できるようにする",
 	"betafeatures-extension-type": "ベータ版機能",
-	"betafeatures-section-desc": "{{SITENAME}}のために検討している{{PLURAL:$1|新しい機能}}があります。お試しの上ご意見をお寄せください。そのフィードバックに基づいて機能を改善します。",
+	"betafeatures-section-desc": "これらは{{SITENAME}}で検討している{{PLURAL:$1|新しい機能}}です。お試しの上ご意見をお寄せください。フィードバックに基づいて機能を改善します。",
 	"betafeatures-toplink": "ベータ版",
 	"betafeatures-feature-autoenrolled": "自動登録機能",
 	"mw-ui-feature-discuss": "議論",
