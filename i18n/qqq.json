@@ -26,5 +26,6 @@
 	"mw-ui-feature-requirements-skins": "Error message shown when the skin is not supported.\n\nFollowed by list of skins.\n\nParameters:\n* $1 - number of skins in list",
 	"mw-ui-feature-user-count": "Used to show how many users have enabled a particular feature on the site.\n\nParameters:\n* $1 - number of users",
 	"prefs-betafeatures": "Used as tab title for beta features in [[Special:Preferences]]",
+	"prefs-description-betafeatures": "Used in [[Special:Preferences]] for mobile to describe the Beta features section.",
 	"tooltip-pt-betafeatures": "Tooltip shown when hovering over the  {{msg-mw|betafeatures-toplink}} link in your personal toolbox (upper right side)\n{{Identical|Beta feature}}"
 }
