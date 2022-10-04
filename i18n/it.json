@@ -9,7 +9,8 @@
 			"Fringio",
 			"Gianfranco",
 			"Nemo bis",
-			"Sakretsu"
+			"Sakretsu",
+			"Patafisik WMF"
 		]
 	},
 	"betafeatures-auto-enroll": "Attiva automaticamente la maggior parte delle funzionalità sperimentali",
@@ -17,7 +18,7 @@
 	"betafeatures-desc": "Consente all'utente di attivare o disattivare sul wiki funzionalità sperimentali che non sono ancora pronte per il grande pubblico",
 	"betafeatures-extension-type": "Funzionalità sperimentali",
 	"betafeatures-section-desc": "{{PLURAL:$1|Questa è una nuova funzionalità sperimentale|Queste sono nuove funzionalità sperimentali}} che stiamo prendendo in considerazione per {{SITENAME}}. Puoi {{PLURAL:$1|provarla|provarle}} e dirci cosa ne pensi, così potremo {{PLURAL:$1|migliorarla|migliorarle}} in base ai tuoi commenti.",
-	"betafeatures-toplink": "beta",
+	"betafeatures-toplink": "Beta",
 	"mw-ui-feature-discuss": "Discussione",
 	"mw-ui-feature-info": "Informazioni",
 	"mw-ui-feature-requirements-betafeatures": "Questa funzionalità richiede che {{PLURAL:$1|sia abilitata la seguente|siano abilitate le seguenti}} funzionalità:",
