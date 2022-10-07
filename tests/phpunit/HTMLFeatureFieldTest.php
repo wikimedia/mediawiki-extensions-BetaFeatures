@@ -85,7 +85,7 @@ class HTMLFeatureFieldTest extends MediaWikiIntegrationTestCase {
 		];
 
 		foreach ( $cases as $case ) {
-			$this->assertRegExp(
+			$this->assertMatchesRegularExpression(
 				$case['pattern'],
 				$html,
 				$case['message']
