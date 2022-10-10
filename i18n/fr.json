@@ -32,5 +32,6 @@
 	"mw-ui-feature-requirements-skins": "Cette fonctionnalité fonctionne uniquement avec {{PLURAL:$1|l’habillage suivant|les habillages suivants}} :",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|0=Aucun utilisateur n’a|Un utilisateur a|$1 utilisateurs ont}} activé cette fonctionnalité.",
 	"prefs-betafeatures": "Fonctionnalités bêta",
+	"prefs-description-betafeatures": "Essayez les dernières fonctionnalités en cours d’évolution et donnez votre avis.",
 	"tooltip-pt-betafeatures": "Fonctionnalités bêta"
 }

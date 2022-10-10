@@ -19,5 +19,6 @@
 	"mw-ui-feature-requirements-skins": "Оваа функција работи само со {{PLURAL:$1|следново руво|следниве рува}}:",
 	"mw-ui-feature-user-count": "Функцијата {{PLURAL:$1|ја пробува еден корисник|ја пробуваат $1 корисници|0=не ја пробува никој}}.",
 	"prefs-betafeatures": "Бета-можности",
+	"prefs-description-betafeatures": "Испробајте ги најновите функции во развој и дајте ни ваше мислење.",
 	"tooltip-pt-betafeatures": "Бета-можности"
 }

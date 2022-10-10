@@ -25,5 +25,6 @@
 	"mw-ui-feature-requirements-skins": "Esta funcionalidade requer a utilização {{PLURAL:$1|do seguinte tema|dos seguintes temas}}:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|Um utilizador está|$1 utilizadores estão|0=Nenhum utilizador está}} a experimentar esta funcionalidade.",
 	"prefs-betafeatures": "Funcionalidades beta",
+	"prefs-description-betafeatures": "Experimente as funcionalidades mais recentes cuja implementação está em progresso e dê a sua opinião.",
 	"tooltip-pt-betafeatures": "Funcionalidades beta"
 }

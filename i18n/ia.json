@@ -20,5 +20,6 @@
 	"mw-ui-feature-requirements-skins": "Iste function necessita usar {{PLURAL:$1|le sequente apparentia|un del sequente apparentias}}:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|Un usator|$1 usatores|0=Nemo}} proba iste function.",
 	"prefs-betafeatures": "Functionalitate beta",
+	"prefs-description-betafeatures": "Tenta le ultime functionalitate in curso de disveloppamento e da tu opinion.",
 	"tooltip-pt-betafeatures": "Functionalitate beta"
 }

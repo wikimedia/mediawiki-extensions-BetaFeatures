@@ -23,5 +23,6 @@
 	"mw-ui-feature-requirements-skins": "האפשרות הזאת עובדת רק עם {{PLURAL:$1|העיצוב הבא|העיצובים הבאים}}:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|משתמש אחד מנסה|$1 משתמשים מנסים|0=שום משתמש לא מנסה}} את האפשרות הזאת.",
 	"prefs-betafeatures": "אפשרויות בטא",
+	"prefs-description-betafeatures": "{{GENDER:|נסה|נסי}} את התכונות החדשות בתהליך {{GENDER:|ותן|ותני}} לנו משוב.",
 	"tooltip-pt-betafeatures": "אפשרויות בטא"
 }
