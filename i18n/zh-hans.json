@@ -3,6 +3,7 @@
 		"authors": [
 			"Fantasticfears",
 			"Hudafu",
+			"Lakejason0",
 			"Liangent",
 			"Liuxinyu970226",
 			"Mywood",
@@ -30,5 +31,6 @@
 	"mw-ui-feature-requirements-skins": "该功能仅适用于{{PLURAL:$1|以下皮肤}}：",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|$1个用户正在|0=没有用户}}试用该功能。",
 	"prefs-betafeatures": "测试功能",
+	"prefs-description-betafeatures": "试用最新的开发中功能并提供反馈。",
 	"tooltip-pt-betafeatures": "测试功能"
 }

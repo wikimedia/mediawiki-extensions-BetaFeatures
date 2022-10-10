@@ -20,5 +20,6 @@
 	"mw-ui-feature-requirements-skins": "Diese Funktion funktioniert nur bei {{PLURAL:$1|der folgenden Benutzeroberfläche|den folgenden Benutzeroberflächen}}:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|Ein Benutzer testet|$1 Benutzer testen|0=Kein Benutzer testet}} diese Funktion.",
 	"prefs-betafeatures": "Beta-Funktionen",
+	"prefs-description-betafeatures": "Probiere die neuesten in Entwicklung befindlichen Funktionen aus und gib uns eine Rückmeldung.",
 	"tooltip-pt-betafeatures": "Beta-Funktionen"
 }

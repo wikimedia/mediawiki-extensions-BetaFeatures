@@ -4,6 +4,7 @@
 			"A2093064",
 			"Cwlin0416",
 			"Kly",
+			"Lakejason0",
 			"Liangent",
 			"Liuxinyu970226",
 			"Openerror",
@@ -28,5 +29,6 @@
 	"mw-ui-feature-requirements-skins": "此功能只能用於下列{{PLURAL:$1|外觀}}：",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|$1 位使用者|0=尚無使用者}}正在試用此功能。",
 	"prefs-betafeatures": "測試功能",
+	"prefs-description-betafeatures": "試用最新的開發中功能並提供意見回饋。",
 	"tooltip-pt-betafeatures": "測試功能"
 }

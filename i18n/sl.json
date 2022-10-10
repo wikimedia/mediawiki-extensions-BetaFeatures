@@ -10,7 +10,7 @@
 	"betafeatures-auto-enroll-help": "Nekatere beta možnosti imajo lahko presenetljive učinke, zato jih morate aktivirati ročno.",
 	"betafeatures-desc": "Uporabniku omogoča vklop ali izklop funkcij, ki še niso pripravljene za redno uporabo",
 	"betafeatures-extension-type": "Preizkusne možnosti",
-	"betafeatures-section-desc": "Tu {{PLURAL:$1|je nova funkcija|je nekaj novih funkcij}}, ki {{PLURAL:$1|jo|jih}} načrtujemo v projektu {{SITENAME}}. {{PLURAL:$1|Preizkusite jo|Preizkusite jih}} in nam sporočite svoje mnenje, na podlagi česar {{PLURAL:$1|jo|jih}} bomo poskusili izboljšati.",
+	"betafeatures-section-desc": "Tu {{PLURAL:$1|je nova možnost|sta novi možnosti|so nove možnosti|je nekaj novih možnostij}}, ki {{PLURAL:$1|jo|jih}} načrtujemo v projektu {{SITENAME}}. {{PLURAL:$1|Preizkusite jo|Preizkusite ju|Preizkusite jih}} in nam sporočite svoje mnenje, na podlagi česar {{PLURAL:$1|jo|ju|jih}} bomo poskusili izboljšati.",
 	"betafeatures-toplink": "Preizkusne možnosti",
 	"mw-ui-feature-discuss": "Pogovor",
 	"mw-ui-feature-info": "Informacije",
@@ -20,5 +20,6 @@
 	"mw-ui-feature-requirements-skins": "Ta možnost deluje samo z {{PLURAL:$1|naslednjo preobleko|eno od naslednjih preoblek}}:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|To možnost preizkuša 1 uporabnik|To možnost preizkušata $1 uporabnika|To možnost preizkušajo $1 uporabniki|To možnost preizkuša $1 uporabnikov|0=Te možnosti ne preizkuša noben uporabnik}}.",
 	"prefs-betafeatures": "Preizkusne možnosti",
+	"prefs-description-betafeatures": "Preizkusite najnovejše funkcije, ki so v teku, in pošljite povratne informacije.",
 	"tooltip-pt-betafeatures": "Preizkusne možnosti"
 }

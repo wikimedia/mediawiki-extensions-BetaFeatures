@@ -5,7 +5,8 @@
 			"Maksim L.",
 			"Mechanizatar",
 			"Mikalai Udodau",
-			"No Sleep till Krupki"
+			"No Sleep till Krupki",
+			"Tomato Cream"
 		]
 	},
 	"betafeatures-auto-enroll": "Аўтаматычна задзейнічаць большасць бэта-магчымасцяў",
@@ -23,5 +24,6 @@
 	"mw-ui-feature-requirements-skins": "Гэтая функцыя працуе толькі з {{PLURAL:$1|наступнай тэмай|наступнымі тэмамі}}:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|$1 удзельнік уключыў|$1 удзельнікі ўключылі|$1 удзельнікаў уключылі|0=Ніхто з удзельнікаў не ўключыў}} гэтую функцыю.",
 	"prefs-betafeatures": "Бэта-магчымасці",
+	"prefs-description-betafeatures": "Паспрабуйце найноўшыя функцыі ў стадыі распрацоўкі, і дайце водгук.",
 	"tooltip-pt-betafeatures": "Бэта-магчымасці"
 }

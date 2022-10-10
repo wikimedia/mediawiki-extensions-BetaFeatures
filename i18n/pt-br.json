@@ -30,5 +30,6 @@
 	"mw-ui-feature-requirements-skins": "Este recurso funciona com {{PLURAL:$1|o seguinte skin|os seguintes skins}}:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|Um usuário ativou|$1 usuários ativaram|0=Nenhum usuário ativou}} este recurso.",
 	"prefs-betafeatures": "Recursos beta",
+	"prefs-description-betafeatures": "Experimente as funcionalidades mais recentes cuja implementação está em progresso e dê a sua opinião.",
 	"tooltip-pt-betafeatures": "Recursos beta"
 }
