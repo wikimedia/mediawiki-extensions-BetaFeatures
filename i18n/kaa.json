@@ -1,10 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ajiniyaz Nurniyazov",
 			"Nurlan"
 		]
 	},
 	"betafeatures-extension-type": "Ekilemshi múmkinlikler",
 	"betafeatures-toplink": "Ekilemshi",
-	"prefs-betafeatures": "Ekilemshi múmkinlikler"
+	"prefs-betafeatures": "Ekilemshi múmkinlikler",
+	"prefs-description-betafeatures": "Eń sońǵı paydalanıwdaǵı funksiyalardı sınap kóriń hám pikir bildiriń."
 }
