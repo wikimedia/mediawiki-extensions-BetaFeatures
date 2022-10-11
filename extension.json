@@ -32,6 +32,7 @@
 		"SkinTemplateNavigation::Universal": "main",
 		"LoadExtensionSchemaUpdates": "main",
 		"MakeGlobalVariablesScript": "main",
+		"PreferencesGetIcon": "main",
 		"ExtensionTypes": "main"
 	},
 	"HookHandlers": {

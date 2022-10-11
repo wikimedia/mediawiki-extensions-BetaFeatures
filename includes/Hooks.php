@@ -31,6 +31,7 @@ use Exception;
 use Hooks as MWHooks;
 use MediaWiki\Hook\ExtensionTypesHook;
 use MediaWiki\Hook\MakeGlobalVariablesScriptHook;
+use MediaWiki\Hook\PreferencesGetIconHook;
 use MediaWiki\Hook\SkinTemplateNavigation__UniversalHook;
 use MediaWiki\Installer\Hook\LoadExtensionSchemaUpdatesHook;
 use MediaWiki\MediaWikiServices;
@@ -50,6 +51,7 @@ class Hooks implements
 	GetPreferencesHook,
 	LoadExtensionSchemaUpdatesHook,
 	MakeGlobalVariablesScriptHook,
+	PreferencesGetIconHook,
 	SaveUserOptionsHook,
 	SkinTemplateNavigation__UniversalHook,
 	UserGetDefaultOptionsHook
@@ -342,6 +344,15 @@ class Hooks implements
 				}
 			);
 		}
+	}
+
+	/**
+	 * Add icon for Special:Preferences mobile layout
+	 *
+	 * @param array &$iconNames Array of icon names for their respective sections.
+	 */
+	public function onPreferencesGetIcon( &$iconNames ) {
+		$iconNames[ 'betafeatures' ] = 'labFlask';
 	}
 
 	/**
