@@ -22,5 +22,6 @@
 	"mw-ui-feature-requirements-skins": "Šī iespēja strādā tikai ar {{PLURAL:$1|šīm apdarēm|šo apdari|šīm apdarēm}}:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|$1 dalībnieki izmēģina šo funkciju|$1 dalībnieks izmēģina šo funkciju|$1 dalībnieki izmēģina šo funkciju|0=Neviens dalībnieks neizmēģina šo funkciju}}.",
 	"prefs-betafeatures": "Bēta iespējas",
+	"prefs-description-betafeatures": "Izmēģini jaunākās izstrādes procesā esošās funkcijas un sniedz atsauksmes.",
 	"tooltip-pt-betafeatures": "Beta iespējas"
 }
