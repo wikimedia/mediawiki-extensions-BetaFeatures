@@ -5,6 +5,7 @@
 			"Hedda",
 			"Incelemeelemani",
 			"JackUKElliott",
+			"Joseph",
 			"McAang",
 			"Meelo",
 			"Rapsar",
@@ -27,5 +28,6 @@
 	"mw-ui-feature-requirements-skins": "Bu özellik yalnızca {{PLURAL:$1|şu tema|şu temalar}} ile çalışır:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|Bir kullanıcı|$1 kullanıcı|0=0 kullanıcı}} bu özelliği deniyor.",
 	"prefs-betafeatures": "Beta özellikler",
+	"prefs-description-betafeatures": "En yeni devam eden özellikleri deneyin ve geri bildirim verin.",
 	"tooltip-pt-betafeatures": "Beta özellikler"
 }

@@ -19,5 +19,6 @@
 	"mw-ui-feature-requirements-skins": "See funktsioon töötab ainult {{PLURAL:$1|järgmise kujundusega|järgmiste kujundustega}}:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|Üks kasutaja proovib|$1 kasutajat proovivad|0=Ükski kasutaja ei proovi}} seda funktsiooni.",
 	"prefs-betafeatures": "Beetafunktsioonid",
+	"prefs-description-betafeatures": "Proovi uusimaid funktsioone, mille arendus on pooleli, ja anna tagasisidet.",
 	"tooltip-pt-betafeatures": "Beetafunktsioonid"
 }
