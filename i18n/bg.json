@@ -15,6 +15,7 @@
 	"betafeatures-extension-type": "Бета-функции",
 	"betafeatures-section-desc": "Тук има {{PLURAL:$1|една нова функционалност, която|някои нови функционалности, които}} обмисляме дали да активираме в {{SITENAME}}. Моля, изпробвайте {{PLURAL:$1|я|ги}} и ни споделете какво мислите, за да можем да {{PLURAL:$1|я|ги}} подобрим на основата на обратната връзка от Вас.",
 	"betafeatures-toplink": "Бета",
+	"betafeatures-feature-autoenrolled": "Автоматично включена възможност",
 	"mw-ui-feature-discuss": "Обсъждане",
 	"mw-ui-feature-info": "Информация",
 	"mw-ui-feature-requirements-betafeatures": "Тази функция изисква да {{PLURAL:$1|е включена следната функция|са включени следните функции}}:",
