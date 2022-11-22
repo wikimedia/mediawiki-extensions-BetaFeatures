@@ -6,7 +6,7 @@
 			"Sveinn í Felli"
 		]
 	},
-	"betafeatures-auto-enroll": "Virkja alla prufueiginleika sjálfkrafa",
+	"betafeatures-auto-enroll": "Virkja flesta prufueiginleika sjálfkrafa",
 	"betafeatures-desc": "Leyfir notendum að virkja eða afvirkja eiginleika á wiki sem eru enn í vinnslu",
 	"betafeatures-extension-type": "Prófunareiginleikar",
 	"betafeatures-section-desc": "Hér {{PLURAL:$1|er nýr eiginleiki|eru nokkrir nýir eiginleikar}} sem við erum að skoða fyrir {{SITENAME}}. Vinsamlegast prófaðu {{PLURAL:$1|hann|þá}} og láttu okkur vita hvað þér þykir þannig að við getum bætt {{PLURAL:$1|hann|þá}} í samræmi við þínar ábendingar.",
@@ -17,6 +17,6 @@
 	"mw-ui-feature-requirements-javascript": "Þessi eiginleiki krefst JavaScript.",
 	"mw-ui-feature-requirements-skins": "Þessi eiginleiki virkar eingöngu með {{PLURAL:$1|eftirfarandi skinni|eftirfarandi skinnum}}:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|Einn notandi|$1 notendur eru|0=Enginn notandi er}} að prófa þennan eiginleika.",
-	"prefs-betafeatures": "Prófunareiginleikar",
+	"prefs-betafeatures": "Eiginleikar Beta-prófunarútgáfu",
 	"tooltip-pt-betafeatures": "Prófunareiginleikar"
 }

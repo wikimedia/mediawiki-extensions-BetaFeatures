@@ -12,6 +12,7 @@
 	"betafeatures-extension-type": "Preizkusne možnosti",
 	"betafeatures-section-desc": "Tu {{PLURAL:$1|je nova možnost|sta novi možnosti|so nove možnosti|je nekaj novih možnostij}}, ki {{PLURAL:$1|jo|jih}} načrtujemo v projektu {{SITENAME}}. {{PLURAL:$1|Preizkusite jo|Preizkusite ju|Preizkusite jih}} in nam sporočite svoje mnenje, na podlagi česar {{PLURAL:$1|jo|ju|jih}} bomo poskusili izboljšati.",
 	"betafeatures-toplink": "Preizkusne možnosti",
+	"betafeatures-feature-autoenrolled": "Samodejno aktivirana možnost",
 	"mw-ui-feature-discuss": "Pogovor",
 	"mw-ui-feature-info": "Informacije",
 	"mw-ui-feature-requirements-betafeatures": "Ta možnost zahteva, da {{PLURAL:$1|je omogočena naslednja možnost|so omogočene naslednje možnosti}}:",
