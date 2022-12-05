@@ -5,6 +5,7 @@
 			"Encycloon",
 			"Flightmare",
 			"Mainframe98",
+			"McDutchie",
 			"Romaine",
 			"Servien",
 			"Siebrand",
@@ -27,5 +28,6 @@
 	"mw-ui-feature-requirements-skins": "Deze functie werkt alleen met {{PLURAL:$1|het volgende uiterlijk|een van de volgende uiterlijken}}:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|Eén persoon gebruikt|$1 mensen gebruiken|0=Niemand gebruikt}} deze functie.",
 	"prefs-betafeatures": "Bètafuncties",
+	"prefs-description-betafeatures": "Probeer de nieuwste in ontwikkeling zijnde functies uit en geef feedback.",
 	"tooltip-pt-betafeatures": "Betafuncties"
 }
