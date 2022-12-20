@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Afalau",
 			"Lloffiwr",
 			"Robin Owain"
 		]
@@ -15,7 +16,7 @@
 	"mw-ui-feature-requirements-betafeatures": "Mae'r nodwedd hon angen y {{PLURAL:$1|nodwedd ganlynol|nodweddion canlynol}} cyn y medrir ei galluogi:",
 	"mw-ui-feature-requirements-browser": "Nid yw'r  {{PLURAL:$1|porwr|porwyr}} canlynol yn cael eu cefnogi:",
 	"mw-ui-feature-requirements-javascript": "Mae'r nodwedd hon angen JavaScript.",
-	"mw-ui-feature-requirements-skins": "Dim ond gyda'r {{PLURAL:$1|croen|crwyn}} canlynol mae'r nodwedd hon yn gweithio:",
+	"mw-ui-feature-requirements-skins": "Dim ond gyda'r {{PLURAL:$1|gwedd ganlynol|gweddau canlynol}} mae'r nodwedd hon yn gweithio:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|Mae un defnyddiwr|Mae $1 defnyddiwr|0=Nid oes yr un defnyddiwr}} yn treialu'r nodwedd yma.",
 	"prefs-betafeatures": "Nodweddion beta",
 	"tooltip-pt-betafeatures": "Nodweddion Beta"
