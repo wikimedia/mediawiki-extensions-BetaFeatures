@@ -19,5 +19,6 @@
 	"mw-ui-feature-requirements-skins": "Sta funzione fatìe sulamende cu {{PLURAL:$1|stu skin|ste skin}}:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|'Nu utende ave|$1 utinde onne|0=nisciune utende ave}} pruvate sta funzione.",
 	"prefs-betafeatures": "Funziune de Beta",
+	"prefs-description-betafeatures": "Pruève le funziune nuève in beta e danne 'nu rescondre.",
 	"tooltip-pt-betafeatures": "Funziune de Beta"
 }
