@@ -7,14 +7,18 @@
 			"Srdjan m"
 		]
 	},
-	"betafeatures-auto-enroll": "Automatski omogući sve nove beta mogućnosti",
-	"betafeatures-section-desc": "Ovo {{PLURAL:$1|je nova mogućnost|su nove mogućnosti}} na projektu {{SITENAME}}. Molimo {{PLURAL:$1|isprobajte je|isprobajte ih}} i dajte nam vaše mišljenje kako da {{PLURAL:$1|je|ih}} poboljšamo.",
+	"betafeatures-auto-enroll": "Automatski uključi većinu beta funkcija",
+	"betafeatures-auto-enroll-help": "Neke beta funkcije {{GENDER:|treba}} da uključite ručno, jer mogu imati iznenadne promene.",
+	"betafeatures-desc": "Omogućava korisniku da uključi ili isključi funkcije na projektu koje su još u izradi",
+	"betafeatures-extension-type": "Beta funkcije",
+	"betafeatures-section-desc": "Ovo {{PLURAL:$1|je nova funkcija koju|su nove funkcije koje}} razmatramo za projekat {{SITENAME}}. Isprobajte {{PLURAL:$1|je|ih}} i recite nam šta mislite da bismo {{PLURAL:$1|je|ih}} poboljšali na osnovu vaših povratnih informacija.",
 	"betafeatures-toplink": "Beta",
-	"mw-ui-feature-discuss": "Rasprava",
+	"mw-ui-feature-discuss": "Razgovor",
 	"mw-ui-feature-info": "Informacije",
 	"mw-ui-feature-requirements-betafeatures": "Za ovu mogućnost potrebno je omogućiti {{PLURAL:$1|sledeću mogućnost|sledeće mogućnosti}}:",
-	"mw-ui-feature-requirements-javascript": "Za ovu mogućnost je potrebna JavaScript-a.",
-	"mw-ui-feature-user-count": "{{PLURAL:$1|Jedan korisnik je uključio ovu mogućnost|Ovu mogućnost su uključila $1 korisnika|Ovu mogućnost je uključilo $1 korisnika|0=Nijedan korisnik nije uključio ovu mogućnost}}.",
-	"prefs-betafeatures": "Beta mogućnosti",
-	"tooltip-pt-betafeatures": "Beta-funkcije"
+	"mw-ui-feature-requirements-javascript": "Funkcija zahteva JavaScript.",
+	"mw-ui-feature-requirements-skins": "Funkcija radi samo u {{PLURAL:$1|sledećoj temi|sledećim temama}}:",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|Jedan korisnik je uključio ovu funkciju.|Ovu funkciju su uključila $1 korisnika.|Ovu funkciju je uključilo $1 korisnika.|0=Nijedan korisnik nije uključio ovu funkciju.}}",
+	"prefs-betafeatures": "Beta funkcije",
+	"tooltip-pt-betafeatures": "Beta funkcije"
 }

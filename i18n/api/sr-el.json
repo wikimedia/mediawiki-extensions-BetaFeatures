@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"apihelp-query+betafeatures-description": "Spisak svih beta-funkcija",
+	"apihelp-query+betafeatures-summary": "Spisak svih beta-funkcija",
+	"apihelp-query+betafeatures-example-1": "Dobijate sve dostupne beta funkcije i pokazuje koliko korisnika ih je omogućilo"
+}
