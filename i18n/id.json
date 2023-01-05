@@ -8,6 +8,7 @@
 			"Macofe",
 			"Rachmat.Wahidi",
 			"Rachmat04",
+			"Veracious",
 			"William Surya Permana"
 		]
 	},
@@ -26,5 +27,6 @@
 	"mw-ui-feature-requirements-skins": "Fitur ini hanya berfungsi dengan {{PLURAL:$1|kulit|kulit-kulit berikut}} ini:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|Seorang pengguna sedang|$1 pengguna sedang|0=Tidak ada pengguna yang sedang}} mencoba fitur ini.",
 	"prefs-betafeatures": "Fitur beta",
+	"prefs-description-betafeatures": "Cobalah fitur terbaru yang sedang dikembangkan dan berikan umpan balik.",
 	"tooltip-pt-betafeatures": "Fitur beta"
 }
