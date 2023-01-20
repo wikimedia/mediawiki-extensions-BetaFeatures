@@ -184,9 +184,7 @@ class HTMLFeatureField extends HTMLCheckField {
 				);
 			}
 
-			$unsupportedList = $this->mParams['requirements']['unsupportedList'] ??
-				// @deprecated since 1.35, use unsupportedList instead of blacklist
-				( $this->mParams['requirements']['blacklist'] ?? false );
+			$unsupportedList = $this->mParams['requirements']['unsupportedList'] ?? false;
 			if ( $unsupportedList ) {
 				$html .= Html::openElement(
 					'li',
