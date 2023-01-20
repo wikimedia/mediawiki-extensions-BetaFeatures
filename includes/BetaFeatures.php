@@ -49,9 +49,16 @@ class BetaFeatures {
 			$lookup = new StaticUserOptionsLookup( [ $user->getName() => $userOptions ], $defaults );
 		}
 
-		$allowlist = $services->getMainConfig()->get( 'BetaFeaturesWhitelist' );
+		$config = $services->getMainConfig();
+		$allowlist = $config->get( 'BetaFeaturesAllowList' );
+
+		// Back-compatibility for legacy name; to remove.
+		if ( !$allowlist ) {
+			$allowlist = $config->get( 'BetaFeaturesWhitelist' );
+		}
+
 		if ( is_array( $allowlist ) && !in_array( $feature, $allowlist ) ) {
-			// If there is a whitelist, and the feature is not whitelisted,
+			// If there is an allow-list, and the feature is not in said list,
 			// it can't be enabled.
 			return false;
 		}

@@ -192,13 +192,19 @@ class Hooks implements
 		}
 
 		$hiddenPrefs = $mainConfig->get( 'HiddenPrefs' );
-		$allowlist = $mainConfig->get( 'BetaFeaturesWhitelist' );
+		$allowlist = $mainConfig->get( 'BetaFeaturesAllowList' );
+
+		// (T277931) Back-compatibility for legacy name; to remove.
+		if ( !$allowlist ) {
+			$allowlist = $mainConfig->get( 'BetaFeaturesWhitelist' );
+		}
+
 		foreach ( $betaPrefs as $key => $info ) {
 			// Check if feature should be skipped
 			if (
 				// Check if feature is hidden
 				in_array( $key, $hiddenPrefs ) ||
-				// Check if feature is whitelisted
+				// Check if feature is in the allow list
 				( is_array( $allowlist ) && !in_array( $key, $allowlist ) ) ||
 				// Check if dependencies are set but not met
 				(
