@@ -4,6 +4,7 @@
 			"2nd-player",
 			"Fryed-peach",
 			"Jaw Salvager",
+			"Kokage si",
 			"Object＊tofu",
 			"Omotecho",
 			"Shirayuki",
@@ -28,5 +29,6 @@
 	"mw-ui-feature-requirements-skins": "この機能には{{PLURAL:$1|以下の外装|以下の外装のいずれか}}でのみ動作します:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|$1 人の利用者がこの機能を試用しています|0=この機能を試用している利用者はいません}}。",
 	"prefs-betafeatures": "ベータ版機能",
+	"prefs-description-betafeatures": "最新の進行中の機能を試して、フィードバックを与えます。",
 	"tooltip-pt-betafeatures": "ベータ版機能"
 }
