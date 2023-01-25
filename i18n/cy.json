@@ -6,11 +6,13 @@
 			"Afalau"
 		]
 	},
-	"betafeatures-auto-enroll": "Galluogi pob nodwedd beta yn awtomatig",
+	"betafeatures-auto-enroll": "Galluogi'r rhan fwyaf o nodweddion beta yn awtomatig",
+	"betafeatures-auto-enroll-help": "Gall rhai nodweddion beta wneud newidiadau mawr, felly rhaid i {{GENDER:|chi}} gofrestru.",
 	"betafeatures-desc": "Yn caniatau i ddefnyddiwr i alluogi nodweddion ar y wici nad ydynt yn barod i'w mabwysiadu'n llwyr eto, neu i'w hanalluogi.",
 	"betafeatures-extension-type": "Nodweddion beta",
 	"betafeatures-section-desc": "Yma ceir {{PLURAL:$1|is a new feature|rhai nodweddion}} rydym yn eu hystyried ar gyfer {{SITENAME}}. Rhowch gynnig {{PLURAL:$1|arni|arnynt}} a mynegwch eich barn fel y gallem , so we can improve {{PLURAL:$1|ei wella|eu gwella}}.",
 	"betafeatures-toplink": "Beta",
+	"betafeatures-feature-autoenrolled": "Nodwedd trwy gofrestru awtomatig",
 	"mw-ui-feature-discuss": "Sgwrs",
 	"mw-ui-feature-info": "Gwybodaeth",
 	"mw-ui-feature-requirements-betafeatures": "Mae'r nodwedd hon angen y {{PLURAL:$1|nodwedd ganlynol|nodweddion canlynol}} cyn y medrir ei galluogi:",
