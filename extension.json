@@ -15,6 +15,9 @@
 		"BetaFeaturesWhitelist": {
 			"value": null
 		},
+		"BetaFeaturesAllowList": {
+			"value": null
+		},
 		"BetaFeatures": {
 			"value": []
 		}
