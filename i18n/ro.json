@@ -21,5 +21,6 @@
 	"mw-ui-feature-requirements-skins": "Această caracteristică funcționează doar împreună cu {{PLURAL:$1|următoarea interfață|următoarele interfețe}}:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|Un utilizator|$1 utilizatori|$1 de utilizatori|0=Niciun utilizator nu}} testează această funcție.",
 	"prefs-betafeatures": "Funcții beta",
+	"prefs-description-betafeatures": "Încercați ultimele funcții în curs de dezvoltare și oferiți feedback.",
 	"tooltip-pt-betafeatures": "Opțiuni beta"
 }
