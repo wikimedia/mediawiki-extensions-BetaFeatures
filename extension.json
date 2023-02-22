@@ -12,9 +12,6 @@
 		"MediaWiki": ">= 1.38.0"
 	},
 	"config": {
-		"BetaFeaturesWhitelist": {
-			"value": null
-		},
 		"BetaFeaturesAllowList": {
 			"value": null
 		},
