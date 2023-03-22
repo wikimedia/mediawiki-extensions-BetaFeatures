@@ -150,17 +150,12 @@ $specialPageAliases['vi'] = [
 	'BetaFeatures' => [ 'Tính_năng_beta' ],
 ];
 
-/** Chinese (中文) */
-$specialPageAliases['zh'] = [
-	'BetaFeatures' => [ '测试功能', '測試功能' ],
-];
-
-/** Simplified Chinese (中文（简体）‎) */
+/** Simplified Chinese (中文（简体）) */
 $specialPageAliases['zh-hans'] = [
 	'BetaFeatures' => [ '测试功能' ],
 ];
 
-/** Traditional Chinese (中文（繁體）‎) */
+/** Traditional Chinese (中文（繁體）) */
 $specialPageAliases['zh-hant'] = [
 	'BetaFeatures' => [ '測試功能' ],
 ];
