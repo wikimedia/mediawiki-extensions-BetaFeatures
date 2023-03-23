@@ -17,7 +17,7 @@
  * BetaFeatures initialization
  *
  * @copyright 2013 Mark Holmquist and others; see AUTHORS
- * @license GNU General Public License version 2 or later
+ * @license GPL-2.0-or-later
  */
 
 $( function () {

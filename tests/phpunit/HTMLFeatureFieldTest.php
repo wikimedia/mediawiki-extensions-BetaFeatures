@@ -1,5 +1,5 @@
 <?php
-/*
+/**
  * This file is part of the MediaWiki extension BetaFeatures.
  *
  * BetaFeatures is free software: you can redistribute it and/or modify
@@ -20,7 +20,7 @@
  * @file
  * @ingroup Extensions
  * @copyright 2013 Mark Holmquist and others; see AUTHORS
- * @license GNU General Public License version 2 or later
+ * @license GPL-2.0-or-later
  */
 
 use MediaWiki\Extension\BetaFeatures\HTMLFeatureField;
