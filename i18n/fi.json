@@ -24,5 +24,6 @@
 	"mw-ui-feature-requirements-skins": "Tämä ominaisuus toimii ainoastaan {{PLURAL:$1|seuraavan ulkoasun|seuraavien ulkoasujen}} kanssa:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|Yksi käyttäjä kokeilee tätä ominaisuutta.|$1 käyttäjää kokeilee tätä ominaisuutta.|0=Kukaan ei käytä tätä ominaisuutta.}}",
 	"prefs-betafeatures": "Beetaominaisuudet",
+	"prefs-description-betafeatures": "Kokeile uusimpia keskeneräisiä ominaisuuksia ja anna palautetta.",
 	"tooltip-pt-betafeatures": "Beetaominaisuudet"
 }
