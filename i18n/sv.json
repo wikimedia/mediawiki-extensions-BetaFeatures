@@ -27,5 +27,6 @@
 	"mw-ui-feature-requirements-skins": "Den här funktionen kräver att du använder {{PLURAL:$1|följande utseende|ett av följande utseenden}}:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|En|$1|0=Ingen}} användare har aktiverat denna funktion.",
 	"prefs-betafeatures": "Betafunktioner",
+	"prefs-description-betafeatures": "Prova de senaste funktionerna under utveckling och ge återkoppling.",
 	"tooltip-pt-betafeatures": "Betafunktioner"
 }
