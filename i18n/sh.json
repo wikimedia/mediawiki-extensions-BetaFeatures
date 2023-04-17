@@ -20,5 +20,6 @@
 	"mw-ui-feature-requirements-skins": "Ova funkcija radi jedino sa sljedećim {{PLURAL:$1|izgledom|izgledima}}:",
 	"mw-ui-feature-user-count": "Funkciju {{PLURAL:$1|isprobava jedan korisnik|isprobavaju $1 korisnika|0=ne isprobava niti jedan korisnik}}.",
 	"prefs-betafeatures": "Beta mogućnosti",
+	"prefs-description-betafeatures": "Isprobajte najnovije značajke koje su u tijeku i dajte povratne informacije.",
 	"tooltip-pt-betafeatures": "Beta mogućnosti"
 }
