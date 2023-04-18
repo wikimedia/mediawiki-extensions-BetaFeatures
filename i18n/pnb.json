@@ -2,15 +2,16 @@
 	"@metadata": {
 		"authors": [
 			"Abbas dhothar",
+			"Bgo eiu",
 			"Khalid Mahmood"
 		]
 	},
-	"betafeatures-auto-enroll": "خودکار طریقے نال سارے نویں بِیٹا فیچرز لاگو کرو",
-	"betafeatures-extension-type": "بِیٹا فیچر",
-	"betafeatures-toplink": "بِیٹا",
+	"betafeatures-auto-enroll": "خودکار طریقے نال سارے نویں بیٹا خصوصیات لاگو کرو",
+	"betafeatures-extension-type": "بیٹا خصوصیات",
+	"betafeatures-toplink": "بیٹا",
 	"mw-ui-feature-discuss": "گل بات",
 	"mw-ui-feature-info": "جانکاری",
 	"mw-ui-feature-requirements-javascript": "اس فیچر نوں جاوا سکریپٹ دی لوڑ اے",
-	"prefs-betafeatures": "بِیٹا فیچرز",
-	"tooltip-pt-betafeatures": "بِیٹا فیچرز"
+	"prefs-betafeatures": "بیٹا خصوصیات",
+	"tooltip-pt-betafeatures": "بیٹا خصوصیات"
 }
