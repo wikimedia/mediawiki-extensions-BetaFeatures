@@ -10,7 +10,8 @@
 			"S8321414",
 			"StephDC",
 			"Winston Sung",
-			"Xiplus"
+			"Xiplus",
+			"Lakejason0"
 		]
 	},
 	"betafeatures-auto-enroll": "自動開啟大多數的測試階段新功能",
@@ -18,7 +19,7 @@
 	"betafeatures-desc": "允許使用者啟用或停用 wiki 上尚未準備完成的功能",
 	"betafeatures-extension-type": "測試功能",
 	"betafeatures-section-desc": "目前我們正在考慮於{{SITENAME}}提供下列{{PLURAL:$1|新功能}}。需要麻煩您試用這些功能並提供您的意見，讓我們能夠根據您的回饋意見做改進。",
-	"betafeatures-toplink": "測試",
+	"betafeatures-toplink": "測試功能",
 	"betafeatures-feature-autoenrolled": "自動註冊功能",
 	"mw-ui-feature-discuss": "討論",
 	"mw-ui-feature-info": "資訊",
