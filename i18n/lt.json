@@ -12,6 +12,7 @@
 		]
 	},
 	"betafeatures-auto-enroll": "Automatiškai įjungti daugumą beta funkcijų",
+	"betafeatures-auto-enroll-help": "Kai kurios beta versijos funkcijos gali turėti netikėtų pakeitimų, todėl {{GENDER:|jūs}} turite jas įgalinti rankiniu būdu.",
 	"betafeatures-desc": "Leisti vartotojams įjungti ar išjungti viki funkcijas, kurios dar nėra paruoštos visuotiniam naudojimui",
 	"betafeatures-extension-type": "Beta funkcijos",
 	"betafeatures-section-desc": "Tai {{PLURAL:$1|yra nauja funkcija, kurią|yra naujos funkcijos, kurias|yra naujų funkcijų, kurias}} svarstome puslapiui {{SITENAME}}. Prašome išbandyti {{PLURAL:$1|ją|jas}} ir pateikti savo mintis, kad galėtumėme patobulinti {{PLURAL:$1|ją|jas}} remdamiesi jūsų atsiliepimu.",
@@ -24,5 +25,6 @@
 	"mw-ui-feature-requirements-skins": "Ši funkcija veikia tik su {{PLURAL:$1|šia išvaizda|šiomis išvaizdomis}}:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|Vienas naudotojas bando|$1 naudotojai bando|$1 naudotojų bando|0=Nėra naudotojų, kurie bando}} šią funkciją.",
 	"prefs-betafeatures": "Beta funkcijos",
+	"prefs-description-betafeatures": "Išbandykite naujausias kuriamas funkcijas ir pateikite atsiliepimus.",
 	"tooltip-pt-betafeatures": "Beta funkcijos"
 }
