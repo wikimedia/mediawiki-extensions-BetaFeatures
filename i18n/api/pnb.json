@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Abbas dhothar"
+			"Abbas dhothar",
+			"Bgo eiu"
 		]
 	},
-	"apihelp-query+betafeatures-description": "سارے بِیٹا فیچراں دی لسٹ",
-	"apihelp-query+betafeatures-example-1": "سارے مہیا بِیٹا فیچر حاصل کرو تے وکھاؤ کِنے ورتنوالےآں نے اینہاں نوں لاگو کیتا",
+	"apihelp-query+betafeatures-description": "سارے بیٹا خصوصیات دی لسٹ",
+	"apihelp-query+betafeatures-example-1": "سارے مہیا بیٹا فیچر حاصل کرو تے وکھاؤ کنے ورتنوالےآں نے اینہاں نوں لاگو کیتا",
 	"apihelp-query+betafeatures-param-counts": "کِنے ورتنوالےآں نے ترجیحاں نوں لاگو کیتا"
 }

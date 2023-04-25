@@ -7,10 +7,12 @@
 			"Hugo.arg",
 			"Macofe",
 			"Manvydasz",
-			"Tomasdd"
+			"Tomasdd",
+			"Nokeoo"
 		]
 	},
 	"betafeatures-auto-enroll": "Automatiškai įjungti daugumą beta funkcijų",
+	"betafeatures-auto-enroll-help": "Kai kurios beta versijos funkcijos gali turėti netikėtų pakeitimų, todėl {{GENDER:|jūs}} turite jas įgalinti rankiniu būdu.",
 	"betafeatures-desc": "Leisti vartotojams įjungti ar išjungti viki funkcijas, kurios dar nėra paruoštos visuotiniam naudojimui",
 	"betafeatures-extension-type": "Beta funkcijos",
 	"betafeatures-section-desc": "Tai {{PLURAL:$1|yra nauja funkcija, kurią|yra naujos funkcijos, kurias|yra naujų funkcijų, kurias}} svarstome puslapiui {{SITENAME}}. Prašome išbandyti {{PLURAL:$1|ją|jas}} ir pateikti savo mintis, kad galėtumėme patobulinti {{PLURAL:$1|ją|jas}} remdamiesi jūsų atsiliepimu.",
