@@ -1,6 +1,9 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Kimberli Mäkäräinen (WMNO)"
+		]
 	},
-	"betafeatures-toplink": "Beta"
+	"betafeatures-toplink": "Beta",
+	"mw-ui-feature-info": "Lassedieđut"
 }
