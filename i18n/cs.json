@@ -24,5 +24,6 @@
 	"mw-ui-feature-requirements-skins": "Tato funkce je k dispozici jen v {{PLURAL:$1|následujícím vzhledu|následujících vzhledech}}:",
 	"mw-ui-feature-user-count": "Tuto funkci {{PLURAL:$1|zkouší jeden uživatel|zkouší $1 uživatelé|zkouší $1 uživatelů|0=nikdo nezkouší}}.",
 	"prefs-betafeatures": "Beta verze",
+	"prefs-description-betafeatures": "Vyzkoušejte nejnovější rozpracované funkce a sdělte nám svůj názor.",
 	"tooltip-pt-betafeatures": "Beta verze"
 }
