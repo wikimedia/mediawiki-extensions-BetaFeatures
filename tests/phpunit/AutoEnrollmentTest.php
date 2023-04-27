@@ -152,7 +152,7 @@ class AutoEnrollmentTest extends BetaFeaturesTestCase {
 			$manager->setOption( $user, $key, $value );
 		}
 
-		Hooks::run( 'GetPreferences', [ $user, &$prefs ] );
+		$this->getServiceContainer()->getHookContainer()->run( 'GetPreferences', [ $user, &$prefs ] );
 
 		foreach ( $checkOption as $key => $expected ) {
 			$value = $manager->getOption( $user, $key );

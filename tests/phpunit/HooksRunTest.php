@@ -76,7 +76,7 @@ class HooksRunTest extends MediaWikiIntegrationTestCase {
 	public function testHooksRun() {
 		$this->setTemporaryHook( 'GetBetaFeaturePreferences', [ self::class, 'registerPreference' ] );
 		$prefs = [];
-		Hooks::run( 'GetBetaFeaturePreferences', [ $this->user, &$prefs ] );
+		$this->getServiceContainer()->getHookContainer()->run( 'GetBetaFeaturePreferences', [ $this->user, &$prefs ] );
 		$this->assertArrayHasKey( self::TESTPREFKEY, $prefs, 'Hook did not run' );
 		$this->assertSame(
 			$prefs[self::TESTPREFKEY],

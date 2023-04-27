@@ -76,7 +76,7 @@ class PreferenceHandlingTest extends BetaFeaturesTestCase {
 		);
 
 		try {
-			Hooks::run( 'GetPreferences', [ $this->user, &$prefs ] );
+			$this->getServiceContainer()->getHookContainer()->run( 'GetPreferences', [ $this->user, &$prefs ] );
 		} catch ( BetaFeaturesMissingFieldException $e ) {
 			if ( $expected === null ) {
 				$this->assertSame( BetaFeaturesMissingFieldException::class, get_class( $e ) );
