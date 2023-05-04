@@ -27,5 +27,6 @@
 	"mw-ui-feature-requirements-skins": "이 기능은 {{PLURAL:$1|다음 스킨|다음 스킨 중 하나}}에서만 작동합니다:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|사용자 한 명이|사용자 $1명이|0=아무도}} 이 기능을 활성화{{PLURAL:$1|했습니다|0=하지 않았습니다}}.",
 	"prefs-betafeatures": "베타 기능",
+	"prefs-description-betafeatures": "진행 중인 최신 기능을 시험해보고 의견을 제공합니다.",
 	"tooltip-pt-betafeatures": "베타 기능"
 }
