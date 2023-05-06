@@ -28,7 +28,6 @@ namespace MediaWiki\Extension\BetaFeatures;
 use DatabaseUpdater;
 use DeferredUpdates;
 use Exception;
-use Hooks as MWHooks;
 use MediaWiki\Hook\ExtensionTypesHook;
 use MediaWiki\Hook\MakeGlobalVariablesScriptHook;
 use MediaWiki\Hook\PreferencesGetIconHook;
@@ -109,7 +108,7 @@ class Hooks implements
 		$services = MediaWikiServices::getInstance();
 		$betaFeatures = $services->getMainConfig()->get( 'BetaFeatures' );
 		$user = $services->getUserFactory()->newFromUserIdentity( $user );
-		MWHooks::run( 'GetBetaFeaturePreferences', [ $user, &$betaFeatures ] );
+		$services->getHookContainer()->run( 'GetBetaFeaturePreferences', [ $user, &$betaFeatures ] );
 
 		$jobs = [];
 		foreach ( $betaFeatures as $name => $option ) {
@@ -145,7 +144,7 @@ class Hooks implements
 		$betaPrefs = $mainConfig->get( 'BetaFeatures' );
 		$depHooks = [];
 
-		MWHooks::run( 'GetBetaFeaturePreferences', [ $user, &$betaPrefs ] );
+		$services->getHookContainer()->run( 'GetBetaFeaturePreferences', [ $user, &$betaPrefs ] );
 
 		$count = count( $betaPrefs );
 		$prefs['betafeatures-section-desc'] = [
@@ -177,7 +176,7 @@ class Hooks implements
 		// Set up dependency hooks array
 		// This complex structure brought to you by Per-Wiki Configuration,
 		// coming soon to a wiki very near you.
-		MWHooks::run( 'GetBetaFeatureDependencyHooks', [ &$depHooks ] );
+		$services->getHookContainer()->run( 'GetBetaFeatureDependencyHooks', [ &$depHooks ] );
 
 		$userOptionsManager = $services->getUserOptionsManager();
 		$autoEnrollSaveSettings = [];
@@ -193,6 +192,7 @@ class Hooks implements
 
 		$hiddenPrefs = $mainConfig->get( 'HiddenPrefs' );
 		$allowlist = $mainConfig->get( 'BetaFeaturesAllowList' );
+		$hookContainer = $services->getHookContainer();
 
 		foreach ( $betaPrefs as $key => $info ) {
 			// Check if feature should be skipped
@@ -206,7 +206,7 @@ class Hooks implements
 					isset( $info['dependent'] ) &&
 					$info['dependent'] === true &&
 					isset( $depHooks[$key] ) &&
-					!MWHooks::run( $depHooks[$key] )
+					!$hookContainer->run( $depHooks[$key] )
 				)
 			) {
 				continue;
