@@ -12,6 +12,7 @@
 	"betafeatures-extension-type": "آزمائشی خصوصیات",
 	"betafeatures-section-desc": "یہاں {{PLURAL:$1|نئی سہولت موجود ہے|کچھ نئی سہولیات موجود ہیں}}، جو {{SITENAME}} پر تجرباتی مراحل میں ہیں۔ براہ کرم {{PLURAL:$1|اسے|انہیں}} جانچیں، تجربہ کریں اور اپنی آراء سے ہمیں نوازیں، تاکہ ہم اس بنیاد پر {{PLURAL:$1|اسے|انہیں}} مزید بہتر بناسکیں۔",
 	"betafeatures-toplink": "آزمائشی",
+	"betafeatures-feature-autoenrolled": "خودکار شمولیت کی سہولت",
 	"mw-ui-feature-discuss": "گفتگو",
 	"mw-ui-feature-info": "معلومات",
 	"mw-ui-feature-requirements-betafeatures": "اس سہولت کے لیے درج ذیل {{PLURAL:$1|سہولت|سہولیات}} فعال ہونا لازمی ہے:",
@@ -20,5 +21,5 @@
 	"mw-ui-feature-requirements-skins": "یہ سہولت صرف مندرجہ ذیل {{PLURAL:$1|اسکن|اسکنز}} پر کام کرے گی:",
 	"mw-ui-feature-user-count": "یہ سہولت {{PLURAL:$1|ایک صارف کے زیر استعمال|$1 صارفین کے زیر استعمال|0=کسی صارف کے زیر استعمال نہیں}} ہے۔",
 	"prefs-betafeatures": "آزمائشی سہولیات",
-	"tooltip-pt-betafeatures": "بیٹہ خصوصیات"
+	"tooltip-pt-betafeatures": "آزمائشی خصوصیات"
 }
