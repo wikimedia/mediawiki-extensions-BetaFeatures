@@ -20,50 +20,57 @@
  * @license GPL-2.0-or-later
  */
 
-$( function () {
-	var featuresModel = mw.config.get( 'wgBetaFeaturesFeatures', {} );
-
-	// eslint-disable-next-line no-jquery/no-global-selector
-	var $autoEnrollCheckbox = OO.ui.infuse( $( '[name=wpbetafeatures-auto-enroll]' ).parent() );
-	$autoEnrollCheckbox.connect( this, { change: function ( selectedState ) {
-		Object.keys( featuresModel ).forEach( function ( preference ) {
-			// Hidden preference
-			if ( !featuresModel[ preference ].widget ) {
-				return;
-			}
-
-			// Some preferences don't follow the auto-enroll process; ignore them
-			if ( featuresModel[ preference ][ '__skip-auto-enroll' ] ) {
-				return;
-			}
-
-			// Mass-select auto-enrollable features if clicked, but don't mass-disable
-			if ( selectedState ) {
-				featuresModel[ preference ].widget.setSelected( true );
-			}
-
-			// If it is now disabled, hint to the user why with a tooltip
-			featuresModel[ preference ].widget.setTitle( selectedState ? mw.msg( 'betafeatures-feature-autoenrolled' ) : null );
-		} );
-	} } );
-
-	Object.keys( featuresModel ).forEach( function ( preference ) {
-		var $checkbox = $( '[name=wp' + preference + ']' );
-
-		// Extensions might hide their preferences late or by a different method
-		if ( !$checkbox.length ) {
+( function () {
+	mw.hook( 'htmlform.enhance' ).add( function ( $root ) {
+		var $autoEnroll = $root.find( '[name=wpbetafeatures-auto-enroll]' ).parent();
+		if ( !$autoEnroll.length || $autoEnroll.closest( '.mw-htmlform-autoinfuse-lazy' ).length ) {
 			return;
 		}
 
-		featuresModel[ preference ].widget = OO.ui.infuse( $checkbox.parent() );
+		var featuresModel = mw.config.get( 'wgBetaFeaturesFeatures', {} );
 
-		var unsupportedList = featuresModel[ preference ].unsupportedList;
+		OO.ui.infuse( $autoEnroll ).on( 'change', function ( selectedState ) {
+			Object.keys( featuresModel ).forEach( function ( preference ) {
+				// Hidden preference
+				if ( !featuresModel[ preference ].widget ) {
+					return;
+				}
 
-		// Browser not compatible
-		if ( unsupportedList && $.client.test( unsupportedList, null, true ) ) {
-			featuresModel[ preference ].widget.$element
-				.closest( '.mw-ui-feature-field' )
-				.find( '.mw-ui-feature-requirements-browser' ).show();
-		}
+				// Some preferences don't follow the auto-enroll process; ignore them
+				if ( featuresModel[ preference ][ '__skip-auto-enroll' ] ) {
+					return;
+				}
+
+				// Mass-select auto-enrollable features if clicked, but don't mass-disable
+				if ( selectedState ) {
+					featuresModel[ preference ].widget.setSelected( true );
+				}
+
+				// If it is now disabled, hint to the user why with a tooltip
+				featuresModel[ preference ].widget.setTitle(
+					selectedState ? mw.msg( 'betafeatures-feature-autoenrolled' ) : null
+				);
+			} );
+		} );
+
+		Object.keys( featuresModel ).forEach( function ( preference ) {
+			var $checkbox = $root.find( '[name=wp' + preference + ']' );
+
+			// Extensions might hide their preferences late or by a different method
+			if ( !$checkbox.length ) {
+				return;
+			}
+
+			featuresModel[ preference ].widget = OO.ui.infuse( $checkbox.parent() );
+
+			var unsupportedList = featuresModel[ preference ].unsupportedList;
+
+			// Browser not compatible
+			if ( unsupportedList && $.client.test( unsupportedList, null, true ) ) {
+				featuresModel[ preference ].widget.$element
+					.closest( '.mw-ui-feature-field' )
+					.find( '.mw-ui-feature-requirements-browser' ).show();
+			}
+		} );
 	} );
-} );
+}() );
