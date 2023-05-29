@@ -2,10 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Bugoslav",
+			"Narazeni",
 			"Silovan"
 		]
 	},
 	"betafeatures-toplink": "ბეტა",
+	"mw-ui-feature-discuss": "სხუნუა",
 	"mw-ui-feature-info": "ინფორმაცია",
+	"prefs-betafeatures": "ბეტა ასა-გასეფი",
 	"tooltip-pt-betafeatures": "ბეტა ასა-გასეფი"
 }
