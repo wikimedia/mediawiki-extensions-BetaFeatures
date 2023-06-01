@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"NMW03"
+		]
+	},
+	"apihelp-query+betafeatures-description": "Bütün Beta Xüsusiyyətlərini sadalayın",
+	"apihelp-query+betafeatures-summary": "Bütün Beta Xüsusiyyətlərini sadalayın",
+	"apihelp-query+betafeatures-example-1": "Bütün mövcud beta xüsusiyyətləri əldə edin və onları neçə istifadəçinin aktiv etdiyini göstərin",
+	"apihelp-query+betafeatures-param-counts": "Müəyyən bir seçimin neçə istifadəçinin aktiv edildiyini əldə edib-etməmək."
+}
