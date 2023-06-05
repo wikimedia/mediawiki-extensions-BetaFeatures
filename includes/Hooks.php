@@ -28,6 +28,7 @@ namespace MediaWiki\Extension\BetaFeatures;
 use DatabaseUpdater;
 use DeferredUpdates;
 use Exception;
+use MediaWiki\Extension\BetaFeatures\Hooks\HookRunner;
 use MediaWiki\Hook\ExtensionTypesHook;
 use MediaWiki\Hook\MakeGlobalVariablesScriptHook;
 use MediaWiki\Hook\PreferencesGetIconHook;
@@ -109,7 +110,7 @@ class Hooks implements
 
 		$betaFeatures = $services->getMainConfig()->get( 'BetaFeatures' );
 		$user = $services->getUserFactory()->newFromUserIdentity( $user );
-		$services->getHookContainer()->run( 'GetBetaFeaturePreferences', [ $user, &$betaFeatures ] );
+		( new HookRunner( $services->getHookContainer() ) )->onGetBetaFeaturePreferences( $user, $betaFeatures );
 
 		$jobs = [];
 		foreach ( $betaFeatures as $name => $option ) {
@@ -145,7 +146,8 @@ class Hooks implements
 		$betaPrefs = $mainConfig->get( 'BetaFeatures' );
 		$depHooks = [];
 
-		$services->getHookContainer()->run( 'GetBetaFeaturePreferences', [ $user, &$betaPrefs ] );
+		$hookRunner = new HookRunner( $services->getHookContainer() );
+		$hookRunner->onGetBetaFeaturePreferences( $user, $betaPrefs );
 
 		$count = count( $betaPrefs );
 		$prefs['betafeatures-section-desc'] = [
@@ -177,7 +179,7 @@ class Hooks implements
 		// Set up dependency hooks array
 		// This complex structure brought to you by Per-Wiki Configuration,
 		// coming soon to a wiki very near you.
-		$services->getHookContainer()->run( 'GetBetaFeatureDependencyHooks', [ &$depHooks ] );
+		$hookRunner->onGetBetaFeatureDependencyHooks( $depHooks );
 
 		$userOptionsManager = $services->getUserOptionsManager();
 		$autoEnrollSaveSettings = [];

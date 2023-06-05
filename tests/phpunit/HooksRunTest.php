@@ -23,6 +23,8 @@
  * @license GPL-2.0-or-later
  */
 
+use MediaWiki\Extension\BetaFeatures\Hooks\HookRunner;
+
 /**
  * @covers \MediaWiki\Extension\BetaFeatures\Hooks::onGetPreferences
  *
@@ -76,7 +78,8 @@ class HooksRunTest extends MediaWikiIntegrationTestCase {
 	public function testHooksRun() {
 		$this->setTemporaryHook( 'GetBetaFeaturePreferences', [ self::class, 'registerPreference' ] );
 		$prefs = [];
-		$this->getServiceContainer()->getHookContainer()->run( 'GetBetaFeaturePreferences', [ $this->user, &$prefs ] );
+		( new HookRunner( $this->getServiceContainer()->getHookContainer() ) )
+			->onGetBetaFeaturePreferences( $this->user, $prefs );
 		$this->assertArrayHasKey( self::TESTPREFKEY, $prefs, 'Hook did not run' );
 		$this->assertSame(
 			$prefs[self::TESTPREFKEY],

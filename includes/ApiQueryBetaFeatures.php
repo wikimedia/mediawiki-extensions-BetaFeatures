@@ -27,6 +27,7 @@
 namespace MediaWiki\Extension\BetaFeatures;
 
 use ApiQueryBase;
+use MediaWiki\Extension\BetaFeatures\Hooks\HookRunner;
 use MediaWiki\MediaWikiServices;
 use User;
 
@@ -41,7 +42,8 @@ class ApiQueryBetaFeatures extends ApiQueryBase {
 
 		$prefs = $this->getConfig()->get( 'BetaFeatures' );
 		$user = User::newFromName( 'MediaWiki default' );
-		MediaWikiServices::getInstance()->getHookContainer()->run( 'GetBetaFeaturePreferences', [ $user, &$prefs ] );
+		( new HookRunner( MediaWikiServices::getInstance()->getHookContainer() ) )
+			->onGetBetaFeaturePreferences( $user, $prefs );
 
 		$counts = isset( $params['counts'] )
 			? Hooks::getUserCounts( array_keys( $prefs ) )
