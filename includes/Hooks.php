@@ -100,12 +100,13 @@ class Hooks implements
 		array &$modifiedOptions,
 		array $originalOptions
 	) {
-		if ( !$user->isRegistered() ) {
+		$services = MediaWikiServices::getInstance();
+		$userNameUtils = $services->getUserNameUtils();
+		if ( !$user->isRegistered() || $userNameUtils->isTemp( $user->getName() ) ) {
 			// Anonymous users do not have options, shorten out.
 			return;
 		}
 
-		$services = MediaWikiServices::getInstance();
 		$betaFeatures = $services->getMainConfig()->get( 'BetaFeatures' );
 		$user = $services->getUserFactory()->newFromUserIdentity( $user );
 		$services->getHookContainer()->run( 'GetBetaFeaturePreferences', [ $user, &$betaFeatures ] );
