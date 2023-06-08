@@ -21,6 +21,6 @@
 	"mw-ui-feature-requirements-skins": "Ta možnost deluje samo z {{PLURAL:$1|naslednjo preobleko|eno od naslednjih preoblek}}:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|To možnost preizkuša 1 uporabnik|To možnost preizkušata $1 uporabnika|To možnost preizkušajo $1 uporabniki|To možnost preizkuša $1 uporabnikov|0=Te možnosti ne preizkuša noben uporabnik}}.",
 	"prefs-betafeatures": "Preizkusne možnosti",
-	"prefs-description-betafeatures": "Preizkusite najnovejše možnosti v rwzvoju in pošljite povratne informacije.",
+	"prefs-description-betafeatures": "Preizkusite najnovejše možnosti v razvoju in pošljite povratne informacije.",
 	"tooltip-pt-betafeatures": "Preizkusne možnosti"
 }
