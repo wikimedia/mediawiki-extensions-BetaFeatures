@@ -20,5 +20,6 @@
 	"mw-ui-feature-requirements-skins": "Mogućnost radi jedno sa {{PLURAL:$1|sljedećom temom|sljedećim temama}}:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|1=Jedan korisnik uključio je ovu mogućnost|Ovu mogućnost uključio je $1 korisnik|Ovu mogućnost uključila su $1 korisnika|Ovu mogućnost uključilo je $1 korisnika|0=Nijedan korisnik nije uključio ovu mogućnost}}.",
 	"prefs-betafeatures": "Beta mogućnosti",
+	"prefs-description-betafeatures": "Isprobajte najnovije beta-funkcije i dajte svoje mišljenje.",
 	"tooltip-pt-betafeatures": "Beta mogućnosti"
 }
