@@ -23,6 +23,8 @@
  * @license GPL-2.0-or-later
  */
 
+use MediaWiki\HookContainer\HookContainer;
+
 /**
  * @covers \MediaWiki\Extension\BetaFeatures\Hooks::onGetPreferences
  *
@@ -85,7 +87,7 @@ class DependentFeatureTest extends BetaFeaturesTestCase {
 	protected function setUp(): void {
 		parent::setUp();
 
-		$this->setTemporaryHook( self::TESTDEPSKEY, [] );
+		$this->setTemporaryHook( self::TESTDEPSKEY, HookContainer::NOOP );
 		$this->setTemporaryHook( 'GetBetaFeaturePreferences', [ self::class, 'registerPreference' ] );
 		$this->setTemporaryHook( 'GetBetaFeatureDependencyHooks', [ self::class, 'registerDependency' ] );
 	}
