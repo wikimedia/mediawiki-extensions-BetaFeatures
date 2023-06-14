@@ -5,11 +5,13 @@
 			"Ajiniyaz Nurniyazov"
 		]
 	},
-	"betafeatures-extension-type": "Ekilemshi múmkinlikler",
+	"betafeatures-auto-enroll": "Barlıq jańa ekilemshi múmkinshiliklerdi avtomatikalıq túrde qosıw",
+	"betafeatures-extension-type": "Ekilemshi múmkinshilikler",
+	"betafeatures-section-desc": "Sizge {{SITENAME}} saytına arnalǵan jańa múmkinshiliklerdi usınamız. Olardı sınap kórip, oylarıńız haqqında biz benen bólisiwińizdi soraymız. Siz bergen pikirlerdi esapqa alıp, bul múmkinshiliklerdi rawajlandırıp baramız.",
 	"betafeatures-toplink": "Ekilemshi",
 	"mw-ui-feature-discuss": "Talqılaw",
 	"mw-ui-feature-info": "Maǵlıwmat",
 	"mw-ui-feature-user-count": "Bul múmkinshilik {{PLURAL:$1|paydalanıwshı|$1 paydalanıwshı|0=paydalanıwshı}} tárepinen qollanılmaqta.",
-	"prefs-betafeatures": "Ekilemshi múmkinlikler",
+	"prefs-betafeatures": "Ekilemshi múmkinshilikler",
 	"tooltip-pt-betafeatures": "Ekilemshi múmkinshilikler"
 }
