@@ -8,6 +8,7 @@
 			"NikosLikomitros",
 			"Nikosgranturismogt",
 			"Norhorn",
+			"Spyridon Eftychios Kokotos",
 			"Xaris333"
 		]
 	},
@@ -26,5 +27,6 @@
 	"mw-ui-feature-requirements-skins": "Αυτή η λειτουργία λειτουργεί μόνο με {{PLURAL:$1|το ακόλουθο θέμα εμφάνισης|τα ακόλουθα θέματα εμφάνισης}}:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|Ένας χρήστης δοκιμάζει|$1 χρήστες δοκιμάζουν|0=Κανένας χρήστης δεν δοκιμάζει}} αυτή τη λειτουργία.",
 	"prefs-betafeatures": "Δοκιμαστικές λειτουργίες",
+	"prefs-description-betafeatures": "Δοκιμάστε τις πιο πρόσφατες λειτουργίες οι οποίες είναι σε εξέλιξη και παραθέστε τις παρατηρήσεις σας.",
 	"tooltip-pt-betafeatures": "Δοκιμαστικές λειτουργίες"
 }

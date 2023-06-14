@@ -18,7 +18,7 @@
 	"mw-ui-feature-requirements-browser": "Quyidagi {{PLURAL:$1|brauzer|brauzerlar}} qoʻllab-quvvatlanmaydi:",
 	"mw-ui-feature-requirements-javascript": "Bu funksiya JavaScriptni talab etadi.",
 	"mw-ui-feature-requirements-skins": "Bu funksiya faqat {{PLURAL:$1|quyidagi tashqi koʻrinish|quyidagi tashqi koʻrinishlar}} bilan ishlaydi:",
-	"mw-ui-feature-user-count": "{{PLURAL:$1|Bitta foydalanuvchi|$1 ta foydalanuvchi|0=0 ta foydalanuvchi}} bu funksiyani sinab koʻryabdi.",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|Bitta foydalanuvchi|$1 ta foydalanuvchi|0=0 ta foydalanuvchi}} bu funksiyani sinab koʻryapti.",
 	"prefs-betafeatures": "Beta-funksiyalar",
 	"tooltip-pt-betafeatures": "Beta-funksiyalar"
 }
