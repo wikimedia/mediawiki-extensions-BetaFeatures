@@ -14,7 +14,7 @@
 	"mw-ui-feature-discuss": "Discussion",
 	"mw-ui-feature-info": "Informazzion",
 	"mw-ui-feature-requirements-betafeatures": "Questa fonzion chì la gh'hà besogn che {{PLURAL:$1|la sia ativada quella fonzion chì|'ste fonzion chì i sìen ativade}}:",
-	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|'Sto programa de navigazzion chì l'è minga suportad|'Sti programa de navigazzion chì a inn minga suportad}}:",
+	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|'Sto curiosador chì l'è minga suportad|'Sti curiosador chì a inn minga suportad}}:",
 	"mw-ui-feature-requirements-javascript": "Quella fonzion chì la gh'hà besogn de JavaScript.",
 	"mw-ui-feature-requirements-skins": "Quella fonzion chì la và domà con {{PLURAL:$1|quell tema chì|chi temi chì}}:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|Un utent a l'è|$1 utent a inn|0=Nissun utent a l'è}} dree a provà quella fonzion chì.",
