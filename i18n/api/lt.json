@@ -4,7 +4,6 @@
 			"Manvydasz"
 		]
 	},
-	"apihelp-query+betafeatures-description": "Visų Beta funkcijų sąrašas",
 	"apihelp-query+betafeatures-summary": "Visų Beta funkcijų sąrašas",
 	"apihelp-query+betafeatures-example-1": "Įjungti visas beta funkcijas ir parodyti kiek vartotojų jas naudoja",
 	"apihelp-query+betafeatures-param-counts": "Ar skaičiuoti, kiek vartotojų įgalino tam tikrą funkciją."

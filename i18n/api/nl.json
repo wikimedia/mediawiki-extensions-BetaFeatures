@@ -6,7 +6,6 @@
 			"Siebrand"
 		]
 	},
-	"apihelp-query+betafeatures-description": "Alle bètafuncties weergeven",
 	"apihelp-query+betafeatures-summary": "Alle bètafuncties weergeven",
 	"apihelp-query+betafeatures-example-1": "Alle beschikbare bètafuncties weergeven en hoeveel gebruikers ze hebben ingeschakeld",
 	"apihelp-query+betafeatures-param-counts": "Of aangegeven moet worden hoeveel gebruikers een bepaalde voorkeur hebben ingeschakeld."

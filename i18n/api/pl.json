@@ -6,7 +6,6 @@
 			"Woytecr"
 		]
 	},
-	"apihelp-query+betafeatures-description": "Lista wszystkich funkcji eksperymentalnych",
 	"apihelp-query+betafeatures-summary": "Lista wszystkich funkcji eksperymentalnych",
 	"apihelp-query+betafeatures-example-1": "Pobierz informacje o wszystkich dostępnych funkcjach eksperymentalnych i pokaż ilu użytkowników je włączyło.",
 	"apihelp-query+betafeatures-param-counts": "Czy pobrać informacje o ilości użytkowników, którzy włączyli dane ustawienie."

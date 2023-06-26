@@ -5,7 +5,6 @@
 			"William Surya Permana"
 		]
 	},
-	"apihelp-query+betafeatures-description": "Tampilkan semua Fitur Beta",
 	"apihelp-query+betafeatures-summary": "Tampilkan semua Fitur Beta",
 	"apihelp-query+betafeatures-example-1": "Dapatkan semua fitur beta yang tersedia dan tampilkan berapa banyak pengguna yang mengaktifkannya",
 	"apihelp-query+betafeatures-param-counts": "Menentukan apakah perlu mengambil data atas berapa banyak pengguna yang mengaktifkan preferensi tertentu atau tidak."

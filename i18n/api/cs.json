@@ -6,7 +6,6 @@
 			"Patrik L."
 		]
 	},
-	"apihelp-query+betafeatures-description": "Seznam všech funkcí beta verze",
 	"apihelp-query+betafeatures-summary": "Seznam všech funkcí beta verze",
 	"apihelp-query+betafeatures-example-1": "Získá seznam všech funkcí beta verze a počet uživatelů, kteří si je zapnuli",
 	"apihelp-query+betafeatures-param-counts": "Jestli se má načíst i počet uživatelů, kteří si zapnuli příslušnou volbu."
