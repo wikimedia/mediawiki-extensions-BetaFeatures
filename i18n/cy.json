@@ -10,7 +10,7 @@
 	"betafeatures-auto-enroll-help": "Gall rhai nodweddion beta wneud newidiadau mawr, felly rhaid i {{GENDER:|chi}} gofrestru.",
 	"betafeatures-desc": "Yn caniatau i ddefnyddiwr i alluogi nodweddion ar y wici nad ydynt yn barod i'w mabwysiadu'n llwyr eto, neu i'w hanalluogi.",
 	"betafeatures-extension-type": "Nodweddion beta",
-	"betafeatures-section-desc": "Yma ceir {{PLURAL:$1|is a new feature|rhai nodweddion}} rydym yn eu hystyried ar gyfer {{SITENAME}}. Rhowch gynnig {{PLURAL:$1|arni|arnynt}} a mynegwch eich barn fel y gallem , so we can improve {{PLURAL:$1|ei wella|eu gwella}}.",
+	"betafeatures-section-desc": "Dyma {{PLURAL:$1|nodwedd newydd|rhai nodweddion newydd}} rydym yn eu hystyried ar gyfer {{SITENAME}}. Rhowch gynnig {{PLURAL:$1|arni|arnynt}}, a mynegwch eich barn fel y gallem {{PLURAL:$1|ei wella|eu gwella}} yn ôl eich adborth chi.",
 	"betafeatures-toplink": "Beta",
 	"betafeatures-feature-autoenrolled": "Nodwedd trwy gofrestru awtomatig",
 	"mw-ui-feature-discuss": "Sgwrs",
@@ -19,7 +19,7 @@
 	"mw-ui-feature-requirements-browser": "Nid yw'r  {{PLURAL:$1|porwr|porwyr}} canlynol yn cael eu cefnogi:",
 	"mw-ui-feature-requirements-javascript": "Mae'r nodwedd hon angen JavaScript.",
 	"mw-ui-feature-requirements-skins": "Dim ond gyda'r {{PLURAL:$1|gwedd ganlynol|gweddau canlynol}} mae'r nodwedd hon yn gweithio:",
-	"mw-ui-feature-user-count": "{{PLURAL:$1|Mae un defnyddiwr|Mae $1 defnyddiwr|0=Nid oes yr un defnyddiwr}} yn treialu'r nodwedd yma.",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|Mae un defnyddiwr|Mae $1 defnyddiwr|0=Nid oes unrhyw defnyddwyr}} yn treialu'r nodwedd hon.",
 	"prefs-betafeatures": "Nodweddion Beta",
 	"prefs-description-betafeatures": "Cael blas ar y nodweddion diweddaraf sydd ar y gweill a rhoi adborth.",
 	"tooltip-pt-betafeatures": "Nodweddion Beta"
