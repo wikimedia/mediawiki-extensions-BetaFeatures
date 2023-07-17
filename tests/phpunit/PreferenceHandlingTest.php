@@ -30,6 +30,7 @@ use MediaWiki\Extension\BetaFeatures\HTMLFeatureField;
  * @covers \MediaWiki\Extension\BetaFeatures\Hooks::onGetPreferences
  *
  * @group BetaFeatures
+ * @group Database
  */
 class PreferenceHandlingTest extends BetaFeaturesTestCase {
 

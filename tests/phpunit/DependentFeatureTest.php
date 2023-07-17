@@ -29,6 +29,7 @@ use MediaWiki\HookContainer\HookContainer;
  * @covers \MediaWiki\Extension\BetaFeatures\Hooks::onGetPreferences
  *
  * @group BetaFeatures
+ * @group Database
  */
 class DependentFeatureTest extends BetaFeaturesTestCase {
 
