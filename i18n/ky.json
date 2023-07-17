@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
+			"Bosogo",
 			"Janatkg"
 		]
 	},
-	"betafeatures-toplink": "Бета версиясы"
+	"betafeatures-toplink": "Бета версиясы",
+	"mw-ui-feature-info": "Маалымат"
 }
