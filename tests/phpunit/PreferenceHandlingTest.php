@@ -32,7 +32,7 @@ use MediaWiki\Extension\BetaFeatures\HTMLFeatureField;
  * @group BetaFeatures
  * @group Database
  */
-class PreferenceHandlingTest extends BetaFeaturesTestCase {
+class PreferenceHandlingTest extends BetaFeaturesDatabaseTestCase {
 
 	private const TESTPREFKEY = 'unittest';
 

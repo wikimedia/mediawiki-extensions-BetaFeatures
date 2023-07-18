@@ -31,7 +31,7 @@ use MediaWiki\HookContainer\HookContainer;
  * @group BetaFeatures
  * @group Database
  */
-class DependentFeatureTest extends BetaFeaturesTestCase {
+class DependentFeatureTest extends BetaFeaturesDatabaseTestCase {
 
 	/** Key for testing preference */
 	private const TESTPREFKEY = 'unittest';

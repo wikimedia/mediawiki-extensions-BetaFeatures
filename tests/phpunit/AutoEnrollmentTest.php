@@ -29,7 +29,7 @@
  * @group BetaFeatures
  * @group Database
  */
-class AutoEnrollmentTest extends BetaFeaturesTestCase {
+class AutoEnrollmentTest extends BetaFeaturesDatabaseTestCase {
 
 	/** @var array Structure of testing preference */
 	public static $testPrefs = [

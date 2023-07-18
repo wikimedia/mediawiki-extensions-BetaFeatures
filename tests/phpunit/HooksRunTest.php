@@ -44,11 +44,6 @@ class HooksRunTest extends MediaWikiIntegrationTestCase {
 	];
 
 	/**
-	 * @var User
-	 */
-	private $user;
-
-	/**
 	 * Hook callback
 	 * @param User $user
 	 * @param array &$betaPrefs
@@ -69,17 +64,11 @@ class HooksRunTest extends MediaWikiIntegrationTestCase {
 		return true;
 	}
 
-	protected function setUp(): void {
-		parent::setUp();
-
-		$this->user = $this->getMutableTestUser( [ 'unittesters' ] )->getUser();
-	}
-
 	public function testHooksRun() {
 		$this->setTemporaryHook( 'GetBetaFeaturePreferences', [ self::class, 'registerPreference' ] );
 		$prefs = [];
 		( new HookRunner( $this->getServiceContainer()->getHookContainer() ) )
-			->onGetBetaFeaturePreferences( $this->user, $prefs );
+			->onGetBetaFeaturePreferences( $this->createMock( User::class ), $prefs );
 		$this->assertArrayHasKey( self::TESTPREFKEY, $prefs, 'Hook did not run' );
 		$this->assertSame(
 			$prefs[self::TESTPREFKEY],

@@ -26,9 +26,9 @@
 use MediaWiki\Extension\BetaFeatures\Hooks as BFHooks;
 
 /**
- * @group BetaFeatures
+ * Base class for BetaFeatures test that need the database.
  */
-class BetaFeaturesTestCase extends MediaWikiIntegrationTestCase {
+class BetaFeaturesDatabaseTestCase extends MediaWikiIntegrationTestCase {
 
 	/**
 	 * @var User

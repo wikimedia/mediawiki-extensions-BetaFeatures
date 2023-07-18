@@ -91,7 +91,7 @@
 		"MediaWiki\\Extension\\BetaFeatures\\": "includes/"
 	},
 	"TestAutoloadClasses": {
-		"BetaFeaturesTestCase": "tests/phpunit/BetaFeaturesTestCase.php"
+		"BetaFeaturesDatabaseTestCase": "tests/phpunit/BetaFeaturesDatabaseTestCase.php"
 	},
 	"DefaultUserOptions": {
 		"betafeatures-auto-enroll": false
