@@ -1,8 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Сай"
+			"Сай",
+			"Lifeway"
 		]
 	},
-	"betafeatures-toplink": "Бета"
+	"betafeatures-extension-type": "Бета-функций-влак",
+	"betafeatures-toplink": "Бета",
+	"mw-ui-feature-discuss": "Каҥашымаш",
+	"mw-ui-feature-info": "Информаций",
+	"prefs-betafeatures": "Бета-функций-влак",
+	"tooltip-pt-betafeatures": "Бета-функций-влак"
 }
