@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Winston Sung"
+		]
+	},
+	"apihelp-query+betafeatures-summary": "顯示所有試用功能",
+	"apihelp-query+betafeatures-example-1": "拎所有用得嘅試用功能嘅一覽並顯示而家有幾多用戶開啟咗嗰啲功能"
+}

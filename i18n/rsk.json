@@ -1,8 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Keresturec"
+			"Keresturec",
+			"Vlad5250"
 		]
 	},
-	"betafeatures-toplink": "Бета"
+	"betafeatures-extension-type": "Бета функциї",
+	"betafeatures-toplink": "Бета",
+	"mw-ui-feature-discuss": "Розгварка",
+	"prefs-betafeatures": "Бета функциї",
+	"tooltip-pt-betafeatures": "Бета функциї"
 }
