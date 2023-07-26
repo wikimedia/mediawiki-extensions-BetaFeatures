@@ -102,9 +102,9 @@ class Hooks implements
 		array $originalOptions
 	) {
 		$services = MediaWikiServices::getInstance();
-		$userNameUtils = $services->getUserNameUtils();
-		if ( !$user->isRegistered() || $userNameUtils->isTemp( $user->getName() ) ) {
-			// Anonymous users do not have options, shorten out.
+		$userIdentityUtils = $services->getUserIdentityUtils();
+		if ( !$user->isRegistered() || $userIdentityUtils->isTemp( $user ) ) {
+			// Anonymous and temporary users do not have options, shorten out.
 			return;
 		}
 
