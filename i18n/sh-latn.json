@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Winston Sung"
+		]
+	},
+	"betafeatures-auto-enroll": "Automatski uključi većinu beta mogućnosti",
+	"betafeatures-auto-enroll-help": "Poneke beta-mogućnosti mogu imati neočekivane promjene, stoga ih {{GENDER:|trebate}} ručno uključiti.",
+	"betafeatures-desc": "Omogućuje korisniku uključivanje i isključivanje mogućnosti što još nisu uvedene kao zadane",
+	"betafeatures-extension-type": "Beta mogućnosti",
+	"betafeatures-section-desc": "Ovo {{PLURAL:$1|je jedna nova funkcija|su nekoje nove funkcije}} što planiramo za {{SITENAME}}. Isprobajte ih i recite nam što mislite, kako bismo ih mogli poboljšati na osnovi vaših nalaza.",
+	"betafeatures-toplink": "Beta",
+	"betafeatures-feature-autoenrolled": "Automatski uključena mogućnost",
+	"mw-ui-feature-discuss": "Razgovor",
+	"mw-ui-feature-info": "Informacije",
+	"mw-ui-feature-requirements-betafeatures": "Za ovu funkciju potrebno je omogućiti {{PLURAL:$1|sljedeću funkciju|sljedeće funkcije}}:",
+	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|Nije podržan sljedeći preglednik|Nisu podržani sljedeći preglednici}}:",
+	"mw-ui-feature-requirements-javascript": "Ova funkcija zahtijeva JavaScript.",
+	"mw-ui-feature-requirements-skins": "Ova funkcija radi jedino sa sljedećim {{PLURAL:$1|izgledom|izgledima}}:",
+	"mw-ui-feature-user-count": "Funkciju {{PLURAL:$1|isprobava jedan korisnik|isprobavaju $1 korisnika|0=ne isprobava niti jedan korisnik}}.",
+	"prefs-betafeatures": "Beta mogućnosti",
+	"prefs-description-betafeatures": "Isprobajte najnovije značajke koje su u tijeku i dajte povratne informacije.",
+	"tooltip-pt-betafeatures": "Beta mogućnosti"
+}

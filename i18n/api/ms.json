@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hakimi97"
+		]
+	},
+	"apihelp-query+betafeatures-summary": "Senarai semua CiriBeta",
+	"apihelp-query+betafeatures-example-1": "Dapatkan semua ciri beta yang tersedia dan tunjukkan bilangan pengguna yang telah mendayakannya",
+	"apihelp-query+betafeatures-param-counts": "Sama ada hendak mengambil bilangan pengguna yang telah mendayakan pilihan tertentu."
+}

@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Winston Sung"
+		]
+	},
+	"apihelp-query+betafeatures-summary": "Popis svih beta mogućnosti",
+	"apihelp-query+betafeatures-example-1": "Daj sve dostupne beta mogućnosti i prikaži koliko ih je ljudi uključilo",
+	"apihelp-query+betafeatures-param-counts": "Da li da se prikaže koliko je korisnika uključilo određenu mogućnost."
+}

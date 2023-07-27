@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Winston Sung"
+		]
+	},
+	"betafeatures-auto-enroll": "自動開所有測試功能",
+	"betafeatures-extension-type": "試用版功能",
+	"betafeatures-section-desc": "下面係我哋準備喺{{SITENAME}}開嘅新功能。請幫手測試同提供寶貴反饋畀我哋，幫我哋改進。",
+	"betafeatures-toplink": "試用",
+	"mw-ui-feature-discuss": "討論",
+	"mw-ui-feature-info": "資訊",
+	"mw-ui-feature-requirements-browser": "唔支援下面嘅{{PLURAL:$1|瀏覽器}}：",
+	"mw-ui-feature-requirements-javascript": "呢個功能需要JavaScript。",
+	"mw-ui-feature-requirements-skins": "呢個功能只係可以喺下面嘅介面{{PLURAL:$1|外觀}}度用：",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|$1位用戶|0=未有用戶}}試用緊呢項功能。",
+	"prefs-betafeatures": "試用版功能",
+	"tooltip-pt-betafeatures": "試用版功能"
+}
