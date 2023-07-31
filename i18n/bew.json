@@ -4,5 +4,21 @@
 			"Bangrapip"
 		]
 	},
-	"betafeatures-toplink": "Béta"
+	"betafeatures-auto-enroll": "Otomatis nyalain keboléan paling béta",
+	"betafeatures-auto-enroll-help": "Beberapa keboléan béta bisa aja ada perobahan nyang ojog-ojog, jadi {{GENDER:|lu}} ku setèl dèwèk.",
+	"betafeatures-desc": "Ngeja pemaké bisa nyalain atawa matiin keboléan di wiki nyang masing kaga' siap tayang.",
+	"betafeatures-extension-type": "Keboléan béta",
+	"betafeatures-section-desc": "Ni dia {{PLURAL:$1|keboléan baru|beberapa keboléan baru}} nyang kita lagi pertimbangin bakal {{SITENAME}}. Padol dah, jal {{PLURAL:$1|tu|tu pada}} èn kasi tau lu punya pikir, jadi kita bisa sempurnain {{PLURAL:$1|tu|tu pada}} berales lu punya empan balik.",
+	"betafeatures-toplink": "Béta",
+	"betafeatures-feature-autoenrolled": "Keboléan nyang otomatis kepaké",
+	"mw-ui-feature-discuss": "Perhadring",
+	"mw-ui-feature-info": "Inpormasi",
+	"mw-ui-feature-requirements-betafeatures": "Ni keboléan ngebutuin ni {{PLURAL:$1|keboléan}} biar bisa dinyalain:",
+	"mw-ui-feature-requirements-browser": "Ni {{PLURAL:$1|pengorag}} kaga' didukung:",
+	"mw-ui-feature-requirements-javascript": "Ni keboléan ngebutuin JavaScript.",
+	"mw-ui-feature-requirements-skins": "Ni keboléan cuman bisa ama ni {{PLURAL:$1|kulit|kulit pada}}:",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|Atu pemaké|$1 pemaké|0=Kaga' ada pemaké nyang}} lagi ngejal ni keboléan.",
+	"prefs-betafeatures": "Keboléan béta",
+	"prefs-description-betafeatures": "Jal keboléan mutahir nyang lagi dikembangin èn kasi empan balik.",
+	"tooltip-pt-betafeatures": "Keboléan béta"
 }
