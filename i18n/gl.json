@@ -10,10 +10,12 @@
 		]
 	},
 	"betafeatures-auto-enroll": "Activar automaticamente case todas as novas características en probas",
+	"betafeatures-auto-enroll-help": "Algunhas características en probas poden conter cambios sorprendentes, polo que {{GENDER:|ten}} que activalas manualmente.",
 	"betafeatures-desc": "Permite que o usuario active ou desactive as características do wiki que aínda non están listas para o seu uso xeneralizado",
 	"betafeatures-extension-type": "Características en probas",
 	"betafeatures-section-desc": "Aquí hai {{PLURAL:$1|unha característica nova|algunhas características novas}} que estamos considerando para {{SITENAME}}. {{PLURAL:$1|Próbea|Próbeas}} e achéguenos a súa opinión, para que poidamos {{PLURAL:$1|mellorala|melloralas}}.",
 	"betafeatures-toplink": "Beta",
+	"betafeatures-feature-autoenrolled": "Característica de rexistro automático",
 	"mw-ui-feature-discuss": "Conversa",
 	"mw-ui-feature-info": "Información",
 	"mw-ui-feature-requirements-betafeatures": "Esta característica necesita a activación {{PLURAL:$1|da seguinte característica|das seguintes características}}:",
@@ -22,5 +24,6 @@
 	"mw-ui-feature-requirements-skins": "Esta característica funciona unicamente {{PLURAL:$1|coa seguinte aparencia|coas seguintes aparencias}}:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|Un usuario está|$1 usuarios están|0=Ningún usuario está}} probando esta característica.",
 	"prefs-betafeatures": "Características en probas",
+	"prefs-description-betafeatures": "Probe as últimas características en probas e envíe comentarios.",
 	"tooltip-pt-betafeatures": "Características en probas"
 }
