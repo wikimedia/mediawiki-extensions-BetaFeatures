@@ -2,11 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Сай",
-			"Lifeway"
+			"Lifeway",
+			"Mxalexandrov86"
 		]
 	},
 	"betafeatures-extension-type": "Бета-функций-влак",
 	"betafeatures-toplink": "Бета",
+	"betafeatures-feature-autoenrolled": "Автоматически палемдалтме функций",
 	"mw-ui-feature-discuss": "Каҥашымаш",
 	"mw-ui-feature-info": "Информаций",
 	"prefs-betafeatures": "Бета-функций-влак",
