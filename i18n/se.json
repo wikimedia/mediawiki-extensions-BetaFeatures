@@ -4,7 +4,12 @@
 			"Kimberli Mäkäräinen (WMNO)"
 		]
 	},
+	"betafeatures-extension-type": "Betadoaimmat",
 	"betafeatures-toplink": "Beta",
 	"mw-ui-feature-discuss": "Ságastallan",
-	"mw-ui-feature-info": "Lassedieđut"
+	"mw-ui-feature-info": "Lassedieđut",
+	"mw-ui-feature-requirements-javascript": "Dát doaibma gáibida JavaScript.",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|Okta geavaheaddji lea|$1 geavaheaddji leat|0=Ii oktage geavaheaddji leat}} váldán dán doaibma atnui.",
+	"prefs-betafeatures": "Betadoaimmat",
+	"tooltip-pt-betafeatures": "Betadoaimmat"
 }
