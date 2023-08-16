@@ -6,11 +6,19 @@
 			"Mxalexandrov86"
 		]
 	},
+	"betafeatures-auto-enroll": "Шукырак бета-функцийжым вигак чӱкташ",
+	"betafeatures-auto-enroll-help": "Шуко бета-функцийже вучыдымын вигак вашталтын кертыт, сандене нуным {{GENDER:|тылат}} кид дене чӱктыман.",
+	"betafeatures-desc": "Ушнышылан прайм-тайм манме жаплан ямде огыл функций-влакым чӱкташ да йӧрташ йӧным пуа",
 	"betafeatures-extension-type": "Бета-функций-влак",
 	"betafeatures-toplink": "Бета",
 	"betafeatures-feature-autoenrolled": "Автоматически палемдалтме функций",
 	"mw-ui-feature-discuss": "Каҥашымаш",
 	"mw-ui-feature-info": "Информаций",
+	"mw-ui-feature-requirements-betafeatures": "Ты функций тыгай {{PLURAL:$1|функций чӱктымӧ лийже|функций-влак чӱктымӧ лийышт}} манын, йодеш:",
+	"mw-ui-feature-requirements-browser": "Тыгай {{PLURAL:$1|браузер огеш|браузер-влак огыт}} кучылталт:",
+	"mw-ui-feature-requirements-javascript": "Тиде функций JavaScript манмым йодеш.",
+	"mw-ui-feature-requirements-skins": "Ты функций тыгай {{PLURAL:$1|теме|теме-влак}} дене гына ышта:",
+	"mw-ui-feature-user-count": "Тиде функцийым {{PLURAL:$1|ик ушнышо шымла|$1 ушнышо шымла|0=нигӧ огеш шымле}}.",
 	"prefs-betafeatures": "Бета-функций-влак",
 	"tooltip-pt-betafeatures": "Бета-функций-влак"
 }
