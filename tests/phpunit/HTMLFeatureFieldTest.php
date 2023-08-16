@@ -24,6 +24,7 @@
  */
 
 use MediaWiki\Extension\BetaFeatures\HTMLFeatureField;
+use MediaWiki\Title\Title;
 
 /**
  * @covers \MediaWiki\Extension\BetaFeatures\HTMLFeatureField

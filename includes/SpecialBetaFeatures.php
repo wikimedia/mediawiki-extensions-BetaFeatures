@@ -2,9 +2,9 @@
 
 namespace MediaWiki\Extension\BetaFeatures;
 
+use MediaWiki\Title\Title;
 use RedirectSpecialPage;
 use SpecialPage;
-use Title;
 
 /**
  * @codeCoverageIgnore

@@ -24,6 +24,7 @@
  */
 
 use MediaWiki\Extension\BetaFeatures\HTMLHorizontalRuleField;
+use MediaWiki\Title\Title;
 
 /**
  * @covers \MediaWiki\Extension\BetaFeatures\HTMLHorizontalRuleField
