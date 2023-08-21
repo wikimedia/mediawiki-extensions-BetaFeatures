@@ -20,6 +20,11 @@ $specialPageAliases['arz'] = [
 	'BetaFeatures' => [ 'خصايص_البيتا' ],
 ];
 
+/** Bengali (বাংলা) */
+$specialPageAliases['bn'] = [
+	'BetaFeatures' => [ 'বেটা_বৈশিষ্ট্য', 'বেটা_বৈশিষ্ট্যসমূহ' ],
+];
+
 /** Western Balochi (بلوچی رخشانی) */
 $specialPageAliases['bgn'] = [
 	'BetaFeatures' => [ 'ازمایشین_قابلیت' ],
