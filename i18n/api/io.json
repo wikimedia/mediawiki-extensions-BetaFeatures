@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joao Xavier"
+		]
+	},
+	"apihelp-query+betafeatures-summary": "Listar omna funcioni ''Beta''",
+	"apihelp-query+betafeatures-example-1": "Montrez listo pri omna versioni experimentala, e montrez quanta personi uzas li",
+	"apihelp-query+betafeatures-param-counts": "Montrez quanta uzeri kapabligis certena preferajo."
+}
