@@ -1,9 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Paraw2"
+			"Paraw2",
+			"TerranBoy"
 		]
 	},
 	"betafeatures-toplink": "بێتا (ئەزمایشتی)",
+	"mw-ui-feature-discuss": "وتووێش",
+	"mw-ui-feature-info": "زانیاری",
 	"tooltip-pt-betafeatures": "تایبەتمەندییەگان بێتا (ئەزمایشتی)"
 }
