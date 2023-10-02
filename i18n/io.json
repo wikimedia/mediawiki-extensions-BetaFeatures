@@ -7,14 +7,20 @@
 			"JSantos"
 		]
 	},
-	"betafeatures-auto-enroll": "Permisar omna nova funcioni 'Beta', automatale",
+	"betafeatures-auto-enroll": "Automatale permisar la maxim multa funcioni 'Beta'",
 	"betafeatures-auto-enroll-help": "Kelka funcioni 'beta' povas efektigar surprizanta modifikuri, do {{GENDER:|vu}} mustos selektor li unope.",
+	"betafeatures-desc": "Posibligas ke uzero kapabligez o deskapabligez funcioni che wiki qui ankore ne esas definitiva",
 	"betafeatures-extension-type": "Versioni experimentala ('Beta')",
 	"betafeatures-section-desc": "Yen kelka {{PLURAL:$1|nova experimentala funciono|experimentala funcioni}} 'Beta' quin ni konsideras adoptor por {{SITENAME}}. Voluntez probar {{PLURAL:$1|ol|li}} e sendar vua opinioni a ni, do ni povos plubonigor {{PLURAL:$1|ol|li}} segun vua egardo ('feedback').",
 	"betafeatures-toplink": "Beta",
+	"betafeatures-feature-autoenrolled": "Funciono automatale kapabligita",
 	"mw-ui-feature-discuss": "Diskuto",
 	"mw-ui-feature-info": "Informo",
+	"mw-ui-feature-requirements-betafeatures": "Ca funciono bezonas la sequanta {{PLURAL:$1|funciono|funcioni}} por uzesar:",
+	"mw-ui-feature-requirements-browser": "La sequanta {{PLURAL:$1|retnavigilo|retnavigili}} ne funcionas:",
+	"mw-ui-feature-requirements-javascript": "Ca funciono bezonas JavaScript",
+	"mw-ui-feature-requirements-skins": "Ca funciono nur povas uzesar kun {{PLURAL:$1|la sequanta ''skin''}}:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|1 uzero|$1 uzeri|0=Nulu}} probabas ica versiono 'Beta'.",
-	"prefs-betafeatures": "Versioni 'Beta'",
+	"prefs-betafeatures": "Versioni experimentala ('Beta')",
 	"tooltip-pt-betafeatures": "Experimentala funcioni"
 }
