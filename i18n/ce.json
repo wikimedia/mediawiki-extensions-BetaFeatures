@@ -11,6 +11,7 @@
 	"betafeatures-extension-type": "Бета-функцеш",
 	"betafeatures-section-desc": "{{PLURAL:$1|Йина керла фунуцеш}} оха уьш йеш йу {{SITENAME}}. Дехар до, {{PLURAL:$1|уьш}} лелайайн а хьайна хетарг ала, тӀакха тхуна уьш дика йан аьтту хира бу.",
 	"betafeatures-toplink": "Бета",
+	"betafeatures-feature-autoenrolled": "Авто-латош йолу функци",
 	"mw-ui-feature-discuss": "Дийцар",
 	"mw-ui-feature-info": "хаам",
 	"mw-ui-feature-requirements-betafeatures": "ХӀокху функцин {{PLURAL:$1|функци}} лато йеза:",
