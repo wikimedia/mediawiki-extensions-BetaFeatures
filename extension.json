@@ -23,7 +23,12 @@
 		"BetaFeaturesAlias": "BetaFeatures.alias.php"
 	},
 	"APIListModules": {
-		"betafeatures": "MediaWiki\\Extension\\BetaFeatures\\ApiQueryBetaFeatures"
+		"betafeatures": {
+			"class": "MediaWiki\\Extension\\BetaFeatures\\ApiQueryBetaFeatures",
+			"services": [
+				"HookContainer"
+			]
+		}
 	},
 	"Hooks": {
 		"SaveUserOptions": "main",

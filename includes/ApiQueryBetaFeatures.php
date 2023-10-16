@@ -28,13 +28,20 @@ namespace MediaWiki\Extension\BetaFeatures;
 
 use ApiQueryBase;
 use MediaWiki\Extension\BetaFeatures\Hooks\HookRunner;
-use MediaWiki\MediaWikiServices;
+use MediaWiki\HookContainer\HookContainer;
 use User;
 
 class ApiQueryBetaFeatures extends ApiQueryBase {
+	private HookContainer $hookContainer;
+
 	/** @inheritDoc */
-	public function __construct( $query, $moduleName ) {
+	public function __construct(
+		$query,
+		$moduleName,
+		HookContainer $hookContainer
+	) {
 		parent::__construct( $query, $moduleName, 'bf' );
+		$this->hookContainer = $hookContainer;
 	}
 
 	public function execute() {
@@ -42,7 +49,7 @@ class ApiQueryBetaFeatures extends ApiQueryBase {
 
 		$prefs = $this->getConfig()->get( 'BetaFeatures' );
 		$user = User::newFromName( 'MediaWiki default' );
-		( new HookRunner( MediaWikiServices::getInstance()->getHookContainer() ) )
+		( new HookRunner( $this->hookContainer ) )
 			->onGetBetaFeaturePreferences( $user, $prefs );
 
 		$counts = isset( $params['counts'] )
