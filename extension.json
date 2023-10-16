@@ -35,14 +35,26 @@
 		"GetPreferences": "main",
 		"UserGetDefaultOptions": "main",
 		"SkinTemplateNavigation::Universal": "main",
-		"LoadExtensionSchemaUpdates": "main",
+		"LoadExtensionSchemaUpdates": "schema",
 		"MakeGlobalVariablesScript": "main",
 		"PreferencesGetIcon": "main",
 		"ExtensionTypes": "main"
 	},
 	"HookHandlers": {
 		"main": {
-			"class": "MediaWiki\\Extension\\BetaFeatures\\Hooks"
+			"class": "MediaWiki\\Extension\\BetaFeatures\\Hooks",
+			"services": [
+				"MainConfig",
+				"HookContainer",
+				"JobQueueGroupFactory",
+				"SkinFactory",
+				"UserFactory",
+				"UserIdentityUtils",
+				"UserOptionsManager"
+			]
+		},
+		"schema": {
+			"class": "MediaWiki\\Extension\\BetaFeatures\\SchemaHooks"
 		}
 	},
 	"MessagesDirs": {

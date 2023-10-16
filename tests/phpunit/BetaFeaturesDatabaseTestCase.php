@@ -35,13 +35,26 @@ class BetaFeaturesDatabaseTestCase extends MediaWikiIntegrationTestCase {
 	 */
 	protected $user;
 
+	private function newBFHooks(): BFHooks {
+		$services = $this->getServiceContainer();
+		return new BFHooks(
+			$services->getMainConfig(),
+			$services->getHookContainer(),
+			$services->getJobQueueGroupFactory(),
+			$services->getSkinFactory(),
+			$services->getUserFactory(),
+			$services->getUserIdentityUtils(),
+			$services->getUserOptionsManager()
+		);
+	}
+
 	protected function setUp(): void {
 		parent::setUp();
 
 		// Avoid interactions with other extensions
 		$this->setTemporaryHook(
 			'GetPreferences',
-			[ new BFHooks(), 'onGetPreferences' ]
+			[ $this->newBFHooks(), 'onGetPreferences' ]
 		);
 
 		$this->user = $this->getMutableTestUser( [ 'unittesters' ] )->getUser();

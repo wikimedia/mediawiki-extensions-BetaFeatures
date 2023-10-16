@@ -25,23 +25,27 @@
 
 namespace MediaWiki\Extension\BetaFeatures;
 
-use DatabaseUpdater;
 use DeferredUpdates;
 use Exception;
+use MediaWiki\Config\Config;
 use MediaWiki\Extension\BetaFeatures\Hooks\HookRunner;
 use MediaWiki\Hook\ExtensionTypesHook;
 use MediaWiki\Hook\MakeGlobalVariablesScriptHook;
 use MediaWiki\Hook\PreferencesGetIconHook;
 use MediaWiki\Hook\SkinTemplateNavigation__UniversalHook;
-use MediaWiki\Installer\Hook\LoadExtensionSchemaUpdatesHook;
-use MediaWiki\MediaWikiServices;
+use MediaWiki\HookContainer\HookContainer;
+use MediaWiki\JobQueue\JobQueueGroupFactory;
 use MediaWiki\Preferences\Hook\GetPreferencesHook;
 use MediaWiki\User\Hook\UserGetDefaultOptionsHook;
 use MediaWiki\User\Options\Hook\SaveUserOptionsHook;
+use MediaWiki\User\UserFactory;
 use MediaWiki\User\UserIdentity;
+use MediaWiki\User\UserIdentityUtils;
+use MediaWiki\User\UserOptionsManager;
 use ObjectCache;
 use OutputPage;
 use RequestContext;
+use SkinFactory;
 use SkinTemplate;
 use SpecialPage;
 use User;
@@ -49,7 +53,6 @@ use User;
 class Hooks implements
 	ExtensionTypesHook,
 	GetPreferencesHook,
-	LoadExtensionSchemaUpdatesHook,
 	MakeGlobalVariablesScriptHook,
 	PreferencesGetIconHook,
 	SaveUserOptionsHook,
@@ -62,6 +65,32 @@ class Hooks implements
 	 * It is passed client-side for JavaScript rendering/responsiveness.
 	 */
 	private static $features = [];
+
+	private Config $config;
+	private HookContainer $hookContainer;
+	private JobQueueGroupFactory $jobQueueGroupFactory;
+	private SkinFactory $skinFactory;
+	private UserFactory $userFactory;
+	private UserIdentityUtils $userIdentityUtils;
+	private UserOptionsManager $userOptionsManager;
+
+	public function __construct(
+		Config $config,
+		HookContainer $hookContainer,
+		JobQueueGroupFactory $jobQueueGroupFactory,
+		SkinFactory $skinFactory,
+		UserFactory $userFactory,
+		UserIdentityUtils $userIdentityUtils,
+		UserOptionsManager $userOptionsManager
+	) {
+		$this->config = $config;
+		$this->hookContainer = $hookContainer;
+		$this->jobQueueGroupFactory = $jobQueueGroupFactory;
+		$this->skinFactory = $skinFactory;
+		$this->userFactory = $userFactory;
+		$this->userIdentityUtils = $userIdentityUtils;
+		$this->userOptionsManager = $userOptionsManager;
+	}
 
 	/**
 	 * @param string[] $prefs
@@ -101,16 +130,14 @@ class Hooks implements
 		array &$modifiedOptions,
 		array $originalOptions
 	) {
-		$services = MediaWikiServices::getInstance();
-		$userIdentityUtils = $services->getUserIdentityUtils();
-		if ( !$user->isRegistered() || $userIdentityUtils->isTemp( $user ) ) {
+		if ( !$user->isRegistered() || $this->userIdentityUtils->isTemp( $user ) ) {
 			// Anonymous and temporary users do not have options, shorten out.
 			return;
 		}
 
-		$betaFeatures = $services->getMainConfig()->get( 'BetaFeatures' );
-		$user = $services->getUserFactory()->newFromUserIdentity( $user );
-		( new HookRunner( $services->getHookContainer() ) )->onGetBetaFeaturePreferences( $user, $betaFeatures );
+		$betaFeatures = $this->config->get( 'BetaFeatures' );
+		$user = $this->userFactory->newFromUserIdentity( $user );
+		( new HookRunner( $this->hookContainer ) )->onGetBetaFeaturePreferences( $user, $betaFeatures );
 
 		$jobs = [];
 		foreach ( $betaFeatures as $name => $option ) {
@@ -130,7 +157,7 @@ class Hooks implements
 			);
 		}
 		if ( $jobs !== [] ) {
-			$services->getJobQueueGroupFactory()->makeJobQueueGroup()->push( $jobs );
+			$this->jobQueueGroupFactory->makeJobQueueGroup()->push( $jobs );
 		}
 	}
 
@@ -140,13 +167,10 @@ class Hooks implements
 	 * @throws BetaFeaturesMissingFieldException
 	 */
 	public function onGetPreferences( $user, &$prefs ) {
-		$services = MediaWikiServices::getInstance();
-		$mainConfig = $services->getMainConfig();
-
-		$betaPrefs = $mainConfig->get( 'BetaFeatures' );
+		$betaPrefs = $this->config->get( 'BetaFeatures' );
 		$depHooks = [];
 
-		$hookRunner = new HookRunner( $services->getHookContainer() );
+		$hookRunner = new HookRunner( $this->hookContainer );
 		$hookRunner->onGetBetaFeaturePreferences( $user, $betaPrefs );
 
 		$count = count( $betaPrefs );
@@ -181,9 +205,8 @@ class Hooks implements
 		// coming soon to a wiki very near you.
 		$hookRunner->onGetBetaFeatureDependencyHooks( $depHooks );
 
-		$userOptionsManager = $services->getUserOptionsManager();
 		$autoEnrollSaveSettings = [];
-		$autoEnrollAll = $userOptionsManager->getBoolOption( $user, 'betafeatures-auto-enroll' );
+		$autoEnrollAll = $this->userOptionsManager->getBoolOption( $user, 'betafeatures-auto-enroll' );
 
 		$autoEnroll = [];
 
@@ -193,9 +216,8 @@ class Hooks implements
 			}
 		}
 
-		$hiddenPrefs = $mainConfig->get( 'HiddenPrefs' );
-		$allowlist = $mainConfig->get( 'BetaFeaturesAllowList' );
-		$hookContainer = $services->getHookContainer();
+		$hiddenPrefs = $this->config->get( 'HiddenPrefs' );
+		$allowlist = $this->config->get( 'BetaFeaturesAllowList' );
 
 		foreach ( $betaPrefs as $key => $info ) {
 			// Check if feature should be skipped
@@ -209,7 +231,7 @@ class Hooks implements
 					isset( $info['dependent'] ) &&
 					$info['dependent'] === true &&
 					isset( $depHooks[$key] ) &&
-					!$hookContainer->run( $depHooks[$key] )
+					!$this->hookContainer->run( $depHooks[$key] )
 				)
 			) {
 				continue;
@@ -258,7 +280,7 @@ class Hooks implements
 			$autoEnrollForThisPref = false;
 
 			if ( isset( $info['group'] ) && isset( $autoEnroll[$info['group']] ) ) {
-				$autoEnrollForThisPref = $userOptionsManager
+				$autoEnrollForThisPref = $this->userOptionsManager
 					->getBoolOption( $user, $autoEnroll[$info['group']] );
 			}
 
@@ -267,14 +289,14 @@ class Hooks implements
 			$autoEnrollHere = !$exemptAutoEnroll && ( $autoEnrollAll || $autoEnrollForThisPref );
 
 			// Use raw value for existence test
-			$currentValue = $userOptionsManager->getOption( $user, $key );
+			$currentValue = $this->userOptionsManager->getOption( $user, $key );
 
 			// Keep it break now... The tests applied are against the comments below.
 			// Fixing all the tests is not worthwhile, the auto-enroll logic should be refactored later.
 			if ( $autoEnrollHere && $currentValue !== '1' ) {
 				// We haven't seen this before, and the user has auto-enroll enabled!
 				// Set the option to true and make it visible for the current user object
-				$userOptionsManager->setOption( $user, $key, true );
+				$this->userOptionsManager->setOption( $user, $key, true );
 				// Also put it aside for saving the settings later
 				$autoEnrollSaveSettings[$key] = true;
 			}
@@ -289,7 +311,7 @@ class Hooks implements
 				if ( isset( $prefs[$key]['requirements']['betafeatures'] ) ) {
 					$requiredPrefs = [];
 					foreach ( $prefs[$key]['requirements']['betafeatures'] as $preference ) {
-						if ( !$userOptionsManager->getBoolOption( $user, $preference ) ) {
+						if ( !$this->userOptionsManager->getBoolOption( $user, $preference ) ) {
 							$requiredPrefs[] = $prefs[$preference]['label-message'];
 						}
 					}
@@ -300,12 +322,11 @@ class Hooks implements
 
 				// Test skin support
 				if ( isset( $prefs[$key]['requirements']['skins'] ) ) {
-					$skinFactory = $services->getSkinFactory();
 					// Remove any skins that aren't installed or users can't choose
 					$prefs[$key]['requirements']['skins'] = array_intersect(
 						/** @phan-suppress-next-line PhanTypeInvalidDimOffset,PhanTypeMismatchArgumentInternal */
 						$prefs[$key]['requirements']['skins'],
-						array_keys( $skinFactory->getAllowedSkins() )
+						array_keys( $this->skinFactory->getAllowedSkins() )
 					);
 
 					if ( empty( $prefs[$key]['requirements']['skins'] ) ) {
@@ -328,7 +349,7 @@ class Hooks implements
 		if ( $autoEnrollSaveSettings !== [] ) {
 			// Save the preferences to the DB post-send
 			DeferredUpdates::addCallableUpdate(
-				static function () use ( $user, $autoEnrollSaveSettings, $userOptionsManager ) {
+				function () use ( $user, $autoEnrollSaveSettings ) {
 					$cache = ObjectCache::getLocalClusterInstance();
 					$key = $cache->makeKey( __CLASS__, 'prefs-update', $user->getId() );
 					// T95839: If concurrent requests pile on (e.g. multiple tabs), only let one
@@ -338,9 +359,9 @@ class Hooks implements
 						$userLatest = $user->getInstanceForUpdate();
 						// Apply the settings and save
 						foreach ( $autoEnrollSaveSettings as $key => $option ) {
-							$userOptionsManager->setOption( $userLatest, $key, $option );
+							$this->userOptionsManager->setOption( $userLatest, $key, $option );
 						}
-						$userOptionsManager->saveOptions( $userLatest );
+						$this->userOptionsManager->saveOptions( $userLatest );
 						$cache->unlock( $key );
 					}
 				}
@@ -363,7 +384,7 @@ class Hooks implements
 	 * @param array &$defaultOptions Array of preference keys and their default values.
 	 */
 	public function onUserGetDefaultOptions( &$defaultOptions ) {
-		$betaPrefs = MediaWikiServices::getInstance()->getMainConfig()->get( 'BetaFeatures' );
+		$betaPrefs = $this->config->get( 'BetaFeatures' );
 
 		foreach ( $betaPrefs as $key => $_ ) {
 			$defaultOptions[$key] = false;
@@ -410,27 +431,6 @@ class Hooks implements
 			], 'preferences' );
 		}
 		$links['user-menu'] = $personal_urls;
-	}
-
-	/**
-	 * @param DatabaseUpdater $updater
-	 */
-	public function onLoadExtensionSchemaUpdates( $updater ) {
-		$dbType = $updater->getDB()->getType();
-
-		if ( $dbType === 'mysql' ) {
-			$updater->addExtensionTable( 'betafeatures_user_counts',
-				dirname( __DIR__ ) . '/sql/tables-generated.sql'
-			);
-		} elseif ( $dbType === 'sqlite' ) {
-			$updater->addExtensionTable( 'betafeatures_user_counts',
-				dirname( __DIR__ ) . '/sql/sqlite/tables-generated.sql'
-			);
-		} elseif ( $dbType === 'postgres' ) {
-			$updater->addExtensionTable( 'betafeatures_user_counts',
-				dirname( __DIR__ ) . '/sql/postgres/tables-generated.sql'
-			);
-		}
 	}
 
 	/**
