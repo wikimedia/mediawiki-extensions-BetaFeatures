@@ -29,7 +29,7 @@ namespace MediaWiki\Extension\BetaFeatures;
 use ApiQueryBase;
 use MediaWiki\Extension\BetaFeatures\Hooks\HookRunner;
 use MediaWiki\HookContainer\HookContainer;
-use User;
+use MediaWiki\User\User;
 use Wikimedia\Rdbms\IConnectionProvider;
 
 class ApiQueryBetaFeatures extends ApiQueryBase {

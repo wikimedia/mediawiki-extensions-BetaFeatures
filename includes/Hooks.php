@@ -35,20 +35,20 @@ use MediaWiki\Hook\PreferencesGetIconHook;
 use MediaWiki\Hook\SkinTemplateNavigation__UniversalHook;
 use MediaWiki\HookContainer\HookContainer;
 use MediaWiki\JobQueue\JobQueueGroupFactory;
+use MediaWiki\Output\OutputPage;
 use MediaWiki\Preferences\Hook\GetPreferencesHook;
+use MediaWiki\SpecialPage\SpecialPage;
 use MediaWiki\User\Hook\UserGetDefaultOptionsHook;
 use MediaWiki\User\Options\Hook\SaveUserOptionsHook;
+use MediaWiki\User\User;
 use MediaWiki\User\UserFactory;
 use MediaWiki\User\UserIdentity;
 use MediaWiki\User\UserIdentityUtils;
 use MediaWiki\User\UserOptionsManager;
 use ObjectCache;
-use OutputPage;
 use RequestContext;
 use SkinFactory;
 use SkinTemplate;
-use SpecialPage;
-use User;
 use Wikimedia\Rdbms\IConnectionProvider;
 
 class Hooks implements
