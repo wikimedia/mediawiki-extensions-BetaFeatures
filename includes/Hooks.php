@@ -49,6 +49,7 @@ use SkinFactory;
 use SkinTemplate;
 use SpecialPage;
 use User;
+use Wikimedia\Rdbms\IConnectionProvider;
 
 class Hooks implements
 	ExtensionTypesHook,
@@ -67,6 +68,7 @@ class Hooks implements
 	private static $features = [];
 
 	private Config $config;
+	private IConnectionProvider $dbProvider;
 	private HookContainer $hookContainer;
 	private JobQueueGroupFactory $jobQueueGroupFactory;
 	private SkinFactory $skinFactory;
@@ -76,6 +78,7 @@ class Hooks implements
 
 	public function __construct(
 		Config $config,
+		IConnectionProvider $dbProvider,
 		HookContainer $hookContainer,
 		JobQueueGroupFactory $jobQueueGroupFactory,
 		SkinFactory $skinFactory,
@@ -84,6 +87,7 @@ class Hooks implements
 		UserOptionsManager $userOptionsManager
 	) {
 		$this->config = $config;
+		$this->dbProvider = $dbProvider;
 		$this->hookContainer = $hookContainer;
 		$this->jobQueueGroupFactory = $jobQueueGroupFactory;
 		$this->skinFactory = $skinFactory;
@@ -94,15 +98,16 @@ class Hooks implements
 
 	/**
 	 * @param string[] $prefs
+	 * @param IConnectionProvider $dbProvider
 	 * @return int[]
 	 */
-	public static function getUserCounts( array $prefs ) {
+	public static function getUserCounts( array $prefs, IConnectionProvider $dbProvider ) {
 		$counts = [];
 		if ( !$prefs ) {
 			return $counts;
 		}
 
-		$dbr = wfGetDB( DB_REPLICA );
+		$dbr = $dbProvider->getReplicaDatabase();
 		$res = $dbr->select(
 			'betafeatures_user_counts',
 			[ 'feature', 'number' ],
@@ -198,7 +203,7 @@ class Hooks implements
 			'section' => 'betafeatures',
 		];
 
-		$counts = self::getUserCounts( array_keys( $betaPrefs ) );
+		$counts = self::getUserCounts( array_keys( $betaPrefs ), $this->dbProvider );
 
 		// Set up dependency hooks array
 		// This complex structure brought to you by Per-Wiki Configuration,

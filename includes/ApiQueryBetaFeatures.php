@@ -30,17 +30,21 @@ use ApiQueryBase;
 use MediaWiki\Extension\BetaFeatures\Hooks\HookRunner;
 use MediaWiki\HookContainer\HookContainer;
 use User;
+use Wikimedia\Rdbms\IConnectionProvider;
 
 class ApiQueryBetaFeatures extends ApiQueryBase {
+	private IConnectionProvider $dbProvider;
 	private HookContainer $hookContainer;
 
 	/** @inheritDoc */
 	public function __construct(
 		$query,
 		$moduleName,
+		IConnectionProvider $dbProvider,
 		HookContainer $hookContainer
 	) {
 		parent::__construct( $query, $moduleName, 'bf' );
+		$this->dbProvider = $dbProvider;
 		$this->hookContainer = $hookContainer;
 	}
 
@@ -53,7 +57,7 @@ class ApiQueryBetaFeatures extends ApiQueryBase {
 			->onGetBetaFeaturePreferences( $user, $prefs );
 
 		$counts = isset( $params['counts'] )
-			? Hooks::getUserCounts( array_keys( $prefs ) )
+			? Hooks::getUserCounts( array_keys( $prefs ), $this->dbProvider )
 			: [];
 		foreach ( $prefs as $key => $info ) {
 			$path = [ 'query', $this->getModuleName(), $key ];

@@ -39,6 +39,7 @@ class BetaFeaturesDatabaseTestCase extends MediaWikiIntegrationTestCase {
 		$services = $this->getServiceContainer();
 		return new BFHooks(
 			$services->getMainConfig(),
+			$services->getDBLoadBalancerFactory(),
 			$services->getHookContainer(),
 			$services->getJobQueueGroupFactory(),
 			$services->getSkinFactory(),

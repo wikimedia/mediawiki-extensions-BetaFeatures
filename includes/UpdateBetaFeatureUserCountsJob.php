@@ -27,6 +27,7 @@ namespace MediaWiki\Extension\BetaFeatures;
 
 use GenericParameterJob;
 use Job;
+use MediaWiki\MediaWikiServices;
 
 class UpdateBetaFeatureUserCountsJob extends Job implements GenericParameterJob {
 	/** @inheritDoc */
@@ -42,7 +43,7 @@ class UpdateBetaFeatureUserCountsJob extends Job implements GenericParameterJob 
 	 * @return bool
 	 */
 	public function run() {
-		$dbw = wfGetDB( DB_PRIMARY );
+		$dbw = MediaWikiServices::getInstance()->getDBLoadBalancerFactory()->getPrimaryDatabase();
 
 		$res = $dbw->select(
 			'user_properties',

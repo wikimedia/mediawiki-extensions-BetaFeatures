@@ -26,6 +26,7 @@
 		"betafeatures": {
 			"class": "MediaWiki\\Extension\\BetaFeatures\\ApiQueryBetaFeatures",
 			"services": [
+				"DBLoadBalancerFactory",
 				"HookContainer"
 			]
 		}
@@ -45,6 +46,7 @@
 			"class": "MediaWiki\\Extension\\BetaFeatures\\Hooks",
 			"services": [
 				"MainConfig",
+				"DBLoadBalancerFactory",
 				"HookContainer",
 				"JobQueueGroupFactory",
 				"SkinFactory",
