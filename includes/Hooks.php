@@ -178,6 +178,9 @@ class Hooks implements
 		$hookRunner = new HookRunner( $this->hookContainer );
 		$hookRunner->onGetBetaFeaturePreferences( $user, $betaPrefs );
 
+		// The following messages are generated upstream by the 'section' value
+		// * prefs-betafeatures
+		// * prefs-description-betafeatures
 		$count = count( $betaPrefs );
 		$prefs['betafeatures-section-desc'] = [
 			'type' => 'info',
@@ -425,6 +428,8 @@ class Hooks implements
 		$user = $skintemplate->getUser();
 		if ( $user->isRegistered() ) {
 			$personal_urls = wfArrayInsertAfter( $personal_urls, [
+				// The following messages are generated upstream
+				// * tooltip-pt-betafeatures
 				'betafeatures' => [
 					'text' => wfMessage( 'betafeatures-toplink' )->text(),
 					'href' => SpecialPage::getTitleFor(
