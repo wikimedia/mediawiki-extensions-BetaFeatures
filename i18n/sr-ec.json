@@ -3,6 +3,7 @@
 		"authors": [
 			"Acamicamacaraca",
 			"BadDog",
+			"Kizule",
 			"Milicevic01",
 			"Obsuser",
 			"Zoranzoki21"
@@ -17,6 +18,7 @@
 	"mw-ui-feature-discuss": "Разговор",
 	"mw-ui-feature-info": "Информације",
 	"mw-ui-feature-requirements-betafeatures": "За ову могућност потребно је омогућити {{PLURAL:$1|следећу могућност|следеће могућности}}:",
+	"mw-ui-feature-requirements-browser": "Следећи {{PLURAL:$1|прегледач није подржан|прегледачи нису подржани}}:",
 	"mw-ui-feature-requirements-javascript": "Функција захтева JavaScript.",
 	"mw-ui-feature-requirements-skins": "Функција ради само у {{PLURAL:$1|следећој теми|следећим темама}}:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|Један корисник је укључио ову функцију.|Ову функцију су укључила $1 корисника.|Ову функцију је укључило $1 корисника.|0=Ниједан корисник није укључио ову функцију.}}",
