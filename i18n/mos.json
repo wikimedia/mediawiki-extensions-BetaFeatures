@@ -1,8 +1,24 @@
 {
 	"@metadata": {
 		"authors": [
-			"Abdul Fatawu 352"
+			"Abdul Fatawu 352",
+			"Soumaya"
 		]
 	},
-	"betafeatures-toplink": "Beta"
+	"betafeatures-auto-enroll": "B sẽn na n tõog n maan beta wã fãa, b na n maana woto",
+	"betafeatures-auto-enroll-help": "Beta wã yɛl kẽer tõe n kɩtame{{GENDER:|you}} tɩ b toeem-b tɩ b maan b sẽn datã.",
+	"betafeatures-desc": "Sõngd-y n tõog n tõog n kɩt tɩ y tõe n maan bũmb ning sẽn pa be wiki wã pʋgẽ wã",
+	"betafeatures-extension-type": "Beta wã sẽn yaa sõma",
+	"betafeatures-section-desc": "A woto, d sẽn na n bao n bãng a {{SITENAME}} wã, d na n yãa bũmb a taab n paas. Sõng-y n ges-y y {{PLURAL:$1|it|them}} sẽn tagsdã, tɩ d tõe n maneg n bãng y sẽn na n tags-yã.{{PLURAL:$1|it|them}}.",
+	"betafeatures-toplink": "Beta",
+	"betafeatures-feature-autoenrolled": "D sẽn tõe n maan bũmb ning fãa",
+	"mw-ui-feature-discuss": "Sõs-kãsems",
+	"mw-ui-feature-info": "Koɛɛg-yã",
+	"mw-ui-feature-requirements-betafeatures": "Sõngr kãnga baoodame tɩ b tõog n maan bũmb ning {{PLURAL:$1|feature|features}} sẽn pʋgdã:",
+	"mw-ui-feature-requirements-browser": "B pa sõngd {{PLURAL:$1 ye_browser ye_browsers ye}} sẽn pʋgdã ye:",
+	"mw-ui-feature-requirements-javascript": "Sõngr kãngã baoodame tɩ d bãng JavaScript.",
+	"mw-ui-feature-requirements-skins": "Sõng-kãngã yaa ne {{PLURAL:$1|sẽn-bĩngd-n-|tɩrsã bal n tʋmd}}:",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|0ne user is|$1users are|0=No users are}} yaa sõdg a ye ye.",
+	"prefs-betafeatures": "Beta wã sẽn yaa sõma",
+	"tooltip-pt-betafeatures": "Beta wã sẽn yaa sõma"
 }

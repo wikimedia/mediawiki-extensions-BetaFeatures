@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Dnshitobu"
+			"Dnshitobu",
+			"Amoramah"
 		]
 	},
-	"betafeatures-toplink": "Beta"
+	"betafeatures-toplink": "Beta",
+	"mw-ui-feature-discuss": "Sɔsega",
+	"mw-ui-feature-info": "Lasebaarɛ"
 }
