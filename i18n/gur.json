@@ -1,11 +1,25 @@
 {
 	"@metadata": {
 		"authors": [
+			"Akakiiri",
 			"Amoramah",
 			"Dnshitobu"
 		]
 	},
+	"betafeatures-auto-enroll": "Bita aŋa kɔ'ɔm yu'ɛ",
+	"betafeatures-auto-enroll-help": "Bita aŋa la asi'a ni tara teere n ni dɛna pakerɛ bala la{{GENDER:|you}} nari ti la tee ze'ele bo sansɛka",
+	"betafeatures-extension-type": "\"Bẽta\" naaŋɔ duma",
+	"betafeatures-section-desc": "Lalam {{PLURAL:$1|is a new feature|are some new features}} tu ti'iserı ti tu tee la{{SITENAME}}. Zaam zaam kpeŋe fumiŋa iŋɛ dina wa{{PLURAL:$1|it|them}} gee yele tu fu puti'irɛ n de sɛla, la wan iŋɛ se'em ti tu tole nɛŋa {{PLURAL:$1|it|them}} yɛsera fu lebesego la puan.",
 	"betafeatures-toplink": "Beta",
+	"betafeatures-feature-autoenrolled": "\"Auto-enrolled\" naanɛ",
 	"mw-ui-feature-discuss": "Sɔsega",
-	"mw-ui-feature-info": "Lasebaarɛ"
+	"mw-ui-feature-info": "Lasebaarɛ",
+	"mw-ui-feature-requirements-betafeatures": "Naankuna wa n boti sɛla n ŋwana{{PLURAL:$1|feature|features}} ti la ta'am yu'e",
+	"mw-ui-feature-requirements-browser": "Yele ana wa {{PLURAL:$1|browser is|browsers are}} ka tuni:",
+	"mw-ui-feature-requirements-javascript": "Naadina wa eeri la \"JavaScript\".",
+	"mw-ui-feature-requirements-skins": "Naadina wa$1 kɔ'ɔm tuna mɛ la {{PLURAL:$1 ma'an| \"skin\" sɛka n doli la|\"skins\" sɛba n doli la}}:",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|tuntuna ayina de la|$1 tuntuneba de la |0=Bo tuntuneba de la}} mɔɔra la naanɛ wa.",
+	"prefs-betafeatures": "\"Bẽta\" naaŋɔ duma",
+	"prefs-description-betafeatures": "Tɛɛsum yele paala si'a ti tu nan ita wa gee bo tu fu lebesego",
+	"tooltip-pt-betafeatures": "\"Bẽta\" naaŋɔ duma"
 }
