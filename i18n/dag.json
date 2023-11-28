@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Chirifo"
+			"Chirifo",
+			"Attah Mohammed"
 		]
 	},
-	"betafeatures-toplink": "Kalinli"
+	"betafeatures-toplink": "Kalinli",
+	"mw-ui-feature-discuss": "Saawara gbaabu",
+	"mw-ui-feature-info": "Lahibali"
 }
