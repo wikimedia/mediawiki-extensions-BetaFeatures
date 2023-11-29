@@ -26,7 +26,7 @@
 namespace MediaWiki\Extension\BetaFeatures;
 
 use MediaWiki\MediaWikiServices;
-use MediaWiki\User\StaticUserOptionsLookup;
+use MediaWiki\User\Options\StaticUserOptionsLookup;
 use MediaWiki\User\UserIdentity;
 
 class BetaFeatures {
