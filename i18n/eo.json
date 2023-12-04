@@ -2,14 +2,17 @@
 	"@metadata": {
 		"authors": [
 			"KuboF",
-			"Macofe"
+			"Macofe",
+			"Ziko"
 		]
 	},
 	"betafeatures-auto-enroll": "Aŭtomate ŝalti plejparton de betaj funkciojn",
+	"betafeatures-auto-enroll-help": "Iuj beta-funkcioj povas havi surprizajn ŝanĝojn, tiel ke {{GENDER:|vi}} devas fari elektojn permane.",
 	"betafeatures-desc": "Ebligas al uzantoj ŝalti aŭ malŝalti funkciojn en tiu ĉi vikio, kiuj ankoraŭ ne estas tute pretaj por vera uzado.",
 	"betafeatures-extension-type": "Betaj funkcioj",
 	"betafeatures-section-desc": "Jen estas {{PLURAL:$1|nova funkcio|kelkaj novaj funkcioj}} kiujn ni prikonsideras por {{SITENAME}}. Bonvolu provi {{PLURAL:$1|ĝin|ilin}} kaj komentu ilin al ni por, ke ni povus plibonigi {{PLURAL:$1|ĝin|ilin}} laŭ viaj rimarkoj.",
 	"betafeatures-toplink": "Beta",
+	"betafeatures-feature-autoenrolled": "Aŭtomate enskribita funkcio",
 	"mw-ui-feature-discuss": "Diskuto",
 	"mw-ui-feature-info": "Informo",
 	"mw-ui-feature-requirements-betafeatures": "Tiu ĉi funkcio postulas ŝaltitaj {{PLURAL:$1|jenan funkcion|jenajn funkciojn}}:",
