@@ -25,9 +25,9 @@
 
 namespace MediaWiki\Extension\BetaFeatures;
 
-use Html;
 use HTMLCheckField;
 use HTMLFormFieldLayout;
+use MediaWiki\Html\Html;
 use OOUI\CheckboxInputWidget;
 use OOUI\IconWidget;
 

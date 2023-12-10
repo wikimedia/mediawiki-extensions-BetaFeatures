@@ -25,9 +25,9 @@
 
 namespace MediaWiki\Extension\BetaFeatures;
 
-use DeferredUpdates;
 use Exception;
 use MediaWiki\Config\Config;
+use MediaWiki\Deferred\DeferredUpdates;
 use MediaWiki\Extension\BetaFeatures\Hooks\HookRunner;
 use MediaWiki\Hook\ExtensionTypesHook;
 use MediaWiki\Hook\MakeGlobalVariablesScriptHook;

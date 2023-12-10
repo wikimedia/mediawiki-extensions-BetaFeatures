@@ -25,6 +25,7 @@
 
 use MediaWiki\Extension\BetaFeatures\BetaFeaturesMissingFieldException;
 use MediaWiki\Extension\BetaFeatures\HTMLFeatureField;
+use MediaWiki\User\User;
 
 /**
  * @covers \MediaWiki\Extension\BetaFeatures\Hooks::onGetPreferences

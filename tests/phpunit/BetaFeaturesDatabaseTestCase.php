@@ -24,6 +24,7 @@
  */
 
 use MediaWiki\Extension\BetaFeatures\Hooks as BFHooks;
+use MediaWiki\User\User;
 
 /**
  * Base class for BetaFeatures test that need the database.

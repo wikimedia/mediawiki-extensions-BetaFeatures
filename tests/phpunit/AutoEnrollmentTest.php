@@ -23,6 +23,8 @@
  * @license GPL-2.0-or-later
  */
 
+use MediaWiki\User\User;
+
 /**
  * @covers \MediaWiki\Extension\BetaFeatures\Hooks::onGetPreferences
  *

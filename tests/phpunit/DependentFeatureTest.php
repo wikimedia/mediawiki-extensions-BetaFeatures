@@ -24,6 +24,7 @@
  */
 
 use MediaWiki\HookContainer\HookContainer;
+use MediaWiki\User\User;
 
 /**
  * @covers \MediaWiki\Extension\BetaFeatures\Hooks::onGetPreferences

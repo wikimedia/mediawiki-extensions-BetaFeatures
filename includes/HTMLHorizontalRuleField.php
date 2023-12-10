@@ -25,8 +25,8 @@
 
 namespace MediaWiki\Extension\BetaFeatures;
 
-use Html;
 use HTMLFormField;
+use MediaWiki\Html\Html;
 
 class HTMLHorizontalRuleField extends HTMLFormField {
 
