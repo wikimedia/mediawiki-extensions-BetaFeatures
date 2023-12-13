@@ -9,5 +9,11 @@
 	"betafeatures-desc": "Kɛl ka tʋmʋtʋm la bas suor bɛɛ o da bas suori tis bʋmbanɛ pʋ si'al ye ba bɛ wiki saŋa linɛ nara",
 	"betafeatures-extension-type": "Beta bʋnam",
 	"betafeatures-section-desc": "Kpɛla{{PLURAL:$1|ka bʋmpaal|banɛ an bʋmpaala sieba}} ka ti mɔr pʋtɛn'ɛr ti ti tis {{SITENAME}}. Fa' m bɛlimnɛ mɔɔm ka maki {{PLURAL:$1|li|ba}} ka tisi ti fʋ pʋtɛn'ɛr ka ti maligim maali {{PLURAL:$1|li|ba}} ka li yinɛ fʋn tisi ti labasia la ni na.",
-	"betafeatures-toplink": "Beta"
+	"betafeatures-toplink": "Beta",
+	"betafeatures-feature-autoenrolled": "Bʋndinɛ ka fʋ na tun'e paasi fʋ mɛŋ",
+	"mw-ui-feature-discuss": "Sɔnsig",
+	"mw-ui-feature-info": "Labaar",
+	"mw-ui-feature-requirements-betafeatures": "Bʋnkaŋa maaligʋ bɔɔd si'eli nwana {{PLURAL:$1|bʋnkaŋa|bʋmbama}} ka li na tun'e yɔ'ɔg:",
+	"mw-ui-feature-requirements-browser": "Bama nwa {{PLURAL:$1|browser is|browsers are}} kʋ tun'e maalɛ:",
+	"mw-ui-feature-requirements-javascript": "Bʋnkaŋa bɔɔdnɛ JavaScript"
 }
