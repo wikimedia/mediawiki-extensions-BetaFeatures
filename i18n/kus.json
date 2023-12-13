@@ -4,5 +4,10 @@
 			"Bugirbiig"
 		]
 	},
+	"betafeatures-auto-enroll": "Basim suor ka maal beta la bam bɔɔd si'em",
+	"betafeatures-auto-enroll-help": "Beta yɛlsieba tun'e mɔr tiasieba banɛ ka fʋ pʋ mɔri ba ti'irɛ, alazug {{GENDER:|fʋ}} na kpɛn'ɛsi linɛ fʋ mɛŋ.",
+	"betafeatures-desc": "Kɛl ka tʋmʋtʋm la bas suor bɛɛ o da bas suori tis bʋmbanɛ pʋ si'al ye ba bɛ wiki saŋa linɛ nara",
+	"betafeatures-extension-type": "Beta bʋnam",
+	"betafeatures-section-desc": "Kpɛla{{PLURAL:$1|ka bʋmpaal|banɛ an bʋmpaala sieba}} ka ti mɔr pʋtɛn'ɛr ti ti tis {{SITENAME}}. Fa' m bɛlimnɛ mɔɔm ka maki {{PLURAL:$1|li|ba}} ka tisi ti fʋ pʋtɛn'ɛr ka ti maligim maali {{PLURAL:$1|li|ba}} ka li yinɛ fʋn tisi ti labasia la ni na.",
 	"betafeatures-toplink": "Beta"
 }
