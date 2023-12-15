@@ -108,12 +108,11 @@ class Hooks implements
 		}
 
 		$dbr = $dbProvider->getReplicaDatabase();
-		$res = $dbr->select(
-			'betafeatures_user_counts',
-			[ 'feature', 'number' ],
-			[ 'feature' => $prefs ],
-			__METHOD__
-		);
+		$res = $dbr->newSelectQueryBuilder()
+			->select( [ 'feature', 'number' ] )
+			->from( 'betafeatures_user_counts' )
+			->where( [ 'feature' => $prefs ] )
+			->caller( __METHOD__ )->fetchResultSet();
 
 		foreach ( $res as $row ) {
 			$counts[$row->feature] = $row->number;

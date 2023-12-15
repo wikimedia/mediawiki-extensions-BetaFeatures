@@ -45,22 +45,19 @@ class UpdateBetaFeatureUserCountsJob extends Job implements GenericParameterJob 
 	public function run() {
 		$dbw = MediaWikiServices::getInstance()->getDBLoadBalancerFactory()->getPrimaryDatabase();
 
-		$res = $dbw->select(
-			'user_properties',
-			[
+		$res = $dbw->newSelectQueryBuilder()
+			->select( [
 				'number' => 'COUNT(up_property)',
-				'feature' => 'up_property',
-			],
-			[
+				'feature' => 'up_property'
+			] )
+			->from( 'user_properties' )
+			->where( [
 				// Database would convert true to '1'
 				'up_value' => '1',
-				'up_property' => $this->params['prefs'],
-			],
-			__METHOD__,
-			[
-				'GROUP BY' => 'up_property',
-			]
-		);
+				'up_property' => $this->params['prefs']
+			] )
+			->groupBy( 'up_property' )
+			->caller( __METHOD__ )->fetchResultSet();
 
 		if ( !$res ) {
 			return false;
