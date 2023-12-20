@@ -12,7 +12,7 @@
 	"betafeatures-toplink": "Béta",
 	"betafeatures-feature-autoenrolled": "Keboléan nyang otomatis kepaké",
 	"mw-ui-feature-discuss": "Perhadring",
-	"mw-ui-feature-info": "Inpormasi",
+	"mw-ui-feature-info": "Pengabaran",
 	"mw-ui-feature-requirements-betafeatures": "Ni keboléan ngebutuin ni {{PLURAL:$1|keboléan}} biar bisa dinyalain:",
 	"mw-ui-feature-requirements-browser": "Ni {{PLURAL:$1|pengorag}} kaga' didukung:",
 	"mw-ui-feature-requirements-javascript": "Ni keboléan ngebutuin JavaScript.",
