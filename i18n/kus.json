@@ -16,6 +16,8 @@
 	"mw-ui-feature-requirements-betafeatures": "Bʋnkaŋa maaligʋ bɔɔd si'eli nwana {{PLURAL:$1|bʋnkaŋa|bʋmbama}} ka li na tun'e yɔ'ɔg:",
 	"mw-ui-feature-requirements-browser": "Bama nwa {{PLURAL:$1|browser is|browsers are}} kʋ tun'e maalɛ:",
 	"mw-ui-feature-requirements-javascript": "Bʋnkaŋa bɔɔdnɛ JavaScript",
+	"mw-ui-feature-requirements-skins": "Bʋnkaŋa nwa tʋmnɛ nɛ {{PLURAL:$1|sikin dinɛ dɔl|sikinnam banɛ dɔl}}:",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|Tʋmtʋm ayinne |$1 tʋmtʋmnib |0=Tʋmtʋmnib kae }} mɔɔd ye ba zaŋ bʋnkaŋa tʋm.",
 	"prefs-betafeatures": "Beta maalʋg bʋnam",
 	"prefs-description-betafeatures": "Makkim bʋm paala banɛ nan maan la ka yɛl din an si'em.",
 	"tooltip-pt-betafeatures": "Beta maalʋg bʋnam"
