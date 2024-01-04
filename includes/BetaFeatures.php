@@ -45,7 +45,7 @@ class BetaFeatures {
 		$services = MediaWikiServices::getInstance();
 		$lookup = $services->getUserOptionsLookup();
 		if ( is_array( $userOptions ) ) {
-			$defaults = $lookup->getDefaultOptions();
+			$defaults = $lookup->getDefaultOptions( $user );
 			$lookup = new StaticUserOptionsLookup( [ $user->getName() => $userOptions ], $defaults );
 		}
 
