@@ -4,5 +4,9 @@
 			"Es Krim 5 Juta Rasa"
 		]
 	},
+	"betafeatures-auto-enroll": "Sacara otomatis aktifko fitur-fitur paling beta",
+	"betafeatures-auto-enroll-help": "Pira ngafitur beta pandai ngahasilko parubahan sai ngojutko, jadi {{GENDER:|Niku}} porlu m milih nggunakona sacara manual.",
+	"betafeatures-desc": "Nyongkiko pangguna ngaktifko atawa nganonaktifko fitur di wiki sai makkung siap untuk tayang",
+	"betafeatures-extension-type": "Fitur beta",
 	"betafeatures-toplink": "Beta"
 }
