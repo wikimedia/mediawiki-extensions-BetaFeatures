@@ -7,6 +7,7 @@
 		]
 	},
 	"betafeatures-auto-enroll": "Slå på alle nye betafunksjonar utan å spørja meg",
+	"betafeatures-auto-enroll-help": "Nokre betafunksjonar kan ha uventa endringar, difor lyt {{GENDER:|du}} slå på desse manuelt.",
 	"betafeatures-extension-type": "Betafunksjonar",
 	"betafeatures-section-desc": "Her er {{PLURAL:$1|ein ny funksjon|nokre nye funksjonar}} som me vurderer å innføra på {{SITENAME}}. Prøv {{PLURAL:$1|det|dei}} gjerne og gjev oss tankane dine om {{PLURAL:$1|det|dei}}, slik at me kan betra {{PLURAL:$1|det|dei}} basert på attendemeldingane dine.",
 	"betafeatures-toplink": "Beta",
