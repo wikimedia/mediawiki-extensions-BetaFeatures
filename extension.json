@@ -79,19 +79,11 @@
 			"dependencies": [
 				"jquery.client",
 				"oojs-ui-core"
-			],
-			"targets": [
-				"mobile",
-				"desktop"
 			]
 		},
 		"ext.betaFeatures.styles": {
 			"styles": [
 				"betafeatures.nojs.less"
-			],
-			"targets": [
-				"mobile",
-				"desktop"
 			]
 		}
 	},
