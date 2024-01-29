@@ -4,5 +4,10 @@
 			"ऐक्टिवेटेड्"
 		]
 	},
-	"betafeatures-toplink": "बीटा"
+	"betafeatures-extension-type": "बीटा सुविधा",
+	"betafeatures-toplink": "बीटा",
+	"mw-ui-feature-discuss": "चर्चा",
+	"mw-ui-feature-info": "जानकारी",
+	"prefs-betafeatures": "बीटा सुविधा",
+	"tooltip-pt-betafeatures": "बीटा सुविधा"
 }
