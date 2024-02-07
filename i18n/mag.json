@@ -8,6 +8,9 @@
 	"betafeatures-toplink": "बीटा",
 	"mw-ui-feature-discuss": "चर्चा",
 	"mw-ui-feature-info": "जानकारी",
+	"mw-ui-feature-requirements-javascript": "ई सुविधा लागि जावास्क्रिप्ट् चाहि ।",
+	"mw-ui-feature-requirements-skins": "ई सुविधा खाली निम्न {{PLURAL:$1|त्वचा}} साथे काज करहे:",
+	"mw-ui-feature-user-count": "ई सुविधाके उपयोग {{PLURAL:$1|एगो सदस्क करैत हे|$1 सदस्स करैत हथ|0=कौनो सदस्स न करैत हे}} ।",
 	"prefs-betafeatures": "बीटा सुविधा",
 	"tooltip-pt-betafeatures": "बीटा सुविधा"
 }
