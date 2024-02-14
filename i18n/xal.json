@@ -1,8 +1,18 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ukhant Erdemt"
+			"Ukhant Erdemt",
+			"Алия"
 		]
 	},
-	"betafeatures-toplink": "Beta хүвлвр"
+	"betafeatures-toplink": "Beta хүвлвр",
+	"mw-ui-feature-discuss": "Күүндән",
+	"mw-ui-feature-info": "Медәлл",
+	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|1=Дарук көтч демҗгдҗәхш|Дарук көтчс демҗгдҗәхш}}:",
+	"mw-ui-feature-requirements-javascript": "Эн функцд JavaScript шаардлһта.",
+	"mw-ui-feature-requirements-skins": "Эн функцнь зөвкн {{PLURAL:$1|1=дарук седвтә}} аҗллҗана:",
+	"mw-ui-feature-user-count": "Эн функциг{{PLURAL:$1|$1 кергләч туршҗ бәәнә|0=Кен чигн туршҗахш}}.",
+	"prefs-betafeatures": "Бета-функцмуд",
+	"prefs-description-betafeatures": "Хамгин шин болвсрулгдҗах функциг туршҗ үзәд, санл-бодлан хувалцтн.",
+	"tooltip-pt-betafeatures": "Бета-функцмуд"
 }
