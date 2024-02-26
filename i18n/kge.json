@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"EWDAja",
 			"Es Krim 5 Juta Rasa"
 		]
 	},
@@ -8,5 +9,11 @@
 	"betafeatures-auto-enroll-help": "Pira ngafitur beta pandai ngahasilko parubahan sai ngojutko, jadi {{GENDER:|Niku}} porlu m milih nggunakona sacara manual.",
 	"betafeatures-desc": "Nyongkiko pangguna ngaktifko atawa nganonaktifko fitur di wiki sai makkung siap untuk tayang",
 	"betafeatures-extension-type": "Fitur beta",
-	"betafeatures-toplink": "Beta"
+	"betafeatures-toplink": "Beta",
+	"betafeatures-feature-autoenrolled": "Fitur sai otomatis tigunako",
+	"mw-ui-feature-discuss": "Rombakan",
+	"mw-ui-feature-info": "Informasi",
+	"mw-ui-feature-requirements-javascript": "Fitur hasa morluko JavaScript.",
+	"prefs-betafeatures": "Fitur beta",
+	"tooltip-pt-betafeatures": "Fitur beta"
 }

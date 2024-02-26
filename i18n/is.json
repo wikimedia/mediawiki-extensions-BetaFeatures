@@ -7,17 +7,17 @@
 			"Sveinn í Felli"
 		]
 	},
-	"betafeatures-auto-enroll": "Virkja flesta prufueiginleika sjálfkrafa",
+	"betafeatures-auto-enroll": "Sjálfkrafa virkja flesta beta-eiginleika",
 	"betafeatures-desc": "Leyfir notanda að virkja eða afvirkja eiginleika á wiki sem eru enn ekki tilbúnir",
-	"betafeatures-extension-type": "Prófunareiginleikar",
-	"betafeatures-section-desc": "Hér {{PLURAL:$1|er nýr eiginleiki|eru nokkrir nýir eiginleikar}} sem við erum að skoða fyrir {{SITENAME}}. Vinsamlegast prófaðu {{PLURAL:$1|hann|þá}} og láttu okkur vita hvað þér þykir þannig að við getum bætt {{PLURAL:$1|hann|þá}} í samræmi við þínar ábendingar.",
+	"betafeatures-extension-type": "Beta-eiginleikar",
+	"betafeatures-section-desc": "Hér {{PLURAL:$1|er nýr eiginleiki|eru nokkrir nýir eiginleikar}} sem við erum að íhuga fyrir {{SITENAME}}. Vinsamlegast prófaðu {{PLURAL:$1|hann|þá}} og deildu með okkur áliti þínu svo við getum bætt {{PLURAL:$1|hann|þá}} samkvæmt þinni ábendingu.",
 	"betafeatures-toplink": "Prufuútgáfa",
 	"mw-ui-feature-discuss": "Spjall",
 	"mw-ui-feature-info": "Upplýsingar",
 	"mw-ui-feature-requirements-browser": "Eftirfarandi {{PLURAL:$1|vafri er ekki studdur|vafrar eru ekki studdir}}:",
 	"mw-ui-feature-requirements-javascript": "Þessi eiginleiki krefst JavaScript.",
-	"mw-ui-feature-requirements-skins": "Þessi eiginleiki virkar eingöngu með {{PLURAL:$1|eftirfarandi skinni|eftirfarandi skinnum}}:",
+	"mw-ui-feature-requirements-skins": "Þessi eiginleiki virkar einungis með {{PLURAL:$1|eftirfarandi skinni|eftirfarandi skinnum}}:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|Einn notandi|$1 notendur eru|0=Enginn notandi er}} að prófa þennan eiginleika.",
-	"prefs-betafeatures": "Eiginleikar Beta-prófunarútgáfu",
-	"tooltip-pt-betafeatures": "Prófunareiginleikar"
+	"prefs-betafeatures": "Beta-eiginleikar",
+	"tooltip-pt-betafeatures": "Beta-eiginleikar"
 }
