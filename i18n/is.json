@@ -3,11 +3,12 @@
 		"authors": [
 			"Maxí",
 			"Snævar",
-			"Sveinn í Felli"
+			"Sveinn í Felli",
+			"Stefán Örvar Sigmundsson"
 		]
 	},
 	"betafeatures-auto-enroll": "Virkja flesta prufueiginleika sjálfkrafa",
-	"betafeatures-desc": "Leyfir notendum að virkja eða afvirkja eiginleika á wiki sem eru enn í vinnslu",
+	"betafeatures-desc": "Leyfir notanda að virkja eða afvirkja eiginleika á wiki sem eru enn ekki tilbúnir",
 	"betafeatures-extension-type": "Prófunareiginleikar",
 	"betafeatures-section-desc": "Hér {{PLURAL:$1|er nýr eiginleiki|eru nokkrir nýir eiginleikar}} sem við erum að skoða fyrir {{SITENAME}}. Vinsamlegast prófaðu {{PLURAL:$1|hann|þá}} og láttu okkur vita hvað þér þykir þannig að við getum bætt {{PLURAL:$1|hann|þá}} í samræmi við þínar ábendingar.",
 	"betafeatures-toplink": "Prufuútgáfa",
