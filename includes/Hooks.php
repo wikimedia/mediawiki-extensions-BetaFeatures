@@ -157,7 +157,8 @@ class Hooks implements
 			}
 			// Enqueue a job to update the count for this preference
 			$jobs[] = new UpdateBetaFeatureUserCountsJob(
-				[ 'prefs' => [ $name ] ]
+				[ 'prefs' => [ $name ] ],
+				$this->dbProvider
 			);
 		}
 		if ( $jobs !== [] ) {

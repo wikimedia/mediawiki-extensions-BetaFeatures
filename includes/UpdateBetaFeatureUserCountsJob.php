@@ -25,15 +25,19 @@
 
 namespace MediaWiki\Extension\BetaFeatures;
 
-use GenericParameterJob;
 use Job;
-use MediaWiki\MediaWikiServices;
+use Wikimedia\Rdbms\IConnectionProvider;
 
-class UpdateBetaFeatureUserCountsJob extends Job implements GenericParameterJob {
+class UpdateBetaFeatureUserCountsJob extends Job {
+	private IConnectionProvider $dbProvider;
+
 	/** @inheritDoc */
-	public function __construct( array $params ) {
+	public function __construct(
+		array $params,
+		IConnectionProvider $dbProvider
+	) {
 		parent::__construct( 'updateBetaFeaturesUserCounts', $params );
-
+		$this->dbProvider = $dbProvider;
 		$this->removeDuplicates = true;
 	}
 
@@ -43,7 +47,7 @@ class UpdateBetaFeatureUserCountsJob extends Job implements GenericParameterJob 
 	 * @return bool
 	 */
 	public function run() {
-		$dbw = MediaWikiServices::getInstance()->getDBLoadBalancerFactory()->getPrimaryDatabase();
+		$dbw = $this->dbProvider->getPrimaryDatabase();
 
 		$res = $dbw->newSelectQueryBuilder()
 			->select( [

@@ -92,7 +92,13 @@
 		"remoteExtPath": "BetaFeatures/resources"
 	},
 	"JobClasses": {
-		"updateBetaFeaturesUserCounts": "MediaWiki\\Extension\\BetaFeatures\\UpdateBetaFeatureUserCountsJob"
+		"updateBetaFeaturesUserCounts": {
+			"class": "MediaWiki\\Extension\\BetaFeatures\\UpdateBetaFeatureUserCountsJob",
+			"services": [
+				"DBLoadBalancerFactory"
+			],
+			"needsPage": false
+		}
 	},
 	"SpecialPages": {
 		"BetaFeatures": "MediaWiki\\Extension\\BetaFeatures\\SpecialBetaFeatures"
