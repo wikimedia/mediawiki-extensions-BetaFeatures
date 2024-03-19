@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ahmed-Najib-Biabani-Ibrahimkhel"
+			"Ahmed-Najib-Biabani-Ibrahimkhel",
+			"Amire80"
 		]
 	},
 	"betafeatures-auto-enroll": "په اتوماتيک ډول ټولې نوې بيټا ځانتياوې چارنول",
 	"betafeatures-extension-type": "آزمېښتي ځانتياوې",
-	"betafeatures-section-desc": "دلته {{PLURAL:$1|يوه نوې ځانتيا ده|يو شمېر نوې ځانتياوې دي}} چې د {{SITENAME}} لپاره په پام کې نيول {{PLURAL:$1|شوې|شوي}}. لطفاً  {{PLURAL:$1|دا|هغه}} وآزمايئ او موږ ته مو نظرونه ووايئ چې موږ يې په لا ښه پرمختگ کې هڅې وکړو.",
+	"betafeatures-section-desc": "دلته {{PLURAL:$1|يوه نوې ځانتيا ده|يو شمېر نوې ځانتياوې دي}} چې د {{SITENAME}} لپاره په پام کې نيول {{PLURAL:$1|شوې|شوي}}. لطفاً {{PLURAL:$1|دا|هغه}} وآزمايئ او موږ ته مو نظرونه ووايئ چې موږ يې په لا ښه پرمختگ کې هڅې وکړو.",
 	"betafeatures-toplink": "بيټا",
 	"mw-ui-feature-discuss": "خبرې اترې",
 	"mw-ui-feature-info": "مالومات",

@@ -4,14 +4,15 @@
 			"Dağlı95",
 			"NMW03",
 			"Toghrul Rahimli",
-			"Wertuose"
+			"Wertuose",
+			"Amire80"
 		]
 	},
 	"betafeatures-auto-enroll": "Bəzi yeni beta funksiyaları aktivləşdir",
 	"betafeatures-auto-enroll-help": "Bəzi beta funksiyalar gözlənilmədən dəyişilə bilər, buna görə {{GENDER:|siz}} onları əl ilə aktivləşdirməlisiniz.",
 	"betafeatures-desc": "İstifadəçiyə vikidə hələ də praym-taym üçün hazır olmayan funksiyaları aktivləşdirməyə və ya söndürməyə imkan verir",
 	"betafeatures-extension-type": "Beta funksiyalar",
-	"betafeatures-section-desc": "Burada {{SITENAME}} üçün nəzərdə tutduğumuz {{PLURAL:$1|yeni funksiya|bəzi yeni funksiyalarla}} tanış ola bilərsiniz. {{PLURAL:$1|Funksiyanı|Funksiyaları}}  lütfən sınayın və düşüncələrinizi bizimlə paylaşın. Biz sizin rəylərinizə əsaslanaraq {{PLURAL:$1|funksiyanı|funksiyaları}} təkmilləşdiririk.",
+	"betafeatures-section-desc": "Burada {{SITENAME}} üçün nəzərdə tutduğumuz {{PLURAL:$1|yeni funksiya|bəzi yeni funksiyalarla}} tanış ola bilərsiniz. {{PLURAL:$1|Funksiyanı|Funksiyaları}} lütfən sınayın və düşüncələrinizi bizimlə paylaşın. Biz sizin rəylərinizə əsaslanaraq {{PLURAL:$1|funksiyanı|funksiyaları}} təkmilləşdiririk.",
 	"betafeatures-toplink": "Beta",
 	"betafeatures-feature-autoenrolled": "Avtomatik qeydiyyatdan keçmiş xüsusiyyət",
 	"mw-ui-feature-discuss": "Müzakirə",
