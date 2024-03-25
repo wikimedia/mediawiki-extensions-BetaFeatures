@@ -14,7 +14,7 @@
 	"mw-ui-feature-discuss": "Perhadring",
 	"mw-ui-feature-info": "Pengabaran",
 	"mw-ui-feature-requirements-betafeatures": "Ni keboléan ngebutuin ni {{PLURAL:$1|keboléan}} biar bisa dinyalain:",
-	"mw-ui-feature-requirements-browser": "Ni {{PLURAL:$1|pengorag}} kaga' didukung:",
+	"mw-ui-feature-requirements-browser": "Ni {{PLURAL:$1|pengubek}} kaga' didukung:",
 	"mw-ui-feature-requirements-javascript": "Ni keboléan ngebutuin JavaScript.",
 	"mw-ui-feature-requirements-skins": "Ni keboléan cuman bisa ama ni {{PLURAL:$1|kulit|kulit pada}}:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|Atu pemaké|$1 pemaké|0=Kaga' ada pemaké nyang}} lagi ngejal ni keboléan.",

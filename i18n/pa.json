@@ -3,15 +3,16 @@
 		"authors": [
 			"Babanwalia",
 			"Satdeep gill",
-			"Tow"
+			"Tow",
+			"Kuldeepburjbhalaike"
 		]
 	},
-	"betafeatures-auto-enroll": "ਆਪੇ ਹੀ ਸਾਰੇ ਨਵੇਂ ਬੀਟਾ ਫ਼ੀਚਰ ਚਾਲੂ ਕਰੋ",
+	"betafeatures-auto-enroll": "ਜ਼ਿਆਦਾਤਰ ਬੀਟਾ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਨੂੰ ਸਵੈਚਲਿਤ ਤੌਰ 'ਤੇ ਚਾਲੂ ਕਰੋ",
 	"betafeatures-extension-type": "ਬੀਟਾ ਫ਼ੀਚਰ",
 	"betafeatures-toplink": "ਬੀਟਾ",
 	"mw-ui-feature-discuss": "ਚਰਚਾ",
 	"mw-ui-feature-info": "ਜਾਣਕਾਰੀ",
 	"mw-ui-feature-requirements-javascript": "ਇਸ ਫ਼ੀਚਰ ਨੂੰ ਜਾਵਾਸਕਰਿਪਟ ਦੀ ਜ਼ਰੂਰਤ ਹੈ।",
-	"prefs-betafeatures": "ਬੀਟਾ ਫ਼ੀਚਰ",
+	"prefs-betafeatures": "ਬੀਟਾ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ",
 	"tooltip-pt-betafeatures": "ਬੀਟਾ ਦੇ ਗੁਣ"
 }

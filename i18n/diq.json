@@ -8,14 +8,15 @@
 			"Kumkumuk",
 			"Marmase",
 			"Mirzali",
-			"Orbot707"
+			"Orbot707",
+			"Amire80"
 		]
 	},
 	"betafeatures-auto-enroll": "Xısusiyetanê betay zêdeyan otomatikman aktiv kerê",
 	"betafeatures-auto-enroll-help": "Tay xısusiyetê beta şaş biyaye vurnayışi belka bıbe u coki ra gani menuel qeyd bıbê.",
 	"betafeatures-desc": "Wiki de hewna tam zemani rê karniyaye xısusiyetan rê hazır nêbiyaye xısusiyeta karnayışi u devre ra vetışi rê imkan dano.",
 	"betafeatures-extension-type": "Hacetê beta",
-	"betafeatures-section-desc": "Qandé {{SITENAME}} {{PLURAL:$1|Ğısusiyeta newi|tay ğısusiyete newey}} este. Na dezger bıcerbné u maya ena {{PLURAL:$1|ğısusiyet|ğısusiyetan}} peyd bırşeé maré. Mayv peyd rıştan de şmaya  na {{PLURAL:$1|ğısusiyet|ğısusiyetan}} vırazem.",
+	"betafeatures-section-desc": "Qandé {{SITENAME}} {{PLURAL:$1|Ğısusiyeta newi|tay ğısusiyete newey}} este. Na dezger bıcerbné u maya ena {{PLURAL:$1|ğısusiyet|ğısusiyetan}} peyd bırşeé maré. Mayv peyd rıştan de şmaya na {{PLURAL:$1|ğısusiyet|ğısusiyetan}} vırazem.",
 	"betafeatures-toplink": "Beta",
 	"betafeatures-feature-autoenrolled": "Xısusê qeydê otomatiki",
 	"mw-ui-feature-discuss": "Werênayış",
