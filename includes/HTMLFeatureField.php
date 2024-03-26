@@ -101,7 +101,7 @@ class HTMLFeatureField extends HTMLCheckField {
 
 		$infoLinkClasses = [ 'mw-ui-feature-info-links' ];
 
-		if ( isset( $infoLink ) || isset( $discussionLink ) ) {
+		if ( $infoLink !== null || $discussionLink !== null ) {
 			$infoLinkClasses[] = 'filled';
 		}
 
@@ -109,7 +109,7 @@ class HTMLFeatureField extends HTMLCheckField {
 
 		$out = $this->mParent->getOutput();
 
-		if ( isset( $infoLink ) ) {
+		if ( $infoLink !== null ) {
 			$out->addModuleStyles( 'oojs-ui.styles.icons-content' );
 			$html .= Html::rawElement( 'a', [
 					'href' => $infoLink,
@@ -121,7 +121,7 @@ class HTMLFeatureField extends HTMLCheckField {
 			$html .= ' ';
 		}
 
-		if ( isset( $discussionLink ) ) {
+		if ( $discussionLink !== null ) {
 			$out->addModuleStyles( 'oojs-ui.styles.icons-alerts' );
 			$html .= Html::rawElement( 'a', [
 					'href' => $discussionLink,
