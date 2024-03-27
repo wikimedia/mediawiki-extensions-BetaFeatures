@@ -6,10 +6,12 @@
 			"Macofe",
 			"Mguix",
 			"QuimGil",
-			"Vriullop"
+			"Vriullop",
+			"V27t"
 		]
 	},
 	"betafeatures-auto-enroll": "Habilita automàticament la majoria de funcions beta",
+	"betafeatures-auto-enroll-help": "Algunes funcions beta poden provocar canvis sorprenents, de manera que les heu d'habilitar manualment.",
 	"betafeatures-desc": "Permet a l'usuari activar o desactivar funcionalitats en el wiki que encara no són a punt per a una estrena oficial.",
 	"betafeatures-extension-type": "Funcionalitats beta",
 	"betafeatures-section-desc": "Aquí teniu {{PLURAL:$1|una nova funcionalitat|noves funcionalitats}} que estem considerant per a {{SITENAME}}. Si us plau, proveu-les i compartiu les vostres opinions. Així podrem millorar-les en base als vostres comentaris.",
