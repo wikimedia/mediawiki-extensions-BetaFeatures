@@ -72,12 +72,12 @@ class UpdateBetaFeatureUserCountsJob extends Job implements GenericParameterJob 
 		}
 
 		if ( $rows ) {
-			$dbw->replace(
-				'betafeatures_user_counts',
-				'feature',
-				$rows,
-				__METHOD__
-			);
+			$dbw->newReplaceQueryBuilder()
+				->replaceInto( 'betafeatures_user_counts' )
+				->uniqueIndexFields( 'feature' )
+				->rows( $rows )
+				->caller( __METHOD__ )
+				->execute();
 		}
 
 		return true;
