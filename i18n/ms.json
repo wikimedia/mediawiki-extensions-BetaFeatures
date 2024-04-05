@@ -4,10 +4,12 @@
 			"Aurora",
 			"Aviator",
 			"CyberTroopers",
+			"Hakimi97",
 			"Pizza1016"
 		]
 	},
 	"betafeatures-auto-enroll": "Bukakan semua ciri beta yang baru secara automatik",
+	"betafeatures-auto-enroll-help": "Sesetengah ciri beta boleh mempunyai perubahan yang mengejutkan, jadi {{GENDER:|anda}} perlu memilih serta secara manual.",
 	"betafeatures-desc": "Membolehkan pengguna menghidupkan atau memadam ciri-ciri dalam wiki ini yang masih berada pada tahap ujian",
 	"betafeatures-extension-type": "Ciri beta",
 	"betafeatures-section-desc": "Berikut {{PLURAL:$1|ialah senarai ciri-ciri baru}} yang dipertimbangkan untuk {{SITENAME}}. Anda dipersilakan mencuba {{PLURAL:$1| ciri-ciri tersebut}} dan mengutarakan pendapat anda kepada kami supaya kami boleh memperbaikinya berdasarkan maklum balas anda.",
