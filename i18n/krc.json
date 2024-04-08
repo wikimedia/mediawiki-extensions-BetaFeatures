@@ -2,16 +2,17 @@
 	"@metadata": {
 		"authors": [
 			"Ernác",
-			"Iltever"
+			"Iltever",
+			"Къарачайлы"
 		]
 	},
-	"betafeatures-auto-enroll": "Бютеу джангы бета-функцияланы автомат халда джандыр",
+	"betafeatures-auto-enroll": "Джангы бета-функцияланы асламысын автомат халда джандыр",
 	"betafeatures-desc": "Прайм-таймгъа хазыр болмагъан функцияланы джандырыргъа неда джукълатыргъа амал береди.",
 	"betafeatures-extension-type": "Бета-функцияла",
 	"betafeatures-section-desc": "Биз, {{SITENAME}} сайт ючюн джарашдыра тургъан {{PLURAL:$1|джангы функция|талай джангы функция}} барды. {{PLURAL:$1|1=Аны|Аланы}} хайырланыб кёрюгюз да, биз сизни билдириулеригизге кёре бу джангы {{PLURAL:$1|амалны|амалланы}} игилендирир ючюн, оюмугъузну айтыгъыз.",
 	"betafeatures-toplink": "Бета",
-	"mw-ui-feature-discuss": "сюзюу",
-	"mw-ui-feature-info": "билги",
+	"mw-ui-feature-discuss": "Сюзюу",
+	"mw-ui-feature-info": "Информация",
 	"mw-ui-feature-requirements-betafeatures": "Бу бункция, {{PLURAL:$1|1=бу функцияны джандырылырын|бу функцияланы джандырылырларын}} даулайды:",
 	"mw-ui-feature-requirements-browser": "Эндиги {{PLURAL:$1|1=браузер тутулмайды|браузерле тутулмайдыла}}:",
 	"mw-ui-feature-requirements-javascript": "Бу функциягъа JavaScript керекди.",
