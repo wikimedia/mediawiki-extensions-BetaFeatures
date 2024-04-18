@@ -63,7 +63,7 @@ class UpdateBetaFeatureUserCountsJob extends Job {
 			->groupBy( 'up_property' )
 			->caller( __METHOD__ )->fetchResultSet();
 
-		if ( !$res ) {
+		if ( !$res->numRows() ) {
 			return false;
 		}
 
