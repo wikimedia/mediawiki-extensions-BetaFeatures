@@ -2,9 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Bugoslav",
-			"Chuvash2014"
+			"Chuvash2014",
+			"Astahar"
 		]
 	},
 	"betafeatures-toplink": "Бета",
-	"mw-ui-feature-info": "Информаци"
+	"mw-ui-feature-discuss": "Сӳтсе явни",
+	"mw-ui-feature-info": "Информаци",
+	"mw-ui-feature-requirements-betafeatures": "Ку функци {{PLURAL:$1|1=ҫак финкцие|ҫак функцисене}} ӗҫлеттерсе яма ыйтать:",
+	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|1=Ҫак браузерпа|Ҫак браузерсемпе}} усӑ курма пӗлместпӗр:",
+	"mw-ui-feature-requirements-javascript": "Ку функци валли JavaScript кирлӗ."
 }
