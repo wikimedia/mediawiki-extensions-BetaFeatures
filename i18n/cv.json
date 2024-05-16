@@ -6,10 +6,14 @@
 			"Astahar"
 		]
 	},
+	"betafeatures-auto-enroll": "Бета-функцисенчен чылайӑшне тӳрех усӑ курма пуҫламалла",
+	"betafeatures-extension-type": "Бета-функцисем",
 	"betafeatures-toplink": "Бета",
 	"mw-ui-feature-discuss": "Сӳтсе явни",
 	"mw-ui-feature-info": "Информаци",
 	"mw-ui-feature-requirements-betafeatures": "Ку функци {{PLURAL:$1|1=ҫак финкцие|ҫак функцисене}} ӗҫлеттерсе яма ыйтать:",
 	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|1=Ҫак браузерпа|Ҫак браузерсемпе}} усӑ курма пӗлместпӗр:",
-	"mw-ui-feature-requirements-javascript": "Ку функци валли JavaScript кирлӗ."
+	"mw-ui-feature-requirements-javascript": "Ку функци валли JavaScript кирлӗ.",
+	"prefs-betafeatures": "Бета-функцисем",
+	"tooltip-pt-betafeatures": "Бета-функцисем"
 }
