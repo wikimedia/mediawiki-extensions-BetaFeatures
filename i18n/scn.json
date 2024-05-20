@@ -17,8 +17,8 @@
 	"mw-ui-feature-requirements-betafeatures": "Sta funziunalità havi bisognu ca {{PLURAL:$1|è attivata st'àutra funziunalità|sunnu attivati st'àutri funziunalità}}:",
 	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|Stu browser nun è suppurtatu|Sti browser nun sunnu suppurtati}}:",
 	"mw-ui-feature-requirements-javascript": "Sta funziunalità havi bisognu dû JavaScript.",
-	"mw-ui-feature-requirements-skins": "Sta funziunalità funziona sulu cu {{PLURAL:$1|sta peddi|sti peddi}}:",
-	"mw-ui-feature-user-count": "{{PLURAL:$1|N'utenti sulu sta|$1 utenti stannu|0=Nuddu utenti sta}} pruvannu sta funziunalità.",
+	"mw-ui-feature-requirements-skins": "Sta funziunalità funziona sulu cu {{PLURAL:$1|la peḍḍi siquenti|la peḍḍi siquenti}}:",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|N’utenti sulu sta|$1 utenti stannu|0=Nuḍḍu utenti sta}} pruvannu sta funziunalità.",
 	"prefs-betafeatures": "Funziunalità n beta",
 	"tooltip-pt-betafeatures": "Funziunalità n beta"
 }
