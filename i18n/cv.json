@@ -9,11 +9,15 @@
 	"betafeatures-auto-enroll": "Бета-функцисенчен чылайӑшне тӳрех усӑ курма пуҫламалла",
 	"betafeatures-extension-type": "Бета-функцисем",
 	"betafeatures-toplink": "Бета",
+	"betafeatures-feature-autoenrolled": "Хӑй тӗллӗн ӗҫлесе каякан функци",
 	"mw-ui-feature-discuss": "Сӳтсе явни",
 	"mw-ui-feature-info": "Информаци",
 	"mw-ui-feature-requirements-betafeatures": "Ку функци {{PLURAL:$1|1=ҫак финкцие|ҫак функцисене}} ӗҫлеттерсе яма ыйтать:",
 	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|1=Ҫак браузерпа|Ҫак браузерсемпе}} усӑ курма пӗлместпӗр:",
 	"mw-ui-feature-requirements-javascript": "Ку функци валли JavaScript кирлӗ.",
+	"mw-ui-feature-requirements-skins": "Ку функци ҫак {{PLURAL:$1|1=темӑпа|темӑсемпе}} кӑна ӗҫлет:",
+	"mw-ui-feature-user-count": "Ку функци ӗҫне {{PLURAL:$1|$1 хутшӑнакан тӗрӗслет|0=никам та тӗрӗслемест}}.",
 	"prefs-betafeatures": "Бета-функцисем",
+	"prefs-description-betafeatures": "Ҫӗнӗрен хатӗрлекен функцисен ӗҫне тӗрӗслесе пӑхӑр та хӑвар шухӑшӑра хӑварӑр.",
 	"tooltip-pt-betafeatures": "Бета-функцисем"
 }
