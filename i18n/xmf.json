@@ -6,9 +6,21 @@
 			"Silovan"
 		]
 	},
+	"betafeatures-auto-enroll": "ავტომატურო ჩერთას არძა ახალი ბეტა-ფუნქციაქ",
+	"betafeatures-auto-enroll-help": "კანკალე ბეტა-ფუნქციაქ შილებე ულებუო დითირასჷნ, თეშენ თქვა თინეფი ხეთ ოკო მართათ.",
+	"betafeatures-desc": "მახვარებუს არზენს თი ფუნქციეფიშ ჩართებაშ დო გოთიშუაშ ნებას, ნამუეფჷთ დიო ხოლო ვა რე ზათი პრაიმ-ტაიმიშო",
+	"betafeatures-extension-type": "ბეტა ასა-გასეფი",
+	"betafeatures-section-desc": "{{PLURAL:$1|გორჩქინდჷ ახალი ფუნქციაქ, ნამუსჷთ|გორჩქინდჷ მუსხირენ ახალი ფუნქციაქ, ნამუეფსჷთ}} ჩქი გუთმოფსხუნუნთ პროექტიშო {{SITENAME}}. ქორთხინთ, გამორსით {{PLURAL:$1|თინა|თინეფი}} დო ქუგმოგებაფეთ თქვანი გოხვალამა, ანდანე თქვან კჷნოხონარაფეფშა გეპონუათ ჩქი შემალებუანი ათე სიახალეშ გაუჯგუშებან.",
 	"betafeatures-toplink": "ბეტა",
+	"betafeatures-feature-autoenrolled": "ავტომატურო ჩართებაფონი ფუნქცია",
 	"mw-ui-feature-discuss": "სხუნუა",
 	"mw-ui-feature-info": "ინფორმაცია",
+	"mw-ui-feature-requirements-betafeatures": "ათე ხეჭკუდიშ ომუშებელო ოხვილური რე უკვე გააქტიურაფილი გეჸვენჯი {{PLURAL:$1|ხეჭკუდი|ხეჭკუდეფი}}:",
+	"mw-ui-feature-requirements-browser": "გეჸვენჯი {{PLURAL:$1|ბრაუზერს ვა უღჷ|ბრაუზერეფს ვა უღჷნა}} აზარა:",
+	"mw-ui-feature-requirements-javascript": "ათე ფუნქცია თხულენს JavaScript-ის",
+	"mw-ui-feature-requirements-skins": "ათე ჯან-ღვენა მუშენს ხვალე გეჸვენჯი {{PLURAL:$1|ნერმეჯინაწკჷმა|ნერმეჯინეფწკჷმა}}:",
+	"mw-ui-feature-user-count": "ათე ჯან-ღვენას {{PLURAL:$1|ართი მახვარებუ|$1 მახვარებუ|0=მითინი ვა}} გჷმირინუანს.",
 	"prefs-betafeatures": "ბეტა ასა-გასეფი",
+	"prefs-description-betafeatures": "გამორსით ახალი შემუშებული ფუნქციეფი დო ქუგმოგებაფეთ თქვანი არზი.",
 	"tooltip-pt-betafeatures": "ბეტა ასა-გასეფი"
 }
