@@ -22,12 +22,12 @@
 
 ( function () {
 	mw.hook( 'htmlform.enhance' ).add( function ( $root ) {
-		var $autoEnroll = $root.find( '[name=wpbetafeatures-auto-enroll]' ).parent();
+		const $autoEnroll = $root.find( '[name=wpbetafeatures-auto-enroll]' ).parent();
 		if ( !$autoEnroll.length || $autoEnroll.closest( '.mw-htmlform-autoinfuse-lazy' ).length ) {
 			return;
 		}
 
-		var featuresModel = mw.config.get( 'wgBetaFeaturesFeatures', {} );
+		const featuresModel = mw.config.get( 'wgBetaFeaturesFeatures', {} );
 
 		OO.ui.infuse( $autoEnroll ).on( 'change', function ( selectedState ) {
 			Object.keys( featuresModel ).forEach( function ( preference ) {
@@ -54,7 +54,7 @@
 		} );
 
 		Object.keys( featuresModel ).forEach( function ( preference ) {
-			var $checkbox = $root.find( '[name=wp' + preference + ']' );
+			const $checkbox = $root.find( '[name=wp' + preference + ']' );
 
 			// Extensions might hide their preferences late or by a different method
 			if ( !$checkbox.length ) {
@@ -63,7 +63,7 @@
 
 			featuresModel[ preference ].widget = OO.ui.infuse( $checkbox.parent() );
 
-			var unsupportedList = featuresModel[ preference ].unsupportedList;
+			const unsupportedList = featuresModel[ preference ].unsupportedList;
 
 			// Browser not compatible
 			if ( unsupportedList && $.client.test( unsupportedList, null, true ) ) {
