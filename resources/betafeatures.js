@@ -21,7 +21,7 @@
  */
 
 ( function () {
-	mw.hook( 'htmlform.enhance' ).add( function ( $root ) {
+	mw.hook( 'htmlform.enhance' ).add( ( $root ) => {
 		const $autoEnroll = $root.find( '[name=wpbetafeatures-auto-enroll]' ).parent();
 		if ( !$autoEnroll.length || $autoEnroll.closest( '.mw-htmlform-autoinfuse-lazy' ).length ) {
 			return;
@@ -29,8 +29,8 @@
 
 		const featuresModel = mw.config.get( 'wgBetaFeaturesFeatures', {} );
 
-		OO.ui.infuse( $autoEnroll ).on( 'change', function ( selectedState ) {
-			Object.keys( featuresModel ).forEach( function ( preference ) {
+		OO.ui.infuse( $autoEnroll ).on( 'change', ( selectedState ) => {
+			Object.keys( featuresModel ).forEach( ( preference ) => {
 				// Hidden preference
 				if ( !featuresModel[ preference ].widget ) {
 					return;
@@ -53,7 +53,7 @@
 			} );
 		} );
 
-		Object.keys( featuresModel ).forEach( function ( preference ) {
+		Object.keys( featuresModel ).forEach( ( preference ) => {
 			const $checkbox = $root.find( '[name=wp' + preference + ']' );
 
 			// Extensions might hide their preferences late or by a different method
