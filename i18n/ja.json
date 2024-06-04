@@ -11,11 +11,12 @@
 			"Siglite3",
 			"Takot",
 			"Tmv",
-			"Whym"
+			"Whym",
+			"Marine-Blue"
 		]
 	},
 	"betafeatures-auto-enroll": "すべてのベータ版機能を自動的に有効にする",
-	"betafeatures-auto-enroll-help": "ベータ版機能は予期しない変化や変更が生じる可能性があるため、{{GENDER:|あなた}}が手動で有効化する必要があります。",
+	"betafeatures-auto-enroll-help": "一部のベータ版機能は予期しない変化や変更が生じる可能性があるため、{{GENDER:|}}手動で有効化する必要があります。",
 	"betafeatures-desc": "本番環境のウィキで使用する準備がまだできていない機能について、利用者が有効化/無効化できるようにする",
 	"betafeatures-extension-type": "ベータ版機能",
 	"betafeatures-section-desc": "これらは{{SITENAME}}で検討している{{PLURAL:$1|新しい機能}}です。お試しの上ご意見をお寄せください。フィードバックに基づいて機能を改善します。",
