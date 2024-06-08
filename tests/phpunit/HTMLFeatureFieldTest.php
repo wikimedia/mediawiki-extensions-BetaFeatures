@@ -23,7 +23,9 @@
  * @license GPL-2.0-or-later
  */
 
+use MediaWiki\Context\RequestContext;
 use MediaWiki\Extension\BetaFeatures\HTMLFeatureField;
+use MediaWiki\HTMLForm\HTMLForm;
 use MediaWiki\Title\Title;
 
 /**
