@@ -35,6 +35,7 @@ use MediaWiki\Hook\PreferencesGetIconHook;
 use MediaWiki\Hook\SkinTemplateNavigation__UniversalHook;
 use MediaWiki\HookContainer\HookContainer;
 use MediaWiki\JobQueue\JobQueueGroupFactory;
+use MediaWiki\MediaWikiServices;
 use MediaWiki\Output\Hook\MakeGlobalVariablesScriptHook;
 use MediaWiki\Output\OutputPage;
 use MediaWiki\Preferences\Hook\GetPreferencesHook;
@@ -46,7 +47,6 @@ use MediaWiki\User\User;
 use MediaWiki\User\UserFactory;
 use MediaWiki\User\UserIdentity;
 use MediaWiki\User\UserIdentityUtils;
-use ObjectCache;
 use SkinFactory;
 use SkinTemplate;
 use Wikimedia\Rdbms\IConnectionProvider;
@@ -358,7 +358,7 @@ class Hooks implements
 			// Save the preferences to the DB post-send
 			DeferredUpdates::addCallableUpdate(
 				function () use ( $user, $autoEnrollSaveSettings ) {
-					$cache = ObjectCache::getLocalClusterInstance();
+					$cache = MediaWikiServices::getInstance()->getObjectCacheFactory()->getLocalClusterInstance();
 					$key = $cache->makeKey( __CLASS__, 'prefs-update', $user->getId() );
 					// T95839: If concurrent requests pile on (e.g. multiple tabs), only let one
 					// thread bother doing these updates. This avoids pointless error log spam.
