@@ -4,5 +4,7 @@
 			"IJzeren Jan"
 		]
 	},
+	"betafeatures-auto-enroll": "Avtomatično vključiti večinstvo beta-funkcij",
+	"betafeatures-auto-enroll-help": "Někoje beta-funkcije mogut dovesti k udivjajučim izměnam, zato trěba {{GENDER:|vam}} vključiti je ručno.",
 	"betafeatures-toplink": "Beta"
 }
