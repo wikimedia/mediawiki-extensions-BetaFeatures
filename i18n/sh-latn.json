@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Winston Sung"
+			"Winston Sung",
+			"BadDog"
 		]
 	},
 	"betafeatures-auto-enroll": "Automatski uključi većinu beta mogućnosti",
@@ -20,5 +21,5 @@
 	"mw-ui-feature-user-count": "Funkciju {{PLURAL:$1|isprobava jedan korisnik|isprobavaju $1 korisnika|0=ne isprobava niti jedan korisnik}}.",
 	"prefs-betafeatures": "Beta mogućnosti",
 	"prefs-description-betafeatures": "Isprobajte najnovije značajke koje su u tijeku i dajte povratne informacije.",
-	"tooltip-pt-betafeatures": "Beta mogućnosti"
+	"tooltip-pt-betafeatures": "Vaše beta mogućnosti"
 }
