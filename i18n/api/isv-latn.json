@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"IJzeren Jan"
+		]
+	},
+	"apihelp-query+betafeatures-summary": "Spisok vsih Beta-funkcij",
+	"apihelp-query+betafeatures-example-1": "Pokazati vse dostupne beta-funkcije zajedno s čislom koristnikov, ktori je vključili.",
+	"apihelp-query+betafeatures-param-counts": "Dobyti li informacije o čislu koristnikov, ktori vključili oprěděljeno nastavjenje."
+}
