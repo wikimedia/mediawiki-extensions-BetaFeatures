@@ -4,5 +4,20 @@
 			"IJzeren Jan"
 		]
 	},
-	"betafeatures-toplink": "Beta"
+	"betafeatures-auto-enroll": "Avtomatično vključiti večinstvo beta-funkcij",
+	"betafeatures-auto-enroll-help": "Někoje beta-funkcije mogut dovesti k udivjajučim izměnam, zato trěba {{GENDER:|vam}} vključiti je ručno.",
+	"betafeatures-desc": "Pozvaljaje koristniku, že vključi ili odključi funkcije, ktore ješče ne sut popolno vozvršene",
+	"betafeatures-extension-type": "Beta-funkcije",
+	"betafeatures-section-desc": "Tu nahodite {{PLURAL:$1|novu funkciju, ktoru|několiko novyh funkcij, ktore}} razgledajemo za {{GRAMMAR:accusative|{{SITENAME}}}}. Prosimo, izprobujte {{PLURAL:$1|ju|je}} i podělite se svojim mněnjem s nami, da byhmo mogli {{PLURAL:$1|ju|je}} ulěpšiti s pomočju vašej povratnoj informacije.",
+	"betafeatures-toplink": "Beta",
+	"betafeatures-feature-autoenrolled": "Avtomatično vključena funkcija",
+	"mw-ui-feature-discuss": "Besěda",
+	"mw-ui-feature-info": "Informacija",
+	"mw-ui-feature-requirements-betafeatures": "Tuta funkcije potrěbuje, že {{PLURAL:$1|slědujuča funkcija jest vključena|slědujuče funkcije sut vključene}}:",
+	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|Slědujuči prěgledač ne poddrživaje se|Slědujuče prěgledače ne poddrživajut se}}:",
+	"mw-ui-feature-requirements-javascript": "Tuta funkcija potrěbuje JavaScript.",
+	"mw-ui-feature-requirements-skins": "Tuta funkcija rabotaje izključiteljno s {{PLURAL:$1|slědujučeju vizualnoju temoju|slědujučimi vizualnymi temami}}:",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|Jedin koristnik testuje|$1 koristnikov testujut|0=Nijedin koristnik ne testuje}} tutu funkciju.",
+	"prefs-betafeatures": "Beta-funkcije",
+	"tooltip-pt-betafeatures": "Beta-funkcije"
 }
