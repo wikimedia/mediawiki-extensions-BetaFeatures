@@ -6,7 +6,8 @@
 			"Horus",
 			"Nullzero",
 			"Octahedron80",
-			"Patsagorn Y."
+			"Patsagorn Y.",
+			"Ekminarin"
 		]
 	},
 	"betafeatures-auto-enroll": "เปิดใช้งานคุณลักษณะระยะทดสอบส่วนใหญ่โดยอัตโนมัติ",
@@ -24,6 +25,6 @@
 	"mw-ui-feature-requirements-skins": "คุณลักษณะนี้ทำงานได้เฉพาะกับ{{PLURAL:$1|สกินต่อไปนี้}}:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|ผู้ใช้ $1 คน|ผู้ใช้ $1 คน|0=ไม่มีผู้ใช้}}กำลังลองคุณลักษณะนี้",
 	"prefs-betafeatures": "คุณลักษณะระยะทดสอบ",
-	"prefs-description-betafeatures": "ทดลองฟีเจอรืที่อยู่ระหว่างการพัฒนาและให้ข้อเสนอแนะ",
+	"prefs-description-betafeatures": "ทดลองฟีเจอร์ที่อยู่ระหว่างการพัฒนาและให้ข้อเสนอแนะ",
 	"tooltip-pt-betafeatures": "คุณลักษณะระยะทดสอบ"
 }
