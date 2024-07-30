@@ -35,7 +35,6 @@ use MediaWiki\Hook\PreferencesGetIconHook;
 use MediaWiki\Hook\SkinTemplateNavigation__UniversalHook;
 use MediaWiki\HookContainer\HookContainer;
 use MediaWiki\JobQueue\JobQueueGroupFactory;
-use MediaWiki\MediaWikiServices;
 use MediaWiki\Output\Hook\MakeGlobalVariablesScriptHook;
 use MediaWiki\Output\OutputPage;
 use MediaWiki\Preferences\Hook\GetPreferencesHook;
@@ -47,6 +46,7 @@ use MediaWiki\User\User;
 use MediaWiki\User\UserFactory;
 use MediaWiki\User\UserIdentity;
 use MediaWiki\User\UserIdentityUtils;
+use ObjectCacheFactory;
 use SkinFactory;
 use SkinTemplate;
 use Wikimedia\Rdbms\IConnectionProvider;
@@ -75,6 +75,7 @@ class Hooks implements
 	private UserFactory $userFactory;
 	private UserIdentityUtils $userIdentityUtils;
 	private UserOptionsManager $userOptionsManager;
+	private ObjectCacheFactory $objectCacheFactory;
 
 	public function __construct(
 		Config $config,
@@ -84,7 +85,8 @@ class Hooks implements
 		SkinFactory $skinFactory,
 		UserFactory $userFactory,
 		UserIdentityUtils $userIdentityUtils,
-		UserOptionsManager $userOptionsManager
+		UserOptionsManager $userOptionsManager,
+		ObjectCacheFactory $objectCacheFactory
 	) {
 		$this->config = $config;
 		$this->dbProvider = $dbProvider;
@@ -94,6 +96,7 @@ class Hooks implements
 		$this->userFactory = $userFactory;
 		$this->userIdentityUtils = $userIdentityUtils;
 		$this->userOptionsManager = $userOptionsManager;
+		$this->objectCacheFactory = $objectCacheFactory;
 	}
 
 	/**
@@ -358,7 +361,7 @@ class Hooks implements
 			// Save the preferences to the DB post-send
 			DeferredUpdates::addCallableUpdate(
 				function () use ( $user, $autoEnrollSaveSettings ) {
-					$cache = MediaWikiServices::getInstance()->getObjectCacheFactory()->getLocalClusterInstance();
+					$cache = $this->objectCacheFactory->getLocalClusterInstance();
 					$key = $cache->makeKey( __CLASS__, 'prefs-update', $user->getId() );
 					// T95839: If concurrent requests pile on (e.g. multiple tabs), only let one
 					// thread bother doing these updates. This avoids pointless error log spam.
