@@ -63,16 +63,25 @@ class UpdateBetaFeatureUserCountsJob extends Job {
 			->groupBy( 'up_property' )
 			->caller( __METHOD__ )->fetchResultSet();
 
-		if ( !$res->numRows() ) {
-			return false;
-		}
-
 		$rows = [];
 		foreach ( $res as $row ) {
 			$rows[] = [
 				'feature' => $row->feature,
 				'number' => $row->number,
 			];
+		}
+
+		// Save 0 when there are no more users in this beta feature (T362017)
+		if ( count( $this->params['prefs'] ) > count( $rows ) ) {
+			$updatedRows = array_map( static function ( $v ) {
+				return $v['feature'];
+			}, $rows );
+			foreach ( array_diff( $this->params['prefs'], $updatedRows ) as $pref ) {
+				$rows[] = [
+					'feature' => $pref,
+					'number' => 0,
+				];
+			}
 		}
 
 		if ( $rows ) {
