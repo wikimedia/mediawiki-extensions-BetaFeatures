@@ -1,15 +1,23 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kimberli Mäkäräinen (WMNO)"
+			"Kimberli Mäkäräinen (WMNO)",
+			"WMNO sámeprošeakta"
 		]
 	},
 	"betafeatures-auto-enroll": "Váldde stuorimus oasi betadoaimmaid atnui automáhtalaččat",
+	"betafeatures-auto-enroll-help": "Soames betadoaimmain soitet vuorddekeahtes rievdadusat, nu ahte dáid fertet {{GENDER:|don}} manuálalaččat váldit atnui.",
+	"betafeatures-desc": "Divtte geavaheddjiid aktiveret dahje bidjat eret wikiid doaimmaid mat eai leat vuos áibbas gárvásat.",
 	"betafeatures-extension-type": "Betadoaimmat",
+	"betafeatures-section-desc": "Dá lea {{PLURAL:$1|ođđa doaibma|soames ođđa doaimmat}} maid mii árvvoštallat álggahit {{SITENAME}}:s. Geahččal áinnas {{PLURAL:$1|den|daid}} ja atte midjiide máhcehemiid, vai sáhttit buoridit {{PLURAL:$1|dan|daid}}.",
 	"betafeatures-toplink": "Beta",
+	"betafeatures-feature-autoenrolled": "Automáhtalaččat biddjojuvvon johtui",
 	"mw-ui-feature-discuss": "Ságastallan",
 	"mw-ui-feature-info": "Lassedieđut",
+	"mw-ui-feature-requirements-betafeatures": "Dát doaibma gáibida ahte čuovvovaš {{PLURAL:$1|doaibma|doaimmat}} leat váldojuvvon atnui:",
+	"mw-ui-feature-requirements-browser": "Čuovvovaš {{PLURAL:$1|neahttalohkki|neahttalohkkit}} eai leat dorjojuvvon:",
 	"mw-ui-feature-requirements-javascript": "Dát doaibma gáibida JavaScript.",
+	"mw-ui-feature-requirements-skins": "Dát doaibma lea dušše doaimmaš {{PLURAL:$1|čuovvovaš fárddain|čuovvovaš fárddaiguin}}:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|Okta geavaheaddji lea|$1 geavaheaddji leat|0=Ii oktage geavaheaddji leat}} váldán dán doaibma atnui.",
 	"prefs-betafeatures": "Betadoaimmat",
 	"tooltip-pt-betafeatures": "Betadoaimmat"
