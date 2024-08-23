@@ -46,7 +46,8 @@ class BetaFeaturesDatabaseTestCase extends MediaWikiIntegrationTestCase {
 			$services->getSkinFactory(),
 			$services->getUserFactory(),
 			$services->getUserIdentityUtils(),
-			$services->getUserOptionsManager()
+			$services->getUserOptionsManager(),
+			$services->getObjectCacheFactory()
 		);
 	}
 
