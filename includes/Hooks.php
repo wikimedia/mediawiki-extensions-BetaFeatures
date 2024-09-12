@@ -427,10 +427,10 @@ class Hooks implements
 		// phpcs:enable MediaWiki.NamingConventions.LowerCamelFunctionsName.FunctionName
 		// using // phpcs:ignore after docblock doesn't work, it shows
 		// MediaWiki.Commenting.FunctionComment.MissingDocumentationPublic
-		$personal_urls = $links['user-menu'] ?? [];
 		$user = $skintemplate->getUser();
-		if ( $user->isRegistered() ) {
-			$personal_urls = wfArrayInsertAfter( $personal_urls, [
+		if ( $user->isNamed() ) {
+			$personalUrls = $links['user-menu'] ?? [];
+			$personalUrls = wfArrayInsertAfter( $personalUrls, [
 				// The following messages are generated upstream
 				// * tooltip-pt-betafeatures
 				'betafeatures' => [
@@ -442,8 +442,8 @@ class Hooks implements
 					'icon' => 'labFlask'
 				],
 			], 'preferences' );
+			$links['user-menu'] = $personalUrls;
 		}
-		$links['user-menu'] = $personal_urls;
 	}
 
 	/**

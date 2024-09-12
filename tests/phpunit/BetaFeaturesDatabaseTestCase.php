@@ -36,7 +36,7 @@ class BetaFeaturesDatabaseTestCase extends MediaWikiIntegrationTestCase {
 	 */
 	protected $user;
 
-	private function newBFHooks(): BFHooks {
+	protected function newBFHooks(): BFHooks {
 		$services = $this->getServiceContainer();
 		return new BFHooks(
 			$services->getMainConfig(),
