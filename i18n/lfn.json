@@ -2,9 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Cgboeree",
-			"Katxis"
+			"Katxis",
+			"Elefentiste"
 		]
 	},
 	"betafeatures-toplink": "Beta",
+	"mw-ui-feature-discuss": "Discute",
+	"mw-ui-feature-info": "Informa",
 	"tooltip-pt-betafeatures": "cualias beta"
 }
