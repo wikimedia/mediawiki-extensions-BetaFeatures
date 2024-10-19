@@ -26,7 +26,7 @@
 
 namespace MediaWiki\Extension\BetaFeatures;
 
-use ApiQueryBase;
+use MediaWiki\Api\ApiQueryBase;
 use MediaWiki\Extension\BetaFeatures\Hooks\HookRunner;
 use MediaWiki\HookContainer\HookContainer;
 use MediaWiki\User\User;

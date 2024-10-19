@@ -22,7 +22,9 @@
  * @license GPL-2.0-or-later
  */
 
+use MediaWiki\Request\FauxRequest;
 use MediaWiki\Tests\User\TempUser\TempUserTestTrait;
+use MediaWiki\Title\Title;
 use MediaWiki\User\UserIdentityValue;
 
 /**
