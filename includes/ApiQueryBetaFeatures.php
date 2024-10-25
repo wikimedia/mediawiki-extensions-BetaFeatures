@@ -26,6 +26,7 @@
 
 namespace MediaWiki\Extension\BetaFeatures;
 
+use MediaWiki\Api\ApiQuery;
 use MediaWiki\Api\ApiQueryBase;
 use MediaWiki\Extension\BetaFeatures\Hooks\HookRunner;
 use MediaWiki\HookContainer\HookContainer;
@@ -36,10 +37,9 @@ class ApiQueryBetaFeatures extends ApiQueryBase {
 	private IConnectionProvider $dbProvider;
 	private HookContainer $hookContainer;
 
-	/** @inheritDoc */
 	public function __construct(
-		$query,
-		$moduleName,
+		ApiQuery $query,
+		string $moduleName,
 		IConnectionProvider $dbProvider,
 		HookContainer $hookContainer
 	) {
