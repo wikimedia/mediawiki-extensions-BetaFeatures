@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Arystanbek",
-			"Balnur.s"
+			"Balnur.s",
+			"Casserium"
 		]
 	},
-	"betafeatures-auto-enroll": "Барлық жаңа beta мүмкіндіктерді өздікті қосу",
+	"betafeatures-auto-enroll": "Барлық жаңа beta мүмкіндіктерді өздігінен қосу",
 	"betafeatures-extension-type": "Бета мүмкіндіктер",
 	"betafeatures-section-desc": "Сізге {{SITENAME}} сайтына арналған {{PLURAL:$1|жаңа мүмкіндікті|жаңа мүмкіндіктерді}} ұсынамыз. {{PLURAL:$1|Оны|Оларды}} сынап көріп, өз ойларыңызбен бөлісуіңізді сұраймыз. Сіз берген сын-бағалардың негізінде {{PLURAL:$1|оны|оларды}} жетілдіруге мүмкіндігіміз бар.",
 	"betafeatures-toplink": "Бета",
