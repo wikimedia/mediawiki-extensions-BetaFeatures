@@ -39,7 +39,7 @@ table.mw-htmlform-container {
 
 .mw-ui-feature-header {
 	width: 100%;
-	border-bottom: 1px solid #eaecf0;
+	border-bottom: 1px solid @border-color-muted;
 	margin-bottom: 0.5em;
 }
 
@@ -67,7 +67,9 @@ table.mw-htmlform-container {
 }
 
 .mw-htmlform-field-HTMLHorizontalRuleField .mw-input hr {
-	background-color: #c8ccd1;
+	// <hr>s are close enough to borders, so use a @border- color,
+	// there's no matching background color variable
+	background-color: @border-color-subtle;
 }
 
 .mw-htmlform-field-HTMLHorizontalRuleField .mw-input hr,
@@ -87,7 +89,7 @@ table.mw-htmlform-container {
 	line-height: 24px;
 	padding: 6px 10px;
 	display: inline-block;
-	border-left: 1px solid #eaecf0;
+	border-left: 1px solid @border-color-muted;
 }
 
 .mw-ui-feature-info-links {
