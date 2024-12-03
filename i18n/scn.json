@@ -4,12 +4,13 @@
 			"Ajeje Brazorf",
 			"Macofe",
 			"Pippinu",
-			"Sarvaturi"
+			"Sarvaturi",
+			"GianAntonucci"
 		]
 	},
 	"betafeatures-auto-enroll": "Attiva tutti li funziunalità n beta autumaticamenti",
 	"betafeatures-desc": "Lassa attivari o disattivari a l'utenti li carattirìstichi dâ wiki ca nun sunnu ancora pronti pi l'usu ginirali",
-	"betafeatures-extension-type": "Funziunalità n beta",
+	"betafeatures-extension-type": "Funziunalità spirimintali",
 	"betafeatures-section-desc": "Ccà {{PLURAL:$1|c'è na funziunalità nova|ci sunnu na para di funziunalità novi}} ca stamu pinzannu d'attivari nta {{SITENAME}}. Pi favuri {{PLURAL:$1|pròvala|pròvali}} e dinni chi ti nni pari, accussì {{PLURAL:$1|la putemu migghiurari|li putemu migghiurari}} tinennu cuntu dî tò ossirvazzioni.",
 	"betafeatures-toplink": "Beta",
 	"mw-ui-feature-discuss": "Discussioni",
