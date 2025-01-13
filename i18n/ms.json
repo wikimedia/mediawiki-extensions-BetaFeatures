@@ -20,7 +20,7 @@
 	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|Pelayar|Pelayar-pelayar}} di bawah tidak disokong:",
 	"mw-ui-feature-requirements-javascript": "Ciri ini memerlukan JavaScript.",
 	"mw-ui-feature-requirements-skins": "Ciri ini berfungsi dengan {{PLURAL:$1|rupa|rupa-rupa}} berikut sahaja:",
-	"mw-ui-feature-user-count": "{{PLURAL:$1|Seorang|$1|0=Tiada}} pengguna sedang mencubai ciri ini.",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|Seorang|$1|0=Tiada}} pengguna sedang mencuba ciri ini.",
 	"prefs-betafeatures": "Ciri beta",
 	"tooltip-pt-betafeatures": "Ciri-ciri beta"
 }
