@@ -23,6 +23,8 @@
  * @license GPL-2.0-or-later
  */
 
+// phpcs:disable MediaWiki.NamingConventions.LowerCamelFunctionsName.FunctionName
+
 namespace MediaWiki\Extension\BetaFeatures;
 
 use Exception;
@@ -418,15 +420,11 @@ class Hooks implements
 	/**
 	 * @param SkinTemplate $skintemplate
 	 * @param array[] &$links
-	 * @phpcs:disable MediaWiki.NamingConventions.LowerCamelFunctionsName.FunctionName
 	 */
 	public function onSkinTemplateNavigation__Universal(
 		$skintemplate,
 		&$links
 	): void {
-		// phpcs:enable MediaWiki.NamingConventions.LowerCamelFunctionsName.FunctionName
-		// using // phpcs:ignore after docblock doesn't work, it shows
-		// MediaWiki.Commenting.FunctionComment.MissingDocumentationPublic
 		$user = $skintemplate->getUser();
 		if ( $user->isNamed() ) {
 			$personalUrls = $links['user-menu'] ?? [];
