@@ -1,8 +1,25 @@
 {
 	"@metadata": {
 		"authors": [
-			"Redhotchili23"
+			"Redhotchili23",
+			"Exec8"
 		]
 	},
-	"betafeatures-toplink": "Beta"
+	"betafeatures-auto-enroll": "Awtomatiko nga i-enable ang kalabanan nga mga bahin sang beta",
+	"betafeatures-auto-enroll-help": "Ang pila ka mga bahin sang beta mahimo nga may makatilingala nga mga pagbag-o, kag gani ang {{GENDER:|ikaw}} kinahanglan nga mag-opt in sing manu-mano.",
+	"betafeatures-desc": "Ginatugutan ang user nga mag-enable ukon mag-disable sang mga feature sa wiki nga indi pa handa para sa prime-time",
+	"betafeatures-extension-type": "Mga bahin sang beta",
+	"betafeatures-section-desc": "Diri {{PLURAL:$1| isa ka bag-o nga bahin|may pila ka bag-o nga mga bahin}} nga amon ginabinagbinag para sa {{SITENAME}}. Palihog tilawi ang {{PLURAL:$1| ini|sila}} kag ihatag sa amon ang imo mga panghunahuna, agud mapauswag namon ang {{PLURAL:$1| ini|sila}} base sa imo feedback.",
+	"betafeatures-toplink": "Beta",
+	"betafeatures-feature-autoenrolled": "Auto-enrolled nga bahin",
+	"mw-ui-feature-discuss": "Diskusyon",
+	"mw-ui-feature-info": "Impormasyon",
+	"mw-ui-feature-requirements-betafeatures": "Ini nga bahin nagakinahanglan sang masunod nga {{PLURAL:$1| feature|features}} nga ma-enable:",
+	"mw-ui-feature-requirements-browser": "Ang masunod {{PLURAL:$1| ang browser wala ginasuportahan:",
+	"mw-ui-feature-requirements-javascript": "Ini nga bahin nagakinahanglan sang JavaScript.",
+	"mw-ui-feature-requirements-skins": "Ini nga bahin nagatrabaho lamang sa {{PLURAL:$1| ang masunod nga panit|ang masunod nga mga panit}}:",
+	"mw-ui-feature-user-count": "{{PLURAL:$1| Ang isa ka user amo ang| $1 nga mga user|0=Wala sang mga user}} nga nagatilaw sini nga bahin.",
+	"prefs-betafeatures": "Mga bahin sang beta",
+	"prefs-description-betafeatures": "Tilawi ang pinakabag-o nga mga bahin nga ginahimo kag maghatag sang feedback.",
+	"tooltip-pt-betafeatures": "Mga bahin sang beta"
 }
