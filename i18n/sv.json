@@ -9,11 +9,12 @@
 			"NH",
 			"Skalman",
 			"Technic2",
-			"WikiPhoenix"
+			"WikiPhoenix",
+			"Sabelöga"
 		]
 	},
 	"betafeatures-auto-enroll": "Aktivera automatiskt de flesta nya betafunktionerna",
-	"betafeatures-auto-enroll-help": "Några betafunktioner kan ha överraskande ändringar, så därför måste {{GENDER:|du}} slå på dem manuellt.",
+	"betafeatures-auto-enroll-help": "Vissa betafunktioner kan leda till oväntade förändringar, så därför måste {{GENDER:|du}} slå på dem manuellt.",
 	"betafeatures-desc": "Låter användare aktivera eller inaktivera funktioner på wikin som fortfarande inte är helt färdiga",
 	"betafeatures-extension-type": "Betafunktioner",
 	"betafeatures-section-desc": "Följande är {{PLURAL:$1|en ny funktion|några nya funktioner}} vi överväger på {{SITENAME}}. Prova {{PLURAL:$1|den|dem}} gärna, och låt oss veta vad du tycker, så att vi kan förbättra {{PLURAL:$1|den|dem}} baserat på din återkoppling.",
