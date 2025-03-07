@@ -3,6 +3,7 @@
 		"authors": [
 			"1917 Ekim Devrimi",
 			"Asmen",
+			"GolyatGeri",
 			"Gorizon",
 			"Gırd",
 			"Kumkumuk",
@@ -26,5 +27,6 @@
 	"mw-ui-feature-requirements-skins": "Eno xısusiyet tenya  {{PLURAL:$1|enê mewzuyi|$1 mewzuyan}} gureneno:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|Yew karber nê xısusiyet gureneno|$1 karberi nê xısusiyet gurenenê|0=Qet karberi nê xısusiyet gurenenê}}.",
 	"prefs-betafeatures": "Xısusiyetê beta",
+	"prefs-description-betafeatures": "Xısusiyetanê top medyaya bıcerrebne u ma rê peyrıstık bırışê",
 	"tooltip-pt-betafeatures": "Hacetê beta"
 }
