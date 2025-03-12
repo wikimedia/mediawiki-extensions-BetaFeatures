@@ -9,11 +9,17 @@
 		]
 	},
 	"betafeatures-auto-enroll": "ਜ਼ਿਆਦਾਤਰ ਬੀਟਾ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਨੂੰ ਸਵੈਚਲਿਤ ਤੌਰ 'ਤੇ ਚਾਲੂ ਕਰੋ",
-	"betafeatures-extension-type": "ਬੀਟਾ ਫ਼ੀਚਰ",
+	"betafeatures-auto-enroll-help": "ਕੁਝ ਬੀਟਾ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਵਿੱਚ ਹੈਰਾਨੀਜਨਕ ਬਦਲਾਅ ਹੋ ਸਕਦੇ ਹਨ, ਅਤੇ ਇਸ ਲਈ {{GENDER:|ਤੁਹਾਨੂੰ}} ਹੱਥੀਂ ਚੋਣ ਕਰਨੀ ਪੈਂਣੀ ਐ।",
+	"betafeatures-extension-type": "ਬੀਟਾ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ",
 	"betafeatures-toplink": "ਬੀਟਾ",
+	"betafeatures-feature-autoenrolled": "ਸਵੈ-ਦਾਖਲ ਵਿਸ਼ੇਸ਼ਤਾ",
 	"mw-ui-feature-discuss": "ਵਿਚਾਰ-ਵਟਾਂਦਰਾ",
 	"mw-ui-feature-info": "ਜਾਣਕਾਰੀ",
-	"mw-ui-feature-requirements-javascript": "ਇਸ ਫ਼ੀਚਰ ਨੂੰ ਜਾਵਾਸਕਰਿਪਟ ਦੀ ਜ਼ਰੂਰਤ ਹੈ।",
+	"mw-ui-feature-requirements-betafeatures": "ਇਸ ਵਿਸ਼ੇਸ਼ਤਾ ਲਈ ਹੇਠ ਲਿਖੇ {{PLURAL:$1| ਵਿਸ਼ੇਸ਼ਤਾ|ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ}} ਨੂੰ ਸਮਰੱਥ ਬਣਾਉਣ ਦੀ ਲੋੜ ਐ:",
+	"mw-ui-feature-requirements-browser": "ਹੇਠ ਦਿੱਤੇ {{PLURAL:$1|ਬ੍ਰਾਊਜ਼ਰ}} ਸਮਰਥਿਤ ਨਹੀਂ ਹਨ:",
+	"mw-ui-feature-requirements-javascript": "ਇਸ ਵਿਸ਼ੇਸ਼ਤਾ ਲਈ ਜਾਵਾ-ਸਕ੍ਰਿਪਟ (JavaScript) ਦੀ ਲੋੜ ਐ।",
+	"mw-ui-feature-requirements-skins": "ਇਹ ਵਿਸ਼ੇਸ਼ਤਾ ਸਿਰਫ਼ {{PLURAL:$1|ਹੇਠਾਂ ਦਿੱਤੀ ਚਮੜੀ|ਹੇਠਾਂ ਦਿੱਤੀਆਂ ਚਮੜੀਆਂ}} ਨਾਲ ਕੰਮ ਕਰਦੀ ਐ:",
+	"mw-ui-feature-user-count": "ਇਸ ਵਿਸ਼ੇਸ਼ਤਾ ਨੂੰ {{PLURAL:$1|ਇੱਕ ਵਰਤੋਂਕਾਰ|$1 ਵਰਤੋਂਕਾਰ|0=ਕੋਈ ਵਰਤੋਂਕਾਰ ਨਹੀਂ}} ਅਜ਼ਮਾ ਰਿਹਾ ਐ/ ਰਹੇ ਹਨ।",
 	"prefs-betafeatures": "ਬੀਟਾ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ",
 	"tooltip-pt-betafeatures": "ਬੀਟਾ ਦੇ ਗੁਣ"
 }
