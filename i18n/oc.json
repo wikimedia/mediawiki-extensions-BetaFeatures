@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Cedric31"
+			"Cedric31",
+			"Lhanars"
 		]
 	},
 	"betafeatures-auto-enroll": "Activar automaticament totas las novèlas foncionalitats en bèta",
@@ -11,7 +12,7 @@
 	"mw-ui-feature-discuss": "Discussion",
 	"mw-ui-feature-info": "informacion",
 	"mw-ui-feature-requirements-javascript": "Aquesta foncionalitat necessita JavaScript.",
-	"mw-ui-feature-user-count": "{{PLURAL:$1|Un utilizaire a|$1 utilizaires an}} activat aquesta foncionalitat.",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|Un utilizator a|$1 utilizators an}} activat aquesta foncionalitat.",
 	"prefs-betafeatures": "Foncionalitats bèta",
 	"tooltip-pt-betafeatures": "Foncionalitats bèta"
 }
