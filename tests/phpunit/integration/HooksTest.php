@@ -23,6 +23,7 @@
  */
 
 use MediaWiki\Request\FauxRequest;
+use MediaWiki\Skin\SkinTemplate;
 use MediaWiki\Tests\User\TempUser\TempUserTestTrait;
 use MediaWiki\Title\Title;
 use MediaWiki\User\UserIdentityValue;

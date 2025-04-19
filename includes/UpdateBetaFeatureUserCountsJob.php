@@ -25,7 +25,7 @@
 
 namespace MediaWiki\Extension\BetaFeatures;
 
-use Job;
+use MediaWiki\JobQueue\Job;
 use Wikimedia\Rdbms\IConnectionProvider;
 
 class UpdateBetaFeatureUserCountsJob extends Job {

@@ -40,6 +40,8 @@ use MediaWiki\JobQueue\JobQueueGroupFactory;
 use MediaWiki\Output\Hook\MakeGlobalVariablesScriptHook;
 use MediaWiki\Output\OutputPage;
 use MediaWiki\Preferences\Hook\GetPreferencesHook;
+use MediaWiki\Skin\SkinFactory;
+use MediaWiki\Skin\SkinTemplate;
 use MediaWiki\SpecialPage\SpecialPage;
 use MediaWiki\User\Hook\UserGetDefaultOptionsHook;
 use MediaWiki\User\Options\Hook\SaveUserOptionsHook;
@@ -49,8 +51,6 @@ use MediaWiki\User\UserFactory;
 use MediaWiki\User\UserIdentity;
 use MediaWiki\User\UserIdentityUtils;
 use ObjectCacheFactory;
-use SkinFactory;
-use SkinTemplate;
 use Wikimedia\Rdbms\IConnectionProvider;
 
 class Hooks implements
