@@ -28,7 +28,7 @@
 	"mw-ui-feature-requirements-betafeatures": "この機能を使用するには、以下の{{PLURAL:$1|機能}}を有効にする必要があります:",
 	"mw-ui-feature-requirements-browser": "以下の{{PLURAL:$1|ブラウザー}}には対応していません:",
 	"mw-ui-feature-requirements-javascript": "この機能の使用には JavaScript が必要です。",
-	"mw-ui-feature-requirements-skins": "この機能は{{PLURAL:$1|以下のスキン}}でのみ動作します:",
+	"mw-ui-feature-requirements-skins": "この機能は{{PLURAL:$1|以下の外装}}でのみ動作します:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|$1 人の利用者がこの機能を試用しています|0=この機能を試用している利用者はいません}}。",
 	"prefs-betafeatures": "ベータ版機能",
 	"prefs-description-betafeatures": "最新の進行中の機能を試して、フィードバックを与えます。",
