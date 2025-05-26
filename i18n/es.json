@@ -12,23 +12,24 @@
 			"Sporeunai",
 			"VegaDark",
 			"Vivaelcelta",
-			"SpikeShroom"
+			"SpikeShroom",
+			"JaimeDes"
 		]
 	},
 	"betafeatures-auto-enroll": "Activar automáticamente la mayoría de las funciones beta",
-	"betafeatures-auto-enroll-help": "Algunas características beta pueden tener cambios sorprendentes, por lo que hay que optar por ellas manualmente.",
+	"betafeatures-auto-enroll-help": "Algunas funciones beta pueden provocar cambios sorprendentes, por lo que hay que seleccionarlas manualmente.",
 	"betafeatures-desc": "Permite al usuario activar o desactivar funciones de la wiki que todavía no están listas",
-	"betafeatures-extension-type": "Funciones en pruebas",
-	"betafeatures-section-desc": "Aquí te presentamos {{PLURAL:$1|una función nueva|algunas funciones nuevas}} que estamos considerando para {{SITENAME}}. {{PLURAL:$1|Pruébala|Pruébalas}} y danos tus comentarios, así podremos {{PLURAL:$1|mejorarla|mejorarlas}} con base a tus necesidades.",
+	"betafeatures-extension-type": "Funciones beta",
+	"betafeatures-section-desc": "Aquí te presentamos {{PLURAL:$1|una función nueva|algunas funciones nuevas}} que estamos considerando para {{SITENAME}}. {{PLURAL:$1|Pruébala|Pruébalas}} y danos tus comentarios, así podremos {{PLURAL:$1|mejorarla|mejorarlas}} con base en tus necesidades.",
 	"betafeatures-toplink": "Beta",
 	"betafeatures-feature-autoenrolled": "Función de registro automático",
 	"mw-ui-feature-discuss": "Discusión",
 	"mw-ui-feature-info": "Información",
-	"mw-ui-feature-requirements-betafeatures": "Esta funcionalidad depende de {{PLURAL:$1|la siguiente|las siguientes}}:",
+	"mw-ui-feature-requirements-betafeatures": "Para activar esta función es necesario activar {{PLURAL:$1|la siguiente función|las siguientes funciones}}:",
 	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|El siguiente navegador no es compatible|Los siguientes navegadores no son compatibles}}:",
-	"mw-ui-feature-requirements-javascript": "Esta funcionalidad requiere JavaScript.",
-	"mw-ui-feature-requirements-skins": "Esta funcionalidad requiere que utilices {{PLURAL:$1|la siguiente apariencia|una de las siguientes apariencias}}:",
-	"mw-ui-feature-user-count": "{{PLURAL:$1|Un usuario ha|$1 usuarios han|0=Nadie ha}} activado esta característica.",
+	"mw-ui-feature-requirements-javascript": "Esta función requiere JavaScript.",
+	"mw-ui-feature-requirements-skins": "Esta función requiere que utilices {{PLURAL:$1|la siguiente apariencia|una de las siguientes apariencias}}:",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|Un usuario está|$1 usuarios están|0=Nadie está}} usando esta función.",
 	"prefs-betafeatures": "Funciones beta",
-	"tooltip-pt-betafeatures": "Funciones en pruebas"
+	"tooltip-pt-betafeatures": "Funciones beta"
 }
