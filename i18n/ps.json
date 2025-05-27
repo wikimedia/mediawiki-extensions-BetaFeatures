@@ -5,11 +5,11 @@
 			"شاه زمان پټان"
 		]
 	},
-	"betafeatures-auto-enroll": "په اتوماتيک ډول ټولې نوې بيټا ځانتياوې چارنول",
+	"betafeatures-auto-enroll": "په خپلکاره ډول ډېرې ازمايښتي ځانگړتياوې چارنول",
 	"betafeatures-extension-type": "آزمېښتي ځانتياوې",
 	"betafeatures-section-desc": "دلته {{PLURAL:$1|يوه نوې ځانتيا ده|يو شمېر نوې ځانتياوې دي}} چې د {{SITENAME}} لپاره په پام کې نيول {{PLURAL:$1|شوې|شوي}}. لطفاً {{PLURAL:$1|دا|هغه}} وآزمايئ او موږ ته مو نظرونه ووايئ چې موږ يې په لا ښه پرمختگ کې هڅې وکړو.",
 	"betafeatures-toplink": "بېټا",
-	"mw-ui-feature-discuss": "خبرې اترې",
+	"mw-ui-feature-discuss": "شننه",
 	"mw-ui-feature-info": "مالومات",
 	"mw-ui-feature-user-count": "دا ځانتيا {{PLURAL:$1|يو کارن|$1 کارنان|0=هېڅ کارن نه}} کاروي.",
 	"prefs-betafeatures": "د آزمېښتي بڼې ځانگړنې",
