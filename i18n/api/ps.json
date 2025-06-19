@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"شاه زمان پټان"
+		]
+	},
+	"apihelp-query+betafeatures-summary": "د ټولو ازمېښتي ځانگړنو لړليک",
+	"apihelp-query+betafeatures-example-1": "ټولې د لاسرسي وړ ازمېښتي ځانگړنې ترلاسه کړئ او وښاياست چې څومره کارنانو دا چارن‌کړې دي",
+	"apihelp-query+betafeatures-param-counts": "ټولې ازمېښتي شونتياوې وښاياست او هم وښاياست چې څومره کارنانو هغه چارن‌کړې دي."
+}
