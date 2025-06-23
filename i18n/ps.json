@@ -5,13 +5,20 @@
 			"شاه زمان پټان"
 		]
 	},
-	"betafeatures-auto-enroll": "په خپلکاره ډول ډېرې ازمايښتي ځانگړتياوې چارنول",
-	"betafeatures-extension-type": "آزمېښتي ځانتياوې",
-	"betafeatures-section-desc": "دلته {{PLURAL:$1|يوه نوې ځانتيا ده|يو شمېر نوې ځانتياوې دي}} چې د {{SITENAME}} لپاره په پام کې نيول {{PLURAL:$1|شوې|شوي}}. لطفاً {{PLURAL:$1|دا|هغه}} وآزمايئ او موږ ته مو نظرونه ووايئ چې موږ يې په لا ښه پرمختگ کې هڅې وکړو.",
-	"betafeatures-toplink": "بېټا",
+	"betafeatures-auto-enroll": "په خپلکاره ډول ډېرې ازمايښتي ځانگړنې چارنول",
+	"betafeatures-auto-enroll-help": "ځينې ازمېښتي ځانگړنې اريانوونکي بدلونونه لرلی شي او له همدې کبله {{GENDER:|تاسو}} يې بايد په لاسي ډول خوښ کړئ.",
+	"betafeatures-desc": "کارن ته پرېښولی ورکوي؛ ترڅو هغه ځانگړنې چې وسمهال په ازمېښتي ډول دي په ويکي چارن يا ناچارن کړي",
+	"betafeatures-extension-type": "ازمېښتي ځانگړنې",
+	"betafeatures-section-desc": "دلته {{PLURAL:$1|يوه نوې ځانگړنه ده|يو شمېر نوې ځانگړنې دي}} چې د {{SITENAME}} لپاره په پام کې نيول {{PLURAL:$1|شوې|شوي}}. مهرباني وکړئ {{PLURAL:$1|دا|هغه}} وازمايئ او خپل اند مو راسره شريک کړئ چې موږ يې ستاسو د غبرگون سره سم د {{PLURAL:$1|هغې|هغوی}} يې په لا ښه کولو کې هڅې وکړو.",
+	"betafeatures-toplink": "ازمېښتي",
+	"betafeatures-feature-autoenrolled": "په خپلکاره توگه چارن‌‌شوې ځانگړنه",
 	"mw-ui-feature-discuss": "شننه",
 	"mw-ui-feature-info": "مالومات",
-	"mw-ui-feature-user-count": "دا ځانتيا {{PLURAL:$1|يو کارن|$1 کارنان|0=هېڅ کارن نه}} کاروي.",
-	"prefs-betafeatures": "د آزمېښتي بڼې ځانگړنې",
-	"tooltip-pt-betafeatures": "آزمېښتي ځانتياوې"
+	"mw-ui-feature-requirements-betafeatures": "د دې ځانگړنې لپاره د لاندې {{PLURAL:$1|ځانگړنې|ځانگړنو}} چارنول اړين دي:",
+	"mw-ui-feature-requirements-browser": "لاندې {{PLURAL:$1|ښوونگر}} نه ملاتړ کېږي:",
+	"mw-ui-feature-requirements-javascript": "دې ځانگړنې لپاره جاواسکريپټ اړين دی.",
+	"mw-ui-feature-requirements-skins": "دا ځانگړنه يوازې په {{PLURAL:$1|لاندې پوښۍ|لاندې پوښونو}} کې کار کوي:",
+	"mw-ui-feature-user-count": "دا ځانگړنه {{PLURAL:$1|يو کارن|$1 کارنان|0=هېڅ کارن نه}} کاروي.",
+	"prefs-betafeatures": "ازمېښتي ځانگړنې",
+	"tooltip-pt-betafeatures": "ازمېښتي ځانگړتياوې"
 }
