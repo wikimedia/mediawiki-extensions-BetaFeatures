@@ -32,6 +32,7 @@ use MediaWiki\Title\Title;
  * @covers \MediaWiki\Extension\BetaFeatures\HTMLFeatureField
  *
  * @group BetaFeatures
+ * @group Database
  */
 class HTMLFeatureFieldTest extends MediaWikiIntegrationTestCase {
 
