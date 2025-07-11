@@ -139,10 +139,9 @@ class HTMLFeatureField extends HTMLCheckField {
 	}
 
 	/**
-	 * @param string $value
 	 * @return string HTML
 	 */
-	private function getMainHTML( $value ) {
+	private function getMainHTML() {
 		$parent = $this->mParent;
 
 		$html = Html::openElement( 'div', [ 'class' => 'mw-ui-feature-main' ] );
@@ -305,7 +304,7 @@ class HTMLFeatureField extends HTMLCheckField {
 			Html::rawElement(
 				'div',
 				[ 'class' => 'mw-ui-feature-contain' ],
-				$this->getHeaderHTML( $value ) . $this->getMainHTML( $value )
+				$this->getHeaderHTML( $value ) . $this->getMainHTML()
 			)
 		);
 	}
