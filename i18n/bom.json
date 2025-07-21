@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Rwang PS"
+			"Rwang PS",
+			"Kambai Akau"
 		]
 	},
-	"betafeatures-toplink": "Tyang"
+	"betafeatures-toplink": "Beta"
 }
