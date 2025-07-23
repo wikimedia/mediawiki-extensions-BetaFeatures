@@ -6,6 +6,7 @@
 			"Macofe",
 			"Mguix",
 			"QuimGil",
+			"Sma1997",
 			"V27t",
 			"Vriullop"
 		]
@@ -16,6 +17,7 @@
 	"betafeatures-extension-type": "Funcionalitats beta",
 	"betafeatures-section-desc": "Aquí teniu {{PLURAL:$1|una nova funcionalitat|noves funcionalitats}} que estem considerant per a {{SITENAME}}. Si us plau, proveu-les i compartiu les vostres opinions. Així podrem millorar-les en base als vostres comentaris.",
 	"betafeatures-toplink": "Beta",
+	"betafeatures-feature-autoenrolled": "Funció amb activació automàtica",
 	"mw-ui-feature-discuss": "Discussió",
 	"mw-ui-feature-info": "Informació",
 	"mw-ui-feature-requirements-betafeatures": "Aquesta funcionalitat requereix {{PLURAL:$1|aquesta altra funcionalitat|aquestes altres funcionalitats}} per a ser activada:",
@@ -24,5 +26,6 @@
 	"mw-ui-feature-requirements-skins": "Aquesta funcionalitat només funciona amb {{PLURAL:$1|aquesta plantilla|aquestes plantilles}}:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|Un usuari està|$1 usuaris estan|0=Cap usuari està}} provant aquesta funcionalitat.",
 	"prefs-betafeatures": "Característiques de la beta",
+	"prefs-description-betafeatures": "Prova les darreres funcions en desenvolupament i proporciona comentaris.",
 	"tooltip-pt-betafeatures": "Funcionalitats beta"
 }
