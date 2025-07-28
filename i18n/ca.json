@@ -7,7 +7,8 @@
 			"Mguix",
 			"QuimGil",
 			"Vriullop",
-			"V27t"
+			"V27t",
+			"Sma1997"
 		]
 	},
 	"betafeatures-auto-enroll": "Habilita automàticament la majoria de funcions beta",
@@ -16,6 +17,7 @@
 	"betafeatures-extension-type": "Funcionalitats beta",
 	"betafeatures-section-desc": "Aquí teniu {{PLURAL:$1|una nova funcionalitat|noves funcionalitats}} que estem considerant per a {{SITENAME}}. Si us plau, proveu-les i compartiu les vostres opinions. Així podrem millorar-les en base als vostres comentaris.",
 	"betafeatures-toplink": "Beta",
+	"betafeatures-feature-autoenrolled": "Funció amb activació automàtica",
 	"mw-ui-feature-discuss": "Discussió",
 	"mw-ui-feature-info": "Informació",
 	"mw-ui-feature-requirements-betafeatures": "Aquesta funcionalitat requereix {{PLURAL:$1|aquesta altra funcionalitat|aquestes altres funcionalitats}} per a ser activada:",
