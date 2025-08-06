@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Robby",
-			"Soued031"
+			"Soued031",
+			"Volvox"
 		]
 	},
 	"betafeatures-auto-enroll": "Déi meescht Beta-Funktiounen automatesch aschalten",
@@ -19,6 +20,6 @@
 	"mw-ui-feature-requirements-javascript": "Dës Funktioun brauch JavaScript",
 	"mw-ui-feature-requirements-skins": "Dës Funktioun funktionéiert nëmme mat {{PLURAL:$1|dësem Benotzerinterfacen|dëse Benotzerinterfacen}}:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|Ee Benotzer probéiert|$1 Benotzer probéieren|0=Kee Benotzer probéiert}} dës Funktioun aus.",
-	"prefs-betafeatures": "Beta Funktionalitéiten",
+	"prefs-betafeatures": "Beta-Funktionalitéiten",
 	"tooltip-pt-betafeatures": "Beta-Funktiounen"
 }

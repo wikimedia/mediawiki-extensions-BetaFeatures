@@ -1,12 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ktchankt",
 			"Winston Sung"
 		]
 	},
 	"betafeatures-auto-enroll": "自動開所有測試功能",
+	"betafeatures-auto-enroll-help": "有啲測試功能會有大幅改動，所以{{GENDER:|你}}要手動選擇加入。",
 	"betafeatures-extension-type": "試用版功能",
-	"betafeatures-section-desc": "下面係我哋準備喺{{SITENAME}}開嘅新功能。請幫手測試同提供寶貴反饋畀我哋，幫我哋改進。",
+	"betafeatures-section-desc": "下面係我哋準備喺{{SITENAME}}開嘅{{PLURAL:$1|新功能}}。請幫手測試同提供寶貴反饋畀我哋，幫我哋改進。",
 	"betafeatures-toplink": "試用",
 	"mw-ui-feature-discuss": "討論",
 	"mw-ui-feature-info": "資訊",
