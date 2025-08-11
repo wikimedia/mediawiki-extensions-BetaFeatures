@@ -2,20 +2,25 @@
 	"@metadata": {
 		"authors": [
 			"Ktchankt",
-			"Winston Sung"
+			"Winston Sung",
+			"Yueman"
 		]
 	},
 	"betafeatures-auto-enroll": "自動開所有測試功能",
 	"betafeatures-auto-enroll-help": "有啲測試功能會有大幅改動，所以{{GENDER:|你}}要手動選擇加入。",
+	"betafeatures-desc": "畀用戶開或者閂呢個wiki未準確好嘅功能",
 	"betafeatures-extension-type": "試用版功能",
 	"betafeatures-section-desc": "下面係我哋準備喺{{SITENAME}}開嘅{{PLURAL:$1|新功能}}。請幫手測試同提供寶貴反饋畀我哋，幫我哋改進。",
 	"betafeatures-toplink": "試用",
+	"betafeatures-feature-autoenrolled": "自動註冊功能",
 	"mw-ui-feature-discuss": "討論",
 	"mw-ui-feature-info": "資訊",
+	"mw-ui-feature-requirements-betafeatures": "呢個功能需要先開着咗下面嘅{{PLURAL:$1|功能}}：",
 	"mw-ui-feature-requirements-browser": "唔支援下面嘅{{PLURAL:$1|瀏覽器}}：",
 	"mw-ui-feature-requirements-javascript": "呢個功能需要JavaScript。",
 	"mw-ui-feature-requirements-skins": "呢個功能只係可以喺下面嘅介面{{PLURAL:$1|外觀}}度用：",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|$1位用戶|0=未有用戶}}試用緊呢項功能。",
 	"prefs-betafeatures": "試用版功能",
+	"prefs-description-betafeatures": "試下最新開發嘅功能同埋畀下意見。",
 	"tooltip-pt-betafeatures": "試用版功能"
 }
