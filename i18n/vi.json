@@ -5,7 +5,8 @@
 			"Minh Nguyen",
 			"Nguyên Lê",
 			"Trần Nguyễn Minh Huy",
-			"Vinhtantran"
+			"Vinhtantran",
+			"Nvdtn19"
 		]
 	},
 	"betafeatures-auto-enroll": "Tự động bật lên hầu hết tính năng beta mới",
@@ -23,5 +24,6 @@
 	"mw-ui-feature-requirements-skins": "Tính năng này chỉ tương thích với {{PLURAL:$1|giao diện|các giao diện}} sau:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|Một người dùng đang|$1 người dùng đang|0=Hiện không có ai}} thử tính năng này.",
 	"prefs-betafeatures": "Tính năng beta",
+	"prefs-description-betafeatures": "Hãy thử các tính năng mới nhất đang được phát triển và đưa ra phản hồi.",
 	"tooltip-pt-betafeatures": "Tính năng beta"
 }
