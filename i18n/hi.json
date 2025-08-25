@@ -9,11 +9,13 @@
 			"संजीव कुमार"
 		]
 	},
-	"betafeatures-auto-enroll": "सभी नई बीटा सुविधाओं को स्वचालित रूप से सक्षम करें",
+	"betafeatures-auto-enroll": "अधिकांश बीटा सुविधाओं को स्वचालित रूप से सक्षम करें",
+	"betafeatures-auto-enroll-help": "कुछ बीटा सुविधाओं में आश्चर्यजनक बदलाव हो सकते हैं, तो आपको खुद ऑप्ट-इन करना होगा।",
 	"betafeatures-desc": "सदस्यों को विकी पर वो सुविधाएँ सक्षम करने देता है जो अभी सबके द्वारा प्रयोग करने के लिए तैयार नहीं हैं",
 	"betafeatures-extension-type": "बीटा सुविधाएँ",
 	"betafeatures-section-desc": "{{PLURAL:$1|यह रही एक नई सुविधा जिसे|ये रही कुछ नई सुविधाएँ जिन्हें}} हम {{SITENAME}} पर जोड़ना चाहते हैं। कृपया {{PLURAL:$1|इसे|इन्हें}} आज़माएँ और अपनी राय दें, ताकि हम आपकी प्रतिक्रिया के आधार पर {{PLURAL:$1|इसे|इन्हें}} बेहतर बना सकें।",
 	"betafeatures-toplink": "बीटा",
+	"betafeatures-feature-autoenrolled": "स्वतः नामांकित सुविधा",
 	"mw-ui-feature-discuss": "चर्चा",
 	"mw-ui-feature-info": "जानकारी",
 	"mw-ui-feature-requirements-betafeatures": "इस सुविधा के लिये निम्न {{PLURAL:$1|सुविधा|सुविधायें}} सक्षम करनी {{PLURAL:$1|होगी|होंगी}}:",
@@ -22,5 +24,6 @@
 	"mw-ui-feature-requirements-skins": "यह सुविधा केवल निम्न {{PLURAL:$1|त्वचा|त्वचाओं}} के साथ काम करती है:",
 	"mw-ui-feature-user-count": "इस सुविधा का उपयोग {{PLURAL:$1|एक सदस्य कर रहा है|$1 सदस्य कर रहे हैं|0=कोई भी सदस्य नहीं कर रहा है}}।",
 	"prefs-betafeatures": "बीटा सुविधाएँ",
+	"prefs-description-betafeatures": "नवीनतम विकासाधीन सुविधाएँ आज़माएँ और प्रतिक्रिया दें।",
 	"tooltip-pt-betafeatures": "बीटा सुविधाएँ"
 }
