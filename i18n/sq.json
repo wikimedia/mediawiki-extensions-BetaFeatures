@@ -3,10 +3,25 @@
 		"authors": [
 			"Bugoslav",
 			"Kosovastar",
-			"Liridon"
+			"Liridon",
+			"Xhulianoo"
 		]
 	},
+	"betafeatures-auto-enroll": "Aktivizo automatikisht shumicën e cilësive beta",
+	"betafeatures-auto-enroll-help": "Disa cilësi beta mund të kenë ndryshime të papritura, prandaj {{GEND:|duhet}} të regjistrohesh manualisht.",
+	"betafeatures-desc": "Lejon përdoruesin të aktivizojë ose çaktivizojë cilësitë në wiki që ende nuk janë gati për kohën kryesore",
+	"betafeatures-extension-type": "Cilësitë beta",
+	"betafeatures-section-desc": "Ja ku {{PLURAL:$1|është një cilësi e re|janë disa cilësi të reja}} që jemi duke shqyrtuar për {{SITENAME}}. Të lutem, provoji {{PLURAL:$1|ato}} dhe thuaj çfarë mendon, në mënyrë që të mund t'i përmirësojmë bazuar në reagimet e tua.",
 	"betafeatures-toplink": "Beta",
-	"mw-ui-feature-info": "Informacion",
-	"tooltip-pt-betafeatures": "Karakteristikat beta"
+	"betafeatures-feature-autoenrolled": "Cilësi e regjistruar automatikisht",
+	"mw-ui-feature-discuss": "Diskutimi",
+	"mw-ui-feature-info": "Informacioni",
+	"mw-ui-feature-requirements-betafeatures": "Kjo cilësi kërkon që të {{PLURAL:$1|aktivizohet cilësia|aktivizohen cilësitë}} e mëposhtme:",
+	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|Shfletuesi i|Shfletuesit e}} mëposhtëm nuk {{PLURAL:$1|mbështetet|mbështeten}}:",
+	"mw-ui-feature-requirements-javascript": "Kjo cilësi kërkon JavaScript.",
+	"mw-ui-feature-requirements-skins": "Kjo cilësi punon vetëm me {{PLURAL:$1|skin-in e mëposhtëm|skin-et e mëposhtme}}:",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|Një përdorues është|$1 përdorues janë|0=Asnjë përdorues nuk është}} duke e provuar këtë cilësi.",
+	"prefs-betafeatures": "Cilësitë beta",
+	"prefs-description-betafeatures": "Provo cilësitë më të fundit në zhvillim e sipër dhe jep reagime.",
+	"tooltip-pt-betafeatures": "Cilësitë beta"
 }
