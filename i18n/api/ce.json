@@ -4,5 +4,7 @@
 			"Умар"
 		]
 	},
-	"apihelp-query+betafeatures-summary": "Массо а бета-функцин могӀам"
+	"apihelp-query+betafeatures-summary": "Массо а бета-функцин могӀам",
+	"apihelp-query+betafeatures-example-1": "Йерриге а лело йиш йолу бета-функцеш схьаэца, хьажа, масса декъашхочо лелош йу уьш",
+	"apihelp-query+betafeatures-param-counts": "Билггал болу нисдаран гӀирс масса декъашхочо дӀахӀоттийна схьаэца деза йа ца деза."
 }
