@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ne",
 			"Tamzin"
 		]
 	},
-	"betafeatures-toplink": "namako"
+	"betafeatures-extension-type": "ilo sin",
+	"betafeatures-section-desc": "{{SITENAME}} la mi pali e ilo sin ni. sina kepeken ona la o pana e pilin sina tawa mi. mi wile pona e ona kepeken toki sina.",
+	"betafeatures-toplink": "ilo sin"
 }
