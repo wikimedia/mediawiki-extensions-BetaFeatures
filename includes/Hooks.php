@@ -23,8 +23,6 @@
  * @license GPL-2.0-or-later
  */
 
-// phpcs:disable MediaWiki.NamingConventions.LowerCamelFunctionsName.FunctionName
-
 namespace MediaWiki\Extension\BetaFeatures;
 
 use Exception;
