@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Tamzin",
-			"Ne"
+			"Ne",
+			"Juwan"
 		]
 	},
 	"betafeatures-extension-type": "ilo sin",
-	"betafeatures-section-desc": "{{SITENAME}} la mi pali e ilo sin ni. sina kepeken ona la o pana e pilin sina tawa mi. mi wile pona e ona kepeken toki sina.",
+	"betafeatures-section-desc": "{{SITENAME}} la mi pali e ilo sin {{PLURAL:$1|ni}}. sina kepeken {{PLURAL:$1|ona}} la o pana e pilin sina tawa mi. mi wile pona e {{PLURAL:$1|ona}} kepeken toki sina.",
 	"betafeatures-toplink": "ilo sin"
 }
