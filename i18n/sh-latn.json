@@ -19,8 +19,8 @@
 	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|Nije podržan sljedeći preglednik|Nisu podržani sljedeći preglednici}}:",
 	"mw-ui-feature-requirements-javascript": "Ova funkcija zahtijeva JavaScript.",
 	"mw-ui-feature-requirements-skins": "Ova funkcija radi jedino sa sljedećim {{PLURAL:$1|izgledom|izgledima}}:",
-	"mw-ui-feature-user-count": "Funkciju {{PLURAL:$1|isprobava jedan korisnik|isprobavaju $1 korisnika|0=ne isprobava niti jedan korisnik}}.",
-	"prefs-betafeatures": "Beta mogućnosti",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|1=Jedan korisnik uključio je ovu funkciju|Ovu funkciju uključio je $1 korisnik|Ovu funkciju uključila su $1 korisnika|Ovu funkciju uključilo je $1 korisnika|0=Nijedan korisnik nije uključio ovu funkciju}}.",
+	"prefs-betafeatures": "Beta",
 	"prefs-description-betafeatures": "Isprobajte najnovije značajke koje su u tijeku i dajte povratne informacije.",
 	"tooltip-pt-betafeatures": "Vaše beta-funkcije"
 }
