@@ -26,7 +26,6 @@
 namespace MediaWiki\Extension\BetaFeatures;
 
 use Exception;
-use LogicException;
 use MediaWiki\Config\Config;
 use MediaWiki\Context\RequestContext;
 use MediaWiki\Deferred\DeferredUpdates;
@@ -367,13 +366,11 @@ class Hooks implements
 					// T95839: If concurrent requests pile on (e.g. multiple tabs), only let one
 					// thread bother doing these updates. This avoids pointless error log spam.
 					if ( $cache->lock( $key, 0, $cache::TTL_MINUTE ) ) {
-						// Refresh, because the settings could be changed in the meantime by api or special page
-						$userLatest = $user->getInstanceFromPrimary() ?? throw new LogicException( 'No user' );
 						// Apply the settings and save
 						foreach ( $autoEnrollSaveSettings as $key => $option ) {
-							$this->userOptionsManager->setOption( $userLatest, $key, $option );
+							$this->userOptionsManager->setOption( $user, $key, $option );
 						}
-						$this->userOptionsManager->saveOptions( $userLatest );
+						$this->userOptionsManager->saveOptions( $user );
 						$cache->unlock( $key );
 					}
 				}
