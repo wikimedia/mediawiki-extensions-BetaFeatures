@@ -6,11 +6,11 @@
 			"Winston Sung"
 		]
 	},
-	"betafeatures-auto-enroll": "Automatski uključi većinu beta mogućnosti",
-	"betafeatures-auto-enroll-help": "Poneke beta-mogućnosti mogu imati neočekivane promjene, stoga ih {{GENDER:|trebate}} ručno uključiti.",
+	"betafeatures-auto-enroll": "Automatski uključi većinu beta-funkcija",
+	"betafeatures-auto-enroll-help": "Neke beta-funkcije mogu imati neočekivane izmjene, pa ih {{GENDER:|morate}} ručno uključiti.",
 	"betafeatures-desc": "Omogućuje korisniku uključivanje i isključivanje mogućnosti što još nisu uvedene kao zadane",
 	"betafeatures-extension-type": "Beta mogućnosti",
-	"betafeatures-section-desc": "Ovo {{PLURAL:$1|je jedna nova funkcija|su nekoje nove funkcije}} što planiramo za {{SITENAME}}. Isprobajte ih i recite nam što mislite, kako bismo ih mogli poboljšati na osnovi vaših nalaza.",
+	"betafeatures-section-desc": "Ispod {{PLURAL:$1|1=je prikazana nova funkcija|su prikazane nove funkcije}} u razvoju. Isprobajte {{PLURAL:$1|1=je|ih}} i podijelite svoje utiske.",
 	"betafeatures-toplink": "Beta",
 	"betafeatures-feature-autoenrolled": "Automatski uključena mogućnost",
 	"mw-ui-feature-discuss": "Razgovor",
