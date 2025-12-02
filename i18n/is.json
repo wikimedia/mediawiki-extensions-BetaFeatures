@@ -12,7 +12,7 @@
 	"betafeatures-extension-type": "Beta-eiginleikar",
 	"betafeatures-section-desc": "Hér {{PLURAL:$1|er nýr eiginleiki|eru nokkrir nýir eiginleikar}} sem við erum að íhuga fyrir {{SITENAME}}. Vinsamlegast prófaðu {{PLURAL:$1|hann|þá}} og deildu með okkur áliti þínu svo við getum bætt {{PLURAL:$1|hann|þá}} samkvæmt þinni ábendingu.",
 	"betafeatures-toplink": "Prufuútgáfa",
-	"mw-ui-feature-discuss": "Spjall",
+	"mw-ui-feature-discuss": "Umræða",
 	"mw-ui-feature-info": "Upplýsingar",
 	"mw-ui-feature-requirements-browser": "Eftirfarandi {{PLURAL:$1|vafri er ekki studdur|vafrar eru ekki studdir}}:",
 	"mw-ui-feature-requirements-javascript": "Þessi eiginleiki krefst JavaScript.",
