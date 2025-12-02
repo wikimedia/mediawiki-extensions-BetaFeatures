@@ -62,8 +62,7 @@ class HTMLFeatureField extends HTMLCheckField {
 					'selected' => $value,
 					'value' => 1,
 					'classes' => $this->mClass ? [ $this->mClass ] : [],
-					'disabled' => isset( $this->mParams['disabled'] ) &&
-						$this->mParams['disabled'] === true,
+					'disabled' => ( $this->mParams['disabled'] ?? false ) === true,
 				] ),
 				[
 					'infusable' => true,
@@ -149,11 +148,7 @@ class HTMLFeatureField extends HTMLCheckField {
 		$html .= Html::openElement( 'div', [ 'class' => 'mw-ui-feature-meta' ] );
 
 		if ( isset( $this->mParams['user-count'] ) ) {
-			$userCountMsg = 'mw-ui-feature-user-count';
-
-			if ( isset( $this->mParams['user-count-msg'] ) ) {
-				$userCountMsg = $this->mParams['user-count-msg'];
-			}
+			$userCountMsg = $this->mParams['user-count-msg'] ?? 'mw-ui-feature-user-count';
 
 			$html .= Html::rawElement(
 				'p',
@@ -172,10 +167,7 @@ class HTMLFeatureField extends HTMLCheckField {
 		$html .= Html::openElement( 'ul', [ 'class' => 'mw-ui-feature-requirements-list' ] );
 
 		if ( isset( $this->mParams['requirements'] ) ) {
-			if (
-				isset( $this->mParams['requirements']['javascript'] ) &&
-				$this->mParams['requirements']['javascript']
-			) {
+			if ( $this->mParams['requirements']['javascript'] ?? false ) {
 				$html .= Html::rawElement(
 					'li',
 					[ 'class' => 'mw-ui-feature-requirements-javascript' ],
@@ -209,10 +201,7 @@ class HTMLFeatureField extends HTMLCheckField {
 				$html .= Html::closeElement( 'li' );
 			}
 
-			if (
-				isset( $this->mParams['requirements']['skin-not-supported'] ) &&
-				$this->mParams['requirements']['skin-not-supported'] === true
-			) {
+			if ( ( $this->mParams['requirements']['skin-not-supported'] ?? false ) === true ) {
 				$html .= Html::openElement(
 					'li',
 					[ 'class' => 'mw-ui-feature-requirements-skins' ]
@@ -268,12 +257,7 @@ class HTMLFeatureField extends HTMLCheckField {
 			if ( is_array( $screenshot ) ) {
 				$language = $this->mParent->getLanguage();
 				$langCode = $language->getCode();
-
-				if ( array_key_exists( $langCode, $screenshot ) ) {
-					$screenshot = $screenshot[$langCode];
-				} else {
-					$screenshot = $screenshot[$language->getDir()];
-				}
+				$screenshot = $screenshot[$langCode] ?? $screenshot[$language->getDir()];
 			}
 
 			$html .= Html::element( 'img', [

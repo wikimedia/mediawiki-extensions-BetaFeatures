@@ -374,9 +374,7 @@ class Hooks implements
 	 * @param array &$defaultOptions Array of preference keys and their default values.
 	 */
 	public function onUserGetDefaultOptions( &$defaultOptions ) {
-		$betaPrefs = $this->config->get( 'BetaFeatures' );
-
-		foreach ( $betaPrefs as $key => $_ ) {
+		foreach ( $this->config->get( 'BetaFeatures' ) as $key => $info ) {
 			$defaultOptions[$key] = false;
 		}
 	}

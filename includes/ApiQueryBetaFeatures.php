@@ -57,21 +57,9 @@ class ApiQueryBetaFeatures extends ApiQueryBase {
 			: [];
 		foreach ( $prefs as $key => $info ) {
 			$path = [ 'query', $this->getModuleName(), $key ];
-			$this->getResult()->addValue(
-				$path,
-				'name',
-				$key
-			);
-			if ( isset( $counts[$key] ) ) {
-				$count = (int)$counts[$key];
-			} else {
-				$count = 0;
-			}
-			$this->getResult()->addValue(
-				$path,
-				'count',
-				$count
-			);
+			$this->getResult()->addValue( $path, 'name', $key );
+			$count = (int)( $counts[$key] ?? 0 );
+			$this->getResult()->addValue( $path, 'count', $count );
 		}
 	}
 

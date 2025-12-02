@@ -67,7 +67,7 @@ class PreferenceHandlingTest extends BetaFeaturesDatabaseTestCase {
 	/**
 	 * @dataProvider providePreferenceListing
 	 */
-	public function testHandlingOfPreferences( $msg, array $pref, $expected ) {
+	public function testHandlingOfPreferences( string $msg, array $pref, ?array $expected ) {
 		$prefkey = self::TESTPREFKEY;
 		$prefs = [];
 		$this->setTemporaryHook( 'GetBetaFeaturePreferences',
