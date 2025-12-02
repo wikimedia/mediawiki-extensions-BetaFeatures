@@ -29,15 +29,13 @@ use MediaWiki\JobQueue\Job;
 use Wikimedia\Rdbms\IConnectionProvider;
 
 class UpdateBetaFeatureUserCountsJob extends Job {
-	private IConnectionProvider $dbProvider;
 
 	/** @inheritDoc */
 	public function __construct(
 		array $params,
-		IConnectionProvider $dbProvider
+		private readonly IConnectionProvider $dbProvider,
 	) {
 		parent::__construct( 'updateBetaFeaturesUserCounts', $params );
-		$this->dbProvider = $dbProvider;
 		$this->removeDuplicates = true;
 	}
 

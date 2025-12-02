@@ -34,18 +34,14 @@ use MediaWiki\User\User;
 use Wikimedia\Rdbms\IConnectionProvider;
 
 class ApiQueryBetaFeatures extends ApiQueryBase {
-	private IConnectionProvider $dbProvider;
-	private HookContainer $hookContainer;
 
 	public function __construct(
 		ApiQuery $query,
 		string $moduleName,
-		IConnectionProvider $dbProvider,
-		HookContainer $hookContainer
+		private readonly IConnectionProvider $dbProvider,
+		private readonly HookContainer $hookContainer
 	) {
 		parent::__construct( $query, $moduleName, 'bf' );
-		$this->dbProvider = $dbProvider;
-		$this->hookContainer = $hookContainer;
 	}
 
 	public function execute() {

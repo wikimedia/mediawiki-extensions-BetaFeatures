@@ -65,38 +65,19 @@ class Hooks implements
 	 * @var array An array of each of the available Beta Features, with their requirements, if any.
 	 * It is passed client-side for JavaScript rendering/responsiveness.
 	 */
-	private static $features = [];
-
-	private Config $config;
-	private IConnectionProvider $dbProvider;
-	private HookContainer $hookContainer;
-	private JobQueueGroupFactory $jobQueueGroupFactory;
-	private SkinFactory $skinFactory;
-	private UserFactory $userFactory;
-	private UserIdentityUtils $userIdentityUtils;
-	private UserOptionsManager $userOptionsManager;
-	private ObjectCacheFactory $objectCacheFactory;
+	private static array $features = [];
 
 	public function __construct(
-		Config $config,
-		IConnectionProvider $dbProvider,
-		HookContainer $hookContainer,
-		JobQueueGroupFactory $jobQueueGroupFactory,
-		SkinFactory $skinFactory,
-		UserFactory $userFactory,
-		UserIdentityUtils $userIdentityUtils,
-		UserOptionsManager $userOptionsManager,
-		ObjectCacheFactory $objectCacheFactory
+		private readonly Config $config,
+		private readonly IConnectionProvider $dbProvider,
+		private readonly HookContainer $hookContainer,
+		private readonly JobQueueGroupFactory $jobQueueGroupFactory,
+		private readonly SkinFactory $skinFactory,
+		private readonly UserFactory $userFactory,
+		private readonly UserIdentityUtils $userIdentityUtils,
+		private readonly UserOptionsManager $userOptionsManager,
+		private readonly ObjectCacheFactory $objectCacheFactory,
 	) {
-		$this->config = $config;
-		$this->dbProvider = $dbProvider;
-		$this->hookContainer = $hookContainer;
-		$this->jobQueueGroupFactory = $jobQueueGroupFactory;
-		$this->skinFactory = $skinFactory;
-		$this->userFactory = $userFactory;
-		$this->userIdentityUtils = $userIdentityUtils;
-		$this->userOptionsManager = $userOptionsManager;
-		$this->objectCacheFactory = $objectCacheFactory;
 	}
 
 	/**
