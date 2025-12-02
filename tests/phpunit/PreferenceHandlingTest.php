@@ -77,22 +77,13 @@ class PreferenceHandlingTest extends BetaFeaturesDatabaseTestCase {
 			}
 		);
 
-		try {
-			$this->getServiceContainer()->getHookContainer()->run( 'GetPreferences', [ $this->user, &$prefs ] );
-		} catch ( BetaFeaturesMissingFieldException $e ) {
-			if ( $expected === null ) {
-				$this->assertSame( BetaFeaturesMissingFieldException::class, get_class( $e ) );
-				return;
-			} else {
-				throw $e;
-			}
+		if ( $expected === null ) {
+			$this->expectException( BetaFeaturesMissingFieldException::class );
 		}
 
-		if ( $expected === null ) {
-			$this->fail( $msg );
-		} else {
-			$this->assertArrayHasKey( $prefkey, $prefs );
-			$this->assertSame( $expected, $prefs[$prefkey] );
-		}
+		$this->getServiceContainer()->getHookContainer()->run( 'GetPreferences', [ $this->user, &$prefs ] );
+
+		$this->assertArrayHasKey( $prefkey, $prefs );
+		$this->assertSame( $expected, $prefs[$prefkey] );
 	}
 }
