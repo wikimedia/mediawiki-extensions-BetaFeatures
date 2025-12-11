@@ -6,13 +6,14 @@
 			"Daud I.F. Argana",
 			"Diki Ananta",
 			"Macofe",
+			"Penyuwangi",
 			"Rachmat.Wahidi",
 			"Rachmat04",
 			"Veracious",
 			"William Surya Permana"
 		]
 	},
-	"betafeatures-auto-enroll": "Secara otomatis aktifkan fitur-fitur paling beta",
+	"betafeatures-auto-enroll": "Secara otomatis nyalakan sebagian besar fitur-fitur beta",
 	"betafeatures-auto-enroll-help": "Beberapa fitur beta bisa jadi menghasilkan perubahan yang mengejutkan, jadi {{GENDER:|Anda}} harus memilih menggunakannya secara manual.",
 	"betafeatures-desc": "Memungkinkan pengguna mengaktifkan atau menonaktifkan fitur di wiki yang masih belum siap untuk tayang",
 	"betafeatures-extension-type": "Fitur beta",
