@@ -25,7 +25,7 @@
 
 use MediaWiki\Context\RequestContext;
 use MediaWiki\Extension\BetaFeatures\HTMLFeatureField;
-use MediaWiki\HTMLForm\HTMLForm;
+use MediaWiki\HTMLForm\OOUIHTMLForm;
 use MediaWiki\Title\Title;
 
 /**
@@ -37,7 +37,7 @@ use MediaWiki\Title\Title;
 class HTMLFeatureFieldTest extends MediaWikiIntegrationTestCase {
 
 	public function testCreatingFieldGivesExpectedStrings() {
-		$form = new HTMLForm( [
+		$form = new OOUIHTMLForm( [
 			'blahblahblah' => [
 				'class' => HTMLFeatureField::class,
 				'label-message' => 'betafeatures-test-check-field',
@@ -52,8 +52,8 @@ class HTMLFeatureFieldTest extends MediaWikiIntegrationTestCase {
 
 		$cases = [
 			[
-				'pattern' => '#<tr class="mw-htmlform-field-HTMLFeatureField">#',
-				'message' => 'Table row with class name not found.',
+				'pattern' => "#<div .*class='mw-htmlform-field-HTMLFeatureField#",
+				'message' => 'Container with class name not found.',
 			],
 			[
 				'pattern' => "#<input type='checkbox' tabindex='0' (?:aria-disabled='false' )?" .

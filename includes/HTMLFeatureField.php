@@ -40,12 +40,6 @@ class HTMLFeatureField extends HTMLCheckField {
 		if ( !empty( $this->mParams['invert'] ) ) {
 			$value = !$value;
 		}
-
-		$out = $this->mParent->getOutput();
-		$out->addModules( 'ext.betaFeatures' );
-		$out->addModuleStyles( 'ext.betaFeatures.styles' );
-		$out->enableOOUI();
-
 		// TODO: Support $this->getTooltipAndAccessKey?
 
 		$extraParams = [];
@@ -295,6 +289,8 @@ class HTMLFeatureField extends HTMLCheckField {
 
 	/** @inheritDoc */
 	public function getInputOOUI( $value ) {
+		$this->mParent->getOutput()->addModuleStyles( 'ext.betaFeatures.styles' );
+
 		// Use the same output as for the HTML version, otherwise OOUIHTMLForm would use
 		// a plain checkbox, inherited from HTMLCheckField. This isn't actually a widget
 		// (just a HTML string) but that's okay, HTMLFormField::getOOUI() will handle it.
@@ -307,5 +303,10 @@ class HTMLFeatureField extends HTMLCheckField {
 		// Label is already included in the field's HTML, do not duplicate it
 		unset( $config['label'] );
 		return parent::getFieldLayoutOOUI( $inputField, $config );
+	}
+
+	/** @inheritDoc */
+	protected function getOOUIModules() {
+		return [ 'ext.betaFeatures' ];
 	}
 }
