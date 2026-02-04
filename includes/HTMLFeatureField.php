@@ -48,7 +48,9 @@ class HTMLFeatureField extends HTMLCheckField {
 			$extraParams['classes'] = [ 'mw-htmlform-disable-if' ];
 			$extraParams['condState']['disable'] = $this->parseCondState( $this->mParams['disable-if'] );
 		}
-		return Html::openElement( 'div', [ 'class' => 'mw-ui-feature-checkbox' ] ) .
+		return Html::rawElement(
+			'div',
+			[ 'class' => 'mw-ui-feature-checkbox' ],
 			new HTMLFormFieldLayout(
 				new CheckboxInputWidget( [
 					'infusable' => true,
@@ -63,8 +65,8 @@ class HTMLFeatureField extends HTMLCheckField {
 					'align' => 'inline',
 					'label' => $this->mLabel,
 				] + $extraParams
-			) .
-			Html::closeElement( 'div' );
+			)
+		);
 	}
 
 	/**
@@ -72,14 +74,6 @@ class HTMLFeatureField extends HTMLCheckField {
 	 * @return string HTML
 	 */
 	private function getHeaderHTML( $value ) {
-		$html = Html::openElement( 'div', [ 'class' => 'mw-ui-feature-header' ] );
-
-		$html .= Html::rawElement(
-			'div',
-			[ 'class' => 'mw-ui-feature-title-contain' ],
-			$this->getCheckboxHTML( $value )
-		);
-
 		if ( isset( $this->mParams['info-message'] ) ) {
 			$infoLink = $this->mParent->msg( $this->mParams['info-message'] )->text();
 		} else {
@@ -98,25 +92,25 @@ class HTMLFeatureField extends HTMLCheckField {
 			$infoLinkClasses[] = 'filled';
 		}
 
-		$html .= Html::openElement( 'div', [ 'class' => $infoLinkClasses ] );
-
 		$out = $this->mParent->getOutput();
-
+		$infoLinksHtml = '';
 		if ( $infoLink !== null ) {
 			$out->addModuleStyles( 'oojs-ui.styles.icons-content' );
-			$html .= Html::rawElement( 'a', [
+			$infoLinksHtml .= Html::rawElement( 'a', [
 					'href' => $infoLink,
 					'class' => 'mw-ui-feature-info-link',
 				],
 				new IconWidget( [ 'icon' => 'article' ] ) .
 				$this->mParent->msg( 'mw-ui-feature-info' )->escaped()
 			);
-			$html .= ' ';
 		}
 
 		if ( $discussionLink !== null ) {
 			$out->addModuleStyles( 'oojs-ui.styles.icons-alerts' );
-			$html .= Html::rawElement( 'a', [
+			if ( $infoLinksHtml !== '' ) {
+				$infoLinksHtml .= ' ';
+			}
+			$infoLinksHtml .= Html::rawElement( 'a', [
 					'href' => $discussionLink,
 					'class' => 'mw-ui-feature-discussion-link',
 				],
@@ -125,10 +119,16 @@ class HTMLFeatureField extends HTMLCheckField {
 			);
 		}
 
-		// Close mw-ui-feature-info-links and then -header
-		$html .= Html::closeElement( 'div' ) . Html::closeElement( 'div' );
-
-		return $html;
+		return Html::rawElement( 'div', [ 'class' => 'mw-ui-feature-header' ],
+			Html::rawElement(
+				'div',
+				[ 'class' => 'mw-ui-feature-title-contain' ],
+				$this->getCheckboxHTML( $value )
+			) .
+			Html::rawElement( 'div', [ 'class' => $infoLinkClasses ],
+				$infoLinksHtml
+			)
+		);
 	}
 
 	/**
@@ -136,15 +136,11 @@ class HTMLFeatureField extends HTMLCheckField {
 	 */
 	private function getMainHTML() {
 		$parent = $this->mParent;
-
-		$html = Html::openElement( 'div', [ 'class' => 'mw-ui-feature-main' ] );
-
-		$html .= Html::openElement( 'div', [ 'class' => 'mw-ui-feature-meta' ] );
+		$metaHtml = '';
 
 		if ( isset( $this->mParams['user-count'] ) ) {
 			$userCountMsg = $this->mParams['user-count-msg'] ?? 'mw-ui-feature-user-count';
-
-			$html .= Html::rawElement(
+			$metaHtml .= Html::rawElement(
 				'p',
 				[ 'class' => 'mw-ui-feature-user-count' ],
 				$parent->msg( $userCountMsg )->numParams( $this->mParams['user-count'] )->escaped()
@@ -152,17 +148,17 @@ class HTMLFeatureField extends HTMLCheckField {
 		}
 
 		if ( isset( $this->mParams['desc-message'] ) ) {
-			$html .= Html::rawElement(
+			$metaHtml .= Html::rawElement(
 				'p',
 				[ 'class' => 'mw-ui-feature-description' ],
 				$parent->msg( $this->mParams['desc-message'] )->parse() );
 		}
 
-		$html .= Html::openElement( 'ul', [ 'class' => 'mw-ui-feature-requirements-list' ] );
+		$requirementsItemsHtml = '';
 
 		if ( isset( $this->mParams['requirements'] ) ) {
 			if ( $this->mParams['requirements']['javascript'] ?? false ) {
-				$html .= Html::rawElement(
+				$requirementsItemsHtml .= Html::rawElement(
 					'li',
 					[ 'class' => 'mw-ui-feature-requirements-javascript' ],
 					$parent->msg( 'mw-ui-feature-requirements-javascript' )->escaped()
@@ -171,13 +167,8 @@ class HTMLFeatureField extends HTMLCheckField {
 
 			$unsupportedList = $this->mParams['requirements']['unsupportedList'] ?? false;
 			if ( $unsupportedList ) {
-				$html .= Html::openElement(
-					'li',
-					[ 'class' => 'mw-ui-feature-requirements-browser' ]
-				);
+				$unsupportedItemsHtml = '';
 				$browserCount = count( $unsupportedList );
-				$html .= $parent->msg( 'mw-ui-feature-requirements-browser', $browserCount )->escaped();
-				$html .= Html::openElement( 'ul' );
 				foreach ( $unsupportedList as $browser => $versions ) {
 					$browserString = $browser;
 					if ( $versions ) {
@@ -185,62 +176,67 @@ class HTMLFeatureField extends HTMLCheckField {
 							$browserString .= ' ' . implode( ' ', $version );
 						}
 					}
-					$html .= Html::element(
+					$unsupportedItemsHtml .= Html::element(
 						'li',
 						[],
 						$browserString
 					);
 				}
-				$html .= Html::closeElement( 'ul' );
-				$html .= Html::closeElement( 'li' );
+
+				$requirementsItemsHtml .= Html::rawElement(
+					'li',
+					[ 'class' => 'mw-ui-feature-requirements-browser' ],
+					$parent->msg( 'mw-ui-feature-requirements-browser', $browserCount )->escaped() .
+					Html::rawElement( 'ul', [], $unsupportedItemsHtml )
+				);
 			}
 
 			if ( ( $this->mParams['requirements']['skin-not-supported'] ?? false ) === true ) {
-				$html .= Html::openElement(
-					'li',
-					[ 'class' => 'mw-ui-feature-requirements-skins' ]
-				);
+				$skinItemsHtml = '';
 				$skinCount = count( $this->mParams['requirements']['skins'] );
-				$html .= $parent->msg( 'mw-ui-feature-requirements-skins', $skinCount )->escaped();
-				$html .= Html::openElement( 'ul' );
 				foreach ( $this->mParams['requirements']['skins'] as $skin ) {
-					$html .= Html::element(
+					$skinItemsHtml .= Html::element(
 						'li',
 						[],
 						$parent->msg( "skinname-$skin" )->text()
 					);
 				}
-				$html .= Html::closeElement( 'ul' );
-				$html .= Html::closeElement( 'li' );
+
+				$requirementsItemsHtml .= Html::rawElement(
+					'li',
+					[ 'class' => 'mw-ui-feature-requirements-skins' ],
+					$parent->msg( 'mw-ui-feature-requirements-skins', $skinCount )->escaped() .
+					Html::rawElement( 'ul', [], $skinItemsHtml )
+				);
 			}
 
 			if ( isset( $this->mParams['requirements']['betafeatures-messages'] ) ) {
-				$html .= Html::openElement(
-					'li',
-					[ 'class' => 'mw-ui-feature-requirements-betafeatures' ]
-				);
+				$featureItemsHtml = '';
 				$featureCount = count( $this->mParams['requirements']['betafeatures-messages'] );
-				$html .= $parent->msg( 'mw-ui-feature-requirements-betafeatures', $featureCount )->escaped();
-				$html .= Html::openElement( 'ul' );
 				foreach ( $this->mParams['requirements']['betafeatures-messages'] as $message ) {
-					$html .= Html::rawElement(
+					$featureItemsHtml .= Html::rawElement(
 						'li',
 						[],
 						$parent->msg( $message )->escaped()
 					);
 				}
-				$html .= Html::closeElement( 'ul' );
-				$html .= Html::closeElement( 'li' );
+
+				$requirementsItemsHtml .= Html::rawElement(
+					'li',
+					[ 'class' => 'mw-ui-feature-requirements-betafeatures' ],
+					$parent->msg( 'mw-ui-feature-requirements-betafeatures', $featureCount )->escaped() .
+					Html::rawElement( 'ul', [], $featureItemsHtml )
+				);
 			}
 		}
 
-		// mw-ui-feature-requirements-list
-		$html .= Html::closeElement( 'ul' );
+		$metaHtml .= Html::rawElement(
+			'ul',
+			[ 'class' => 'mw-ui-feature-requirements-list' ],
+			$requirementsItemsHtml
+		);
 
-		// Close -meta
-		$html .= Html::closeElement( 'div' );
-
-		$html .= Html::openElement( 'div', [ 'class' => 'mw-ui-feature-screenshot-contain' ] );
+		$screenshotHtml = '';
 
 		if ( isset( $this->mParams['screenshot'] ) ) {
 			$screenshot = $this->mParams['screenshot'];
@@ -253,18 +249,25 @@ class HTMLFeatureField extends HTMLCheckField {
 				$langCode = $language->getCode();
 				$screenshot = $screenshot[$langCode] ?? $screenshot[$language->getDir()];
 			}
-
-			$html .= Html::element( 'img', [
+			$screenshotHtml .= Html::element( 'img', [
 				'src' => $screenshot,
 				'class' => 'mw-ui-feature-screenshot',
 				'alt' => '',
 			] );
 		}
 
-		// Close -screenshot-contain and then -main
-		$html .= Html::closeElement( 'div' ) . Html::closeElement( 'div' );
-
-		return $html;
+		return Html::rawElement( 'div', [ 'class' => 'mw-ui-feature-main' ],
+			Html::rawElement(
+				'div',
+				[ 'class' => 'mw-ui-feature-meta' ],
+				$metaHtml
+			) .
+			Html::rawElement(
+				'div',
+				[ 'class' => 'mw-ui-feature-screenshot-contain' ],
+				$screenshotHtml
+			)
+		);
 	}
 
 	/** @inheritDoc */
