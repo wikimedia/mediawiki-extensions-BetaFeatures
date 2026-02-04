@@ -264,7 +264,7 @@ class HTMLFeatureField extends HTMLCheckField {
 			) .
 			Html::rawElement(
 				'div',
-				[ 'class' => 'mw-ui-feature-screenshot-contain' ],
+				[ 'class' => 'mw-ui-feature-screenshot-contain skin-invert' ],
 				$screenshotHtml
 			)
 		);

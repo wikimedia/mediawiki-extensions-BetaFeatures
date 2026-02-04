@@ -83,7 +83,7 @@ class HTMLFeatureFieldTest extends MediaWikiIntegrationTestCase {
 				'message' => 'Discussion link not found',
 			],
 			[
-				'pattern' => '#<div class="mw-ui-feature-screenshot-contain"></div>#',
+				'pattern' => '#<div class="mw-ui-feature-screenshot-contain skin-invert"></div>#',
 				'message' => 'Screenshot div not empty or not found.',
 			],
 		];
