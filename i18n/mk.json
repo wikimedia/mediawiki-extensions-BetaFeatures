@@ -7,7 +7,7 @@
 	"betafeatures-auto-enroll": "Автоматски вклучувај ги највеќето бета-можности",
 	"betafeatures-auto-enroll-help": "Некои бета-можности може да имаат изненадувачки промени, и тогаш ќе треба да ги {{GENDER:|исклучите}} рачно.",
 	"betafeatures-desc": "Овозможува корисникот да вклучува и исклучува можности што сè уште не се воведени како стандардни",
-	"betafeatures-extension-type": "Бета-можности",
+	"betafeatures-extension-type": "Бета-функции",
 	"betafeatures-section-desc": "Еве {{PLURAL:$1|една нова функција што ја планираме|некои нови функции што ги планираме}} за {{SITENAME}}. Испробајте ги и кажете ни што мислите, за да можеме да ги подобриме во склад со вашите наоѓања.",
 	"betafeatures-toplink": "Бета",
 	"betafeatures-feature-autoenrolled": "Самовклучена можност",
@@ -18,7 +18,7 @@
 	"mw-ui-feature-requirements-javascript": "Оваа функција бара JavaScript.",
 	"mw-ui-feature-requirements-skins": "Оваа функција работи само со {{PLURAL:$1|следново руво|следниве рува}}:",
 	"mw-ui-feature-user-count": "Функцијата {{PLURAL:$1|ја пробува еден корисник|ја пробуваат $1 корисници|0=не ја пробува никој}}.",
-	"prefs-betafeatures": "Бета-можности",
+	"prefs-betafeatures": "Бета-функции",
 	"prefs-description-betafeatures": "Испробајте ги најновите функции во развој и дајте ни ваше мислење.",
-	"tooltip-pt-betafeatures": "Бета-можности"
+	"tooltip-pt-betafeatures": "Бета-функции"
 }
