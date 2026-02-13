@@ -1,6 +1,3 @@
 {
-	"extends": "stylelint-config-wikimedia",
-	"rules": {
-		"declaration-property-unit-disallowed-list": null
-	}
+	"extends": "stylelint-config-wikimedia"
 }
