@@ -1,8 +1,25 @@
 {
 	"@metadata": {
 		"authors": [
+			"GrogeXaKaba",
+			"Letra.berdi",
 			"Waldyrious"
 		]
 	},
-	"betafeatures-toplink": "Beta"
+	"betafeatures-auto-enroll": "Ativa otumatikamenti maiuria di funsonalidadis béta",
+	"betafeatures-auto-enroll-help": "Algun funsonalidadis béta podi ten alterasons nprivistu i, antan, {{GENDER:|bu}} ten ki ativa-s bo me.",
+	"betafeatures-desc": "Ta pirmiti uzuári ativa o dizativa funsonalidadis na uiki ki inda ka sta prontu.",
+	"betafeatures-extension-type": "Funsonalidadis béta",
+	"betafeatures-section-desc": "Li ta izisti {{PLURAL:$1|un funsonalidadi nobu|funsonalidadis nobu}} ki nu ta kunsidera pa uiki {{SITENAME}}. Di sumóla, {{PLURAL:$1|testa-l|testa-s}} i ben da-nu bu opinion pa nu ben {{PLURAL:$1|midjora-l|midjora-s}} ku bazi na bu kumentáris.",
+	"betafeatures-toplink": "Béta",
+	"mw-ui-feature-discuss": "Diskuson",
+	"mw-ui-feature-info": "Nfurmason",
+	"mw-ui-feature-requirements-betafeatures": "Es funsonalidadi ta iziji siginti {{PLURAL:$1|funsonalidadi|funsonalidadis}} pa ser ativadu:",
+	"mw-ui-feature-requirements-browser": "Es {{PLURAL:$1|nabegador|nabegadoris}} siginti ka é saportadu:",
+	"mw-ui-feature-requirements-javascript": "Es funsonalidadi ta iziji JavaScript.",
+	"mw-ui-feature-requirements-skins": "Es funsonalidadi ta iziji uzu di {{PLURAL:$1|téma|témas}} siginti:",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|Un uzuári sa-ta|$1 uzuári sa-ta|0=Nun uzuári sa-ta}} spurmenta es funsonalidadi.",
+	"prefs-betafeatures": "Funsonalidadis béta",
+	"prefs-description-betafeatures": "Spurmenta funsonalidadis más rasenti ki sa-ta ser nplimentadu i da bu opinion.",
+	"tooltip-pt-betafeatures": "Funsonalidadis béta"
 }
