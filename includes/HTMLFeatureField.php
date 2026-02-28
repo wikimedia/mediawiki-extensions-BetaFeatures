@@ -51,7 +51,7 @@ class HTMLFeatureField extends HTMLCheckField {
 		return Html::rawElement(
 			'div',
 			[ 'class' => 'mw-ui-feature-checkbox' ],
-			new HTMLFormFieldLayout(
+			(string)new HTMLFormFieldLayout(
 				new CheckboxInputWidget( [
 					'infusable' => true,
 					'name' => $this->mName,
