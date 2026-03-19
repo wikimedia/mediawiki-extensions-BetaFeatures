@@ -100,7 +100,10 @@ class HTMLFeatureField extends HTMLCheckField {
 					'href' => $infoLink,
 					'class' => 'mw-ui-feature-info-link',
 				],
-				new IconWidget( [ 'icon' => 'article' ] ) .
+				new IconWidget( [
+					'icon' => 'article',
+					'flags' => 'progressive'
+				] ) .
 				$this->mParent->msg( 'mw-ui-feature-info' )->escaped()
 			);
 		}
@@ -114,7 +117,10 @@ class HTMLFeatureField extends HTMLCheckField {
 					'href' => $discussionLink,
 					'class' => 'mw-ui-feature-discussion-link',
 				],
-				new IconWidget( [ 'icon' => 'speechBubbles' ] ) .
+				new IconWidget( [
+					'icon' => 'speechBubbles',
+					'flags' => 'progressive'
+				] ) .
 				$this->mParent->msg( 'mw-ui-feature-discuss' )->escaped()
 			);
 		}
