@@ -66,8 +66,8 @@ class HTMLFeatureFieldTest extends MediaWikiIntegrationTestCase {
 				'message' => 'Checkbox label not found.',
 			],
 			[
-				'pattern' => '#<p class="mw-ui-feature-description">This is a test feature - ' .
-					'it should not show up.</p>#',
+				'pattern' => '#<div class="mw-ui-feature-description">This is a test feature - ' .
+					'it should not show up.</div>#',
 				'message' => 'Feature description not found',
 			],
 			[

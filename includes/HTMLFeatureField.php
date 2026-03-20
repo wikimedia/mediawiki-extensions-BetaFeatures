@@ -149,7 +149,7 @@ class HTMLFeatureField extends HTMLCheckField {
 
 		if ( isset( $this->mParams['desc-message'] ) ) {
 			$metaHtml .= Html::rawElement(
-				'p',
+				'div',
 				[ 'class' => 'mw-ui-feature-description' ],
 				$parent->msg( $this->mParams['desc-message'] )->parse() );
 		}
