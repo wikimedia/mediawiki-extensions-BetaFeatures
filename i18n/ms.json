@@ -8,12 +8,13 @@
 			"Pizza1016"
 		]
 	},
-	"betafeatures-auto-enroll": "Bukakan semua ciri beta yang baru secara automatik",
+	"betafeatures-auto-enroll": "Dayakan kebanyakan ciri beta baharu secara automatik",
 	"betafeatures-auto-enroll-help": "Sesetengah ciri beta boleh mempunyai perubahan yang mengejutkan, jadi {{GENDER:|anda}} perlu memilih serta secara manual.",
 	"betafeatures-desc": "Membolehkan pengguna menghidupkan atau memadam ciri-ciri dalam wiki ini yang masih berada pada tahap ujian",
 	"betafeatures-extension-type": "Ciri beta",
 	"betafeatures-section-desc": "Berikut {{PLURAL:$1|ialah senarai ciri-ciri baru}} yang dipertimbangkan untuk {{SITENAME}}. Anda dipersilakan mencuba {{PLURAL:$1| ciri-ciri tersebut}} dan mengutarakan pendapat anda kepada kami supaya kami boleh memperbaikinya berdasarkan maklum balas anda.",
 	"betafeatures-toplink": "Beta",
+	"betafeatures-feature-autoenrolled": "Ciri daftar diri automatik",
 	"mw-ui-feature-discuss": "Perbincangan",
 	"mw-ui-feature-info": "Maklumat",
 	"mw-ui-feature-requirements-betafeatures": "Ciri ini memerlukan {{PLURAL:$1|ciri|ciri-ciri}} di bawah untuk dibukakan:",
@@ -22,5 +23,6 @@
 	"mw-ui-feature-requirements-skins": "Ciri ini berfungsi dengan {{PLURAL:$1|rupa|rupa-rupa}} berikut sahaja:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|Seorang|$1|0=Tiada}} pengguna sedang mencuba ciri ini.",
 	"prefs-betafeatures": "Ciri beta",
+	"prefs-description-betafeatures": "Cubalah ciri-ciri terkini yang sedang dibangunkan dan berikanlah maklum balas.",
 	"tooltip-pt-betafeatures": "Ciri-ciri beta"
 }
