@@ -14,7 +14,7 @@
 	"betafeatures-toplink": "Beta",
 	"betafeatures-feature-autoenrolled": "Automatesch aktivéiert Funktioun",
 	"mw-ui-feature-discuss": "Diskussioun",
-	"mw-ui-feature-info": "Informatioun",
+	"mw-ui-feature-info": "Informatiounen",
 	"mw-ui-feature-requirements-betafeatures": "Dës Funktioun erfuerdert d'Aktivéiere vun {{PLURAL:$1|dëser Funktioun|dëse Funktiounen}}:",
 	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|Dëse Browser gëtt|Dës Browsere ginn}} net ënnerstëtzt:",
 	"mw-ui-feature-requirements-javascript": "Dës Funktioun brauch JavaScript.",
