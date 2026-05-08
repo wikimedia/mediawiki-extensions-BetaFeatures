@@ -1,9 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
+			"Kallmemel",
 			"ObaTango"
 		]
 	},
+	"betafeatures-auto-enroll": "Automáticamente aktivá mayoria funshon beta",
+	"betafeatures-extension-type": "Funshonnan beta",
 	"betafeatures-toplink": "Beta",
+	"mw-ui-feature-discuss": "Diskushon",
+	"mw-ui-feature-info": "Informashon",
+	"mw-ui-feature-requirements-javascript": "E funshon ta rekerí JavaScript.",
+	"prefs-betafeatures": "Funshonnan beta",
 	"tooltip-pt-betafeatures": "Funshonnan beta"
 }
