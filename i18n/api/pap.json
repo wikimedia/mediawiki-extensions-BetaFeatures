@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kallmemel"
+		]
+	},
+	"apihelp-query+betafeatures-summary": "Lista di tur funshon bèta",
+	"apihelp-query+betafeatures-example-1": "Haña tur e funshonnan bèta disponibel i mustra kuantu usadó a aktivá nan",
+	"apihelp-query+betafeatures-param-counts": "Si mester indiká kuantu usadó a aktivá un sierto preferensia."
+}
