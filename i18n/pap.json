@@ -5,10 +5,10 @@
 			"ObaTango"
 		]
 	},
-	"betafeatures-auto-enroll": "Automáticamente aktivá mayoria funshon beta",
+	"betafeatures-auto-enroll": "Automátikamente aktivá mayoria funshon bèta",
 	"betafeatures-auto-enroll-help": "Algun funshon bèta por tin kambionan sorprendente, i pues {{GENDER:|bo}} mester opta pa suichnan manualmente.",
 	"betafeatures-desc": "Ta laga usadó suich entre funshonnan riba wiki ku ainda ta den desaroyo.",
-	"betafeatures-extension-type": "Funshonnan beta",
+	"betafeatures-extension-type": "Funshon beta",
 	"betafeatures-section-desc": "Aki {{PLURAL:$1|tin un funshon nobo|tin algun funshon nobo}} tabata konsidera pa {{SITENAME}}. Por fabor {{PLURAL:$1|purb'e|purbanan}} i duna bo opinion, pa por  {{PLURAL:$1|mehor'é|mehoranan}} basa riba bo fitbèk.",
 	"betafeatures-toplink": "Bèta",
 	"betafeatures-feature-autoenrolled": "Funshon outomátikamente isuich",
@@ -19,7 +19,7 @@
 	"mw-ui-feature-requirements-javascript": "E funshon ta rekerí JavaScript.",
 	"mw-ui-feature-requirements-skins": "E funshon aki ta funshoná solamente ku {{PLURAL:$1| e siguiente diseño di aparensia|e siguiente diseñonan di aparensia}}:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|Un usadó ta usa|$1 usadó ta usa|0=Ningun usadó ta usa}} e funshon aki.",
-	"prefs-betafeatures": "Funshonnan bèta",
+	"prefs-betafeatures": "Funshon bèta",
 	"prefs-description-betafeatures": "Purba e lastu funshonnan den desaroyo i duna bo fitbèk.",
-	"tooltip-pt-betafeatures": "Funshonnan bèta"
+	"tooltip-pt-betafeatures": "Funshon bèta"
 }
