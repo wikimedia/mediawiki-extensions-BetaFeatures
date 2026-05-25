@@ -1,14 +1,17 @@
 {
 	"@metadata": {
 		"authors": [
-			"Abshirdheere"
+			"Abshirdheere",
+			"AhmedG612"
 		]
 	},
-	"betafeatures-auto-enroll": "Hawlgalinta dhammaan hab shaqaynada tijaabada cusub si iskeed ah",
+	"betafeatures-auto-enroll": "Si toos ah u shid inta badan astaamaha beta",
+	"betafeatures-auto-enroll-help": "Qaar ka mid ah astaamaha beta waxay keeni karaan isbeddello lama filaan ah, sidaas darteed {{GENDER:|waa inaad}} si gacanta ah ugu biirtaa.",
 	"betafeatures-desc": "Waxaa isticmaalaha loo ogolyahay in uu ka shaqaysiiyo ama uu hawlgab ka dhigo hab shaqaynta aan diyaarka ahayn ee shaqaysiisa wikiga",
 	"betafeatures-extension-type": "Hab shaqayn tijaabo",
 	"betafeatures-section-desc": "Halkani {{PLURAL:$1|waa dhaqan-gelinta cusub|waa dhaqan-gelinnada cusub}} waxaa lagu qorsheeyaa ku darista {{SITENAME}}. Fadlan {{PLURAL:$1|tijaabi|tijaabiya}} kadib nagu soo kordhi aaraadaada, si ay noogu suurto gasho {{PLURAL:$1|hagaajinta|hagaajinteeda}} hadba heerka faallooyinkiina.",
 	"betafeatures-toplink": "Beta",
+	"betafeatures-feature-autoenrolled": "Astaamo si toos ah laguugu daray",
 	"mw-ui-feature-discuss": "Wadahadal",
 	"mw-ui-feature-info": "Macluumaad",
 	"mw-ui-feature-requirements-betafeatures": "Hab shaqayntaan {{PLURAL:$1|hab shaqayn|hab shaqayno}} waxay u baahantahay in laga shaqaysiiyo:",
@@ -16,6 +19,7 @@
 	"mw-ui-feature-requirements-javascript": "Hab shaqayntaan waxay u baahantahay JavaScript.",
 	"mw-ui-feature-requirements-skins": "Hab shaqayntaan waxa ay ku shaqaysaa oo kaliya {{PLURAL:$1|qaabkaan|qaababkaan}} soo socda:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|Hal isticmaale ayaa|$1 isticmaale yaal ayaa|0=malahan isticmaale}} sameeyay hab shaqayntaan.",
-	"prefs-betafeatures": "Hab shaqayn tijaabo",
+	"prefs-betafeatures": "Astaamaha beta",
+	"prefs-description-betafeatures": "Isku day astaamaha ugu dambeeyay ee socda oo sii jawaab celin.",
 	"tooltip-pt-betafeatures": "Tijaabin Beta"
 }
