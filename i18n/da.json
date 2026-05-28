@@ -4,14 +4,17 @@
 			"Christian List",
 			"Macofe",
 			"Saederup92",
+			"Steenth",
 			"Thomsen"
 		]
 	},
 	"betafeatures-auto-enroll": "Aktivér automatisk de fleste betafunktioner",
+	"betafeatures-auto-enroll-help": "Nogle betafunktioner kan have uventet ændringer, og derfor skal du tilmelde dig manuelt.",
 	"betafeatures-desc": "Lader brugeren aktivere eller deaktivere funktioner på wikien, der stadig ikke er helt færdige",
 	"betafeatures-extension-type": "Betafunktioner",
 	"betafeatures-section-desc": "Her er {{PLURAL:$1|en ny funktion|nogle nye funktioner}} vi overvejer til {{SITENAME}}. Prøv {{PLURAL:$1|den|dem}} og lad os vide hvad du tænker om {{PLURAL:$1|den|dem}}, så vi kan forbedre {{PLURAL:$1|den|dem}} baseret på din tilbagemelding.",
 	"betafeatures-toplink": "Beta",
+	"betafeatures-feature-autoenrolled": "Slået på automatisk",
 	"mw-ui-feature-discuss": "Diskussion",
 	"mw-ui-feature-info": "Information",
 	"mw-ui-feature-requirements-betafeatures": "Denne funktion kræver, at følgende {{PLURAL:$1|funktion|funktioner}} er aktiveret:",
@@ -20,5 +23,6 @@
 	"mw-ui-feature-requirements-skins": "Denne funktion virker kun med {{PLURAL:$1|det følgende udseende|de følgende udseender}}:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|Én bruger|$1 brugere|0=Ingen brugere}} prøver denne funktion.",
 	"prefs-betafeatures": "Betafunktioner",
+	"prefs-description-betafeatures": "Prøv de nyeste funktioner, der er under udvikling, og giv tilbagemelding.",
 	"tooltip-pt-betafeatures": "Betafunktioner"
 }
