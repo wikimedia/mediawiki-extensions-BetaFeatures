@@ -123,6 +123,11 @@ class Hooks implements
 			return;
 		}
 
+		if ( !$modifiedOptions ) {
+			// Nothing was modified, no beta feature counts to update.
+			return;
+		}
+
 		$betaFeatures = $this->config->get( 'BetaFeatures' );
 		$user = $this->userFactory->newFromUserIdentity( $user );
 		( new HookRunner( $this->hookContainer ) )->onGetBetaFeaturePreferences( $user, $betaFeatures );
