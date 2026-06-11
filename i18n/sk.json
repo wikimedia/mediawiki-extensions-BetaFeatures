@@ -4,10 +4,11 @@
 			"KuboF",
 			"Luky001",
 			"Macofe",
-			"Sudo77(new)"
+			"Sudo77(new)",
+			"Wizzard"
 		]
 	},
-	"betafeatures-auto-enroll": "Automaticky zapnúť všetky nové beta funkcie",
+	"betafeatures-auto-enroll": "Automaticky zapnúť väčšinu beta funkcií",
 	"betafeatures-auto-enroll-help": "Zmeny niektorých funkcií v beta verzii môžu byť prekvapivé, takže si ich musíte zapnúť ručne.",
 	"betafeatures-desc": "Dovoľuje redaktorovi povoliť alebo zakázať funkcie, ktoré ešte nie sú úplne vyladené.",
 	"betafeatures-extension-type": "Beta funkcie",
