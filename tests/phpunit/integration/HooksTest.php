@@ -44,7 +44,7 @@ class HooksTest extends BetaFeaturesDatabaseTestCase {
 		$skinTemplate->method( 'getUser' )
 			->willReturn( $this->getServiceContainer()->getUserFactory()->newFromUserIdentity( $userIdentity ) );
 		$skinTemplate->method( 'getTitle' )
-			->willReturn( Title::newFromText( 'Test' ) );
+			->willReturn( Title::makeTitle( NS_MAIN, 'Test' ) );
 		// Call the hook handler we are testing
 		$this->newBFHooks()->onSkinTemplateNavigation__Universal( $skinTemplate, $links );
 		// Verify that that the $links array is as expected after the call
