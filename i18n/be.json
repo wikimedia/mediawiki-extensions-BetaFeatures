@@ -7,10 +7,11 @@
 			"Mikalai Udodau",
 			"No Sleep till Krupki",
 			"Tomato Cream",
+			"Ucukor",
 			"ZlyiLev"
 		]
 	},
-	"betafeatures-auto-enroll": "Аўтаматычна задзейнічаць большасць бэта-магчымасцяў",
+	"betafeatures-auto-enroll": "Аўтаматычна ўвамкнуць большасць бэта-магчымасцяў",
 	"betafeatures-auto-enroll-help": "Некаторыя бэта-магчымасці могуць рабіць нечаканыя змены, таму {{GENDER:|вы}} павінны ўключаць іх уручную.",
 	"betafeatures-desc": "Дазваляе карыстальніку ўключаць ці адключаць функцыі, якія яшчэ цалкам не дапрацаваныя",
 	"betafeatures-extension-type": "Бэта-магчымасці",
