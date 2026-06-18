@@ -16,7 +16,7 @@
 	"betafeatures-auto-enroll": "Automatisch de meeste bètafuncties inschakelen",
 	"betafeatures-auto-enroll-help": "Sommige bètafuncties kunnen verrassende wijzigingen maken en moeten daarom handmatig worden ingeschakeld.",
 	"betafeatures-desc": "Laat de gebruiker functies die in ontwikkeling zijn in- of uitschakelen",
-	"betafeatures-extension-type": "Betafuncties",
+	"betafeatures-extension-type": "Bètafuncties",
 	"betafeatures-section-desc": "Hier {{PLURAL:$1|is een nieuwe functie|zijn enkele nieuwe functies}} die we overwegen voor {{SITENAME}}. Probeer {{PLURAL:$1|deze|ze}} uit en laat ons weten wat u ervan vindt, zodat wij {{PLURAL:$1|de functie|ze}} kunnen verbeteren.",
 	"betafeatures-toplink": "Bèta",
 	"betafeatures-feature-autoenrolled": "Automatisch ingeschakelde functie",
@@ -29,5 +29,5 @@
 	"mw-ui-feature-user-count": "{{PLURAL:$1|Eén persoon gebruikt|$1 mensen gebruiken|0=Niemand gebruikt}} deze functie.",
 	"prefs-betafeatures": "Bètafuncties",
 	"prefs-description-betafeatures": "Probeer de nieuwste in ontwikkeling zijnde functies uit en geef terugkoppeling.",
-	"tooltip-pt-betafeatures": "Betafuncties"
+	"tooltip-pt-betafeatures": "Bètafuncties"
 }
