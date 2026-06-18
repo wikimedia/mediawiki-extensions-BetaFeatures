@@ -125,6 +125,11 @@ $specialPageAliases['pt-br'] = [
 	'BetaFeatures' => [ 'Recursos_beta' ],
 ];
 
+/** Russian (русский) */
+$specialPageAliases['ru'] = [
+	'BetaFeatures' => [ 'Бета-функции' ],
+];
+
 /** Serbian Cyrillic (српски (ћирилица)) */
 $specialPageAliases['sr-ec'] = [
 	'BetaFeatures' => [ 'Бета_функције', 'БетаФункције' ],
