@@ -14,6 +14,7 @@
 	"betafeatures-extension-type": "Beta funkcie",
 	"betafeatures-section-desc": "Tu {{PLURAL:$1|je nová funkcia, ktorú|sú nové funkcie, ktoré}} zvažujeme použiť na {{grammar:lokál|{{SITENAME}}}}. Vyskúšajte {{PLURAL:$1|ju|ich}} a dajte nám vedieť, aby sme {{PLURAL:$1|ju|ich}} na základe vašich názorov mohli vylepšovať.",
 	"betafeatures-toplink": "Beta",
+	"betafeatures-feature-autoenrolled": "Automaticky zaradená funkcia",
 	"mw-ui-feature-discuss": "Diskusia",
 	"mw-ui-feature-info": "Informácie",
 	"mw-ui-feature-requirements-betafeatures": "Táto funkcia vyžaduje zapnutie {{PLURAL:$1|funkcie|funkcií}}:",
