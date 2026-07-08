@@ -49,6 +49,7 @@ use MediaWiki\User\User;
 use MediaWiki\User\UserFactory;
 use MediaWiki\User\UserIdentity;
 use MediaWiki\User\UserIdentityUtils;
+use Wikimedia\ArrayUtils\ArrayUtils;
 use Wikimedia\Rdbms\IConnectionProvider;
 
 class Hooks implements
@@ -408,7 +409,7 @@ class Hooks implements
 		$user = $skintemplate->getUser();
 		if ( $user->isNamed() ) {
 			$personalUrls = $links['user-menu'] ?? [];
-			$personalUrls = wfArrayInsertAfter( $personalUrls, [
+			$personalUrls = ArrayUtils::insertAfter( $personalUrls, [
 				// The following messages are generated upstream
 				// * tooltip-pt-betafeatures
 				'betafeatures' => [
