@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Robby"
+			"Robby",
+			"Volvox"
 		]
 	},
+	"apihelp-query+betafeatures-summary": "Lëscht all d'Beta-Funktiounen op",
 	"apihelp-query+betafeatures-example-1": "All disponibel Beta-Funktioune kréien a weise wéi vill Benotzer se aktivéiert hunn",
 	"apihelp-query+betafeatures-param-counts": "Ob ugefrot gi soll wéi vill Benotzer eng bestëmmten Astellung aktivéiert hunn."
 }
