@@ -5,7 +5,8 @@
 			"Macofe",
 			"Misibacsi",
 			"Tacsipacsi",
-			"Tgr"
+			"Tgr",
+			"Dj"
 		]
 	},
 	"betafeatures-auto-enroll": "Automatikusan kapcsoljon be a legtöbb új béta funkció",
@@ -23,5 +24,6 @@
 	"mw-ui-feature-requirements-skins": "Csak {{PLURAL:$1|ezzel a felülettel|ezekkel a felületekkel}} működik:",
 	"mw-ui-feature-user-count": "{{PLURAL:$1|Egy felhasználó|$1 felhasználó|0=Még senki sem}} használja ezt a funkciót.",
 	"prefs-betafeatures": "Béta funkciók",
+	"prefs-description-betafeatures": "Próbáld ki a legújabb, fejlesztés alatt álló funkciókat, és küldj visszajelzést.",
 	"tooltip-pt-betafeatures": "Béta funkciók"
 }
