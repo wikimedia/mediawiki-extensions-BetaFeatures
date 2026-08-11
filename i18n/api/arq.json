@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bachounda"
+		]
+	},
+	"apihelp-query+betafeatures-summary": "عرض كل المزايا التجريبية",
+	"apihelp-query+betafeatures-example-1": "جيب جميع الميزات التجريبية المتاحة واعرض شحال من مستخدم فعّلها.",
+	"apihelp-query+betafeatures-param-counts": "ما إذا كنجيب عدد المستخدمين اللي فعّلوا تفضيل معين."
+}

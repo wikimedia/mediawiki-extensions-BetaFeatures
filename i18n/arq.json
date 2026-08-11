@@ -1,9 +1,25 @@
 {
 	"@metadata": {
 		"authors": [
-			"Oldstoneage"
+			"Oldstoneage",
+			"Bachounda"
 		]
 	},
+	"betafeatures-auto-enroll": "فعّل معظم الميزات التجريبيه أوتوماتيكيّا",
+	"betafeatures-auto-enroll-help": "بعض الميزات التجريبية يمكن تجيب تغييرات مفاجئة، وعليه لازم {{GENDER:|تختارها}} يدوياً.",
+	"betafeatures-desc": "تسمح للمستخدم يفعل أو يعطل ميزات في الويكي مازالو مش جاهزين للاستعمال العام.",
+	"betafeatures-extension-type": "ميزات تجريبية",
+	"betafeatures-section-desc": "هنا {{PLURAL:$1|ميزة جديدة|بعض الميزات الجديدة}} اللي كنديرو فيها في {{SITENAME}}. من فضلك جرب {{PLURAL:$1|ها|هم}} واعطينا رأيك، باش نطورو {{PLURAL:$1|ها|هم}} على أساس ملاحظاتك.",
 	"betafeatures-toplink": "بيطا",
+	"betafeatures-feature-autoenrolled": "ميزة التسجيل التلقائي (التفعيل التلقائي)",
+	"mw-ui-feature-discuss": "تناقش",
+	"mw-ui-feature-info": "معلومات",
+	"mw-ui-feature-requirements-betafeatures": "هاد الميزة تتطلب تفعيل {{PLURAL:$1|الميزة التالية|الميزات التالية}}:",
+	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|المتصفح التالي غير مدعوم|المتصفحات التالية غير مدعومة}}:",
+	"mw-ui-feature-requirements-javascript": "هاد الميزة تتطلب جافاسكريبت.",
+	"mw-ui-feature-requirements-skins": "هاد الميزة تخدم فقط مع {{PLURAL:$1|التصميم التالي|التصاميم التالية}}:",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|مستخدم واحد كيجرب|$1 مستخدمين كيجربو|0=ماكاينش مستخدمين كيجربو}} هاد الميزة.",
+	"prefs-betafeatures": "ميزات تجريبية",
+	"prefs-description-betafeatures": "جرب آخر الميزات اللي لسا في طور التطوير واعطينا رأيك.",
 	"tooltip-pt-betafeatures": "شي مصاوبات بيطا (مازالت تتجرّب)"
 }
