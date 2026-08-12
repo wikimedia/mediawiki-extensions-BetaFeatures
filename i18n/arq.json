@@ -10,7 +10,7 @@
 	"betafeatures-desc": "تسمح للمستخدم يفعل أو يعطل ميزات في الويكي مازالو مش جاهزين للاستعمال العام.",
 	"betafeatures-extension-type": "ميزات تجريبية",
 	"betafeatures-section-desc": "هنا {{PLURAL:$1|ميزة جديدة|بعض الميزات الجديدة}} اللي كنديرو فيها في {{SITENAME}}. من فضلك جرب {{PLURAL:$1|ها|هم}} واعطينا رأيك، باش نطورو {{PLURAL:$1|ها|هم}} على أساس ملاحظاتك.",
-	"betafeatures-toplink": "بيطا",
+	"betafeatures-toplink": "تجريبي",
 	"betafeatures-feature-autoenrolled": "ميزة التسجيل التلقائي (التفعيل التلقائي)",
 	"mw-ui-feature-discuss": "تناقش",
 	"mw-ui-feature-info": "معلومات",
