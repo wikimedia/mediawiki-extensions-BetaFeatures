@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"apihelp-query+betafeatures-summary": "Vypísať všetky funkcie BetaFeatures",
+	"apihelp-query+betafeatures-example-1": "Získať všetky dostupné beta funkcie a zobraziť, koľko používateľov ich má zapnutých",
+	"apihelp-query+betafeatures-param-counts": "Či sa má získať počet používateľov, ktorí majú danú predvoľbu zapnutú."
+}
