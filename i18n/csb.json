@@ -2,15 +2,16 @@
 	"@metadata": {
 		"authors": [
 			"Kaszeba",
-			"Kirsan"
+			"Kirsan",
+			"Orbitminis"
 		]
 	},
-	"betafeatures-auto-enroll": "Automatno aktiwùjë wszëtczé nowé fùnkcëje beta",
+	"betafeatures-auto-enroll": "Samòczinno aktiwùjë wikszosc doswiôdczalnëch fùnkcji",
 	"betafeatures-desc": "Zezwôlô brëkòwnikòm właczac ë wëłączac funkcëje, chtërné nie sã jesz do kùńca fardich",
 	"betafeatures-extension-type": "Fùnkcëje beta",
 	"betafeatures-toplink": "Beta",
 	"mw-ui-feature-discuss": "Diskùsëjô",
 	"mw-ui-feature-info": "Wëdowiédzô",
-	"prefs-betafeatures": "Fùnkcëje beta",
+	"prefs-betafeatures": "Doswiôdczalné fùnkcje",
 	"tooltip-pt-betafeatures": "Fùnkcëje beta"
 }
