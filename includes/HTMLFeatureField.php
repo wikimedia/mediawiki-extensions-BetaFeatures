@@ -30,6 +30,7 @@ use MediaWiki\HTMLForm\Field\HTMLCheckField;
 use MediaWiki\HTMLForm\HTMLFormFieldLayout;
 use OOUI\CheckboxInputWidget;
 use OOUI\IconWidget;
+use Skin;
 
 class HTMLFeatureField extends HTMLCheckField {
 	/**
@@ -112,7 +113,7 @@ class HTMLFeatureField extends HTMLCheckField {
 		if ( $infoLink !== null ) {
 			$out->addModuleStyles( 'oojs-ui.styles.icons-content' );
 			$html .= Html::rawElement( 'a', [
-					'href' => $infoLink,
+					'href' => Skin::makeInternalOrExternalUrl( $infoLink ),
 					'class' => 'mw-ui-feature-info-link',
 				],
 				new IconWidget( [ 'icon' => 'article' ] ) .
@@ -124,7 +125,7 @@ class HTMLFeatureField extends HTMLCheckField {
 		if ( $discussionLink !== null ) {
 			$out->addModuleStyles( 'oojs-ui.styles.icons-alerts' );
 			$html .= Html::rawElement( 'a', [
-					'href' => $discussionLink,
+					'href' => Skin::makeInternalOrExternalUrl( $discussionLink ),
 					'class' => 'mw-ui-feature-discussion-link',
 				],
 				new IconWidget( [ 'icon' => 'speechBubbles' ] ) .
