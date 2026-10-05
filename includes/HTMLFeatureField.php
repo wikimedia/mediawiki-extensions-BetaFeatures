@@ -28,6 +28,7 @@ namespace MediaWiki\Extension\BetaFeatures;
 use MediaWiki\Html\Html;
 use MediaWiki\HTMLForm\Field\HTMLCheckField;
 use MediaWiki\HTMLForm\HTMLFormFieldLayout;
+use MediaWiki\Skin\Skin;
 use OOUI\CheckboxInputWidget;
 use OOUI\IconWidget;
 
@@ -97,7 +98,7 @@ class HTMLFeatureField extends HTMLCheckField {
 		if ( $infoLink !== null ) {
 			$out->addModuleStyles( 'oojs-ui.styles.icons-content' );
 			$infoLinksHtml .= Html::rawElement( 'a', [
-					'href' => $infoLink,
+					'href' => Skin::makeInternalOrExternalUrl( $infoLink ),
 					'class' => 'mw-ui-feature-info-link',
 				],
 				new IconWidget( [
@@ -114,7 +115,7 @@ class HTMLFeatureField extends HTMLCheckField {
 				$infoLinksHtml .= ' ';
 			}
 			$infoLinksHtml .= Html::rawElement( 'a', [
-					'href' => $discussionLink,
+					'href' => Skin::makeInternalOrExternalUrl( $discussionLink ),
 					'class' => 'mw-ui-feature-discussion-link',
 				],
 				new IconWidget( [
