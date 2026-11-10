@@ -56,10 +56,21 @@ class PreferenceHandlingTest extends BetaFeaturesDatabaseTestCase {
 		];
 		$validPrefPostHook += $validPref;
 
+		$exemptPref = $validPref + [ 'exempt-from-auto-enrollment' => true ];
+		$exemptPrefPostHook = [
+			'class' => HTMLFeatureField::class,
+			'section' => 'betafeatures',
+		] + $validPref;
+
 		return [
 			[ 'Invalid preference should cause an error', $invalidPref, null ],
 			[
 				'Totally valid preference should get set accurately', $validPref, $validPrefPostHook
+			],
+			[
+				'Preference exempt from auto-enrollment should not be disabled by auto-enroll',
+				$exemptPref,
+				$exemptPrefPostHook
 			],
 		];
 	}

@@ -235,11 +235,16 @@ class Hooks implements
 				continue;
 			}
 
+			$exemptAutoEnroll = ( $info['exempt-from-auto-enrollment'] ?? false )
+				|| ( $info['disabled'] ?? false );
+
 			$opt = [
 				'class' => HTMLFeatureField::class,
 				'section' => 'betafeatures',
-				'disable-if' => [ '===', 'betafeatures-auto-enroll', '1' ],
 			];
+			if ( !$exemptAutoEnroll ) {
+				$opt['disable-if'] = [ '===', 'betafeatures-auto-enroll', '1' ];
+			}
 
 			$requiredFields = [
 				'label-message' => true,
@@ -282,8 +287,6 @@ class Hooks implements
 					->getBoolOption( $user, $autoEnroll[$info['group']] );
 			}
 
-			$exemptAutoEnroll = ( $info['exempt-from-auto-enrollment'] ?? false )
-				|| ( $info['disabled'] ?? false );
 			$autoEnrollHere = !$exemptAutoEnroll && ( $autoEnrollAll || $autoEnrollForThisPref );
 
 			// Use raw value for existence test
